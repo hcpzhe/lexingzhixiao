@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>会员图谱</title>
+    
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+    
+    <style type="text/css">
+        a{ color:Blue; }
+        a:hover{ color:#000;}
+        .divList{ width:960px; }
+        .danyuan{ width:110px; line-height:18px; text-align:center; }
+        .danyuan a{ color:#000;}
+        .danyuan a:hover{ color:#333;}
+        .danyuan table{ width:100%; text-align:center; }
+        .danyuan td{ line-height:12px; }
+    </style>
+</head>
+<body>
+        	<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+            	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+                	会员图谱
+                </div>
+            </div>
+            
+    <div style=" margin:10px 0 10px 10px;">
+        <form action="__ACTION__" method="get">
+            会员编号<input name="account" id="account" type="text" class="text" value=""> 
+            <input type="submit" value="搜 索" class="btnsearch">
+        </form>
+    </div>
+
+    <div style="width:960px; text-align:center; color:Red; margin-bottom:5px;">
+        
+    </div>
+    <div class="divList">
+        <div style="border:1px solid #CCC; margin:0 auto; width:110px;">
+            <div class="danyuan" style="background:#ccc;">
+                <div class="danyuan">{$member_list['level']} 级<br>{$member_list['account']}</div>
+            </div>
+            <div class="danyuan" style="height:72px;line-height:30px;">
+				直推：{$member_list['son_nums']}<br />
+				体系：{$member_list['area_nums']}
+            </div>
+        </div>
+    </div>
+        <div style="width:480px; height:21px; margin:0 auto;">
+            <div style="width:0px; height:10px; border-left:1px solid #666; margin:0 auto;"></div>
+            <div style="width:480px; height:0px; overflow:hidden; border-top:1px solid #666;"></div>
+            <div style="width:478px; height:10px; border-left:1px solid #666; border-right:1px solid #666;"></div>
+        </div>
+    <div class="divList">
+            <div style="width:480px; float:left;">
+                {:boxdiv($member_list,'A')}
+                <!-- <notempty name="member_list['A']"> -->
+                        <div style="width:240px; height:21px; margin:0 auto;">
+                            <div style="width:0px; height:10px; border-left:1px solid #666; margin:0 auto;"></div>
+                            <div style="width:240px; height:0px;overflow:hidden; border-top:1px solid #666;"></div>
+                            <div style="width:238px; height:10px; border-left:1px solid #666; border-right:1px solid #666;"></div>
+                        </div>
+                 <!-- </notempty> -->
+            </div>
+            <div style="width:480px; float:left;">
+                {:boxdiv($member_list,'B')}
+                <!-- <notempty name="member_list['B']"> -->
+                        <div style="width:240px; height:21px; margin:0 auto;">
+                            <div style="width:0px; height:10px; border-left:1px solid #666; margin:0 auto;"></div>
+                            <div style="width:240px; height:0px;overflow:hidden; border-top:1px solid #666;"></div>
+                            <div style="width:238px; height:10px; border-left:1px solid #666; border-right:1px solid #666;"></div>
+                        </div>
+                 <!-- </notempty> -->
+            </div>
+        <div style="clear:both;"></div>
+    </div>
+        
+    <div class="divList">
+            <div style="width:240px; float:left;">
+                {:boxdiv($member_list['A'],'A')}
+                <!-- <notempty name="member_list['A']['A']"> -->
+                        <div style="width:120px; height:21px; margin:0 auto;">
+                            <div style="width:0px; height:10px; border-left:1px solid #666; margin:0 auto;"></div>
+                            <div style="width:120px; height:0px;overflow:hidden; border-top:1px solid #666;"></div>
+                            <div style="width:118px; height:10px; border-left:1px solid #666; border-right:1px solid #666;"></div>
+                        </div>
+                 <!-- </notempty> -->
+            </div>
+            <div style="width:240px; float:left;">
+                {:boxdiv($member_list['A'],'B')}
+                <!-- <notempty name="member_list['A']['B']"> -->
+                        <div style="width:120px; height:21px; margin:0 auto;">
+                            <div style="width:0px; height:10px; border-left:1px solid #666; margin:0 auto;"></div>
+                            <div style="width:120px; height:0px;overflow:hidden; border-top:1px solid #666;"></div>
+                            <div style="width:118px; height:10px; border-left:1px solid #666; border-right:1px solid #666;"></div>
+                        </div>
+                 <!-- </notempty> -->
+            </div>
+            <div style="width:240px; float:left;">
+                {:boxdiv($member_list['B'],'A')}
+                <!-- <notempty name="member_list['B']['A']"> -->
+                        <div style="width:120px; height:21px; margin:0 auto;">
+                            <div style="width:0px; height:10px; border-left:1px solid #666; margin:0 auto;"></div>
+                            <div style="width:120px; height:0px;overflow:hidden; border-top:1px solid #666;"></div>
+                            <div style="width:118px; height:10px; border-left:1px solid #666; border-right:1px solid #666;"></div>
+                        </div>
+                 <!-- </notempty> -->
+            </div>
+            <div style="width:240px; float:left;">
+                {:boxdiv($member_list['B'],'B')}
+                <!-- <notempty name="member_list['B']['B']"> -->
+                        <div style="width:120px; height:21px; margin:0 auto;">
+                            <div style="width:0px; height:10px; border-left:1px solid #666; margin:0 auto;"></div>
+                            <div style="width:120px; height:0px;overflow:hidden; border-top:1px solid #666;"></div>
+                            <div style="width:118px; height:10px; border-left:1px solid #666; border-right:1px solid #666;"></div>
+                        </div>
+                 <!-- </notempty> -->
+            </div>
+        <div style="clear:both;"></div>
+    </div>
+        
+    <div class="divList">
+            <div style="width:120px; float:left;">
+                {:boxdiv($member_list['A']['A'],'A')}
+            </div>
+            <div style="width:120px; float:left;">
+                {:boxdiv($member_list['A']['A'],'B')}
+            </div>
+            <div style="width:120px; float:left;">
+                {:boxdiv($member_list['A']['B'],'A')}
+            </div>
+            <div style="width:120px; float:left;">
+                {:boxdiv($member_list['A']['B'],'B')}
+            </div>
+            <div style="width:120px; float:left;">
+                {:boxdiv($member_list['B']['A'],'A')}
+            </div>
+            <div style="width:120px; float:left;">
+                {:boxdiv($member_list['B']['A'],'B')}
+            </div>
+            <div style="width:120px; float:left;">
+                {:boxdiv($member_list['B']['B'],'A')}
+            </div>
+            <div style="width:120px; float:left;">
+                {:boxdiv($member_list['B']['B'],'B')}
+            </div>
+    </div>
+
+    <div style="clear:both; height:20px; width:100%;">&nbsp;</div>
+<!-- 
+<php>
+function boxdiv ($list,$area) {
+	if (empty($list)) {
+		$return = '<span>&nbsp;</span>';
+	}elseif (empty($list[$area])) {
+		$return = '
+		<div style="border:1px solid #CCC; margin:0 auto; width:110px;">
+		    <div class="danyuan" style="background:#c00;line-height:30px;">
+		            <a href="'.U('Member/add?pid='.$list['id'].'&paid='.$list['id'].'&ptype='.$area).'">注册</a>
+		    </div>
+		    <div class="danyuan" style=" height:72px;">
+		    </div> 
+		</div>';
+	}else {
+		$return = '
+		<div style="border:1px solid #CCC; margin:0 auto; width:110px;">
+		    <div class="danyuan" style="background:#6fadd1; ">
+		            <div class="danyuan"><a href="'.U('Member/atlas?id='.$list[$area]['id']).'">'.$list[$area]['level'].' 级<br>'.$list[$area]['account'].'</a></div>
+		    </div>
+		    <div class="danyuan" style="height:72px;line-height:30px;">
+		   		 直推：'.$list[$area]['son_nums'].'人<br />
+				体系：'.$list[$area]['area_nums'].'人
+			</div>
+		</div>';
+	}
+	return $return;
+}
+</php>
+ -->
+</body></html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>注册会员</title>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+        	<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+            	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+                	注册会员
+                </div>
+            </div>
+            
+
+<form action="{:U('Member/insert')}" method="post" onsubmit="$(this).RSsubmit({success_alert:true});return false;">
+<table class="table">
+        <tbody>
+        <tr>
+            <td style="width:150px; text-align:right;">
+                <label for="account">会员帐号</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="account" name="account" type="text" value="{$randaccount}"><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="password">登陆密码</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="password" name="password" type="password"><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                确认登陆密码&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="repassword" name="repassword" type="password"><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="pwdtwo">二级密码</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="pwdtwo" name="pwdtwo" type="password"><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                确认二级密码&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="repwdtwo" name="repwdtwo" type="password"><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="parent_account">推荐人</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+            	<input disabled="disabled" id="parent_account" name="parent_account" type="text" value="{$pinfo['account']}"><span class="colorred">*</span>
+                <input id="parent_id" name="parent_id" type="hidden" value="{$pinfo['id']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="parent_area_account">节点</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+            	<input disabled="disabled" id="parent_area_account" name="parent_area_account" type="text" value="{$painfo['account']}"><span class="colorred">*</span>
+                <input id="parent_aid" name="parent_aid" type="hidden" value="{$painfo['id']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="parent_area">节点位置</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+            	{$ptype}
+            	<input id="parent_area" name="parent_area" type="hidden" value="{$ptype}">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                个人信息
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="realname">真实姓名</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="realname" name="realname" type="text" value=""><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="idcard">身份证号</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="idcard" name="idcard" type="text" value=""><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="tel">手机号码</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="tel" name="tel" type="text" value=""><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="address">联系地址</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="address" name="address" type="text" value="">
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2">
+                银行信息
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="bank_name">开户行</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="bank_name" name="bank_name" type="text" value="">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="bank_card">银行卡号</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="bank_card" name="bank_card" type="text" value="">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="bank_account">开户人</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="bank_account" name="bank_account" type="text" value="">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">
+                <label for="bank_address">开户行地址</label>&nbsp;
+            </td>
+            <td style="text-align:left;">&nbsp;
+                <input id="bank_address" name="bank_address" type="text" value="">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value=" 注册 " class="submit">
+            </td>
+        </tr>
+    </tbody></table>
+</form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* CSS Document */
+
+body{ margin:0; padding:0; FONT-FAMILY: 'Î¢ÈíÑÅºÚ',Microsoft YaHei,Verdana, Arial,'ËÎÌå', Tahoma,Simsun, Arial Unicode MS, Mingliu,  Helvetica;}
+body,a,span,td,a{ font-size:12px; }
+body{ background:#c8c8c8; }
+UL {TEXT-ALIGN: left; PADDING: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; }
+LI {TEXT-ALIGN: left; PADDING: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; }
+a{ color:#666666; text-decoration:none; }
+a:hover{ color:#FF0000;  text-decoration:none; }
+img{ border:0; }
+
+.b_b{ border-bottom:1px solid #CCCCCC; }
+.pad10{ padding:10px; }
+.padTop10{ padding-top:10px; }
+.lineH2{ line-height:2; }
+/*--------top----------*/
+.top_banner{ background:#8f0f10 url(top.jpg) no-repeat center top; height:62px; }
+.top_nav{ background:url(nav_bg.gif) repeat-x center top; height:34px; }
+ul.nav{ width:1000px; height:31px; margin:0 auto; }
+ul.nav li{ float:left; }
+ul.nav li a{ display:block; width:83px; height:31px; line-height:31px; color:#FFFFFF; font-weight:bold; font-size:14px; text-align:center; margin-right:10px; }
+ul.nav li a:hover{ background:url(nav_bg_hover.gif) no-repeat;  }
+ul.nav li a.cur{ background:url(nav_bg_hover.gif) no-repeat; }
+/*------main--------*/
+.mt{ border:1px solid #CCCCCC; border-top:none; background-color:#f1f1f1; margin:0 auto; }
+.mt td.sline{ border-right:1px solid #cccccc; padding-top:10px; }
+.mt td.mn{ padding-top:10px; padding-left:10px; padding-right:10px; }
+
+.l_c1_title{ border-bottom:1px solid #cccccc; height:30px; line-height:30px; text-align:left; padding-left:10px; color:#910000; font-weight:bold; font-size:13px; }
+.l_c1_item{ border-bottom:1px solid #cccccc; height:30px; line-height:30px; text-align:left; padding-left:10px; color:#666666; }
+
+.l_c2_title{ background:url(clmn_03.gif) no-repeat; height:29px; line-height:29px; text-align:left; padding-left:10px; color:#910000; font-weight:bold; font-size:13px; }
+.l_c2_mn{ background:url(clmn_05.gif) repeat-y; }
+.l_c2_mn a{  margin:8px 0;display:block; width:140px; height:24px; background:url(red_bg.jpg) no-repeat; line-height:24px; color:#FFFFFF; font-size:13px; }
+.l_c2_mn a:hover{ text-decoration:underline; }
+.l_c2_btm{ background:url(clmn_07.gif) no-repeat; height:3px; }
+
+.r_c1_title{ background:url(t_bg.jpg) repeat-x; height:26px; line-height:26px; text-align:left; padding-left:10px; color:#910000; font-weight:bold; font-size:13px; }
+.r_c1_item{ height:24px; line-height:24px; text-align:left; }

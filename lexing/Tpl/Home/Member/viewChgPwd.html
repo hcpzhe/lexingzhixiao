@@ -1,0 +1,153 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>修改密码</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js">
+</script><script type="text/javascript" src="__PUBLIC__/js/RSsubmit.js"></script>
+</head>
+<body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td class="r_c1_title">修改密码</td>
+      </tr>
+      <tr height="30">
+        <td></td>
+      </tr>
+      <tr>
+        <td align="center">
+          <form action="{:U('Member/changePwd')}" method="post" name="form1" id="form1" onSubmit="return checkfrm1(this);">
+            <input name="i" type="hidden" value="1">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="btab">
+                <tbody>
+                  <tr>
+                    <td align="center" colspan="2">修改登录密码</td>
+                  </tr>
+                  <tr>
+                    <td width="30%" height="30" align="right">原登录密码：</td>
+                    <td width="70%" align="left">
+                      <input name="opwd1" type="password" id="opwd1">
+                      <span style="color:#FF0000">*</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="30" align="right">新登录密码：</td>
+                    <td align="left">
+                      <input name="pwd1" type="password" id="pwd1">
+                      <span style="color:#FF0000">*</span> 不做修改，请不要输入任何内容</td>
+                    </tr>
+                    <tr>
+                      <td height="30" align="right">再次输入：</td>
+                      <td align="left">
+                        <input name="pwd1c" type="password" id="pwd1c">
+                        <span style="color:#FF0000">*</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="30" align="right">&nbsp;</td>
+                      <td align="left">
+                        <input type="submit" name="Submit" value="确认修改">
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <form action="{:U('Member/changePwdtwo')}" method="post" name="form2" id="form2" onSubmit="return checkfrm2(this);">
+                <input name="i" type="hidden" value="2">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="btab">
+                    <tbody>
+	                  <tr>
+	                    <td align="center" colspan="2">修改二级密码</td>
+	                  </tr>
+                      <tr>
+                        <td width="30%" height="30" align="right">原二级密码：</td>
+                        <td width="70%" align="left">
+                          <input name="opwd2" type="password" id="opwd2">
+                          <span style="color:#FF0000">*</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="30" align="right">新二级密码：</td>
+                        <td align="left">
+                          <input name="pwd2" type="password" id="pwd2">
+                          <span style="color:#FF0000">*</span> 不做修改，请不要输入任何内容
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="30" align="right">再次输入：</td>
+                        <td align="left">
+                          <input name="pwd2c" type="password" id="pwd2c">
+                          <span style="color:#FF0000">*</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="30" align="right">&nbsp;</td>
+                        <td align="left">
+                          <input type="submit" name="Submit" value="确认修改">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+<script language="JavaScript" type="text/javascript">function checkfrm1(afrm)
+{
+	if(!/^\w{4,}$/i.test(afrm.opwd1.value))
+	{
+		alert("原登录密码无效");
+		afrm.opwd1.focus();
+		return false;
+	}
+	
+	if( (afrm.pwd1.value != "") && (!/^\w{4,}$/i.test(afrm.pwd1.value)) )
+	{
+		alert("登录密码无效");
+		afrm.pwd1.focus();
+		return false;
+	}
+	if( (afrm.pwd1.value != "") &&  (afrm.pwd1c.value != afrm.pwd1.value) )
+	{
+		alert("登录密码确认有误！");
+		afrm.pwd1c.focus();
+		return false;
+	}
+	$(afrm).RSsubmit({success_alert:true, reload:true});
+	return false;
+}
+
+function checkfrm2(afrm)
+{
+	
+	if(!/^\w{4,}$/i.test(afrm.opwd2.value))
+	{
+		alert("原取款密码无效");
+		afrm.opwd2.focus();
+		return false;
+	}
+	if( (afrm.pwd2.value != "") &&  (!/^\w{4,}$/i.test(afrm.pwd2.value)) )
+	{
+		alert("取款密码无效");
+		afrm.pwd2.focus();
+		return false;
+	}
+	if(  (afrm.pwd2.value != "") && (afrm.pwd2c.value != afrm.pwd2.value) )
+	{
+		alert("取款密码确认有误！");
+		afrm.pwd2c.focus();
+		return false;
+	}
+
+	$(afrm).RSsubmit({success_alert:true, reload:true});
+	return false;
+}
+</script>
+</body>
+</html>

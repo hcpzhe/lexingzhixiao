@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{$category}列表</title>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<script>
+$(function ($) {
+	$(".bat_a_handle").click(function(){
+		$(this).RSsubmit({success_alert:true,reload:true});
+		return false;
+	});
+});
+</script>
+<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+            	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+                	{$category}列表
+                </div>
+            </div>
+            
+<div style=" margin:10px 0 10px 10px;">
+    
+</div>
+<table class="table">
+<!-- 
+    <thead>
+        <tr>
+            <th>会员</th>
+            <th>推荐人</th>
+            <th>节点人</th>
+            <th>节点位置</th>
+            <th>会员级别</th>
+            <th>积分余额</th>
+            <th>注册时间</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+-->
+    <tbody>
+    <!-- <foreach name="list" item="row"> -->
+    	<tr>
+    		<td width="4%" align="center">
+    			<img src="__PUBLIC__/images/list_pref1.gif" width="9" height="9">
+    		</td>
+    		<td width="64%">
+    			<a href="{:U('Article/read?id='.$row['id'])}" target="main">{$row['title']}</a></td>
+    		<td width="22%">{:date('Y/m/d H:i',$row['update_time'])}</td>
+    		<td width="10%"><a class="bat_a_handle" href="{:U('Article/fdelete?id='.$row['id'])}">删除</a></td>
+    	</tr>
+    <!-- </foreach> -->
+    
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="8">
+                {$_page}
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<div style="clear:both;"></div>
+
+</body>
+</html>

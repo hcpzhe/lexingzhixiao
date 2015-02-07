@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>会员图谱</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/RSsubmit.js"></script>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+      <tr>
+        <td class="r_c1_title">市场图谱</td>
+      </tr>
+  
+      <tr>
+        <td align="center">
+		<!-- start -->
+		
+		<table width="98%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td align="left" style="line-height:2; padding-top:10px;"> ◆点击节点上方的 编号 可以看到该编号会员的下属. <br>
+              ◆其中<span style="color:#144388">蓝色</span>为正常会员；
+              <span style="color:#999999">灰色背景</span>的为空位  </td>
+          </tr>
+        </tbody></table>
+		<div id="preload" style="width: 100%; padding-top: 20px; text-align: center; color: red;"> <img src="__PUBLIC__/images/load.gif" align="absmiddle">&nbsp;&nbsp;正在加载中…… </div>
+		<script language="JavaScript" type="text/javascript">
+function loadWindow()  
+{  
+   if(document.readyState == "complete") 
+   {  
+		document.getElementById("preload").style.display="none";}
+   else
+   {   
+		setTimeout("loadWindow()", 10)
+    }
+} 
+loadWindow()  
+        </script>
+        <!-- <if condition="!empty($member_list)"> -->
+        <table align="center" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td colspan="2" align="center" valign="bottom" class="OChartCellPadding"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                  <tbody><tr>
+                    <td width="42%">&nbsp;</td>
+                    <td width="58%" height="30">
+
+                    </td>
+                  </tr>
+              </tbody></table></td>
+            </tr>
+            <tr>
+              <td width="100%" colspan="2" align="center" valign="bottom" class="OChartCellPadding">
+				{:atlasstr($member_list)}
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" style="padding-top:15px;">
+              <table cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="OChartCellPadding" valign="top" align="center" width="100%" colspan="2">
+						{:atlasstr($member_list['A'],$member_list,'A')}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" style="padding-top:15px;">
+                      <table cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td class="OChartCellPadding" valign="bottom" align="center" width="100">
+									{:atlasstr($member_list['A']['A'],$member_list['A'],'A')}
+                              </td>
+                            </tr>
+                          </tbody>
+                      </table></td>
+                      <td valign="top" style="padding-top:15px;"><table cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td class="OChartCellPadding" valign="top" align="center" width="100">
+								{:atlasstr($member_list['A']['B'],$member_list['A'],'B')}
+                              </td>
+                            </tr>
+                          </tbody>
+                      </table></td>
+                    </tr>
+                  </tbody>
+              </table></td>
+              <td valign="top" style="padding-top:15px;"><table cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="OChartCellPadding" valign="top" align="center" width="100%" colspan="2">
+						{:atlasstr($member_list['B'],$member_list,'B')}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="top" style="padding-top:15px;"><table cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td class="OChartCellPadding" valign="top" align="center" width="100">
+								{:atlasstr($member_list['B']['A'],$member_list['B'],'A')}
+                              </td>
+                            </tr>
+                          </tbody>
+                      </table></td>
+                      <td align="center" valign="top" style="padding-top:15px;"><table cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td class="OChartCellPadding" valign="top" align="center" width="100">
+								{:atlasstr($member_list['B']['B'],$member_list['B'],'B')}
+                              </td>
+                            </tr>
+                          </tbody>
+                      </table></td>
+                    </tr>
+                  </tbody>
+                </table>
+                  <br></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- </if> -->
+         <form action="{:U('Member/atlas')}" method="post" name="formSearch" id="formSearch" onsubmit="return chkfrm(this)">
+        <table width="60%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td height="5" colspan="2"></td>
+          </tr>
+          <script type="text/javascript">
+				function chkfrm(afrm)
+				{
+					if (afrm.account.value == "")
+					{
+						alert("请填写要查找的会员编号");
+						afrm.account.focus();
+						return false;
+					}
+					return true;
+				}	
+              </script>
+         
+            <tr>
+              <td width="25%" height="25" align="right">会员编号：</td>
+              <td width="75%" height="25" align="left"><input name="account" type="text" id="account">
+                  <input type="submit" name="submit" id="submit" class="ibtn" value="搜索">
+              </td>
+            </tr>
+          
+        </tbody></table>
+        </form>
+		<!-- end -->		</td>
+      </tr>
+  
+</tbody></table>
+</body>
+</html>
+
+<!--
+<php>
+function atlasstr($list,$pinfo=array(),$ptype='A') {
+	if (empty($list)) {
+		$regstr = (empty($pinfo)) ? '' : '<a target="main" href="'.U('Member/add?paid='.$pinfo['id'].'&ptype='.$ptype).'">未注册</a>';
+		$str = '
+		<table cellspacing="1" cellpadding="1" width="150" align="center" bgcolor="#C9C9C9" border="0">
+		  <tr>
+			<td height="36" align="center" style="color:#999999">'.$regstr.'</td>
+		  </tr>
+		  <tr>
+			<td height="24" align="center" bgcolor="#FFFFFF"></td>
+		  </tr>
+		  <tr>
+			<td height="24" align="center" bgcolor="#FFFFFF"></td>
+		  </tr>
+		</table>';
+	}else {
+		$color = '#0080FF';
+		$acor = '#FF0000';
+		$str='
+		<table cellspacing="1" cellpadding="1" width="150" align="center" bgcolor="'.$color.'" border="0">
+		  <tr>
+			<td height="36" align="center"><a href="'.U('Member/atlas?id='.$list['id']).'" style="color:'.$acor.'"><strong>'.$list['level'].' 级<br>'.$list['account'].'</strong></a></td>
+		  </tr>
+		  <tr>
+			<td height="24" align="center" bgcolor="#FFFFFF" style="color:#62B0FF">推荐体系人数：'.$list['area_nums'].'</td>
+		  </tr>
+		  <tr>
+			<td height="24" align="center" bgcolor="#FFFFFF" style="color:#62B0FF">直推：'.$list['son_nums'].'</td>
+		  </tr>
+		</table>';
+	}
+	echo $str;
+}
+</php>
+-->

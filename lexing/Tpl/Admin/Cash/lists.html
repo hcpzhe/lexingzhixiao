@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>提现记录</title>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<script>
+$(function ($) {
+	$(".bat_a_handle").click(function(){
+		$(this).RSsubmit({success_alert:true,reload:true});
+		return false;
+	});
+});
+</script>
+<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+            	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+                	提现记录
+                </div>
+            </div>
+            
+<div style=" margin:10px 0 10px 10px;">
+    
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>申请用户</th>
+            <th>开户姓名</th>
+            <th>开户银行</th>
+            <th>银行卡号</th>
+            <th>申请金额</th>
+            <th>扣税金额</th>
+            <th>实发金额</th>
+            <th>申请时间</th>
+            <th>审核时间</th>
+            <th>状态</th>
+            <th>备注</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+    <!-- <foreach name="list" item="row"> -->
+		<tr>
+			<td>{$memlist[$row['member_id']]['account']}（{$memlist[$row['member_id']]['realname']}）</td>
+			<td>{$row['real_name']}</td>
+			<td>{$row['bank_name']}</td>
+			<td>{$row['bank_card']}</td>
+			<td>{$row['apply_money']}</td>
+			<td>{$row['tax_money']}</td>
+			<td>{$row['real_money']}</td>
+			<td>{:date('Y/m/d H:i',$row['create_time'])}</td>
+			<td>{:date('Y/m/d H:i',$row['check_time'])}</td>
+			<td>{$_stat[$row['status']]}</td>
+			<td>{$row['remark']}</td>
+			<td>
+			<!-- <if condition="$row['status'] eq '1' "> -->
+				<a class="bat_a_handle" href="{:U('Cash/passCheck?id='.$row['id'])}">通过</a> | 
+				<a class="bat_a_handle" href="{:U('Cash/denyCheck?id='.$row['id'])}">拒绝</a>
+			<!-- </if> -->
+			</td>
+		</tr>
+    <!-- </foreach> -->
+    
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="12">
+                {$_page}
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<div style="clear:both;"></div>
+<p style="padding: 20px; color:red; font-weight:bold;font-size:16px;">注意：请给客户转账后再进行审核操作！</p>
+<p style="padding: 20px; color:red; font-weight:bold;font-size:16px;">待审的提现金额会被冻结, 用户不能使用提交后待审的余额进行升级等任何用途.<br>拒绝后便会解除冻结.<br>通过后用户余额会减少！</p>
+</body>
+</html>

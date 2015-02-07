@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>会员资料</title>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+        	<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+            	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+                	会员资料
+                </div>
+            </div>
+            
+
+<form action="{:U('Member/update')}" method="post" onsubmit="$(this).RSsubmit({success_alert:true,reload:true});return false;">
+<table class="table">
+    <tbody>
+        <tr>
+            <td style="width:150px; text-align:right;">帐号：</td>
+            <td style="text-align:left;padding-left:10px;">
+				{$info['account']}
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">推荐人：</td>
+            <td style="text-align:left;padding-left:10px;">
+				{$memlist[$info['parent_id']]['account']}（{$memlist[$info['parent_id']]['realname']}）
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">节点：</td>
+            <td style="text-align:left;padding-left:10px;">
+				{$memlist[$info['parent_aid']]['account']}（{$memlist[$info['parent_aid']]['realname']}）
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">节点位置：</td>
+            <td style="text-align:left;padding-left:10px;">
+				{$info['parent_area']}
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">当前级别：</td>
+            <td style="text-align:left;padding-left:10px;">
+			<!-- <if condition="($info['level'] egt 1) AND ($info['level'] elt 5) "> -->
+				{$info['level']} 级
+			<!-- <else /> -->
+				临时会员
+			<!-- </if> -->
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">积分余额：</td>
+            <td style="text-align:left;padding-left:10px;">
+				{$info['points']}
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">注册时间：</td>
+            <td style="text-align:left;padding-left:10px;">
+				{:date('Y/m/d H:i:s',$info['create_time'])}
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">真实姓名：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="realname" type="text" value="{$info['realname']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">联系电话：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="tel" type="text" value="{$info['tel']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">身份证号：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="idcard" type="text" value="{$info['idcard']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">联系地址：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="address" type="text" value="{$info['address']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">开户银行：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="bank_name" type="text" value="{$info['bank_name']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">银行开户姓名：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="bank_account" type="text" value="{$info['bank_account']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">银行卡号：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="bank_card" type="text" value="{$info['bank_card']}">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">开户地址：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="bank_address" type="text" value="{$info['bank_address']}">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            	<input type="hidden" name="id" value="{$info['id']}">
+                <input type="submit" value=" 更新 " class="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value="重置二级密码" class="submit" onClick="$(this).RSsubmit({ success_alert:true,url: '{:U(\'Member/resetPwd?istwo=yes&id=\'.$info[id])}' });return false;">
+            </td>
+        </tr>
+    </tbody>
+</table>
+</form>
+<script>
+</script>
+</body>
+</html>

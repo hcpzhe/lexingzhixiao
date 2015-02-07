@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>会员留言</title>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<script>
+$(function ($) {
+	$(".bat_a_handle").click(function(){
+		$(this).RSsubmit({success_alert:true,reload:true});
+		return false;
+	});
+});
+</script>
+<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+            	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+                	会员留言
+                </div>
+            </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>会员</th>
+            <th>真实姓名</th>
+            <th>留言内容</th>
+            <th>留言时间</th>
+            <th>回复</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+    <!-- <foreach name="list" item="row"> -->
+		<tr>
+			<td>{$memlist[$row['member_id']]['account']}</td>			
+			<td>{$memlist[$row['member_id']]['realname']}</td>
+			<td>{$row['content']|mb_substr=0,45}</td>
+			<td>{:date('Y/m/d H:i',$row['send_time'])}</td>
+            <td>
+              <!-- <if condition="($row['reply'] eq '') "> -->
+				<font color="#FF0000">留言未回复</font>
+			  <!-- <else /> -->
+				{$row['reply']|mb_substr=0,45}
+			  <!-- </if> -->
+               
+            </td>
+            <td>
+               <!-- <if condition="($row['status'] eq 1) "> -->
+                   正常
+                <!-- <elseif condition="($row['status'] eq 0) " /> -->
+                     禁用
+               <!-- <else /> --> 
+                   删除
+               <!-- </if> -->
+
+            </td>
+			<td>
+				<a target="_blank" href="{:U('Message/info?id='.$row['id'])}">查看编辑</a>  
+			</td>
+		</tr>
+    <!-- </foreach> -->
+    
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="8">
+            {$_page}
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<div style="clear:both;"></div>
+
+</body>
+</html>

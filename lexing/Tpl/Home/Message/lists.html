@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>会员列表</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/RSsubmit.js"></script>
+</head>
+<body>
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="r_c1_title">我的留言</td>
+              </tr>
+              <tr>
+                <td align="center" style="line-height:1.8;">
+                    <table class="registertable1" width="100%">
+                    <tbody>
+                    <tr bgcolor="#ddd">
+                        <th width="40%">留言</th>
+                        <th width="20%">时间</th>
+                        <th width="40%">回复</th>
+                    </tr>
+                  <foreach name="list" item="vo">
+                    <tr>
+                      <td style="padding:10px;">{$vo['content']}</td>
+                      <td style="padding:10px;">{:date('Y/m/d H:i:s',$vo['send_time'])}</td>
+                      <td style="padding:10px;">
+                          <!-- <if condition="($vo['reply'] eq '') "> -->
+                            <font color="#FF0000">留言尚未回复</font>
+                          <!-- <else /> -->
+                            {$vo['reply']}
+                          <!-- </if> -->
+                      </td>
+                    </tr>
+                  </foreach>
+               </tbody>
+             </table> 
+           </td>
+         </tr>                
+         <tr>
+           <td height="20" width="100%" align="center">
+               <!-- 分页开始 -->
+            <table class="" width="100%">
+                <tbody><tr>
+                    <td align="left" height="29" width="40%">
+                        <div align="left">
+                        </div>
+                    </td>
+                    <td align="center" height="22" valign="middle" width="25%">
+                        {$_page} 
+                    </td>
+                </tr>
+            </tbody></table>
+           </td>
+      </tr>
+   </tbody>
+ </table>
+</body>
+</html>

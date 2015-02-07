@@ -1,0 +1,267 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+* 
+{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+}
+a
+{
+    text-decoration: none;
+}
+/*body
+{
+    background-color: #5c87b2;
+    font-size: 75%;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+a:link
+{
+    color: #034af3;
+    text-decoration: underline;
+}
+a:visited
+{
+    color: #505abc;
+}
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+a:active
+{
+    color: #12eb87;
+}
+
+p, ul
+{
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}*/
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #000;
+}
+
+h1
+{
+    font-size: 2em;
+}
+h2
+{
+    padding: 0 0 10px 0;
+}
+h3
+{
+    font-size: 1.2em;
+}
+h4
+{
+    font-size: 1.1em;
+}
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* TABLE
+----------------------------------------------------------
+
+table 
+{
+    width:98%;
+    margin:0 auto;
+    border: solid 1px #e8eef4;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td 
+{ 
+    border: solid 1px #e8eef4;
+}
+
+table th
+{
+    text-align: left;
+    background-color: #e8eef4; 
+    border: solid 1px #e8eef4;   
+}*/
+
+/* MISC  
+----------------------------------------------------------*/
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color:Red;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/* Styles for editor and display helpers
+----------------------------------------------------------*/
+.display-label,
+.editor-label
+{
+    margin: 1em 10px 0 15px;
+}
+
+.display-field,
+.editor-field
+{
+    margin: 0.7em 10px 0 15px;
+}
+
+.text-box
+{
+    width: 30em;
+}
+
+.text-box.multi-line
+{
+    height: 6.5em;
+}
+
+.tri-state
+{
+    width: 6em;
+}
+
+.submit
+{
+    margin: 5px 5px 5px 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset 
+{
+    width:98%;
+    margin:0 auto;
+    border:1px solid #ddd;
+    border-radius:5px; 
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+textarea 
+{
+    width: 200px;
+    border: 1px solid #CCC;
+    min-height: 75px;
+    border-radius:5px; 
+}
+
+input[type="text"] 
+{
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #CCC;
+    border-radius:5px; 
+}
+
+input[type="password"] 
+{
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #CCC;
+    border-radius:5px; 
+}
+
+
+/* = 分页
+------------------------------------------ */
+.page {
+    margin: 10px 0;
+    *zoom: 1;
+}
+.page:before,
+.page:after {
+    display: table;
+    content: "";
+}
+.page:after {
+    clear:both;
+}
+.page a,
+.page span {
+    float: left;
+    margin-left: -1px;
+    padding: 0 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    /*background-color: #4bbd00;*/
+}
+.page a:hover
+ {
+    text-decoration: none;
+    background-color: #387C0B;
+}
+.page .current {
+	border-top: 1px solid #387C0B;
+}
+.page .next,
+.page .prev {
+    font-family: "宋体";
+    font-weight: bold;
+}
+.page .rows {
+	border-right: 1px solid #CCCCCC;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>会员资料</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/RSsubmit.js"></script>
+</head>
+<body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td class="r_c1_title">修改个人信息</td>
+      </tr>
+      <tr>
+        <td align="center"><form action="{:U('Member/update')}" method="post" name="form1" id="form1" onsubmit="$(this).RSsubmit({success_alert:true});return false;">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" class="btab">
+            <tbody>
+              <tr>
+                <td width="16%" height="28" align="right">用户名：</td>
+                <td width="84%" align="left">{$_ME['account']}</td>
+              </tr>
+              <tr>
+                <td height="26" align="right">积分：</td>
+                <td align="left">{$_ME['points']}</td>
+              </tr>
+              <tr>
+                <td height="26" align="right">推荐人：</td>
+                <td align="left">{$memlist[$_ME['parent_id']]['account']}</td>
+              </tr>
+              <tr>
+                <td height="26" align="right">节点人：</td>
+                <td align="left">{$memlist[$_ME['parent_aid']]['account']}</td>
+              </tr>
+               <tr>
+                <td height="26" align="right">所属区域：</td>
+                <td align="left">{$_ME['parent_area']}</td>
+              </tr>
+              <tr>
+                <td height="26" align="right">真实姓名：</td>
+                <td align="left">
+                  <input name="realname" type="text" class="inputTxt" id="nickname" size="20" value="{$_ME['realname']}"> 
+                  <span style="color:#FF0000">*</span>
+                </td>
+              </tr>     
+              <tr>
+                <td height="26" align="right">手机：</td>
+                <td align="left">
+                  <input name="tel" type="text" class="inputTxt" id="tel" size="20" value="{$_ME['tel']}">
+                  <span style="color:#FF0000">*</span>
+                </td>
+              </tr>
+              <tr>
+                <td height="26" align="right">联系地址：</td>
+                <td align="left">
+                  <input name="address" type="text" class="inputTxt" id="address" size="40" value="{$_ME['address']}">
+                </td>
+              </tr>
+              <tr>
+                <td height="26" align="right">身份证号：</td>
+                <td align="left">
+                  <input name="idcard" type="text" class="inputTxt" id="idcard" size="30" value="{$_ME['idcard']}"> <span style="color:#FF0000">*</span>
+                 </td>
+               </tr>
+               <tr>
+                 <td height="26" align="right">开户姓名：</td>
+                 <td align="left">
+                   <input name="bank_account" type="text" class="inputTxt" id="bank_name" size="30" value="{$_ME['bank_account']}">
+                   <span style="color:#FF0000">*</span>
+                 </td>
+               </tr>
+               <tr>
+                 <td height="26" align="right">开户银行：</td>
+                 <td align="left">
+                   <input name="bank_name" type="text" class="inputTxt" id="bank_name" size="30" value="{$_ME['bank_name']}">
+                   <span style="color:#FF0000">*</span>
+                 </td>
+               </tr>
+               <tr>
+                 <td height="26" align="right">银行帐号：</td>
+                 <td align="left">
+                   <input name="bank_card" type="text" class="inputTxt" id="bank_card" size="30" value="{$_ME['bank_card']}">
+                   <span style="color:#FF0000"> *</span>
+                 </td>
+               </tr>
+               <tr>
+                 <td height="26" align="right">开户地址：</td>
+                 <td align="left">
+                   <input name="bank_address" type="text" class="inputTxt" id="bank_address" size="20" value="{$_ME['bank_address']}">
+                   <span style="color:#FF0000">* </span>
+                 </td>
+               </tr>
+               <tr>
+                 <td height="50" colspan="2" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="submit" name="Submit" value="  确认提交修改  ">
+                 </td></tr></tbody></table>
+            </form>
+                 </td>
+               </tr>
+             </tbody>
+           </table>
+</body>
+</html>

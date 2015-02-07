@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>已审新会员</title>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<script>
+$(function ($) {
+	$(".bat_a_handle").click(function(){
+		$(this).RSsubmit({success_alert:true,reload:true});
+		return false;
+	});
+});
+</script>
+<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+            	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+                	已审新会员
+                </div>
+            </div>
+            
+<div style=" margin:10px 0 10px 10px;">
+    
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>申请用户</th>
+            <th>应付金额</th>
+            <th>实付金额</th>
+            <th>打款时间</th>
+            <th>受益用户</th>
+            <th>申请时间</th>
+            <th>状态</th>
+            <th>备注</th>
+        </tr>
+    </thead>
+    <tbody>
+    <!-- <foreach name="list" item="row"> -->
+		<tr>
+			<td>{$memlist[$row['member_id']]['account']}（{$memlist[$row['member_id']]['realname']}）</td>
+			<td>{$row['should_pay']}</td>
+			<td>{$row['real_pay']}</td>
+			<td>{$row['pay_time']}</td>
+			<td>
+			<!-- <if condition="$row['rec_id'] eq '0' "> -->
+				无
+			<!-- <else /> -->
+				{$memlist[$row['rec_id']]['account']}（{$memlist[$row['rec_id']]['realname']}）
+			<!-- </if> -->
+			</td>
+			<td>{:date('Y/m/d H:i',$row['apply_time'])}</td>
+			<td>{$_stat[$row['status']]}</td>
+			<td>{$row['remark']}</td>
+		</tr>
+    <!-- </foreach> -->
+    
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="8">
+                {$_page}
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<div style="clear:both;"></div>
+
+</body>
+</html>

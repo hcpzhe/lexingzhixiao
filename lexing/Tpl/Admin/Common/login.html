@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>会员登陆</title>
+    
+    <script src="__PUBLIC__/js/jquery.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js" type="text/javascript"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+		*{ margin:0 auto; padding:0; text-decoration:none; font-size:12px; }
+		body{ background-color:#0066a1; }
+		td{ height:20px; }
+		th{ height:30px; font-size:16px; text-align:left; line-height:30px; }
+    </style>
+</head>
+
+<body>
+    <div>
+        
+        <div style=" background:url(__PUBLIC__/images/Admin/loginBg.jpg); width: 547px; height: 205px; margin-top: 160px; padding-top:100px; color:#609b28;">
+<form action="{:U('Common/checkLogin')}" method="post" onsubmit="$(this).RSsubmit();return false;">
+<table style="width:500px;">
+                <tbody>
+                    <tr>
+                        <td style="text-align:right; width:150px;">
+                            <label for="account">登陆账号</label>&nbsp;
+                        </td>
+                        <td>
+                            <input class="text-box single-line" data-val="true" data-val-length="必须为4-18个字符！" data-val-length-max="18" data-val-length-min="4" data-val-regex="无效登陆账号！" data-val-regex-pattern="\w{4,18}\s*$" data-val-required="请输入登陆账号！" id="account" name="account" type="text" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center;"> 
+                            <span class="field-validation-valid" data-valmsg-for="account" data-valmsg-replace="true"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:right;">
+                            <label for="password">登陆密码</label>&nbsp;
+                        </td>
+                        <td>
+                            <input class="text-box single-line password" data-val="true" data-val-length="必须为5-32个字符！" data-val-length-max="32" data-val-length-min="5" data-val-required="请输入登陆密码！" id="password" name="password" type="password" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center;"> 
+                            <span class="field-validation-valid" data-valmsg-for="password" data-valmsg-replace="true"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:right;">
+                            <label for="verify">验 证 码</label>&nbsp;
+                        </td>
+                        <td style="position:relative;">
+                            <input data-val="true" data-val-length="必须为4个字符！" data-val-length-max="4" data-val-length-min="4" data-val-required="请输入验证码！" id="verify" name="verify" style="width:50px;" type="text" value="">
+                            <img src="{:U('Common/verify')}" alt="" id="codeImg" onclick="imgClick()" style=" position:absolute; top:3px; left:60px; ">&nbsp;
+                            <a href="javascript:imgClick();" style=" position:absolute; top:9px; left:150px; ">刷新验证码</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center;"> 
+                            <span class="field-validation-valid" data-valmsg-for="verify" data-valmsg-replace="true"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center;">
+                            <input type="hidden" name="ReturnUrl" value="/">
+                            <input type="submit" value="" style="border:0px; width:90px; height:34px; background:url(__PUBLIC__/images/Admin/enter.jpg); cursor:pointer;">
+                            <!-- <input type="reset" value="" style="border:0px; width:90px; height:34px; background:url(__PUBLIC__/images/Admin/clear.jpg); cursor:pointer; margin-left:60px;"> -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+</form>        </div>
+    </div>
+
+    <table style="width:500px; text-align:center; margin-top:20px;">
+        <tbody><tr>
+            <td> 
+                   
+            </td>
+        </tr>
+    </tbody></table>
+    <script type="text/javascript">
+        function imgClick() {
+            document.getElementById("codeImg").src = document.getElementById("codeImg").src + "?" + Math.random();
+        }
+    </script>
+
+
+</body></html>

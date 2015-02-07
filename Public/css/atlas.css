@@ -1,0 +1,16 @@
+/* CSS Document */
+
+.head{width:1000px;text-align:center;}
+
+.jibie{ width:880px; margin:0 auto; height:90px;}
+.jibie ul li{ list-style:none; float:left; margin-top:30px;}
+.fl{ float:left; margin-left:30px;}
+.sosuo{ width:680px; height:80px;margin:0 auto;}
+ table{ background-color:#39F; text-align:center;}
+ table tr{ background:#FFF;}
+ table tr td{background:#FFF;width:50px;}
+ .clear{clear:both;}
+ .center{margin:0 auto;}
+ .huiyuan1{ width:370px; height:150px;}
+ .huiyuan2{ width:775px; height:150px;}
+ .huiyuan3 { width:1000px; height:150px;margin:0 auto;}

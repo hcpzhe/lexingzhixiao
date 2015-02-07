@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>提现列表</title>
+<style>
+td{ height:28px;}
+</style>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td class="r_c1_title">提现详情页</td>
+      </tr>
+      <tr>
+        <td height="20"></td>
+      </tr>
+      <tr>
+        <td align="center" style="line-height:1.8;">
+          <table width="100%" border="0" cellpadding="1" cellspacing="1" bgcolor="#F6F6F6" class="btab">
+            <tbody>
+              <tr class="tr1">
+                <td width="15%" height="24" align="center">开户姓名：</td>
+                <td>{$info['real_name']}</td>
+              <tr>
+              <tr class="tr1">
+                <td width="15%" align="center">开户银行：</td>
+                <td>{$info['bank_name']}</td>
+              </tr>
+              <tr class="tr1">
+                <td width="10%" align="center">银行卡号：</td>
+                <td>{$info['bank_card']}</td>
+              </tr>
+              <tr class="tr1">
+                <td width="10%" align="center">开户地址：</td>
+                <td>{$info['bank_address']}</td>
+              </tr>
+               <tr class="tr1">
+                <td width="15%" align="center">申请提现金额：</td>
+                <td>{$info['apply_money']}</td>
+              </tr>
+              <tr class="tr1">
+                <td width="15%" align="center">扣税金额：</td>
+                <td>{$info['tax_money']}</td>
+              </tr>
+              <tr class="tr1">
+                <td width="15%" align="center">实发金额：</td>
+                 <td>{$info['real_money']}</td>
+               </tr>
+              <tr class="tr1">
+                <td width="15%" align="center">申请提现时间：</td>
+                <td>{:date('Y-m-d',$info['create_time'])}</td>
+              </tr>
+              <tr class="tr1">
+                <td width="15%" align="center">审核时间：</td>
+                <td><notempty name="info['check_time']">{:date('Y-m-d',$info['check_time'])}</notempty></td>
+              </tr>
+              <tr class="tr1">
+                <td width="15%" align="center">状态：</td>
+                <td>{$_stat[$info['status']]}</td>
+              </tr>
+              <tr class="tr1">
+                <td width="15%" align="center">备注留言：</td>
+                <td>{$info['remark']}</td>
+              </tr>
+       </tbody>
+     </table>
+   </td>
+  </tr>
+ </tbody>
+</table>
+</body>
+</html>

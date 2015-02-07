@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* ----------------------------------------------
+	  ---Powered by : www.csscoo.com---
+	  ---Update by : http://blog.sina.com.cn/gaojing541---
+ ------------------------------------------------ */
+/*Reset CSS for Browsers*/
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,th,td,form,fieldset,legend,input,button,textarea,blockquote,hr,pre{margin:0;padding:0;}h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,cite,dfn,em,var{font-style:normal;}li{list-style:none;}input,select{vertical-align:middle;}legend{color:#000;}code,kbd,pre,samp,tt{font-family:"Courier New",monospace;}small{font-size:12px;}hr{border:none;height:1px;}body,button,input,select,textarea{font:12px/1 Arial,Tahoma,Helvetica,SimSun,san-serif;}abbr[title]{border-bottom:1px dotted;cursor:help;}html{overflow-y:scroll;}input[type="submit"],input[type="button"]{cursor:pointer;}a{outline:none;blur:expression(this.onFocus=this.blur());}html{-webkit-text-size-adjust:none;}/* chrome minium font-size fixed */
+/*In Common Use*/
+.fl{float:left;_display:inline;}.fr{float:right;_display:inline;}.cl{clear:both;}.fb{font-weight:bold;}.fi{font-style:italic;}.tl{text-align:left;}.tc{text-align:center;}.tr{text-align:right;}.dn{display:none;}.db{display:block;}.di{display:inline;}.f12{font-size:12px;}.f14{font-size:14px;}.f16{font-size:16px;}.f18{font-size:18px;}.f20{font-size:20px;}.f22{font-size:22px;}.f24{font-size:24px;}.m0{margin:0;}.mt10{margin-top:10px !important;}.mr10{margin-right:10px;}.mb10{margin-bottom:10px;}.ml10{margin-left:10px;}.rel{position:relative;}.abs{position:absolute;}.wb{word-break:break-all;word-wrap:break-word;}.wn{white-space:nowrap;}.clear{clear:both;height:0;font:0/0 Arial;visibility:hidden;}.clearfix{display:inline-block;}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}.clearfix {zoom: 1;}.yellow{color:#f60!important;}.blue{color:#03c;}.red{color:#f00;}.green{color:#090;}.gray{color:#666;}
+/*update*/
+textarea{line-height:18px;padding:1px 0 0 1px;}
+
+/*----------Reset CSS for Website----------*/
+body{color:#333; background:#fff; text-align:left; line-height:20px;}
+a:link{color:#333; text-decoration:none;}
+a:visited{color:#333; text-decoration:none;}
+a:hover{color:#f60; text-decoration:none;}
+

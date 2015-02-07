@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>会员中心</title>
+    
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+
+<div style="height:71px;  background:url(__PUBLIC__/images/Admin/topBg.jpg); border-bottom:#003a5b 3px solid;">
+    <div class="top">
+        <div style="float:left; width:296px; height:71px; background-image:url(__PUBLIC__/images/Admin/logo.jpg); ">
+            &nbsp;
+        </div>
+        <div style=" float:right; width:290px;">
+            <div class="topmenu">
+                <a href="{:U('Index/welcome')}" target="main"><img src="__PUBLIC__/images/Admin/ic1.jpg" alt=""></a>
+                <a href="{:U('Index/welcome')}" target="main">首&nbsp;&nbsp;页</a>
+            </div>
+            <div class="topmenu">
+                <a href="{:U('Member/atlas')}" target="main"><img src="__PUBLIC__/images/Admin/ic4.jpg" alt=""></a>
+                <a href="{:U('Member/atlas')}" target="main">团队建设</a>
+            </div>
+            <div class="topmenu">
+                <a href="{:U('Index/password')}" target="main"><img src="__PUBLIC__/images/Admin/ic6.jpg" alt=""></a>
+                <a href="{:U('Index/password')}" target="main">修改密码</a>
+            </div>
+            <div class="topmenu">
+                <a class="bat_a_handle" href="{:U('Common/logout')}" onclick="return confirm(&#39;请确认退出！&#39;);"><img src="__PUBLIC__/images/Admin/ic9.jpg" alt=""></a>
+                <a class="bat_a_handle" href="{:U('Common/logout')}" onclick="return confirm(&#39;请确认退出！&#39;);">退&nbsp;出</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <!-- content -->
+    <div class="content">
+        <!-- menu -->
+        <div class="Menu">
+            <div style="height:68px; width:160px; margin-bottom:2px; padding-top:30px; background:url(__PUBLIC__/images/Admin/userInfoBg.jpg);">
+                <table style="font-size:14px; line-height:25px;">
+                    <tbody><tr>
+                        <td style="width:50px;">用户名：
+                        </td>
+                        <td>
+                            {$uinfo['account']}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:50px;">姓名：
+                        </td>
+                        <td>
+                            {$uinfo['nickname']}
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div style="background:url(__PUBLIC__/images/Admin/mtop.png); width:160px; height:15px;">
+            </div>
+            <dl id="_menuindex">
+                <dt class="slides2"><img src="__PUBLIC__/images/Admin/menuindex.png" alt=""><a href="{:U('Index/welcome')}" target="main">首页</a></dt>
+            </dl>
+            <dl id="_menuteam">
+                <dt class="slides"><img src="__PUBLIC__/images/Admin/menuteam.png">会员管理</dt>
+                <dd><a href="{:U('Levelup/lists?bef=0&status=1')}" target="main">待审新会员</a></dd>
+                <dd><a href="{:U('Levelup/lists?bef=0&status=3&tpl=listb0s3')}" target="main">已审新会员</a></dd>
+                <dd><a href="{:U('Levelup/lists?bef=0&status=2&tpl=listb0s2')}" target="main">被拒绝新会员</a></dd>
+                <dd><a href="{:U('Member/lists')}" target="main">会员列表</a></dd>
+                <dd><a href="{:U('Member/lists?level=0&tpl=listl0')}" target="main">临时会员列表</a></dd>
+                <dd><a href="{:U('Member/atlas')}" target="main">会员图谱</a></dd>
+                <dd><a href="{:U('Message/lists')}" target="main">会员留言</a></dd>
+            </dl>
+            <dl id="_menubusiness">
+                <dt class="slides"><img src="__PUBLIC__/images/Admin/menubusiness.png" alt="">升级管理</dt>
+                <dd><a href="{:U('Levelup/lists?status=1&tpl=lists1')}" target="main">待审升级记录</a></dd>
+                <dd><a href="{:U('Levelup/lists?status=3&tpl=lists3')}" target="main">已审升级记录</a></dd>
+                <dd><a href="{:U('Levelup/lists?status=2&tpl=lists2')}" target="main">拒绝升级记录</a></dd>
+                <dd><a href="{:U('Levelup/lists?type=2&tpl=listt2')}" target="main">积分升级记录</a></dd>
+	        </dl>
+            <dl id="_menufinance">
+                <dt class="slides"><img src="__PUBLIC__/images/Admin/menufinance.png" alt="">财务中心</dt>
+                <dd><a href="{:U('Bonus/lists')}" target="main">会员奖金记录</a></dd>
+                <dd><a href="{:U('Cash/lists?status=1')}" target="main">待审提现记录</a></dd>
+                <dd><a href="{:U('Cash/lists?status=3')}" target="main">已审提现记录</a></dd>
+                <dd><a href="{:U('Cash/lists?status=2')}" target="main">拒绝提现记录</a></dd>
+	        </dl>
+            <dl id="_menuconfig">
+                <dt class="slides"><img src="__PUBLIC__/images/Admin/menuconfig.png" alt="">系统设置</dt>
+                <dd><a href="{:U('Config/info')}" target="main">系统配置信息</a></dd>
+            </dl>
+            <dl id="_menulog">
+                <dt class="slides"><img src="__PUBLIC__/images/Admin/menulog.png" alt="">文章管理</dt>
+                <dd><a href="{:U('Article/add')}" target="main">添加文章</a></dd>
+                <dd><a href="{:U('Article/lists?category=公告')}" target="main">公告列表</a></dd>
+                <dd><a href="{:U('Article/lists?category=新闻')}" target="main">新闻列表</a></dd>
+                <dd><a href="{:U('Article/read?category=产品介绍')}" target="main">产品介绍</a></dd>
+                <dd><a href="{:U('Article/read?category=联系我们')}" target="main">联系我们</a></dd>
+                <dd><a href="{:U('Article/read?category=用户欢迎页')}" target="main">用户欢迎页</a></dd>
+	        </dl>
+            <div style="background:url(__PUBLIC__/images/Admin/mbt.png); width:160px; height:31px;">
+            </div>
+        </div>
+        <!-- end menu -->
+        <div class="right">
+        <iframe id="main" onload="Javascript:SetCwinHeight()" name="main" src="{:U('Index/welcome')}" style="border: none;" border="0" scrolling="no" width="100%" height="auto"></iframe>
+
+
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <!-- end content -->
+    <!-- foot -->
+	<div class="foot">
+           
+    </div>
+    <!-- end foot -->
+</div>
+<script type="text/javascript">
+function SetCwinHeight() {
+    var iframeid = document.getElementById("main"); //iframe id
+    if (document.getElementById) {
+        if (iframeid && !window.opera) {
+            if (iframeid.contentDocument && iframeid.contentDocument.body.scrollHeight) {
+                iframeid.height = iframeid.contentDocument.body.scrollHeight;
+            } else if (iframeid.Document && iframeid.Document.body.offsetHeight) {
+                iframeid.height = iframeid.Document.body.offsetHeight;
+            }
+        }
+    }
+}
+$(function ($) {
+	$(".bat_a_handle").click(function(){
+		$(this).RSsubmit({success_alert:true,reload:true});
+		return false;
+	});
+	$("#main").resize(function(){
+		SetCwinHeight();
+	})
+	
+    MenuShow("_menuindex");
+    $("#righttitle").css("display", "none");
+    
+    $(".Menu dl dt").click(function () {
+        MenuShow($(this).parent().attr("id"));
+    });
+    $(".table tbody tr").mouseover(function () { $(this).css("backgroundColor", ""); });
+    $(".table tbody tr").mouseout(function () { $(this).css("backgroundColor", ""); });
+});
+function MenuShow(id) {
+    $(".Menu dl").find("dd").slideUp(500);
+    $(".Menu dl dt").attr("class", "slides");
+    $("#" + id + " dt").attr("class", "slides2");
+    $("#" + id).find("dd").slideDown(300);
+}
+</script>
+
+
+</body></html>
