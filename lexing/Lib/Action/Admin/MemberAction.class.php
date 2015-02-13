@@ -3,8 +3,8 @@
 class MemberAction extends AdminbaseAction {
 	
 	/**
-	 * 会员筛选列表. 默认1-5级正常会员
-	 * @param  $level		级别  0-5 0-临时会员
+	 * 会员筛选列表. 默认1-8级正常会员
+	 * @param  $level		级别  0-8 0-临时会员
 	 * @param  $account		帐号
 	 * @param  $status		状态
 	 */
@@ -18,11 +18,11 @@ class MemberAction extends AdminbaseAction {
         if(isset($account)){
             $map['account']   =   array('like', '%'.$account.'%');
         }
-        if(isset($level) && $level>=0 && $level<=5){
+        if(isset($level) && $level>=0 && $level<=8){
             $map['level']  =   $level;
        		$this->assign('level', $map['level']);  //用于筛选条件的显示
         }else{
-            $map['level']  =   array('in', '1,2,3,4,5');
+            $map['level']  =   array('in', '1,2,3,4,5,6,7,8');
        		$this->assign('level', -1);  //所有级别会员, 用于筛选条件的显示
         }
 		
@@ -119,7 +119,8 @@ class MemberAction extends AdminbaseAction {
 		$pid = (int)I('pid'); //新会员的推荐人
 		$paid = (int)I('paid'); //新会员的节点人
 		if ($pid<=0 || $paid<=0) $this->error('参数非法',cookie(C('CURRENT_URL_NAME')));
-		$ptype = I('ptype') === 'B' ? 'B' : 'A';
+		$ptype = I('ptype');
+		$ptype = $ptype==='B'||$ptype==='A' ? $ptype : 'C';
 		$member_M = new MemberModel();
 		$pinfo = $member_M->findAble($pid);
 		if (empty($pinfo)) $this->error('推荐人不存在, 请重新选择',cookie(C('CURRENT_URL_NAME')));
@@ -136,7 +137,7 @@ class MemberAction extends AdminbaseAction {
 		
 		$this->assign('pinfo',$pinfo);//推荐人
 		$this->assign('painfo',$painfo);//节点人
-		$this->assign('ptype',$ptype);//节点类型 A/B
+		$this->assign('ptype',$ptype);//节点类型 A/B/C
 		
 		$randaccount = $member_M->randAccount();
 		$this->assign('randaccount',$randaccount);//随机6位可用的用户名
@@ -155,7 +156,7 @@ class MemberAction extends AdminbaseAction {
 			$data = I('param.');
 			$info = $model->addByMgr($data,array('remark'=>'此会员由管理员注册'));
 			if ($info !== false){
-				$this->success('注册成功，待审核！', U('levelup/lists?member_id='.$info));//跳转至新会员待审列表
+				$this->success('注册成功，待审核！', U('Levelup/lists?member_id='.$info));//跳转至新会员待审列表
 			}
 			$this->error($model->getError());
 		}else {
@@ -201,7 +202,7 @@ class MemberAction extends AdminbaseAction {
 		$where=array();
 		$where['parent_aid'] = $mid;
 		$where['status'] = '1';
-		$where['level'] = array('in','1,2,3,4,5');
+		$where['level'] = array('in','1,2,3,4,5,6,7,8');
 		$member_l = $member_model->where($where)->select();
 		foreach ($member_l as $row){
 			$row['son_nums'] = $member_model->sonNums($row['id']); //直推人数
@@ -210,10 +211,12 @@ class MemberAction extends AdminbaseAction {
 			if ($row['parent_area'] == 'A'){
 				$member_list['A'] = $row;
 				$this->member($member_model, $row['id'], $member_list['A'], $level);
-			
-			}else {
+			}elseif ($row['parent_area'] == 'B') {
 				$member_list['B'] = $row;
 				$this->member($member_model, $row['id'], $member_list['B'], $level);		
+			}else {
+				$member_list['C'] = $row;
+				$this->member($member_model, $row['id'], $member_list['C'], $level);		
 			}
 		}
 	}

@@ -82,6 +82,7 @@ class LevelupModel extends Model {
 		}
 	}
 	
+	
 	/**
 	 * 根据申请用户 获取受益人ID !核心算法!
 	 * @param  $id 申请用户ID
@@ -140,7 +141,7 @@ class LevelupModel extends Model {
 		$member_M = New MemberModel();
 		$memwhere = array();
 		$memwhere['id'] = $levelinfo['member_id'];
-		$memwhere['level'] = array('in','0,1,2,3,4,5');
+		$memwhere['level'] = array('in','0,1,2,3,4,5,6,7,8');
 		$memwhere['status'] = '1';
 		$meminfo = $member_M->where($memwhere)->find(); //申请会员的信息
 		if (empty($meminfo)) {

@@ -22,9 +22,9 @@ class MemberModel extends Model {
 		array('parent_id','require','推荐人必须',self::MUST_VALIDATE ,'regex',self::MODEL_INSERT),
 		array('parent_aid','require','节点必须',self::MUST_VALIDATE ,'regex',self::MODEL_INSERT),
 		array('parent_area','require','节点位置必须',self::MUST_VALIDATE,'regex',self::MODEL_INSERT),
-		array('parent_area',array('A','B'),'节点位置非法',self::MUST_VALIDATE,'in',self::MODEL_INSERT),
+		array('parent_area',array('A','B','C'),'节点位置非法',self::MUST_VALIDATE,'in',self::MODEL_INSERT),
 		
-		array('level',array(0,1,2,3,4,5),'级别非法',self::EXISTS_VALIDATE,'in',self::MODEL_UPDATE), //更新时 存在字段 验证
+		array('level',array(0,1,2,3,4,5,6,7,8),'级别非法',self::EXISTS_VALIDATE,'in',self::MODEL_UPDATE), //更新时 存在字段 验证
 		
 		array('realname','require','真实姓名不能为空'),
 		
@@ -99,7 +99,7 @@ class MemberModel extends Model {
 		$condition = array();
 		$condition['parent_id'] = $id;
 		$condition['status'] = '1';
-		$condition['level'] = array('in','1,2,3,4,5');
+		$condition['level'] = array('in','1,2,3,4,5,6,7,8');
 		
 		return $this->where($condition)->count();
 	}
@@ -118,12 +118,19 @@ class MemberModel extends Model {
 			$return++;
 			$return = $this->areaNums($son_A['id'],$return);
 		}
-		
+
 		$condition['parent_area'] = 'B';
 		$son_B = $this->findAble($condition);
 		if ($son_B !== false && !empty($son_B)) {
 			$return++;
 			$return = $this->areaNums($son_B['id'],$return);
+		}
+		
+		$condition['parent_area'] = 'C';
+		$son_C = $this->findAble($condition);
+		if ($son_C !== false && !empty($son_C)) {
+			$return++;
+			$return = $this->areaNums($son_C['id'],$return);
 		}
 		
 		return $return;
@@ -153,7 +160,7 @@ class MemberModel extends Model {
 		}
 		
 		if ($where['status']===null||$where['status']===''||!in_array($where['status'], array(-1,0,1))) $where['status'] = '1';
-		if ($where['level']===null||$where['level']===''||!in_array($where['level'], array(0,1,2,3,4,5))) $where['level'] = array('in','1,2,3,4,5');
+		if ($where['level']===null||$where['level']===''||!in_array($where['level'], array(0,1,2,3,4,5,6,7,8))) $where['level'] = array('in','1,2,3,4,5,6,7,8');
 		return $this->where($where)->find();
 	}
 	
@@ -177,7 +184,7 @@ class MemberModel extends Model {
 	public function chkParent($data) {
 		$condition = array();
 		$condition['status'] = '1';
-		$condition['level'] = array('in','1,2,3,4,5');
+		$condition['level'] = array('in','1,2,3,4,5,6,7,8');
 		$condition['id'] = $data['parent_aid'];
 		$num = $this->where($condition)->count();
 		if ($num <= 0) {
@@ -196,13 +203,13 @@ class MemberModel extends Model {
 	 * 节点位置检测合法性
 	 */
 	public function chkParentArea($data) {
-		if ($data['parent_area'] != 'A' && $data['parent_area'] != 'B') {
+		if ($data['parent_area'] != 'A' && $data['parent_area'] != 'B' && $data['parent_area'] != 'C') {
 			$this->error = '节点位置不合法';
 			return false;
 		}
 		$condition = array();
 		$condition['status'] = '1';
-		$condition['level'] = array('in','1,2,3,4,5');
+		$condition['level'] = array('in','1,2,3,4,5,6,7,8');
 		$condition['parent_aid'] = $data['parent_aid'];
 		$condition['parent_area'] = $data['parent_area'];
 		$num = $this->where($condition)->count();
@@ -222,7 +229,7 @@ class MemberModel extends Model {
 		$condition = array();
 		$condition['parent_aid'] = $pid;
 		$condition['status'] = '1';
-		$condition['level'] = array('in','1,2,3,4,5');
+		$condition['level'] = array('in','1,2,3,4,5,6,7,8');
 		$ids = $this->where($condition)->getField('id',true);
 		if (empty($ids)) {
 			//检查完了, 没有了

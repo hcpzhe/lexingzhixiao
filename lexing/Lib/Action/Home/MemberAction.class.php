@@ -57,7 +57,8 @@ class MemberAction extends HomebaseAction {
 	public function add() {
 		$paid = (int)I('paid'); //新会员的节点人
 		if ($paid<=0) $this->error('参数非法',cookie(C('CURRENT_URL_NAME')));	
-		$ptype = I('ptype') === 'B' ? 'B' : 'A';
+		$ptype = I('ptype');
+		$ptype = $ptype==='B'||$ptype==='A' ? $ptype : 'C';
 		$member_M = new MemberModel();
 		$pinfo = $this->_me; //新会员的推荐人
 		$painfo = $member_M->findAble($paid);//新会员的节点人
@@ -73,7 +74,7 @@ class MemberAction extends HomebaseAction {
 		
 		$this->assign('pinfo',$pinfo);//推荐人
 		$this->assign('painfo',$painfo);//节点人
-		$this->assign('ptype',$ptype);//节点类型 A/B
+		$this->assign('ptype',$ptype);//节点类型 A/B/C
 		
 		$randaccount = $member_M->randAccount();
 		$this->assign('randaccount',$randaccount);//随机6位可用的用户名
@@ -95,7 +96,7 @@ class MemberAction extends HomebaseAction {
 			$model = new MemberModel();
 			$info = $model->addByMgr($data);
 			if ($info !== false){
-				$this->success('注册成功，待审核！', U('levelup/lists',array('member_id'=>$info)));//跳转至新会员待审列表
+				$this->success('注册成功，待审核！', U('Levelup/lists',array('member_id'=>$info)));//跳转至新会员待审列表
 			}
 			$this->error($model->getError());
 		}else {
@@ -193,7 +194,7 @@ class MemberAction extends HomebaseAction {
 		$where=array();
 		$where['parent_aid'] = $mid;
 		$where['status'] = '1';
-		$where['level'] = array('in','1,2,3,4,5');
+		$where['level'] = array('in','1,2,3,4,5,6,7,8');
 		$member_l = $member_model->where($where)->select();	
 		foreach ($member_l as $row){
 			$row['son_nums'] = $member_model->sonNums($row['id']); //直推人数
@@ -202,10 +203,12 @@ class MemberAction extends HomebaseAction {
 			if ($row['parent_area'] == 'A'){
 				$member_list['A'] = $row;
 				$this->member($member_model, $row['id'], $member_list['A'], $level);
-			
-			}else {
+			}elseif ($row['parent_area'] == 'B') {
 				$member_list['B'] = $row;
 				$this->member($member_model, $row['id'], $member_list['B'], $level);		
+			}else {
+				$member_list['C'] = $row;
+				$this->member($member_model, $row['id'], $member_list['C'], $level);		
 			}
 		}
 	}
