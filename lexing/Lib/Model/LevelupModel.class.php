@@ -196,9 +196,20 @@ class LevelupModel extends Model {
 			return false;
 		}
 		
+		//bonus表中要更新的数据
+		$bonus_data = array(
+				'member_id' => $levelinfo['rec_id'],
+				'source_id' => $levelinfo['member_id'],
+				'sys_bonus' => $levelinfo['should_pay'],
+				'guanli_fee' => $levelinfo['should_pay'] * $configs['guanlifees'] / 100,
+				'bonus' => 0,
+				'create_time' => time()
+		);
+		$bonus_data['bonus'] = $bonus_data['sys_bonus'] - $bonus_data['guanli_fee'];
+		
 		//存在受益人, 则更新受益人积分
 		if ($levelinfo['rec_id'] > 0) {
-			if (false === $member_M->where('id='.$levelinfo['rec_id'])->setInc('points',$levelinfo['should_pay'])) {
+			if (false === $member_M->where('id='.$levelinfo['rec_id'])->setInc('points',$bonus_data['bonus'])) {
 				$this->rollback();
 				$this->error = '审核失败, 受益人积分更新错误';
 				return false;
@@ -206,14 +217,8 @@ class LevelupModel extends Model {
 		}
 		
 		//在bonus表中记录
-		$data = array(
-			'member_id' => $levelinfo['rec_id'],
-			'source_id' => $levelinfo['member_id'],
-			'bonus' => $levelinfo['should_pay'],
-			'create_time' => time()
-		);
 		$bonus_M = New Model('Bonus');
-		if (false === $bonus_M->data($data)->add()) {
+		if (false === $bonus_M->data($bonus_data)->add()) {
 			$this->rollback();
 			$this->error = '审核失败, 奖金记录添加错误';
 			return false;

@@ -28,8 +28,10 @@ $(function ($) {
     <thead>
         <tr>
             <th>会员用户</th>
-            <th>奖励积分</th>
             <th>奖励来源</th>
+            <th>金额</th>
+            <th>管理费</th>
+            <th>实际奖励积分</th>
             <th>结算时间</th>
         </tr>
     </thead>
@@ -37,7 +39,6 @@ $(function ($) {
     <!-- <foreach name="list" item="row"> -->
 		<tr>
 			<td>{$memlist[$row['member_id']]['account']}（{$memlist[$row['member_id']]['realname']}）</td>
-			<td>{$row['bonus']}</td>
 			<td>
 			<!-- <if condition="$row['source_id'] eq '0' "> -->
 				系统
@@ -45,6 +46,9 @@ $(function ($) {
 				{$memlist[$row['source_id']]['account']}（{$memlist[$row['source_id']]['realname']}）
 			<!-- </if> -->
 			</td>
+			<td>{$row['sys_bonus']}</td>
+			<td>{$row['guanli_fee']}</td>
+			<td>{$row['bonus']}</td>
 			<td>{:date('Y/m/d H:i',$row['create_time'])}</td>
 		</tr>
     <!-- </foreach> -->

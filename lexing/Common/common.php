@@ -6,7 +6,7 @@
  * @param  $basepoints 基础金额
  */
 function get_shouldpay($level, $basepoints) {
-	return $level > 0 ? 2 * $basepoints * $level : $basepoints;
+	return $level > 0 ? 2 * $basepoints * pow(2,$level-1) : $basepoints;
 }
 
 /**

@@ -15,10 +15,12 @@
           <table width="100%" border="0" cellpadding="1" cellspacing="1" bgcolor="#F6F6F6" class="btab">
             <tbody>
               <tr class="tr1">
-                <td width="25%" height="24" align="center" bgcolor="#F0F0F0">账户</td>
-                <td width="25%" align="center" bgcolor="#F0F0F0">奖金来源</td>
-                <td width="25%" align="center" bgcolor="#F0F0F0">奖励积分</td>
-                <td width="25%" align="center" bgcolor="#F0F0F0">结算时间</td>
+                <td width="10%" height="24" align="center" bgcolor="#F0F0F0">账户</td>
+                <td width="10%" align="center" bgcolor="#F0F0F0">奖金来源</td>
+                <td width="20%" align="center" bgcolor="#F0F0F0">积分</td>
+                <td width="20%" align="center" bgcolor="#F0F0F0">管理费</td>
+                <td width="20%" align="center" bgcolor="#F0F0F0">实际奖励积分</td>
+                <td width="20%" align="center" bgcolor="#F0F0F0">结算时间</td>
               </tr>
                <!-- <foreach name="list" item="vo"> -->
               <tr align="center">
@@ -28,6 +30,8 @@
                     {$memlist[$vo['source_id']]['account']}
                     <!--</notempty>-->
                 </td>
+                <td>{$vo['sys_bonus']}</td>
+                <td>{$vo['guanli_fee']}</td>
                 <td>{$vo['bonus']}</td>
                 <td>{:date('Y/m/d H:i:s',$vo['create_time'])}</td>
               </tr>

@@ -38,7 +38,7 @@ class LevelupAction extends AdminbaseAction {
         	//如果查询指定会员, 则不对级别进行限制
         	
         	//默认查询升级记录
-        	$map['level_bef'] = array('in','1,2,3,4');
+        	$map['level_bef'] = array('in','1,2,3,4,5,6,7,8');
         }
         
         

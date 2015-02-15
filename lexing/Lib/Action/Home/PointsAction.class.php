@@ -97,6 +97,10 @@ class PointsAction extends HomebaseAction {
 	public function addCash() {
 		$data = I('param.');
 		$data = array_merge($data, array('member_id'=>MID,'status'=>'1'));
+		if ($data['apply_money']<200) $this->error('最小提现金额为200元!');
+		$tmp_atm = $data['apply_money']/100;
+		if (floor($tmp_atm) != $tmp_atm) $this->error('提现金额请填写100的倍数!');
+		
 		$model = new CashModel();
 		if (false === $model->create($data)) {
 			$this->error($model->getError());
