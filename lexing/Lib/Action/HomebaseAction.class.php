@@ -8,7 +8,7 @@ abstract class HomebaseAction extends Action {
 		import('ORG.Util.Cookie');
 		if (C('USER_AUTH_ON') && !in_array(MODULE_NAME, explode(',', C('NOT_AUTH_MODULE')))) {
 			if(!isset($_SESSION[C('USER_AUTH_KEY')])) {
-				$this->redirect(C('USER_AUTH_GATEWAY'));
+				redirect(C('USER_AUTH_GATEWAY'));
 			}
 		}
 		define('MID', $_SESSION[C('USER_AUTH_KEY')]);
@@ -18,7 +18,7 @@ abstract class HomebaseAction extends Action {
 		
 		$member_M = New Model('Member');
 		$this->_me = $member_M->find(MID);
-		if (empty($this->_me)) $this->redirect(C('USER_AUTH_GATEWAY'));
+		if (empty($this->_me)) redirect(C('USER_AUTH_GATEWAY'));
 		$this->assign('_ME',$this->_me);
 	}
 	

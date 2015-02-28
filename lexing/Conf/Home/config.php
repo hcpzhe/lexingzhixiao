@@ -7,7 +7,7 @@ return array(
 	'AUTH_PWD_ENCODER'		=>'md5',	// 用户认证密码加密方式
 	'PWDTWO_KEY'			=>'mpwdtwo',	//二级密码认证SESSION标记
 
-	'USER_AUTH_GATEWAY'		=>'Home/Common/login',	// 默认认证网关
+	'USER_AUTH_GATEWAY'		=>'../vip.php',	// 默认认证网关
 
 	'NOT_AUTH_MODULE'		=>'',		// 默认无需认证模块
 	'REQUIRE_AUTH_MODULE'	=>'Member',		// 默认需要认证模块
