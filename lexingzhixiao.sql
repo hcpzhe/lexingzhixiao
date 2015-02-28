@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50542
 File Encoding         : 65001
 
-Date: 2015-02-13 18:29:48
+Date: 2015-02-28 12:11:56
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -39,40 +39,9 @@ CREATE TABLE `lx_article` (
 -- ----------------------------
 -- Records of lx_article
 -- ----------------------------
-INSERT INTO `lx_article` VALUES ('33', '新闻', '洛阳市老城区检察院监所检察科对豫西监狱监管进行节前安全大检查', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">春节即将来临，为切实做好春节期间豫西监狱监管改造秩序的安全稳定，防止在押人员非正常死亡、脱逃、行凶、越狱、暴狱等事故的发生，&nbsp;2月</span><span style=\"font-size:18px;\">8</span><span style=\"font-size:18px;\">日主管我院监所工作的副检察长李淑梅同志带领监所检察科全体干警对豫西监狱进行了一次全方位的安全检查：从在押人员食堂到狱内超市，主要对食品安全进行了检查，在检查过程中，李检对监狱陪同领导一再强调，食品安全一定要重视，食堂一定要保持卫生，超市的食品一定不能有过期的商品；</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">从监区、禁闭室到接见室，对其有关情况向陪同监狱领导一一进行询问，同时在接见室查看接见记录，其中，在禁闭室，李检专门询问了在押人员在禁闭期间是否吃的饱，向值班干警指出虽然禁闭是一种惩罚方式，但也一定要保证禁闭人员能够吃得饱，吃的卫生，以防止意外情形的发生；在钢球生产车间，看到个别犯人没带口罩，驻狱检察室主任耿燕玲同志立即向监狱带班干警询问不带口罩的原因，监狱干警进行了解释并保证以后不再有类似情况的出现；</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">检查结束后，李检对监狱陪同领导及干警指出“安全重于泰山”，安全无小事，对于安全一定要高度重视，她特别强调医院、食堂、超市、禁闭室等四大容易出现安全隐患的死角，一定要加强安全防范，以确保春节期间监狱的安全稳定。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388022486', '1388372583', '1');
-INSERT INTO `lx_article` VALUES ('34', '新闻', '洛阳市老城区人民检察院集中学习宣传贯彻党的十八大精神活动实施', '<p class=\"MsoNormal\" align=\"left\">\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">中国共产党第十八次全国代表大会，是在我国进入全面建成小康社会决定性阶段召开的一次十分重要的大会。学习贯彻好党的十八大精神，对于坚定不移的坚持中国特色社会主义道路，全面建成小康社会，开创中国特色社会主义事业新局面，具有重大的现实意义和深远的历史意义。按照市委、市院的统一部署，老城区人民检察院把学习贯彻好党的十八大精神，作为当前和今后一个时期的首要政治任务，充分认识学习宣传贯彻党的十八大精神的重要意义，切实抓紧抓好。为在老城区人民检察院深入开展集中学习宣传贯彻党的十八大精神活动，制定本实施方案。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">一、总体要求</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">深入学习贯彻党的十八大精神，把党的十八大报告确立的重大理论观点、重大战略思想、重大工作部署，转化成广大检察干警明确的政治方向，切实把广大干警的思想和行动统一到党的十八大精神上来，把智慧和力量凝聚到实现党的十八大确定的各项任务上来。用党的十八大精神统领检察工作，努力在检察工作的理论和实践上有新认识、新发展、新成效，全力服务“六加一攻坚战”，为中原经济区建设和实现“福民强市”目标做出新贡献。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">二、基本原则</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">为确保学习贯彻党的十八大精神活动深入扎实开展，要着重把握好以下主要原则：</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">一是坚持领导带头、全员参与。从领导干部到普通干警，人人参与活动，人人受到教育，人人得到提高。区院领导干部要带头学习、带头宣讲、带头实践，学深学透，发挥示范作用。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">二是坚持全面学习、突出重点。全面学习党的十八大报告和党章，既要从总体上把握主题主线、基本观点和领会精神实质，又要系统地钻研报告提出的一系列新思想、新观点、新论断。要结合检察工作，重点学习进一步加强和改善党对检察工作的领导；着力加强法律监督和自身监督，推进司法权力运行公开化、规范化，全力维护公平正义的司法环境。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">三是坚持群众路线、明确标准。把学习贯彻党的十八大精神和落实党的群众路线结合起来，开门搞学习，广泛听取群众对检察工作的意见建议，及时呼应群众对检察工作的新要求新期待，自觉接受群众监督，把群众是否满意作为衡量和检验学习贯彻活动的根本标准，让群众看到学习贯彻活动的实际效果。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">四是坚持注重实践、务求实效。始终做到学习党的十八大精神与检察工作实践相统一、主观世界的改造与客观世界的改造相统一，找准党的十八大精神与检察工作的结合点，注重实践特色，不做表面文章，把党的十八大报告中阐述的科学的理论方法、崇高的理想信念、强烈的宗旨意识转化为推进检察工作的强大动力。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">三、学习专题</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">党的十八大精神内容丰富，内涵深刻，具有很强的思想性、理论性。学习贯彻中，要抓住关键、把握重点，明确学习专题，深入钻研思考。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（一）党的十八大重要学习专题。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">1、深刻领会和把握党的十八大的主题，坚定不移地高举中国特色社会主义伟大旗帜；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">2、深刻领会和把握过去5年和10年党和国家取得新的历史性成就，更加自觉地贯彻党的理论和路线方针政策；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">3、深刻领会和把握科学发展观的历史地位和指导意义，深入贯彻落实科学发展观；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">4、深刻领会和把握中国特色社会主义的内涵和要求，坚定中国特色社会主义的共同信念；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">5、深刻领会和把握全面建成小康社会和全面深化改革目标的新要求，为夺取全面建成小康社会新胜利而奋斗；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">6、深刻领会和把握社会主义建设的重大部署，统筹推进社会主义经济、政治、文化、社会、生态文明建设；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">7、深刻领会和把握全面提高党的建设科学化水平，使党始终成为中国特色社会主义事业的坚强领导核心。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（二）党的十八大指导检察工作的重要学习专题</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">1、坚定不移地高举中国特色社会主义伟大旗帜，自觉履行中国特色社会主义事业建设者、捍卫者的职责使命；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">2、坚定不移地用科学发展观统领检察工作，推动检察工作科学发展；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">3、坚定不移地把检察工作放在全面建设小康社会中来谋划，充分发挥法律监督职能，为到2020年全面建成小康社会提供司法保障，创造良好社会环境；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">4、坚定不移地全面实施依法治国基本方略，树立社会主义法治理念，切实做到严格规范公正文明执法；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">5、坚定不移地维护最广大人民根本利益，着力解决人民群众最关心的社会治安、权益保障、公平正义等突出问题；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">6、坚定不移地加强和创新社会管理，正确处理人民内部矛盾，不断提高社会管理科学化水平；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">7、坚定不移地推进改革创新，落实执法司法公开，有效解决人民群众反映强烈的执法司法问题；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">8、坚定不移地加强检察队伍建设，加强党对检察工作的领导，努力建设一支学习型、服务性、创新性检察队伍；</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">9、坚定不移地加强检察机关党风廉政建设，着力纠正检察领域执法不严、不公等问题，最大限度地预防和减少各类违法违纪案件发生。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">四、阶段安排</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（一）全面学习阶段（2012年11月15日－2013年1月30日）</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n		<b><span style=\"font-size:18px;\">1</span></b><b><span style=\"font-size:18px;\">、全面学习党的十八大报告、党章和习近平同志在十八届一中全会上的重要讲话。</span></b><span style=\"font-size:18px;\">院党组和全体检察干警利用每周集中政治学习、“三会一课”、个人自学等时间，对党的十八大报告等文件进行集中通读，原原本本学习党的十八大报告和党章，全面准确地学习领会党的十八大精神。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n		<b><span style=\"font-size:18px;\">2</span></b><b><span style=\"font-size:18px;\">、分专题重点学习。</span></b><span style=\"font-size:18px;\">按照所列的专题内容，紧密结合本部门检察工作和检察队伍建设实际，分专题重点学习领会。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n		<b><span style=\"font-size:18px;\">3</span></b><b><span style=\"font-size:18px;\">、个人深入自学。</span></b><span style=\"font-size:18px;\">把个人自学作为学习党的十八大精神的基础，要求全体检察干警扎扎实实、原汁原味的学习党的十八大报告和相关文件，充分利用报纸、网络等媒体学习党的十八大的相关评论、报道和深入解读。本阶段个人自学时间不少于15小时，并结合个人思想和工作实际，撰写2-3篇有深度、高质量的学习心得。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n		<b><span style=\"font-size:18px;\">4</span></b><b><span style=\"font-size:18px;\">、组织学习交流活动。</span></b><span style=\"font-size:18px;\">以党组、所在科室、党支部等为单位，组织召开学习交流活动，交流学习心得，畅谈学习体会，理清学习思路，深化学习效果，本阶段各单位组织的学习讨论活动不少于两次。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n		<b><span style=\"font-size:18px;\">5</span></b><b><span style=\"font-size:18px;\">、开展专题辅导。</span></b><span style=\"font-size:18px;\">组织学习党的十八大精神专题报告会或专题辅导活动，邀请党的十八大代表、专家学者、上级领导、英模人物、革命前辈等对党的十八大报告和精神进行深度解读，深化全体检察干警的理解认识。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n		<b><span style=\"font-size:18px;\">6</span></b><b><span style=\"font-size:18px;\">、开办学习园地。</span></b><span style=\"font-size:18px;\">在本单位醒目位置开办学习贯彻党的十八大精神专栏，对单位干警的学习体会进行展示。充分利用检察机关门户网站、政务微博、宣传版面、网络论坛等多种媒体宣传本单位学习贯彻党的十八大精神的具体措施和成效。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n		<b><span style=\"font-size:18px;\">7</span></b><b><span style=\"font-size:18px;\">、举办培训班。</span></b><span style=\"font-size:18px;\">充分发挥检察机关教育培训基地的作用，举办学习贯彻党的十八大精神培训班，集中师资力量，精心编排教程。要把学习贯彻党的十八大精神作为检察机关业务培训的必学课程，保证培训效果。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（二）指导谋划工作阶段（2012年12月1日－2012年12月31日）</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">紧紧围绕党的十八大报告提出的当前形势、基本要求、指导方针、奋斗目标，自觉运用科学发展观统领检察工作，努力把科学发展观贯彻落实到检察工作的各个方面、体现到检察队伍建设的各个环节。结合本单位、本部门工作实际，精心谋划2013年检察业务工作，制定2013年检察工作的目标任务、工作思路、工作措施，把党的十八大精神贯彻于本单位、本部门全年各项业务工作之中。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（三）学习巩固、推进工作阶段（2013年全年）</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">按照市委的统一部署，继续深入学习贯彻党的十八大精神，深化教育培训，把党的十八大精神转化为推动检察工作和队伍建设的强大动力，推动全市检察工作再上新台阶，取得新成绩。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">五、学习方法</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">在深入开展学习贯彻党的十八大精神活动中，要注重学习方法，做到“五个结合”。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（一）把组织集中学习与个人自学结合起来。以个人自学为基础，以集中学习讨论为抓手，尤其要围绕党的十八大报告中的重要学习专题；围绕指导检察工作的重要论断；加强党对检察工作领导的重要举措；开展社会管理创新、推进社会矛盾化解、公正廉洁执法的任务要求，组织好集中学习讨论。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（二）把全体干警学习和领导带头学习结合起来。要按照人人参与学习，人人受到教育，人人得到提高的要求，迅速把党的十八大精神传达到每一名机关党员干部。要重点抓好机关领导同志的学习，领导干部要以身作则，先学一步，融会贯通。全市两级院主要领导要带头抓好学习贯彻活动，结合本单位工作实际，对单位全体干警进行一次学习党的十八大精神专题辅导。要面向全体干警，以党员干警为骨干，以创建学习型党组织为平台，以入脑入心为要求，不断激发广大干警学习的积极性、主动性。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（三）把学习原文与教育辅导结合起来。在抓好深入学习党的十八大一系列重要文件的同时，要善于借助专门研究机构的力量，邀请党的十八大代表、专家学者、革命前辈、英模代表进行教育辅导，对十八大精神进行深入解读，提升学习水平。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（四）把理论学习和深入调研结合起来。院领导干部要把调查研究贯穿于学习活动的全过程，深入基层、深入群众，围绕影响检察工作的热点、难点问题进行调查研究，以党的十八大精神和科学发展观为指导，及时总结，形成经验，以十八大最新理论成果推动检察工作取得新进展。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（五）把学习贯彻和推进工作结合起来。要深刻学习党的十八大报告对当前和今后一个时期政法工作的形势分析、目标任务和方法措施，与检察业务工作紧密结合，与社会主义法治理念教育、政法干警核心价值观教育活动紧密衔接，努力在推动检察工作和队伍建设上取得新成效，以检察工作和检察队伍建设整体水平的提高来体现学习活动实际效果。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">六、活动要求</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（一）提高认识，统一思想。开展学习宣传贯彻党的十八大精神活动是当前和今后一个时期区院检察机关的首要政治任务，是践行科学发展观的思想理论准备，是解决执法司法工作中突出问题的重要载体，是建设一支过硬的检察队伍、推动中国特色社会主义检察事业发展进步的客观要求。广大检察干警要进一步把思想认识统一到中央的部署上来，充分认识开展学习贯彻活动的重要意义，切实增强抓好学习贯彻活动的积极性、自觉性、坚定性。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（二）强化领导，抓好落实。区院主要领导要作为此项活动的责任人，结合本单位实际，研究制定具体的实施方案，积极主动、扎扎实实地抓好组织实施。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（三）丰富载体，突出特色。紧紧围绕学习党的十八大精神的时间安排和方法要求，紧密结合政法干警的思想实际，运用集中学习讨论、学习心得评选、制作学习板报、外出参观学习、专题征文、专题辅导教育等行之有效的载体，把学习活动的内容丰富起来，切实增强学习活动的吸引力、感染力、影响力。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">（四）抓好宣传，营造氛围。充分利用检察机关的宣传版面、学习园地、横幅标语，大力营造浓厚的学习氛围。充分发挥新闻媒体、网络媒体的作用，广泛宣传报道检察机关深入学习贯彻党的十八大精神的具体措施和取得的扎实效果。大力宣传开展学习贯彻党的十八大活动中涌现出来的先进典型、好的经验做法和取得的成效。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\">\r\n		<br />\r\n	</p>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388022536', '1388372700', '1');
-INSERT INTO `lx_article` VALUES ('35', '新闻', '洛阳市老城区人民检察院互联网门户网站管理实施细则', '<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:0cm;text-align:center;\">\r\n	<b><span style=\"font-size:18px;\">第一章</span></b><b> </b><b><span style=\"font-size:18px;\">总则</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第一条</span></b><span style=\"font-size:18px;\"> 为促进老城区人民检察院互联网门户网站信息发布规范化、制度化，保障信息发布及时、准确，确保网站系统安全、有效运转，根据《洛阳市人民检察院互联网门户网站管理实施细则》和老城检察工作实际，制定本细则。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第二条</span></b><span style=\"font-size:18px;\"> 门户网站以正面反映检察工作为重点，宣传先进事迹，树立老城区院良好形象；积极开展政务公开、法律咨询和普法教育，认真受理网上举报、控告和申诉信息，发挥窗口示范作用，拓展检民联系平台。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第三条</span></b><span style=\"font-size:18px;\"> 门户网站信息发布内容</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（一）&nbsp;本单位、本部门出台的政策措施、工作目标以及不涉及保密内容的各项活动开展情况；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（二）&nbsp;重点工作的进展情况和关系群众切身利益的福民惠民实事；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（三）&nbsp;重大决策征求网民的意见建议；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（四）&nbsp;群众关注的与本单位职能密切相关的信息以及其他应向群众公开的各类便民、利民信息；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（五）&nbsp;重大突发事（案）件权威信息发布；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（六）&nbsp;针对各类影响社会稳定的猜测、谣言，发布澄清和辟谣信息；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（七）&nbsp;有关我区经济、文化、旅游等方面的各类正面资讯；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（八）&nbsp;不涉及保密的其他可以公开的事项。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第四条</span></b><span style=\"font-size:18px;\"> 门户网站信息发布的形式</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（一）&nbsp;文字发布：文字要规范，条理要清晰；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（二）&nbsp;图片发布：图片要清晰、精美，符合相关主题；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（三）&nbsp;视频发布</span><span style=\"font-size:18px;\">:</span><span style=\"font-size:18px;\"> 视频要健康、紧凑。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:0cm;text-align:center;\">\r\n	<b><span style=\"font-size:18px;\">第二章 组织机构</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第五条</span></b><span style=\"font-size:18px;\"> 区院成立门户网站运行管理领导小组，负责区院门户网站的统一规划和运行管理。领导小组成员如下：</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">组&nbsp;长：宋&nbsp;涛&nbsp;区院党组书记、检察长</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">副组长：左春生</span><span> </span><span style=\"font-size:18px;\">区院党组副书记、副检察长</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">张&nbsp;豪&nbsp;区院党组成员、纪检组长</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">田&nbsp;兵&nbsp;区院党组成员、政治处主任</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">成员单位：办公室、政治处、技术科、政研室、监察科、侦监科、公诉科、反贪局、反渎局、监所科、民行科、控申科、预防局、法警队</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">领导小组下设办公室，负责门户网站的日常管理和协调工作，办公室设在政治处。办公室主任由田兵同志兼任，副主任由宣教科科长王睛同志和技术科科长刘丹同志担任，成员由门户网站所涉及各版块相对应的综合部门和业务部门指定的信息员组成。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第六条</span></b><span style=\"font-size:18px;\"> 门户网站根据信息内容划分为不同版块，各版块所发布信息由对应部门提供，并对该版块负责，具体分工如下：</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">1、“检察长之窗”、“检察长信箱”、“检察动态”、“人大代表政协委员联络平台”由办公室负责，“检务公开”由办公室、监察科共同负责；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">2、“举报台”由控申科负责；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">3、“预防警示”由预防局负责；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">4、“检察英模”、“检察文化”、“检察风采”由政治处宣教科负责；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">5、“检察业务”由各业务部门负责；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">6、“专题专栏”根据内容不同，由申请开办专题专栏的科室负责；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">7、“法治论坛”、“法律法规”由政研室负责；</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">8、“检务督察”由监察科负责。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">区院根据工作需要可增设新的版块，新版块由职责对应的部门负责。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第七条</span></b><span style=\"font-size:18px;\"> 区院机关各科室负责人为对应版块的第一责任人，负责对信息的政治性、真实性、保密性进行审核。各科室信息员（由各科室内勤担任）为对应版块的责任人，负责本部门信息的收集、整理、送审和发布。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第八条</span></b><span style=\"font-size:18px;\"> 门户网站各版块的负责科室每月上传信息不得少于四条，每周至少上传信息一次。检察长信箱、举报台等重要栏目的责任科室每天至少查看信箱一次，发现群众申诉、举报等信息，及时按照相关流程进行处理和回复。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:0cm;text-align:center;\">\r\n	<b><span style=\"font-size:18px;\">第三章 发布流程</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第九条</span></b><span style=\"font-size:18px;\"> 区院各科室信息员负责收集本部门拟发布的信息并填写《网站发文申请表》，拟发布信息经本部门领导审核签字后交由院政治处宣教科审核，宣教科负责人对拟发布信息的文字内容进行审核后签发，签发后的信息由各部门信息员负责上网发布。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24pt;\">\r\n	<span style=\"font-size:18px;\">市院“基层检察风采”版块发布流程。拟发布信息经区院审核后，由本单位信息员直接在该版块进行发布；也可根据拟发布信息内容，上报市院对口处室，按照市院信息发布流程在相应业务版块进行发布。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第十条</span></b><span style=\"font-size:18px;\"> 区院各相关部门负责人在对拟发布信息进行审核时，无法确定是否涉密时，应先提交区院保密委进行审核。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第十一条</span></b><span style=\"font-size:18px;\"> 涉及重大决策、敏感事（案）件、突发事件以及其他可能引起网络舆情的信息发布，由各部门负责人层报主管检察长审核后，交区院政治处宣教科签发。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:0cm;text-align:center;\">\r\n	<b><span style=\"font-size:18px;\">第四章</span></b><b> </b><b><span style=\"font-size:18px;\">运行维护</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第十二条</span></b><span style=\"font-size:18px;\"> 各科室建立门户网站信息登记册，及时将发布信息的电子版文稿（含图片、视频）和《网站发文申请表》归档保存，并一式两份，一份报宣教科，一份存档，以备查阅。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">第十三条</span></b><span style=\"font-size:18px;\"> 区院信息员每天要定时查看门户网站，掌握舆论动态，关注网友评论。需要网络回复时，及时进行回复。发现重大问题或涉检网络舆情，及时层报相关领导，启动网络舆情应急处置预案。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:0cm;text-align:center;\">\r\n	<b><span style=\"font-size:18px;\">第五章</span></b><b> </b><b><span style=\"font-size:18px;\">奖惩</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<b><span style=\"font-size:18px;\">第十四条</span></b><span style=\"font-size:18px;\"> 区院根据门户网站信息发布数量和内容质量对科室信息发布情况进行评比考核并及时通报，考核结果作为年终考评的重要依据。对工作成绩突出的单位和个人将给予表彰。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<b><span style=\"font-size:18px;\">第十五条</span></b><span style=\"font-size:18px;\"> 对网站栏目疏于管理，信息发布不实，信息泄密或重大敏感问题回应不当，造成不良影响的，取消科室年终评先资格，对责任人按照相关规定进行处理。</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:272.8pt;\">\r\n	<span style=\"font-size:18px;\">洛阳市老城区人民检察院</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:296.8pt;\">\r\n	<span style=\"font-size:18px;\">2012年</span><span style=\"font-size:18px;\">12</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">17</span><span style=\"font-size:18px;\">日</span><span></span> \r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388022573', '1388372889', '1');
-INSERT INTO `lx_article` VALUES ('36', '新闻', '以榜样的力量践行政法干警核心价值', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24pt;\">\r\n	<span style=\"font-size:18px;\">政法干警核心价值观教育实践活动开展以来，在上级党委、市院的安排部署下，在新任检察长宋涛同志的带领下，老城区检察院按照“落实责任，实干争先”的工作思路，立足“小处着手、实处着手，不求标新立异、只把虚工实做”，把教育实践活动作为全心全意为人民服务宗旨在检察工作中的生动实践来抓，及时动员部署，制定方案，坚持走“突出特色、注重实效、统筹推进”之路，取得了阶段性成效。近三年来，我院先后荣获\r\n“全省先进基层党组织”、“全省人民满意的政法单位”、“洛阳市志愿服务工作先进单位”、洛阳市政法系统“结对帮扶工作先进单位”等称号，以实际行动较好的践行了政法干警核心价值观。我们的主要做法是：</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24.1pt;\">\r\n	<b><span style=\"font-size:18px;\">一、突出榜样示范特色，让干警在学习先进典型中强化对核心价值观的思想认同。</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24pt;\">\r\n	<span style=\"font-size:18px;\">思想是行动的先导。我们在开展核心价值观教育实践活动中，注意发掘身边人身边事，树立身边典型，重点宣传“中原卫士”、“省维护妇女儿童合法权益先进个人”\r\n、践行政法干警核心价值观楷模、我院侦查监督科科长全市检察机关践行政法干警核心价值观“十大标兵”梁香敏同志的先进事迹，为广大干警树立标杆，更有效地引导干警在人生观、价值观层面增强对政法核心价值的思想认同，有力提升了教育实效。一是拨亮先进典型的闪光点，发挥榜样的引导作用。组织干警学习典型，注重从理性层面引导干警深入挖掘和提炼先进典型思想深处的闪光点，通过运用内部网络、宣传板报、简报、电子屏等各种宣传方式，让我院干警在理性思考中明白，梁香敏同志身上所体现的精神中，最核心、最闪耀的就是牺牲奉献精神，这种精神切合了“忠诚、为民、公正、廉洁”政法干警核心价值观的特性。选择了检察官这个职业就是选择了牺牲奉献，提高了干警对职能使命和自身价值的思想认识，提升了爱岗敬业、尽职尽责、自觉奉献、勇于牺牲的思想境界。二是挖掘先进典型的社会价值，发挥榜样的教育作用。我们通过梁香敏同志鲜活感人的事例和言传身教，使观念成为习惯、规范变为行动，在学用统一、知行合一、教育与实践相结合的过程中挖掘出其蕴含的社会价值，发挥好其教育人鞭策人鼓舞人激励人的作用。在这种操作性很强的教育示范作用中，核心价值观成为一种看得见摸得着的事物，为广大干警所感知、所认同、所接受。三是揭示先进典型的人格力量，发挥榜样的激励作用。积极的人生态度有助于干警自觉树立政法核心价值观。我们在活动开展过程中，大力宣扬雷锋、白洁、梁香敏等先进典型积极进取、乐观有为的人生态度，引导干警面对基层检察机关的繁重任务和严峻挑战，将核心价值观转化为执法办案的行为习惯，通过实际行动树立和维护人民检察院公正司法、廉洁司法、为民司法的良好形象。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24.1pt;\">\r\n	<b><span style=\"font-size:18px;\">二、注重精神启迪作用，让干警在学习先进典型中强化对核心价值观的理论认同</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24pt;\">\r\n	<span style=\"font-size:18px;\">理论只有说服人，才能掌握群众。我们注重揭示先进典型对核心价值观真学、真信和真用的坚定性，在宣传先进人物的过程中，营造一种学先进、赶先进的浓厚氛围，充分利用精神启迪作用，帮助干警从理论上认同核心价值观的根本要求。一是老戏台，唱新歌。我们充分利用现有资源，着力打造以党建教育为核心，以政策理论学习为内容，以传统文化为特色的教育活动中心。把市院开展的“两个经常性”工作和主题教育实践活动结合起来，利用周五学习日制度，在全院开展“干警大讲堂”、“河洛文化道德大讲堂”活动，组织干警讲身边事、讲身边人，比照先进找差距，营造浓郁的学习氛围。二是新瓶子，装旧酒。我院针对以往活动开展中，由于形式单一、内容单调、生动性不强，存在检察人员疲于参与的问题，及时转变观念，积极丰富活动载体，把专题辅导与座谈讨论结合起来，组织干警交流学习感悟和心得体会；把理论授课与业务学习结合起来，启迪干警在工作中思索核心价值观的实际意义；把先进人物宣讲与业务竞赛结合起来，引领干警将榜样带来的激励发挥到本职工作中去。三是改旧衣换新装。把开大会变为搞活动，把念文件变为作实践，把读报纸变为作交流，组织先进人物进行事迹报告、组织青年干警结合工作谈领悟、组织人员结合活动做宣传。精心组织开展“文明道德大讲堂”活动，先后邀请市、区道德楷模讲课</span><span style=\"font-size:18px;\">9</span><span style=\"font-size:18px;\">次，做到内容生动化、载体丰富化、形式多样化，干警的参与积极性和教育成效均有了明显提高。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24.1pt;\">\r\n	<b><span style=\"font-size:18px;\">三、树立理念领航坐标，让干警在学习典型中强化对核心价值观的实践认同。</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24pt;\">\r\n	<span style=\"font-size:18px;\">实践是检验真理的唯一标准。先进典型的根本特征是立足本职岗位创一流、争先进。我们引导干警围绕我院“落实责任、实干争先”的工作思路，努力践行核心价值观，将一项项口头承诺、书面行动，外化为了一份份沉甸甸的责任、一个个强有力的行动。一是请进来、真情换实意。以梁香敏同志先进事迹为动力，按照核心价值观的要求，从增强群众感情入手，凡是群众来访，一律坚持“来访必接、不推脱，有问必答、不敷衍，有求必应、不懈怠”的原则，让群众清清楚楚知缘由，明明白白走出去，近三年，给付群众困难补助金</span><span style=\"font-size:18px;\">68</span><span style=\"font-size:18px;\">万元，先后化解积案</span><span style=\"font-size:18px;\">7</span><span style=\"font-size:18px;\">件，化解率达到了</span><span style=\"font-size:18px;\">100%</span><span style=\"font-size:18px;\">。在</span><span style=\"font-size:18px;\">2010</span><span style=\"font-size:18px;\">年第四季度和</span><span style=\"font-size:18px;\">2011</span><span style=\"font-size:18px;\">年第三季度，全市公众安全感指标和政法机关执法满意率考评排名中我院名列第一名。二是走出去、人心换人心。我院以核心价值观教育活动为载体，把政法干警核心价值观教育实践活动的课堂放在社区、群众家中。组织干警到帮扶村镇、社区开展“开门评警”“走访困难户、关爱空巢老人”活动，通过“走亲戚、认亲家”，先后组织干警</span><span style=\"font-size:18px;\">100</span><span style=\"font-size:18px;\">余人次到辖区各单位走访人大代表、政协要员、人民群众，让干警了解民情听民意，老百姓的艰辛和淳朴给大家上了一堂生动的核心价值观教育课，让同志们切身体会到了“深入群众鱼得水、脱离群众树断根”的深刻内涵。三是献爱心、真诚为公益。引导干警学习梁香敏同志传承爱心、关心他人、回馈社会的工作理念，组织干警积极参与为灾区、困难人群捐款捐物活动、“我为花会添光彩”志愿服务活动、“万名志愿者助交通”服务活动等社会公益活动，让干警在服务社会中增强为民意识、在回馈社会中累积为民情怀，让核心价值观外践于行、内化于心，为检察干警与百姓之间架起了一座“连心桥”。我院志愿服务队在老城区青年宫广场开展的“学习雷锋志愿服务”活动</span><span style=\"font-size:18px;\">，被洛阳电视台进行了专题报道，并得到辖区群众的称赞。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24pt;\">\r\n	<span style=\"font-size:18px;\">典型引航方向，榜样传递力量。我们将深入持久地开展学习雷锋、学习白洁等先进典型活动，更多的树立像梁香敏同志这样的身边榜样，引导干警像先进典型一样坚持信仰，坚定信念，躬身实践，牢固树立和自觉践行“忠诚、为民、公正、廉洁”政法核心价值观，进一步坚守忠诚的政治本色、树牢为民的宗旨理念、坚定公正的价值追求、严守廉洁的基本操守，为党的“十八”大胜利召开，为洛阳经济社会发展做出新的更大贡献。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388022613', '1388372981', '1');
-INSERT INTO `lx_article` VALUES ('37', '新闻', '洛阳市老城区人民检察院贯彻落实十八大精神宣传活动方案', '<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">为大力宣传检察机关认真学习贯彻党的十八大精神和开展全市“环境创优”活动的各项举措，充分展示近年来检察机关认真履行法律监督职能、积极参与社会管理创新和服务地方经济发展取得的显著成效，区院党组研究决定，自12月10日起，在区院检察机关开展为期两个月的集中宣传活动。为保证活动顺利实施，特制定如下方案。</span><br />\r\n<span style=\"font-size:18px;\"> 一、指导思想</span><br />\r\n<span style=\"font-size:18px;\"> 以邓小平理论、“三个代表”重要思想和科学发展观为指导，深入贯彻落实党的十八大精神，拓宽宣传渠道，着力宣传检察机关履行职能、服务大局取得的成就。</span><br />\r\n<span style=\"font-size:18px;\"> 二、组织领导</span><br />\r\n<span style=\"font-size:18px;\"> （一）活动领导小组</span><br />\r\n<span style=\"font-size:18px;\"> 组 长：宋 涛 &nbsp;党组书记、检察长</span><br />\r\n<span style=\"font-size:18px;\"> 副组长：左春生 &nbsp;党组副书记、副检察长</span><br />\r\n<span style=\"font-size:18px;\"> 田 兵 党组成员、政治处主任</span><br />\r\n<span style=\"font-size:18px;\"> 成 员：王正国、郑爱华、刘勇、王睛、裴涛、卢荃荃、鲍旭、耿燕玲、王伟红、孙艺、李乐毅、刘丹、任予飞、张宏强、闫红妹</span><br />\r\n<span style=\"font-size:18px;\"> 集中宣传活动领导小组下设办公室，办公室设在政治处，办公室主任由王睛兼任。</span><br />\r\n<span style=\"font-size:18px;\"> （二）职责分工</span><br />\r\n<span style=\"font-size:18px;\"> 1、办公室：负责梳理近年来区院各部门亮点和特色工作，整理相关材料，提供新闻线索，配合宣教科开展宣传活动。</span><br />\r\n<span style=\"font-size:18px;\"> 2、宣教科：在领导小组统筹安排下，负责集中宣传活动的具体策划和组织协调。对内联络各部门，督促提供新闻线索和宣传素材，在各部门的配合下组织撰写宣传材料；对外联络新闻单位，协调各媒体分层次、有步骤的开展宣传活动。</span><br />\r\n<span style=\"font-size:18px;\"> 3、各部门：深入挖掘、认真总结近年来业务工作的有效经验做法和特色亮点工作，提供有价值的新闻线索，协助宣教科撰写宣传材料，积极配合宣传部门开展集中宣传活动。</span><br />\r\n<span style=\"font-size:18px;\"> 4、技术科：负责区院门户网站的技术支持工作。根据集中宣传工作安排，协助宣教科对网页布局、板块设计进行必要的调整；组织网站技术支持人员根据需要进行微博更新、网页设计和美工处理等工作。</span><br />\r\n<span style=\"font-size:18px;\"> 三、宣传重点</span><br />\r\n<span style=\"font-size:18px;\"> 1、围绕十八大的胜利召开，重点宣传检察机关学习贯彻十八大会议精神, 明确目标、统一思想，主动把智慧和力量凝聚到十八大确定的各项任务上的各项举措，展现检察干警高度负责、奋发有为的精神面貌。</span><br />\r\n<span style=\"font-size:18px;\"> 2、围绕“福民强市”总体目标，重点宣传我院在全市“环境创优”活动中的好的做法和突出成效，集中展现我院完善自身监督、强化队伍建设，积极参与社会矛盾化解、社会管理创新和服务经济大局的时代风貌。</span><br />\r\n<span style=\"font-size:18px;\"> 3、围绕“强化法律监督，维护公平正义” 的检察工作主题，重点宣传我院在打击犯罪、保障人权方面的工作成绩，尤其是惩治和预防腐败领域取得的显著成效，集中展现我院认真履行法律监督职能，促进司法公正，努力维护廉洁高效的政务环境及和谐稳定的社会环境的良好职业形象。</span><br />\r\n<span style=\"font-size:18px;\"> 4、围绕“政法干警核心价值观教育实践活动”，重点宣传近年来我院涌现出来的典型人物和模范事迹，展现检察干警忠诚为民、秉公执法，无私奉献的崇高道德品质和精神追求。</span><br />\r\n<span style=\"font-size:18px;\"> 四、宣传方法</span><br />\r\n<span style=\"font-size:18px;\"> （一）平面媒体宣传</span><br />\r\n<span style=\"font-size:18px;\"> 1、积极协调《检察日报》、《公民与法》、《河南法制报》等平面媒体，争取在报刊显著位置刊登我院大稿、专稿。配合省院、市院在《检察日报》、《河南法制报》等新闻媒体开展“走基层、学先进、促工作、树形象”集中宣传活动。</span><br />\r\n<span style=\"font-size:18px;\"> 2、积极协调《洛阳日报》、《洛阳晚报》等媒体有选择的开辟专访、专栏、专版、专题等，报道学习贯彻十八大精神及近年来重点工作、社会热点、典型人物和重要案件。</span><br />\r\n<span style=\"font-size:18px;\"> （二）影视、网络类媒体宣传</span><br />\r\n<span style=\"font-size:18px;\"> 1、以电影《火红的杜鹃花》为载体，印制检察机关宣传册和程建宇同志事迹简介，配合电影的放映向社会公众发放。</span><br />\r\n<span style=\"font-size:18px;\"> 2、邀请洛阳电视台等媒体对我院亮点工作及特色工作进行专访，在热点时段刊播；邀请洛阳广播电台开展检察长访谈活动，在热点频道刊播；按市院安排继续推进践行政法干警核心价值观“十大标兵”的电视展播活动。</span><br />\r\n<span style=\"font-size:18px;\"> 3、充分发挥区院政务微博在政务公开、便民服务方面的积极作用，积极开展与网民的互动和交流，积极发布各类宣传信息；注重微博与网站及其他单位政务微博之间的联络和互动。</span><br />\r\n<span style=\"font-size:18px;\"> （三）社会宣传</span><br />\r\n<span style=\"font-size:18px;\"> 1、在辖区主要街道、社区、乡镇机关、学校、厂矿所在地，利用标语横幅、宣传资料、宣传挂图、宣传展板、电子显示屏、普法讲座、现场法律咨询等形式进行街头宣传，配合执法大走访“四项制度”的贯彻落实，适时进行宣传报道。</span><br />\r\n<span style=\"font-size:18px;\"> 2、认真配合“检察开放日”活动，邀请社会各界人士和媒体记者参加，向社会展现检察机关良好形象；适时召开媒体恳谈会，积极配合人大代表座谈会等活动对检察机关进行宣传。</span><br />\r\n<span style=\"font-size:18px;\"> 五、宣传步骤</span><br />\r\n<span style=\"font-size:18px;\"> 第一阶段（12月10日-12月16日）：</span><br />\r\n<span style=\"font-size:18px;\"> 1、各部门严格按照方案要求，结合本部门实际，及时制定本部门活动方案，加强沟通协调，作出安排部署。</span><br />\r\n<span style=\"font-size:18px;\"> 2、各部门要深入挖掘线索、广泛收集材料、及时提供新闻线索和文字图片、视频资料等宣传素材。</span><br />\r\n<span style=\"font-size:18px;\"> 3、紧扣宣传重点，对新闻线索和宣传素材进行整理归类，筛选有价值的线索，组织人员重点挖掘。</span><br />\r\n<span style=\"font-size:18px;\"> 第二阶段（2012年12月17日-2013年1月20日）：</span><br />\r\n<span style=\"font-size:18px;\"> 1、集中宣传，展示成果</span><br />\r\n<span style=\"font-size:18px;\"> 对各部门上报的宣传素材进行整理归纳，集中宣传，认真配合省院做好“走基层、学先进、促工作、树形象”集中宣传活动，努力提高检察机关宣传信息在平面类专栏、电视类专题、广播类访谈节目中的刊播频率。区院门户网站、微博等自有媒体要全力配合平面、电视广播类媒体和网络媒体的宣传进度。</span><br />\r\n<span style=\"font-size:18px;\"> 2、电影《火红的杜鹃花》展映</span><br />\r\n<span style=\"font-size:18px;\"> 按照省院统一部署，12月16日至23日，电影《火红的杜鹃花》将在洛阳集中展映。以此为契机，印制洛阳检察机关宣传册和程建宇同志事迹简介，配合电影的放映向社会公众发放，进一步提升检察机关形象。</span><br />\r\n<span style=\"font-size:18px;\"> 3、微博上线集中宣传</span><br />\r\n<span style=\"font-size:18px;\"> 按市院要求，在前期各项筹备工作到位的基础上，我院政务微博计划于12月中旬，在腾讯网和新浪网同步上线。借微博上线之机，协调腾讯网、新浪网及其他各大网站进行集中宣传，联系“云南检察”、“湖北检察”、“精彩洛阳”、“平安洛阳”等知名微博协助进行集中转播宣传，各部门内勤和区院网络评论员都要开通个人微博，收听并转发市院“洛阳检察”微博相关内容，提升市院政务微博的影响力。</span><br />\r\n<span style=\"font-size:18px;\"> 4、“检察开放日”集中宣传</span><br />\r\n<span style=\"font-size:18px;\"> 按照市院部署，认真配合开展“检察开放日”活动，一是邀请媒体记者参加活动，协调媒体积极发稿；二是在区院门户网站和政务微博上对活动进行图片直播，进一步提升宣传效果。</span><br />\r\n<span style=\"font-size:18px;\"> 5、社会宣传</span><br />\r\n<span style=\"font-size:18px;\"> 积极组织人员，主动走上街头，深入社区、学校、厂矿有针对性的开展成果展示、普法讲座等社会宣传活动，着力提升检察机关整体形象。集中宣传活动不得少于3次；认真配合相关部门落实执法大走访“四项制度”，进一步贴近群众。</span><br />\r\n<span style=\"font-size:18px;\"> 第三阶段（2013年1月21日-2013年2月20日）:</span><br />\r\n<span style=\"font-size:18px;\"> 邀请媒体记者参加媒体恳谈会，通报近年来检察机关工作成果，听取新闻单位对检察宣传工作的意见和建议，争取各新闻单位对检察工作的理解和支持。</span><br />\r\n<span style=\"font-size:18px;\"> 六、工作要求</span><br />\r\n<span style=\"font-size:18px;\"> （一）高度重视，加强领导。各部门要明确责任领导负责此项工作，并指定联络人员与活动领导小组办公室积极沟通，保持联系。结合本部门实际，制定工作方案，成立活动领导机构，加强督查指导，确保集中宣传活动取得扎实成效。</span><br />\r\n<span style=\"font-size:18px;\"> （二）认真策划，切实保证宣传效果。各部门确保将工作亮点、工作特色及模范人物充分发掘并予以展现，要及时将活动开展情况、重要新闻线索和宣传素材报送活动领导小组办公室。区院根据提供的宣传报道线索，确定宣传报道重点，适时组织省、市相关媒体进行集中采访和深度报道。</span><br />\r\n<span style=\"font-size:18px;\"> （三）各部门务必于12月14日前将此次活动的部门责任领导和联络员名单报送政治处，同时上报本部门的活动方案；于12月17日前将新闻线索和宣传素材报送政治处。</span><br />\r\n<span style=\"font-size:18px;\"> 洛阳市老城区人民检察院</span><br />\r\n<span style=\"font-size:18px;\"> 2012年12月10日</span><br />\r\n<br />\r\n<br />\r\n<!--[if !supportLineBreakNewLine]--><br />\r\n<!--[endif]-->\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388022656', '1388373071', '1');
-INSERT INTO `lx_article` VALUES ('38', '新闻', '老城区检察院反贪局关于开展“侦查技能竞赛”活动实施方案', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">为了进一步落实全市检察机关反贪工作会议精神，进一步加强反贪干警队伍建设，提升反贪干警侦查业务技能水平，促进我院反贪工作深入健康发展，根据目前全市反贪工作实际，根据市院“侦查技能竞赛”活动实施方案的要求，报请我院党组同意，现制定我院“侦查技能竞赛”活动实施方案。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<b><span style=\"font-size:18px;\">一、指导思想</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">根据院党组对反贪工作的要求和市院反贪工作会议的要求，围绕院党组和市院反贪局确立的反贪工作目标，按照我院</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年检察工作意见要求的“突出重点、改善结构、提高质量、增强效果”，进一步增强查办职务犯罪的质量和效果，进一步加大办案力度，提高反贪干警侦查业务能力和水平，打造高素质的专业化反贪队伍，推进我院反贪工作的健康稳定发展。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<b><span style=\"font-size:18px;\">二、组织领导</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">为加强对反贪局“侦查技能竞赛”活动的组织领导，我院成立了活动领导小组，党组书记、检察长宋涛任组长，党组副书记、副检察长左春生，党组成员、反贪局长王正国任副组长，反贪局副局长，各科长任领导小组成员，领导小组下设办公室，办公室设在反贪局，副局长孟庆涛任办公室主任。领导小组的成立，加强对“侦查技能竞赛”活动的组织领导，确保活动收到实效。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<b><span style=\"font-size:18px;\">三、活动目标及考核办法</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">深入开展“侦查技能竞赛”活动，使干警在综合分析能力、逻辑思维能力、语言组织能力、随机应变能力和侦查判断能力等方面得到锻炼；使干警在侦查业务方法、手段、技巧、策略等得到提升。通过此次活动，争取发现、培养一到二名侦查业务骨干，增强我院反贪队伍的综合素质。力争以此次活动为契机，我院进一步加大办案力度，争取多立二到三起案件，包括二起大要案，多判几起案件，进一步提高大要案率，有罪判决率和实刑判决率，使反贪工作的各项指标得到全面提升。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">本次活动考核以案件数量为标准，市院反贪局给我院下达的基本立案任务为</span><span style=\"font-size:18px;\">10</span><span style=\"font-size:18px;\">人，完成基本任务的，每多立</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">人年终考评时在立案项目中按实际立案数加</span><span style=\"font-size:18px;\">0.5</span><span style=\"font-size:18px;\">人；完不成基本任务的，每少立</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">人，年终考评时在立案项目中按实际立案数减</span><span style=\"font-size:18px;\">0.5</span><span style=\"font-size:18px;\">人计分。由于我院年初一二月份没有立案，虽然任务比较艰巨，但一定要排除万难、迎头赶上，坚决完成市院下达的立案</span><span style=\"font-size:18px;\">10</span><span style=\"font-size:18px;\">人任务。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<b><span style=\"font-size:18px;\">四、方法步骤</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">本次“侦查技能竞赛”活动分为动员部署、集中查办和总结表彰阶段。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">我院根据市院的要求，召开全体反贪干警参加的动员大会，对本次活动进行部署，对本次活动做出具结安排。集中查办阶段为</span><span style=\"font-size:18px;\">3</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">日至</span><span style=\"font-size:18px;\">6</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">10</span><span style=\"font-size:18px;\">日。我院检察长宋涛亲自抓办案，从人员和装备上予以协调；主管副检察长左春生把主要精力放在组织侦查指挥办案上；反贪局长王正国现场指挥，亲自指挥办案，落实各项办案措施。本次活动中要充分调动反贪干警对积极性，力争办理一批高质量、效果好的职务犯罪案件。</span><span style=\"font-size:18px;\">6</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">15</span><span style=\"font-size:18px;\">日前后，我院要根据反贪局办理案件情况，报送活动工作总结，对本次活动进行总结讲评，对成绩突出对侦查科和个人进行表彰，年底优先评先，对落后对侦查科要进行批评。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<b><span style=\"font-size:18px;\">五、侦查技能竞赛具体办法</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">（一）侦查方式要与时俱进，侦查谋略要有所加强</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">在“侦查技能竞赛”活动中，我局办案要注重案件的侦查工作，注意运用多种类型的侦查手段，降低查处案件的风险度。在讯问过程中，注意讯问技巧，讯问方式，在讯问前要制定好详细完善的讯问预案。在办案过程中要充分运用信息技术手段，加大办案的技术含量，提高办案效率。通过办理案件，来强化业务能力、提高审讯技能，积累工作经验。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:27.75pt;\">\r\n	<span style=\"font-size:18px;\">（二）注重办案质量，突出办案重点</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:28pt;\">\r\n	<span style=\"font-size:18px;\">在办理案件过程中，要依《河南省检察机关反贪部门办案工作考评办法》为指导，既要注重办案数量，更要注重办案质量，提高大要案比例，加快诉讼进程，提高判决率。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:28pt;\">\r\n	<span style=\"font-size:18px;\">在完成“侦查技能竞赛”任务的过程中，要紧紧围绕市院办案要突出重点这一要求。集中查办一批涉及社会主义新农村建设、涉及工商领域的贪污贿赂犯罪案件。真正发挥反贪部门在维护保障民生、服务社会建设、构建和谐社会中的职能作用，树立检察机关的良好形象。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:28pt;\">\r\n	<span style=\"font-size:18px;\">（三）坚持“三位一体”办案机制，注重办案效果</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:28pt;\">\r\n	<span style=\"font-size:18px;\">一是自觉服务经济社会发展，保障诉讼参与人合法权益，认真接受社会监督，实现查办职务犯罪工作的服务化、透明化、人性化。二是要不断改进办案的方式方法，依法办案，文明办案，在严惩贪污贿赂犯罪的同时，有效化社会矛盾，维护社会秩序。三是认真贯彻宽严相济的刑事政策，既要严格执法，又要宽严适度，化解社会矛盾，促进社会和谐。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:28pt;\">\r\n	<span style=\"font-size:18px;\">（四）严格遵循规章制度，确保办案安全</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:28pt;\">\r\n	<span style=\"font-size:18px;\">在完成“侦查技能竞赛”的同时，要严格遵守市院各项规章制度，坚持线索报备制度，继续实行立案评估审查制度，在大力推进案件数量的同时，保证案件质量，注重办案效果。紧抓办案安全，牢记种检所提出的“</span><span style=\"font-size:18px;\">100</span><span style=\"font-size:18px;\">－</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">＝</span><span style=\"font-size:18px;\">0</span><span style=\"font-size:18px;\">”的办案安全思想。坚持一手抓办案，一手抓安全，确保不发生任何安全问题。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024103', '1388373117', '1');
-INSERT INTO `lx_article` VALUES ('39', '新闻', '老城区人民检察院开展学习实践检察官职业道德准则活动情况报告', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">为深入贯彻落实党的十七届四中全会精神，大力加强和改进检察机关党的建设和作风建设，根据全国检察机关“学习实践检察官职业道德基本准则”主体现场会精神和省市院的要求，区院坚持以科学发展观为指导，围绕“强化法律监督、维护公平正义”的检察工作主题，多措并举，从外部及内部，从理念到行为，从干警素能到执法机制等多方面统筹兼顾，齐下功夫，不断提高检察干警的职业道水准，推动区院队伍建设科学化、规范化、制度化，从而有效提升检察干警的职业形象和执法公信力。该活动按照实施方案的安排处于组织讨论阶段，现将主题教育活动动员部署、学习培训阶段的情况简要总结如下：</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一、抓部署，快动员、快启动</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">在全国检察机关“学习实践检察官职业道德基本准则”主体现场会后，我院先后召开了院党组会议、中层干部会议和全院动员大会，认真传达贯彻上级院的文件和有关领导讲话精神，制定了活动实施方案，对我院主题教育活动的开展进行了安排部署。由于领导班子高度重视，行动迅速，措施有力，区院顺利完成了动员部署、学习培训两个阶段的任务，目前活动正处于组织讨论阶段。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">在活动中区院始终抓住主要环节做工作，着力开展好思想教育与学习培训工作。首先是始终坚持领导带头学习、带头宣讲，打牢理论基础，坚定理想信念，充分发挥党组中心组的示范引领作用，扎实推进活动深入开展。其次是精心组织有序推进，营造良好的学习氛围，区院采取成立学习园地等方式，发挥内部的舆论引导作用。通过上述工作，使我院全体干警提高了对学习实践检察职业道德活动的重要性和必要性的认识，进一步增强了开展活动的自觉性和主动性。从活动开展情况看，我院班子高度重视，行动迅速，措施有力，开局良好，进展顺利。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">二、抓措施，抓结合，凸显活动成效</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">在学习实践检察官职业道德基本准则活动中，院党组经研究决定，提出了建设道德教育经常化、队伍管理科学化、执法办案程序化、内部管理制度化、检务督察公开化的“五化”活动目标，并提出具体要求。一是发挥领导干部表率作用。党组成员不仅要抓好此项活动，而且要以身作则，率先垂范，做到学在前、用在前，遵守并执行各项规范化管理制度，发挥好表率作用。要进一步加强中心组学习，带头学习讨论，带头清理思想，在学深、学透上下功夫。各部门负责人要对本部门的活动负责，确保上下一心，步调一致。二是要深入扎实地做好组织推动工作。做到一阶段一部署，一阶段一检查，一阶段一验收，注重工作实效和质量，确保高标准、高质量地推进每一阶段任务的如期完成。三是要紧密结合检察工作实际，开展活动。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">在学习培训的具体措施上，我们注重“三个结合”，既要与执法规范化建设相结合，要与检察业务工作相结合，要与提高执法公信力相结合。做到以活动促进各项工作的开展，努力提高执法规范化、队伍专业化和管理科学化，提升检察机关的执法公信力，不断推动老城检察工作前进。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">在学习培训的具体方法上，我们采取“三个确定”以保证学习讨论内容保质保量的完成。“三个确定”即，学习培训时间确定、学习培训内容确定、学习培训方式确定。通过这“三个确定”的有力推进，我们的学习讨论活动取得到了阶段性的成效。一是把学习培训时间确定。从</span><span style=\"font-size:18px;\">2</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">21</span><span style=\"font-size:18px;\">日开始，我们保证了每周三个半天的集中学习时间，在保证完成工作的前提下无一人旷学，使学习培训首先在时间上完全达到上级要求。二是把学习培训内容确定。在学习培训内容上紧紧围绕十七大精神、胡锦涛总书记的重要讲话、周永康同志讲话、三级院领导的讲话精神以及检察官职业道德及行为规范知识手册等内容开展学习。三是把学习方式确定。为了灵活多样的将学习讨论活动开展的更有实效，我们采取的了三种学习方式。首先是班子成员专题辅导。党组成员分别集中授课</span><span style=\"font-size:18px;\">14</span><span style=\"font-size:18px;\">次，采取宣讲材料和听课人员做笔记的方式将规定的有关精神和具体内容传达给干警。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">每位干警都做出了完整的学习笔记。在学习培训的形式上，采取集中授课与个人自学相结合，专题辅导与座谈讨论相结合，正面宣传与反面剖析相结合等形式。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">活动中，我们充分利用新闻媒体和检察宣传阵地，大力宣传学习讨论活动的重要意义和检察机关开展学习讨论的新举措、新进展、新成效，营造出来浓厚活动氛围。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">不断丰富活动载体，促进检察职业道德主题教育活动深入开展。区院组织了检察官宣誓活动，增强检察人员的责任感和使命感，从而使广大检察人员牢记检察职责，恪守检察职业道德，公正清廉文明执法，不辱党和人民赋予的神圣使命；参加市院组织的以“恪守检察职业道德、促进公正廉洁执法”为主题，以讴歌检察人员先进事迹为主要内容的演讲比赛</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">突出熏陶思想感情</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">充实精神生活，升华道德境界。区院取得第二名的好成绩，并将代表市院参加省院组织的演讲比赛；举办了一次“恪守检察职业道德、促进公正廉洁执法”征文活动。旨在促使广大检察人员准确把握检察官职业道德基本准则的精神实质，自觉参与检察职业道德建设。区院将从征文中选取</span><span style=\"font-size:18px;\">5</span><span style=\"font-size:18px;\">篇优秀文章推荐到市院参加选评；在市院组织的知识竞赛中获得了团体三等奖及三个个人三等奖的好成绩。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">通过上述活动的开展，有效的保证了学习培训的扎实有效进行，进一步增强了全院干警参与此项活动的积极性和主动性，加强了活动开展的实效性。促使干警的职业道德素质进一步提高，公正廉洁执法意识进一步增强、促进了各项检察工作的顺利开展，增强了检察机关的执法公信力。一是进一步增强了事业心和责任感。在工作中养成了认真负责、勤奋肯干的工作态度和克服困难、积极进取的优良作风。二是进一步了转变工作作风，工作中能够做到脚踏实地，求真务实，严谨细致，敢于负责，真抓实干，工作效率高、效果好。三是进一步提高执法办案水平和工作能力，工作中坚持公正执法，依法办案，做到办案的法律效果和社会效果的有机统一，做到办案力度、办案质量和办案效果的有机统一。四是进一步树立全心全意为人民服务的思想意识，工作中能够做到文明执法，热情服务，执法为民，心系百姓，不断提高化解矛盾纠纷的能力，妥善处理群众诉求，促进社会和谐与稳定。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">三、下步工作打算</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一是认真开展讨论活动，结合本单位实际，将职业道德准则加以细化，力求突出检察工作特点、贴近检察人员的思想和工作实际，做到什么问题突出，就重点讨论解决什么问题。要组织开展法治热点问题讨论。要通过走近群众，广泛征求群众意见和建议，认真梳理出若干个群众反映强烈的热点问题，组织干警深入讨论，提高思想认识。特别是要有针对性地进一步清理个别干警存在的错误思想，澄清模糊认识。要组织检察人员在深入研讨的基础上撰写学习体会或理论研讨文章，要广泛开展以案析理、网上论坛、警示教育、座谈交流等活动，把学习实践检察官职业道德准则活动不断引向深入，做到入脑入心，熟练掌握检察职业道德各项基本要求，将职业道德的要求习惯化，贯穿于检察工作的方方面面。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024383', '1388373141', '1');
-INSERT INTO `lx_article` VALUES ('40', '公告', '老城区检察院开展“民行检察宣传日”活动效果好', '<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">6月</span><span style=\"font-size:18px;\">28</span><span style=\"font-size:18px;\">日上午</span><span style=\"font-size:18px;\">8</span><span style=\"font-size:18px;\">时至</span><span style=\"font-size:18px;\">11</span><span style=\"font-size:18px;\">时，全省三级院民行检察部门统一行动，开展了“民行检察宣传日”活动。我院积极响应省院号召，在老城区金业路广场建立了民行检察宣传站，重点宣传了民行检察的职能、监督范围、监督形式、办案程序、民事行政案件的受理案件、申诉时限、抗诉条件和开展执行监督、督促起诉、职务犯罪等民事行政检察工作内容及民行检察服务大局、保障和改善民生、维护司法公正和权威等方面的内容。通过开展以上活动，共散发宣传材料</span><span style=\"font-size:18px;\">500</span><span style=\"font-size:18px;\">余份，张贴展板</span><span style=\"font-size:18px;\">2</span><span style=\"font-size:18px;\">张，悬挂横幅</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">条，接受群众咨询近百人，不仅增加了民事行政法律在群众中的影响力，提高了广大群众的法律意识，也密切了检民关系，取得了较好的社会效果和法律效果。</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024409', '1388373185', '1');
-INSERT INTO `lx_article` VALUES ('41', '公告', '梁香敏同志先进事迹报告会', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:36pt;\">\r\n	<span style=\"font-size:18px;\">梁香敏，女，55岁，中共党员，在职研究生，老城区人民检察院侦查监督科科长近。她先后七次荣立个人三等功，被评为河南省维护妇女儿童权益先进个人，省检察系统“严打”整治斗争先进个人，先后八次被评为市、去先进工作者，优秀共产员，市级优秀侦查员。她所在的科室被省检察院授予全省侦查监督系统先进集体荣誉称号，先后被洛阳市妇女儿同工作委员会授予维护妇女儿童合法权益示范岗，洛阳市妇联授予巾帼文明岗。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:36pt;\">\r\n	<span style=\"font-size:18px;\">一、</span><b><span style=\"font-size:18px;\">坚定信念，全心全意为人民服务</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">在侦查监督工作中，梁香敏同志坚定共产主义信念，始终不渝地坚守和实现全心全意为人民服务的宗旨，切实把“立党为公、执法为民”贯穿到全部执法活动中。在检察实践中，不断学习，充实完善自己，把握政策、法律，钻研业务，注重自身人格的修炼，提高素养，全方位的塑造自我、发掘自我、超越自我，已过硬的政治素质和业务技能，赢得了人民群众的称赞，以自己的实际行动诠释了“情为民所系权为民所系利为民所谋”的深刻内涵。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<b><span style=\"font-size:18px;\">二、</span></b><span style=\"line-height:1.5;\"> </span><b><span style=\"font-size:18px;\">树立证据观念，严把案件质量关</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">梁香敏同志根据多年的工作经验，修订完善了保证案件质量的有关制度，制订了《受理案件标准》、《审查案件质量责任制》、《报捕案件跟踪制》，采取了“四对照一提审一复核”的方法，严把案件是事关，证据关、定性关、质量关，去伪存真，是证据真实可靠，有效的防止和避免错捕的发生，保证了案件质</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<b><span style=\"font-size:18px;\">三、履行监督职责，确保公正执法。</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">梁香敏同志牢固树立“在办案中监督，在监督中办案”，“抓办案促监督”的工作思路，把立案监督的重点放在有案不立、有罪不究、以罚代刑、违法立案等问题上，近年来监督公安机关立案36案47人，均被法院作出有罪判决。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<b><span style=\"font-size:18px;\">四、</span></b><span style=\"line-height:1.5;\"> </span><b><span style=\"font-size:18px;\">坚持与时俱进，锐意改革创新</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:26.9pt;\">\r\n	<span style=\"font-size:18px;\">新形势下，检察工作面临着诸多严峻的挑战。在实际工作中，该同志不断增强改革意识和创新意识，把发展作为第一要务，立足本职工作，创造一流业绩</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:26.9pt;\">\r\n	<span style=\"font-size:18px;line-height:1.5;\">1、注重工作创新，推行“侦查监督工作进社区”</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">为是侦查监督工作全方位的服务社会、服务基层，将侦查监督的触角延伸到基层，延伸到社区，事实“走出去”的监督策略，为人民群众提供法律帮助，解决疑难问题，化解矛盾，消除不安定因素，拓宽了监督空间，维护了社会稳定。一上措施的实施，收到了良好的社会效果。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;line-height:1.5;\">&nbsp; &nbsp; &nbsp; 2、&nbsp;积极探索处理轻伤案件的有效途径</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">梁香敏同志在调查研究的基础上狠抓管理，重视制约管理，建立了一套行之有效的轻伤案件质量保障体系，并同公安机关会签了《关于处理轻伤害案件有关问题的暂行规定》，制订了《轻伤害案件受理标准》、《轻伤鉴定结论告知制度》、《轻伤害案件跟踪卡制度》，对轻伤害案件的受案标准、审查指导思想和处理办法等作出了详细规定。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;line-height:1.5;\">3、建立行政执法与刑事执法相衔接的工作机制，维护市场秩序。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:40pt;\">\r\n	<span style=\"font-size:18px;\">为了加强行政执法与刑事执法的有效衔接，缩短于其他行政执法部门的沟通环节，梁香敏同志亲自制定了《关于检察机关与行政执法机关建立行政执法与刑事执法相衔接的工作机制意见》，并代表我院与14个行政执法机关会签，在全市率先建立了刑事执法与行政执法相衔接的长效合作机制，推动涉嫌犯罪案件向侦查部门的及时移送。</span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">4、坚持重大案件适时介入制度，积极做好引导侦查取证工作。</span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">该同志带领全科同志，制订了《老城区人民检察院介入公安机关侦查活动实施办法》，并在公安机关设立了介入侦查办公室，对重大、复杂、疑难和有重大影响的案件提前介入、了解案情、熟悉证据、亲临现场，进行捕前研究讨论，帮助侦查机关准确定性，并对强制措施的适用、证据材料的固定、完善提出指导性意见。</span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">多年来，梁香敏同志始终坚持以一个共产党员的标准严格要求自己，讲政治、讲大局、讲奉献，以坚韧不拔的意志和顽强拼搏精神，去换取人生的价值和事业的辉煌。</span> \r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024484', '1388373610', '1');
-INSERT INTO `lx_article` VALUES ('42', '新闻', '老城区院突出“四个到位”落实“两个经常性”教育工作成效良好', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:28pt;background-color:white;\">\r\n	<span style=\"font-size:18px;\">“两个经常”贵在经常，难在经常，成绩出在经常，问题出在不经常。经常性工作是一项长期的基础性工作，需要持之以恒、常抓不懈，要经常抓、反复抓。今年以来，我院结合检察工作实际，突出“四个到位”认真开展“两个经常性”工作，有力促进了检察机关规范化建设，连续四年在全市检察机关考核中进入先进位次，并获得“全省检察技术工作先进单位”、“省级文明单位”、“全省人民满意政法单位”、“省级卫生单位”\r\n等荣誉称号。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;background-color:white;\">\r\n	<span style=\"font-size:18px;\">一、认识到位，统一思想抓教育。基层检察工作千头万绪，既有长期的中心工作，又有不同时期的重点工作，一以贯之、扎实认真地落实“两个经常”也显得尤为重要和难能可贵。实践证明：抓好“两个经常”，出成绩是必然的，出问题是偶然的；不抓“两个经常”，不出问题是偶然的，出问题则是必然的。&nbsp;一是在学习理论中纠正认识。针对工作中出现的实际问题，院党组集中党组成员认真学习市院下发的《洛阳市人民检察院“两个经常性”工作》，带头从理论上理解“经常性”思想工作内涵。召集政治处干警围绕文件精神，从“最后一道工序、最重要的一条标准、最后一道防线”认识经常性思想工作的重要性，做到“五个弄清”和“三个联系”：弄清基本内容、弄清基本要求、弄清基本方法、弄清基本标准、弄清基本制度；联系自身工作谈意义，联系单位现实谈出路、联系个人思想谈措施，在党组内部首先明确：只要把经常性思想工作的环境创造好，把握住要解决的重点问题，经常性思想没有什么做不好的，切实增强了我院做好经常性思想工作的信心。二是在典型示范中纠正认识。围绕以往各种活动中“我说你做”，干警被动应付，不能融于其中的问题，我院以“做经常性思想工作依靠谁、为了谁”为主题，推出先进典型树立精神楷模；围绕反面事例讨论思想危害；开展经验交流纠正认识偏差，将活动的开展与实际工作紧密结合，激发了干警参与的积极性和主动性。三是在确立标准中纠正认识。针对部分干警不重视“两个经常性”工作的开展，我们研究认为关键在于标准没有确立起来，导致“无所谓”现象的产生。为使活动开展有章可循，政治处将上级文件复印下发到每名干警，将学习标准细化规定，通过规范组织领导，建立培训制度，实行奖惩挂钩，明确考评实施办法，真正做到“两个纳入”：评价科室成绩时，将学习情况纳入年终考核必要条件；评价个人成绩时，将学习情况纳入评先评优必备要素，将标准意识植入每一名干警心中，真正实现了“领导要我做”向“我要做”的思想转变。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">二、制度到位，严格管理抓落实。严格队伍管理，制度是保证，制度到位则是做好经常性管理工作的保证。我们坚持从规范执法办案、强化内部管理入手，逐步建立健全了一系列纵横交错、措施有力的队伍管理制度，在全院上下形成“落实责任、实干争先”的浓厚氛围。一是建立健全各项规章制度。我们把修整、完善规章制度作为深入推进活动的重要措施，根据制度特点和工作实际，对原有的规章制度重新进行了修订、补充，先后梳理制度126项汇编成册，分发到各个部门，组织干警认真学习讨论。通过完善规章制度来管好人、理好事、用好权、办好案、带好队伍，促进科学规范管理。二是实行严格的队伍建设责任制度。坚持谁主管，谁负责，一级抓一级，一级对一级负责的原则。我们将“一岗双责”真正落到实处，实行“三定一包”，即定目标、定职权、定责任、包效果。从院领导、科室负责人直至每一名普通干警，层层签订责任状，坚持月讲评、季汇总、半年考核等跟踪督促制度，从目标的制定到任务的分解，直至责任考核，环环紧扣，环环相联</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">推动队伍管理向制度化、规范化发展。三是完善内部管理制度。从规范检察干警的着装、日常行为和落实值班、保密、上下班制度等多方面入手，不断规范我院内部管理活动，制定检务督查条例，成立检务督查组，开展不定期的检查通报，确保各项检察活动有条不紊、秩序井然。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">三、制约到位，强化约束抓监督。加强对检察权正确行使的监督，是确保队伍长治久安的关键。我们坚持内外结合、突出重点，加强了对执法办案全过程和八小时内外的有效监督，确保教育活动收到实效。一是加强对领导班子自身的监督。进一步规范了党组工作制度和决策程序，凡涉及到全院的重大问题，都坚持集体研究，民主决策。班子成员严格自律、不搞特殊化，带头严格执行院里的各项规章制度，凡要求干警做到的，班子成员首先带头做到。二是加强八小时外的监督，把监督管理延伸到干警的工作之外。院里实行重大事项报告制度和八小时以外活动申报制度，切实发挥单位、社会、家庭三方面在“两个经常性”工作中的作用，进一步延伸对干警八小时外的监督管理，及时掌握干警的现实思想动态，确保队伍建设不出问题。三是健全内部监督制约机制，强化对自身执法办案行为的监督。我们依托内部制约、阳光检务、检务督察三个“监督点”，提升执法质量自我控制力，建立起了一整套涵盖自侦办案、控告申诉、侦查监督、公诉工作等业务工作的制度体系，坚持自侦案件跟踪回访制，对部分审查批捕和审查起诉案件实行抽查，不断执法办案活动，进一步强化对自身执法办案行为的监督。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<span style=\"font-size:18px;\">四、激励到位，弘扬正气树形象。坚持弘扬讲学习、钻业务、守纪律、比奉献的良好风气，充分激发干警的工作热情。一是围绕考核形成机制激励。修订了《岗位目标责任制考核办法》，将目标分为共同部分和业务部分两大类，按照科学标准转化为相应的分值，形成了融合工作效能、绩效加分、工作创新、纪律作风等为一体的绩效考核体系。实行岗位目标责任制量化管理，初步形成了绩效考核激励体系，将各科室完成目标任务情况直接与干警切身利益挂钩。同时，出台了涉及学历教育、人才培养、争先创优、检察调研、信息宣传和记功表彰等方面的激励措施，做到奖罚分明。二是围绕干警形成待遇激励。针对我院职级待遇长期偏低的现状，新一届院党组将干警职务晋升作为改善干警待遇的突破点，列为党组</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年的重要工作之一，积极争取区委、人大和组织部门的关心和支持，今年晋升正、副科级非领导职务</span><span style=\"font-size:18px;\">14</span><span style=\"font-size:18px;\">人，充分调动了干警干事创业的积极性。三是围绕集体形成荣誉激励。通过对我院发展业绩的集中展示，激发干警的集体荣誉感；通过对我院先进集体和个人的宣传，激发干警“知荣誉、争上进”的使命感；通过凭实绩用干部的用人导向，将干警个人在不同领域取得较高荣誉作为选拔任用的“硬指标”，真正做到晋职晋级与干警业绩挂钩，引导大家真正把精力放到本职工作上，把动机放到服务奉献上，实现各项工作的创新发展。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<span style=\"font-size:18px;\">“两个经常性”工作，犹如鸟之两翼，缺一不可，只有将“两个经常”一体化、经常化、规范化，并有机结合起来，才能相得益彰，事半功倍。老城区院虽然在“两个经常性”活动开展中积累了一些经验，取得了一些成绩，但仍有许多不足之处有待改进。他山之石可以攻玉，借助此次座谈会的召开，我们将汲取先进兄弟院好的做法和经验，推动我院“两个经常性”工作持续健康开展。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024527', '1388373909', '1');
-INSERT INTO `lx_article` VALUES ('43', '新闻', '关于深入开展“开门评警”和“大接访”、“大走访”、“大下访”', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">根据全市政法干警核心价值观教育实践活动重点工作任务部署，我院于2012年7月起将深入开展“开门评警”和“大接访”、“大走访”、“大下访”活动。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">在此次活动中，我院将继续坚持以往的成功经验和做法，结合全市正在开展的作风转变年活动，通过发放征求意见表、设置征求意见箱、设置热线电话、实行开门评警、“大走访、大下访、大接访、大回访”等有效措施，及时倾听群众呼声，了解群众疾苦。对于群众反映强烈的执法不严、裁判不公和诉讼难、执行难等问题，分共性问题和个性问题区别对待，一件一件地认真加以解决。通过平安建设首席服务官、网络评警、网络征求意见等多种形式，创新渠道，广泛征集群众对政法工作和政法队伍的意见和建议，组织广大政法干警进行讨论剖析，进一步端正价值观念,把核心价值观教育实践活动落到实处。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:0cm;text-align:center;text-indent:32.0pt;\">\r\n	<span style=\"font-size:18px;\">老城区人民检察院政法干警</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"margin-left:0cm;text-align:right;text-indent:32.0pt;\">\r\n	<span style=\"font-size:18px;\">核心价值观教育实践活动领导小组办公室</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"margin-left:0cm;text-align:right;text-indent:272.0pt;\">\r\n	<span style=\"font-size:18px;\">2012年7月2日</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024572', '1388373978', '1');
-INSERT INTO `lx_article` VALUES ('44', '新闻', '老城区院签订“两个承诺书”强化“三项管理”工作', '<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">近日，为了落实全市检察机关“三项管理工作”座谈会会议精神，老城区院召开</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年度党风廉政建设大会，班子成员和干警层层签订了《廉洁从检承诺书》和《车辆管理使用承诺书》。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">《廉洁从检承诺书》的内容包括责任人承诺支持和参与党风廉政建设工作和责任人承诺认真履行党风廉政建设管理职责两方面。特别强调了要认真参加全院和部门开展的思想政治教育，认真学习、遵守、贯彻、维护党纪、检纪和法规，不利用职务之便索取、接受或者以借为名占用管理和服务对象以及其他行使职权有关系的单位或个人的财物等规定。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">《车辆管理使用责任书》明确了单位车辆管理使用人的责任，结合当前形势，特别增加了以下一系列规定：管理使用人不得把单位车辆外借给他人；车辆在使用过程中由于违规驾驶而发生事故的，由管理人、驾驶人承担全部责任及各项赔偿费用；车辆在使用过程中，如果离开本市须报经主管领导同意，并在派传单上注明原因；如果离开本省须经检察长同意并在派车单上注明原因。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">这两个承诺书，促进全体干警进一步强化纪律意识，全面提高了干警公正执法、廉洁从检的责任心和自觉性，筑牢反腐倡廉的思想防线。</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024616', '1388374003', '1');
-INSERT INTO `lx_article` VALUES ('45', '新闻', '老城区检察院侦监科严格审查被盗物品价格鉴定有效避免一起错案的', '<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">日前，洛阳市老城区人民检察院侦查监督科在审查逮捕一起盗窃手机案件中，承办人员敏感的发现被盗手机的鉴定价格明显高出市场价格，经向鉴定机构反映，鉴定机构重新对手机价格进行了鉴定，由于重新鉴定的手机价格低于盗窃罪的数额较大的构罪标准，侦监科已对该案犯罪嫌疑人武某依法做出了不构成犯罪不予批准逮捕的决定，从而有效避免了一起错案的发生。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:36pt;\">\r\n	<span style=\"font-size:18px;\">经审查查明：</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">5</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">日下午</span><span style=\"font-size:18px;\">2</span><span style=\"font-size:18px;\">点左右，犯罪嫌疑人武某在老城区晓月街</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">号院</span><span style=\"font-size:18px;\">3</span><span style=\"font-size:18px;\">单元</span><span style=\"font-size:18px;\">403</span><span style=\"font-size:18px;\">室“代练游戏”店，将同宿舍的夏某的诺基亚</span><span style=\"font-size:18px;\">E63</span><span style=\"font-size:18px;\">手机盗走，</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">5</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">7</span><span style=\"font-size:18px;\">日经洛阳市老城区价格认证中心鉴定该手机价值</span><span style=\"font-size:18px;\">1080</span><span style=\"font-size:18px;\">元。武孟超于</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">5</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">3</span><span style=\"font-size:18px;\">日被抓获。案件送到老城区检察院侦查监督科后，承办人经认真审查，发现该案事实清楚证据充分，犯罪嫌疑人武某亦对犯罪行为供认不讳，只是该案手机鉴定价格刚刚超出盗窃罪</span><span style=\"font-size:18px;\">1000</span><span style=\"font-size:18px;\">元的构罪标准，出于职业的敏感性和责任感，承办人马上向我市多家手机专营店咨询了该型号手机的价格，均反映该型号手机市场价格不超过</span><span style=\"font-size:18px;\">1000</span><span style=\"font-size:18px;\">元，办案人员马上意识到该问题的严重性，立即向公安承办人员和该手机鉴定机构进行了联系，该鉴定机构表示该手机受害人购买时为</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">12</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">29</span><span style=\"font-size:18px;\">日，购进价为</span><span style=\"font-size:18px;\">1390</span><span style=\"font-size:18px;\">元，据他们估测案发时该手机市场中准价应为</span><span style=\"font-size:18px;\">1350</span><span style=\"font-size:18px;\">元，鉴于该手机已使用</span><span style=\"font-size:18px;\">4</span><span style=\"font-size:18px;\">个多月，应为</span><span style=\"font-size:18px;\">8</span><span style=\"font-size:18px;\">成新，故该手机鉴定价格为：</span><span style=\"font-size:18px;\">1350</span><span style=\"font-size:18px;\">元</span><span style=\"font-size:18px;\">-1350X20%=1080</span><span style=\"font-size:18px;\">元。经承办人与鉴定机构进行耐心交涉，该鉴定机构又重新进行了专门的市场调查，确定该手机市场中准价为</span><span style=\"font-size:18px;\">1020</span><span style=\"font-size:18px;\">元，该型号手机重新鉴定价格为：</span><span style=\"font-size:18px;\">1020-1020X20%=816</span><span style=\"font-size:18px;\">元。</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">5</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">17</span><span style=\"font-size:18px;\">日老城区检察院侦监科据此对该案犯罪嫌疑人武某作出了不构成犯罪不予批准逮捕的决定，并向公安机关发出撤销案件作其他处理的建议。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">针对该价格认证中心工作中出现的问题，老城人民检察院侦监科已向该鉴定机构及其上级单位发出检察建议，建议该价格认证中心建立更加规范严格的规章制度，严格执行操作规程，加强鉴定人员管理，并吸取此次事件的教训，对有关鉴定人员进行严肃处理。近期老城检察院侦监科将对该鉴定机构以往的鉴定报告进行排查，同时对盗窃罪等案件的物品价格鉴定工作开展深入调研，以不断推进此项工作的科学规范开展。</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024651', '1388374022', '1');
-INSERT INTO `lx_article` VALUES ('46', '新闻', '老城区院采取四项措施服务社区网格化建设', '<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">社区网格化，是通过“划格、分片”的网格化社会服务管理来实现“小事不出社区，大事不出街道”的社会服务理念。开展“网格化管理、组团式服务”工作是促进社会持续稳定的重要保障，是服务民生、改善民生、加强基层政权建设的有效载体，是固本强基、进一步密切党群、干群关系的重要机制。老城区院为配合区网格化社会服务管理工作，立足检察职能，认真调查研究，积极探索实践，先期抽调控申、公诉、民行、监所、预防四个部门，围绕群众最关心的实际困难和问题，从四个方面入手，拓展了检察工作服务社区网格化建设的新思路。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一、对接综治维稳工作，助力街道大网格。控申部门加强与街道大网格内综治、信访等部门的沟通联系，每月定期走访和不定期巡防街道综治、信访等部门，了解街道当月综治工作情况以及重大疑难复杂矛盾纠纷和不稳定因素。同时在辖区街道、村社试点推行网格联络员制度，开通检察网格</span><span style=\"font-size:18px;\">QQ</span><span style=\"font-size:18px;\">群，构建控申科与联络员之间的信息互通机制，联络员主动收集可能引发涉检信访的不稳定因素、矛盾纠纷及社情民意，及时反馈给我院，控申科根据联络员收集到的相关信息，主动融入街道大综治、大调解等工作，积极促进矛盾纠纷化解，维护基层社会稳定。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">二、对接社区矫正监督工作，服务社区中网格。监所部门探索推进社区矫正监督，在社区网格内建立完善社区服刑人员约见检察官制度，向矫正服刑人员发放约见卡，印制《刑法修正案（八）常见罪名解读》，设置检察信箱，确保社区服刑人员及时、方便、快捷地约见检察官和向检察机关反映诉求。研究创新社区服刑人员谈话制度，构建初次、日常、警示“三谈话”模式，明确谈话目的，突出谈话重点，注重谈话效果，实现对社区服刑人员的动态监督。参与对网格内社区服刑人员的集中思想汇报会、集中教育会等并进行全程监督，协助社区对服刑人员进行法制警示、法纪和安全教育。对相关制度不健全、管理不规范等问题提出意见、建议。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">三、对接犯罪预防工作，助力片组小网格。公诉和预防部门建立与社区下属片、组的经常性联系制度，开展预防职务犯罪、预防特殊群体犯罪、预防青少年犯罪的“大预防”工作，以“赌博、吸毒、未成年、有前科”四类人员和存在“思想不稳定、不服从管理、存在家庭矛盾、有不良习惯”等“四种情形”的为预防重点，扎实推进犯罪预防工作进片组小网格。通过宣传海报、图册展览、典型教育等形式，积极开展犯罪法律法规、典型案例宣传活动，提升广大基层组织人员的廉洁意识和基层群众的法制意识、监督意识。发挥预防建议的作用，帮助基层组织完善预防制度，减少和避免职务犯罪、未成年人犯罪发生。同时加强与网格联络员的联系互动，收集苗头性信息，走出去与请进来相结合，第一时间掌握犯罪信息。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">四、对接法制宣传教育工作，融入户民微网格</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">民行部门开展送法进社区活动，变被动邀请为主动上门，变形式单一为品种多样，既有刑事方面知识，也有民事方面内容，主动入户访民，通过发放宣传资料、受理信访、法律咨询等形式向群众宣传检察职能，宣讲法律知识，为群众释法解疑，增强群众法制观念，提高群众法律意识。主动听取和了解群众对检察工作的意见、建议和司法需求，积极提供法律服务，进一步融洽检民关系。对在走访中了解到群众因不服法院判决或裁定而向检察院提出的申诉，依法向法院提出再审检察建议。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024695', '1388374076', '1');
-INSERT INTO `lx_article` VALUES ('47', '新闻', '老城区院采取四项措施贯彻落实全省党委政法委执法监督会议精神', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<span style=\"font-size:18px;\">全省党委政法委执法监督工作电视电话会议召开后，老城区院随即召开党组会、全院干警会传达会议精神，采取以下措施贯彻落实。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">一、开展自查。</span></b><span style=\"font-size:18px;\">主管领导与科室长之间，科室长与干警之间层层签订《执法责任书》、《目标管理责任书》和《信访稳定责任状》，狠抓办案质量。对查办的各类案件，从适用实体法和程序法是否得当以及法律文书制作是否规范等方面每月进行检查。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">二、监督个案。</span></b><span style=\"font-size:18px;\">积极参与区委政法委组织的专案协调会议，对群众反映执法不公、有重大影响的典型案件，进行个案监督调查，以保证案件公正、依法处理。对确属错案的，予以纠正。对检查出的问题要查找原因，研究解决办法，提出整改意见。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">三、配合检查。</span></b><span style=\"font-size:18px;\">自觉接受外部监督，对党委政法委的不定期检查所提出的存在问题的案件的建议，及时复查、复议。协助纪检、监察部门查处政法各部门领导干部违法违纪问题。组织技术科骨干担任网络舆情监测员，关注社情民意对司法工作的诉求。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">四、专题调研。</span></b><span style=\"font-size:18px;\">年初要针对以往执法中存在的突出问题确定调研课题，组织政策研究室、侦监科、公诉科、反贪局、反渎局等相关科室等开展调查研究活动，查找原因，提出对策，适时组织交流，为院领导个案决策提供科学、可行的建议。</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024727', '1388374189', '1');
-INSERT INTO `lx_article` VALUES ('48', '新闻', '老城区检察院严格落实“检风检纪督察制度”效果好', '<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">老城区检察院为转变工作作风，从工作纪律抓起，严格落实“检风检纪督察制度”轮流由党组成员带班，对上下班纪律进行严格督察。通过督察，工作纪律得到明显加强，工作效率得到有力提升，切实推动了作风转变年活动的深入开展。</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388024800', '1388374210', '1');
-INSERT INTO `lx_article` VALUES ('49', '公告', '最可爱的人', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">2002年刚刚大学毕业的我，怀揣着追逐的梦想步入了检察官的队列。面对着庄严的检徽，耳闻着朴素的教导，我用我并不睿智的双眼发掘着同事们一件又一件感人肺腑的事迹，用我最真挚的情感感悟着检察官们最朴实的检察情怀。就是这样一群朴实而又真切的同志，用日常工作中的点点滴滴诠释了“忠诚、公正、清廉、文明”这简简单单的八个字；也是这样一群平凡而又伟大的同志，用工作细节中的平凡琐碎演绎了和平年代“谁是最可爱的人”。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">记录一：以德立身，公正执法的侦查监督科科长梁香敏。</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">梁香敏科长是我初出校园、步入社会的第一位科长，既是良师也是益友。思维敏捷、刚正不阿是我对她最深的感受。这位自检察机关重建以来便工作在检察工作第一线的老科长，既有着女同志思维细腻的一面，也有着检察官刚强拼搏的情怀。她用最最朴实的言行践行着“立检为公、执法为民”的誓言，铸就着“秉公执法、廉洁自律”的检察精神；她以自己的实际行动诠释了“情为民所系，权为民所用，利为民所谋”的深刻内涵。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">曾记得，</span><span style=\"font-size:18px;\">2002</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">10</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">31</span><span style=\"font-size:18px;\">日邙山镇史家沟人张某被同村曹建生由家中追至村口附近强奸，报案后，公安机关以证据不足为由不予立案。曹建生系本村一霸，为此胆大妄为，作恶多端，却未受到打击，气焰更加嚣张，给受害人造成巨大心理压力和舆论压力，受害人张某多次到省、市、区人大、政协、政法委、妇联等处上访，表示如果不公正处理就要以死相争，引起了强烈的社会影响。</span><span style=\"font-size:18px;\">2003</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">2</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">25</span><span style=\"font-size:18px;\">日张素群向老城院提出控告，梁香敏同志热情接待，以对党和人民高度负责的责任感、以维护法律尊严的使命感，开展了调查研究。她一方面对被害人进行耐心的疏导教育，使其稳定情绪；另一方面，深入发案现场以及邙山镇史家沟村进行艰苦细致的调查取证，掌握了大量第一手材料后要求公安机关立案侦查，并对公安机关在查处此案中的违法行为及时提出纠正，引导其收集、固定证据。她顶住了来自各方面的阻力，对犯罪嫌疑人曹建生做出了批准逮捕决定。并派专人跟踪监督该案的起诉和审判工作，</span><span style=\"font-size:18px;\">2004</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">4</span><span style=\"font-size:18px;\">月曹建生被判出有期徒刑四年。罪犯终于受到了法律的严惩，社会正义得到了伸张。受害人张某痛哭涕零，说：“是检察机关给了我第二次生命！你们真是‘包青天’”！史家沟村二百多位村民敲锣打鼓，向老城院送来“秉公执法、为民伸冤，除霸安良、国泰民安”的锦旗，称赞检察机关真是人民的贴心人。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">记录二：言辞犀利、唇枪舌战的公诉科科长郑爱华</span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">2008年，由于工作需要，我被调至公诉科。面对神圣而令人敬仰的公诉人岗位，激动之余难免紧张。看透这点的郑科长带我出席了她的一个法庭。看着法庭上不卑不亢、言辞犀利的郑科长，我切实体会到了作为一名公诉人的责任和荣耀。我也从她的身上品味出检察事业的崇高和神圣不全是惊心动魄与轰轰烈烈的集合，而是点点滴滴和平凡琐碎的累积。幽默的郑科长经常和我们开玩笑说：如果我不在办公室阅卷，那我就在看守所提审，如果我不在看守所提审，那我就在法院开庭。这虽然是一句玩笑话，但是却充分体现了检察工作的繁忙和艰辛。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">工作之余的郑科长感情丰富，体察入微。在她办理的一起故意伤害案件中，受害人由于伤病变成了植物人，而受害人的妻子又是一名几乎失明的残疾人，家中幼儿尚小，为医治病情使原本一贫如洗的家更是雪上加霜。了解到这一情况的郑科长带领全科干警为受害人捐钱捐物。这些钱虽然不多，但却体现了检察官办案过程中的体贴入微。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">这样的同志在我身边还有很多，这样的事迹每天都在我的身边发生。而我每时每刻都在被这样一群可爱的人所感动着、激励着。没有豪言壮语，没有鲜花掌声，有的只是无言的奉献和无尽的忠诚。她们用平凡的身躯托起了检察职业道德的钢铁脊梁，用淡泊名利、甘守清贫的情操撑起了检察职业道德的万里晴空。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">这就是我们最可爱的人！</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388026434', '1388374247', '1');
-INSERT INTO `lx_article` VALUES ('50', '公告', '证据制度的变革对检察工作的新要求', '<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:0cm;text-align:center;\">\r\n	<span style=\"font-size:18px;\">这次重大增补或修订主要涉及证据种类 、证明标准 、举证责任、非法证据排除规则等方面的内容。刑事证据制度的修改对于继续完善刑事证据制度，促进检察工作水平的进一步提高，实现司法公正具有积极意义。但同时，证据制度的变革在某种程度上也对检察机关提出了更高的要求，使得新形势下的检察工作面临更多的挑战。检察机关应积极面对这些挑战，尽快调整工作思路和工作方法。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">一、认真执行证据种类规范</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">修正后的刑事诉讼法对证据的定义进行了修改。采纳学术界主流意见“材料说 ”，把“证明案件真实情况的一切事实”，修改为 “可以用于证明案件事实的材料都是证据 ”。同时，将“鉴定结论”修改为“鉴定意见”，在“勘验、检查笔录 ”后增加了“辨认、侦查实验等笔录 ”，并将“电子数据 ”与“视听资料”规定为同一种证据类型，此外，还解决了行政执法与刑事诉讼的证据衔接问题。这些修订为检察机关公诉职能的发挥和检察人员公诉技巧的提升都提供了良好的制度平台。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">第一、证据种类的规范化要求检察机关应当按照严格的形式执行，以法定的证据种类形式参加法庭举证活动。只有以法定的证据种类形式为标准对各种证据材料进行收集、固定和运用，才能确保最终的指控证据具备证据能力，有资格进入法庭审判范围并在法庭上接受控辩双方的质证，最终被法庭接受作为对被告人定罪量刑的根据。因此，检察机关应当进一步强化法治意识，在证据收集、固定、运用上严格按照修正后的刑事诉讼法的规定，确保所有提交给法庭的证据都符合法定的证据类型。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">第二、检察机关应当注意收集、审查判断和运用新增的证据种类和方法。依修正后的刑事诉讼法规定，“电子数据”、“辩认笔录” 和“侦查实验笔录”为法定证据种类，明确了其证据地位就可以在法庭上予以出示和质证。同时电子数据的固定和运用应当严格按照两个证据规定来进行，而对于辩认笔录和侦查实验笔录必须注意到这两种证据在诉讼证明中的补强作用，这两类证据必须同相应的主证据结合起来使用。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">第三、检察机关对于行政执法机关在行政执法过程中收集的物证、书证等证据材料，存在裁量的空间。修正后的《刑事诉讼法 》第52&nbsp;条规定：“行政机关在行政执法和查办案件过程中收集的物证、书证、视听资料、电子数据等证据材料，在刑事诉讼中可以作为证据使用”。这里规定了行政执法过程中获取的有关材料的证据地位问题，只是“可以作为证据使用 ”而不是“应当作为证据使用 ”，这就意味着检察机关在这类证据的使用上不能放弃审查的职责，同样应当严格按照这些证据种类的法定要求，逐一进行审查核实，才能最终确定是否作为证据使用。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">二、严格要求侦查取证行为</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">侦查程序的核心在于查获犯罪嫌疑人和收集证据，在一定意义上，查获犯罪嫌疑人的过程也就是收集证据的过程。因此，侦查程序的出发点和落脚点都是取证，侦查取证行为直接决定着犯罪控制目标的实现程度。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一方面，对侦查取证行为进行程序控制。强调不断完善侦查取证程序，本次刑事诉讼修改也在这方面取得了很大的进步，比如确立了讯问录音录像制度，要求侦查人员在讯问重大犯罪嫌疑人时，应当对讯问过程进行录音或录像。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">另一方面，充分发挥检察机关的监督职能。明确检察机关可以在侦查过程中针对立案、逮捕等进行侦查监督。检察机关应当进一步强化对侦查取证行为的监督，以确保取证行为的合法性为宗旨，从取证主体、取证方式、取证程序等多方面进行监督。对此，修正后的刑事诉讼法规定了对非法证据的调查核实权、一般情节的纠正意见权、严重情节的追究刑事责任权。此外，检察机关对侦查人员出庭接受对有关取证行为的询问应该给予高度重视，只有多让侦查人员出庭接受法庭的质证，才能真正促使侦查机关不断规范自身的取证行为。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">三、</span></b><b> </b><b><span style=\"font-size:18px;\">积极应对非法证据排除规则</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">非法证据排除规则的正式入法，是本次刑事诉讼法修改的一大亮点。该规定将非法证据排除规则的运用提前到侦查和起诉阶段，检察机关乃至公安机关都可以成为非法证据的排除主体，这不仅有助于及时纠正非法取证行为，而且有助于尽可能阻断非法获取的证据同审判人员之间的联系。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一方面，检察机关应当在审查起诉时积极审查排除非法证据。检察机关在审查起诉时应当在全面把握案件事实的基础上，根据侦查机关所提供的法庭审判所必须的证据材料，有针对性地核实侦查取证行为的合法性。对于存在以非法方法收集证据嫌疑的，应当要求侦查机关对证据收集的合法性作出说明；如果确认非法证据存在的，应当直接决定予以排除。这就要求检察人员应当具备较高的法律素养和执业技能，在审查起诉过程中保持较高的法律敏感性，及时发现并排除非法证据。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">另一方面，检察机关应当在审判过程中积极对控方证据收集的合法性加以证明。修正后的刑事诉讼法规定，在对证据收集的合法性进行法庭调查的过程中，检察院应当对证据收集的合法性加以证明。检察机关应自觉主动地承担起有关证据合法性的举证责任，在审查起诉过程中注意确保证据的合法性并不断地强化举证责任意识，同时，现有证据材料不能证明证据收集的合法性的，检察院可以提请法院通知有关侦查人员或者其他人员出庭说明情况。这不仅有助于缓解检察机关在承担非法证据举证责任上面临的压力，更有助于通过庭审交叉询问，使侦查人员直面取证不合法的苦果，推动某些侦查陋习的革除。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">四、准确理解证明标准的内涵</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">本次刑事诉讼法修改的一个重大突破是将“事实清楚，证据确实充分”的证明标准具体化，明确了证据确实充分的涵义。这一规定对于统一人们对证明标准的认识，增强证明标准在实践中的可操作性，切实保证案件事实的认定质量，防止冤假错案的发生必将发挥重大作用。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">检察机关应当着力提高检察人员的专业素质，在深入理解新规定的基础上确保公诉工作的准确性。新刑诉法对侦查终结、提起公诉、作出有罪判决，均规定了“犯罪事实清楚，证据确实充分”的证明标准，检察人员在审查起诉时也必须遵循此标准对全案证据进行审查。只有全面把握案件证据，切实按照上述三个条件查实证据并进行综合判断，才能确保所得出结论的准确性，排除对该结论的合理质疑，并在此基础上作出公诉决定。因此，证明标准的细化实际上意味着对检察人员综合运用证据并作出准确判断的能力提出了更高的要求。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">五、正确面对辩方提出的证据</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">我国越来越提升对被告人的保护力度，强化辩方权利。本次刑事诉讼法修改就明确地体现了这一点，其中最典型的就是赋予犯罪嫌疑人在侦查阶段聘请辩护律师的权利，并在整个诉讼过程中强调辩护律师意见的作用。检察官在承担惩罚犯罪职能的同时，还必须承担在刑事诉讼中保持客观公正的义务。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">首先，检察官不能只专注于有利于追诉的证据，而应当全面客观地收集案件证据，特别是要正确对待、客观评价来自辩方的证据。对于辩方提供的证据，检察官经过审查后认为证据真实性存在问题的，应当提出疑问并在法庭上进行质证；而对于那些在取证程序上存在问题的，考虑到当事人取证并不涉及公权力的运用，一般难以采取强制性的取证方式，也不太可能对其他民众的权利造成损害，检察机关要保持适当的宽容度，不应作与控方一样的严格要求。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">其次，检察机关应当高度重视非典型证据开示制度。修正的刑事诉讼法确定了一种非典型的证据开示制度，规定辩护人收集的有关嫌疑人不在犯罪现场、未达到刑事责任年龄、属于依法不负刑事责任的精神病人的证据，应当及时告知公安机关、人民检察院。检察机关可以在审前活动中积极要求辩方遵守法律规定及时向控方提供此类证据，避免辩护律师利用诸如被告人不在犯罪现场等阻却违法的证据在法庭审判过程中进行证据突袭，及时终结诉讼程序，既避免无辜公民长期陷于刑事追诉程序的无端讼累，又可以极大地提高司法资源的使用效率。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">再次，检察机关应当以更为理性的态度审视自身的公诉行为。本次刑诉法修改彻底取消了庭前审查制度，明确规定只要起诉书中有明确的指控犯罪事实，法院就应当决定开庭。这种做法有助于法官将精力集中于正式的法庭审判，确保法官中立，实现诉讼公正。但同时，这也加大了检察官出庭应诉的风险，其公诉成功率却也可能因此有所降低。对于这种情况，检察机关应该摆脱高定罪率的固有思维的束缚，在关注被告人能否定罪的同时，也注重保障被告人接受公正审判权的实现。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">综上所述，修正后的刑事诉讼法对刑事证据制度所作的重大修正，特别是随着“不得强迫任何人证实自己有罪”和举证责任条款的入律，检察机关应当增强证据裁判主义意识，加强诉讼风险评估，提高收集、审查、判断和运用证据的能力，以迎接修正后的刑事诉讼法的有效实施。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388026675', '1388374650', '1');
-INSERT INTO `lx_article` VALUES ('51', '公告', '浅议公诉人如何应对证据制度的修改', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\"> </span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">新刑事诉讼法从证据的概念、种类、证明标准、刑事诉讼与行政执法衔接、专家证人及鉴定人出庭等方面进行了修改、完善，同时明确规定检察机关承担被告人有罪的举证责任，不得强迫任何人证实自己有罪，并确立了非法证据排除规则。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">这些变化对公诉工作带来了巨大的挑战，如何应对这一挑战，确保公诉效果，我谈一下自己的看法：</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:16pt;\">\r\n	<span style=\"font-size:18px;\">一、&nbsp;逆向思维，从辩护角度思考案件</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">在长期的案件审查中，公诉人往往会形成惯性思维，这种惯性思维是从侦查的角度去思考案件，往往先入为主，认为必须严厉打击犯罪，审查案件的基本上就是围绕有罪证据进行，这样容易导致公诉人不自觉地按照程式化的思路去办案，忽视证据的问题，轻视证据的瑕疵。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">随着证据制度的修改、完善，检察机关的证明责任提升到新的高度，除了像以往一样在法庭上将有罪证据一一展示，形成证据链之外，更加重要的一项证明责任就是举证证明所出示的有罪证据的合法性，实际上就是对侦查行为的合法性进行举证，这两个任务必须完成，才能够达成公诉成功的效果。尤其是第二项证明责任，一旦公诉人证明不了侦查人员调取证据的合法性就要承担责任，也就是侦查人员违法，公诉人承担责任。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">因此，我认为在审查案件中，从辩护人的角度思考案件，不仅可以有效的发现非法证据，完善瑕疵证据，而且对于案件会有不一样的认识。首先，充分关注单个证据的合法性、根据不同种类证据的属性和特征，认真审查每个证据的取证程序、取证手段，从而排除对证据合法性的合理怀疑；其次，针对证据体系是否完整、证明结果是否唯一逆向思维，多分析，多思考，填补漏洞，完善瑕疵，从而排除对证明结果的合理怀疑。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">此外，从辩护人的角度思考案件也是对新刑事诉讼法规定的尊重和保障人权原则在实际行动中的贯彻、落实。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">二、&nbsp;主动出击，加强与诉讼参与人的交流</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">辩护人权利的扩大、证人、鉴定人出庭等方面的修改，以及非法证据排除的确立，公诉人必须主动出击，与各方诉讼参与人加强交流，听取意见，复核证据。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">首先，重视辩护人的意见。对待有辩护人的案件，公诉人要转变心态，更多是喜，而不是忧，因为有了辩护人，就多了一双发现问题的眼睛。与以往相比，新刑事诉讼法使辩护人在介入案件的时间、会见犯罪嫌疑人、调查取证等方面的权利扩大了，公诉人必须注重与辩护人的交流，分析辩护人所发现的问题，了解辩护人所调取的证据。当然，由于辩护人与公诉人天然的对抗性，辩护人很有可能在审查起诉环节有所隐瞒，留到庭审中对公诉人进行突然攻击。我认为，公诉人可以主动向辩护人提出，依据新刑事诉讼法第</span><span style=\"font-size:18px;\">170</span><span style=\"font-size:18px;\">条的规定，辩护人要提出详细的书面意见，这是审查起诉的工作内容之一。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">其次，认真听取犯罪嫌疑人的辩解，复核被害人陈述、证人证言。这些言词证据，公诉人通过卷宗看到的都是笔录，这些书面材料在经过当事人的口述，侦查人员的记录过程中很有可能与当事人的本意有所不同。尤其是被害人陈述、证人证言，由于受到个人感知能力、感知时的环境、记忆能力、语言表述等因素的影响，以及询问时间、询问地点、询问人员态度、询问人员制作笔录能力的影响，使得被害人陈述、证人证言往往会在不同的环节发生一些变化，有的变化影响到案件的定罪量刑。曾经有一起强奸案件，被告人一直辩称自己没有强奸，而被害人在公安机关的询问笔录中均称自己遭受了轮奸，对于这一被害人的陈述，必须进行核实，因为轮奸的量刑在十年以上与一般强奸的量刑相差巨大，而且还遗漏了其他犯罪嫌疑人，但此时被害人已经更换联系方式，不愿意再接受任何询问，公诉人历经辛苦，督促公安民警查找被害人新的联系方式，并与被害人细致沟通，成功实现与被害人两次面对面交流，为了利用好难得的机会，放弃休息时间，加班加点，全面了解案件细节，制作询问笔录，最终核实出只是强奸，并不是轮奸，该案起诉到法院后，法院以强奸罪判处被告人有期徒刑五年，被告人上诉后中院予以维持。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">第三，积极听取鉴定人的意见。新刑事诉讼法将鉴定结论修改为鉴定意见，公诉人需要更加审慎地审查，依法排除非法或者不适格的鉴定意见。鉴定意见涉及各方面的专业性问题，作为公诉人而言，不可能通晓所有专业领域的知识，借助鉴定人的专业知识，运用鉴定意见证明案件事实在办案中发挥着越来越重要的作用。正是由于在处理涉及专业性问题的案件时对鉴定意见的依赖，公诉人必须要严格审查鉴定意见，对鉴定意见有疑问的，积极与鉴定人联系，了解得出鉴定意见的过程。如果疑问没有及时排除，等到法院通知鉴定人出庭之时再去排除显然为时已晚，公诉效果大打折扣。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">三、善于运用庭前会议程序</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">新刑事诉讼法第</span><span style=\"font-size:18px;\">182</span><span style=\"font-size:18px;\">条第</span><span style=\"font-size:18px;\">2</span><span style=\"font-size:18px;\">款设立了庭前会议程序，在开庭以前，审判人员可以召集公诉人、当事人和辩护人、诉讼代理人，对回避、出庭证人名单、非法证据排除等与审判相关的问题，了解情况，听取意见。庭前会议程序不仅涉及回避、管辖异议、审理方式等程序性问题，更重要的是涉及非法证据、瑕疵证据、辩护人收集到的证据、申请出庭人员等可能影响案件顺利审判的实体性问题。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">庭前会议程序的设立对于法院有重要意义，可以确保开庭审理的集中性，加快庭审速度，提高审判效率，有利于审判人员全面把握案件情况，实际上，公诉人也应当重视庭前会议程序，虽然庭审会议由审判人员决定召开，但公诉人可以主动要求审判人员召开庭前会议。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">首先，公诉人能够通过庭前会议了解审判人员对于案件的意见，出庭公诉最终的目的是要说服审判人员，使审判人员在判决时采纳公诉人的意见，对于审判人员在庭审前所关注的问题，一定要认真记录，要庭审中分配更多的时间、精力去举证、发表意见。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">其次，公诉人能够通过庭前会议了解辩护人对于事实、证据的看法，提前知道辩护人所做的辩护是无罪辩护还是罪轻辩护，尤其是其辩论方向，公诉人可以有针对性的制定答辩方案，对于发现的问题及时解决，完善证据锁链，不留漏洞。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">第三，公诉人可以通过庭前会议主动要求了解辩护人所收集到的证据。此次新刑诉法增强了辩护人收集证据的权力，但没有强制辩护人将自己收集的证据在审查起诉环节提交给检察机关，因此公诉人可能在法庭上面临辩护人的证据埋伏，处于不利的境地。在庭前会议中，公诉人可以要求了解辩护人的证据，提前做好准备，制作有针对性的质证方案，不至于在法庭上临时应对，出现疏漏。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>\r\n<p>\r\n	<br />\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\"></span> \r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span> </span> \r\n</p>', 'admin', null, '0', '0', '1', '0', '1388026709', '1388374894', '1');
-INSERT INTO `lx_article` VALUES ('52', '公告', '浅谈新刑诉法证据制度对侦查监督工作的影响及有关建议', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">修改后《中华人民共和国刑事诉讼法》已经于</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">3</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">14</span><span style=\"font-size:18px;\">日由全国人大公布</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">决定自</span><span style=\"font-size:18px;\">2013</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">日起施行。这次刑事诉讼法修改使我国刑事诉讼制度更加科学化、民主化、法治化，有利于进一步加强惩罚犯罪和保护人民，而新刑诉法证据制度方面的修改无疑将对检察机关侦查监督工作带来更加深远的影响。作为一名基层侦查监督工作人员</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">我想结合侦查监督工作实际谈谈自己一些想法。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b></b><b><span style=\"font-size:18px;\">一、牢固树立证据意识，确保案件办理质量。</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">证据是刑事诉讼的基础和灵魂，没有证据，就没有刑事诉讼。周永康同志在实施修改的刑事诉讼法座谈会上讲话时，指出：要强化证据意识，保证刑事案件办理质量。在这次刑事诉讼法修改中，证据问题贯穿了整个刑事诉讼制度和程序。结合侦查监督工作，我们办理案件，就是要用证据说话，一定要通过新刑讼法证据制度的修改与侦查机关一起树立三个转变，一是从口供本位向物证本位转变；二是从重视证据客观性向重视证据合法性转变；三是从抓人破案向证据定案转变，在证据规格和标准上向庭审要求靠拢。此次刑诉法的修改，有多个新规定加强了人民检察院在诉讼监督的证据审查意识，如修改后的刑事诉讼法第</span><span style=\"font-size:18px;\">55</span><span style=\"font-size:18px;\">条增加规定了人民检察院对于非法取证的审查与核实，即人民检察院接到报案、控告、举报或者发现侦查人员以非法方法收集证据情形的，应当提出纠正意见。再如新刑诉法第</span><span style=\"font-size:18px;\">86</span><span style=\"font-size:18px;\">条规定，如果人民检察院认为侦查活动有重大违法行为的，可以通过讯问犯罪嫌疑人，询问证人，听取辩护律师的意见等方式来予以核实，有了侦查人员非法取证的证据，提出纠正意见就会更有效力，纠正违法侦查行为才会更有效果。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">二、如何认识新刑诉法证据制度对侦查监督工作产生的影响。</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">新刑诉法在证据概念、法定证据种类、举证责任、证明标准、非法证据等方面都做出了相应的规定，可以看出新刑诉法对证据制度进行了大幅度的修改。从侦查监督工作来看，新刑诉法细化了逮捕条件，明确了发生社会危险性，而有逮捕必要的五个具体条件；增加了审查逮捕时讯问犯罪嫌疑人、听取辩护律师意见的程序；设立了逮捕后羁押必要性审查程序等。侦查监督工作各项工作机制发生了较大的变化，但是我认为侦查监督干警应当高度重视其中证据制度的变化，因为证据制度具有基础性的作用，证据制度的变化将给侦查监督工作带来更加深远的影响，我认为实际工作中应当重点掌握以下几点：</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">1、刑事诉讼对抗性增强。作为刑事诉讼重要环节的审查逮捕程序，侦查监督人员审查证据，要从以往单方面审查侦查机关提请逮捕的证据，向同时听取犯罪嫌疑人的供述，听取律师的意见，听取证人和其他诉讼参与人的证言来变化，使审查逮捕程序成为听取公安机关、犯罪嫌疑人等多方意见的程序。这就要求侦查监督人员要切实转变观念，改变对犯罪嫌疑人的有罪推定，要通过认真审查多方面的证据，审慎并中立的作出审查逮捕决定，可以说这是一个具有重要意义的进步。因为实际办案中，我们发现仅凭侦查机关一家的证据材料是无法真实反映案件的实际情况的，如去年</span><span style=\"font-size:18px;\">9</span><span style=\"font-size:18px;\">月份，我们办理的王某等多人故意伤害案件，案件的实际情况是，犯罪嫌疑人王某等人和受害人翟某争夺啤酒市场的供应权发生矛盾，翟某纠集了</span><span style=\"font-size:18px;\">20</span><span style=\"font-size:18px;\">多人与王某纠集的</span><span style=\"font-size:18px;\">10</span><span style=\"font-size:18px;\">余人发生斗殴，翟某被王某等人砍成重伤，但公安机关在随后的侦查中，听信翟某一面之词，仅对王某等人采取刑拘措施并报捕，对翟某进行偏坦和放纵，说翟某仅带了</span><span style=\"font-size:18px;\">2</span><span style=\"font-size:18px;\">个人去说事，并没有斗殴，造成王某家人强烈不满，并多次上访。公安机关报捕该案后，经过我们认真审查案件证据材料，仔细讯问犯罪嫌疑人，并耐心听取犯罪嫌疑人家人和有关证人的意见，终于搞清的案件的真实情况，我们多次向公安机关提出要求追究翟某刑事责任，并积极向区委政法委汇报案件，最终翟某被公安机关以聚众斗殴罪立案侦查，目前翟某已被批准逮捕并移送起诉。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">2、明确规定非法证据排除规则。新刑诉法明确引入了非法证据排除制度，建立非法证据排除制度</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">有利于防止侦查机关刑讯逼供等违法取证行为</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">规范侦查取证活动。如新刑诉法第</span><span style=\"font-size:18px;\">54</span><span style=\"font-size:18px;\">条规定：采用刑讯逼供等非法方法收集的犯罪嫌疑人、被告人供述和采用暴力、威胁等非法方法收集的证人证言、被害人陈述，应当予以排除，第</span><span style=\"font-size:18px;\">55</span><span style=\"font-size:18px;\">条规定</span><span style=\"font-size:18px;\">:</span><span style=\"font-size:18px;\">“人民检察院接到报案、控告、举报或者发现侦查人员以非法方法收集证据的</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">应当进行调查核实。对于确有以非法方法收集证据情形的</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">应当提出纠正意见，构成犯罪的</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">依法追究刑事责任。人民检察院依据第</span><span style=\"font-size:18px;\">54</span><span style=\"font-size:18px;\">条、</span><span style=\"font-size:18px;\">55</span><span style=\"font-size:18px;\">条之规定</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">加强了对侦查人员违法取证活动的监督</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">有利于保证证据的合法性</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">保障刑事诉讼活动的顺利进行</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">也有利于保障司法公正。在实际办案工作中，我们发现公安机关采取刑讯逼供的取证的情况已经十分少见，一般是采取诱供等其他办法，比如对犯罪嫌疑人说，你承认这事，就放你回去；这事也没什么，你说吧，不会处罚你，等犯罪嫌疑人承认之后，发现被刑事拘留，已为时已晚。而新刑诉法对此的规定非常笼统，仅规定了刑讯逼供等非法方法，而对其他非法方法没有明确做出规定，而是以“等”进行概括，</span><span style=\"font-size:18px;\">2012</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">11</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">22</span><span style=\"font-size:18px;\">日出台的《人民检察院刑事诉讼规则》第</span><span style=\"font-size:18px;\">65</span><span style=\"font-size:18px;\">条规定：刑讯逼供是指使用肉刑或者变相使用肉刑</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">使犯罪嫌疑人在肉体或者精神上遭受剧烈疼痛或者痛苦以逼取供述的行为。其他非法方法是指违法程度和对犯罪嫌疑人的强迫程度与刑讯逼供或者暴力、威胁相当而迫使其违背意愿供述的方法。我觉得这个规定还是不很具体，操作性也不是很强。另外，现实办案中我们还发现个别案件存在公安机关消极取证、单方取证、选择性取证、甚至个别案件存在故意取证不到位等情况。比如一些强奸等重大案件不做现场勘验，故意伤害等案件不去追查凶器的下落，盗窃等侵财案件不去追查赃物下落，等检察机关提出取证，很多案件已丧失取证条件，造成案件办理质量不高或最终案件走入死胡同。对于现实办案中存在的消极取证或渎职不取证等情况，此次新刑诉法并没有作出规定。比如，去年我办理的一个刘某强奸一案，公安机关就取证非常不到位，提请逮捕时连强奸的地点，都没有搞清，只说是青年宫某旅馆，犯罪时间，犯罪嫌疑人，受害人，证人三个人说了三个时间，公安机关选择了证人说的时间，可是却和案件明显不相符。犯罪嫌疑人刘某和受害人金某之间的关系也没有查清，受害人金某怀孕后多次找犯罪嫌疑人刘某及刘某家人协商保留孩子或打胎之事，直到怀孕</span><span style=\"font-size:18px;\">7</span><span style=\"font-size:18px;\">个月左右被受害人母亲发现的情况下才报的案。最终经审查，我们认定该案事实不清，证据不足，决定不予批准逮捕，目前公安机关正在作撤案处理。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">3、加强对证据种类变化的认识。新刑诉法将鉴定结论修改为鉴定意见，新增加了辩认笔录，侦查实验笔录，电子数据为法定证据种类。其中鉴定结论改为鉴定意见，我认为意义十分重大，这将改变我们的思维方式，要加强对鉴定结果的审查，如果存在问题，仍然可以以予排除。比如，今年</span><span style=\"font-size:18px;\">5</span><span style=\"font-size:18px;\">月份，我办理的一起盗窃手机的案件，在审查证据材料时，我发现被盗手机的鉴定价格明显高出市场价格，经向鉴定机构核实，鉴定机构承认鉴定结论过于草率，解释说鉴定时并没有进行市场调查，只是根据受害人的购货发票估算了一下价格，最终经过我们监督，鉴定机构重新对手机价格进行了鉴定，由于重新鉴定后的手机价格低于盗窃罪的数额较大的构罪标准，我们依法对该案犯罪嫌疑人武某依法做出了不构成犯罪不予批准逮捕的决定，从而避免了一起错案的发生。至于新增加的辩认笔录，侦查实验笔录，电子数据为法定证据种类，我们希望尽快出台相关的具体规定，因为实际办案中，这几个证据已经在侦查活动中使用，特别是辩认笔录，使用的比较频繁，但也出现了大量的问题。比如对犯罪嫌疑人的照片辩认中，照片的来源没有合法依据，个别案件中居然把照片下面都标上姓名让受害人辩认，一些案件中，辩认笔录中的照片存在一成不变等问题。如我办理的一起强制猥亵妇女案件，犯罪嫌疑人对女厕所中受害人杨某实施猥亵后逃离现场，受害人杨某被压倒在地，并没有看到犯罪嫌疑人的长相，受害人杨某出厕所报案时，捞住了从男厕所出来的陈某，并指认陈某就是对其强制猥亵的犯罪嫌疑人，陈某争脱后逃离现场，公安机关在抓获陈某后，带受害人杨某对陈某进行了辩认，并制作了辩认笔录，要求确认陈某是否是对自己实施强制猥亵的犯罪嫌疑人，受害人杨某马上就认出了陈某认为陈某就是对自己实施强制猥亵的犯罪嫌疑人。但是经过仔细分析，我认为这个辩认笔录的无效的，因为它只能充分证明陈某就是受害人在厕所门口抓住的男子，并不能证明就是在女厕所实施强制猥亵的犯罪嫌疑人。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">4、在审查逮捕中应注意的其他证据问题。比如，新刑诉法</span><span style=\"font-size:18px;\">121</span><span style=\"font-size:18px;\">条规定侦查机关对于可能判处无期徒刑、死刑的案件或者其他重大犯罪案件，应当对讯问过程进行录音或者录相，录音或者录像应当全程进行，保持完整性。因此我们在审查在案件证据时，要切实贯彻新刑诉法规定，注意审查此类证据。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">三、如何贯彻落实好新刑诉法证据制度的几点建议</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">新刑诉法的出台是我国社会主义民主法制建设的又一重大成就</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">对我国推进社会主义法制建设和依法治国方略具有重大意义。而新刑诉法证据制度的变化将对检察机关侦查监督工作产生重大影响</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">我们不仅要全面学习贯彻新刑事诉讼法，更要结合本职工作，深化、细化对新刑事诉讼法证据制度的理解，把新刑事诉讼法证据制度真正贯彻到审查批捕具体工作当中去。我认为，应采取以下办法，保证审查批捕工作合法规范开展。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">第一，要统一思想，把深入学习新刑诉法，学习新刑诉法证据制度作为当前检察机关一项重要而紧迫的任务抓好抓实，始终坚持、牢固树立正确执法理念，进一步增强保障人权意识、证据规则意识、程序公正意识、办案效率意识和监督制约意识。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">第二、要转变观念，要结合新刑事诉讼法的证据制度的规定，做到理念转变、办案方式转变、业务管理方式转变，及时总结过去的成功经验，确立今后的侦监工作发展方向。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">第三，要开展专题研究，深入探讨问题，为正确执行法律奠定坚实的理论基础，通过学习研究，积极为进一步完善法律制度和进行司法解释提出建议。要做好新刑诉法施行前的各项准备工作，从人员配备、物质保障等方面，尽早准备、尽早落实。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">第四，建立“阳光审查”机制。新刑诉法在证据制度等多个方面加强了对犯罪嫌疑人的诉讼权利的保护，同时也强化检察机关自身的监督，有利于促进检察机关规范、公正、理性、文明执法。对此，检察机关应当从提升执法公信力的角度转变观念，树立监督者更要自觉接受监督的意识，实行阳光审查，在检察机关执法办案的各个环节，依法保障律师履行职务，并主动接受和听取律师意见，更好的维护和保障犯罪嫌疑人以及其他诉讼参与人的诉讼权利。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388026754', '1388374945', '1');
-INSERT INTO `lx_article` VALUES ('53', '公告', '浅谈如何理解和把握排除合理怀疑', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">新刑诉法第一百六十条、第一百七十二条、第一百九十五条明确规定了侦查终结移送审查起诉、提起公诉、作出有罪判决都要求达到“犯罪事实清楚，证据确实、充分”，统一的证明标准使公检法在三个诉讼阶段有共同的标准，避免由于标准不一导致公检法之间分歧过大，影响案件的诉讼进程，损害司法的公信力。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">对于证据是否已经达到确实、充分，新刑诉法第五十三条第二款明确规定：“证据确实、充分，应当符合以下条件：（一）定罪量刑的事实都有证据证明；（二）据以定案的证据均经法定程序查证属实；（三）综合全案证据，对所认定事实已排除合理怀疑。”这一规定明确了证据确实、充分的内涵，而其中的核心正是排除合理怀疑。新刑诉法规定了排除合理怀疑，但既没有给出明确的定义，也没有给出模糊的界定，由于排除合理怀疑本身的抽象、模糊，使得在实务中缺乏可操作性，如何在办案中理解和把握，笔者结合案例谈谈对排除合理怀疑的理解和把握。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一、如何理解排除合理怀疑</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">排除合理怀疑是英美法系几乎所有国家对刑事诉讼证明标准的经典表述，但是在理论界却没有一个统一的定义，在司法实践中，不同国家、不同法院、甚至同一法院不同法官对排除合理怀疑的界定都有很大差异。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">综合来看，英美法系国家的理论界及实务界在界定排除合理怀疑的涵义时往往同时从以下多个角度进行：从排除合理怀疑与日常经验的类似关系的角度；从排除合理怀疑的事实根据的角度；从排除合理怀疑的确信程度；从排除合理怀疑的道德信念的角度；从排除合理怀疑的社会基础的角度；从数量的角度。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">本文认为比较通俗易通的是卞建林翻译的《美国加利福尼亚刑法典》的界定：它不仅仅是一个可能的怀疑，而是该案的状态，在经过对所有证据的总的比较和考虑之后，陪审员的心理处于这种状况，他们不能说他们感到对指控罪行的真实性得出永久的裁判已达到的内心确信的程度。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">我国的理论界、实务界对排除合理怀疑进行了大量的研究，做出了不同的界定。纵观专家、学者的研究，本文认为可以在具体办案中可以借鉴黄太云对排除合理怀疑的界定，黄太云在《刑事诉讼法修改释义》中将排除合理怀疑表述为一种主观心理状态，很难用一种客观尺度来衡量，在理念上遵循一种原则，达到内心确信无疑的程度。换言之，达到内心确信的程度需要自身基于司法良知，根据司法实践经验的积累，建立在对单个证据的真实性、关联性、合法性的审查采信和全案证据的综合判断，排除任何人为和非人为因素干扰的情况下，在其自身知识和经验范围内，感到对案件事实认定确有把握，而不是似是而非、疑惑不定，排除任何有根据的合理怀疑。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">反过来讲，合理怀疑必须符合经验规则，建立在有一定理由、有合理根据的基础之上，有经过论证的逻辑关系和客观的事实依据，从而对案件的证据或者证明的结果产生不信赖。所以，合理怀疑不是一般意义的怀疑，不是任意妄想的怀疑，不是任意推测的怀疑，不是强词夺理的怀疑，更不是故意为被告人开脱的怀疑。对所认定的事实已排除合理怀疑指证据与证据之间、证据与案件事实之间不存在矛盾或者矛盾得以合理排除，而根据证据认定案件事实的过程符合逻辑和经验规则，由证据得出的结论具有唯一性。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">二、如何把握排除合理怀疑</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">排除合理怀疑很难用一种客观尺度来衡量，如何在办案中进行把握，需要不断的思考与实践，笔者认为可以从以下三个方面入手：</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（一）对证据能否作为定案的依据合理怀疑，这里主要是指单个证据是否符合证据的属性。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">如王某故意伤害案，在审查起诉过程中我发现伤情鉴定作出结论的时间比诊断证明的时间还要早，比如说是</span><span style=\"font-size:18px;\">5</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">4</span><span style=\"font-size:18px;\">日作出鉴定结论，但得出结论的依据用的却是</span><span style=\"font-size:18px;\">6</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">4</span><span style=\"font-size:18px;\">日的诊断证明，诊断证明还没有做出，就有了鉴定结论，明显不符合逻辑，据此就可以合理怀疑，不信赖这份鉴定结论，不能作为结案的依据，必须重新鉴定。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（二）对证明结果是否具有唯一性合理怀疑，这里主要是指证据体系是否完整，证明结果能否得以实现。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">如李某强奸案，经过阅卷、提审，结合自身积累的经验，在一定的逻辑及事实基础上，我发现了两处合理怀疑。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">第一，李某有犯罪前科，曾因犯强奸罪被判处有期徒刑六年，在判决依据中除了被害人陈述、证人证言、被害人伤情照片、</span><span style=\"font-size:18px;\">DNA</span><span style=\"font-size:18px;\">鉴定等直接证据之外，还有一份精神病鉴定，虽然在提审过程中，李某表达流畅，思维清晰，但这一客观存在的精神病鉴定便有了合理怀疑的事实基础。继而通过工作，联系到李某的邻居，据邻居反映李某小时候就有精神病，时好时坏，父母都被其打走了，李某与父母之间已经不再联系，据此事实就可以合理怀疑李某在作案时是否具有完全刑事责任能力，必须要有司法鉴定。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">第二，李某与被害人相互之间不知姓名，仅仅是在青年宫广场跳舞时认识，跳过两次舞，被害人的询问笔录说是李某以去别处跳舞为由将其骗到了李某的出租屋；李某的供述与被害人的陈述都提到李某在被害人离开时给了她</span><span style=\"font-size:18px;\">100</span><span style=\"font-size:18px;\">元钱，但关于钱的来源，李某说是被害人借的，被害人说是李某硬塞给她的；被害人报案的时间是在案发第二天的下午；李某在听说被害人报案后主动到公安机关解释说两人谈朋友；被害人在报过案做完两次笔录后就再也找不到了，公安机关也没有制作被害人有无伤痕的照片，经过对李某与被害人的关系、给付的</span><span style=\"font-size:18px;\">100</span><span style=\"font-size:18px;\">元钱、被害人报案不及时、李某主动到案、被害人变换联系方式等情况的综合分析，根据经验规则就产生了合理怀疑，也就是有没有违背被害人的意愿，如果这个怀疑排除不了就不能结案。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（三）如果全案的证据符合相互印证的证明模式，即使事实的某些部分或细节尚未弄清，但这部分的疑问不至于影响待证事实本身已达到的证明程度，这种疑问就不属于合理怀疑。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">如杨某抢劫、强奸、盗窃、破坏电力设备案，杨某对强奸拒不认罪，已有的证据一是被害人指认杨某强奸既遂；二是有多个证人证明听到呼救到达现场后发现杨某爬在被害人身上，之后杨某穿衣逃跑，证人帮助被害人穿被脱掉的内衣；三是被害人颈部、腿部、背部的伤痕照片及诊断证明；四是杨某尾随被害人的监控资料；虽然</span><span style=\"font-size:18px;\">DNA</span><span style=\"font-size:18px;\">鉴定从市里到省里都说检材条件不够，做不出来，最后公安部给出鉴定，没有检测出杨某的</span><span style=\"font-size:18px;\">DNA</span><span style=\"font-size:18px;\">，但是缺少</span><span style=\"font-size:18px;\">DNA</span><span style=\"font-size:18px;\">鉴定并不影响认定，综合其他证据能够证明强奸既遂，最终法院对强奸罪量刑</span><span style=\"font-size:18px;\">6</span><span style=\"font-size:18px;\">年，数罪并罚判处</span><span style=\"font-size:18px;\">16</span><span style=\"font-size:18px;\">年，被告人也没有上诉。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388026788', '1388374991', '1');
-INSERT INTO `lx_article` VALUES ('54', '公告', '《人民检察院刑事诉讼规则（试行）》  修改前后对照表  （修', '<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b>《人民检察院刑事诉讼规则（试行）》</b><b></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b>修改前后对照表</b><b></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b>（修改前条文中下划线部分是新规则中删减的内容；修改后条文中黑体字部分是对原规则所作的修改或者补充内容）<span></span></b> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b> </b> \r\n</p>\r\n<table class=\"MsoNormalTable\" cellspacing=\"0\" cellpadding=\"0\" width=\"643\" border=\"1\" style=\"text-align:center;border:medium none;\">\r\n	<tbody>\r\n		<tr>\r\n			<td width=\"283\" style=\"border:1pt solid windowtext;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<b><span style=\"font-size:12pt;font-family:黑体;\">修改前<span></span></span></b> \r\n				</p>\r\n			</td>\r\n			<td width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<b><span style=\"font-size:12pt;font-family:黑体;\">修改后<span></span></span></b> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"283\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<a name=\"_Toc329458600\"></a><a name=\"_Toc3882\"></a><a name=\"_Toc24018\"></a><a name=\"_Toc29470\"></a><a name=\"_Toc10199\"></a><b><span style=\"font-size:12pt;font-family:宋体;\">第一章</span></b><b><span style=\"font-size:12pt;\"> </span></b><b><span style=\"font-size:12pt;font-family:宋体;\">通</span></b><b><span style=\"font-size:12pt;\"> </span></b><b><span style=\"font-size:12pt;font-family:宋体;\">则</span></b><b><span style=\"font-size:12pt;\"></span></b> \r\n				</p>\r\n			</td>\r\n			<td width=\"360\" colspan=\"3\">\r\n				<h1 align=\"center\" style=\"text-align:center;\">\r\n					<a name=\"_Toc329458601\"></a><a name=\"_Toc4032\"></a><a name=\"_Toc20213\"></a><a name=\"_Toc27278\"></a><a name=\"_Toc12508\"></a><span style=\"font-size:12pt;font-family:宋体;\">第一章</span><span style=\"font-size:12pt;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">通</span><span style=\"font-size:12pt;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">则</span><span style=\"font-size:12pt;\"></span> \r\n				</h1>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第一条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">为保证人民检察院在刑事诉讼中严格执法，正确履行职权，根据《中华人民共和国刑事诉讼法》、《中华人民共和国人民检察院组织法》和有关法律，结合人民检察院工作实际，制定本规则。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第一条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">为保证人民检察院在刑事诉讼中严格</span><b><span style=\"font-size:12pt;font-family:黑体;\">依照法定程序办案</span></b><span style=\"font-size:12pt;font-family:宋体;\">，正确履行职权，</span><b><span style=\"font-size:12pt;font-family:黑体;\">实现惩罚犯罪与保障人权的有机统一，</span></b><span style=\"font-size:12pt;font-family:宋体;\">根据《中华人民共和国刑事诉讼法》、《中华人民共和国人民检察院组织法》和有关法律，结合人民检察院工作实际，制定本规则。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第二条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 人民检察院在刑事诉讼中的任务，是侦查直接受理的案件、批准或者决定逮捕、提起公诉、对刑事诉讼实行法律监督，保证准确、及时地查明犯罪事实，正确应用法律，惩罚犯罪分子，保障无罪的人不受刑事追究，保障国家刑事法律的统一正确实施，以维护社会主义法制，保护公民的人身权利、财产权利、民主权利和其他权利，保障社会主义建设事业的顺利进行。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第二条<span> </span></span><span style=\"font-size:12pt;font-family:宋体;\">人民检察院在刑事诉讼中的任务，是</span><b><span style=\"font-size:12pt;font-family:黑体;\">立案</span></b><span style=\"font-size:12pt;font-family:宋体;\">侦查直接受理的案件、批准或者决定逮捕、</span><b><span style=\"font-size:12pt;font-family:黑体;\">审查起诉和</span></b><span style=\"font-size:12pt;font-family:宋体;\">提起公诉、对刑事诉讼实行法律监督，保证准确、及时地查明犯罪事实，正确应用法律，惩罚犯罪分子，保障无罪的人不受刑事追究，保障国家刑事法律的统一正确实施，维护社会主义法制，</span><b><span style=\"font-size:12pt;font-family:黑体;\">尊重和保障人权，</span></b><span style=\"font-size:12pt;font-family:宋体;\">保护公民的人身权利、财产权利、民主权利和其他权利，保障社会主义建设事业的顺利进行。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24.1pt;\">\r\n					<b><span style=\"font-size:12pt;font-family:黑体;\">第三条 </span></b><b><span style=\"font-size:12pt;font-family:宋体;\"> </span></b><span style=\"font-size:12pt;font-family:宋体;\">人民检察院办理刑事案件，应当严格遵守《中华人民共和国刑事诉讼法》规定的各项基本原则和程序以及其他有关法律的规定。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24.1pt;\">\r\n					<b><span style=\"font-size:12pt;font-family:黑体;\">第三条 </span></b><b><span style=\"font-size:12pt;font-family:宋体;\"> </span></b><span style=\"font-size:12pt;font-family:宋体;\">人民检察院办理刑事案件，应当严格遵守《中华人民共和国刑事诉讼法》规定的各项基本原则和程序以及其他有关法律的规定。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第四条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 人民检察院办理刑事案件，由检察人员承办，办案部门负责人审核，检察长或者检察委员会决定。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第四条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 人民检察院办理刑事案件，由检察人员承办，办案部门负责人审核，检察长或者检察委员会决定。<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第五条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">人民检察院按照法律规定设置内部机构，在刑事诉讼中实行侦查、审查逮捕、审查起诉等业务分工，各司其职，互相制约，保证办案质量。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第五条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">人民检察院按照法律规定设置内部机构，在刑事诉讼中实行</span><b><span style=\"font-size:12pt;font-family:黑体;\">案件受理、立案</span></b><span style=\"font-size:12pt;font-family:宋体;\">侦查、</span><b><span style=\"font-size:12pt;font-family:黑体;\">侦查监督、</span></b><b><span style=\"font-size:12pt;font-family:黑体;\">公诉</span></b><span style=\"font-size:12pt;font-family:宋体;\">、</span><b><span style=\"font-size:12pt;font-family:黑体;\">控告、申诉、监所检察</span></b><span style=\"font-size:12pt;font-family:宋体;\">等业务分工，各司其职，互相制约，保证办案质量。<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第六条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 在刑事诉讼中，最高人民检察院领导地方各级人民检察院和专门人民检察院的工作，上级人民检察院领导下级人民检察院的工作。检察长统一领导检察院的工作。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第六条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 在刑事诉讼中，最高人民检察院领导地方各级人民检察院和专门人民检察院的工作，上级人民检察院领导下级人民检察院的工作。检察长统一领导检察院的工作。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第七条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 在刑事诉讼中，上级人民检察院对下级人民检察院作出的决定，有权予以撤销或者变更；发现下级人民检察院已办结的案件有错误的，有权指令下级人民检察院纠正。<span><br />\r\n</span>下级人民检察院对上级人民检察院的决定应当执行，如果认为有错误的，应当在执行的同时向上级人民检察院报告。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第七条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 在刑事诉讼中，上级人民检察院对下级人民检察院作出的决定，有权予以撤销或者变更；发现下级人民检察院</span><b><span style=\"font-size:12pt;font-family:黑体;\">办理</span></b><span style=\"font-size:12pt;font-family:宋体;\">的案件有错误的，有权指令下级人民检察院</span><b><span style=\"font-size:12pt;font-family:黑体;\">予以</span></b><span style=\"font-size:12pt;font-family:宋体;\">纠正。<span><br />\r\n</span>下级人民检察院对上级人民检察院的决定应当执行，如果认为有错误的，应当在执行的同时向上级人民检察院报告。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"283\">\r\n				<h1 align=\"center\" style=\"text-align:center;\">\r\n					<a name=\"_Toc329458602\"></a><a name=\"_Toc8847\"></a><a name=\"_Toc27104\"></a><a name=\"_Toc25815\"></a><a name=\"_Toc19557\"></a><span style=\"font-size:12pt;font-family:黑体;\">第二章<span> </span>管 辖</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</h1>\r\n			</td>\r\n			<td width=\"360\" colspan=\"3\">\r\n				<h1 align=\"center\" style=\"text-align:center;\">\r\n					<a name=\"_Toc329458603\"></a><a name=\"_Toc27804\"></a><a name=\"_Toc29781\"></a><a name=\"_Toc14750\"></a><a name=\"_Toc7150\"></a><span style=\"font-size:12pt;font-family:黑体;\">第二章<span> </span>管 辖</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</h1>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第八条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 人民检察院立案侦查贪污贿赂犯罪、国家工作人员的渎职犯罪、国家机关工作人员利用职权实施的非法拘禁、刑讯逼供、报复陷害、非法搜查的侵犯公民人身权利的犯罪以及侵犯公民民主权利的犯罪案件。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">贪污贿赂犯罪是指刑法分则第八章规定的贪污贿赂犯罪及其他章中明确规定依照第八章相关条文定罪处罚的犯罪案件。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">国家工作人员的渎职犯罪是指刑法分则第九章规定的渎职犯罪案件。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">国家机关工作人员利用职权实施的侵犯公民人身权利和民主权利的犯罪案件包括：<span> </span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"margin-left:0cm;text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">1、</span><span style=\"font-size:12pt;font-family:宋体;\">非法拘禁案（刑法第<span>238</span>条）；<span> </span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"margin-left:0cm;text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">2、</span><span style=\"font-size:12pt;font-family:宋体;\">非法搜查案（刑法第<span>245</span>条）；<span> 3</span>、刑讯逼供案（刑法第<span>247</span>条）；<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">4</span><span style=\"font-size:12pt;font-family:宋体;\">、暴力取证案（刑法第<span>247</span>条）；<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">5</span><span style=\"font-size:12pt;font-family:宋体;\">、体罚、虐待被监管人案（刑法第<span>248</span>条）；</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">6</span><span style=\"font-size:12pt;font-family:宋体;\">、报复陷害案（刑法第<span>254</span>条）；<span> 7</span>、破坏选举案（刑法第<span>256</span>条）。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第八条 </span><span style=\"font-size:12pt;font-family:宋体;\"> 人民检察院立案侦查贪污贿赂犯罪、国家工作人员的渎职犯罪、国家机关工作人员利用职权实施的非法拘禁、刑讯逼供、报复陷害、非法搜查的侵犯公民人身权利的犯罪以及侵犯公民民主权利的犯罪案件。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">贪污贿赂犯罪是指刑法分则第八章规定的贪污贿赂犯罪及其他章中明确规定依照第八章相关条文定罪处罚的犯罪案件。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">国家工作人员的渎职犯罪是指刑法分则第九章规定的渎职犯罪案件。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">国家机关工作人员利用职权实施的侵犯公民人身权利和民主权利的犯罪案件包括：<span> </span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">1.</span><span style=\"font-size:12pt;font-family:宋体;\">非法拘禁案（刑法第<span>238</span>条）；<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">2.</span><span style=\"font-size:12pt;font-family:宋体;\">非法搜查案（刑法第<span>245</span>条）；<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">3.</span><span style=\"font-size:12pt;font-family:宋体;\">刑讯逼供案（刑法第<span>247</span>条）；<span> </span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">4.</span><span style=\"font-size:12pt;font-family:宋体;\">暴力取证案（刑法第<span>247</span>条）；<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">5.</span><span style=\"font-size:12pt;font-family:宋体;\">虐待被监管人案（刑法第<span>248</span>条）；<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">6.</span><span style=\"font-size:12pt;font-family:宋体;\">报复陷害案（刑法第<span>254</span>条）；<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">7.</span><span style=\"font-size:12pt;font-family:宋体;\">破坏选举案（刑法第<span>256</span>条）。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第九条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">国家机关工作人员利用职权实施的其他重大犯罪案件，需要由人民检察院直接受理的时候，经省级以上人民检察院决定，可以由人民检察院立案侦查。<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第九条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">国家机关工作人员利用职权实施的其他重大犯罪案件，需要由人民检察院直接受理的时候，经省级以上人民检察院决定，可以由人民检察院立案侦查。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第十条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">对本规则第九条规定的案件，基层人民检察院或者分、州、市人民检察院需要直接立案侦查时，应当层报所在的省级人民检察院决定。分、州、市人民检察院对基层人民检察院层报省级人民检察院的案件，应当进行审查，提出是否需要立案侦查的意见，报送省级人民检察院。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">报请省级人民检察院决定立案侦查的案件，应当<u>经检察委员会讨论决定，</u>制作提请批准直接受理书，写明已经查明的案件情况以及需要由人民检察院立案侦查的理由，并附有关材料。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">省级人民检察院应当在收到提请批准直接受理书后的十日以内，由检察委员会讨论作出是否立案侦查的决定。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">省级人民检察院可以决定由下级人民检察院直接立案侦查，也可以决定直接立案侦查。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第十条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">对本规则第九条规定的案件，基层人民检察院或者分、州、市人民检察院需要直接立案侦查时，应当层报所在的省级人民检察院决定。分、州、市人民检察院对基层人民检察院层报省级人民检察院的案件，应当进行审查，提出是否需要立案侦查的意见，报送省级人民检察院。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">报请省级人民检察院决定立案侦查的案件，</span><b><span style=\"font-size:12pt;font-family:黑体;\">应当制作提请批准直接受理书，</span></b><span style=\"font-size:12pt;font-family:宋体;\">写明已经查明的案件情况以及需要由人民检察院立案侦查的理由，并附有关材料。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">省级人民检察院应当在收到提请批准直接受理书后的十日以内</span><b><span style=\"font-size:12pt;font-family:黑体;\">作出是否立案侦查的决定。</span></b><span style=\"font-size:12pt;font-family:宋体;\">省级人民检察院可以决定由下级人民检察院直接立案侦查，也可以决定直接立案侦查。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td valign=\"top\" width=\"283\">\r\n				<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:黑体;\">第十一条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">对于根据本规则第九条规定立案侦查的案件，应当根据案件性质，由人民检察院负责侦查的部门进行侦查。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:24pt;\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\">报送案件的具体手续由发现案件线索的业务部门办理。</span><span style=\"font-size:12pt;font-family:宋体;\"></span> \r\n				</p>\r\n			</td>\r\n			<td valign=\"top\" width=\"360\" colspan=\"3\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:黑体;\">第十一条</span><span style=\"font-size:12pt;font-family:宋体;\"> </span><span style=\"font-size:12pt;font-family:宋体;\">对于根据本规则第九条规定立案侦查的案件，应当根据案件性质，由人民检察院负责侦查的部门进行侦查。<span></span></span> \r\n				</p>\r\n				<p class=\"MsoNormal\">\r\n					<br />\r\n				</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>', 'admin', null, '0', '0', '1', '0', '1388026924', '1388382229', '1');
-INSERT INTO `lx_article` VALUES ('55', '公告', '非法证据排除规则对自侦工作的影响及应对', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">根据新刑诉法第五章第五十条、第五十四至五十八条的规定，非法证据排除规则的主要内涵包括以下几个方面：公检法三机关都有排除非法证据的义务；绝对排除非法言词证据；相对排除非法实物证据；检察机关要加强对取证活动的法律监督；遵守非法证据的法庭调查程序。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">一、非法证据排除规则对自侦工作的影响</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">（一）对侦查工作带来严峻的挑战。</span></b><span style=\"font-size:18px;\">非法证据排除规则的适用将会对犯罪嫌疑人、被告人及其律师的辩护活动、检察官、法官的司法活动带来深刻的影响,进而构成对现行侦查机制的严峻挑战。就检察机关查办职务犯罪而言,主要挑战有:一是不供率、翻供率、排除非法证据的申请将会大量增加；二是自侦案件的不捕率、不诉率将会上升；三是对职务犯罪案件证据合法性的法庭调查将会增多。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">（二）促使职务犯罪侦查人员转变执法观念。</span></b><span style=\"font-size:18px;\">非法证据排除规则明确规定了收集证据的原则、非法证据排除的原则、非法证据的调查程序和排除程序,这不仅是在制度上的一种规范,更是对享有侦查权的司法机关和执法人员在办案思想和理念上的一次冲击。首先，我们的侦查理念要从“职权主义”转向“当事人主义”；其次，我们要从单纯的惩罚犯罪转向惩罚犯罪与保障人权并重；第三，在证据方面我们要从偏重证明力转向证据的可采性。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">（三）促进检察机关自侦工作方式的改善。</span></b><span style=\"font-size:18px;\">由于受到经济条件和技术手段的制约,在职务犯罪案件侦查过程中,办案人员有时过分依赖犯罪嫌疑人的口供，有时甚至不惜采用欺骗、引诱、威胁甚至刑讯的方法获取其有罪的供述。非法证据排除规则旨在引导侦查人员遵照法定的程序,采用合法有效的方法展开调查取证。对我们自侦部门来说,意味着必须放弃简单粗放式的传统侦查模式,努力探索一种既符合法律要求,又能保证办案效果的侦查模式。这就要求改变过去过分依赖犯罪嫌疑人口供的做法，注重对实物证据的收集，不断创新侦查方法、提高侦查技能、规范取证行为、增强办案风险意识。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<b><span style=\"font-size:18px;\">二、应对非法证据排除规则挑战的建议</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<span style=\"font-size:18px;\">非法证据排除规则的确立,在促进检察机关自侦工作职能强化的同时,也对自侦工作提出了更高的要求。检察机关自侦部门在加大惩治犯罪力度的同时,要更加透明、更加规范、更加注重打击犯罪与保障人权的平衡。要以此为契机,积极采取应对措施,化挑战为机遇,努力把自侦工作提高到一个新的水平。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<b><span style=\"font-size:18px;\">(</span></b><b><span style=\"font-size:18px;\">一</span></b><b><span style=\"font-size:18px;\">)</span></b><b><span style=\"font-size:18px;\">加强学习</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">转变观念</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">大力提高侦查人员素质</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">一是要加强学习培训,组织广大职务犯罪侦查人员加强自学&nbsp;,深入领会新刑诉法中非法证据排除规则的本质内容。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">二是要严格依照法定程序和要求办案,不断提高规范化办案的能力。在非法证据排除的问题上,要认真研究、准确把握非法证据排除的范围,积极承担排除义务,严格遵守法庭调查程序,做好出庭说明情况工作,及时听取辩护人关于排除非法证据的意见。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">三是要转变重口供的观念,增强证据意识。首先要真正树立重证据,重调查研究,不轻信口供的观念。其次,要牢固树立证据意识,严格依照法定的条件和程序收集证据,严格执行收集证据的禁止性规定,确保证据收集方式合法。职务犯罪侦查人员应增强三个证据意识：（1）证据合法性的意识,既要充分认识证据的客观性和相关性,更要充分认识证据的合法性,必须依法收集证据;（2）重视无罪证据的意识,所收集、整理移送的证据要客观、全面;（3）掌握证明标准的意识,在证据的收集和运用上,必须坚持法律规定的证明标准,确保案件得到依法正确处理。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<b><span style=\"font-size:18px;\">(</span></b><b><span style=\"font-size:18px;\">二</span></b><b><span style=\"font-size:18px;\">)</span></b><b><span style=\"font-size:18px;\">充分利用新刑诉法关于特别重大、复杂案件传唤和拘传时间延长的规定</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">精心研究讯问方法</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">切实提高讯问水平</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">依法收集、固定证据。</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<span style=\"font-size:18px;\">新刑诉法第一百一十七条规定,传唤、拘传持续的时间不得超过十二小时;案情特别重大、复杂,需要采取拘留、逮捕措施的,传唤、拘传的持续时间不得超过二十四小时。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<span style=\"font-size:18px;\">这一规定为自侦部门突破案件争取了宝贵时间,使拘留前办案时间紧张的情况得到有效缓解。实际上,职务犯罪侦查部门要有效突破案件,必须提高初审的成功率,要从提高初查质量上寻找出路。将办案工作重心前移,把初查工作做扎实,不能将希望仅仅寄托在延长的十二小时上。对于案件线索涉及的有关情况或者事实,要从外围查清,对于案件涉及的人和事特别是关键性细节,都要查清,做到心中有数。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.5pt;\">\r\n	<b><span style=\"font-size:18px;\">(</span></b><b><span style=\"font-size:18px;\">三</span></b><b><span style=\"font-size:18px;\">)</span></b><b><span style=\"font-size:18px;\">充分运用法律赋予检察机关的技术侦查权</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">取得合法证据</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">排除非法证据。</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">新刑诉法第一百四十八条规定,人民检察院在立案后,对于重大的贪污、贿赂案件以及利用职权实施的严重侵犯公民人身权利的重大犯罪案件,根据侦查犯罪的需要,经过严格的批准手续,可以采取技术侦查措施,按照规定交有关机关执行。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">随着科学技术水平的发展,职务犯罪也日益呈现技术化、智能化,犯罪手段也更加隐蔽。另外，犯罪分子往往是国家公务人员，反侦查能力较强,办案的干扰多,阻力大。因此，在侦查中发现难、取证难、固定证据难的问题十分突出。因此，检察机关在查办职务犯罪的过程中使用必要的技术侦查措施,有利于减少对口供的依赖,及时掌握犯罪嫌疑人的行踪和心态,强化侦查控制,减少适用拘留、逮捕等羁押措施,促进办案规范化,预防非法取证行为的发生,从而提高检察机关的侦查能力和执法公信力。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<b><span style=\"font-size:18px;\">(</span></b><b><span style=\"font-size:18px;\">四</span></b><b><span style=\"font-size:18px;\">)</span></b><b><span style=\"font-size:18px;\">建立健全证据审查和补正制度</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">及时排除非法证据</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">确保自侦环节不出现非法证据排除情形。</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">检察机关自侦部门要强化证据审查意识,必要时可以设置专门预审人员,加强对所办案件的预审,在移送审查起诉前,对全案证据进行审查把关,及时发现案件证据中存在的瑕疵和漏洞,能够补正的,及时补正;不能补正的,重新按照法定程序进行收集。对于重要证人证言和关键证据,要尽可能采取多种方式进行有效固定,防止翻供、翻证、毁证,确保办案工作顺利开展。此外,为了能够将非法证据排除在侦查阶段,应建立和完善批捕、公诉部门对职务犯罪侦查的提前介入、引导取证和侦查监督机制,以逮捕标准和起诉标准指导和规范侦查阶段的取证工作,确保诉讼过程的顺利进行,以提高自侦案件的整体质量。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<b><span style=\"font-size:18px;\">(</span></b><b><span style=\"font-size:18px;\">五</span></b><b><span style=\"font-size:18px;\">)</span></b><b><span style=\"font-size:18px;\">完善同步录音录像制度</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">规范侦查讯问活动</span></b><b><span style=\"font-size:18px;\">,</span></b><b><span style=\"font-size:18px;\">预防非法取证行为的发生。</span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">新刑诉法第一百二十一条规定,侦查人员在讯问犯罪嫌疑人的时候,可以对讯问过程进行录音或者录像;对于可能判处无期徒刑、死刑的案件或者其他重大犯罪案件,应当对讯问过程进行录音或录像。录音或录像应当全程进行,保持完整性。全程同步录音录像制度的确立对于讯问是否合法,将提供直接有力的证据。它有利于规范检察机关自侦案件的讯问行为,预防发生刑讯逼供等非法取证的现象,在法庭对证据的合法性调查中可以起到直接证明的作用。作为检察机关职务犯罪侦查部门,首先应严格落实新刑诉法关于同步录音录像的规定,同时严格遵守高检院《关于讯问职务犯罪嫌疑人和关键证人全程同步录音录像的规定》。事实上,同步录音录像既是一种固定证据的方式,可以有效遏制犯罪嫌疑人翻供,也是用来证明自侦部门工作人员严格依法办案的有效方式。无论是从办案的角度还是保护检察干警的角度,同步录音录像制度都必须贯彻落实好。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">新刑诉法明确规定了非法证据排除规则,标志着我国民主与法治的进步,体现了国家司法文明的程度,对遏制非法取证、提高刑事案件的质量,具有十分重要的意义。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388026956', '1388375121', '1');
-INSERT INTO `lx_article` VALUES ('56', '公告', '狠抓争先创优不放松 开创党建工作科学发展新局面', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<span style=\"font-size:18px;\">近年来，老城区检察院在区直工委的正确领导下，在区院党组和市院的支持、指导下，紧紧围绕检察工作总体目标，全面推进机关党的思想、组织、作风、制度和反腐倡廉建设，充分发挥党组织的战斗堡垒作用和广大党员的先锋模范作用，我们通过狠抓争先创优工作，积极探索机关党建工作科学发展的新方法、新途径，开创了党建工作科学发展的新局面，为检察事业的全面发展提供了坚实的组织基础和政治保障。我们先后获得省级“文明单位”、省级“卫生先进单位”、省委政法委表彰的全省“人民满意的政法单位”、市委表彰的“五好基层党组织”（三年两次）、市“五一劳动奖状”获得单位、市“职业道德建设十佳单位”等一系列荣誉，连续四年被市院命名表彰为“先进基层检察院”、“学习型检察院”。对于我院取得的一些成绩，与我们狠抓争先创优，加强党建工作息息相关，我们的主要做法是：</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:40pt;\">\r\n	<span style=\"font-size:18px;\">一、切实加强领导班子建设，打造强劲的党建“车头”</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">“火车跑得快全靠车头带”。区院在各项工作中充分发挥院党组、检察长在党建工作中的核心作用，全面增强领导班子团结合作、开拓进取能力。落实集体负责，完善议事决策程序和规则，开好党组会、检察委员会会议，在工作部署推进、干部使用等重大问题上都充分调研论证，在酝酿的基础上集体做出决定</span><span style=\"font-size:18px;\">;</span><span style=\"font-size:18px;\">以“一级带着一级干，一级做给一级看”的要求做好表率</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">检察长与班子成员定期交心谈心，坦诚相待，互相支持，全力配合，始终保持了一心一意干工作、聚精会神谋创新的喜人局面</span><span style=\"font-size:18px;\">;</span><span style=\"font-size:18px;\">区院班子还通过不断完善规范化建设，定期清理和完善各类规章制度</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">不断完善信息化运用，以检察内网为平台，以人手一台计算机为基础，以办公、办案软件系统的熟练运用为目标，极大的提高区院各项工作的决策、执行效率，有力的促进了争先创优工作的持续健康发展。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">二、统一思想，明确目标，培育争先创优的良好氛围</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">针对我院工作中存在的部分干警士气不振、甘于平庸的现象，我们从统一思想、明确目标入手，一方面对全体干警重点开展“发扬传统、坚定信念、执法为民”、政法干警核心价值观主题教育等活动，另一方面引导干警树立创优理念，树立了“精神要好、干劲要足、目标要明、思路要清、措施要当、落实要早、执行要严”的争创意识，从而使区院形成了良好的争先创优思想和文化氛围。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">（一）通过明确目标，统一争创认识。区院根据上级部署和自身实际，始终坚持“素质建队、业务立院、求实创新、跨越发展”的建院理念；始终坚持“人才兴院、创新立院、业务建院、素质活院、文化育院、科技强院”的发展路径；始终坚持“洛阳有位次，全省争上游，岗位创佳绩，人人当标兵”的奋斗目标，紧紧围绕“紧扣市院部署、既定策略不变、注重打牢基础、突出自侦办案、单项工作争先、强力改变形象”的总体工作思路有条不紊的开展各项工作，同时叫响“人少不失蓬勃斗志，院小敢求辉煌业绩”的创业口号，从而为争先创优工作厘清了思路、指明了方向。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.25pt;\">\r\n	<span style=\"font-size:18px;\">（二）通过营造氛围，调动争创积极性。切实加强党的建设，处处开展争创是推动区院各项工作有序开展的传统经验，是区院多项工作制胜的法宝。我们十分注重将争创机制引入到各项工作的开展中，时时展现其旺盛的生命力；十分注重利用局域网、宣传栏、板报等形式交流争创活动体会、经验和方式方法；十分注重利用网络、内外部报刊大力宣传争创活动中涌现出来的好人好事、取得的主要成果</span><span style=\"font-size:18px;\">;</span><span style=\"font-size:18px;\">十分注重将争创活动与绩效考核、职级晋升有机结合，让干警在争创中看到成绩，得到实惠，明白无为则无位，在全院营造了“逢先必争，遇旗必扛”的良好氛围。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<span style=\"font-size:18px;\">三、立足创新，多策并举，形成争先创优的不竭动力</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<span style=\"font-size:18px;\">坚持好做法、创新新方法是推动党建工作科学发展的灵魂和生命所在，也是争先创优工作健康发展的动力源泉。所以，工作中区院非常注重坚持好做法，创新新方法</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">依据新形势，不断创新管理工作机制，使工作业绩上台阶，作风纪律得转变。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32.15pt;\">\r\n	<b><span style=\"font-size:18px;\">（一）注重狠抓队伍经常性教育和经常性管理工作。</span></b><span style=\"font-size:18px;\">老城区院积极采取措施，建立完善管理制度，细化标准，实行全方位、全时制、全员额的管理和控制。推行检察人员分类管理制度，创新和完善</span><span style=\"font-size:18px;\">8</span><span style=\"font-size:18px;\">小时之外监督制约机制，严格落实“一岗双责制”，充分发挥网络舆情、政务微博等新型方式的运用。明确部门职责、岗位职责，坚持每季度形势分析制度、周例会制度、考勤制度、点名讲评制度、值班制度、岗位监督制度、会风评查制度等，定目标、定职权、定责任、包效果，环环紧扣，环环相联。除此之外</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">我们始终坚持严管厚爱，科学运用情感化管理，在坚持刚性管理的同时，实现管理工作的人性化。工作中我们注重从解决干警职级待遇低、家属子女就业难等实际问题入手，不断增强队伍的凝聚力。三年多来，区院先后两次对班子成员和中层干部进了调整，提拔重用了</span><span style=\"font-size:18px;\">7</span><span style=\"font-size:18px;\">名党组成员和</span><span style=\"font-size:18px;\">26</span><span style=\"font-size:18px;\">名中层干部；每年为全体干警进行一次全面体检；连年组织全体干警分别到省内外先进院进行学习考察；为</span><span style=\"font-size:18px;\">6</span><span style=\"font-size:18px;\">名干警的子女或家属协调解决就业问题等等，这些都使干警明白院党组始终都把干警的冷暖和切身利益放在第一位，从而激发了干警争创的内在动力，实现了从“让我干”到“我要干”的根本转变。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<b><span style=\"font-size:18px;\">（二）注重运用正面鲜活典型示范引路。</span></b><span style=\"font-size:18px;\">近年来，我们一方面注重外学海淀、陈建宇、马俊欣等全国全省先进集体和个人典型，学习其典型做法和先进事迹</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">取人之长，补己之短，实现借梯上楼，跳跃前进。另一方面注重将区院的反贪和刑检工作打造成自己的标杆和样板。通过努力，反贪工作连年迈大步，各项指标均处于全市前列，连年受市院表彰；侦监工作连续</span><span style=\"font-size:18px;\">5</span><span style=\"font-size:18px;\">年考核名列全市第一；公诉工作连续</span><span style=\"font-size:18px;\">4</span><span style=\"font-size:18px;\">年代表全市参加全省的办案质量评比，均位居全省前列，代表了全市公诉工作的水平。在榜样的带动示范下，全院形成你追我赶的争创局面，各单项工作在全市的考评中</span><span style=\"font-size:18px;\">90%</span><span style=\"font-size:18px;\">处于先进行列，且连年进位次，得到了市院的充分肯定。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<b><span style=\"font-size:18px;\">（三）注重运用各种形式营造发展环境。</span></b><span style=\"font-size:18px;\">有了良好的外部环境，区院才步入快速发展之路。工作中，区院积极向市院和区四大班子领导请示、汇报重要工作开展和重大案件的办理，努力争取他们的理解和支持；积极向代表、委员及社会各界汇报、宣传检察工作，听取批评、意见和建议，努力争取各界的理解和支持，这些都为我们的发展营造了很好的外部环境。所以，我们所办自侦案件上级院积极帮助；我们所提干部配备和晋职，上级院和区委全力支持；所需经费区政府足额保障等。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:33pt;\">\r\n	<b><span style=\"font-size:18px;\">（四）注重运用司法手段全力服务社会。</span></b><span style=\"font-size:18px;\">中政委确立的三项重点工作既是对我们的要求，也是当前检察工作的核心之所在。工作中我们十分注重贯彻宽严相济和轻缓的刑事政策，制定了《刑事和解办案规则》，做到每一个案件都既保障当事人的合法权益，又最大限度地化解社会矛盾，效果很好。《规则》被市院全文转发，并在全市介绍了做法；向辖区单位和学校派驻了</span><span style=\"font-size:18px;\">14</span><span style=\"font-size:18px;\">名检察服务官，派任了</span><span style=\"font-size:18px;\">14</span><span style=\"font-size:18px;\">名法制副校长，在</span><span style=\"font-size:18px;\">14</span><span style=\"font-size:18px;\">所学校开办了“法律服务超市”，在社区开展检察官进社区试点工作</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">立足定期开展法律宣传、咨询的同时，协助解决涉法涉诉问题，将为大局服务具体化，真情解决信访问题。上级交办的积案已全部办结，并无新发案件，先后给付信访人各类困难补助金</span><span style=\"font-size:18px;\">120</span><span style=\"font-size:18px;\">余万元等等。</span><span style=\"font-size:18px;\">2010</span><span style=\"font-size:18px;\">年第四季度省政法委组织的执法满意度调查中，区院取得全市政法口第一名的好成绩，高于全市最后一名</span><span style=\"font-size:18px;\">12.68</span><span style=\"font-size:18px;\">个百分点。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">实践是检验真理的唯一标准，从我院党建工作的实践经验来看，我们发现，只要牢固树立全心全意为人民服务的宗旨意识，以人为本，立足科学创新，通过紧紧围绕检察工作总体目标，大力加强党的纪律建设，从严治党，制度管党，党员的模范作用就一定能够得到体现，机关党组织战斗堡垒作用就一定能够得到充分的发挥，党就一定能够带领和团结广大干警开创检察事业不断跨跃式发展的新局面。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388026995', '1388375170', '1');
-INSERT INTO `lx_article` VALUES ('57', '公告', '浅谈检察机关如何建立处理涉法访问题经常性工作机制', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.35pt;\">\r\n	<span style=\"font-size:18px;\">近一段时期，群众进京上访、越级上访、集体上访的数量有所增长。大量越级上访、群体上访，不仅增加了上访群众的精神和物质负担，而且给各级国家机关、政府部门增加了巨大的工作压力，影响了国家机关的正常办公和工作秩序，甚至损害了党委、政府的社会形象。我们检察机关从维护和解决人民群众根本利益出发，按照全国、全省、全市集中处理涉法上访问题会议要求，坚持依法妥善处理解决属检察机关管辖的上访案件。针对当前检察机关涉法上访激增，处理难度增大的新形式，我们必须健立完善处理涉法上访问题经常性工作机制，下面对此浅谈几点看法。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.35pt;\">\r\n	<span style=\"font-size:18px;\">一、&nbsp;建立处理涉法访问题经常性工作机制，使涉法访逐步走上规范化、法制化轨道是十分重要的。</span><span><br />\r\n</span><span style=\"font-size:18px;\">检察机关的控申部门做好群众来信来访工作，充分发挥信访监督主渠道作用，减少涉法访案的发生，依法有序的解决处理好涉法访案件，是控申部门的一项重要任务，对于涉法访案上升高产生的原因是很多的，如有的一些历史遗留的诉讼案件，由于事过境迁，案情很难查清，处理和解决的难度很大，尽管投入了大量的精力，耐心做工作，但仍造成了一定数量的越级上访，使涉法访案发生。再一个是上下级院对案件处理认识不一致或多次复查，也导致了当事人重访出现涉法访。因此，检察机关建立处理涉访问题经常性工作机制，使正常上访案件得到处理，无理上访事件得到平息，使之正常处理工作，使涉法访走向正规。解决好群众的来信来访案件，促进检察工作的正常有序的开展。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.35pt;\">\r\n	<span style=\"font-size:18px;\">二、&nbsp;建立处理涉法上访问题经常性工作机制是维护群众根本利益，解决群众实际问题的需要。举报工作是检察工作的重要组成部分，是检察机关面向社会的</span><span style=\"font-size:18px;\">\"</span><span style=\"font-size:18px;\">窗口</span><span style=\"font-size:18px;\">\"</span><span style=\"font-size:18px;\">，也是沟通检察机关与人民群众密切联系的</span><span style=\"font-size:18px;\">\"</span><span style=\"font-size:18px;\">纽带</span><span style=\"font-size:18px;\">\"</span><span style=\"font-size:18px;\">和桥梁，控申工作的好坏，在很大程度上直接反映了检察机关的形象，检察机关在长期的信访接待中切实做好群众来信来访，有利于激发群众的举报积极性，保护公民的合法权益，维护群众的根本利益，切实解决群众的实际问题，牢固树立</span><span style=\"font-size:18px;\">\"</span><span style=\"font-size:18px;\">为民排忧解难</span><span style=\"font-size:18px;\">\"</span><span style=\"font-size:18px;\">的意识，正确对待群众上访，做到感情上理解他们，从行动上帮助他们，及时解决问题，化解矛盾。一是心系百姓热心服务，认真负责的对待群众的信访案件，并为之提供最大方便，向上访的人民群众提供文明、高效、优质的法律服务，减少涉法访案发生。二是急事急办，特事特办，平等保护群众权益。对事关经济发展或者情况紧急的案件实行急事急办，特事特办的原则，优先接待，优先受理，优先答复，真正急人民群众之所急，帮人民群众之所需。我院在</span><span style=\"font-size:18px;\">2000</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">10</span><span style=\"font-size:18px;\">月办理一起贪污案件中，涉及到张</span><span style=\"font-size:18px;\">XX</span><span style=\"font-size:18px;\">，当时对张</span><span style=\"font-size:18px;\">XX</span><span style=\"font-size:18px;\">作出了没收非法所得</span><span style=\"font-size:18px;\">25000</span><span style=\"font-size:18px;\">元，张</span><span style=\"font-size:18px;\">XX</span><span style=\"font-size:18px;\">对此不服，并多次表示要到省、市上访的意思，从而解决了一起越级访，涉法访事件的发生。通过我们竭诚的服务，真正为群众办实事、办好事，解决了群众的根本利益。我院控申科对此事十分重视，通过认真细致的复查，查明这</span><span style=\"font-size:18px;\">25000</span><span style=\"font-size:18px;\">元是其科长以发年终奖为名私分的公款，并且张</span><span style=\"font-size:18px;\">XX</span><span style=\"font-size:18px;\">在我院作出处理之前，已经主动将</span><span style=\"font-size:18px;\">25000</span><span style=\"font-size:18px;\">元退还给所在公司，根据实际情况我院将25000元返还给张XX，使其经济上免受损失，从而解决了一起越级访，涉法访事件的发生。通过我们竭诚的服务，真正为群众办实事、办好事，解决了群众的根本利益。</span><span><br />\r\n</span><span style=\"font-size:18px;\">三、建立信息收集、交流、反馈机制，及时掌握涉法上访动态。及时掌握涉法上访群众的情况，是做好息访息诉工作的前提。因此，检察机关控申部门和各有关部门工作中应及时掌握涉法上访的动态情况，便于及早采取措施，争取工作主动。一是建立涉法上访信息收集机制。通过定期不定期地排查矛盾、接待来信来访、其他机关和部门分流转交、上级交办信件等多种渠道，对倾向性、苗头性、预警性信息和已发生的涉法上访信息进行广泛地收集整理，使有关部门提前开展工作，做到关口前移、防患于未然，在处理涉法上访案件时能够迅速反应、占据主动。二是建立内部信息互通交流机制。检察机关控申部门应及时与本院其他部门联系，在做好保密工作的前提下，相互通报案件办理情况等有关信息，尤其对可能引发当事人上访的信息应及时通报和掌握。三是建立外部信息通报机制。各级、各部门应该树立信访工作“一盘棋”的思想，积极建立信访工作大格局，加强信息沟通和工作协调。检察机关控申部门对于接待的应由其他机关和部门管辖的来信来访问题，应及时向有关机关和部门移交和反馈，防止出现漏管失控。我院专门设立上访人员登记本，对每一位上访人员登记造册，对发现的可能到省进京上访的信息进行整理，及时向政法委和信访部门报告情况，使自己掌握的信息能够为其他部门的工作提供有效的帮助。</span><span><br />\r\n</span><span style=\"font-size:18px;\">四、建立工作协调配合制约机制。对来访信件，各有关业务部门要积极配合，从快办理，做到件件有着落，事事有回音。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.35pt;\">\r\n	<span style=\"font-size:18px;\">1、建立健全“大首办工作责任制”。把首办责任制的范围从控申部门延伸到了各业务部门，具体由控申部门受理接待，然后根据案件线索性质分转相关部门处理，并由控申部门全程跟踪处理情况并向当事人反馈结果。这种由各业务部门共同形成一个大格局的模式称之为“大首办、大控申”。</span><br />\r\n<span style=\"font-size:18px;\"> 2、运用法律政策和各部门配合制约机制。在接待和答复方面，各业务部门要与控申部门积极配合、协调沟通，分转相关部门处理的案件，要依法说明处理理由、法律依据、处理结论，并反馈给控申科。向当事人反馈结果时，个别案件有必要时可由处理的业务部门与控申部门一起联席答复，促使当事人息诉，提高息诉率。同时也增强了各业务部门的责任感。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">五、建立对无理缠访缠诉的处理机制，加快涉法信访工作法制化步伐。当前各地对信访工作高度重视，为做好息访息诉做了大量工作。但仍有一部分无理缠访缠诉案件难以得到平息，成为影响社会稳定的一个重大隐患。有的缠访缠诉人达不到自己的目的和要求，就将进京到省上访、越级上访、重大节日、会议、敏感时期上访等当成向有关部门施压的手段；有的甚至聚众寻衅滋事、冲击国家机关，严重扰乱了国家机关办公秩序和社会秩序，在社会上造成恶劣影响。因此，解决缠访缠诉问题，已经成为当前信访工作的当务之急。一是要建立和推行公开听证、公开答询制度。对于重大、疑难案件，特别是上访人无理取闹、缠访缠诉的案件，应邀请人大代表、政协委员、法律专家、律师和当事人及其近亲属参加公开听证和答询，依靠社会力量和群众舆论做好化解矛盾纠纷工作，达到息访息诉的效果。二是对构成犯罪的要依法予以必要的法律制裁。对以上访为借口缠访缠诉的，或者在正常信访中冲击国家机关秩序，聚众扰乱社会秩序的，应根据有关法律和法规，予以必要的行政和刑事处罚。三是需要加快对信访工作的立法步伐。通过加强信访立法，对上访人主体资格、行为规范、案件处理原则、处理程序、违法制裁等进行规范，将信访工作纳入法制化、规范化轨道，使确有冤屈的群众有处伸冤，无理缠访缠诉人受到惩处，保证信访工作依法有序健康进行。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.35pt;\">\r\n	<span style=\"font-size:18px;\">六、健立完善预防控制机制。注意从自身执法活动、受理控告申诉和信访举报中，发现影响稳定、容易引发群体性事件等不安定因素，及时采取措施解决，建立社会综合治理防控机制。</span><span style=\"font-size:18px;\">1</span><span style=\"font-size:18px;\">、要大力实施与各级司法机关、人大、信访各部门防范系统化和协调处理涉法上访案件的工作机制，形成互联互通、资源共享的社会综合防控处理网络；</span><span style=\"font-size:18px;\">2</span><span style=\"font-size:18px;\">、加强对特殊人群的教育管理，把管理、教育、服务紧密结合起来，对涉法上访群众实行人性化服务、规范化管理和系统化发展，促进合理有序流动；</span><span style=\"font-size:18px;\">3</span><span style=\"font-size:18px;\">、要大力加强法律、法规宣传教育活动，认真贯彻公民道德建设实施纲要，开展文明上访，依法上访活动，正确引导公民依法上访，开展遵守法律、法规，反对无理缠访教育，发挥公民守则、道德的规范约束作用；扎实推进“送法进社区”、“送法进企业”以及“检企共建”等措施，提升防控档次。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">只要我们牢牢把握“维护公平正义、维护社会稳定”这一精神，以控申科为重要职能机构，各业务科室齐抓共管的工作系统，制定以建立科学、合理、能够担当重任的信访体制为主线，以相关制度为制约的配套工作措施，将有关部署切实落到实处，就一定能够创造出和谐稳定的社会环境和公正高效的法治环境，就能大大地减少和杜绝重复访、越级访，使处理涉法上访问题的经常性工作机制走上规范化、法制化轨道。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388027078', '1388375214', '1');
-INSERT INTO `lx_article` VALUES ('58', '公告', '社会管理创新在监所检察工作中的应用', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">社会管理创新主要涉及到行政机关、社会组织和社会成员的关系问题，但是，这并不意味着和检察机关没有关系，相反，检察机关作为国家的法律监督机关，是社会的重要管理者之一，而监所检察作为检察机关一项重要的、基本的只能，承担着对刑罚执行和监管活动实施法律监督的职能，因此，监所检察参与社会管理创新，对于刑法执行的正确实施，正确的贯彻宽严相济的刑事政策具有独特的作用。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一、理清监所检察在参与社会管理创新的认识</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">监所检察在社会管理创新中，要立足本职，遵循法律，开拓创新，实现执法效果、政治效果和社会效果的统一，主要有：一是积极参加社区矫正工作。刑罚的目的，一方面是打击犯罪，通过对犯罪行为人惩罚；另一方面通过对犯罪的惩罚，预防同类犯罪的发生。以达到保护人民，维护社会秩序稳定的我目的。被列为社区矫正的监外执行罪犯无疑是对这一刑罚的目的最好体现，在此，刑罚可以说是社会管理创新中的最后一道道德防线，也是最有强制力的手段。因此，积极参与社区矫正工作，开展好、做好社区矫正工作具有重要意义，把社会管理创新应用到社区矫正工作中，能更好的深化法制的统一、尊严和权威。二是监督监管场所依法、文明、科学管理。监管场所的文明管理、文明执法，维护当事人的合法权益，在一定程度上体现着一个国家的社会管理水平，监管场所的和谐稳定直接影响着社会秩序的稳定。监所检察在社会管理创新中，要紧紧问绕自己的本职工作，深入进行监所检察工作的创新，促进社会管理创新在监所检察工作更加有效，以更好的推进法治建设。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">二、监所检察工作参与社会管理创新的必要性</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">监所检察在社会管理创新中所扮演的角色很明确，监所检察工作接触的人群均是违法犯罪或涉嫌犯罪的特殊人群，无论监狱对罪犯的劳动改造，还是社区矫正对社区服刑人员的矫正教育，其目的就是通过对违法犯罪人员的教育，感化、挽救工作，为特殊人群该过自新，早日回归社会，成为合法公民创造条件，还要协助相关部门做好特殊人群的转化工作，提高教育改造质量，尽最大所能消除社会上的不稳定分子，增加和谐因素，消除不和谐因素。因此，依法履行职责，着力推进法治建设，进而为推进社会管理创新、服务好经济社会发展做出应有的贡献。所以，监所检察工作再推进社会管理创新中，角色清晰，职责明确，很有必要性。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">三、社会管理创新渗透被监管单位对监所监所检察工作的重要性</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">为保障监所检察常态化发展，建立健全完善监所监所检察工作，要根据监所检察工作的职责，监所检察部门与被监管单位要协调一致好，制定一套创新的社会管理方案，使双方的工作都更加高效便捷。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">以监外执行罪犯的监管为例说明社会管理的重要性和必要性。监外执行罪犯是一群特殊的人群，对他们的心理疏导与教育至关重要，监外执行是我国宽严相济刑事政策的具体体现，因此，社会管理创新也是对刑事司法政策的一种贯彻实施。对于这些被列为社区矫正对象，及时掌握犯罪嫌疑人的思想、心理动态、行为状况，和必要的谈心等一系列情况，要准确掌握这些情况，就需要社区矫正机关与监所检察部门密切配合，才能有的放矢，更好的预防重新犯罪的发生。然而，在当前，不管事社区矫正机关还是监所检察部门，都没有一个系统的管理模式，对矫正对象的管理，社区矫正机关也只是例行公事似的，因此，矫正对象地信息不但监所检察部门不能及时掌握，连矫正机关自己还都是很模糊，缺乏针对的管理，随意性太大。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">事实证明，社区矫正机关现有的做法与社会管理创新较之已经滞后，虽然，监所检察部门对社区矫正机关发出纠正违法与检察建议，但是，社区矫正机关对这些没有法律约束力的建议与纠正违法根本也不放在眼里，依旧陈规守旧。因此，对被监管单位的社会管理创新具有不可替代的作用，才能使双方的工作能更好的开展。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">当然，对被监管单位的社会管理创新应当以本监管单位的具体情况基础，在改革开放的大背景下，与时俱进对管理模式进行调整，保证创新的制度、方法与其他法律法规协调一致，与社会管理需求相符合，使自身工作形成良性循环和惯性参与，形成长效机制，才能为经济社会又好又快发展提供强有力的基础保障。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">监所检察在社会管理创新中，不能离开自身的体制和改革，要紧紧围绕自身的监督职责，延伸各项创新管理。比如组织表现较好的改造人员&nbsp;“现身说法”，进行警示预防社会不稳定因素出现。积极探索监所检察工作人性化管理模式，在严厉打击违法犯罪的同时，着力保障在押人员的合法权益，鼓励其积极改造，定期同监管场所和法院开展打击“牢头狱霸”专项活动，积极维护在押人员的合法权益和监管场所的安全稳定。同时，加强对监外执行罪犯的法律监督，把监外执行罪犯脱管、漏管问题作为监督工作重点，建立监外执行罪犯数据库，积极与法院、公安和司法行政机关的联系和沟通，开展全面清查和不定期的巡查监督，加强对监外执行罪犯的考察力度，防止因交付不及时和监管不力造成脱管、漏管，确保刑罚执行的严肃性。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">总之，深入推进社会管理创新是监所检察工作面临的新课题，监所检察工作再社会管理创新上不能“眼睛向外”，远离了自身的职责和体制，要充分发挥自身的检察职能，不但对自身要加强管理创新，还要把被监管机关的实际存在的情况进行加以考虑，这样，才能双管齐下，推进法治化进程和法治化水平，更好的推进社会的和谐化。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388027108', '1388375272', '1');
-INSERT INTO `lx_article` VALUES ('59', '公告', '民行检察与社会管理创新', '<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">2009</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">年在全国政法工作电视电话会议上，中央政法委书记周永康提出，要深入推进社会矛盾化解、社会管理创新、公正廉洁执法三项重点工作。这三项重点工作为政法机关确定了工作重点，指明了工作方向。检察机关作为政法机关的重要组成部分，应紧紧围绕三项重点工作开展具体工作。作为检察机关主要工作之一的民行检察监督工作，也要立足本部门工作实际积极推进社会管理创新，同时以社会管理创新为契机促进民行检察监督工作创新发展，不断取得新的成绩。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30.1pt;\">\r\n	<b><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">一、社会管理创新的提出</span><span></span></span></b> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">社会管理创新，是指在现有社会管理条件下，运用现有的资源和经验，依据政治、经济和社会的发展态势，尤其是依据社会自身运行规律乃至社会管理的相关理念和规范，研究并运用新的社会管理理念、知识、技术、方法和机制等，对传统管理模式及相应的管理方式和方法进行改造、改进和改革，建构新的社会管理机制和制度，以实现社会管理新目标的活动或者这些活动的过程。社会管理创新既是活动，也是活动的过程，是以社会管理存在为前提的，其目的在于使社会能够形成更为良好的秩序，产生更为理想的政治、经济和社会效益。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">2004</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">6</span><span style=\"font-size:18px;\">月党的十六届四中全会提出要“加强社会建设和管理，推进社会管理体制创新”，</span><span style=\"font-size:18px;\">2007</span><span style=\"font-size:18px;\">年党的十七大报告提出要“建立健全党委领导、政府负责、社会协同、公众参与的社会管理格局”。社会管理被纳入更完备的体系性框架之中，社会管理创新也就成为</span><span style=\"font-size:18px;\">2009</span><span style=\"font-size:18px;\">年底全国政法工作电视电话会议所强调的“社会矛盾化解、社会管理创新、公正廉洁执法”三项重点工作的组成部分之一，是指导我们党精神文明建设的重要纲领。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">现阶段我国处于经济转轨、社会转型时期，正在经历着经济体制的深刻变革、社会结构的深刻变动、利益结构的深刻调整、思想观念的深刻变化。这诸多变化必然会带来一系列的问题和矛盾纠纷，其中会有大量矛盾纠纷通过诉讼的形式涌入司法机关，要靠现有的司法制度来解决。人民群众日益增长的司法需求与司法能力相对不足的矛盾，是现阶段我国司法制度建设中的基本矛盾。伴随着经济社会的变革与发展，在社会矛盾增多的同时，人民群众的权利意识、诉讼意识日益增强，对社会公平正义有了更高的期待和要求。要解决好人民群众司法需求与司法能力相对不足的矛盾，必须积极推进社会管理创新，用创新发展的办法解决解决前进中面临的问题。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30.1pt;\">\r\n	<b><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">二、民行检察的重要意义</span><span></span></span></b> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">党的十七大以来，以胡锦涛同志为总书记的党中央对新时期检察工作作出一系列重要指示，突出强调要加强对诉讼活动的法律监督，切实解决执法不严、司法不公问题。周永康同志在深入贯彻党的十七大精神、全面加强和改进检察工作座谈会上指出：“对于民事、行政诉讼进行法律监督是国家法律赋予检察机关的重要职能，要维护民事、行政裁判的严肃性，使公正的判决裁定得到有效执行，使显失公平的判决裁定得到及时纠正。” 中央《关于深化司法体制和工作机制改革若干问题的意见》明确提出“完善检察机关对民事、行政诉讼实施法律监督的范围和程序”</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">“明确对民事执行工作实施法律监督的范围和程序”的要求。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">2010</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">年，高检院召开了全国检察机关第二次民事行政检察工作会议，会上曹建明检察长作了重要讲话，对进一步加强和改进民事行政检察工作作了深入阐述。会议要求充分认识新形势下大力加强和改进民事行政检察工作的重要性和紧迫性。加强和改进民事行政检察工作，是维护社会主义市场经济秩序、保障经济又好又快发展的需要；是深入推进三项重点工作、维护社会和谐稳定的需要；是关注和保障民生、维护社会公平正义的需要；是坚持和完善中国特色社会主义检察制度、推动检察工作科学发展的需要。</span><span style=\"font-size:18px;\">2010</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">9</span><span style=\"font-size:18px;\">月，高检院先后印发了《关于进一步加强对诉讼活动法律监督工作的意见》和《关于加强和改进民事行政检察工作的决定》，对民行检察工作提出了新要求。这些都充分体现了党中央和高检院对民事行政检察工作的高度重视，为加强和改进民事行政检察工作指明了方向。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30.1pt;\">\r\n	<b><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">三、现阶段民行检察与社会管理创新不相适应的表现</span><span></span></span></b> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">1</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">、民行检察监督理念滞后</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">在民行检察监督的理念方面，始终存在“重刑轻民”和“重实体轻程序”的监督观念。这两种观念深受我国传统法律文化传统的影响，并极大地制约了民行检察监督工作的开展。“重刑轻民”观念导致对民事诉讼和行政诉讼的检察监督难以受到应有的重视，进而影响到民行检察的立法规范、制度建设、人才支持和物质保障。“重实体轻程序”观念导致民行检察的监督范围狭窄，监督方式单一，影响到民行检察实效的充分发挥。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">“有限监督”的论调也在一定程度上阻碍民行检察监督的发展。有限监督的观点认为，检察院对民行诉讼或审判活动所实施的法律监督，应当坚持有限主义，而不是全面开花。这种有限主义主要表现在两个方面：一是监督的程序阶段是有限的，检察院仅能进行事后的抗诉监督，除此以外的监督均不得进行。二是即便是抗诉监督，也仅仅只能就重要类型的案件实施监督，而不能将监督的触角覆盖于所有的案件类型。有限主义的监督原则主要有两点依据，一是法定性依据：民事诉讼法和行政诉讼法仅仅规定了抗诉监督一种形式，立法所未明定的监督形式是不能认可的。二是可能性依据：检察院目前实施法律监督的力量仅能够应付事后的抗诉监督，而对于其他的监督形式则是无暇也无能力应对的。诚然，有限主义的监督原则在民行检察监督制度的起步阶段是具有现实依据的，是一种不仅合法而且务实的观点。但衡之以发展的目光，有限主义的监督原则是一种保守的观念，它没有看到民行检察监督制度的基本发展规律。民行检察监督制度的基本规律是：从抗诉这种点状的监督出发，逐渐地扩散到诉讼的全过程，最终演化为全面监督的原则。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">2</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">、民行检察监督范围局限、监督方式单一</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">理论上民行检察监督的范围包括：属于事后监督的抗诉再审、属于参与诉讼的诉中监督、属于公益诉讼的诉前监督以及属于审判延伸的执行监督。但是在实际操作中民行检察监督在实际范围上还显得较为狭窄。抗诉再审监督是有明确法律根据的，因此目前的民行检察监督主要局限于这一领域。即便在这一领域，其受监督的案型还通过各种规则或内部细则加以限缩，而仅就其列举的少数类型的案件实施法律监督，如涉及国家利益、公共利益的案件、涉及第三人合法权益保护的案件、涉及群体性纠纷的案件、涉及民生的重点案件等。主要的着力点在于息事宁人，其次考虑到国家利益和公共利益。至于诉中监督、诉前监督以及执行监督，虽然在制度上和观念上有所突破，同时实践中也有多种试点，然而这三大领域的监督尚未制度性地、常规性地开展起来，实践中民众的强劲需求未能得到有效呼应，民怨也比较集中在这些领域。民行检察监督的领域开拓是由点到面而进行的，但目前尚停留于点状监督，全面监督原则未能有所体现。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">3</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">、民行检察监督效果不佳</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">民行检察监督的效果一方面表现在被监督者对监督的反馈，另一方面表现在人民群众对民行检察的认同情况。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">被监督者对监督的改变率、改判率、接受率、反馈率等方面都处在低水平徘徊，监督者的被动状态未能获得有效改变。当被监督者对监督者的正确意见拒绝接受时，监督者缺乏启动另外的程序予以救济，直至错误得以纠正的权力，这需要通过完善程序设计来解决。同时在目前的制度框架内，监督效果还远未实现最大化。比如说，民行监督的力量相对薄弱，因而其办案的数量虽然在逐年上升，然而上升的速度极其缓慢，平均比例仅占法院审判案件总量的不到百分之一。监督案件的数量不形成足够规模，就难以产生应有的或理想的监督张力和监督效能，监督效果的非理想状态就难以改观。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">民行检察缺乏案源从深层次上反映出民行检察制度价值未得到充分发挥，尚未得到人民群众的完全认同。目前民事诉讼法和行政诉讼法均未规定检察院提出抗诉的时效制度，因而检察院办理民行抗诉案件也缺乏应有的制度约束，从当事人向检察院提出抗诉申请，到检察院通过审查、立案以及到最后讨论决定是否抗诉，到最终实际地提出抗诉，以及法院再排期审判，到最后再审的结果出来，是一个非常缓慢而又漫长的过程，其办案周期之长、速度之缓以及由此所决定的办案数量之少，就成为必然现象。这些原因抑制了人民群众通过民行检察监督维护自身合法权益的积极性。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30.1pt;\">\r\n	<b><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">四、以社会管理创新推动民行检察工作发展</span><span></span></span></b> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">大力加强和改进民事行政检察工作，必须以社会管理创新为契机，创新工作思路和理念，创新工作方法和措施，立足于现行法律规定，切实履行好法律赋予检察机关的监督职责。要坚持把工作的重点放在依法办理民事行政申诉案件上，在加大监督力度的同时，进一步提高办案质量。特别是要从深入推进三项重点工作出发，更加注重化解社会矛盾、推动社会管理创新、促进公正廉洁执法，努力实现办案力度、质量、效率、效果有机统一，做到民行检察工作与社会管理创新两结合、两促进。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">1</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">、加大办理民事行政申诉案件力度。办理民事行政申诉案件，是检察机关对民事审判、行政诉讼实施法律监督的主要途径。因此，强化民行检察监督，关键是要进一步采取有效措施，逐步扩大办案规模，提高办案质量和效率，形成更加有力的监督态势。一要进一步畅通申诉渠道。二要重点加大办理不服二审生效裁判的申诉案件力度。三要大力推进检察一体化办案机制建设。四要加快推行网上办案。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">2</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">、构建以抗诉为中心的多元化监督格局。要坚持把抓好抗诉工作作为民行检察监督的中心任务，充分运用抗诉手段监督纠正确有错误的裁判。同时，注意抗诉与再审检察建议、纠正违法通知书、检察建议等其他监督手段的综合运用和有效衔接，注意发挥各种监督手段的整体效能。一要把抗诉与再审检察建议有机结合起来。二要把纠正错误裁判与纠正违法行为有机结合起来。三要把办理民事行政申诉案件与发现、移送司法不公背后的职务犯罪线索有机结合起来。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">3</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">、提高抗诉案件质量。办案质量是取得良好监督效果的前提和基础。要牢固树立办案质量是生命线的意识，进一步建立健全办案质量保障机制。一要探索实行合议制度，完善专家咨询制度，加强对抗诉案件特别是重大疑难复杂案件的集体研究。二要全面推行抗诉书说理制度，提高抗诉书的说理性，增强抗诉观点的说服力，促进法院依法改判。三要完善跟踪监督机制，加强与再审法院各环节的联系沟通。四要健全办案质量评查机制，定期对抗诉案件进行复查。五要建立民事行政诉讼监督案例指导制度，加强类案研究，总结成功经验，正确掌握抗诉标准，提高整体工作水平。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">4</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">、加强和改进对行政诉讼的法律监督。近年来，随着人民群众法律意识不断增强，进入司法领域的行政争议持续上升。各级检察机关要积极适应形势变化，高度重视行政申诉案件办理，认真总结经验，深入研究规律，不断提高行政诉讼监督能力和水平，更好地维护司法公正、促进依法行政。在办理行政申诉案件的过程中，必须正确处理维护司法公正与维护社会稳定的关系，既要认真履行监督职责，该抗诉的依法抗诉，又要注意发现政府在行政行为中存在的问题并提出检察建议，对行政机关工作人员在执法中的失职渎职和侵权行为加强监督，还要深入分析行政争议涉及的矛盾和成因，做好化解矛盾工作。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:18px;\">5</span><span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">、加强民行检察机构建设和人员配备，提高民行检察队伍的整体素质。要适应工作发展需要，健全民行检察机构。适当增加地市级以上检察院民行检察部门人员编制，提高民行检察人员的比例。注重内部挖潜，把具有较强民行法律功底的人员调整、安排到民行检察部门工作。提高民行检察队伍专业化水平，把思想政治建设与业务能力建设结合起来，把教育培训与实践锻炼结合起来，把培养人才与引进人才结合起来，着力提高队伍的法律监督能力。加强与民行检察业务密切相关的新知识、新技能的培训，开展形式多样、贴近实际的岗位练兵活动，提高民行检察人员适用法律能力、证据审查能力、文书说理能力、再审出庭能力以及做好群众工作、化解社会矛盾等能力。</span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"color:#343434;text-indent:30pt;\">\r\n	<span style=\"font-size:15pt;\"><span style=\"font-size:18px;\">推进社会管理创新，是维护国家长治久安，保障人民安居乐业，保持社会和谐稳定，促进经济社会发展的重要举措。民行检察部门在参与社会管理创新中，要找准民行检察参与社会管理创新的结合点、切入点，不断探索和完善民行检察参与社会管理创新的方式、途径和领域，立足民行检察监督的职能特点，通过履行法律监督职责促进社会管理创新，满足人民群众的新需求、新期待，促进民行检察工作和社会管理创新水平不断提高。 </span><span> </span></span> \r\n</p>\r\n<br />', 'admin', null, '0', '0', '1', '0', '1388027151', '1388394215', '1');
-INSERT INTO `lx_article` VALUES ('60', '公告', '宽严相济彰显法治进步躬行以求心系社会和谐', '<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">宽严相济”的刑事政策是构建社会主义和谐社会的重要组成部分。</span><span style=\"font-size:18px;\">2006</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">10</span><span style=\"font-size:18px;\">月，党的十六届六中全会通过的《中共中央关于构建社会主义和谐社会若干重大问题的决定》中对刑事司法提出了要“实施宽严相济的刑事司法政策，改革未成年人司法制度，积极推行社区矫正”等明确要求。</span><span style=\"font-size:18px;\">2006</span><span style=\"font-size:18px;\">年</span><span style=\"font-size:18px;\">12</span><span style=\"font-size:18px;\">月</span><span style=\"font-size:18px;\">28</span><span style=\"font-size:18px;\">日高检院研究通过了《最高人民检察院关于在检察工作中贯彻宽严相济刑事司法政策的若干意见》，成为检察机关贯彻“宽严相济”刑事司法政策带有方向性的专门指导文件。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">刑事政策作为刑事立法与刑事司法的灵魂，它对于刑事法治建设具有重要的指导意义。“宽严相济”的刑事政策则是刑事法律对构建和谐社会这一政治目标的价值追求，它的确立表明了我国刑事政策在新的历史条件下的发展和完善，是政治和法治文明进步的具体表现，是以人为本和注重人权的理性回归和思想嬗变。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">老城区检察院是一个基层区院，老城区又是洛阳市的一个旧城区，基础条件差，人口密度大，流动人口、个体商户多，刑事案件一直居高不下。探索和破解轻微刑事案件的有效预防和和谐处理一直是区院倾心以求的一个重要课题，“宽严相济”刑事司法政策的确立，为我们的探索指明了方向。如何将“宽严相济”的刑事政策在刑事司法办案中加以全面正确贯彻，不使其虚置空设，成为当务之急。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">近年来特别是今年以来，区院在上级院和公诉部门的具体指导下，对如何贯彻“宽严相济”和轻缓的刑事政策进行了积极的研究探索和大胆实践，取得了比较明显的社会和法律效果。现就区院的做法和想法与各位领导和同志们共同商榷，以求心灵的感悟和认识的升华。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一、探索和实践</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">为了更好地贯彻“宽严相济”和轻缓的刑事政策，充分发挥这一刑事政策在构建和谐社会进程中的积极作用，高检院相继出台了《最高人民检察院关于在检察工作中贯彻宽严相济刑事司法政策的若干意见》、《最高人民检察院关于办理未成年人刑事案件的规定》、《最高人民检察院关于依法快速办理轻微刑事案件的意见》等规范性文件，这为我们在实践中正确贯彻“宽严相济”和轻缓的刑事政策从实体和程序上指明了方向，提供了依据。区院在总结近年来的实践经验和探索成果的基础上，按照上述规范性文件的主旨和具体要求，研究制定了《老城区人民检察院刑事和解办案规则》（以下简称《办案规则》），将散见在各个规范性文件中的精神主旨和具体要求，用一个《办案规则》进行统一和明确，使之更具可操作性，更便于在具体案件中的运用和管理考核。该《办案规则》分总则、适用条件和范围、适用刑事和解案件的启动程序及确认、法律适用、附则，共五章十八条，程序性、实体性以及个案操作流程和相关制度兼而有之，试行几个月来，收到了良好的社会效果和法律效果。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">我国现行的刑事司法是以国家起诉和对被告人判刑为主要模式，这种模式不仅带来监狱压力大，司法成本高的后果，而且严重忽略了被害人在刑事诉讼中所应具有的主体地位，社会矛盾不能得到很好的化解，不和谐因素不减反增。因此，借鉴恢复性司法的理念，确立刑事和解制度，对于贯彻“宽严相济”和轻缓的刑事政策，不仅十分必要，而且切实可行。《办案规则》中的刑事和解，是指犯罪嫌疑人、被告人以具结悔过、赔礼道歉、赔偿损失等方式得到被害人的谅解，被害人要求或者同意司法机关对犯罪嫌疑人、被告人依法从宽处理而达成协议，司法机关根据和解情况，做出有利于犯罪嫌疑人、被告人刑事责任处置的诉讼活动。刑事和解制度给冲突双方解决矛盾提供了机会，能够有效地减少和钝化矛盾，尽可能地减少法院判决后的消极影响，有助于在全社会增进和谐协调的社会关系。刑事和解制度在实体上能够确保被害人的实质利益，避免加害人负面的标签效应；在程序上提升了被害人在刑事追诉程序之参与地位，在法理上合乎刑事追诉救济原则，有利于提升加害人社会责任感，回复秩序的公平。它旨在提升被害人和加害人对刑事处置和结果的满意度，降低再犯率，它与我国传统的调解制度所蕴涵的“和为贵”的理念相一致。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">首先，为确保案件质量，提高诉讼效率，保证《办案规则》顺利、正确适用，我们注重让干警在思想上清楚认识到，“宽严相济”是我们党和国家的重要刑事司法政策</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">是检察机关正确执行国家法律的重要指针；检察机关贯彻“宽严相济”的刑事司法政策，就是要根据社会治安形势和犯罪分子的不同情况，在依法履行法律监督职能中实行区别对待，注重宽与严的有机统一，该严则严，当宽则宽，宽严互补，宽严有度。对严重犯罪依法从严打击，对轻微犯罪依法从宽处理，对严重犯罪中的从宽情节和轻微犯罪中的从严情节也要依法分别予以宽严体现，对犯罪的实体处理和适用诉讼程序都要体现“宽严相济”的精神。从而使全体干警统一了思想，增强了准确把握、积极贯彻的自觉性。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">其次，在受理刑事案件之初，我们就按照案件的具体情况将案件分为两类，一类是法律规定从重处罚的案件，如杀人、抢劫、强奸等严重暴力犯罪和严重影响人民群众安全的多发性犯罪；一类是法律规定从轻处罚的案件和按照“宽严相济”刑事司法政策可以适用《办案规则》处理的轻微刑事案件。对所分的第二类案件，专门指派业务水平高、责任心强、善于沟通的干警具体办理。要求每一件个案的办理都要以“公平公正”为原则，以“和谐稳定”为标准，深入贯彻“宽严相济”的司法政策，认真执行刑事和解的有关规定，依法做到该严则严、当宽则宽，较好实现了减少社会矛盾，构建和谐社会，充分履行法律监督职能，有效遏制、预防和减少犯罪的执法宗旨。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">如在办理杨某涉嫌盗窃一案中，办案人员发现，犯罪嫌疑人杨某偷窃其同事李某财物的行为系初犯，且认罪态度好，能如实交代犯罪事实，有悔罪表现。同时，杨某已将所盗物品如数还给了李某，没有给失主造成实际的物质损失，被害人李某不仅原谅了杨某的偷窃行为，还写了一个书面请求，表达自己不愿追究杨某任何责任的心愿。办案人员在按照盗窃罪构成要件进行严格审查的同时，分析了犯罪嫌疑人杨某的主观恶性、犯罪情节和悔改表现，注意深挖其犯罪根源，认为杨某走上犯罪道路纯属偶然失足。区院根据《最高人民检察院关于在检察工作中贯彻宽严相济刑事司法政策的若干意见》及《办案规则》的有关规定，认为犯罪嫌疑人杨某的盗窃行为情节轻微，依法决定对杨某作相对不起诉决定。拿到不起诉决定书的杨某热泪盈眶，对被盗同事、自己家人、原单位表示了深深的愧疚和重新做人的决心，原单位领导和被盗同事表示接受并深受触动。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">工作中，我们对可以适用《办案规则》办理的案件具体分成三个步骤。第一步是结合办案对犯罪嫌疑人、被告人进行思想教育，使其深刻认识到自己的犯罪行为对社会和被害人的伤害，使其真诚悔罪。第二步是对案件当事人的亲戚朋友和邻居进行法律宣传，让他们在接受法律教育的同时，协助司法机关共同做好双方当事人的劝导工作，化解矛盾，达到调解辅助作用。第三步是坚持当事人自愿和公平公正的原则，以经济赔偿数额和其他补救办法应当与被害人受犯罪侵害所造成的实际损失及加害人应当承担的责任相适应为前提，充分考虑加害人及其法定代理人的赔偿、补救能力，做好当事人双方的工作，争取加害人积极赔偿被害人的损失和被害人真诚谅解对方的过错，从而实现调解的成功。如在办理杨某涉嫌故意伤害（轻伤）一案中，被害人情绪激动，因对犯罪嫌疑人案发后的不积极赔偿态度不满，数次上访告状，市、区两级领导都很重视。承办人员接到该案后，首先主动约见被害人，了解案发的原因和被害人上访的真实想法。经与被害人几次真诚交谈与走访调查，了解到被害人与犯罪嫌疑人以前并无宿怨，这次致伤行为发生的诱因仅仅是一句气话，犯罪嫌疑人无前科，在单位也一贯表现良好，在侦查阶段，双方也曾私下进行过调解，未达成协议是因为被害人过高的索赔数额没有满足，犯罪嫌疑人也赌气不愿再接受调解。针对这些情况，办案人员对被害人讲明有关法律规定，并再次对犯罪嫌疑人杨某作了耐心细致的思想工作，后双方均表示谅解，并很快达成和解协议，检察机关遂建议公安机关对杨某做撤案处理，二人和好如初。依法调解、以理服人，把调解工作纳入法制化轨道是我们办理这类案件的价值追求和行动指南。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">第三，充分发挥基层党组织和基层民调组织的作用是我们办理刑事和解案件的又一重要手段。调解纠纷，化解矛盾，维护社会稳定是一个复杂的系统工程。在处理轻微刑事犯罪特别是轻伤害案件过程中，对于矛盾激烈、调解难度大，但不进行调解又容易引发更加严重后果的案件，我们主动深入发案地，与发案地基层党组织和民调组织联系，组成联合工作小组，联手做好当事人双方的矛盾化解工作，是保证案件取得良好法律、社会效果的有效途径。如我们办理的张某故意伤害一案，张某与其妻偶有不睦，其妻回了娘家，该张即怀疑是其妻姐从中作梗，于是酒后将妻姐打成轻伤。案发后，其妻姐自感冤屈，强烈要求追究张某的刑事责任，张妻也因此在娘家久住不归，并称欲与张某离婚，张某怒火难平，矛盾随时可能进一步激化。如果将该案提起诉讼，追究张某刑事责任，张妻再与其离婚，很难保证张某不产生继续报复的念头。为防止更坏的后果发生，办案人员一方面亲赴发案地，走访了解案发背景和其妻姐在其夫妻关系中的作用，并将调查结果讲与张某；同时与该村村委取得联系，征得他们的支持和理解，最后在区院和当地村委的共同调解下，被害人谅解了张某，防止了矛盾的激化。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">二、问题和建议</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">第一，“宽严相济”的刑事政策是轻罪刑事政策与重罪刑事政策的统一。“宽严相济”的刑事政策包含宽与严两个方面。现在我们贯彻“宽严相济”，更多的是强调刑法宽缓的一面，但不能由此认为“宽严相济”是轻罪刑事政策。“宽严相济”刑事政策不是对“严打”的取代，更不是对“严打”的否定，而应当将“严打”纳入到“宽严相济”刑事政策的框架中确立其地位。从这个意义上说，“严打”并不是与“宽严相济”刑事政策并列的另一类刑事政策，而是包含在“宽严相济”刑事政策之中，体现“宽严相济”的严厉性的内容。在这个意义上，坚持“严打”方针不动摇与“宽严相济”刑事政策并不矛盾。只有在“宽严相济”的框架中坚持“严打”方针，才能避免片面追求从严惩处，从而做到严中有宽。总之，在司法实践中不仅要对轻罪贯彻“宽严相济”的刑事政策，对重罪也同样应当贯彻“宽严相济”的刑事政策。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\">\r\n	<span style=\"font-size:18px;\">第二，“宽严相济”的刑事政策是刑事立法政策与刑事司法政策的统一。“宽严相济”之所以是刑事立法政策，是因为法律是刑事政策的条文化与具体化，在刑事立法中应当体现“宽严相济”的刑事政策，从而为司法机关贯彻“宽严相济”的刑事政策提供法律根据。然而，“宽严相济”不仅是刑事立法政策，更应当是刑事司法政策，不能认为刑法已经体现了“宽严相济”的政策精神，因而司法机关只要依法办案，不需要另行受“宽严相济”刑事政策的指导。这里存在一个“宽严相济”刑事政策与罪刑法定原则的关系问题。我国实行的是相对的罪刑法定原则，刑法中存在着自由裁量的广阔空间，因而在司法活动中贯彻“宽严相济”刑事政策并不必然与罪刑法定原则相违背。当然，“宽严相济”的严不能超越刑法的规定，绝不能对刑法没有规定为犯罪的行为以严为名作为犯罪处理；也不能对刑法规定处罚较轻的行为以严为名判处法律没有规定的较重之刑。简言之，不能法外施威。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">第三，“宽严相济”的思想或政策应体现在对法的整体的立改废当中。根据系统法学理论，法是一个整体、一个系统。既然是系统，就具有系统的特性。根据系统的整体性特点，体现“宽严相济”思想的法规则只有纳入到法当中，才能充分发挥它的功效。正所谓“整体大于部分之和”、“牵一发而动全身”，某一法规则的制定或修改，其他方面的法规则也应做出相应的修改。</span><span><br />\r\n</span><span style=\"font-size:18px;\">首先，“宽严相济”的思想或政策应表现在刑法当中。这里所说的刑法，是规定犯罪与刑罚这类法规则排列组合而成的系统整体，也可以说是刑事法律。过去的刑法已经体现了“宽严相济”的思想，进一步贯彻落实这一思想，就应当把现有刑事法律中有悖于这种思想的规定加以删除和修改，对所缺少的部分加以增补。</span><span><br />\r\n</span><span style=\"font-size:18px;\">其次，“宽严相济”的思想应表现在刑事诉讼法当中。刑事诉讼法一方面是保障刑法实施的程序法；另一方面，其中有关强制措施、保障犯罪嫌疑人权利的规定，都直接反应对不同犯罪的宽严程度。因此，贯彻落实“宽严相济”的思想，还应对刑事诉讼法中有悖于“宽严相济”思想的规定加以删除和修改，对所缺少的部分加以增补。例如，扩大不起诉范围、引进刑事和解制度和缓起诉措施等。如果经试点这些措施确实体现了“宽严相济”的思想，那就应当通过法律的修改，增加这些内容。</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">“宽严相济”刑事政策体现人文精神，顺应司法改革潮流，符合构建和谐社会要求，有助于提高司法效益。刑事和解作为一种全新的刑事司法模式，必然加快社会的进程，有助于创造一个更加和谐的社会关系。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388027563', '1388375390', '1');
-INSERT INTO `lx_article` VALUES ('61', '公告', '执简御繁，在工作中把握主动', '<p class=\"MsoPlainText\" style=\"margin-left:0cm;text-indent:41.1pt;\">\r\n	<span style=\"font-size:18px;\">基层检察院检察长，起着承上启下的关键作用，是上级精神的实际执行者，又是一院工作的具体部署者，不仅要处理本院的办案、管理，还要协调上下、左右，每天工作繁重、事务繁多。作为基层检察院检察长，面对复杂的工作情况，一定要处理好简与繁、轻与重的关系。古人云：主大计者必执简以御繁，以简自处而以繁寄人。掌握执简御繁的辩证法，学会执简御繁，对于解决好头绪多、要求高、时间紧的矛盾，更好的贯彻上级精神，创造性的开展本院工作，有着直接、现实性的指导性。本文试对基层检察院检察长在工作中如何执简御繁作一些探讨。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">一、树立个三意识，勇于删繁就简</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">面对新的形势和任务，困难多、负荷重、情况繁杂是正常的。但是，由于体制和习惯的影响，在抓工作落实的过程中，有时也自觉不自觉地包含着繁文缛节、交叉重复，以至形式主义的现象，干了一些华而不实、劳而无功的事情。对此，我们要回顾检查、认真分析，舍其虚华，取其精要。要切实工作指导思想，围绕重实际、求实效抓工作、带队伍，删掉那些于人无益、于事无补的“花架子”，去掉那些脱离实际、远离中心的的“枝枝岔岔”，打掉那些已经形成习惯的格式化、过程化的“虚套子”，把有限的人力、物力、财力、精力用在急需解决的问题上，用在打基础、管长远的建设上，用在当前工作的重点上。对于上级领导部署的各项工作，不能像搭积木那样机械地叠加起来抓落实。而是应该认真领导精神实质，把多项工作统一起来，把工作重心明晰起来，把具体措施简洁起来，在统筹兼顾中抓出自己的特色、抓出实际的效果，保证上级安排和领导要求的真正落实。在工作中，要树立“三个意识”：</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">1、授权意识。检察工作作为一项综合工作，检察长作为总指挥，其部属在实际实施中也有决策者、参谋者、具体执行者，要让这些人人尽其用，事当其职，就要授予其一定的权力，从而使他们充分发挥主观能动性，敢做敢为，施展本领，磨练才干。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">2、支持意识。只有授权没有支持，下属最终还是难以充分发挥作用，要充分相信下属的聪明才智、工作能力，适时给予支持和帮助。当下属遇到棘手问题时，要给予鼓励和帮助，必要时亲自出面协调解决；当下属决定的问题有不当之处时，不要过多指责，只要不是原则性的大问题，由其自己在工作中予以纠正；对下属的一些猜疑和非议，要慎重对待，不要轻信，而应澄清和制止，并支持他们大胆工作。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">3、揽过意识。“金无足赤，人无完人”，在对待下属过失的处理中，要充分体现检察长的领导艺术。揽功诿过是引发矛盾、人心背离的主要原因。要正确对待下属的过失，营造宽松的工作氛围，允许下属犯错误，并一起分析原因，找出经验教训，使其从自身的错误中得到提高。必要时，检察长应当敢于承担责任，揽过于已。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">二、突出四个根本工作，善于化繁为简</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">应该看到，简与繁是相对的、辩证的。作为基层检察院检察长，每天都要面对大量的具体工作和诸多矛盾。一个头脑清醒的检察长，必须善于在纷繁复杂的矛盾中，分析和认清主要矛盾，把自己的主要精力放在主要矛盾的处理和解决上。只有在思想方法上“以繁变简”，才能在工作实践中“以简御繁”。在众多的工作和矛盾面前，要通过分析、比较，抓住重点，理清思路，有所为而有所不为，才能以提纲挈领、化繁为简之功，收到纲举目张、以简御繁之效。在实际工作中，要做好以下几个工作：</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">1、抓全局。本院工作总的指导思想是什么</span><span style=\"font-size:18px;\">?</span><span style=\"font-size:18px;\">前景如何？工作目标是什么？采取哪些举措？这些都是检察长所要解决的首要问题，也是体现正职驾驭全局的能力和领导水平的主要标志。对此，检察长一定要思路清，方向明。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">2、抓办案。有为才有位，作为基层检察院，要发展，就要牢牢抓住办案不动摇。作为基层检察院的检察长，把办案作为首要任务，要深入一线，带头办示范案、样板案，以此带动干警齐心协力办大案、办难案，促进检察工作的发展。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">3、抓队伍。“为政之本在于任贤”。作为检察长，要牢固树立检察人才战略思想，增强优化队伍结构意识，做好人才培养规划，有意识的进行培养，建立人才激励机制、竞争机制，以事业留人，以适当的待遇留人，提高队伍的综合素质。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">4、抓机制。一个机关的建设与发展，制度是根本。作为检察长，工作繁多，不可能事事躬亲，就要建立起一个规范的制度、健康的机制，使各个岗位、每个干警清晰职责要求，建立健全监督机制，从而检察长可以居中调度。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">三、发挥三个积极性，坚持众繁我简</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">俗话说“众人拾柴火焰高”、“担子交与众人挑”。一个人本事再大，能量也是有限的，而群众的力量是无穷的。要充分看到和相信大家的积极性和创造性，善于把艰巨繁重的任务分解开来，逐级负责，分工合作，形成众人挑重担的局面。作为基层检察院检察长，最重要是把大家的智慧挖掘出来，把大家的积极性调动起来，把大家的力量组织起来，做到人尽其才，人尽其责，人尽其力。只有这样，才能真正从具体工作的“繁”中解脱出来；才能真正拿出大量的精力，去调查研究，去分析问题，去解决问题。做到这一点，关键就是要相信部属、相信群众，明于察人，关于用人。如果这也不放心，那也不踏实，事必躬亲，越俎代庖，应有可能造成众简我繁，自己瞎忙一气，群众意见一堆。作为一个检察院的领导，以简自处，并不意味着职责减轻，工作放松。相反，识人用人管人的“简”是最费心思、最耗气力的。这样的“简”绝对不能等闲视之，掉以轻心。可见，要做到自简，还必须不断提高工作能力和领导水平，做到心里有谱，眼里有人，调度有序，管理有方，这样才能逐步达到以简御繁、事半功倍的境界。具体要发挥三个方面的积极性</span><span style=\"font-size:18px;\">:</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">1、发挥副检察长的积极性。副检察长</span><span style=\"font-size:18px;\">,</span><span style=\"font-size:18px;\">既是检察长的助手和参谋，也是一名管理者。检察长与副检察长作为班子成员，是一个有机整体，如果共同责任感强，同心同德，正副关系就融洽，工作就顺利；而如果个人因素的不当介入，就会产生矛盾，工作互相掣肘。作为班长，首先就要维护班子的团结，相信他们的能力，支持他们的工作。检察长要有宽广的胸怀。由于每个人的经历、气质、风格、知识结构各不相同，正副职在长期的工作中，没有一点互谅互让的胸怀，是很难做到齐心协力的。大事讲原则，小事讲风格，在工作中要做到三点：一是要做到“小节不纠”。在小节方面多一点忍让，多一点忽略，就会多一分默契，多一分和谐。二是要做到“小怨不积”。正副职之间，偶有是非长短、个人高低，在所难免。事情发生了，要开诚布公的进行思想交流，不要闷在心里，否则就会积小怨为大怨，造成班子内耗。三是“大度容人”。正确认识到出现分歧是正常的，要怀着诚恳的团结的愿望，积极主动地交流思想，力争求大同，存小异，缩小分歧，取得共识。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">2、发挥中层干部的积极性。中层干部是检察长的得力助手，具体负责某一方面的工作，很多工作都是由他们实施的。在工作中要做到三点：一是知人善任。根据他们的工作能力、性格特点等优劣点，安排其负责一定的部门，使之能当其位，用当所长。破除“论资排辈”、“官本位”的倾向，不拘一格发现人才、选拔人才，创造良好的工作环境，使他们在岗位上创造业绩。二是用人不疑。要充分相信部属的工作能力，不越俎代庖，事无巨细听汇报、作指示，支持其在职责范围内进行管理和决策，从而使中层干部充分发挥自己的主观能动性，把工作搞好。三是克服求全责备倾向。不可否认，每个人都有他的优点，也有他的缺点，对待他们所犯的错误，要引导他分析产生的原因，获得提高。</span>\r\n</p>\r\n<p class=\"MsoPlainText\" style=\"text-indent:32pt;\">\r\n	<span style=\"font-size:18px;\">3、发挥全体干警的积极性。干警是检察事业的基础，是检察发展的兴旺所在。在工作中，要做到二点：一是强化人人都是人才观念。“宝贝放错了地方便是废物，废物是放错地方的宝贝”。要更新人才观念，树立人人可成才的意识。特别是在现在，很多基层院由于编制少、待遇低等原因难以吸收人才的情况下，要坚持“从内部挖潜力，向干警要素质”，鼓励干警自我成长，通过开展各类培训活动、压担子等措施，做到“岗位成才”。二是关心爱护。检察长事务繁多，与普通干警交流机会少，虽然检察长与普通干警隔着几级，也不要忽略与他们的交流。对干警工作中取得的成绩、生活中遇到的困难，要及时的发现和帮助解决，从而增强全院干警的凝聚力。</span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:18px;\">&nbsp;</span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388027614', '1388375476', '1');
-INSERT INTO `lx_article` VALUES ('62', '公告', '认清形势 理清思路 进一步加强检察干警职业道德建设', '<p class=\"MsoNormal\" style=\"color:#343434;font-family:宋体;\">\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">&nbsp;检察干警职业道德是指检察人员在其职务活动中必须遵守的道德规范和行为准则，是检察干警的立身之石，处事之道。随着时代的发展、改革的深入、社会的转型和各种利益关系的不断调整、各种文化的交互碰撞，与社会人一样，检察干警的世界观、人生观、价值观也在不断发展变化。理性的非理性的思想观念变化，在从主流上提升检察干警人生境界的同时，也导致了职业道德修养出现迷惘、混乱和失范，应当充分重视。否则，将严重影响检察干警队伍的整体建设，难以实现司法的公平正义和监督职能的履行。因而，在新形势下进一步加强检察干警职业道德建设已是一个迫在眉睫、不容回避、必须破解的政治课题。笔者总结十几年来的检察工作实践，就检察干警职业道德建设问题，从现状、现实必要性和路径等几个方面谈谈自己的一些粗浅认识，供同仁们商榷。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">一、检察干警职业道德建设的基本现状</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">检察干警的职业道德建设主流应予充分肯定。近年来，社会政治经济持续快速发展，社会基本面比较和谐稳定，人民群众对司法工作比较满意，这里面包含了检察机关的重要贡献，因而也与稳固的检察干警职业道德建设密不可分，这就是主流。但也不容忽视存在的严重问题，它已经侵蚀了检察干警队伍的健康肌体，削弱了执法办案的较强能力，抹黑了检察机关的良好形象。主要表现在：</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">一是职业道德沦丧。受多元文化、多元经济的消极影响，享乐主义、拜金主义、极端个人主义在一些干警思想中滋生蔓延，以致蜕变为精神萎靡不振，意志消沉衰退，行动上经不住权力、金钱、美色的诱惑，不仅职业道德底线不保，甚至冲破纪律和法律防线，贪污受贿，徇私枉法，是非混淆，无恶不作。近年来查办的天津市院原检察长李宝金、江西省院原检察长丁鑫发、郑州市院原纪检组长胡志忠等严重经济犯罪案件就是其中的典型代表。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">二是职业道德观念脆弱。相对于纪律和法律规范，职业道德重点靠自我约束，即自律。有些检察干警职业道德观念脆弱，意志不够坚定，依赖有力的外部约束维持平衡，一旦外部强制力缺失，职业道德很容易冲破防线。当前，检察干警职业道德普遍存在外部强制约束力不够的问题。这样，如果职业道德观念不强，自控能力不够，在强烈私欲的诱惑下，一些干警出现职业道德失范是在所难免的。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">三是职业道德修养氛围欠佳。检察干警职业道德修养靠教育、熏陶和极具影响力的方式方法，需要多方面的因素来促进养成。目前的现状一方面是教育的力度不够；再一方面是形式不够丰富；第三方面，尽管高检院制定了“忠诚、公正、清廉、严明”八字规范，但内容不够全面，内涵依然不够清晰，外延存在不确定性；第四方面是缺乏专业且必要的教育教学资料。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">四是职业道德建设重视程度不够。职业道德建设基本上处于放任状态，缺乏系统规划和长效机制。一则检察机关疲于工作疲于办案；再则一些机关和领导认为其是可有可无的事，只有亡羊了才想起补牢。重视不够已成不争的事实。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">二、检察干警职业道德建设的现实必要性</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">检察干警职业道德水准的高低事关检察干警队伍建设的整体素质和司法办案能力的强弱；事关公平正义的实现和人民群众是否满意。简言之，事关检察工作的荣辱成败。因而，加强检察干警职业道德建设的紧迫感、重要意义和现实必要性跃然纸上。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（一）是保持党的先进性的本质要求</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">党要始终代表中国先进生产力的发展要求，代表中国先进文化的前进方向，代表中国最广大人民的根本利益，需要在政治、经济、文化、社会等全方位取得突破，仅此，才能始终代表先进性。而要实现全面突破，大幅提高国民道德素养是基础和关键之一。作为党的意志、人民权力的执行机关的检察机关，大力加强检察干警职业道德建设不仅是公民道德建设的重要组成部分，而且是特定的职业操守和规范。只有不断加强职业道德修养，不断提高职业道德水准，才能履行好法律监督职能，推动检察事业快速发展，也才能体现党的意志，始终保持党的先进性。所以，大力加强检察干警职业道德建设，是保持党的先进性的本质要求。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（二）是加强检察队伍建设的前提和基础</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">加强检察队伍建设的切入点包括思想、文化、政治、业务、管理等诸多方面，而职业道德水准的高低直接决定思想、文化、政治、业务建设和管理工作的优劣。正所谓育人先育德。好比参天大树，道德素养就是根，根深则枝繁叶茂，根死则树枯。反之亦然。检察干警道德不保，轻则违纪，重者犯罪，这样必将损害队伍的战斗力和总体形象，甚至全盘皆输。只要干警都保持较高的道德水准，即队伍不出问题，再下功夫狠抓队伍的全面建设，不怕树立不起文明之师、威武之师。可见，是其前提和基础不言自明。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（三）是实现社会公平正义的根本保证</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">公平正义是立法的价值取向，是现代执法理念，是人民群众的基本愿望。唯有实现社会的公平正义，才还原了立法本意，达到了司法目的，满足了群众诉求。作为检察干警，不仅直接参与司法办案，而且担负法律监督职责，所以，我们肩负着用法律之剑切实维护公平正义的神圣使命。要圆满完成这个使命，职业道德就显得特别重要。只有道德高尚的干警，才有崇高的使命感，也才能为其冲锋陷阵，抛头颅洒热血。一个道德低下的人，很难想象他有正义感，更不可能去维护好社会公平正义。因而，是其根本保证不难看出。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（四）是加强检察文化建设的应有之意</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">检察文化是检察机关一种特有的行业文化现象。检察文化品位的高低决定着检察队伍素质、业务能力、管理水平、外在形象和环境优劣等，也就是直接决定了检察机关的战斗力强弱。文化品位高，则战斗力强，必然能够很好地完成各项任务，倒过来就是必然打败仗。而检察干警职业道德建设是构建检察文化的核心，是推动检察文化品位提升、打造品牌的动力源泉和支持系统。因而，大力加强检察干警职业道德建设是检察文化建设的应有之意。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">三、检察干警职业道德建设的方法和路径</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">路径是达到目的手段。只有选择了正确的路径，才能引航光明的彼岸。不然，只能会南辕北辙。加强检察干警职业道德建设有很多途径，但只有那些符合事物发展客观规律、切中实际的途径，才能推动检察干警职业道德建设稳步提升。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（一）抓好总体规划</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">一要设计好职业道德规范，做到言简意赅、表达准确、内容丰富、通俗易懂。重要的是不同层级的机关、不同业务部门内容上可有所取舍，增强针对性。二要重新制定《检察官职业道德建设实施纲要》。作为系统工程进一步明确职业道德建设的指导思想、方针原则、教育内容和方式方法，使之更加科学化、规范化、系统化，增强可操作性。尽管高检院过去制定过《纲要》，但已时过境迁，物是人非，已不符合当前形势发展的需要。三要加强领导，明确责任，从组织上保证检察干警职业道德建设的有效落实。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（二）规范教育内容</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">职业道德建设需要符合其特点的特定教育内容，包括正面引导性和警示惩戒性。而且要针对不同层级和不同职业的检察干警设计不同的教育内容。因为职业道德建设重点靠教育，所以内容十分重要。因而各级都应积极编写印发专业教材，制作专题教育光盘，适时印发各种教育资料。基层要针对不同时期的任务和内外形势，适时开展好经常性教育，把可能出现的群发性、苗头性问题解决在萌芽状态。要特别注重运用内部局域网络的功能，使其在职业道德建设方面发挥应有作用。通过教育，真正让干警坚定理想信念，树立正确的人生价值观，激励革命斗志，调动工作热情，从而升华道德情操。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（三）活跃教育方式</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">方式决定效果。因而应设计多种方式方法，多种渠道开展教育活动。视情况和条件，在理论灌输的基础上，可经常性开展群众性文体娱乐活动，集体组织观看演出、电影和体育竞赛；可成立书画、摄影等各类协会和理论研究协作组织，以及开办现实和虚拟网络论坛；可组织群众开展岗位练兵、部门竞赛、结对帮扶，参加新农村、社区建设和企事业单位、学校的平安创建活动等等。意在用干警喜闻乐见的方式方法吸引干警的注意力，强化干警的关注度，引导干警积极参与，使他们在参与中潜移默化地接受教育，道德情操得到陶冶。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（四）营造良好氛围</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">一是各种媒体和网络要有计划、系统和经常性的对道德建设进行宣传和教育，让科学的理论、先进的文化和正面的报道始终占领媒体宣传的主战场、主阵地，在全社会营造浓厚的舆论宣传氛围。二是大力宣传和表彰好人好事、先进模范典型，积极弘扬正气，压制邪气，让正气成为主流，让歪风邪气无立锥之地。三是大力继承和发扬优良传统，大胆开展批评和自我批评，在表扬的同时，让批评成为常态，努力在检察机关创造一个风清气顺的良好环境。四是将年度述职述廉、晋职晋级报告工作、任期离任审计等经常化，用严密的制度为职业道德建设宣传造势。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\">\r\n		<span style=\"font-size:18px;\">（五）强化学习修炼</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">古人们的修身之道，核心理论是学习、克己、修身，这些历史的精华，很值得我们认真地汲取。南宋大哲学家朱熹说过：“德之所以成，亦曰学之正、习之熟、说之深，而不已焉耳。”意思是说美德之所以能修炼成，在于学习正确的东西，并不断练习，熟悉掌握，深深喜爱，从不间断。元代一名学者说过：“立身百行，以学为基。”大意是，一个人安身立命的各种良好品行，都必须以学习为基础。明代有一名学者也说过：“学则智，不学则愚；学则治，不学则乱。自古圣贤盛德大业，未有不由学而成者也。”他提出，学习使人聪明，不学习会使人愚蠢；学习会天下太平，不学习则天下大乱。自古以来圣人贤人的崇高美德和宏伟大业，无一不是由于学习而成功的。这些至理名言，既深刻地阐明学习的重要性，又揭示了学习与道德修养的辩证关系。强化学习修炼，其实就是加强道德修炼，学习是提高思想道德修养水平的主要途径。近年，市院党组提出并大力推行的“创建学习型检察院、争当学习型检察干警”活动及检察文化年活动，对营造文明健康、积极向上、开拓创新、生动活泼、团结和谐的工作生活氛围，促进检察人员自觉形成良好的精神品质和高尚的职业道德情操，起到了不可低估的作用，这一做法必须持之以恒地坚持下去。相信把学习和文化建设作为队伍建设的载体，必然带来检察队伍素质的整体提高和检察事业的跨越式发展。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\">\r\n		<span style=\"font-size:18px;\">&nbsp;</span>\r\n	</p>\r\n<span style=\"font-size:18px;\"></span>\r\n</p>', 'admin', null, '0', '0', '1', '0', '1388027653', '1388375558', '1');
-INSERT INTO `lx_article` VALUES ('63', '公告', '立足本职定位 图谋大局发展 努力做一个表里如一的政治明白人', '<p class=\"MsoNormal\" style=\"text-indent:32pt;\">\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">怎样当好基层检察长，仁者见仁，智者见智，不同素养和阅历的人有不同的思想、策略和见解。当好基层检察长既有文化修养、理论水平、政治信仰等内在素质问题；又有领导艺术、宏观决策、微观指导等现实运作问题，内容宽泛，内涵和外延都十分丰富，不能简单而论。今天，我归纳调任基层检察长一年多来的思考，结合近一时期的学习体会，从一个侧面选题，谈谈基层检察长要从几个方面做一个政治上的明白人。因为，只有做到政治上明白，才能真正成为一名合格的检察长，才能带领干警更好地履行法律监督职责，出色地完成党和人民赋予的历史使命。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">一、锤炼政治修养，把讲政治贯穿检察工作始终</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">检察机关是国家法律监督机关，是国家政权的重要组成部分，肩负着打击犯罪、保护人民、巩固人民当家作主的社会主义制度、保障社会主义现代化顺利进行的重要职责。只有一名具备较高政治素养的领头人，才能带领干警更好地履行检察机关的神圣职责。检察长又是党组书记，是一个检察院的核心，检察长的政治素质决定着检察工作的成败，检察长务必从讲政治的高度对待检察工作，讲政治这根弦任何时候都不能放松。要在思想和行动上与党中央保持高度一致，坚定不移地贯彻落实党的路线、方针、政策，认真践行社会主义法治理念。要有较强的政治敏锐性和政治责任感，做到政治立场坚定，政治方向正确，政治观点鲜明，政治纪律严明，在大是大非面前态度坚决，旗帜鲜明。要正确对待改革发展过程中遇到的问题，面对任何困难和挫折，都要始终保持坚定的信念，积极配合党委政府坚定不移地作好改革开放和政治稳定工作。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">理论上的糊涂人不可能成为政治上的明白人，只有用科学的理论武装头脑才能在纷繁复杂的斗争中不迷失方向，其中加强政治理论学习是提高政治修养的重要途径。毛泽东思想、邓小平理论、“三个代表”重要思想和科学发展观是新时期检察工作的指南，检察长要带头不断学习这些理论，务必吃透精神实质，把握理论精髓，善于用这些理论指导检察工作，努力使自己成为一个政治素质高、管理能力强、检察业务精的合格检察长。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">要注重加强检察队伍的政治建设，不断提高检察队伍的整体政治素质。检察队伍政治素质的高低，直接影响着检察工作的顺利开展。检察长是队伍建设的第一责任人，检察队伍出现任何政治问题，检察长都负有不可推卸的责任。要采取各种有效形式对干警进行系统的政治理论教育，用科学的理论统一干警的执法思想，引导干警的执法行为，激发干警昂扬向上的精神状态，努力带出一支政治合格、作风过硬、业务精良、纪律严明的检察官队伍。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">二、把握监督灵魂，把服务大局贯穿检察工作始终</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">检察工作要保持坚定正确的政治方向，始终为党的工作大局服务，这是党对检察工作的政治要求，也是基本要求。要摆正检察工作在党委工作大局中的位置，牢固树立党对检察工作的绝对领导地位，自觉主动地接受党的领导，紧紧围绕党委中心任务开展工作。只有这样，检察工作才找准了方向，检察工作也才有广阔的发展空间和前途。检察工作的安排部署要与党委中心工作步调一致，想党委之所想，急党委之所急，诚心为党委分忧，积极协助党委政府依法处理涉检涉诉等热点难点问题。唯此，才摆正了位置，才找准了着力点和支撑点。在实践中要特别注意处理好坚持党的领导与独立开展检察工作的关系。坚持党的领导是独立司法的政治保证，而独立司法是正确贯彻党的路线方针政策在检察实践中的具体体现，二者并不矛盾，正确处理好二者之间的关系，事关检察工作的政治效果与法律效果的有机统一，其本身就是一个政治方向问题，是履行好法律监督职责的灵魂。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">就当前来说，促进经济发展和维护社会政治稳定是各级党委政府的中心工作，也是检察工作的大局。检察长在谋划整体工作时，就要首先思考如何围绕经济发展和社会稳定来发挥检察职能作用，注重通过监督职能作用的发挥，为经济发展营造公平公正的市场环境，为社会政治稳定营造和谐高效的法治环境。要把为大局服务的意识牢牢灌输到干警心目中，体现在干警执法行为上，用大局意识统领全部办案实践。要用社会主义法治理念指导执法工作，以“三个有利于”的标准评价执法效果，使法律监督职能的发挥与促进社会全面进步相互推动，有机统一。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:31.7pt;\">\r\n		<span style=\"font-size:18px;\">三、树立群众观念，把执法为民贯穿检察工作始终</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">检察权从实质上讲是人民赋予的，检察工作的出发点是切实维护广大人民群众的切实利益，检察系统开展的“五好两满意”活动最终目标是让人民群众满意，“三个代表”重要思想最根本的一点是中国共产党始终代表最广大人民群众的根本利益。能否为人民掌好权、谋好利是检验检察长政治觉悟高低的试金石。检察工作要为人民服务，要实现“三个代表”重要思想的要求，就必须弄清“为谁执法，为谁服务”的问题，就要以“人民群众满意不满意、答应不答应”作为衡量检察工作成败得失的唯一标准。由于检察机关担负着法律监督职责，人民群众对检察机关寄予很高的期望，基层检察院处于检察工作的最前沿，基层检察长又与人民群众接触最频繁、最直接。基层检察长的工作业绩、工作状态和工作热情直接影响人民群众对检察机关的信誉度。所以，作为基层检察长，要带着对人民群众的深厚感情去执法，要时刻注意倾听人民群众的呼声，认真对待和解决群众反映的各类问题。只有这样，才能拉近检察机关与人民群众之间的距离，才能温暖人民群众的心。老百姓是我们的衣食父母，“水能载舟，亦能覆舟”，只有把老百姓反映的事情办好，才能得到老百姓的信任和支持，否则，便会失去民心、违背民意。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">近年来，检察工作虽然取得了一定的成绩，但从当前涉法涉诉信访案事件逐年增多的情况来看，这在一定程度上也说明我们的工作还有不到位的地方，与人民群众的要求还有一定的差距。为此，我们更要深入人民群众中去，进一步征求人民群众的意见和建议，更好地改进检察工作。要进一步深化检务公开，增强检察工作的透明度，不断取信于民。基层检察长要充分利用控申举报这个窗口，做好检察长接待日工作，通过面对面的接访，体察民情，了解民意，为民解忧，真正架起党和人民群众之间的“连心桥”。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">四、紧跟时代步伐，把创新发展贯穿检察工作始终</span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"text-indent:32pt;\">\r\n		<span style=\"font-size:18px;\">创新是党的生命、民族的灵魂，是我们所处这个时代的最强音。带领检察干警不断开拓创新、创造一流的工作业绩，是时代对检察长政治上的必然要求。讲政治、讲大局、为民执法等观念最终都要通过检察工作去体现，如果不能创造性地开展工作，干出一流的工作业绩，这些理念和思想就是一句空话。检察长作为一院之长，要非常珍惜自己的政治荣誉，不辜负党和人民的重托，时刻牢记自己身上担负的历史重任，紧跟时代步伐，不断开创检察工作新局面。常言说“兵强强一个，将熊熊一窝”，检察长个人的精神状态如何，直接影响着全体干警的斗志。要克服那种“不求有功，但求无过”的不思进取思想，更不能因循守旧，固步自封，工作起来缩手缩脚。面对检察工作的新形势和新任务，基层检察长要以创新的精神促创新，率先解放思想，更新观念，影响和带动全体干警与时俱进，紧跟时代潮流；要以创新的学习促创新，大力塑造学习型检察机关和学习型检察干警；要以创新的机制促创新，不断完善检察队伍、业务、事务“三位一体”的科学管理机制；要以创新的举措促创新，认真研究解决检察工作中遇到的新情况、新问题；要以创新的业绩促创新，不断拓展检察工作的发展空间，在社会主义市场经济大潮中建功立业，向党和人民交一份满意的答卷。</span>\r\n	</p>\r\n	<p class=\"MsoNormal\">\r\n		<span style=\"font-size:18px;\">&nbsp;</span>\r\n	</p>\r\n</p>\r\n<div>\r\n	<br />\r\n</div>', 'admin', null, '0', '0', '1', '0', '1388027764', '1388375595', '1');
-INSERT INTO `lx_article` VALUES ('74', '用户欢迎页', '用户欢迎页', '<span>这里显示的内容请到后台 新闻公告-&gt;</span><span>用户欢迎页</span><span>&nbsp;中修改</span>', 'admin', null, '0', '0', '1', '1', '1388028542', '1388375987', '1');
+INSERT INTO `lx_article` VALUES ('74', '用户欢迎页', '3004民心工程·180微商大联盟', '<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b><span style=\"font-size:14.0pt;font-family:&quot;\">3004</span></b><b><span style=\"font-size:14.0pt;font-family:&quot;\">民心工程</span></b><span style=\"font-size:16pt;font-family:宋体;color:#333333;\">·</span><b><span style=\"font-size:14.0pt;font-family:&quot;\">180</span></b><b><span style=\"font-size:14.0pt;font-family:&quot;\">微商大联盟<span></span></span></b>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\">好善乐施传递正能量，你帮我助成就创业梦！<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<span style=\"font-size:18.0pt;font-family:华文新魏;\">运营方案<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">&nbsp;&nbsp;&nbsp; </span><span style=\"font-size:11.0pt;font-family:&quot;\">微商加盟费：<span>180</span>元，送“<span>3004</span>民心工程”<span>VIP</span>贵宾增值服务卡，成为公司的微代理商。晋升为合格二级贵宾会员后，免费赠送“富硒花栓豆”产品（或其他赠品任选）。<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">1、</span><span style=\"font-size:11.0pt;font-family:&quot;\">推荐奖：<span>180</span>元<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">2、</span><span style=\"font-size:11.0pt;font-family:&quot;\">互助金：<span></span></span>\r\n</p>\r\n<table class=\"MsoTableGrid\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse;border:none;\">\r\n	<tbody>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">层数<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">级别<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">人数<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">互助金<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">升级费<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">管理层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">赠品<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">一<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格一级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">3</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">3</span><span style=\"font-family:&quot;\">×<span>180=540</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">360</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上二层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">贵宾增值服务卡<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">二<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格二级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">9</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">9</span><span style=\"font-family:&quot;\">×<span>360=3240</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">720</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上三层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（一盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">三<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格三级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">27</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">27</span><span style=\"font-family:&quot;\">×<span>720=19440</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">1440</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上四层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（二盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">四<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格四级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">81</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">81</span><span style=\"font-family:&quot;\">×<span>1440=116640</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">2880</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上五层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（三盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">五<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格五级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">243</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">243</span><span style=\"font-family:&quot;\">×<span>2880=699840</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">5760</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上六层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（四盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">六<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格六级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">729</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">729</span><span style=\"font-family:&quot;\">×<span>5760=4199040</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">11520</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上七层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（五盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">七<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格七级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">2187</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">2187</span><span style=\"font-family:&quot;\">×<span>11520=25194240</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">23040</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上八层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（六盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">八<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格八级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">6561</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">6561</span><span style=\"font-family:&quot;\">×<span>23040=151165440</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">———<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">出局<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">十万元专卖店<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">3、</span><span style=\"font-size:11.0pt;font-family:&quot;\">综合管理费<span>10%</span>，秒算秒结，随时提现，手续费<span>5%</span>，<span>2</span>天内到账。<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:25.5pt;\">\r\n	<span style=\"font-family:&quot;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-family:&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"font-size:11.0pt;font-family:&quot;\">&nbsp;</span><span style=\"font-size:11.0pt;font-family:&quot;\">网址：<span>www.3004mxgc180.com</span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"font-size:11.0pt;font-family:&quot;\">市场招商热线：<span>15937982788</span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">2015</span><span style=\"font-size:11.0pt;font-family:&quot;\">年<span>2</span>月<span>16</span>日<span></span></span>\r\n</p>', 'admin', null, '0', '0', '1', '1', '1388028542', '1424100633', '1');
 INSERT INTO `lx_article` VALUES ('75', '公司简介', '公司简介', '<span>这里显示的内容请到后台 新闻公告-&gt;公司简介 中修改</span>', 'admin', null, '0', '0', '1', '1', '1388028564', '1388376012', '1');
-INSERT INTO `lx_article` VALUES ('64', '联系我们', '联系我们', '这里显示的内容请到后台 新闻公告-&gt;联系我们 中修改', 'admin', null, '0', '0', '1', '1', '1388028012', '1388375625', '1');
+INSERT INTO `lx_article` VALUES ('64', '产品介绍', '产品介绍', '这里显示的内容请到后台 新闻公告-&gt;产品介绍 中修改', 'admin', null, '0', '0', '1', '1', '1388028012', '1424100216', '1');
 
 -- ----------------------------
 -- Table structure for `lx_bonus`
@@ -81,7 +50,9 @@ DROP TABLE IF EXISTS `lx_bonus`;
 CREATE TABLE `lx_bonus` (
   `member_id` int(10) unsigned NOT NULL COMMENT '会员ID',
   `source_id` int(10) unsigned NOT NULL COMMENT '奖金来源(注册的会员ID)',
-  `bonus` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '奖励积分',
+  `sys_bonus` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '生成的奖励积分',
+  `guanli_fee` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '管理费',
+  `bonus` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '实际奖励积分',
   `create_time` varchar(20) NOT NULL DEFAULT '0' COMMENT '结算时间 unix时间戳',
   KEY `member_id` (`member_id`),
   KEY `new_member_id` (`source_id`)
@@ -90,20 +61,6 @@ CREATE TABLE `lx_bonus` (
 -- ----------------------------
 -- Records of lx_bonus
 -- ----------------------------
-INSERT INTO `lx_bonus` VALUES ('1', '2', '0.00', '1394698240');
-INSERT INTO `lx_bonus` VALUES ('2', '1', '0.00', '1394866183');
-INSERT INTO `lx_bonus` VALUES ('2', '1', '0.00', '1394866305');
-INSERT INTO `lx_bonus` VALUES ('0', '1', '500.00', '1405654611');
-INSERT INTO `lx_bonus` VALUES ('0', '1', '500.00', '1405654738');
-INSERT INTO `lx_bonus` VALUES ('0', '1', '2000.00', '1405667821');
-INSERT INTO `lx_bonus` VALUES ('1', '10', '500.00', '1405701909');
-INSERT INTO `lx_bonus` VALUES ('1', '2', '1000.00', '1405706725');
-INSERT INTO `lx_bonus` VALUES ('0', '1', '2000.00', '1405876338');
-INSERT INTO `lx_bonus` VALUES ('1', '10', '1000.00', '1405876448');
-INSERT INTO `lx_bonus` VALUES ('0', '10', '2000.00', '1405877498');
-INSERT INTO `lx_bonus` VALUES ('2', '13', '180.00', '1423465533');
-INSERT INTO `lx_bonus` VALUES ('1', '15', '180.00', '1423822811');
-INSERT INTO `lx_bonus` VALUES ('1', '14', '180.00', '1423822815');
 
 -- ----------------------------
 -- Table structure for `lx_cash`
@@ -124,13 +81,11 @@ CREATE TABLE `lx_cash` (
   `check_time` varchar(20) NOT NULL DEFAULT '0' COMMENT '审核时间',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注留言',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='提现记录表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='提现记录表';
 
 -- ----------------------------
 -- Records of lx_cash
 -- ----------------------------
-INSERT INTO `lx_cash` VALUES ('1', '1', '开户姓名', '开户银行', '银行帐号', '开户地址', '1000.00', '100.00', '900.00', '2', '1405744340', '1405745324', '');
-INSERT INTO `lx_cash` VALUES ('2', '10', '123', '123', '123', '123', '1.00', '0.10', '0.90', '1', '1405878015', '0', '');
 
 -- ----------------------------
 -- Table structure for `lx_config`
@@ -144,12 +99,12 @@ CREATE TABLE `lx_config` (
   `remark` varchar(255) DEFAULT NULL COMMENT '配置说明',
   PRIMARY KEY (`id`),
   UNIQUE KEY `cfgname` (`name`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of lx_config
 -- ----------------------------
-INSERT INTO `lx_config` VALUES ('1', 'fees', '提现手续费', '0', '单位 %');
+INSERT INTO `lx_config` VALUES ('1', 'fees', '提现手续费', '5', '单位 %');
 INSERT INTO `lx_config` VALUES ('2', 'basepoints', '基础积分', '180', null);
 INSERT INTO `lx_config` VALUES ('3', 'maxlevel', '最高级别', '8', null);
 INSERT INTO `lx_config` VALUES ('4', 'realname', '开户姓名', '请在后台设置开户姓名', null);
@@ -157,6 +112,8 @@ INSERT INTO `lx_config` VALUES ('5', 'bankname', '开户银行', '请在后台�
 INSERT INTO `lx_config` VALUES ('6', 'bankcard', '银行卡号', '请在后台设置银行卡号', null);
 INSERT INTO `lx_config` VALUES ('7', 'bankaddress', '开户地址', '请在后台设置开户地址', null);
 INSERT INTO `lx_config` VALUES ('8', 'payremark', '温馨提醒', '', '显示在注册页面和升级页面');
+INSERT INTO `lx_config` VALUES ('9', 'guanlifees', '管理费率', '10', '单位 %');
+INSERT INTO `lx_config` VALUES ('10', 'sysname', '系统名称', '3004民心工程●180微商大联盟', '公司名称');
 
 -- ----------------------------
 -- Table structure for `lx_levelup`
@@ -177,24 +134,11 @@ CREATE TABLE `lx_levelup` (
   `type` tinyint(1) NOT NULL DEFAULT '1' COMMENT '升级类型 1-付款升级 2-积分升级',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注留言',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COMMENT='升级记录';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='升级记录';
 
 -- ----------------------------
 -- Records of lx_levelup
 -- ----------------------------
-INSERT INTO `lx_levelup` VALUES ('2', '1', '0', '2', '3', '2000.00', '2000.00', null, '0', '1405667821', '3', '1', null);
-INSERT INTO `lx_levelup` VALUES ('4', '2', '0', '1', '2', '1000.00', '1000.00', null, '1', '1405706725', '3', '1', null);
-INSERT INTO `lx_levelup` VALUES ('5', '2', '0', '0', '1', '500.00', '500.00', null, '1', '0', '3', '1', null);
-INSERT INTO `lx_levelup` VALUES ('6', '9', '1405699987', '0', '1', '500.00', '500.00', '今天吧', '1', '1405701918', '2', '1', '节点位置已被占用');
-INSERT INTO `lx_levelup` VALUES ('7', '10', '1405701877', '0', '1', '500.00', '500.10', '啊啊啊', '1', '1405701909', '3', '1', null);
-INSERT INTO `lx_levelup` VALUES ('9', '12', '1405874086', '0', '1', '500.00', '0.00', null, '2', '1405874766', '2', '1', '此会员由管理员注册');
-INSERT INTO `lx_levelup` VALUES ('10', '1', '1405876338', '2', '3', '2000.00', '2000.00', null, '0', '1405876338', '3', '2', '');
-INSERT INTO `lx_levelup` VALUES ('11', '10', '1405876447', '1', '2', '1000.00', '1000.00', null, '1', '1405876448', '3', '2', '');
-INSERT INTO `lx_levelup` VALUES ('12', '10', '1405877250', '2', '3', '2000.00', '22222.00', '2222', '0', '1405877498', '3', '1', null);
-INSERT INTO `lx_levelup` VALUES ('13', '10', '1405877480', '2', '3', '2000.00', '33.00', '33', '0', '1405877604', '2', '1', '用户级已达到或超出申请级别, 无需升级!');
-INSERT INTO `lx_levelup` VALUES ('14', '13', '1423465254', '0', '1', '180.00', '0.00', null, '2', '1423465533', '3', '1', '此会员由管理员注册');
-INSERT INTO `lx_levelup` VALUES ('15', '14', '1423822509', '0', '1', '180.00', '0.00', null, '1', '1423822815', '3', '1', '此会员由管理员注册');
-INSERT INTO `lx_levelup` VALUES ('16', '15', '1423822638', '0', '1', '180.00', '0.00', null, '1', '1423822811', '3', '1', '此会员由管理员注册');
 
 -- ----------------------------
 -- Table structure for `lx_member`
@@ -221,20 +165,19 @@ CREATE TABLE `lx_member` (
   `create_time` varchar(20) DEFAULT '0' COMMENT '注册时间',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '-1-删除 0-禁用 1-正常',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of lx_member
 -- ----------------------------
-INSERT INTO `lx_member` VALUES ('1', 'test', 'd6ea0986a01145400bc828c83110ebce', 'd6ea0986a01145400bc828c83110ebce', '0', '0', 'A', '3', '6485.00', '测试t', '11111111111', '111', '宝龙城市广场', '开户姓名', '银行帐号', '开户银行', '开户地址', '0', '1');
-INSERT INTO `lx_member` VALUES ('2', 'tttt', '1d1765d842a84cfcca4870c4fc798e66', '1d1765d842a84cfcca4870c4fc798e66', '1', '1', 'A', '2', '191.25', 'tttt', '11111111111', '1111', '1111', null, null, null, null, '1394680262', '1');
-INSERT INTO `lx_member` VALUES ('3', 'test2', '9e90c6271eddcf23e2e251f65bda6be3', '9e90c6271eddcf23e2e251f65bda6be3', '1', '1', 'B', '0', '0.00', '测试2', '', null, null, null, null, null, null, '0', '1');
-INSERT INTO `lx_member` VALUES ('9', 'test3', '5f85eb5b813593a29037e93fedc5af34', '5f85eb5b813593a29037e93fedc5af34', '1', '2', 'A', '0', '0.00', 'test3', '1123123123', '123123', '', null, '', '', '', '1405699986', '1');
-INSERT INTO `lx_member` VALUES ('10', 'test4', 'e5fc178b0bc754b47e09f19c3f5eef7e', 'e5fc178b0bc754b47e09f19c3f5eef7e', '1', '2', 'A', '3', '1000.00', 'test4', '1123123123', '12312311123', '1231231', '', '', '', '', '1405701877', '1');
-INSERT INTO `lx_member` VALUES ('12', '928284', 'd7f2089735f3a65338162b4ebd41e79e', 'd7f2089735f3a65338162b4ebd41e79e', '2', '2', 'B', '0', '0.00', '928284', '928284', '111111111111111111', '', '', '', '', '', '1405874086', '1');
-INSERT INTO `lx_member` VALUES ('13', '724137', 'd79de1771bb5143c79fe4e047be2ccb4', 'd79de1771bb5143c79fe4e047be2ccb4', '2', '2', 'B', '1', '0.00', '724137', '724137', '410304195511111111', '724137', '724137', '724137', '724137', '724137', '1423465254', '1');
-INSERT INTO `lx_member` VALUES ('14', '358225', '1c82226903b2135990ef77cd648d1305', '1c82226903b2135990ef77cd648d1305', '1', '1', 'C', '1', '0.00', '358225', '358225', '211111111111111111', '', '', '', '', '', '1423822509', '1');
-INSERT INTO `lx_member` VALUES ('15', '450786', '2c2b9a6257a611cda90f44a37a20e532', '2c2b9a6257a611cda90f44a37a20e532', '1', '1', 'B', '1', '0.00', '450786', '450786', '221111111111111111', '', '', '', '', '', '1423822638', '1');
+INSERT INTO `lx_member` VALUES ('1', '88888888', '16714a291ecf4352b8379d7ec843f5d6', '16714a291ecf4352b8379d7ec843f5d6', '0', '0', 'A', '8', '0.00', '88888888', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('2', '77777777', 'd76af4ef1cd554ebc27c0545fdc23812', 'd76af4ef1cd554ebc27c0545fdc23812', '1', '1', 'A', '8', '0.00', '77777777', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('3', '66666666', 'ed121ffa4035b7028e52208d356f31a6', 'ed121ffa4035b7028e52208d356f31a6', '2', '2', 'A', '8', '0.00', '66666666', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('4', '55555555', '8f06db987426cb2e624a52a53231b822', '8f06db987426cb2e624a52a53231b822', '3', '3', 'A', '8', '0.00', '55555555', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('5', '44444444', '3c34dff7a87cb8d9a9c2e9c74975bcbf', '3c34dff7a87cb8d9a9c2e9c74975bcbf', '4', '4', 'A', '8', '0.00', '44444444', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('6', '33333333', '47d6b72dc43d832fe3f5be06614e09a2', '47d6b72dc43d832fe3f5be06614e09a2', '5', '5', 'A', '8', '0.00', '33333333', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('7', '22222222', '2ef5afbc6923d240a5e5fdc998860330', '2ef5afbc6923d240a5e5fdc998860330', '6', '6', 'A', '8', '0.00', '22222222', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('8', '11111111', '551bc3e48995982a6121f577f8e7a25a', '551bc3e48995982a6121f577f8e7a25a', '7', '7', 'A', '8', '0.00', '11111111', '', null, null, null, null, null, null, '0', '1');
 
 -- ----------------------------
 -- Table structure for `lx_message`
@@ -248,12 +191,11 @@ CREATE TABLE `lx_message` (
   `reply` text COMMENT '回复内容',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '-1 删除  0 禁用 1 正常',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of lx_message
 -- ----------------------------
-INSERT INTO `lx_message` VALUES ('10', '1', 'aaa', '1409815783', null, '1');
 
 -- ----------------------------
 -- Table structure for `lx_user`
@@ -278,16 +220,4631 @@ CREATE TABLE `lx_user` (
 -- ----------------------------
 -- Records of lx_user
 -- ----------------------------
-INSERT INTO `lx_user` VALUES ('1', 'admin', '9e90c6271eddcf23e2e251f65bda6be3', '超级管理员', '1423818367', '127.0.0.1', '107', null, '0', '1389940039', '1');
-INSERT INTO `lx_user` VALUES ('2', 'user2', '3d06188d51e8024d76f1013b1563afcf', '2号', '1387789254', '127.0.0.1', '2', null, '0', '0', '1');
-INSERT INTO `lx_user` VALUES ('3', 'user3', '3d06188d51e8024d76f1013b1563afcf', '3号', '0', null, '0', null, '0', '0', '1');
-INSERT INTO `lx_user` VALUES ('4', 'user4', '15c9dfa38cfaf2635d54b1f94ffaed6c', '4434544656', '1387980302', '127.0.0.1', '1', null, '0', '1387980252', '1');
-INSERT INTO `lx_user` VALUES ('7', 'user7', 'b4b3aced3193c18c653bdeff2dd5c141', null, 'time', '127.0.0.1', '0', null, '1387876702', '1387876702', '1');
-INSERT INTO `lx_user` VALUES ('8', 'user5', 'b4b3aced3193c18c653bdeff2dd5c141', null, 'time', '127.0.0.1', '0', null, '1387876751', '1387876751', '1');
-INSERT INTO `lx_user` VALUES ('9', 'user6', 'b4b3aced3193c18c653bdeff2dd5c141', null, '1387876879', '127.0.0.1', '0', null, '1387876879', '1387876879', '1');
-INSERT INTO `lx_user` VALUES ('10', 'user8', '564736165e3715871289f3132886a6bd', null, '1387877657', '127.0.0.1', '0', null, '1387877657', '1387940353', '1');
-INSERT INTO `lx_user` VALUES ('15', 'user9', '564736165e3715871289f3132886a6bd', null, '0', '127.0.0.1', '0', null, '1387940319', '1387940375', '1');
-INSERT INTO `lx_user` VALUES ('16', 'user10', '15c9dfa38cfaf2635d54b1f94ffaed6c', null, '1387978601', '127.0.0.1', '11', null, '1387949776', '1387949776', '1');
-INSERT INTO `lx_user` VALUES ('17', 'user11', 'b4b3aced3193c18c653bdeff2dd5c141', null, '0', '127.0.0.1', '0', null, '1387949797', '1387949797', '1');
-INSERT INTO `lx_user` VALUES ('18', 'user12', '15c9dfa38cfaf2635d54b1f94ffaed6c', null, '1387960313', '127.0.0.1', '11', null, '1387949909', '1387949909', '0');
-INSERT INTO `lx_user` VALUES ('19', 'administrator', 'af73a1ef8d29ffc1c50c0bff6055b363', '超级管理员', '1400298323', '127.0.0.1', '87', '', '0', '1389940039', '1');
+INSERT INTO `lx_user` VALUES ('1', 'admin', '9e90c6271eddcf23e2e251f65bda6be3', '超级管理员', '1424067213', '127.0.0.1', '111', null, '0', '1389940039', '1');
+INSERT INTO `lx_user` VALUES ('19', 'administrator', 'af73a1ef8d29ffc1c50c0bff6055b363', '超级管理员', '1424100087', '127.0.0.1', '88', '', '0', '1389940039', '1');
+
+-- ----------------------------
+-- Table structure for `web_admanage`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_admanage`;
+CREATE TABLE `web_admanage` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '信息id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `classid` smallint(5) unsigned NOT NULL COMMENT '投放范围(广告位)',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属广告位父id',
+  `parentstr` varchar(80) NOT NULL COMMENT '所属广告位父id字符串',
+  `title` varchar(30) NOT NULL COMMENT '广告标识',
+  `admode` char(10) NOT NULL COMMENT '展示模式',
+  `picurl` varchar(100) NOT NULL COMMENT '上传内容地址',
+  `adtext` text NOT NULL COMMENT '展示内容',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) unsigned NOT NULL COMMENT '提交时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_admanage
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_admin`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_admin`;
+CREATE TABLE `web_admin` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '信息id',
+  `username` varchar(30) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `nickname` char(32) NOT NULL COMMENT '昵称',
+  `question` tinyint(1) unsigned NOT NULL COMMENT '登录提问',
+  `answer` varchar(50) NOT NULL COMMENT '登录回答',
+  `levelname` tinyint(1) unsigned NOT NULL COMMENT '级别',
+  `checkadmin` enum('true','false') NOT NULL COMMENT '审核',
+  `loginip` char(20) NOT NULL COMMENT '登录IP',
+  `logintime` int(10) unsigned NOT NULL COMMENT '登录时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_admin
+-- ----------------------------
+INSERT INTO `web_admin` VALUES ('1', 'admin', '0c909a141f1f2c0a1cb602b0b2d7d050', '', '0', '', '1', 'true', '127.0.0.1', '1424085986');
+
+-- ----------------------------
+-- Table structure for `web_admingroup`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_admingroup`;
+CREATE TABLE `web_admingroup` (
+  `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT COMMENT '管理组id',
+  `groupname` varchar(30) NOT NULL COMMENT '管理组名称',
+  `description` text NOT NULL COMMENT '管理组描述',
+  `groupsite` varchar(30) NOT NULL COMMENT '默认进入站',
+  `checkinfo` set('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_admingroup
+-- ----------------------------
+INSERT INTO `web_admingroup` VALUES ('1', '超级管理员', '超级管理员组', '1', 'true');
+INSERT INTO `web_admingroup` VALUES ('2', '站点管理员', '站点管理员组', '1', 'true');
+INSERT INTO `web_admingroup` VALUES ('3', '文章发布员', '文章发布员组', '1', 'true');
+
+-- ----------------------------
+-- Table structure for `web_adminnotes`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_adminnotes`;
+CREATE TABLE `web_adminnotes` (
+  `uname` varchar(30) NOT NULL COMMENT '用户名',
+  `body` mediumtext NOT NULL COMMENT '便签内容',
+  `posttime` int(10) unsigned NOT NULL COMMENT '提交时间',
+  `postip` varchar(30) NOT NULL COMMENT '提交IP',
+  PRIMARY KEY (`uname`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_adminnotes
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_adminprivacy`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_adminprivacy`;
+CREATE TABLE `web_adminprivacy` (
+  `groupid` tinyint(3) unsigned NOT NULL COMMENT '所属管理组id',
+  `siteid` tinyint(1) unsigned NOT NULL COMMENT '站点id',
+  `model` varchar(30) NOT NULL COMMENT '管理模块',
+  `classid` int(10) NOT NULL COMMENT '类型id',
+  `action` varchar(10) NOT NULL COMMENT '可执行操作'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_adminprivacy
+-- ----------------------------
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'upload_filemgr_sql', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'web_config', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'admin', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'database_backup', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'infoclass', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'info', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'infolist', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'infoimg', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'soft', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'goodstype', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'goods', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'infoclass', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'info', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'infolist', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'infoimg', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'soft', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'goodstype', '0', 'all');
+INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'goods', '0', 'all');
+
+-- ----------------------------
+-- Table structure for `web_adtype`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_adtype`;
+CREATE TABLE `web_adtype` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '广告位id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '上级id',
+  `parentstr` varchar(50) NOT NULL COMMENT '上级id字符串',
+  `classname` varchar(30) NOT NULL COMMENT '广告位名称',
+  `width` smallint(5) unsigned NOT NULL COMMENT '广告位宽度',
+  `height` smallint(5) unsigned NOT NULL COMMENT '广告位高度',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列顺序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_adtype
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_cascade`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_cascade`;
+CREATE TABLE `web_cascade` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '级联组id',
+  `groupname` varchar(30) NOT NULL COMMENT '级联组名称',
+  `groupsign` varchar(30) NOT NULL COMMENT '级联组标识',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_cascade
+-- ----------------------------
+INSERT INTO `web_cascade` VALUES ('1', '地区', 'area', '1');
+INSERT INTO `web_cascade` VALUES ('2', '星座', 'astro', '2');
+INSERT INTO `web_cascade` VALUES ('3', '血型', 'bloodtype', '3');
+INSERT INTO `web_cascade` VALUES ('4', '证件类型', 'cardtype', '4');
+INSERT INTO `web_cascade` VALUES ('5', '安全问题', 'question', '5');
+INSERT INTO `web_cascade` VALUES ('6', '行业分布', 'trade', '6');
+
+-- ----------------------------
+-- Table structure for `web_cascadedata`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_cascadedata`;
+CREATE TABLE `web_cascadedata` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '级联数据id',
+  `dataname` char(30) NOT NULL COMMENT '级联数据名称',
+  `datavalue` char(20) NOT NULL COMMENT '级联数据值',
+  `datagroup` char(20) NOT NULL COMMENT '所属级联组',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `level` tinyint(1) unsigned NOT NULL COMMENT '级联数据层次',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=20020 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_cascadedata
+-- ----------------------------
+INSERT INTO `web_cascadedata` VALUES ('20019', '澳门特别行政区', '17500', 'area', '17500', '0');
+INSERT INTO `web_cascadedata` VALUES ('20018', '香港特别行政区', '17000', 'area', '17000', '0');
+INSERT INTO `web_cascadedata` VALUES ('20017', '台湾省', '16500', 'area', '16500', '0');
+INSERT INTO `web_cascadedata` VALUES ('20016', '图木舒克市', '16015.3', 'area', '16015', '2');
+INSERT INTO `web_cascadedata` VALUES ('20015', '阿拉尔市', '16015.2', 'area', '16015', '2');
+INSERT INTO `web_cascadedata` VALUES ('20014', '石河子市', '16015.1', 'area', '16015', '2');
+INSERT INTO `web_cascadedata` VALUES ('20013', '省直辖行政单位', '16015', 'area', '16015', '1');
+INSERT INTO `web_cascadedata` VALUES ('20012', '吉木乃县', '16014.7', 'area', '16015', '2');
+INSERT INTO `web_cascadedata` VALUES ('20011', '青河县', '16014.6', 'area', '16015', '2');
+INSERT INTO `web_cascadedata` VALUES ('20010', '哈巴河县', '16014.5', 'area', '16015', '2');
+INSERT INTO `web_cascadedata` VALUES ('20009', '福海县', '16014.4', 'area', '16014', '2');
+INSERT INTO `web_cascadedata` VALUES ('20008', '富蕴县', '16014.3', 'area', '16014', '2');
+INSERT INTO `web_cascadedata` VALUES ('20007', '布尔津县', '16014.2', 'area', '16014', '2');
+INSERT INTO `web_cascadedata` VALUES ('20006', '阿勒泰市', '16014.1', 'area', '16014', '2');
+INSERT INTO `web_cascadedata` VALUES ('20005', '阿勒泰地区', '16014', 'area', '16014', '1');
+INSERT INTO `web_cascadedata` VALUES ('20004', '和布克赛尔蒙古自治县', '16013.7', 'area', '16014', '2');
+INSERT INTO `web_cascadedata` VALUES ('20003', '裕民县', '16013.6', 'area', '16014', '2');
+INSERT INTO `web_cascadedata` VALUES ('20002', '托里县', '16013.5', 'area', '16014', '2');
+INSERT INTO `web_cascadedata` VALUES ('20001', '沙湾县', '16013.4', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('20000', '额敏县', '16013.3', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19999', '乌苏市', '16013.2', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19998', '塔城市', '16013.1', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19997', '塔城地区', '16013', 'area', '16013', '1');
+INSERT INTO `web_cascadedata` VALUES ('19996', '尼勒克县', '16012.10', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19995', '特克斯县', '16012.9', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19994', '昭苏县', '16012.8', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19993', '新源县', '16012.7', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19992', '巩留县', '16012.6', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19991', '霍城县', '16012.5', 'area', '16013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19990', '察布查尔锡伯自治县', '16012.4', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19989', '伊宁县', '16012.3', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19988', '奎屯市', '16012.2', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19987', '伊宁市', '16012.1', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19986', '伊犁哈萨克自治州', '16012', 'area', '16012', '1');
+INSERT INTO `web_cascadedata` VALUES ('19985', '民丰县', '16011.8', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19984', '于田县', '16011.7', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19983', '策勒县', '16011.6', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19982', '洛浦县', '16011.5', 'area', '16012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19981', '皮山县', '16011.4', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19980', '墨玉县', '16011.3', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19979', '和田县', '16011.2', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19978', '和田市', '16011.1', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19977', '和田地区', '16011', 'area', '16011', '1');
+INSERT INTO `web_cascadedata` VALUES ('19976', '塔什库尔干塔吉克自治县', '16010.12', 'area', '16010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19975', '巴楚县', '16010.11', 'area', '16010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19974', '伽师县', '16010.10', 'area', '16010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19973', '岳普湖县', '16010.9', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19972', '麦盖提县', '16010.8', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19971', '叶城县', '16010.7', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19970', '莎车县', '16010.6', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19969', '泽普县', '16010.5', 'area', '16011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19968', '英吉沙县', '16010.4', 'area', '16010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19967', '疏勒县', '16010.3', 'area', '16010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19966', '疏附县', '16010.2', 'area', '16010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19965', '喀什市', '16010.1', 'area', '16010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19964', '喀什地区', '16010', 'area', '16010', '1');
+INSERT INTO `web_cascadedata` VALUES ('19963', '乌恰县', '16009.4', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19962', '阿合奇县', '16009.3', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19961', '阿克陶县', '16009.2', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19960', '阿图什市', '16009.1', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19959', '克孜勒苏柯尔克孜自治州', '16009', 'area', '16009', '1');
+INSERT INTO `web_cascadedata` VALUES ('19958', '柯坪县', '16008.9', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19957', '阿瓦提县', '16008.8', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19956', '乌什县', '16008.7', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19955', '拜城县', '16008.6', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19954', '新和县', '16008.5', 'area', '16009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19953', '沙雅县', '16008.4', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19952', '库车县', '16008.3', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19951', '温宿县', '16008.2', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19950', '阿克苏市', '16008.1', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19949', '阿克苏地区', '16008', 'area', '16008', '1');
+INSERT INTO `web_cascadedata` VALUES ('19948', '博湖县', '16007.9', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19947', '和硕县', '16007.8', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19946', '和静县', '16007.7', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19945', '焉耆回族自治县', '16007.6', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19944', '且末县', '16007.5', 'area', '16008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19943', '若羌县', '16007.4', 'area', '16007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19942', '尉犁县', '16007.3', 'area', '16007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19941', '轮台县', '16007.2', 'area', '16007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19940', '库尔勒市', '16007.1', 'area', '16007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19939', '巴音郭楞蒙古自治州', '16007', 'area', '16007', '1');
+INSERT INTO `web_cascadedata` VALUES ('19938', '温泉县', '16006.3', 'area', '16006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19937', '精河县', '16006.2', 'area', '16006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19936', '博乐市', '16006.1', 'area', '16006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19935', '博尔塔拉蒙古自治州', '16006', 'area', '16006', '1');
+INSERT INTO `web_cascadedata` VALUES ('19934', '木垒哈萨克自治县', '16005.8', 'area', '16006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19933', '吉木萨尔县', '16005.7', 'area', '16006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19932', '奇台县', '16005.6', 'area', '16006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19931', '玛纳斯县', '16005.5', 'area', '16006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19930', '呼图壁县', '16005.4', 'area', '16005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19929', '米泉市', '16005.3', 'area', '16005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19928', '阜康市', '16005.2', 'area', '16005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19927', '昌吉市', '16005.1', 'area', '16005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19926', '昌吉回族自治州', '16005', 'area', '16005', '1');
+INSERT INTO `web_cascadedata` VALUES ('19925', '伊吾县', '16004.3', 'area', '16004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19924', '巴里坤哈萨克自治县', '16004.2', 'area', '16004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19923', '哈密市', '16004.1', 'area', '16004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19922', '哈密地区', '16004', 'area', '16004', '1');
+INSERT INTO `web_cascadedata` VALUES ('19921', '托克逊县', '16003.3', 'area', '16003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19920', '鄯善县', '16003.2', 'area', '16003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19919', '吐鲁番市', '16003.1', 'area', '16003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19918', '吐鲁番地区', '16003', 'area', '16003', '1');
+INSERT INTO `web_cascadedata` VALUES ('19917', '乌尔禾区', '16002.4', 'area', '16002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19916', '白碱滩区', '16002.3', 'area', '16002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19915', '克拉玛依区', '16002.2', 'area', '16002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19914', '独山子区', '16002.1', 'area', '16002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19913', '克拉玛依市', '16002', 'area', '16002', '1');
+INSERT INTO `web_cascadedata` VALUES ('19912', '乌鲁木齐县', '16001.8', 'area', '16002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19911', '东山区', '16001.7', 'area', '16002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19910', '达坂城区', '16001.6', 'area', '16002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19909', '头屯河区', '16001.5', 'area', '16002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19908', '水磨沟区', '16001.4', 'area', '16001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19907', '新市区', '16001.3', 'area', '16001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19906', '沙依巴克区', '16001.2', 'area', '16001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19905', '天山区', '16001.1', 'area', '16001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19904', '乌鲁木齐市', '16001', 'area', '16001', '1');
+INSERT INTO `web_cascadedata` VALUES ('19903', '新疆维吾尔自治区', '16000', 'area', '16000', '0');
+INSERT INTO `web_cascadedata` VALUES ('19902', '海原县', '15505.3', 'area', '15505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19901', '中宁县', '15505.2', 'area', '15505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19900', '沙坡头区', '15505.1', 'area', '15505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19899', '中卫市', '15505', 'area', '15505', '1');
+INSERT INTO `web_cascadedata` VALUES ('19898', '彭阳县', '15504.5', 'area', '15505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19897', '泾源县', '15504.4', 'area', '15504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19896', '隆德县', '15504.3', 'area', '15504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19895', '西吉县', '15504.2', 'area', '15504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19894', '原州区', '15504.1', 'area', '15504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19893', '固原市', '15504', 'area', '15504', '1');
+INSERT INTO `web_cascadedata` VALUES ('19892', '青铜峡市', '15503.4', 'area', '15503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19891', '同心县', '15503.3', 'area', '15503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19890', '盐池县', '15503.2', 'area', '15503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19889', '利通区', '15503.1', 'area', '15503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19888', '吴忠市', '15503', 'area', '15503', '1');
+INSERT INTO `web_cascadedata` VALUES ('19887', '平罗县', '15502.3', 'area', '15502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19886', '惠农区', '15502.2', 'area', '15502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19885', '大武口区', '15502.1', 'area', '15502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19884', '石嘴山市', '15502', 'area', '15502', '1');
+INSERT INTO `web_cascadedata` VALUES ('19883', '灵武市', '15501.6', 'area', '15502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19882', '贺兰县', '15501.5', 'area', '15502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19881', '永宁县', '15501.4', 'area', '15501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19880', '金凤区', '15501.3', 'area', '15501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19879', '西夏区', '15501.2', 'area', '15501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19878', '兴庆区', '15501.1', 'area', '15501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19877', '银川市', '15501', 'area', '15501', '1');
+INSERT INTO `web_cascadedata` VALUES ('19876', '宁夏回族自治区', '15500', 'area', '15500', '0');
+INSERT INTO `web_cascadedata` VALUES ('19875', '天峻县', '15008.5', 'area', '15009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19874', '都兰县', '15008.4', 'area', '15008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19873', '乌兰县', '15008.3', 'area', '15008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19872', '德令哈市', '15008.2', 'area', '15008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19871', '格尔木市', '15008.1', 'area', '15008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19870', '海西蒙古族藏族自治州', '15008', 'area', '15008', '1');
+INSERT INTO `web_cascadedata` VALUES ('19869', '曲麻莱县', '15007.6', 'area', '15008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19868', '囊谦县', '15007.5', 'area', '15008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19867', '治多县', '15007.4', 'area', '15007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19866', '称多县', '15007.3', 'area', '15007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19865', '杂多县', '15007.2', 'area', '15007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19864', '玉树县', '15007.1', 'area', '15007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19863', '玉树藏族自治州', '15007', 'area', '15007', '1');
+INSERT INTO `web_cascadedata` VALUES ('19862', '玛多县', '15006.6', 'area', '15007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19861', '久治县', '15006.5', 'area', '15007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19860', '达日县', '15006.4', 'area', '15006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19859', '甘德县', '15006.3', 'area', '15006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19858', '班玛县', '15006.2', 'area', '15006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19857', '玛沁县', '15006.1', 'area', '15006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19856', '果洛藏族自治州', '15006', 'area', '15006', '1');
+INSERT INTO `web_cascadedata` VALUES ('19855', '贵南县', '15005.5', 'area', '15006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19854', '兴海县', '15005.4', 'area', '15005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19853', '贵德县', '15005.3', 'area', '15005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19852', '同德县', '15005.2', 'area', '15005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19851', '共和县', '15005.1', 'area', '15005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19850', '海南藏族自治州', '15005', 'area', '15005', '1');
+INSERT INTO `web_cascadedata` VALUES ('19849', '河南蒙古族自治县', '15004.4', 'area', '15004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19848', '泽库县', '15004.3', 'area', '15004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19847', '尖扎县', '15004.2', 'area', '15004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19846', '同仁县', '15004.1', 'area', '15004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19845', '黄南藏族自治州', '15004', 'area', '15004', '1');
+INSERT INTO `web_cascadedata` VALUES ('19844', '刚察县', '15003.4', 'area', '15003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19843', '海晏县', '15003.3', 'area', '15003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19842', '祁连县', '15003.2', 'area', '15003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19841', '门源回族自治县', '15003.1', 'area', '15003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19840', '海北藏族自治州', '15003', 'area', '15003', '1');
+INSERT INTO `web_cascadedata` VALUES ('19839', '循化撒拉族自治县', '15002.6', 'area', '15003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19838', '化隆回族自治县', '15002.5', 'area', '15003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19837', '互助土族自治县', '15002.4', 'area', '15002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19836', '乐都县', '15002.3', 'area', '15002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19835', '民和回族土族自治县', '15002.2', 'area', '15002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19834', '平安县', '15002.1', 'area', '15002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19833', '海东地区', '15002', 'area', '15002', '1');
+INSERT INTO `web_cascadedata` VALUES ('19832', '湟源县', '15001.7', 'area', '15002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19831', '湟中县', '15001.6', 'area', '15002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19830', '大通回族土族自治县', '15001.5', 'area', '15002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19829', '城北区', '15001.4', 'area', '15001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19828', '城西区', '15001.3', 'area', '15001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19827', '城中区', '15001.2', 'area', '15001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19826', '城东区', '15001.1', 'area', '15001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19825', '西宁市', '15001', 'area', '15001', '1');
+INSERT INTO `web_cascadedata` VALUES ('19824', '青海省', '15000', 'area', '15000', '0');
+INSERT INTO `web_cascadedata` VALUES ('19823', '夏河县', '14514.8', 'area', '14515', '2');
+INSERT INTO `web_cascadedata` VALUES ('19822', '碌曲县', '14514.7', 'area', '14515', '2');
+INSERT INTO `web_cascadedata` VALUES ('19821', '玛曲县', '14514.6', 'area', '14515', '2');
+INSERT INTO `web_cascadedata` VALUES ('19820', '迭部县', '14514.5', 'area', '14515', '2');
+INSERT INTO `web_cascadedata` VALUES ('19819', '舟曲县', '14514.4', 'area', '14514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19818', '卓尼县', '14514.3', 'area', '14514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19817', '临潭县', '14514.2', 'area', '14514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19816', '合作市', '14514.1', 'area', '14514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19815', '甘南藏族自治州', '14514', 'area', '14514', '1');
+INSERT INTO `web_cascadedata` VALUES ('19814', '积石山保安族东乡族撒拉族自治县', '14513.8', 'area', '14514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19813', '东乡族自治县', '14513.7', 'area', '14514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19812', '和政县', '14513.6', 'area', '14514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19811', '广河县', '14513.5', 'area', '14514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19810', '永靖县', '14513.4', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19809', '康乐县', '14513.3', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19808', '临夏县', '14513.2', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19807', '临夏市', '14513.1', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19806', '临夏回族自治州', '14513', 'area', '14513', '1');
+INSERT INTO `web_cascadedata` VALUES ('19805', '两当县', '14512.9', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19804', '徽　县', '14512.8', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19803', '礼　县', '14512.7', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19802', '西和县', '14512.6', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19801', '康　县', '14512.5', 'area', '14513', '2');
+INSERT INTO `web_cascadedata` VALUES ('19800', '宕昌县', '14512.4', 'area', '14512', '2');
+INSERT INTO `web_cascadedata` VALUES ('19799', '文　县', '14512.3', 'area', '14512', '2');
+INSERT INTO `web_cascadedata` VALUES ('19798', '成　县', '14512.2', 'area', '14512', '2');
+INSERT INTO `web_cascadedata` VALUES ('19797', '武都区', '14512.1', 'area', '14512', '2');
+INSERT INTO `web_cascadedata` VALUES ('19796', '陇南市', '14512', 'area', '14512', '1');
+INSERT INTO `web_cascadedata` VALUES ('19795', '岷　县', '14511.7', 'area', '14512', '2');
+INSERT INTO `web_cascadedata` VALUES ('19794', '漳　县', '14511.6', 'area', '14512', '2');
+INSERT INTO `web_cascadedata` VALUES ('19793', '临洮县', '14511.5', 'area', '14512', '2');
+INSERT INTO `web_cascadedata` VALUES ('19792', '渭源县', '14511.4', 'area', '14511', '2');
+INSERT INTO `web_cascadedata` VALUES ('19791', '陇西县', '14511.3', 'area', '14511', '2');
+INSERT INTO `web_cascadedata` VALUES ('19790', '通渭县', '14511.2', 'area', '14511', '2');
+INSERT INTO `web_cascadedata` VALUES ('19789', '安定区', '14511.1', 'area', '14511', '2');
+INSERT INTO `web_cascadedata` VALUES ('19788', '定西市', '14511', 'area', '14511', '1');
+INSERT INTO `web_cascadedata` VALUES ('19787', '镇原县', '14510.8', 'area', '14511', '2');
+INSERT INTO `web_cascadedata` VALUES ('19786', '宁　县', '14510.7', 'area', '14511', '2');
+INSERT INTO `web_cascadedata` VALUES ('19785', '正宁县', '14510.6', 'area', '14511', '2');
+INSERT INTO `web_cascadedata` VALUES ('19784', '合水县', '14510.5', 'area', '14511', '2');
+INSERT INTO `web_cascadedata` VALUES ('19783', '华池县', '14510.4', 'area', '14510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19782', '环　县', '14510.3', 'area', '14510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19781', '庆城县', '14510.2', 'area', '14510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19780', '西峰区', '14510.1', 'area', '14510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19779', '庆阳市', '14510', 'area', '14510', '1');
+INSERT INTO `web_cascadedata` VALUES ('19778', '敦煌市', '14509.7', 'area', '14510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19777', '玉门市', '14509.6', 'area', '14510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19776', '阿克塞哈萨克族自治县', '14509.5', 'area', '14510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19775', '肃北蒙古族自治县', '14509.4', 'area', '14509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19774', '安西县', '14509.3', 'area', '14509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19773', '金塔县', '14509.2', 'area', '14509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19772', '肃州区', '14509.1', 'area', '14509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19771', '酒泉市', '14509', 'area', '14509', '1');
+INSERT INTO `web_cascadedata` VALUES ('19770', '静宁县', '14508.7', 'area', '14509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19769', '庄浪县', '14508.6', 'area', '14509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19768', '华亭县', '14508.5', 'area', '14509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19767', '崇信县', '14508.4', 'area', '14508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19766', '灵台县', '14508.3', 'area', '14508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19765', '泾川县', '14508.2', 'area', '14508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19764', '崆峒区', '14508.1', 'area', '14508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19763', '平凉市', '14508', 'area', '14508', '1');
+INSERT INTO `web_cascadedata` VALUES ('19762', '山丹县', '14507.6', 'area', '14508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19761', '高台县', '14507.5', 'area', '14508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19760', '临泽县', '14507.4', 'area', '14507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19759', '民乐县', '14507.3', 'area', '14507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19758', '肃南裕固族自治县', '14507.2', 'area', '14507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19757', '甘州区', '14507.1', 'area', '14507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19756', '张掖市', '14507', 'area', '14507', '1');
+INSERT INTO `web_cascadedata` VALUES ('19755', '天祝藏族自治县', '14506.4', 'area', '14506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19754', '古浪县', '14506.3', 'area', '14506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19753', '民勤县', '14506.2', 'area', '14506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19752', '凉州区', '14506.1', 'area', '14506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19751', '武威市', '14506', 'area', '14506', '1');
+INSERT INTO `web_cascadedata` VALUES ('19750', '张家川回族自治县', '14505.7', 'area', '14506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19749', '武山县', '14505.6', 'area', '14506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19748', '甘谷县', '14505.5', 'area', '14506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19747', '秦安县', '14505.4', 'area', '14505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19746', '清水县', '14505.3', 'area', '14505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19745', '北道区', '14505.2', 'area', '14505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19744', '秦城区', '14505.1', 'area', '14505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19743', '天水市', '14505', 'area', '14505', '1');
+INSERT INTO `web_cascadedata` VALUES ('19742', '景泰县', '14504.5', 'area', '14505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19741', '会宁县', '14504.4', 'area', '14504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19740', '靖远县', '14504.3', 'area', '14504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19739', '平川区', '14504.2', 'area', '14504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19738', '白银区', '14504.1', 'area', '14504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19737', '白银市', '14504', 'area', '14504', '1');
+INSERT INTO `web_cascadedata` VALUES ('19736', '永昌县', '14503.2', 'area', '14503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19735', '金川区', '14503.1', 'area', '14503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19734', '金昌市', '14503', 'area', '14503', '1');
+INSERT INTO `web_cascadedata` VALUES ('19733', '嘉峪关市', '14502', 'area', '14502', '1');
+INSERT INTO `web_cascadedata` VALUES ('19732', '榆中县', '14501.8', 'area', '14502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19731', '皋兰县', '14501.7', 'area', '14502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19730', '永登县', '14501.6', 'area', '14502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19729', '红古区', '14501.5', 'area', '14502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19728', '安宁区', '14501.4', 'area', '14501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19727', '西固区', '14501.3', 'area', '14501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19726', '七里河区', '14501.2', 'area', '14501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19725', '城关区', '14501.1', 'area', '14501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19724', '兰州市', '14501', 'area', '14501', '1');
+INSERT INTO `web_cascadedata` VALUES ('19723', '甘肃省', '14500', 'area', '14500', '0');
+INSERT INTO `web_cascadedata` VALUES ('19722', '柞水县', '14010.7', 'area', '14011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19721', '镇安县', '14010.6', 'area', '14011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19720', '山阳县', '14010.5', 'area', '14011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19719', '商南县', '14010.4', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19718', '丹凤县', '14010.3', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19717', '洛南县', '14010.2', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19716', '商州区', '14010.1', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19715', '商洛市', '14010', 'area', '14010', '1');
+INSERT INTO `web_cascadedata` VALUES ('19714', '白河县', '14009.10', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19713', '旬阳县', '14009.9', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19712', '镇坪县', '14009.8', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19711', '平利县', '14009.7', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19710', '岚皋县', '14009.6', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19709', '紫阳县', '14009.5', 'area', '14010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19708', '宁陕县', '14009.4', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19707', '石泉县', '14009.3', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19706', '汉阴县', '14009.2', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19705', '汉滨区', '14009.1', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19704', '安康市', '14009', 'area', '14009', '1');
+INSERT INTO `web_cascadedata` VALUES ('19703', '子洲县', '14008.12', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19702', '清涧县', '14008.11', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19701', '吴堡县', '14008.10', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19700', '佳　县', '14008.9', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19699', '米脂县', '14008.8', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19698', '绥德县', '14008.7', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19697', '定边县', '14008.6', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19696', '靖边县', '14008.5', 'area', '14009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19695', '横山县', '14008.4', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19694', '府谷县', '14008.3', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19693', '神木县', '14008.2', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19692', '榆阳区', '14008.1', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19691', '榆林市', '14008', 'area', '14008', '1');
+INSERT INTO `web_cascadedata` VALUES ('19690', '佛坪县', '14007.11', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19689', '留坝县', '14007.10', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19688', '镇巴县', '14007.9', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19687', '略阳县', '14007.8', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19686', '宁强县', '14007.7', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19685', '勉　县', '14007.6', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19684', '西乡县', '14007.5', 'area', '14008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19683', '洋　县', '14007.4', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19682', '城固县', '14007.3', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19681', '南郑县', '14007.2', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19680', '汉台区', '14007.1', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19679', '汉中市', '14007', 'area', '14007', '1');
+INSERT INTO `web_cascadedata` VALUES ('19678', '黄陵县', '14006.13', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19677', '黄龙县', '14006.12', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19676', '宜川县', '14006.11', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19675', '洛川县', '14006.10', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19674', '富　县', '14006.9', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19673', '甘泉县', '14006.8', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19672', '吴旗县', '14006.7', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19671', '志丹县', '14006.6', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19670', '安塞县', '14006.5', 'area', '14007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19669', '子长县', '14006.4', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19668', '延川县', '14006.3', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19667', '延长县', '14006.2', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19666', '宝塔区', '14006.1', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19665', '延安市', '14006', 'area', '14006', '1');
+INSERT INTO `web_cascadedata` VALUES ('19664', '华阴市', '14005.11', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19663', '韩城市', '14005.10', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19662', '富平县', '14005.9', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19661', '白水县', '14005.8', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19660', '蒲城县', '14005.7', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19659', '澄城县', '14005.6', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19658', '合阳县', '14005.5', 'area', '14006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19657', '大荔县', '14005.4', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19656', '潼关县', '14005.3', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19655', '华　县', '14005.2', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19654', '临渭区', '14005.1', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19653', '渭南市', '14005', 'area', '14005', '1');
+INSERT INTO `web_cascadedata` VALUES ('19652', '兴平市', '14004.14', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19651', '武功县', '14004.13', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19650', '淳化县', '14004.12', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19649', '旬邑县', '14004.11', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19648', '长武县', '14004.10', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19647', '彬　县', '14004.9', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19646', '永寿县', '14004.8', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19645', '礼泉县', '14004.7', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19644', '乾　县', '14004.6', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19643', '泾阳县', '14004.5', 'area', '14005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19642', '三原县', '14004.4', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19641', '渭城区', '14004.3', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19640', '杨凌区', '14004.2', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19639', '秦都区', '14004.1', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19638', '咸阳市', '14004', 'area', '14004', '1');
+INSERT INTO `web_cascadedata` VALUES ('19637', '太白县', '14003.12', 'area', '14003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19636', '凤　县', '14003.11', 'area', '14003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19635', '麟游县', '14003.10', 'area', '14003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19634', '千阳县', '14003.9', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19633', '陇　县', '14003.8', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19632', '眉　县', '14003.7', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19631', '扶风县', '14003.6', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19630', '岐山县', '14003.5', 'area', '14004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19629', '凤翔县', '14003.4', 'area', '14003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19628', '陈仓区', '14003.3', 'area', '14003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19627', '金台区', '14003.2', 'area', '14003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19626', '滨区', '14003.1', 'area', '14003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19625', '宝鸡市', '14003', 'area', '14003', '1');
+INSERT INTO `web_cascadedata` VALUES ('19624', '宜君县', '14002.4', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19623', '耀州区', '14002.3', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19622', '印台区', '14002.2', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19621', '王益区', '14002.1', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19620', '铜川市', '14002', 'area', '14002', '1');
+INSERT INTO `web_cascadedata` VALUES ('19619', '高陵县', '14001.13', 'area', '14001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19618', '户　县', '14001.12', 'area', '14001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19617', '周至县', '14001.11', 'area', '14001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19616', '蓝田县', '14001.10', 'area', '14001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19615', '长安区', '14001.9', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19614', '临潼区', '14001.8', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19613', '阎良区', '14001.7', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19612', '雁塔区', '14001.6', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19611', '未央区', '14001.5', 'area', '14002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19610', '灞桥区', '14001.4', 'area', '14001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19609', '莲湖区', '14001.3', 'area', '14001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19608', '碑林区', '14001.2', 'area', '14001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19607', '新城区', '14001.1', 'area', '14001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19606', '西安市', '14001', 'area', '14001', '1');
+INSERT INTO `web_cascadedata` VALUES ('19605', '陕西省', '14000', 'area', '14000', '0');
+INSERT INTO `web_cascadedata` VALUES ('19604', '朗　县', '13507.7', 'area', '13508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19603', '察隅县', '13507.6', 'area', '13508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19602', '波密县', '13507.5', 'area', '13508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19601', '墨脱县', '13507.4', 'area', '13507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19600', '米林县', '13507.3', 'area', '13507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19599', '工布江达县', '13507.2', 'area', '13507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19598', '林芝县', '13507.1', 'area', '13507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19597', '林芝地区', '13507', 'area', '13507', '1');
+INSERT INTO `web_cascadedata` VALUES ('19596', '措勤县', '13506.7', 'area', '13507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19595', '改则县', '13506.6', 'area', '13507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19594', '革吉县', '13506.5', 'area', '13507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19593', '日土县', '13506.4', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19592', '噶尔县', '13506.3', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19591', '札达县', '13506.2', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19590', '普兰县', '13506.1', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19589', '阿里地区', '13506', 'area', '13506', '1');
+INSERT INTO `web_cascadedata` VALUES ('19588', '尼玛县', '13505.10', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19587', '巴青县', '13505.9', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19586', '班戈县', '13505.8', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19585', '索　县', '13505.7', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19584', '申扎县', '13505.6', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19583', '安多县', '13505.5', 'area', '13506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19582', '聂荣县', '13505.4', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19581', '比如县', '13505.3', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19580', '嘉黎县', '13505.2', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19579', '那曲县', '13505.1', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19578', '那曲地区', '13505', 'area', '13505', '1');
+INSERT INTO `web_cascadedata` VALUES ('19577', '岗巴县', '13504.18', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19576', '萨嘎县', '13504.17', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19575', '聂拉木县', '13504.16', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19574', '吉隆县', '13504.15', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19573', '亚东县', '13504.14', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19572', '仲巴县', '13504.13', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19571', '定结县', '13504.12', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19570', '康马县', '13504.11', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19569', '仁布县', '13504.10', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19568', '白朗县', '13504.9', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19567', '谢通门县', '13504.8', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19566', '昂仁县', '13504.7', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19565', '拉孜县', '13504.6', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19564', '萨迦县', '13504.5', 'area', '13505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19563', '定日县', '13504.4', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19562', '江孜县', '13504.3', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19561', '南木林县', '13504.2', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19560', '日喀则市', '13504.1', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19559', '日喀则地区', '13504', 'area', '13504', '1');
+INSERT INTO `web_cascadedata` VALUES ('19558', '浪卡子县', '13503.12', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19557', '错那县', '13503.11', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19556', '隆子县', '13503.10', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19555', '加查县', '13503.9', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19554', '洛扎县', '13503.8', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19553', '措美县', '13503.7', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19552', '曲松县', '13503.6', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19551', '琼结县', '13503.5', 'area', '13504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19550', '桑日县', '13503.4', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19549', '贡嘎县', '13503.3', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19548', '扎囊县', '13503.2', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19547', '乃东县', '13503.1', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19546', '山南地区', '13503', 'area', '13503', '1');
+INSERT INTO `web_cascadedata` VALUES ('19545', '边坝县', '13502.11', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19544', '洛隆县', '13502.10', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19543', '芒康县', '13502.9', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19542', '左贡县', '13502.8', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19541', '八宿县', '13502.7', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19540', '察雅县', '13502.6', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19539', '丁青县', '13502.5', 'area', '13503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19538', '类乌齐县', '13502.4', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19537', '贡觉县', '13502.3', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19536', '江达县', '13502.2', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19535', '昌都县', '13502.1', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19534', '昌都地区', '13502', 'area', '13502', '1');
+INSERT INTO `web_cascadedata` VALUES ('19533', '墨竹工卡县', '13501.8', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19532', '达孜县', '13501.7', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19531', '堆龙德庆县', '13501.6', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19530', '曲水县', '13501.5', 'area', '13502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19529', '尼木县', '13501.4', 'area', '13501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19528', '当雄县', '13501.3', 'area', '13501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19527', '林周县', '13501.2', 'area', '13501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19526', '城关区', '13501.1', 'area', '13501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19525', '拉萨市', '13501', 'area', '13501', '1');
+INSERT INTO `web_cascadedata` VALUES ('19524', '西藏自治区', '13500', 'area', '13500', '0');
+INSERT INTO `web_cascadedata` VALUES ('19523', '维西傈僳族自治县', '13016.3', 'area', '13016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19522', '德钦县', '13016.2', 'area', '13016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19521', '香格里拉县', '13016.1', 'area', '13016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19520', '迪庆藏族自治州', '13016', 'area', '13016', '1');
+INSERT INTO `web_cascadedata` VALUES ('19519', '兰坪白族普米族自治县', '13015.4', 'area', '13015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19518', '贡山独龙族怒族自治县', '13015.3', 'area', '13015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19517', '福贡县', '13015.2', 'area', '13015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19516', '泸水县', '13015.1', 'area', '13015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19515', '怒江傈僳族自治州', '13015', 'area', '13015', '1');
+INSERT INTO `web_cascadedata` VALUES ('19514', '陇川县', '13014.5', 'area', '13015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19513', '盈江县', '13014.4', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19512', '梁河县', '13014.3', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19511', '潞西市', '13014.2', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19510', '瑞丽市', '13014.1', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19509', '德宏傣族景颇族自治州', '13014', 'area', '13014', '1');
+INSERT INTO `web_cascadedata` VALUES ('19508', '鹤庆县', '13013.12', 'area', '13013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19507', '剑川县', '13013.11', 'area', '13013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19506', '洱源县', '13013.10', 'area', '13013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19505', '云龙县', '13013.9', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19504', '永平县', '13013.8', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19503', '巍山彝族回族自治县', '13013.7', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19502', '南涧彝族自治县', '13013.6', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19501', '弥渡县', '13013.5', 'area', '13014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19500', '宾川县', '13013.4', 'area', '13013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19499', '祥云县', '13013.3', 'area', '13013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19498', '漾濞彝族自治县', '13013.2', 'area', '13013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19497', '大理市', '13013.1', 'area', '13013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19496', '大理白族自治州', '13013', 'area', '13013', '1');
+INSERT INTO `web_cascadedata` VALUES ('19495', '勐腊县', '13012.3', 'area', '13012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19494', '勐海县', '13012.2', 'area', '13012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19493', '景洪市', '13012.1', 'area', '13012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19492', '西双版纳傣族自治州', '13012', 'area', '13012', '1');
+INSERT INTO `web_cascadedata` VALUES ('19491', '富宁县', '13011.8', 'area', '13012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19490', '广南县', '13011.7', 'area', '13012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19489', '丘北县', '13011.6', 'area', '13012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19488', '马关县', '13011.5', 'area', '13012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19487', '麻栗坡县', '13011.4', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19486', '西畴县', '13011.3', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19485', '砚山县', '13011.2', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19484', '文山县', '13011.1', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19483', '文山壮族苗族自治州', '13011', 'area', '13011', '1');
+INSERT INTO `web_cascadedata` VALUES ('19482', '河口瑶族自治县', '13010.12', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19481', '绿春县', '13010.11', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19480', '金平苗族瑶族傣族自治县', '13010.10', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19479', '元阳县', '13010.9', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19478', '泸西县', '13010.8', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19477', '弥勒县', '13010.7', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19476', '石屏县', '13010.6', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19475', '建水县', '13010.5', 'area', '13011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19474', '屏边苗族自治县', '13010.4', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19473', '蒙自县', '13010.3', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19472', '开远市', '13010.2', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19471', '个旧市', '13010.1', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19470', '红河哈尼族彝族自治州', '13010', 'area', '13010', '1');
+INSERT INTO `web_cascadedata` VALUES ('19469', '禄丰县', '13009.10', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19468', '武定县', '13009.9', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19467', '元谋县', '13009.8', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19466', '永仁县', '13009.7', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19465', '大姚县', '13009.6', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19464', '姚安县', '13009.5', 'area', '13010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19463', '南华县', '13009.4', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19462', '牟定县', '13009.3', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19461', '双柏县', '13009.2', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19460', '楚雄市', '13009.1', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19459', '楚雄彝族自治州', '13009', 'area', '13009', '1');
+INSERT INTO `web_cascadedata` VALUES ('19458', '沧源佤族自治县', '13008.8', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19457', '耿马傣族佤族自治县', '13008.7', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19456', '双江拉祜族佤族布朗族傣族自治县', '13008.6', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19455', '镇康县', '13008.5', 'area', '13009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19454', '永德县', '13008.4', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19453', '云　县', '13008.3', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19452', '凤庆县', '13008.2', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19451', '临翔区', '13008.1', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19450', '临沧市', '13008', 'area', '13008', '1');
+INSERT INTO `web_cascadedata` VALUES ('19449', '西盟佤族自治县', '13007.10', 'area', '13007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19448', '澜沧拉祜族自治县', '13007.9', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19447', '孟连傣族拉祜族佤族自治县', '13007.8', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19446', '江城哈尼族彝族自治县', '13007.7', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19445', '镇沅彝族哈尼族拉祜族自治县', '13007.6', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19444', '景谷傣族彝族自治县', '13007.5', 'area', '13008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19443', '景东彝族自治县', '13007.4', 'area', '13007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19442', '墨江哈尼族自治县', '13007.3', 'area', '13007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19441', '普洱哈尼族彝族自治县', '13007.2', 'area', '13007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19440', '翠云区', '13007.1', 'area', '13007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19439', '思茅市', '13007', 'area', '13007', '1');
+INSERT INTO `web_cascadedata` VALUES ('19438', '宁蒗彝族自治县', '13006.5', 'area', '13007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19437', '华坪县', '13006.4', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19436', '永胜县', '13006.3', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19435', '玉龙纳西族自治县', '13006.2', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19434', '古城区', '13006.1', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19433', '丽江市', '13006', 'area', '13006', '1');
+INSERT INTO `web_cascadedata` VALUES ('19432', '水富县', '13005.11', 'area', '13005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19431', '威信县', '13005.10', 'area', '13005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19430', '彝良县', '13005.9', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19429', '镇雄县', '13005.8', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19428', '绥江县', '13005.7', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19427', '永善县', '13005.6', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19426', '大关县', '13005.5', 'area', '13006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19425', '盐津县', '13005.4', 'area', '13005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19424', '巧家县', '13005.3', 'area', '13005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19423', '鲁甸县', '13005.2', 'area', '13005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19422', '昭阳区', '13005.1', 'area', '13005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19421', '昭通市', '13005', 'area', '13005', '1');
+INSERT INTO `web_cascadedata` VALUES ('19420', '昌宁县', '13004.5', 'area', '13005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19419', '龙陵县', '13004.4', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19418', '腾冲县', '13004.3', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19417', '施甸县', '13004.2', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19416', '隆阳区', '13004.1', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19415', '保山市', '13004', 'area', '13004', '1');
+INSERT INTO `web_cascadedata` VALUES ('19414', '元江哈尼族彝族傣族自治县', '13003.9', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19413', '新平彝族傣族自治县', '13003.8', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19412', '峨山彝族自治县', '13003.7', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19411', '易门县', '13003.6', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19410', '华宁县', '13003.5', 'area', '13004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19409', '通海县', '13003.4', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19408', '澄江县', '13003.3', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19407', '江川县', '13003.2', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19406', '红塔区', '13003.1', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19405', '玉溪市', '13003', 'area', '13003', '1');
+INSERT INTO `web_cascadedata` VALUES ('19404', '宣威市', '13002.9', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19403', '沾益县', '13002.8', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19402', '会泽县', '13002.7', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19401', '富源县', '13002.6', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19400', '罗平县', '13002.5', 'area', '13003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19399', '师宗县', '13002.4', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19398', '陆良县', '13002.3', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19397', '马龙县', '13002.2', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19396', '麒麟区', '13002.1', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19395', '曲靖市', '13002', 'area', '13002', '1');
+INSERT INTO `web_cascadedata` VALUES ('19394', '安宁市', '13001.14', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19393', '寻甸回族彝族自治县', '13001.13', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19392', '禄劝彝族苗族自治县', '13001.12', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19391', '嵩明县', '13001.11', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19390', '石林彝族自治县', '13001.10', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19389', '宜良县', '13001.9', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19388', '富民县', '13001.8', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19387', '晋宁县', '13001.7', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19386', '呈贡县', '13001.6', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19385', '东川区', '13001.5', 'area', '13002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19384', '西山区', '13001.4', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19383', '官渡区', '13001.3', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19382', '盘龙区', '13001.2', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19381', '五华区', '13001.1', 'area', '13001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19380', '昆明市', '13001', 'area', '13001', '1');
+INSERT INTO `web_cascadedata` VALUES ('19379', '云南省', '13000', 'area', '13000', '0');
+INSERT INTO `web_cascadedata` VALUES ('19378', '三都水族自治县', '12509.12', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19377', '惠水县', '12509.11', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19376', '龙里县', '12509.10', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19375', '长顺县', '12509.9', 'area', '12510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19374', '罗甸县', '12509.8', 'area', '12510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19373', '平塘县', '12509.7', 'area', '12510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19372', '独山县', '12509.6', 'area', '12510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19371', '瓮安县', '12509.5', 'area', '12510', '2');
+INSERT INTO `web_cascadedata` VALUES ('19370', '贵定县', '12509.4', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19369', '荔波县', '12509.3', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19368', '福泉市', '12509.2', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19367', '都匀市', '12509.1', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19366', '黔南布依族苗族自治州', '12509', 'area', '12509', '1');
+INSERT INTO `web_cascadedata` VALUES ('19365', '麻江县', '12508.15', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19364', '雷山县', '12508.14', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19363', '从江县', '12508.13', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19362', '榕江县', '12508.12', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19361', '黎平县', '12508.11', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19360', '台江县', '12508.10', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19359', '剑河县', '12508.9', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19358', '锦屏县', '12508.8', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19357', '天柱县', '12508.7', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19356', '岑巩县', '12508.6', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19355', '镇远县', '12508.5', 'area', '12509', '2');
+INSERT INTO `web_cascadedata` VALUES ('19354', '三穗县', '12508.4', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19353', '施秉县', '12508.3', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19352', '黄平县', '12508.2', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19351', '凯里市', '12508.1', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19350', '黔东南苗族侗族自治州', '12508', 'area', '12508', '1');
+INSERT INTO `web_cascadedata` VALUES ('19349', '赫章县', '12507.8', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19348', '威宁彝族回族苗族自治县', '12507.7', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19347', '纳雍县', '12507.6', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19346', '织金县', '12507.5', 'area', '12508', '2');
+INSERT INTO `web_cascadedata` VALUES ('19345', '金沙县', '12507.4', 'area', '12507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19344', '黔西县', '12507.3', 'area', '12507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19343', '大方县', '12507.2', 'area', '12507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19342', '毕节市', '12507.1', 'area', '12507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19341', '毕节地区', '12507', 'area', '12507', '1');
+INSERT INTO `web_cascadedata` VALUES ('19340', '安龙县', '12506.8', 'area', '12507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19339', '册亨县', '12506.7', 'area', '12507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19338', '望谟县', '12506.6', 'area', '12507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19337', '贞丰县', '12506.5', 'area', '12507', '2');
+INSERT INTO `web_cascadedata` VALUES ('19336', '晴隆县', '12506.4', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19335', '普安县', '12506.3', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19334', '兴仁县', '12506.2', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19333', '兴义市', '12506.1', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19332', '黔西南布依族苗族自治州', '12506', 'area', '12506', '1');
+INSERT INTO `web_cascadedata` VALUES ('19331', '万山特区', '12505.10', 'area', '12505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19330', '松桃苗族自治县', '12505.9', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19329', '沿河土家族自治县', '12505.8', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19328', '德江县', '12505.7', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19327', '印江土家族苗族自治县', '12505.6', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19326', '思南县', '12505.5', 'area', '12506', '2');
+INSERT INTO `web_cascadedata` VALUES ('19325', '石阡县', '12505.4', 'area', '12505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19324', '玉屏侗族自治县', '12505.3', 'area', '12505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19323', '江口县', '12505.2', 'area', '12505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19322', '铜仁市', '12505.1', 'area', '12505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19321', '铜仁地区', '12505', 'area', '12505', '1');
+INSERT INTO `web_cascadedata` VALUES ('19320', '紫云苗族布依族自治县', '12504.6', 'area', '12505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19319', '关岭布依族苗族自治县', '12504.5', 'area', '12505', '2');
+INSERT INTO `web_cascadedata` VALUES ('19318', '镇宁布依族苗族自治县', '12504.4', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19317', '普定县', '12504.3', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19316', '平坝县', '12504.2', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19315', '西秀区', '12504.1', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19314', '安顺市', '12504', 'area', '12504', '1');
+INSERT INTO `web_cascadedata` VALUES ('19313', '仁怀市', '12503.14', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19312', '赤水市', '12503.13', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19311', '习水县', '12503.12', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19310', '余庆县', '12503.11', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19309', '湄潭县', '12503.10', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19308', '凤冈县', '12503.9', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19307', '务川仡佬族苗族自治县', '12503.8', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19306', '道真仡佬族苗族自治县', '12503.7', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19305', '正安县', '12503.6', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19304', '绥阳县', '12503.5', 'area', '12504', '2');
+INSERT INTO `web_cascadedata` VALUES ('19303', '桐梓县', '12503.4', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19302', '遵义县', '12503.3', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19301', '汇川区', '12503.2', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19300', '红花岗区', '12503.1', 'area', '12503', '2');
+INSERT INTO `web_cascadedata` VALUES ('19299', '遵义市', '12503', 'area', '12503', '1');
+INSERT INTO `web_cascadedata` VALUES ('19298', '盘　县', '12502.4', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19297', '水城县', '12502.3', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19296', '六枝特区', '12502.2', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19295', '钟山区', '12502.1', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19294', '六盘水市', '12502', 'area', '12502', '1');
+INSERT INTO `web_cascadedata` VALUES ('19293', '清镇市', '12501.10', 'area', '12501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19292', '修文县', '12501.9', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19291', '息烽县', '12501.8', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19290', '开阳县', '12501.7', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19289', '小河区', '12501.6', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19288', '白云区', '12501.5', 'area', '12502', '2');
+INSERT INTO `web_cascadedata` VALUES ('19287', '乌当区', '12501.4', 'area', '12501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19286', '花溪区', '12501.3', 'area', '12501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19285', '云岩区', '12501.2', 'area', '12501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19284', '南明区', '12501.1', 'area', '12501', '2');
+INSERT INTO `web_cascadedata` VALUES ('19283', '贵阳市', '12501', 'area', '12501', '1');
+INSERT INTO `web_cascadedata` VALUES ('19282', '贵州省', '12500', 'area', '12500', '0');
+INSERT INTO `web_cascadedata` VALUES ('19281', '雷波县', '12021.17', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19280', '美姑县', '12021.16', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19279', '甘洛县', '12021.15', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19278', '越西县', '12021.14', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19277', '冕宁县', '12021.13', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19276', '喜德县', '12021.12', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19275', '昭觉县', '12021.11', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19274', '金阳县', '12021.10', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19273', '布拖县', '12021.9', 'area', '12022', '2');
+INSERT INTO `web_cascadedata` VALUES ('19272', '普格县', '12021.8', 'area', '12022', '2');
+INSERT INTO `web_cascadedata` VALUES ('19271', '宁南县', '12021.7', 'area', '12022', '2');
+INSERT INTO `web_cascadedata` VALUES ('19270', '会东县', '12021.6', 'area', '12022', '2');
+INSERT INTO `web_cascadedata` VALUES ('19269', '会理县', '12021.5', 'area', '12022', '2');
+INSERT INTO `web_cascadedata` VALUES ('19268', '德昌县', '12021.4', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19267', '盐源县', '12021.3', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19266', '木里藏族自治县', '12021.2', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19265', '西昌市', '12021.1', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19264', '凉山彝族自治州', '12021', 'area', '12021', '1');
+INSERT INTO `web_cascadedata` VALUES ('19263', '得荣县', '12020.18', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19262', '稻城县', '12020.17', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19261', '乡城县', '12020.16', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19260', '巴塘县', '12020.15', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19259', '理塘县', '12020.14', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19258', '色达县', '12020.13', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19257', '石渠县', '12020.12', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19256', '白玉县', '12020.11', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19255', '德格县', '12020.10', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19254', '新龙县', '12020.9', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19253', '甘孜县', '12020.8', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19252', '炉霍县', '12020.7', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19251', '道孚县', '12020.6', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19250', '雅江县', '12020.5', 'area', '12021', '2');
+INSERT INTO `web_cascadedata` VALUES ('19249', '九龙县', '12020.4', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19248', '丹巴县', '12020.3', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19247', '泸定县', '12020.2', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19246', '康定县', '12020.1', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19245', '甘孜藏族自治州', '12020', 'area', '12020', '1');
+INSERT INTO `web_cascadedata` VALUES ('19244', '红原县', '12019.13', 'area', '12019', '2');
+INSERT INTO `web_cascadedata` VALUES ('19243', '若尔盖县', '12019.12', 'area', '12019', '2');
+INSERT INTO `web_cascadedata` VALUES ('19242', '阿坝县', '12019.11', 'area', '12019', '2');
+INSERT INTO `web_cascadedata` VALUES ('19241', '壤塘县', '12019.10', 'area', '12019', '2');
+INSERT INTO `web_cascadedata` VALUES ('19240', '马尔康县', '12019.9', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19239', '黑水县', '12019.8', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19238', '小金县', '12019.7', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19237', '金川县', '12019.6', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19236', '九寨沟县', '12019.5', 'area', '12020', '2');
+INSERT INTO `web_cascadedata` VALUES ('19235', '松潘县', '12019.4', 'area', '12019', '2');
+INSERT INTO `web_cascadedata` VALUES ('19234', '茂　县', '12019.3', 'area', '12019', '2');
+INSERT INTO `web_cascadedata` VALUES ('19233', '理　县', '12019.2', 'area', '12019', '2');
+INSERT INTO `web_cascadedata` VALUES ('19232', '汶川县', '12019.1', 'area', '12019', '2');
+INSERT INTO `web_cascadedata` VALUES ('19231', '阿坝藏族羌族自治州', '12019', 'area', '12019', '1');
+INSERT INTO `web_cascadedata` VALUES ('19230', '简阳市', '12018.4', 'area', '12018', '2');
+INSERT INTO `web_cascadedata` VALUES ('19229', '乐至县', '12018.3', 'area', '12018', '2');
+INSERT INTO `web_cascadedata` VALUES ('19228', '安岳县', '12018.2', 'area', '12018', '2');
+INSERT INTO `web_cascadedata` VALUES ('19227', '雁江区', '12018.1', 'area', '12018', '2');
+INSERT INTO `web_cascadedata` VALUES ('19226', '资阳市', '12018', 'area', '12018', '1');
+INSERT INTO `web_cascadedata` VALUES ('19225', '平昌县', '12017.4', 'area', '12017', '2');
+INSERT INTO `web_cascadedata` VALUES ('19224', '南江县', '12017.3', 'area', '12017', '2');
+INSERT INTO `web_cascadedata` VALUES ('19223', '通江县', '12017.2', 'area', '12017', '2');
+INSERT INTO `web_cascadedata` VALUES ('19222', '巴州区', '12017.1', 'area', '12017', '2');
+INSERT INTO `web_cascadedata` VALUES ('19221', '巴中市', '12017', 'area', '12017', '1');
+INSERT INTO `web_cascadedata` VALUES ('19220', '宝兴县', '12016.8', 'area', '12017', '2');
+INSERT INTO `web_cascadedata` VALUES ('19219', '芦山县', '12016.7', 'area', '12017', '2');
+INSERT INTO `web_cascadedata` VALUES ('19218', '天全县', '12016.6', 'area', '12017', '2');
+INSERT INTO `web_cascadedata` VALUES ('19217', '石棉县', '12016.5', 'area', '12017', '2');
+INSERT INTO `web_cascadedata` VALUES ('19216', '汉源县', '12016.4', 'area', '12016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19215', '荥经县', '12016.3', 'area', '12016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19214', '名山县', '12016.2', 'area', '12016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19213', '雨城区', '12016.1', 'area', '12016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19212', '雅安市', '12016', 'area', '12016', '1');
+INSERT INTO `web_cascadedata` VALUES ('19211', '万源市', '12015.7', 'area', '12016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19210', '渠　县', '12015.6', 'area', '12016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19209', '大竹县', '12015.5', 'area', '12016', '2');
+INSERT INTO `web_cascadedata` VALUES ('19208', '开江县', '12015.4', 'area', '12015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19207', '宣汉县', '12015.3', 'area', '12015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19206', '达　县', '12015.2', 'area', '12015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19205', '通川区', '12015.1', 'area', '12015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19204', '达州市', '12015', 'area', '12015', '1');
+INSERT INTO `web_cascadedata` VALUES ('19203', '华莹市', '12014.5', 'area', '12015', '2');
+INSERT INTO `web_cascadedata` VALUES ('19202', '邻水县', '12014.4', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19201', '武胜县', '12014.3', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19200', '岳池县', '12014.2', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19199', '广安区', '12014.1', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19198', '广安市', '12014', 'area', '12014', '1');
+INSERT INTO `web_cascadedata` VALUES ('19197', '屏山县', '12013.10', 'area', '12013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19196', '兴文县', '12013.9', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19195', '筠连县', '12013.8', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19194', '珙　县', '12013.7', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19193', '高　县', '12013.6', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19192', '长宁县', '12013.5', 'area', '12014', '2');
+INSERT INTO `web_cascadedata` VALUES ('19191', '江安县', '12013.4', 'area', '12013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19190', '南溪县', '12013.3', 'area', '12013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19189', '宜宾县', '12013.2', 'area', '12013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19188', '翠屏区', '12013.1', 'area', '12013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19187', '宜宾市', '12013', 'area', '12013', '1');
+INSERT INTO `web_cascadedata` VALUES ('19186', '青神县', '12012.6', 'area', '12013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19185', '丹棱县', '12012.5', 'area', '12013', '2');
+INSERT INTO `web_cascadedata` VALUES ('19184', '洪雅县', '12012.4', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19183', '彭山县', '12012.3', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19182', '仁寿县', '12012.2', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19181', '东坡区', '12012.1', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19180', '眉山市', '12012', 'area', '12012', '1');
+INSERT INTO `web_cascadedata` VALUES ('19179', '阆中市', '12011.9', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19178', '西充县', '12011.8', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19177', '仪陇县', '12011.7', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19176', '蓬安县', '12011.6', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19175', '营山县', '12011.5', 'area', '12012', '2');
+INSERT INTO `web_cascadedata` VALUES ('19174', '南部县', '12011.4', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19173', '嘉陵区', '12011.3', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19172', '高坪区', '12011.2', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19171', '顺庆区', '12011.1', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19170', '南充市', '12011', 'area', '12011', '1');
+INSERT INTO `web_cascadedata` VALUES ('19169', '峨眉山市', '12010.11', 'area', '12010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19168', '马边彝族自治县', '12010.10', 'area', '12010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19167', '峨边彝族自治县', '12010.9', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19166', '沐川县', '12010.8', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19165', '夹江县', '12010.7', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19164', '井研县', '12010.6', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19163', '犍为县', '12010.5', 'area', '12011', '2');
+INSERT INTO `web_cascadedata` VALUES ('19162', '金口河区', '12010.4', 'area', '12010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19161', '五通桥区', '12010.3', 'area', '12010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19160', '沙湾区', '12010.2', 'area', '12010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19159', '市中区', '12010.1', 'area', '12010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19158', '乐山市', '12010', 'area', '12010', '1');
+INSERT INTO `web_cascadedata` VALUES ('19157', '隆昌县', '12009.5', 'area', '12010', '2');
+INSERT INTO `web_cascadedata` VALUES ('19156', '资中县', '12009.4', 'area', '12009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19155', '威远县', '12009.3', 'area', '12009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19154', '东兴区', '12009.2', 'area', '12009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19153', '市中区', '12009.1', 'area', '12009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19152', '内江市', '12009', 'area', '12009', '1');
+INSERT INTO `web_cascadedata` VALUES ('19151', '大英县', '12008.5', 'area', '12009', '2');
+INSERT INTO `web_cascadedata` VALUES ('19150', '射洪县', '12008.4', 'area', '12008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19149', '蓬溪县', '12008.3', 'area', '12008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19148', '安居区', '12008.2', 'area', '12008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19147', '船山区', '12008.1', 'area', '12008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19146', '遂宁市', '12008', 'area', '12008', '1');
+INSERT INTO `web_cascadedata` VALUES ('19145', '苍溪县', '12007.7', 'area', '12008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19144', '剑阁县', '12007.6', 'area', '12008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19143', '青川县', '12007.5', 'area', '12008', '2');
+INSERT INTO `web_cascadedata` VALUES ('19142', '旺苍县', '12007.4', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19141', '朝天区', '12007.3', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19140', '元坝区', '12007.2', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19139', '市中区', '12007.1', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19138', '广元市', '12007', 'area', '12007', '1');
+INSERT INTO `web_cascadedata` VALUES ('19137', '江油市', '12006.9', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19136', '平武县', '12006.8', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19135', '北川羌族自治县', '12006.7', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19134', '梓潼县', '12006.6', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19133', '安　县', '12006.5', 'area', '12007', '2');
+INSERT INTO `web_cascadedata` VALUES ('19132', '盐亭县', '12006.4', 'area', '12006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19131', '三台县', '12006.3', 'area', '12006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19130', '游仙区', '12006.2', 'area', '12006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19129', '涪城区', '12006.1', 'area', '12006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19128', '绵阳市', '12006', 'area', '12006', '1');
+INSERT INTO `web_cascadedata` VALUES ('19127', '绵竹市', '12005.6', 'area', '12006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19126', '什邡市', '12005.5', 'area', '12006', '2');
+INSERT INTO `web_cascadedata` VALUES ('19125', '广汉市', '12005.4', 'area', '12005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19124', '罗江县', '12005.3', 'area', '12005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19123', '中江县', '12005.2', 'area', '12005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19122', '旌阳区', '12005.1', 'area', '12005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19121', '德阳市', '12005', 'area', '12005', '1');
+INSERT INTO `web_cascadedata` VALUES ('19120', '古蔺县', '12004.7', 'area', '12005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19119', '叙永县', '12004.6', 'area', '12005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19118', '合江县', '12004.5', 'area', '12005', '2');
+INSERT INTO `web_cascadedata` VALUES ('19117', '泸　县', '12004.4', 'area', '12004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19116', '龙马潭区', '12004.3', 'area', '12004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19115', '纳溪区', '12004.2', 'area', '12004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19114', '江阳区', '12004.1', 'area', '12004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19113', '泸州市', '12004', 'area', '12004', '1');
+INSERT INTO `web_cascadedata` VALUES ('19112', '盐边县', '12003.5', 'area', '12004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19111', '米易县', '12003.4', 'area', '12003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19110', '仁和区', '12003.3', 'area', '12003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19109', '西　区', '12003.2', 'area', '12003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19108', '东　区', '12003.1', 'area', '12003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19107', '攀枝花市', '12003', 'area', '12003', '1');
+INSERT INTO `web_cascadedata` VALUES ('19106', '富顺县', '12002.6', 'area', '12003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19105', '荣　县', '12002.5', 'area', '12003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19104', '沿滩区', '12002.4', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19103', '大安区', '12002.3', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19102', '贡井区', '12002.2', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19101', '自流井区', '12002.1', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19100', '自贡市', '12002', 'area', '12002', '1');
+INSERT INTO `web_cascadedata` VALUES ('19099', '崇州市', '12001.19', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19098', '邛崃市', '12001.18', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19097', '彭州市', '12001.17', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19096', '都江堰市', '12001.16', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19095', '新津县', '12001.15', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19094', '蒲江县', '12001.14', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19093', '大邑县', '12001.13', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19092', '郫　县', '12001.12', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19091', '双流县', '12001.11', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19090', '金堂县', '12001.10', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19089', '温江区', '12001.9', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19088', '新都区', '12001.8', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19087', '青白江区', '12001.7', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19086', '龙泉驿区', '12001.6', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19085', '成华区', '12001.5', 'area', '12002', '2');
+INSERT INTO `web_cascadedata` VALUES ('19084', '武侯区', '12001.4', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19083', '金牛区', '12001.3', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19082', '青羊区', '12001.2', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19081', '锦江区', '12001.1', 'area', '12001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19080', '成都市', '12001', 'area', '12001', '1');
+INSERT INTO `web_cascadedata` VALUES ('19079', '四川省', '12000', 'area', '12000', '0');
+INSERT INTO `web_cascadedata` VALUES ('19078', '南川市', '11540', 'area', '11540', '1');
+INSERT INTO `web_cascadedata` VALUES ('19077', '永川市', '11539', 'area', '11539', '1');
+INSERT INTO `web_cascadedata` VALUES ('19076', '合川市', '11538', 'area', '11538', '1');
+INSERT INTO `web_cascadedata` VALUES ('19075', '江津市', '11537', 'area', '11537', '1');
+INSERT INTO `web_cascadedata` VALUES ('19074', '彭水苗族土家族自治县', '11536', 'area', '11536', '1');
+INSERT INTO `web_cascadedata` VALUES ('19073', '酉阳土家族苗族自治县', '11535', 'area', '11535', '1');
+INSERT INTO `web_cascadedata` VALUES ('19072', '秀山土家族苗族自治县', '11534', 'area', '11534', '1');
+INSERT INTO `web_cascadedata` VALUES ('19071', '石柱土家族自治县', '11533', 'area', '11533', '1');
+INSERT INTO `web_cascadedata` VALUES ('19070', '巫溪县', '11532', 'area', '11532', '1');
+INSERT INTO `web_cascadedata` VALUES ('19069', '巫山县', '11531', 'area', '11531', '1');
+INSERT INTO `web_cascadedata` VALUES ('19068', '奉节县', '11530', 'area', '11530', '1');
+INSERT INTO `web_cascadedata` VALUES ('19067', '云阳县', '11529', 'area', '11529', '1');
+INSERT INTO `web_cascadedata` VALUES ('19066', '开　县', '11528', 'area', '11528', '1');
+INSERT INTO `web_cascadedata` VALUES ('19065', '忠　县', '11527', 'area', '11527', '1');
+INSERT INTO `web_cascadedata` VALUES ('19064', '武隆县', '11526', 'area', '11526', '1');
+INSERT INTO `web_cascadedata` VALUES ('19063', '垫江县', '11525', 'area', '11525', '1');
+INSERT INTO `web_cascadedata` VALUES ('19062', '丰都县', '11524', 'area', '11524', '1');
+INSERT INTO `web_cascadedata` VALUES ('19061', '城口县', '11523', 'area', '11523', '1');
+INSERT INTO `web_cascadedata` VALUES ('19060', '梁平县', '11522', 'area', '11522', '1');
+INSERT INTO `web_cascadedata` VALUES ('19059', '璧山县', '11521', 'area', '11521', '1');
+INSERT INTO `web_cascadedata` VALUES ('19058', '荣昌县', '11520', 'area', '11520', '1');
+INSERT INTO `web_cascadedata` VALUES ('19057', '大足县', '11519', 'area', '11519', '1');
+INSERT INTO `web_cascadedata` VALUES ('19056', '铜梁县', '11518', 'area', '11518', '1');
+INSERT INTO `web_cascadedata` VALUES ('19055', '潼南县', '11517', 'area', '11517', '1');
+INSERT INTO `web_cascadedata` VALUES ('19054', '綦江县', '11516', 'area', '11516', '1');
+INSERT INTO `web_cascadedata` VALUES ('19053', '长寿区', '11515', 'area', '11515', '1');
+INSERT INTO `web_cascadedata` VALUES ('19052', '黔江区', '11514', 'area', '11514', '1');
+INSERT INTO `web_cascadedata` VALUES ('19051', '巴南区', '11513', 'area', '11513', '1');
+INSERT INTO `web_cascadedata` VALUES ('19050', '渝北区', '11512', 'area', '11512', '1');
+INSERT INTO `web_cascadedata` VALUES ('19049', '双桥区', '11511', 'area', '11511', '1');
+INSERT INTO `web_cascadedata` VALUES ('19048', '万盛区', '11510', 'area', '11510', '1');
+INSERT INTO `web_cascadedata` VALUES ('19047', '北碚区', '11509', 'area', '11509', '1');
+INSERT INTO `web_cascadedata` VALUES ('19046', '南岸区', '11508', 'area', '11508', '1');
+INSERT INTO `web_cascadedata` VALUES ('19045', '九龙坡区', '11507', 'area', '11507', '1');
+INSERT INTO `web_cascadedata` VALUES ('19044', '沙坪坝区', '11506', 'area', '11506', '1');
+INSERT INTO `web_cascadedata` VALUES ('19043', '江北区', '11505', 'area', '11505', '1');
+INSERT INTO `web_cascadedata` VALUES ('19042', '大渡口区', '11504', 'area', '11504', '1');
+INSERT INTO `web_cascadedata` VALUES ('19041', '渝中区', '11503', 'area', '11503', '1');
+INSERT INTO `web_cascadedata` VALUES ('19040', '涪陵区', '11502', 'area', '11502', '1');
+INSERT INTO `web_cascadedata` VALUES ('19039', '万州区', '11501', 'area', '11501', '1');
+INSERT INTO `web_cascadedata` VALUES ('19038', '重庆市', '11500', 'area', '11500', '0');
+INSERT INTO `web_cascadedata` VALUES ('19037', '中沙群岛的岛礁及其海域', '11003.19', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19036', '南沙群岛', '11003.18', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19035', '西沙群岛', '11003.17', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19034', '琼中黎族苗族自治县', '11003.16', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19033', '保亭黎族苗族自治县', '11003.15', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19032', '陵水黎族自治县', '11003.14', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19031', '乐东黎族自治县', '11003.13', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19030', '昌江黎族自治县', '11003.12', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19029', '白沙黎族自治县', '11003.11', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19028', '临高县', '11003.10', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19027', '澄迈县', '11003.9', 'area', '11004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19026', '屯昌县', '11003.8', 'area', '11004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19025', '定安县', '11003.7', 'area', '11004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19024', '东方市', '11003.6', 'area', '11004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19023', '万宁市', '11003.5', 'area', '11004', '2');
+INSERT INTO `web_cascadedata` VALUES ('19022', '文昌市', '11003.4', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19021', '儋州市', '11003.3', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19020', '琼海市', '11003.2', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19019', '五指山市', '11003.1', 'area', '11003', '2');
+INSERT INTO `web_cascadedata` VALUES ('19018', '省直辖县级行政单位', '11003', 'area', '11003', '1');
+INSERT INTO `web_cascadedata` VALUES ('19017', '三亚市', '11002', 'area', '11002', '1');
+INSERT INTO `web_cascadedata` VALUES ('19016', '美兰区', '11001.4', 'area', '11001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19015', '琼山区', '11001.3', 'area', '11001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19014', '龙华区', '11001.2', 'area', '11001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19013', '秀英区', '11001.1', 'area', '11001', '2');
+INSERT INTO `web_cascadedata` VALUES ('19012', '海口市', '11001', 'area', '11001', '1');
+INSERT INTO `web_cascadedata` VALUES ('19011', '海南省', '11000', 'area', '11000', '0');
+INSERT INTO `web_cascadedata` VALUES ('19010', '凭祥市', '10514.7', 'area', '10515', '2');
+INSERT INTO `web_cascadedata` VALUES ('19009', '天等县', '10514.6', 'area', '10515', '2');
+INSERT INTO `web_cascadedata` VALUES ('19008', '大新县', '10514.5', 'area', '10515', '2');
+INSERT INTO `web_cascadedata` VALUES ('19007', '龙州县', '10514.4', 'area', '10514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19006', '宁明县', '10514.3', 'area', '10514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19005', '扶绥县', '10514.2', 'area', '10514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19004', '江洲区', '10514.1', 'area', '10514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19003', '崇左市', '10514', 'area', '10514', '1');
+INSERT INTO `web_cascadedata` VALUES ('19002', '合山市', '10513.6', 'area', '10514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19001', '金秀瑶族自治县', '10513.5', 'area', '10514', '2');
+INSERT INTO `web_cascadedata` VALUES ('19000', '武宣县', '10513.4', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18999', '象州县', '10513.3', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18998', '忻城县', '10513.2', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18997', '兴宾区', '10513.1', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18996', '来宾市', '10513', 'area', '10513', '1');
+INSERT INTO `web_cascadedata` VALUES ('18995', '宜州市', '10512.11', 'area', '10512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18994', '大化瑶族自治县', '10512.10', 'area', '10512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18993', '都安瑶族自治县', '10512.9', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18992', '巴马瑶族自治县', '10512.8', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18991', '环江毛南族自治县', '10512.7', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18990', '罗城仫佬族自治县', '10512.6', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18989', '东兰县', '10512.5', 'area', '10513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18988', '凤山县', '10512.4', 'area', '10512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18987', '天峨县', '10512.3', 'area', '10512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18986', '南丹县', '10512.2', 'area', '10512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18985', '金城江区', '10512.1', 'area', '10512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18984', '河池市', '10512', 'area', '10512', '1');
+INSERT INTO `web_cascadedata` VALUES ('18983', '富川瑶族自治县', '10511.4', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18982', '钟山县', '10511.3', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18981', '昭平县', '10511.2', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18980', '八步区', '10511.1', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18979', '贺州市', '10511', 'area', '10511', '1');
+INSERT INTO `web_cascadedata` VALUES ('18978', '隆林各族自治县', '10510.12', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18977', '西林县', '10510.11', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18976', '田林县', '10510.10', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18975', '乐业县', '10510.9', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18974', '凌云县', '10510.8', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18973', '那坡县', '10510.7', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18972', '靖西县', '10510.6', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18971', '德保县', '10510.5', 'area', '10511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18970', '平果县', '10510.4', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18969', '田东县', '10510.3', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18968', '田阳县', '10510.2', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18967', '右江区', '10510.1', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18966', '百色市', '10510', 'area', '10510', '1');
+INSERT INTO `web_cascadedata` VALUES ('18965', '北流市', '10509.6', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18964', '兴业县', '10509.5', 'area', '10510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18963', '博白县', '10509.4', 'area', '10509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18962', '陆川县', '10509.3', 'area', '10509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18961', '容　县', '10509.2', 'area', '10509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18960', '玉州区', '10509.1', 'area', '10509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18959', '玉林市', '10509', 'area', '10509', '1');
+INSERT INTO `web_cascadedata` VALUES ('18958', '桂平市', '10508.5', 'area', '10509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18957', '平南县', '10508.4', 'area', '10508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18956', '覃塘区', '10508.3', 'area', '10508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18955', '港南区', '10508.2', 'area', '10508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18954', '港北区', '10508.1', 'area', '10508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18953', '贵港市', '10508', 'area', '10508', '1');
+INSERT INTO `web_cascadedata` VALUES ('18952', '浦北县', '10507.4', 'area', '10507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18951', '灵山县', '10507.3', 'area', '10507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18950', '钦北区', '10507.2', 'area', '10507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18949', '钦南区', '10507.1', 'area', '10507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18948', '钦州市', '10507', 'area', '10507', '1');
+INSERT INTO `web_cascadedata` VALUES ('18947', '东兴市', '10506.4', 'area', '10506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18946', '上思县', '10506.3', 'area', '10506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18945', '防城区', '10506.2', 'area', '10506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18944', '港口区', '10506.1', 'area', '10506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18943', '防城港市', '10506', 'area', '10506', '1');
+INSERT INTO `web_cascadedata` VALUES ('18942', '合浦县', '10505.4', 'area', '10505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18941', '铁山港区', '10505.3', 'area', '10505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18940', '银海区', '10505.2', 'area', '10505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18939', '海城区', '10505.1', 'area', '10505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18938', '北海市', '10505', 'area', '10505', '1');
+INSERT INTO `web_cascadedata` VALUES ('18937', '岑溪市', '10504.7', 'area', '10505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18936', '蒙山县', '10504.6', 'area', '10505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18935', '藤　县', '10504.5', 'area', '10505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18934', '苍梧县', '10504.4', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18933', '长洲区', '10504.3', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18932', '蝶山区', '10504.2', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18931', '万秀区', '10504.1', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18930', '梧州市', '10504', 'area', '10504', '1');
+INSERT INTO `web_cascadedata` VALUES ('18929', '恭城瑶族自治县', '10503.17', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18928', '荔蒲县', '10503.16', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18927', '平乐县', '10503.15', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18926', '资源县', '10503.14', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18925', '龙胜各族自治县', '10503.13', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18924', '灌阳县', '10503.12', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18923', '永福县', '10503.11', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18922', '兴安县', '10503.10', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18921', '全州县', '10503.9', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18920', '灵川县', '10503.8', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18919', '临桂县', '10503.7', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18918', '阳朔县', '10503.6', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18917', '雁山区', '10503.5', 'area', '10504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18916', '七星区', '10503.4', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18915', '象山区', '10503.3', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18914', '叠彩区', '10503.2', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18913', '秀峰区', '10503.1', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18912', '桂林市', '10503', 'area', '10503', '1');
+INSERT INTO `web_cascadedata` VALUES ('18911', '三江侗族自治县', '10502.10', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18910', '融水苗族自治县', '10502.9', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18909', '融安县', '10502.8', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18908', '鹿寨县', '10502.7', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18907', '柳城县', '10502.6', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18906', '柳江县', '10502.5', 'area', '10503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18905', '柳北区', '10502.4', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18904', '柳南区', '10502.3', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18903', '鱼峰区', '10502.2', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18902', '城中区', '10502.1', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18901', '柳州市', '10502', 'area', '10502', '1');
+INSERT INTO `web_cascadedata` VALUES ('18900', '横　县', '10501.12', 'area', '10501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18899', '宾阳县', '10501.11', 'area', '10501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18898', '上林县', '10501.10', 'area', '10501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18897', '马山县', '10501.9', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18896', '隆安县', '10501.8', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18895', '武鸣县', '10501.7', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18894', '邕宁区', '10501.6', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18893', '良庆区', '10501.5', 'area', '10502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18892', '西乡塘区', '10501.4', 'area', '10501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18891', '江南区', '10501.3', 'area', '10501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18890', '青秀区', '10501.2', 'area', '10501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18889', '兴宁区', '10501.1', 'area', '10501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18888', '南宁市', '10501', 'area', '10501', '1');
+INSERT INTO `web_cascadedata` VALUES ('18887', '广西壮族自治区', '10500', 'area', '10500', '0');
+INSERT INTO `web_cascadedata` VALUES ('18886', '罗定市', '10021.5', 'area', '10022', '2');
+INSERT INTO `web_cascadedata` VALUES ('18885', '云安县', '10021.4', 'area', '10021', '2');
+INSERT INTO `web_cascadedata` VALUES ('18884', '郁南县', '10021.3', 'area', '10021', '2');
+INSERT INTO `web_cascadedata` VALUES ('18883', '新兴县', '10021.2', 'area', '10021', '2');
+INSERT INTO `web_cascadedata` VALUES ('18882', '云城区', '10021.1', 'area', '10021', '2');
+INSERT INTO `web_cascadedata` VALUES ('18881', '云浮市', '10021', 'area', '10021', '1');
+INSERT INTO `web_cascadedata` VALUES ('18880', '普宁市', '10020.5', 'area', '10021', '2');
+INSERT INTO `web_cascadedata` VALUES ('18879', '惠来县', '10020.4', 'area', '10020', '2');
+INSERT INTO `web_cascadedata` VALUES ('18878', '揭西县', '10020.3', 'area', '10020', '2');
+INSERT INTO `web_cascadedata` VALUES ('18877', '揭东县', '10020.2', 'area', '10020', '2');
+INSERT INTO `web_cascadedata` VALUES ('18876', '榕城区', '10020.1', 'area', '10020', '2');
+INSERT INTO `web_cascadedata` VALUES ('18875', '揭阳市', '10020', 'area', '10020', '1');
+INSERT INTO `web_cascadedata` VALUES ('18874', '饶平县', '10019.2', 'area', '10019', '2');
+INSERT INTO `web_cascadedata` VALUES ('18873', '潮安县', '10019.1', 'area', '10019', '2');
+INSERT INTO `web_cascadedata` VALUES ('18872', '潮州市', '10019', 'area', '10019', '1');
+INSERT INTO `web_cascadedata` VALUES ('18871', '中山市', '10018', 'area', '10018', '1');
+INSERT INTO `web_cascadedata` VALUES ('18870', '东莞市', '10017', 'area', '10017', '1');
+INSERT INTO `web_cascadedata` VALUES ('18869', '连州市', '10016.8', 'area', '10017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18868', '英德市', '10016.7', 'area', '10017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18867', '清新县', '10016.6', 'area', '10017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18866', '连南瑶族自治县', '10016.5', 'area', '10017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18865', '连山壮族瑶族自治县', '10016.4', 'area', '10016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18864', '阳山县', '10016.3', 'area', '10016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18863', '佛冈县', '10016.2', 'area', '10016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18862', '清城区', '10016.1', 'area', '10016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18861', '清远市', '10016', 'area', '10016', '1');
+INSERT INTO `web_cascadedata` VALUES ('18860', '阳春市', '10015.4', 'area', '10015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18859', '阳东县', '10015.3', 'area', '10015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18858', '阳西县', '10015.2', 'area', '10015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18857', '江城区', '10015.1', 'area', '10015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18856', '阳江市', '10015', 'area', '10015', '1');
+INSERT INTO `web_cascadedata` VALUES ('18855', '东源县', '10014.6', 'area', '10015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18854', '和平县', '10014.5', 'area', '10015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18853', '连平县', '10014.4', 'area', '10014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18852', '龙川县', '10014.3', 'area', '10014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18851', '紫金县', '10014.2', 'area', '10014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18850', '源城区', '10014.1', 'area', '10014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18849', '河源市', '10014', 'area', '10014', '1');
+INSERT INTO `web_cascadedata` VALUES ('18848', '陆丰市', '10013.4', 'area', '10013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18847', '陆河县', '10013.3', 'area', '10013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18846', '海丰县', '10013.2', 'area', '10013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18845', '城　区', '10013.1', 'area', '10013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18844', '汕尾市', '10013', 'area', '10013', '1');
+INSERT INTO `web_cascadedata` VALUES ('18843', '兴宁市', '10012.8', 'area', '10013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18842', '蕉岭县', '10012.7', 'area', '10013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18841', '平远县', '10012.6', 'area', '10013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18840', '五华县', '10012.5', 'area', '10013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18839', '丰顺县', '10012.4', 'area', '10012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18838', '大埔县', '10012.3', 'area', '10012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18837', '梅　县', '10012.2', 'area', '10012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18836', '梅江区', '10012.1', 'area', '10012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18835', '梅州市', '10012', 'area', '10012', '1');
+INSERT INTO `web_cascadedata` VALUES ('18834', '龙门县', '10011.5', 'area', '10012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18833', '惠东县', '10011.4', 'area', '10011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18832', '博罗县', '10011.3', 'area', '10011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18831', '惠阳区', '10011.2', 'area', '10011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18830', '惠城区', '10011.1', 'area', '10011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18829', '惠州市', '10011', 'area', '10011', '1');
+INSERT INTO `web_cascadedata` VALUES ('18828', '四会市', '10010.8', 'area', '10011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18827', '高要市', '10010.7', 'area', '10011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18826', '德庆县', '10010.6', 'area', '10011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18825', '封开县', '10010.5', 'area', '10011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18824', '怀集县', '10010.4', 'area', '10010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18823', '广宁县', '10010.3', 'area', '10010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18822', '鼎湖区', '10010.2', 'area', '10010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18821', '端州区', '10010.1', 'area', '10010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18820', '肇庆市', '10010', 'area', '10010', '1');
+INSERT INTO `web_cascadedata` VALUES ('18819', '信宜市', '10009.6', 'area', '10010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18818', '化州市', '10009.5', 'area', '10010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18817', '高州市', '10009.4', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18816', '电白县', '10009.3', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18815', '茂港区', '10009.2', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18814', '茂南区', '10009.1', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18813', '茂名市', '10009', 'area', '10009', '1');
+INSERT INTO `web_cascadedata` VALUES ('18812', '吴川市', '10008.9', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18811', '雷州市', '10008.8', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18810', '廉江市', '10008.7', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18809', '徐闻县', '10008.6', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18808', '遂溪县', '10008.5', 'area', '10009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18807', '麻章区', '10008.4', 'area', '10008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18806', '坡头区', '10008.3', 'area', '10008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18805', '霞山区', '10008.2', 'area', '10008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18804', '赤坎区', '10008.1', 'area', '10008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18803', '湛江市', '10008', 'area', '10008', '1');
+INSERT INTO `web_cascadedata` VALUES ('18802', '恩平市', '10007.7', 'area', '10008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18801', '鹤山市', '10007.6', 'area', '10008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18800', '开平市', '10007.5', 'area', '10008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18799', '台山市', '10007.4', 'area', '10007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18798', '新会区', '10007.3', 'area', '10007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18797', '江海区', '10007.2', 'area', '10007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18796', '蓬江区', '10007.1', 'area', '10007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18795', '江门市', '10007', 'area', '10007', '1');
+INSERT INTO `web_cascadedata` VALUES ('18794', '高明区', '10006.5', 'area', '10007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18793', '三水区', '10006.4', 'area', '10006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18792', '顺德区', '10006.3', 'area', '10006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18791', '南海区', '10006.2', 'area', '10006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18790', '禅城区', '10006.1', 'area', '10006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18789', '佛山市', '10006', 'area', '10006', '1');
+INSERT INTO `web_cascadedata` VALUES ('18788', '南澳县', '10005.7', 'area', '10006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18787', '澄海区', '10005.6', 'area', '10006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18786', '潮南区', '10005.5', 'area', '10006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18785', '潮阳区', '10005.4', 'area', '10005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18784', '濠江区', '10005.3', 'area', '10005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18783', '金平区', '10005.2', 'area', '10005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18782', '龙湖区', '10005.1', 'area', '10005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18781', '汕头市', '10005', 'area', '10005', '1');
+INSERT INTO `web_cascadedata` VALUES ('18780', '金湾区', '10004.3', 'area', '10004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18779', '斗门区', '10004.2', 'area', '10004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18778', '洲区', '10004.1', 'area', '10004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18777', '珠海市', '10004', 'area', '10004', '1');
+INSERT INTO `web_cascadedata` VALUES ('18776', '盐田区', '10003.6', 'area', '10004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18775', '龙岗区', '10003.5', 'area', '10004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18774', '宝安区', '10003.4', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18773', '南山区', '10003.3', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18772', '福田区', '10003.2', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18771', '罗湖区', '10003.1', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18770', '深圳市', '10003', 'area', '10003', '1');
+INSERT INTO `web_cascadedata` VALUES ('18769', '南雄市', '10002.10', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18768', '乐昌市', '10002.9', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18767', '新丰县', '10002.8', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18766', '乳源瑶族自治县', '10002.7', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18765', '翁源县', '10002.6', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18764', '仁化县', '10002.5', 'area', '10003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18763', '始兴县', '10002.4', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18762', '曲江区', '10002.3', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18761', '浈江区', '10002.2', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18760', '武江区', '10002.1', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18759', '韶关市', '10002', 'area', '10002', '1');
+INSERT INTO `web_cascadedata` VALUES ('18758', '从化市', '10001.12', 'area', '10001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18757', '增城市', '10001.11', 'area', '10001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18756', '花都区', '10001.10', 'area', '10001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18755', '番禺区', '10001.9', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18754', '黄埔区', '10001.8', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18753', '白云区', '10001.7', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18752', '芳村区', '10001.6', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18751', '天河区', '10001.5', 'area', '10002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18750', '海珠区', '10001.4', 'area', '10001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18749', '越秀区', '10001.3', 'area', '10001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18748', '荔湾区', '10001.2', 'area', '10001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18747', '东山区', '10001.1', 'area', '10001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18746', '广州市', '10001', 'area', '10001', '1');
+INSERT INTO `web_cascadedata` VALUES ('18745', '广东省', '10000', 'area', '10000', '0');
+INSERT INTO `web_cascadedata` VALUES ('18744', '龙山县', '9514.8', 'area', '9515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18743', '永顺县', '9514.7', 'area', '9515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18742', '古丈县', '9514.6', 'area', '9515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18741', '保靖县', '9514.5', 'area', '9515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18740', '花垣县', '9514.4', 'area', '9514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18739', '凤凰县', '9514.3', 'area', '9514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18738', '泸溪县', '9514.2', 'area', '9514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18737', '吉首市', '9514.1', 'area', '9514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18736', '湘西土家族苗族自治州', '9514', 'area', '9514', '1');
+INSERT INTO `web_cascadedata` VALUES ('18735', '涟源市', '9513.5', 'area', '9514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18734', '冷水江市', '9513.4', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18733', '新化县', '9513.3', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18732', '双峰县', '9513.2', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18731', '娄星区', '9513.1', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18730', '娄底市', '9513', 'area', '9513', '1');
+INSERT INTO `web_cascadedata` VALUES ('18729', '洪江市', '9512.12', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18728', '通道侗族自治县', '9512.11', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18727', '靖州苗族侗族自治县', '9512.10', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18726', '芷江侗族自治县', '9512.9', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18725', '新晃侗族自治县', '9512.8', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18724', '麻阳苗族自治县', '9512.7', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18723', '会同县', '9512.6', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18722', '溆浦县', '9512.5', 'area', '9513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18721', '辰溪县', '9512.4', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18720', '沅陵县', '9512.3', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18719', '中方县', '9512.2', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18718', '鹤城区', '9512.1', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18717', '怀化市', '9512', 'area', '9512', '1');
+INSERT INTO `web_cascadedata` VALUES ('18716', '江华瑶族自治县', '9511.11', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18715', '新田县', '9511.10', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18714', '蓝山县', '9511.9', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18713', '宁远县', '9511.8', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18712', '江永县', '9511.7', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18711', '道　县', '9511.6', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18710', '双牌县', '9511.5', 'area', '9512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18709', '东安县', '9511.4', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18708', '祁阳县', '9511.3', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18707', '冷水滩区', '9511.2', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18706', '芝山区', '9511.1', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18705', '永州市', '9511', 'area', '9511', '1');
+INSERT INTO `web_cascadedata` VALUES ('18704', '资兴市', '9510.11', 'area', '9510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18703', '安仁县', '9510.10', 'area', '9510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18702', '桂东县', '9510.9', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18701', '汝城县', '9510.8', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18700', '临武县', '9510.7', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18699', '嘉禾县', '9510.6', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18698', '永兴县', '9510.5', 'area', '9511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18697', '宜章县', '9510.4', 'area', '9510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18696', '桂阳县', '9510.3', 'area', '9510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18695', '苏仙区', '9510.2', 'area', '9510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18694', '北湖区', '9510.1', 'area', '9510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18693', '郴州市', '9510', 'area', '9510', '1');
+INSERT INTO `web_cascadedata` VALUES ('18692', '沅江市', '9509.6', 'area', '9510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18691', '安化县', '9509.5', 'area', '9510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18690', '桃江县', '9509.4', 'area', '9509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18689', '南　县', '9509.3', 'area', '9509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18688', '赫山区', '9509.2', 'area', '9509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18687', '资阳区', '9509.1', 'area', '9509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18686', '益阳市', '9509', 'area', '9509', '1');
+INSERT INTO `web_cascadedata` VALUES ('18685', '桑植县', '9508.4', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18684', '慈利县', '9508.3', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18683', '武陵源区', '9508.2', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18682', '永定区', '9508.1', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18681', '张家界市', '9508', 'area', '9508', '1');
+INSERT INTO `web_cascadedata` VALUES ('18680', '津市市', '9507.9', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18679', '石门县', '9507.8', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18678', '桃源县', '9507.7', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18677', '临澧县', '9507.6', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18676', '澧　县', '9507.5', 'area', '9508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18675', '汉寿县', '9507.4', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18674', '安乡县', '9507.3', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18673', '鼎城区', '9507.2', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18672', '武陵区', '9507.1', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18671', '常德市', '9507', 'area', '9507', '1');
+INSERT INTO `web_cascadedata` VALUES ('18670', '临湘市', '9506.9', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18669', '汨罗市', '9506.8', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18668', '平江县', '9506.7', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18667', '湘阴县', '9506.6', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18666', '华容县', '9506.5', 'area', '9507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18665', '岳阳县', '9506.4', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18664', '君山区', '9506.3', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18663', '云溪区', '9506.2', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18662', '岳阳楼区', '9506.1', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18661', '岳阳市', '9506', 'area', '9506', '1');
+INSERT INTO `web_cascadedata` VALUES ('18660', '武冈市', '9505.12', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18659', '城步苗族自治县', '9505.11', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18658', '新宁县', '9505.10', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18657', '绥宁县', '9505.9', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18656', '洞口县', '9505.8', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18655', '隆回县', '9505.7', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18654', '邵阳县', '9505.6', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18653', '新邵县', '9505.5', 'area', '9506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18652', '邵东县', '9505.4', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18651', '北塔区', '9505.3', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18650', '大祥区', '9505.2', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18649', '双清区', '9505.1', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18648', '邵阳市', '9505', 'area', '9505', '1');
+INSERT INTO `web_cascadedata` VALUES ('18647', '常宁市', '9504.12', 'area', '9504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18646', '耒阳市', '9504.11', 'area', '9504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18645', '祁东县', '9504.10', 'area', '9504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18644', '衡东县', '9504.9', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18643', '衡山县', '9504.8', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18642', '衡南县', '9504.7', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18641', '衡阳县', '9504.6', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18640', '南岳区', '9504.5', 'area', '9505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18639', '蒸湘区', '9504.4', 'area', '9504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18638', '石鼓区', '9504.3', 'area', '9504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18637', '雁峰区', '9504.2', 'area', '9504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18636', '珠晖区', '9504.1', 'area', '9504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18635', '衡阳市', '9504', 'area', '9504', '1');
+INSERT INTO `web_cascadedata` VALUES ('18634', '韶山市', '9503.5', 'area', '9504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18633', '湘乡市', '9503.4', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18632', '湘潭县', '9503.3', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18631', '岳塘区', '9503.2', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18630', '雨湖区', '9503.1', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18629', '湘潭市', '9503', 'area', '9503', '1');
+INSERT INTO `web_cascadedata` VALUES ('18628', '醴陵市', '9502.9', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18627', '炎陵县', '9502.8', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18626', '茶陵县', '9502.7', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18625', '攸　县', '9502.6', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18624', '株洲县', '9502.5', 'area', '9503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18623', '天元区', '9502.4', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18622', '石峰区', '9502.3', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18621', '芦淞区', '9502.2', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18620', '荷塘区', '9502.1', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18619', '株洲市', '9502', 'area', '9502', '1');
+INSERT INTO `web_cascadedata` VALUES ('18618', '浏阳市', '9501.9', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18617', '宁乡县', '9501.8', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18616', '望城县', '9501.7', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18615', '长沙县', '9501.6', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18614', '雨花区', '9501.5', 'area', '9502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18613', '开福区', '9501.4', 'area', '9501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18612', '岳麓区', '9501.3', 'area', '9501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18611', '天心区', '9501.2', 'area', '9501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18610', '芙蓉区', '9501.1', 'area', '9501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18609', '长沙市', '9501', 'area', '9501', '1');
+INSERT INTO `web_cascadedata` VALUES ('18608', '湖南省', '9500', 'area', '9500', '0');
+INSERT INTO `web_cascadedata` VALUES ('18607', '神农架林区', '9014.4', 'area', '9014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18606', '天门市', '9014.3', 'area', '9014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18605', '潜江市', '9014.2', 'area', '9014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18604', '仙桃市', '9014.1', 'area', '9014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18603', '省直辖行政单位', '9014', 'area', '9014', '1');
+INSERT INTO `web_cascadedata` VALUES ('18602', '鹤峰县', '9013.8', 'area', '9014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18601', '来凤县', '9013.7', 'area', '9014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18600', '咸丰县', '9013.6', 'area', '9014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18599', '宣恩县', '9013.5', 'area', '9014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18598', '巴东县', '9013.4', 'area', '9013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18597', '建始县', '9013.3', 'area', '9013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18596', '利川市', '9013.2', 'area', '9013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18595', '恩施市', '9013.1', 'area', '9013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18594', '恩施土家族苗族自治州', '9013', 'area', '9013', '1');
+INSERT INTO `web_cascadedata` VALUES ('18593', '广水市', '9012.2', 'area', '9012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18592', '曾都区', '9012.1', 'area', '9012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18591', '随州市', '9012', 'area', '9012', '1');
+INSERT INTO `web_cascadedata` VALUES ('18590', '赤壁市', '9011.6', 'area', '9012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18589', '通山县', '9011.5', 'area', '9012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18588', '崇阳县', '9011.4', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18587', '通城县', '9011.3', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18586', '嘉鱼县', '9011.2', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18585', '咸安区', '9011.1', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18584', '咸宁市', '9011', 'area', '9011', '1');
+INSERT INTO `web_cascadedata` VALUES ('18583', '武穴市', '9010.10', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18582', '麻城市', '9010.9', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18581', '黄梅县', '9010.8', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18580', '蕲春县', '9010.7', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18579', '浠水县', '9010.6', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18578', '英山县', '9010.5', 'area', '9011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18577', '罗田县', '9010.4', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18576', '红安县', '9010.3', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18575', '团风县', '9010.2', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18574', '州区', '9010.1', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18573', '黄冈市', '9010', 'area', '9010', '1');
+INSERT INTO `web_cascadedata` VALUES ('18572', '松滋市', '9009.8', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18571', '洪湖市', '9009.7', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18570', '石首市', '9009.6', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18569', '江陵县', '9009.5', 'area', '9010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18568', '监利县', '9009.4', 'area', '9009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18567', '公安县', '9009.3', 'area', '9009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18566', '荆州区', '9009.2', 'area', '9009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18565', '沙市区', '9009.1', 'area', '9009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18564', '荆州市', '9009', 'area', '9009', '1');
+INSERT INTO `web_cascadedata` VALUES ('18563', '汉川市', '9008.7', 'area', '9009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18562', '孝南区', '9008.6', 'area', '9009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18561', '孝昌县', '9008.5', 'area', '9009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18560', '大悟县', '9008.4', 'area', '9008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18559', '云梦县', '9008.3', 'area', '9008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18558', '应城市', '9008.2', 'area', '9008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18557', '安陆市', '9008.1', 'area', '9008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18556', '孝感市', '9008', 'area', '9008', '1');
+INSERT INTO `web_cascadedata` VALUES ('18555', '东宝区', '9007.5', 'area', '9008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18554', '掇刀区', '9007.4', 'area', '9007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18553', '京山县', '9007.3', 'area', '9007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18552', '沙洋县', '9007.2', 'area', '9007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18551', '钟祥市', '9007.1', 'area', '9007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18550', '荆门市', '9007', 'area', '9007', '1');
+INSERT INTO `web_cascadedata` VALUES ('18549', '鄂城区', '9006.3', 'area', '9006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18548', '华容区', '9006.2', 'area', '9006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18547', '梁子湖区', '9006.1', 'area', '9006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18546', '鄂州市', '9006', 'area', '9006', '1');
+INSERT INTO `web_cascadedata` VALUES ('18545', '宜城市', '9005.9', 'area', '9006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18544', '枣阳市', '9005.8', 'area', '9006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18543', '老河口市', '9005.7', 'area', '9006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18542', '保康县', '9005.6', 'area', '9006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18541', '谷城县', '9005.5', 'area', '9006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18540', '南漳县', '9005.4', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18539', '襄阳区', '9005.3', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18538', '樊城区', '9005.2', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18537', '襄城区', '9005.1', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18536', '襄樊市', '9005', 'area', '9005', '1');
+INSERT INTO `web_cascadedata` VALUES ('18535', '枝江市', '9004.13', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18534', '当阳市', '9004.12', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18533', '宜都市', '9004.11', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18532', '五峰土家族自治县', '9004.10', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18531', '长阳土家族自治县', '9004.9', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18530', '秭归县', '9004.8', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18529', '兴山县', '9004.7', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18528', '远安县', '9004.6', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18527', '夷陵区', '9004.5', 'area', '9005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18526', '猇亭区', '9004.4', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18525', '点军区', '9004.3', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18524', '伍家岗区', '9004.2', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18523', '西陵区', '9004.1', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18522', '宜昌市', '9004', 'area', '9004', '1');
+INSERT INTO `web_cascadedata` VALUES ('18521', '丹江口市', '9003.8', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18520', '房　县', '9003.7', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18519', '竹溪县', '9003.6', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18518', '竹山县', '9003.5', 'area', '9004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18517', '郧西县', '9003.4', 'area', '9003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18516', '郧　县', '9003.3', 'area', '9003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18515', '张湾区', '9003.2', 'area', '9003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18514', '茅箭区', '9003.1', 'area', '9003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18513', '十堰市', '9003', 'area', '9003', '1');
+INSERT INTO `web_cascadedata` VALUES ('18512', '大冶市', '9002.6', 'area', '9003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18511', '阳新县', '9002.5', 'area', '9003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18510', '铁山区', '9002.4', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18509', '下陆区', '9002.3', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18508', '西塞山区', '9002.2', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18507', '黄石港区', '9002.1', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18506', '黄石市', '9002', 'area', '9002', '1');
+INSERT INTO `web_cascadedata` VALUES ('18505', '新洲区', '9001.13', 'area', '9001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18504', '黄陂区', '9001.12', 'area', '9001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18503', '江夏区', '9001.11', 'area', '9001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18502', '蔡甸区', '9001.10', 'area', '9001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18501', '汉南区', '9001.9', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18500', '东西湖区', '9001.8', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18499', '洪山区', '9001.7', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18498', '青山区', '9001.6', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18497', '武昌区', '9001.5', 'area', '9002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18496', '汉阳区', '9001.4', 'area', '9001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18495', '乔口区', '9001.3', 'area', '9001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18494', '江汉区', '9001.2', 'area', '9001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18493', '江岸区', '9001.1', 'area', '9001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18492', '武汉市', '9001', 'area', '9001', '1');
+INSERT INTO `web_cascadedata` VALUES ('18491', '湖北省', '9000', 'area', '9000', '0');
+INSERT INTO `web_cascadedata` VALUES ('18490', '新蔡县', '8517.10', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18489', '遂平县', '8517.9', 'area', '8518', '2');
+INSERT INTO `web_cascadedata` VALUES ('18488', '汝南县', '8517.8', 'area', '8518', '2');
+INSERT INTO `web_cascadedata` VALUES ('18487', '泌阳县', '8517.7', 'area', '8518', '2');
+INSERT INTO `web_cascadedata` VALUES ('18486', '确山县', '8517.6', 'area', '8518', '2');
+INSERT INTO `web_cascadedata` VALUES ('18485', '正阳县', '8517.5', 'area', '8518', '2');
+INSERT INTO `web_cascadedata` VALUES ('18484', '平舆县', '8517.4', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18483', '上蔡县', '8517.3', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18482', '西平县', '8517.2', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18481', '驿城区', '8517.1', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18480', '驻马店市', '8517', 'area', '8517', '1');
+INSERT INTO `web_cascadedata` VALUES ('18479', '项城市', '8516.10', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18478', '鹿邑县', '8516.9', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18477', '太康县', '8516.8', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18476', '淮阳县', '8516.7', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18475', '郸城县', '8516.6', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18474', '沈丘县', '8516.5', 'area', '8517', '2');
+INSERT INTO `web_cascadedata` VALUES ('18473', '商水县', '8516.4', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18472', '西华县', '8516.3', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18471', '扶沟县', '8516.2', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18470', '川汇区', '8516.1', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18469', '周口市', '8516', 'area', '8516', '1');
+INSERT INTO `web_cascadedata` VALUES ('18468', '息　县', '8515.10', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18467', '淮滨县', '8515.9', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18466', '潢川县', '8515.8', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18465', '固始县', '8515.7', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18464', '商城县', '8515.6', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18463', '新　县', '8515.5', 'area', '8516', '2');
+INSERT INTO `web_cascadedata` VALUES ('18462', '光山县', '8515.4', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18461', '罗山县', '8515.3', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18460', '平桥区', '8515.2', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18459', '师河区', '8515.1', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18458', '信阳市', '8515', 'area', '8515', '1');
+INSERT INTO `web_cascadedata` VALUES ('18457', '永城市', '8514.9', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18456', '夏邑县', '8514.8', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18455', '虞城县', '8514.7', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18454', '柘城县', '8514.6', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18453', '宁陵县', '8514.5', 'area', '8515', '2');
+INSERT INTO `web_cascadedata` VALUES ('18452', '睢　县', '8514.4', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18451', '民权县', '8514.3', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18450', '睢阳区', '8514.2', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18449', '梁园区', '8514.1', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18448', '商丘市', '8514', 'area', '8514', '1');
+INSERT INTO `web_cascadedata` VALUES ('18447', '邓州市', '8513.13', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18446', '桐柏县', '8513.12', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18445', '新野县', '8513.11', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18444', '唐河县', '8513.10', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18443', '社旗县', '8513.9', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18442', '淅川县', '8513.8', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18441', '内乡县', '8513.7', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18440', '镇平县', '8513.6', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18439', '西峡县', '8513.5', 'area', '8514', '2');
+INSERT INTO `web_cascadedata` VALUES ('18438', '方城县', '8513.4', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18437', '南召县', '8513.3', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18436', '卧龙区', '8513.2', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18435', '宛城区', '8513.1', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18434', '南阳市', '8513', 'area', '8513', '1');
+INSERT INTO `web_cascadedata` VALUES ('18433', '灵宝市', '8512.6', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18432', '义马市', '8512.5', 'area', '8513', '2');
+INSERT INTO `web_cascadedata` VALUES ('18431', '卢氏县', '8512.4', 'area', '8512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18430', '陕　县', '8512.3', 'area', '8512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18429', '渑池县', '8512.2', 'area', '8512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18428', '湖滨区', '8512.1', 'area', '8512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18427', '三门峡市', '8512', 'area', '8512', '1');
+INSERT INTO `web_cascadedata` VALUES ('18426', '临颍县', '8511.5', 'area', '8512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18425', '舞阳县', '8511.4', 'area', '8511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18424', '召陵区', '8511.3', 'area', '8511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18423', '郾城区', '8511.2', 'area', '8511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18422', '源汇区', '8511.1', 'area', '8511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18421', '漯河市', '8511', 'area', '8511', '1');
+INSERT INTO `web_cascadedata` VALUES ('18420', '长葛市', '8510.6', 'area', '8511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18419', '禹州市', '8510.5', 'area', '8511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18418', '襄城县', '8510.4', 'area', '8510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18417', '鄢陵县', '8510.3', 'area', '8510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18416', '许昌县', '8510.2', 'area', '8510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18415', '魏都区', '8510.1', 'area', '8510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18414', '许昌市', '8510', 'area', '8510', '1');
+INSERT INTO `web_cascadedata` VALUES ('18413', '濮阳县', '8509.6', 'area', '8510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18412', '台前县', '8509.5', 'area', '8510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18411', '范　县', '8509.4', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18410', '南乐县', '8509.3', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18409', '清丰县', '8509.2', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18408', '华龙区', '8509.1', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18407', '濮阳市', '8509', 'area', '8509', '1');
+INSERT INTO `web_cascadedata` VALUES ('18406', '孟州市', '8508.11', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18405', '沁阳市', '8508.10', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18404', '济源市', '8508.9', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18403', '温　县', '8508.8', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18402', '武陟县', '8508.7', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18401', '博爱县', '8508.6', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18400', '修武县', '8508.5', 'area', '8509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18399', '山阳区', '8508.4', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18398', '马村区', '8508.3', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18397', '中站区', '8508.2', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18396', '解放区', '8508.1', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18395', '焦作市', '8508', 'area', '8508', '1');
+INSERT INTO `web_cascadedata` VALUES ('18394', '辉县市', '8507.12', 'area', '8507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18393', '卫辉市', '8507.11', 'area', '8507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18392', '长垣县', '8507.10', 'area', '8507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18391', '封丘县', '8507.9', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18390', '延津县', '8507.8', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18389', '原阳县', '8507.7', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18388', '获嘉县', '8507.6', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18387', '新乡县', '8507.5', 'area', '8508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18386', '牧野区', '8507.4', 'area', '8507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18385', '凤泉区', '8507.3', 'area', '8507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18384', '卫滨区', '8507.2', 'area', '8507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18383', '红旗区', '8507.1', 'area', '8507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18382', '新乡市', '8507', 'area', '8507', '1');
+INSERT INTO `web_cascadedata` VALUES ('18381', '淇　县', '8506.5', 'area', '8507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18380', '浚　县', '8506.4', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18379', '淇滨区', '8506.3', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18378', '山城区', '8506.2', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18377', '鹤山区', '8506.1', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18376', '鹤壁市', '8506', 'area', '8506', '1');
+INSERT INTO `web_cascadedata` VALUES ('18375', '林州市', '8505.9', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18374', '内黄县', '8505.8', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18373', '滑　县', '8505.7', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18372', '汤阴县', '8505.6', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18371', '安阳县', '8505.5', 'area', '8506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18370', '龙安区', '8505.4', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18369', '殷都区', '8505.3', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18368', '北关区', '8505.2', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18367', '文峰区', '8505.1', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18366', '安阳市', '8505', 'area', '8505', '1');
+INSERT INTO `web_cascadedata` VALUES ('18365', '汝州市', '8504.10', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18364', '舞钢市', '8504.9', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18363', '郏　县', '8504.8', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18362', '鲁山县', '8504.7', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18361', '叶　县', '8504.6', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18360', '宝丰县', '8504.5', 'area', '8505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18359', '湛河区', '8504.4', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18358', '石龙区', '8504.3', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18357', '卫东区', '8504.2', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18356', '新华区', '8504.1', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18355', '平顶山市', '8504', 'area', '8504', '1');
+INSERT INTO `web_cascadedata` VALUES ('18354', '偃师市', '8503.15', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18353', '伊川县', '8503.14', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18352', '洛宁县', '8503.13', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18351', '宜阳县', '8503.12', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18350', '汝阳县', '8503.11', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18349', '嵩　县', '8503.10', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18348', '栾川县', '8503.9', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18347', '新安县', '8503.8', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18346', '孟津县', '8503.7', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18345', '洛龙区', '8503.6', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18344', '吉利区', '8503.5', 'area', '8504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18343', '涧西区', '8503.4', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18342', '廛河回族区', '8503.3', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18341', '西工区', '8503.2', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18340', '老城区', '8503.1', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18339', '洛阳市', '8503', 'area', '8503', '1');
+INSERT INTO `web_cascadedata` VALUES ('18338', '兰考县', '8502.10', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18337', '开封县', '8502.9', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18336', '尉氏县', '8502.8', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18335', '通许县', '8502.7', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18334', '杞　县', '8502.6', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18333', '郊　区', '8502.5', 'area', '8503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18332', '南关区', '8502.4', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18331', '鼓楼区', '8502.3', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18330', '顺河回族区', '8502.2', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18329', '龙亭区', '8502.1', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18328', '开封市', '8502', 'area', '8502', '1');
+INSERT INTO `web_cascadedata` VALUES ('18327', '登封市', '8501.12', 'area', '8501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18326', '新郑市', '8501.11', 'area', '8501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18325', '新密市', '8501.10', 'area', '8501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18324', '荥阳市', '8501.9', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18323', '巩义市', '8501.8', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18322', '中牟县', '8501.7', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18321', '邙山区', '8501.6', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18320', '上街区', '8501.5', 'area', '8502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18319', '金水区', '8501.4', 'area', '8501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18318', '管城回族区', '8501.3', 'area', '8501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18317', '二七区', '8501.2', 'area', '8501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18316', '中原区', '8501.1', 'area', '8501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18315', '郑州市', '8501', 'area', '8501', '1');
+INSERT INTO `web_cascadedata` VALUES ('18314', '河南省', '8500', 'area', '8500', '0');
+INSERT INTO `web_cascadedata` VALUES ('18313', '东明县', '8016.9', 'area', '8017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18312', '定陶县', '8016.8', 'area', '8017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18311', '鄄城县', '8016.7', 'area', '8017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18310', '郓城县', '8016.6', 'area', '8017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18309', '巨野县', '8016.5', 'area', '8017', '2');
+INSERT INTO `web_cascadedata` VALUES ('18308', '成武县', '8016.4', 'area', '8016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18307', '单　县', '8016.3', 'area', '8016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18306', '曹　县', '8016.2', 'area', '8016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18305', '牡丹区', '8016.1', 'area', '8016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18304', '荷泽市', '8016', 'area', '8016', '1');
+INSERT INTO `web_cascadedata` VALUES ('18303', '邹平县', '8015.7', 'area', '8016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18302', '博兴县', '8015.6', 'area', '8016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18301', '沾化县', '8015.5', 'area', '8016', '2');
+INSERT INTO `web_cascadedata` VALUES ('18300', '无棣县', '8015.4', 'area', '8015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18299', '阳信县', '8015.3', 'area', '8015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18298', '惠民县', '8015.2', 'area', '8015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18297', '滨城区', '8015.1', 'area', '8015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18296', '滨州市', '8015', 'area', '8015', '1');
+INSERT INTO `web_cascadedata` VALUES ('18295', '临清市', '8014.8', 'area', '8015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18294', '高唐县', '8014.7', 'area', '8015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18293', '冠　县', '8014.6', 'area', '8015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18292', '东阿县', '8014.5', 'area', '8015', '2');
+INSERT INTO `web_cascadedata` VALUES ('18291', '茌平县', '8014.4', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18290', '莘　县', '8014.3', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18289', '阳谷县', '8014.2', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18288', '东昌府区', '8014.1', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18287', '聊城市', '8014', 'area', '8014', '1');
+INSERT INTO `web_cascadedata` VALUES ('18286', '禹城市', '8013.11', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18285', '乐陵市', '8013.10', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18284', '武城县', '8013.9', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18283', '夏津县', '8013.8', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18282', '平原县', '8013.7', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18281', '齐河县', '8013.6', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18280', '临邑县', '8013.5', 'area', '8014', '2');
+INSERT INTO `web_cascadedata` VALUES ('18279', '庆云县', '8013.4', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18278', '宁津县', '8013.3', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18277', '陵　县', '8013.2', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18276', '德城区', '8013.1', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18275', '德州市', '8013', 'area', '8013', '1');
+INSERT INTO `web_cascadedata` VALUES ('18274', '临沭县', '8012.12', 'area', '8012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18273', '蒙阴县', '8012.11', 'area', '8012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18272', '莒南县', '8012.10', 'area', '8012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18271', '平邑县', '8012.9', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18270', '费　县', '8012.8', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18269', '苍山县', '8012.7', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18268', '沂水县', '8012.6', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18267', '郯城县', '8012.5', 'area', '8013', '2');
+INSERT INTO `web_cascadedata` VALUES ('18266', '沂南县', '8012.4', 'area', '8012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18265', '河东区', '8012.3', 'area', '8012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18264', '罗庄区', '8012.2', 'area', '8012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18263', '兰山区', '8012.1', 'area', '8012', '2');
+INSERT INTO `web_cascadedata` VALUES ('18262', '临沂市', '8012', 'area', '8012', '1');
+INSERT INTO `web_cascadedata` VALUES ('18261', '钢城区', '8011.2', 'area', '8011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18260', '莱城区', '8011.1', 'area', '8011', '2');
+INSERT INTO `web_cascadedata` VALUES ('18259', '莱芜市', '8011', 'area', '8011', '1');
+INSERT INTO `web_cascadedata` VALUES ('18258', '莒　县', '8010.4', 'area', '8010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18257', '五莲县', '8010.3', 'area', '8010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18256', '岚山区', '8010.2', 'area', '8010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18255', '东港区', '8010.1', 'area', '8010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18254', '日照市', '8010', 'area', '8010', '1');
+INSERT INTO `web_cascadedata` VALUES ('18253', '乳山市', '8009.4', 'area', '8009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18252', '荣成市', '8009.3', 'area', '8009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18251', '文登市', '8009.2', 'area', '8009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18250', '环翠区', '8009.1', 'area', '8009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18249', '威海市', '8009', 'area', '8009', '1');
+INSERT INTO `web_cascadedata` VALUES ('18248', '肥城市', '8008.6', 'area', '8009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18247', '新泰市', '8008.5', 'area', '8009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18246', '东平县', '8008.4', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18245', '宁阳县', '8008.3', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18244', '岱岳区', '8008.2', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18243', '泰山区', '8008.1', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18242', '泰安市', '8008', 'area', '8008', '1');
+INSERT INTO `web_cascadedata` VALUES ('18241', '邹城市', '8007.12', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18240', '兖州市', '8007.11', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18239', '曲阜市', '8007.10', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18238', '梁山县', '8007.9', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18237', '泗水县', '8007.8', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18236', '汶上县', '8007.7', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18235', '嘉祥县', '8007.6', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18234', '金乡县', '8007.5', 'area', '8008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18233', '鱼台县', '8007.4', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18232', '微山县', '8007.3', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18231', '任城区', '8007.2', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18230', '市中区', '8007.1', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18229', '济宁市', '8007', 'area', '8007', '1');
+INSERT INTO `web_cascadedata` VALUES ('18228', '昌邑市', '8006.12', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18227', '高密市', '8006.11', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18226', '安丘市', '8006.10', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18225', '寿光市', '8006.9', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18224', '诸城市', '8006.8', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18223', '青州市', '8006.7', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18222', '昌乐县', '8006.6', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18221', '临朐县', '8006.5', 'area', '8007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18220', '奎文区', '8006.4', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18219', '坊子区', '8006.3', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18218', '寒亭区', '8006.2', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18217', '潍城区', '8006.1', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18216', '潍坊市', '8006', 'area', '8006', '1');
+INSERT INTO `web_cascadedata` VALUES ('18215', '海阳市', '8005.12', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18214', '栖霞市', '8005.11', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18213', '招远市', '8005.10', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18212', '蓬莱市', '8005.9', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18211', '莱州市', '8005.8', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18210', '莱阳市', '8005.7', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18209', '龙口市', '8005.6', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18208', '长岛县', '8005.5', 'area', '8006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18207', '莱山区', '8005.4', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18206', '牟平区', '8005.3', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18205', '福山区', '8005.2', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18204', '芝罘区', '8005.1', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18203', '烟台市', '8005', 'area', '8005', '1');
+INSERT INTO `web_cascadedata` VALUES ('18202', '滕州市', '8004.6', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18201', '山亭区', '8004.5', 'area', '8005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18200', '台儿庄区', '8004.4', 'area', '8004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18199', '峄城区', '8004.3', 'area', '8004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18198', '薛城区', '8004.2', 'area', '8004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18197', '市中区', '8004.1', 'area', '8004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18196', '枣庄市', '8004', 'area', '8004', '1');
+INSERT INTO `web_cascadedata` VALUES ('18195', '沂源县', '8003.8', 'area', '8004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18194', '高青县', '8003.7', 'area', '8004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18193', '桓台县', '8003.6', 'area', '8004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18192', '周村区', '8003.5', 'area', '8004', '2');
+INSERT INTO `web_cascadedata` VALUES ('18191', '临淄区', '8003.4', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18190', '博山区', '8003.3', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18189', '张店区', '8003.2', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18188', '淄川区', '8003.1', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18187', '淄博市', '8003', 'area', '8003', '1');
+INSERT INTO `web_cascadedata` VALUES ('18186', '莱西市', '8002.12', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18185', '胶南市', '8002.11', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18184', '平度市', '8002.10', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18183', '即墨市', '8002.9', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18182', '胶州市', '8002.8', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18181', '城阳区', '8002.7', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18180', '李沧区', '8002.6', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18179', '崂山区', '8002.5', 'area', '8003', '2');
+INSERT INTO `web_cascadedata` VALUES ('18178', '黄岛区', '8002.4', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18177', '四方区', '8002.3', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18176', '市北区', '8002.2', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18175', '市南区', '8002.1', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18174', '青岛市', '8002', 'area', '8002', '1');
+INSERT INTO `web_cascadedata` VALUES ('18173', '章丘市', '8001.10', 'area', '8001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18172', '商河县', '8001.9', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18171', '济阳县', '8001.8', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18170', '平阴县', '8001.7', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18169', '长清区', '8001.6', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18168', '历城区', '8001.5', 'area', '8002', '2');
+INSERT INTO `web_cascadedata` VALUES ('18167', '天桥区', '8001.4', 'area', '8001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18166', '槐荫区', '8001.3', 'area', '8001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18165', '市中区', '8001.2', 'area', '8001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18164', '历下区', '8001.1', 'area', '8001', '2');
+INSERT INTO `web_cascadedata` VALUES ('18163', '济南市', '8001', 'area', '8001', '1');
+INSERT INTO `web_cascadedata` VALUES ('18162', '山东省', '8000', 'area', '8000', '0');
+INSERT INTO `web_cascadedata` VALUES ('18161', '德兴市', '7511.12', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18160', '婺源县', '7511.11', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18159', '万年县', '7511.10', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18158', '鄱阳县', '7511.9', 'area', '7512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18157', '余干县', '7511.8', 'area', '7512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18156', '弋阳县', '7511.7', 'area', '7512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18155', '横峰县', '7511.6', 'area', '7512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18154', '铅山县', '7511.5', 'area', '7512', '2');
+INSERT INTO `web_cascadedata` VALUES ('18153', '玉山县', '7511.4', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18152', '广丰县', '7511.3', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18151', '上饶县', '7511.2', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18150', '信州区', '7511.1', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18149', '上饶市', '7511', 'area', '7511', '1');
+INSERT INTO `web_cascadedata` VALUES ('18148', '广昌县', '7510.11', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18147', '东乡县', '7510.10', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18146', '资溪县', '7510.9', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18145', '金溪县', '7510.8', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18144', '宜黄县', '7510.7', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18143', '乐安县', '7510.6', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18142', '崇仁县', '7510.5', 'area', '7511', '2');
+INSERT INTO `web_cascadedata` VALUES ('18141', '南丰县', '7510.4', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18140', '黎川县', '7510.3', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18139', '南城县', '7510.2', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18138', '临川区', '7510.1', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18137', '抚州市', '7510', 'area', '7510', '1');
+INSERT INTO `web_cascadedata` VALUES ('18136', '高安市', '7509.10', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18135', '樟树市', '7509.9', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18134', '丰城市', '7509.8', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18133', '铜鼓县', '7509.7', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18132', '靖安县', '7509.6', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18131', '宜丰县', '7509.5', 'area', '7510', '2');
+INSERT INTO `web_cascadedata` VALUES ('18130', '上高县', '7509.4', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18129', '万载县', '7509.3', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18128', '奉新县', '7509.2', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18127', '袁州区', '7509.1', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18126', '宜春市', '7509', 'area', '7509', '1');
+INSERT INTO `web_cascadedata` VALUES ('18125', '井冈山市', '7508.13', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18124', '永新县', '7508.12', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18123', '安福县', '7508.11', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18122', '万安县', '7508.10', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18121', '遂川县', '7508.9', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18120', '泰和县', '7508.8', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18119', '永丰县', '7508.7', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18118', '新干县', '7508.6', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18117', '峡江县', '7508.5', 'area', '7509', '2');
+INSERT INTO `web_cascadedata` VALUES ('18116', '吉水县', '7508.4', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18115', '吉安县', '7508.3', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18114', '青原区', '7508.2', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18113', '吉州区', '7508.1', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18112', '吉安市', '7508', 'area', '7508', '1');
+INSERT INTO `web_cascadedata` VALUES ('18111', '南康市', '7507.18', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18110', '瑞金市', '7507.17', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18109', '石城县', '7507.16', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18108', '寻乌县', '7507.15', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18107', '会昌县', '7507.14', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18106', '兴国县', '7507.13', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18105', '于都县', '7507.12', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18104', '宁都县', '7507.11', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18103', '全南县', '7507.10', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18102', '定南县', '7507.9', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18101', '龙南县', '7507.8', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18100', '安远县', '7507.7', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18099', '崇义县', '7507.6', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18098', '上犹县', '7507.5', 'area', '7508', '2');
+INSERT INTO `web_cascadedata` VALUES ('18097', '大余县', '7507.4', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18096', '信丰县', '7507.3', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18095', '赣　县', '7507.2', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18094', '章贡区', '7507.1', 'area', '7507', '2');
+INSERT INTO `web_cascadedata` VALUES ('18093', '赣州市', '7507', 'area', '7507', '1');
+INSERT INTO `web_cascadedata` VALUES ('18092', '贵溪市', '7506.3', 'area', '7506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18091', '余江县', '7506.2', 'area', '7506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18090', '月湖区', '7506.1', 'area', '7506', '2');
+INSERT INTO `web_cascadedata` VALUES ('18089', '鹰潭市', '7506', 'area', '7506', '1');
+INSERT INTO `web_cascadedata` VALUES ('18088', '分宜县', '7505.2', 'area', '7505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18087', '渝水区', '7505.1', 'area', '7505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18086', '新余市', '7505', 'area', '7505', '1');
+INSERT INTO `web_cascadedata` VALUES ('18085', '瑞昌市', '7504.12', 'area', '7504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18084', '彭泽县', '7504.11', 'area', '7504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18083', '湖口县', '7504.10', 'area', '7504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18082', '都昌县', '7504.9', 'area', '7505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18081', '星子县', '7504.8', 'area', '7505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18080', '德安县', '7504.7', 'area', '7505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18079', '永修县', '7504.6', 'area', '7505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18078', '修水县', '7504.5', 'area', '7505', '2');
+INSERT INTO `web_cascadedata` VALUES ('18077', '武宁县', '7504.4', 'area', '7504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18076', '九江县', '7504.3', 'area', '7504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18075', '浔阳区', '7504.2', 'area', '7504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18074', '庐山区', '7504.1', 'area', '7504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18073', '九江市', '7504', 'area', '7504', '1');
+INSERT INTO `web_cascadedata` VALUES ('18072', '芦溪县', '7503.5', 'area', '7504', '2');
+INSERT INTO `web_cascadedata` VALUES ('18071', '上栗县', '7503.4', 'area', '7503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18070', '莲花县', '7503.3', 'area', '7503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18069', '湘东区', '7503.2', 'area', '7503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18068', '安源区', '7503.1', 'area', '7503', '2');
+INSERT INTO `web_cascadedata` VALUES ('18067', '萍乡市', '7503', 'area', '7503', '1');
+INSERT INTO `web_cascadedata` VALUES ('18066', '乐平市', '7502.4', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18065', '浮梁县', '7502.3', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18064', '珠山区', '7502.2', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18063', '昌江区', '7502.1', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18062', '景德镇市', '7502', 'area', '7502', '1');
+INSERT INTO `web_cascadedata` VALUES ('18061', '进贤县', '7501.9', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18060', '安义县', '7501.8', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18059', '新建县', '7501.7', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18058', '南昌县', '7501.6', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18057', '青山湖区', '7501.5', 'area', '7502', '2');
+INSERT INTO `web_cascadedata` VALUES ('18056', '湾里区', '7501.4', 'area', '7501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18055', '青云谱区', '7501.3', 'area', '7501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18054', '西湖区', '7501.2', 'area', '7501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18053', '东湖区', '7501.1', 'area', '7501', '2');
+INSERT INTO `web_cascadedata` VALUES ('18052', '南昌市', '7501', 'area', '7501', '1');
+INSERT INTO `web_cascadedata` VALUES ('18051', '江西省', '7500', 'area', '7500', '0');
+INSERT INTO `web_cascadedata` VALUES ('18050', '福鼎市', '7009.9', 'area', '7010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18049', '福安市', '7009.8', 'area', '7010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18048', '柘荣县', '7009.7', 'area', '7010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18047', '周宁县', '7009.6', 'area', '7010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18046', '寿宁县', '7009.5', 'area', '7010', '2');
+INSERT INTO `web_cascadedata` VALUES ('18045', '屏南县', '7009.4', 'area', '7009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18044', '古田县', '7009.3', 'area', '7009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18043', '霞浦县', '7009.2', 'area', '7009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18042', '蕉城区', '7009.1', 'area', '7009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18041', '宁德市', '7009', 'area', '7009', '1');
+INSERT INTO `web_cascadedata` VALUES ('18040', '漳平市', '7008.7', 'area', '7009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18039', '连城县', '7008.6', 'area', '7009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18038', '武平县', '7008.5', 'area', '7009', '2');
+INSERT INTO `web_cascadedata` VALUES ('18037', '上杭县', '7008.4', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18036', '永定县', '7008.3', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18035', '长汀县', '7008.2', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18034', '新罗区', '7008.1', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18033', '龙岩市', '7008', 'area', '7008', '1');
+INSERT INTO `web_cascadedata` VALUES ('18032', '建阳市', '7007.10', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18031', '建瓯市', '7007.9', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18030', '武夷山市', '7007.8', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18029', '邵武市', '7007.7', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18028', '政和县', '7007.6', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18027', '松溪县', '7007.5', 'area', '7008', '2');
+INSERT INTO `web_cascadedata` VALUES ('18026', '光泽县', '7007.4', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18025', '浦城县', '7007.3', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18024', '顺昌县', '7007.2', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18023', '延平区', '7007.1', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18022', '南平市', '7007', 'area', '7007', '1');
+INSERT INTO `web_cascadedata` VALUES ('18021', '龙海市', '7006.11', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18020', '华安县', '7006.10', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18019', '平和县', '7006.9', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18018', '南靖县', '7006.8', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18017', '东山县', '7006.7', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18016', '长泰县', '7006.6', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18015', '诏安县', '7006.5', 'area', '7007', '2');
+INSERT INTO `web_cascadedata` VALUES ('18014', '漳浦县', '7006.4', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18013', '云霄县', '7006.3', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18012', '龙文区', '7006.2', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18011', '芗城区', '7006.1', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18010', '漳州市', '7006', 'area', '7006', '1');
+INSERT INTO `web_cascadedata` VALUES ('18009', '南安市', '7005.12', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18008', '晋江市', '7005.11', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18007', '石狮市', '7005.10', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18006', '金门县', '7005.9', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18005', '德化县', '7005.8', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18004', '永春县', '7005.7', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18003', '安溪县', '7005.6', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18002', '惠安县', '7005.5', 'area', '7006', '2');
+INSERT INTO `web_cascadedata` VALUES ('18001', '泉港区', '7005.4', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('18000', '洛江区', '7005.3', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17999', '丰泽区', '7005.2', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17998', '鲤城区', '7005.1', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17997', '泉州市', '7005', 'area', '7005', '1');
+INSERT INTO `web_cascadedata` VALUES ('17996', '永安市', '7004.12', 'area', '7004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17995', '建宁县', '7004.11', 'area', '7004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17994', '泰宁县', '7004.10', 'area', '7004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17993', '将乐县', '7004.9', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17992', '沙　县', '7004.8', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17991', '尤溪县', '7004.7', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17990', '大田县', '7004.6', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17989', '宁化县', '7004.5', 'area', '7005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17988', '清流县', '7004.4', 'area', '7004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17987', '明溪县', '7004.3', 'area', '7004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17986', '三元区', '7004.2', 'area', '7004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17985', '梅列区', '7004.1', 'area', '7004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17984', '三明市', '7004', 'area', '7004', '1');
+INSERT INTO `web_cascadedata` VALUES ('17983', '仙游县', '7003.5', 'area', '7004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17982', '秀屿区', '7003.4', 'area', '7003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17981', '荔城区', '7003.3', 'area', '7003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17980', '涵江区', '7003.2', 'area', '7003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17979', '城厢区', '7003.1', 'area', '7003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17978', '莆田市', '7003', 'area', '7003', '1');
+INSERT INTO `web_cascadedata` VALUES ('17977', '翔安区', '7002.6', 'area', '7003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17976', '同安区', '7002.5', 'area', '7003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17975', '集美区', '7002.4', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17974', '湖里区', '7002.3', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17973', '海沧区', '7002.2', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17972', '思明区', '7002.1', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17971', '厦门市', '7002', 'area', '7002', '1');
+INSERT INTO `web_cascadedata` VALUES ('17970', '长乐市', '7001.13', 'area', '7001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17969', '福清市', '7001.12', 'area', '7001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17968', '平潭县', '7001.11', 'area', '7001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17967', '永泰县', '7001.10', 'area', '7001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17966', '闽清县', '7001.9', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17965', '罗源县', '7001.8', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17964', '连江县', '7001.7', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17963', '闽侯县', '7001.6', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17962', '晋安区', '7001.5', 'area', '7002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17961', '马尾区', '7001.4', 'area', '7001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17960', '仓山区', '7001.3', 'area', '7001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17959', '台江区', '7001.2', 'area', '7001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17958', '鼓楼区', '7001.1', 'area', '7001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17957', '福州市', '7001', 'area', '7001', '1');
+INSERT INTO `web_cascadedata` VALUES ('17956', '福建省', '7000', 'area', '7000', '0');
+INSERT INTO `web_cascadedata` VALUES ('17955', '宁国市', '6517.7', 'area', '6518', '2');
+INSERT INTO `web_cascadedata` VALUES ('17954', '旌德县', '6517.6', 'area', '6518', '2');
+INSERT INTO `web_cascadedata` VALUES ('17953', '绩溪县', '6517.5', 'area', '6518', '2');
+INSERT INTO `web_cascadedata` VALUES ('17952', '泾　县', '6517.4', 'area', '6517', '2');
+INSERT INTO `web_cascadedata` VALUES ('17951', '广德县', '6517.3', 'area', '6517', '2');
+INSERT INTO `web_cascadedata` VALUES ('17950', '郎溪县', '6517.2', 'area', '6517', '2');
+INSERT INTO `web_cascadedata` VALUES ('17949', '宣州区', '6517.1', 'area', '6517', '2');
+INSERT INTO `web_cascadedata` VALUES ('17948', '宣城市', '6517', 'area', '6517', '1');
+INSERT INTO `web_cascadedata` VALUES ('17947', '青阳县', '6516.4', 'area', '6516', '2');
+INSERT INTO `web_cascadedata` VALUES ('17946', '石台县', '6516.3', 'area', '6516', '2');
+INSERT INTO `web_cascadedata` VALUES ('17945', '东至县', '6516.2', 'area', '6516', '2');
+INSERT INTO `web_cascadedata` VALUES ('17944', '贵池区', '6516.1', 'area', '6516', '2');
+INSERT INTO `web_cascadedata` VALUES ('17943', '池州市', '6516', 'area', '6516', '1');
+INSERT INTO `web_cascadedata` VALUES ('17942', '利辛县', '6515.4', 'area', '6515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17941', '蒙城县', '6515.3', 'area', '6515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17940', '涡阳县', '6515.2', 'area', '6515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17939', '谯城区', '6515.1', 'area', '6515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17938', '亳州市', '6515', 'area', '6515', '1');
+INSERT INTO `web_cascadedata` VALUES ('17937', '霍山县', '6514.7', 'area', '6515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17936', '金寨县', '6514.6', 'area', '6515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17935', '舒城县', '6514.5', 'area', '6515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17934', '霍邱县', '6514.4', 'area', '6514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17933', '寿　县', '6514.3', 'area', '6514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17932', '裕安区', '6514.2', 'area', '6514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17931', '金安区', '6514.1', 'area', '6514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17930', '六安市', '6514', 'area', '6514', '1');
+INSERT INTO `web_cascadedata` VALUES ('17929', '和　县', '6513.5', 'area', '6514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17928', '含山县', '6513.4', 'area', '6513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17927', '无为县', '6513.3', 'area', '6513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17926', '庐江县', '6513.2', 'area', '6513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17925', '居巢区', '6513.1', 'area', '6513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17924', '巢湖市', '6513', 'area', '6513', '1');
+INSERT INTO `web_cascadedata` VALUES ('17923', '泗　县', '6512.5', 'area', '6513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17922', '灵璧县', '6512.4', 'area', '6512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17921', '萧　县', '6512.3', 'area', '6512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17920', '砀山县', '6512.2', 'area', '6512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17919', '墉桥区', '6512.1', 'area', '6512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17918', '宿州市', '6512', 'area', '6512', '1');
+INSERT INTO `web_cascadedata` VALUES ('17917', '界首市', '6511.8', 'area', '6512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17916', '颍上县', '6511.7', 'area', '6512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17915', '阜南县', '6511.6', 'area', '6512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17914', '太和县', '6511.5', 'area', '6512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17913', '临泉县', '6511.4', 'area', '6511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17912', '颍泉区', '6511.3', 'area', '6511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17911', '颍东区', '6511.2', 'area', '6511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17910', '颍州区', '6511.1', 'area', '6511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17909', '阜阳市', '6511', 'area', '6511', '1');
+INSERT INTO `web_cascadedata` VALUES ('17908', '明光市', '6510.8', 'area', '6511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17907', '天长市', '6510.7', 'area', '6511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17906', '凤阳县', '6510.6', 'area', '6511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17905', '定远县', '6510.5', 'area', '6511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17904', '全椒县', '6510.4', 'area', '6510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17903', '来安县', '6510.3', 'area', '6510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17902', '南谯区', '6510.2', 'area', '6510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17901', '琅琊区', '6510.1', 'area', '6510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17900', '滁州市', '6510', 'area', '6510', '1');
+INSERT INTO `web_cascadedata` VALUES ('17899', '祁门县', '6509.7', 'area', '6510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17898', '黟　县', '6509.6', 'area', '6510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17897', '休宁县', '6509.5', 'area', '6510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17896', '歙　县', '6509.4', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17895', '徽州区', '6509.3', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17894', '黄山区', '6509.2', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17893', '屯溪区', '6509.1', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17892', '黄山市', '6509', 'area', '6509', '1');
+INSERT INTO `web_cascadedata` VALUES ('17891', '桐城市', '6508.11', 'area', '6508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17890', '岳西县', '6508.10', 'area', '6508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17889', '望江县', '6508.9', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17888', '宿松县', '6508.8', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17887', '太湖县', '6508.7', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17886', '潜山县', '6508.6', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17885', '枞阳县', '6508.5', 'area', '6509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17884', '怀宁县', '6508.4', 'area', '6508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17883', '郊　区', '6508.3', 'area', '6508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17882', '大观区', '6508.2', 'area', '6508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17881', '迎江区', '6508.1', 'area', '6508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17880', '安庆市', '6508', 'area', '6508', '1');
+INSERT INTO `web_cascadedata` VALUES ('17879', '铜陵县', '6507.4', 'area', '6507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17878', '郊　区', '6507.3', 'area', '6507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17877', '狮子山区', '6507.2', 'area', '6507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17876', '铜官山区', '6507.1', 'area', '6507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17875', '铜陵市', '6507', 'area', '6507', '1');
+INSERT INTO `web_cascadedata` VALUES ('17874', '濉溪县', '6506.4', 'area', '6506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17873', '烈山区', '6506.3', 'area', '6506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17872', '相山区', '6506.2', 'area', '6506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17871', '杜集区', '6506.1', 'area', '6506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17870', '淮北市', '6506', 'area', '6506', '1');
+INSERT INTO `web_cascadedata` VALUES ('17869', '当涂县', '6505.4', 'area', '6505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17868', '雨山区', '6505.3', 'area', '6505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17867', '花山区', '6505.2', 'area', '6505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17866', '金家庄区', '6505.1', 'area', '6505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17865', '马鞍山市', '6505', 'area', '6505', '1');
+INSERT INTO `web_cascadedata` VALUES ('17864', '凤台县', '6504.6', 'area', '6505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17863', '潘集区', '6504.5', 'area', '6505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17862', '八公山区', '6504.4', 'area', '6504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17861', '谢家集区', '6504.3', 'area', '6504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17860', '田家庵区', '6504.2', 'area', '6504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17859', '大通区', '6504.1', 'area', '6504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17858', '淮南市', '6504', 'area', '6504', '1');
+INSERT INTO `web_cascadedata` VALUES ('17857', '固镇县', '6503.7', 'area', '6504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17856', '五河县', '6503.6', 'area', '6504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17855', '怀远县', '6503.5', 'area', '6504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17854', '淮上区', '6503.4', 'area', '6503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17853', '禹会区', '6503.3', 'area', '6503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17852', '蚌山区', '6503.2', 'area', '6503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17851', '龙子湖区', '6503.1', 'area', '6503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17850', '蚌埠市', '6503', 'area', '6503', '1');
+INSERT INTO `web_cascadedata` VALUES ('17849', '南陵县', '6502.7', 'area', '6503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17848', '繁昌县', '6502.6', 'area', '6503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17847', '芜湖县', '6502.5', 'area', '6503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17846', '鸠江区', '6502.4', 'area', '6502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17845', '新芜区', '6502.3', 'area', '6502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17844', '马塘区', '6502.2', 'area', '6502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17843', '镜湖区', '6502.1', 'area', '6502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17842', '芜湖市', '6502', 'area', '6502', '1');
+INSERT INTO `web_cascadedata` VALUES ('17841', '肥西县', '6501.7', 'area', '6502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17840', '肥东县', '6501.6', 'area', '6502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17839', '长丰县', '6501.5', 'area', '6502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17838', '包河区', '6501.4', 'area', '6501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17837', '蜀山区', '6501.3', 'area', '6501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17836', '庐阳区', '6501.2', 'area', '6501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17835', '瑶海区', '6501.1', 'area', '6501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17834', '合肥市', '6501', 'area', '6501', '1');
+INSERT INTO `web_cascadedata` VALUES ('17833', '安徽省', '6500', 'area', '6500', '0');
+INSERT INTO `web_cascadedata` VALUES ('17832', '龙泉市', '6011.9', 'area', '6012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17831', '景宁畲族自治县', '6011.8', 'area', '6012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17830', '庆元县', '6011.7', 'area', '6012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17829', '云和县', '6011.6', 'area', '6012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17828', '松阳县', '6011.5', 'area', '6012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17827', '遂昌县', '6011.4', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17826', '缙云县', '6011.3', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17825', '青田县', '6011.2', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17824', '莲都区', '6011.1', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17823', '丽水市', '6011', 'area', '6011', '1');
+INSERT INTO `web_cascadedata` VALUES ('17822', '临海市', '6010.9', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17821', '温岭市', '6010.8', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17820', '仙居县', '6010.7', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17819', '天台县', '6010.6', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17818', '三门县', '6010.5', 'area', '6011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17817', '玉环县', '6010.4', 'area', '6010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17816', '路桥区', '6010.3', 'area', '6010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17815', '黄岩区', '6010.2', 'area', '6010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17814', '椒江区', '6010.1', 'area', '6010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17813', '台州市', '6010', 'area', '6010', '1');
+INSERT INTO `web_cascadedata` VALUES ('17812', '嵊泗县', '6009.4', 'area', '6009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17811', '岱山县', '6009.3', 'area', '6009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17810', '普陀区', '6009.2', 'area', '6009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17809', '定海区', '6009.1', 'area', '6009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17808', '舟山市', '6009', 'area', '6009', '1');
+INSERT INTO `web_cascadedata` VALUES ('17807', '江山市', '6008.6', 'area', '6009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17806', '龙游县', '6008.5', 'area', '6009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17805', '开化县', '6008.4', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17804', '常山县', '6008.3', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17803', '衢江区', '6008.2', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17802', '柯城区', '6008.1', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17801', '衢州市', '6008', 'area', '6008', '1');
+INSERT INTO `web_cascadedata` VALUES ('17800', '永康市', '6007.9', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17799', '东阳市', '6007.8', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17798', '义乌市', '6007.7', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17797', '兰溪市', '6007.6', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17796', '磐安县', '6007.5', 'area', '6008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17795', '浦江县', '6007.4', 'area', '6007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17794', '武义县', '6007.3', 'area', '6007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17793', '金东区', '6007.2', 'area', '6007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17792', '婺城区', '6007.1', 'area', '6007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17791', '金华市', '6007', 'area', '6007', '1');
+INSERT INTO `web_cascadedata` VALUES ('17790', '嵊州市', '6006.6', 'area', '6007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17789', '上虞市', '6006.5', 'area', '6007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17788', '诸暨市', '6006.4', 'area', '6006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17787', '新昌县', '6006.3', 'area', '6006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17786', '绍兴县', '6006.2', 'area', '6006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17785', '越城区', '6006.1', 'area', '6006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17784', '绍兴市', '6006', 'area', '6006', '1');
+INSERT INTO `web_cascadedata` VALUES ('17783', '安吉县', '6005.5', 'area', '6006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17782', '长兴县', '6005.4', 'area', '6005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17781', '德清县', '6005.3', 'area', '6005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17780', '南浔区', '6005.2', 'area', '6005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17779', '吴兴区', '6005.1', 'area', '6005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17778', '湖州市', '6005', 'area', '6005', '1');
+INSERT INTO `web_cascadedata` VALUES ('17777', '桐乡市', '6004.7', 'area', '6005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17776', '平湖市', '6004.6', 'area', '6005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17775', '海宁市', '6004.5', 'area', '6005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17774', '海盐县', '6004.4', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17773', '嘉善县', '6004.3', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17772', '秀洲区', '6004.2', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17771', '秀城区', '6004.1', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17770', '嘉兴市', '6004', 'area', '6004', '1');
+INSERT INTO `web_cascadedata` VALUES ('17769', '乐清市', '6003.11', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17768', '瑞安市', '6003.10', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17767', '泰顺县', '6003.9', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17766', '文成县', '6003.8', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17765', '苍南县', '6003.7', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17764', '平阳县', '6003.6', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17763', '永嘉县', '6003.5', 'area', '6004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17762', '洞头县', '6003.4', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17761', '瓯海区', '6003.3', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17760', '龙湾区', '6003.2', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17759', '鹿城区', '6003.1', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17758', '温州市', '6003', 'area', '6003', '1');
+INSERT INTO `web_cascadedata` VALUES ('17757', '奉化市', '6002.11', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17756', '慈溪市', '6002.10', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17755', '余姚市', '6002.9', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17754', '宁海县', '6002.8', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17753', '象山县', '6002.7', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17752', '鄞州区', '6002.6', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17751', '镇海区', '6002.5', 'area', '6003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17750', '北仑区', '6002.4', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17749', '江北区', '6002.3', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17748', '江东区', '6002.2', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17747', '海曙区', '6002.1', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17746', '宁波市', '6002', 'area', '6002', '1');
+INSERT INTO `web_cascadedata` VALUES ('17745', '临安市', '6001.13', 'area', '6001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17744', '富阳市', '6001.12', 'area', '6001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17743', '建德市', '6001.11', 'area', '6001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17742', '淳安县', '6001.10', 'area', '6001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17741', '桐庐县', '6001.9', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17740', '余杭区', '6001.8', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17739', '萧山区', '6001.7', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17738', '滨江区', '6001.6', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17737', '西湖区', '6001.5', 'area', '6002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17736', '拱墅区', '6001.4', 'area', '6001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17735', '江干区', '6001.3', 'area', '6001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17734', '下城区', '6001.2', 'area', '6001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17733', '上城区', '6001.1', 'area', '6001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17732', '杭州市', '6001', 'area', '6001', '1');
+INSERT INTO `web_cascadedata` VALUES ('17731', '浙江省', '6000', 'area', '6000', '0');
+INSERT INTO `web_cascadedata` VALUES ('17730', '泗洪县', '5513.5', 'area', '5514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17729', '泗阳县', '5513.4', 'area', '5513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17728', '沭阳县', '5513.3', 'area', '5513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17727', '宿豫区', '5513.2', 'area', '5513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17726', '宿城区', '5513.1', 'area', '5513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17725', '宿迁市', '5513', 'area', '5513', '1');
+INSERT INTO `web_cascadedata` VALUES ('17724', '姜堰市', '5512.6', 'area', '5513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17723', '泰兴市', '5512.5', 'area', '5513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17722', '靖江市', '5512.4', 'area', '5512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17721', '兴化市', '5512.3', 'area', '5512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17720', '高港区', '5512.2', 'area', '5512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17719', '海陵区', '5512.1', 'area', '5512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17718', '泰州市', '5512', 'area', '5512', '1');
+INSERT INTO `web_cascadedata` VALUES ('17717', '句容市', '5511.6', 'area', '5512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17716', '扬中市', '5511.5', 'area', '5512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17715', '丹阳市', '5511.4', 'area', '5511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17714', '丹徒区', '5511.3', 'area', '5511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17713', '润州区', '5511.2', 'area', '5511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17712', '京口区', '5511.1', 'area', '5511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17711', '镇江市', '5511', 'area', '5511', '1');
+INSERT INTO `web_cascadedata` VALUES ('17710', '江都市', '5510.7', 'area', '5511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17709', '高邮市', '5510.6', 'area', '5511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17708', '仪征市', '5510.5', 'area', '5511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17707', '宝应县', '5510.4', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17706', '郊　区', '5510.3', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17705', '邗江区', '5510.2', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17704', '广陵区', '5510.1', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17703', '扬州市', '5510', 'area', '5510', '1');
+INSERT INTO `web_cascadedata` VALUES ('17702', '大丰市', '5509.9', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17701', '东台市', '5509.8', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17700', '建湖县', '5509.7', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17699', '射阳县', '5509.6', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17698', '阜宁县', '5509.5', 'area', '5510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17697', '滨海县', '5509.4', 'area', '5509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17696', '响水县', '5509.3', 'area', '5509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17695', '盐都区', '5509.2', 'area', '5509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17694', '亭湖区', '5509.1', 'area', '5509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17693', '盐城市', '5509', 'area', '5509', '1');
+INSERT INTO `web_cascadedata` VALUES ('17692', '金湖县', '5508.8', 'area', '5509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17691', '盱眙县', '5508.7', 'area', '5509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17690', '洪泽县', '5508.6', 'area', '5509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17689', '涟水县', '5508.5', 'area', '5509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17688', '清浦区', '5508.4', 'area', '5508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17687', '淮阴区', '5508.3', 'area', '5508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17686', '楚州区', '5508.2', 'area', '5508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17685', '清河区', '5508.1', 'area', '5508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17684', '淮安市', '5508', 'area', '5508', '1');
+INSERT INTO `web_cascadedata` VALUES ('17683', '灌南县', '5507.7', 'area', '5508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17682', '灌云县', '5507.6', 'area', '5508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17681', '东海县', '5507.5', 'area', '5508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17680', '赣榆县', '5507.4', 'area', '5507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17679', '海州区', '5507.3', 'area', '5507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17678', '新浦区', '5507.2', 'area', '5507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17677', '连云区', '5507.1', 'area', '5507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17676', '连云港市', '5507', 'area', '5507', '1');
+INSERT INTO `web_cascadedata` VALUES ('17675', '海门市', '5506.8', 'area', '5507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17674', '通州市', '5506.7', 'area', '5507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17673', '如皋市', '5506.6', 'area', '5507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17672', '启东市', '5506.5', 'area', '5507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17671', '如东县', '5506.4', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17670', '海安县', '5506.3', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17669', '港闸区', '5506.2', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17668', '崇川区', '5506.1', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17667', '南通市', '5506', 'area', '5506', '1');
+INSERT INTO `web_cascadedata` VALUES ('17666', '太仓市', '5505.11', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17665', '吴江市', '5505.10', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17664', '昆山市', '5505.9', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17663', '张家港市', '5505.8', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17662', '常熟市', '5505.7', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17661', '相城区', '5505.6', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17660', '吴中区', '5505.5', 'area', '5506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17659', '虎丘区', '5505.4', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17658', '金阊区', '5505.3', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17657', '平江区', '5505.2', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17656', '沧浪区', '5505.1', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17655', '苏州市', '5505', 'area', '5505', '1');
+INSERT INTO `web_cascadedata` VALUES ('17654', '金坛市', '5504.7', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17653', '溧阳市', '5504.6', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17652', '武进区', '5504.5', 'area', '5505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17651', '新北区', '5504.4', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17650', '戚墅堰区', '5504.3', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17649', '钟楼区', '5504.2', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17648', '天宁区', '5504.1', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17647', '常州市', '5504', 'area', '5504', '1');
+INSERT INTO `web_cascadedata` VALUES ('17646', '邳州市', '5503.11', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17645', '新沂市', '5503.10', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17644', '睢宁县', '5503.9', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17643', '铜山县', '5503.8', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17642', '沛　县', '5503.7', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17641', '丰　县', '5503.6', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17640', '泉山区', '5503.5', 'area', '5504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17639', '贾汪区', '5503.4', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17638', '九里区', '5503.3', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17637', '云龙区', '5503.2', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17636', '鼓楼区', '5503.1', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17635', '徐州市', '5503', 'area', '5503', '1');
+INSERT INTO `web_cascadedata` VALUES ('17634', '宜兴市', '5502.8', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17633', '江阴市', '5502.7', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17632', '滨湖区', '5502.6', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17631', '惠山区', '5502.5', 'area', '5503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17630', '锡山区', '5502.4', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17629', '北塘区', '5502.3', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17628', '南长区', '5502.2', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17627', '崇安区', '5502.1', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17626', '无锡市', '5502', 'area', '5502', '1');
+INSERT INTO `web_cascadedata` VALUES ('17625', '高淳县', '5501.13', 'area', '5501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17624', '溧水县', '5501.12', 'area', '5501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17623', '六合区', '5501.11', 'area', '5501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17622', '江宁区', '5501.10', 'area', '5501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17621', '雨花台区', '5501.9', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17620', '栖霞区', '5501.8', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17619', '浦口区', '5501.7', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17618', '下关区', '5501.6', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17617', '鼓楼区', '5501.5', 'area', '5502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17616', '建邺区', '5501.4', 'area', '5501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17615', '秦淮区', '5501.3', 'area', '5501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17614', '白下区', '5501.2', 'area', '5501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17613', '武区', '5501.1', 'area', '5501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17612', '南京市', '5501', 'area', '5501', '1');
+INSERT INTO `web_cascadedata` VALUES ('17611', '江苏省', '5500', 'area', '5500', '0');
+INSERT INTO `web_cascadedata` VALUES ('17610', '崇明县', '5019', 'area', '5019', '1');
+INSERT INTO `web_cascadedata` VALUES ('17609', '奉贤区', '5018', 'area', '5018', '1');
+INSERT INTO `web_cascadedata` VALUES ('17608', '南汇区', '5017', 'area', '5017', '1');
+INSERT INTO `web_cascadedata` VALUES ('17607', '青浦区', '5016', 'area', '5016', '1');
+INSERT INTO `web_cascadedata` VALUES ('17606', '松江区', '5015', 'area', '5015', '1');
+INSERT INTO `web_cascadedata` VALUES ('17605', '金山区', '5014', 'area', '5014', '1');
+INSERT INTO `web_cascadedata` VALUES ('17604', '浦东新区', '5013', 'area', '5013', '1');
+INSERT INTO `web_cascadedata` VALUES ('17603', '嘉定区', '5012', 'area', '5012', '1');
+INSERT INTO `web_cascadedata` VALUES ('17602', '宝山区', '5011', 'area', '5011', '1');
+INSERT INTO `web_cascadedata` VALUES ('17601', '闵行区', '5010', 'area', '5010', '1');
+INSERT INTO `web_cascadedata` VALUES ('17600', '杨浦区', '5009', 'area', '5009', '1');
+INSERT INTO `web_cascadedata` VALUES ('17599', '虹口区', '5008', 'area', '5008', '1');
+INSERT INTO `web_cascadedata` VALUES ('17598', '闸北区', '5007', 'area', '5007', '1');
+INSERT INTO `web_cascadedata` VALUES ('17597', '普陀区', '5006', 'area', '5006', '1');
+INSERT INTO `web_cascadedata` VALUES ('17596', '静安区', '5005', 'area', '5005', '1');
+INSERT INTO `web_cascadedata` VALUES ('17595', '长宁区', '5004', 'area', '5004', '1');
+INSERT INTO `web_cascadedata` VALUES ('17594', '徐汇区', '5003', 'area', '5003', '1');
+INSERT INTO `web_cascadedata` VALUES ('17593', '卢湾区', '5002', 'area', '5002', '1');
+INSERT INTO `web_cascadedata` VALUES ('17592', '黄浦区', '5001', 'area', '5001', '1');
+INSERT INTO `web_cascadedata` VALUES ('17591', '上海市', '5000', 'area', '5000', '0');
+INSERT INTO `web_cascadedata` VALUES ('17590', '漠河县', '4513.3', 'area', '4513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17589', '塔河县', '4513.2', 'area', '4513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17588', '呼玛县', '4513.1', 'area', '4513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17587', '大兴安岭地区', '4513', 'area', '4513', '1');
+INSERT INTO `web_cascadedata` VALUES ('17586', '海伦市', '4512.10', 'area', '4512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17585', '肇东市', '4512.9', 'area', '4513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17584', '安达市', '4512.8', 'area', '4513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17583', '绥棱县', '4512.7', 'area', '4513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17582', '明水县', '4512.6', 'area', '4513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17581', '庆安县', '4512.5', 'area', '4513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17580', '青冈县', '4512.4', 'area', '4512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17579', '兰西县', '4512.3', 'area', '4512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17578', '望奎县', '4512.2', 'area', '4512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17577', '北林区', '4512.1', 'area', '4512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17576', '绥化市', '4512', 'area', '4512', '1');
+INSERT INTO `web_cascadedata` VALUES ('17575', '五大连池市', '4511.6', 'area', '4512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17574', '北安市', '4511.5', 'area', '4512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17573', '孙吴县', '4511.4', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17572', '逊克县', '4511.3', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17571', '嫩江县', '4511.2', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17570', '爱辉区', '4511.1', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17569', '黑河市', '4511', 'area', '4511', '1');
+INSERT INTO `web_cascadedata` VALUES ('17568', '穆棱市', '4510.10', 'area', '4510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17567', '宁安市', '4510.9', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17566', '海林市', '4510.8', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17565', '绥芬河市', '4510.7', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17564', '林口县', '4510.6', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17563', '东宁县', '4510.5', 'area', '4511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17562', '西安区', '4510.4', 'area', '4510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17561', '爱民区', '4510.3', 'area', '4510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17560', '阳明区', '4510.2', 'area', '4510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17559', '东安区', '4510.1', 'area', '4510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17558', '牡丹江市', '4510', 'area', '4510', '1');
+INSERT INTO `web_cascadedata` VALUES ('17557', '勃利县', '4509.4', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17556', '茄子河区', '4509.3', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17555', '桃山区', '4509.2', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17554', '新兴区', '4509.1', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17553', '七台河市', '4509', 'area', '4509', '1');
+INSERT INTO `web_cascadedata` VALUES ('17552', '富锦市', '4508.11', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17551', '同江市', '4508.10', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17550', '抚远县', '4508.9', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17549', '汤原县', '4508.8', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17548', '桦川县', '4508.7', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17547', '桦南县', '4508.6', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17546', '郊　区', '4508.5', 'area', '4509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17545', '东风区', '4508.4', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17544', '前进区', '4508.3', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17543', '向阳区', '4508.2', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17542', '永红区', '4508.1', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17541', '佳木斯市', '4508', 'area', '4508', '1');
+INSERT INTO `web_cascadedata` VALUES ('17540', '铁力市', '4507.17', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17539', '嘉荫县', '4507.16', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17538', '上甘岭区', '4507.15', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17537', '红星区', '4507.14', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17536', '乌伊岭区', '4507.13', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17535', '带岭区', '4507.12', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17534', '汤旺河区', '4507.11', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17533', '乌马河区', '4507.10', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17532', '五营区', '4507.9', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17531', '金山屯区', '4507.8', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17530', '美溪区', '4507.7', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17529', '新青区', '4507.6', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17528', '翠峦区', '4507.5', 'area', '4508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17527', '西林区', '4507.4', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17526', '友好区', '4507.3', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17525', '南岔区', '4507.2', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17524', '伊春区', '4507.1', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17523', '伊春市', '4507', 'area', '4507', '1');
+INSERT INTO `web_cascadedata` VALUES ('17522', '杜尔伯特蒙古族自治县', '4506.9', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17521', '林甸县', '4506.8', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17520', '肇源县', '4506.7', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17519', '肇州县', '4506.6', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17518', '大同区', '4506.5', 'area', '4507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17517', '红岗区', '4506.4', 'area', '4506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17516', '让胡路区', '4506.3', 'area', '4506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17515', '龙凤区', '4506.2', 'area', '4506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17514', '萨尔图区', '4506.1', 'area', '4506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17513', '大庆市', '4506', 'area', '4506', '1');
+INSERT INTO `web_cascadedata` VALUES ('17512', '饶河县', '4505.8', 'area', '4506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17511', '宝清县', '4505.7', 'area', '4506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17510', '友谊县', '4505.6', 'area', '4506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17509', '集贤县', '4505.5', 'area', '4506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17508', '宝山区', '4505.4', 'area', '4505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17507', '四方台区', '4505.3', 'area', '4505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17506', '岭东区', '4505.2', 'area', '4505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17505', '尖山区', '4505.1', 'area', '4505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17504', '双鸭山市', '4505', 'area', '4505', '1');
+INSERT INTO `web_cascadedata` VALUES ('17503', '绥滨县', '4504.8', 'area', '4505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17502', '萝北县', '4504.7', 'area', '4505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17501', '兴山区', '4504.6', 'area', '4505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17500', '东山区', '4504.5', 'area', '4505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17499', '兴安区', '4504.4', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17498', '南山区', '4504.3', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17497', '工农区', '4504.2', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17496', '向阳区', '4504.1', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17495', '鹤岗市', '4504', 'area', '4504', '1');
+INSERT INTO `web_cascadedata` VALUES ('17494', '密山市', '4503.9', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17493', '虎林市', '4503.8', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17492', '鸡东县', '4503.7', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17491', '麻山区', '4503.6', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17490', '城子河区', '4503.5', 'area', '4504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17489', '梨树区', '4503.4', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17488', '滴道区', '4503.3', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17487', '恒山区', '4503.2', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17486', '鸡冠区', '4503.1', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17485', '鸡西市', '4503', 'area', '4503', '1');
+INSERT INTO `web_cascadedata` VALUES ('17484', '讷河市', '4502.15', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17483', '拜泉县', '4502.14', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17482', '克东县', '4502.13', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17481', '克山县', '4502.12', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17480', '富裕县', '4502.11', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17479', '甘南县', '4502.10', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17478', '泰来县', '4502.9', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17477', '龙江县 依安县', '4502.8', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17476', '梅里斯达斡尔族区', '4502.7', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17475', '碾子山区', '4502.6', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17474', '富拉尔基区', '4502.5', 'area', '4503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17473', '昂昂溪区', '4502.4', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17472', '铁锋区', '4502.3', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17471', '建华区', '4502.2', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17470', '龙沙区', '4502.1', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17469', '齐齐哈尔市', '4502', 'area', '4502', '1');
+INSERT INTO `web_cascadedata` VALUES ('17468', '五常市', '4501.19', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17467', '尚志市', '4501.18', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17466', '双城市', '4501.17', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17465', '阿城市', '4501.16', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17464', '延寿县', '4501.15', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17463', '通河县', '4501.14', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17462', '木兰县', '4501.13', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17461', '巴彦县', '4501.12', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17460', '宾　县', '4501.11', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17459', '方正县', '4501.10', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17458', '依兰县', '4501.9', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17457', '呼兰区', '4501.8', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17456', '松北区', '4501.7', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17455', '平房区', '4501.6', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17454', '动力区', '4501.5', 'area', '4502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17453', '香坊区', '4501.4', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17452', '道外区', '4501.3', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17451', '南岗区', '4501.2', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17450', '道里区', '4501.1', 'area', '4501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17449', '哈尔滨市', '4501', 'area', '4501', '1');
+INSERT INTO `web_cascadedata` VALUES ('17448', '黑龙江省', '4500', 'area', '4500', '0');
+INSERT INTO `web_cascadedata` VALUES ('17447', '安图县', '4009.8', 'area', '4010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17446', '汪清县', '4009.7', 'area', '4010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17445', '和龙市', '4009.6', 'area', '4010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17444', '龙井市', '4009.5', 'area', '4010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17443', '珲春市', '4009.4', 'area', '4009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17442', '敦化市', '4009.3', 'area', '4009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17441', '图们市', '4009.2', 'area', '4009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17440', '延吉市', '4009.1', 'area', '4009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17439', '延边朝鲜族自治州', '4009', 'area', '4009', '1');
+INSERT INTO `web_cascadedata` VALUES ('17438', '大安市', '4008.5', 'area', '4009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17437', '洮南市', '4008.4', 'area', '4008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17436', '通榆县', '4008.3', 'area', '4008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17435', '镇赉县', '4008.2', 'area', '4008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17434', '洮北区', '4008.1', 'area', '4008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17433', '白城市', '4008', 'area', '4008', '1');
+INSERT INTO `web_cascadedata` VALUES ('17432', '扶余县', '4007.5', 'area', '4008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17431', '乾安县', '4007.4', 'area', '4007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17430', '长岭县', '4007.3', 'area', '4007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17429', '前郭尔罗斯蒙古族自治县', '4007.2', 'area', '4007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17428', '宁江区', '4007.1', 'area', '4007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17427', '松原市', '4007', 'area', '4007', '1');
+INSERT INTO `web_cascadedata` VALUES ('17426', '临江市', '4006.6', 'area', '4007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17425', '江源县', '4006.5', 'area', '4007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17424', '长白朝鲜族自治县', '4006.4', 'area', '4006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17423', '靖宇县', '4006.3', 'area', '4006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17422', '抚松县', '4006.2', 'area', '4006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17421', '八道江区', '4006.1', 'area', '4006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17420', '白山市', '4006', 'area', '4006', '1');
+INSERT INTO `web_cascadedata` VALUES ('17419', '集安市', '4005.7', 'area', '4006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17418', '梅河口市', '4005.6', 'area', '4006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17417', '柳河县', '4005.5', 'area', '4006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17416', '辉南县', '4005.4', 'area', '4005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17415', '通化县', '4005.3', 'area', '4005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17414', '二道江区', '4005.2', 'area', '4005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17413', '东昌区', '4005.1', 'area', '4005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17412', '通化市', '4005', 'area', '4005', '1');
+INSERT INTO `web_cascadedata` VALUES ('17411', '东辽县', '4004.4', 'area', '4004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17410', '东丰县', '4004.3', 'area', '4004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17409', '西安区', '4004.2', 'area', '4004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17408', '龙山区', '4004.1', 'area', '4004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17407', '辽源市', '4004', 'area', '4004', '1');
+INSERT INTO `web_cascadedata` VALUES ('17406', '双辽市', '4003.6', 'area', '4004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17405', '公主岭市', '4003.5', 'area', '4004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17404', '伊通满族自治县', '4003.4', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17403', '梨树县', '4003.3', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17402', '铁东区', '4003.2', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17401', '铁西区', '4003.1', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17400', '四平市', '4003', 'area', '4003', '1');
+INSERT INTO `web_cascadedata` VALUES ('17399', '磐石市', '4002.9', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17398', '舒兰市', '4002.8', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17397', '桦甸市', '4002.7', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17396', '蛟河市', '4002.6', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17395', '永吉县', '4002.5', 'area', '4003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17394', '丰满区', '4002.4', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17393', '船营区', '4002.3', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17392', '龙潭区', '4002.2', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17391', '昌邑区', '4002.1', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17390', '吉林市', '4002', 'area', '4002', '1');
+INSERT INTO `web_cascadedata` VALUES ('17389', '德惠市', '4001.10', 'area', '4001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17388', '榆树市', '4001.9', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17387', '九台市', '4001.8', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17386', '农安县', '4001.7', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17385', '双阳区', '4001.6', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17384', '绿园区', '4001.5', 'area', '4002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17383', '二道区', '4001.4', 'area', '4001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17382', '朝阳区', '4001.3', 'area', '4001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17381', '宽城区', '4001.2', 'area', '4001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17380', '南关区', '4001.1', 'area', '4001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17379', '长春市', '4001', 'area', '4001', '1');
+INSERT INTO `web_cascadedata` VALUES ('17378', '吉林省', '4000', 'area', '4000', '0');
+INSERT INTO `web_cascadedata` VALUES ('17377', '兴城市', '3514.6', 'area', '3515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17376', '建昌县', '3514.5', 'area', '3515', '2');
+INSERT INTO `web_cascadedata` VALUES ('17375', '绥中县', '3514.4', 'area', '3514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17374', '南票区', '3514.3', 'area', '3514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17373', '龙港区', '3514.2', 'area', '3514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17372', '连山区', '3514.1', 'area', '3514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17371', '葫芦岛市', '3514', 'area', '3514', '1');
+INSERT INTO `web_cascadedata` VALUES ('17370', '凌源市', '3513.7', 'area', '3514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17369', '北票市', '3513.6', 'area', '3514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17368', '喀喇沁左翼蒙古族自治县', '3513.5', 'area', '3514', '2');
+INSERT INTO `web_cascadedata` VALUES ('17367', '建平县', '3513.4', 'area', '3513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17366', '朝阳县', '3513.3', 'area', '3513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17365', '龙城区', '3513.2', 'area', '3513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17364', '双塔区', '3513.1', 'area', '3513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17363', '朝阳市', '3513', 'area', '3513', '1');
+INSERT INTO `web_cascadedata` VALUES ('17362', '开原市', '3512.7', 'area', '3513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17361', '调兵山市', '3512.6', 'area', '3513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17360', '昌图县', '3512.5', 'area', '3513', '2');
+INSERT INTO `web_cascadedata` VALUES ('17359', '西丰县', '3512.4', 'area', '3512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17358', '铁岭县', '3512.3', 'area', '3512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17357', '清河区', '3512.2', 'area', '3512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17356', '银州区', '3512.1', 'area', '3512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17355', '铁岭市', '3512', 'area', '3512', '1');
+INSERT INTO `web_cascadedata` VALUES ('17354', '盘山县', '3511.4', 'area', '3511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17353', '大洼县', '3511.3', 'area', '3511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17352', '兴隆台区', '3511.2', 'area', '3511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17351', '双台子区', '3511.1', 'area', '3511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17350', '盘锦市', '3511', 'area', '3511', '1');
+INSERT INTO `web_cascadedata` VALUES ('17349', '灯塔市', '3510.7', 'area', '3511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17348', '辽阳县', '3510.6', 'area', '3511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17347', '太子河区', '3510.5', 'area', '3511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17346', '弓长岭区', '3510.4', 'area', '3510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17345', '宏伟区', '3510.3', 'area', '3510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17344', '文圣区', '3510.2', 'area', '3510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17343', '白塔区', '3510.1', 'area', '3510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17342', '辽阳市', '3510', 'area', '3510', '1');
+INSERT INTO `web_cascadedata` VALUES ('17341', '彰武县', '3509.7', 'area', '3510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17340', '阜新蒙古族自治县', '3509.6', 'area', '3510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17339', '细河区', '3509.5', 'area', '3510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17338', '清河门区', '3509.4', 'area', '3509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17337', '太平区', '3509.3', 'area', '3509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17336', '新邱区', '3509.2', 'area', '3509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17335', '海州区', '3509.1', 'area', '3509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17334', '阜新市', '3509', 'area', '3509', '1');
+INSERT INTO `web_cascadedata` VALUES ('17333', '大石桥市', '3508.6', 'area', '3509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17332', '盖州市', '3508.5', 'area', '3509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17331', '老边区', '3508.4', 'area', '3508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17330', '鲅鱼圈区', '3508.3', 'area', '3508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17329', '西市区', '3508.2', 'area', '3508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17328', '站前区', '3508.1', 'area', '3508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17327', '营口市', '3508', 'area', '3508', '1');
+INSERT INTO `web_cascadedata` VALUES ('17326', '北宁市', '3507.7', 'area', '3508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17325', '凌海市', '3507.6', 'area', '3508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17324', '义　县', '3507.5', 'area', '3508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17323', '黑山县', '3507.4', 'area', '3507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17322', '太和区', '3507.3', 'area', '3507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17321', '凌河区', '3507.2', 'area', '3507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17320', '古塔区', '3507.1', 'area', '3507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17319', '锦州市', '3507', 'area', '3507', '1');
+INSERT INTO `web_cascadedata` VALUES ('17318', '凤城市', '3506.6', 'area', '3507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17317', '东港市', '3506.5', 'area', '3507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17316', '宽甸满族自治县', '3506.4', 'area', '3506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17315', '振安区', '3506.3', 'area', '3506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17314', '振兴区', '3506.2', 'area', '3506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17313', '元宝区', '3506.1', 'area', '3506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17312', '丹东市', '3506', 'area', '3506', '1');
+INSERT INTO `web_cascadedata` VALUES ('17311', '桓仁满族自治县', '3505.6', 'area', '3506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17310', '本溪满族自治县', '3505.5', 'area', '3506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17309', '南芬区', '3505.4', 'area', '3505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17308', '明山区', '3505.3', 'area', '3505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17307', '溪湖区', '3505.2', 'area', '3505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17306', '平山区', '3505.1', 'area', '3505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17305', '本溪市', '3505', 'area', '3505', '1');
+INSERT INTO `web_cascadedata` VALUES ('17304', '清原满族自治县', '3504.7', 'area', '3505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17303', '新宾满族自治县', '3504.6', 'area', '3505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17302', '抚顺县', '3504.5', 'area', '3505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17301', '顺城区', '3504.4', 'area', '3504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17300', '望花区', '3504.3', 'area', '3504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17299', '东洲区', '3504.2', 'area', '3504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17298', '新抚区', '3504.1', 'area', '3504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17297', '抚顺市', '3504', 'area', '3504', '1');
+INSERT INTO `web_cascadedata` VALUES ('17296', '海城市', '3503.7', 'area', '3504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17295', '岫岩满族自治县', '3503.6', 'area', '3504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17294', '台安县', '3503.5', 'area', '3504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17293', '千山区', '3503.4', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17292', '立山区', '3503.3', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17291', '铁西区', '3503.2', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17290', '铁东区', '3503.1', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17289', '鞍山市', '3503', 'area', '3503', '1');
+INSERT INTO `web_cascadedata` VALUES ('17288', '庄河市', '3502.10', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17287', '普兰店市', '3502.9', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17286', '瓦房店市', '3502.8', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17285', '长海县', '3502.7', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17284', '金州区', '3502.6', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17283', '旅顺口区', '3502.5', 'area', '3503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17282', '甘井子区', '3502.4', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17281', '沙河口区', '3502.3', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17280', '西岗区', '3502.2', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17279', '中山区', '3502.1', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17278', '大连市', '3502', 'area', '3502', '1');
+INSERT INTO `web_cascadedata` VALUES ('17277', '新民市', '3501.13', 'area', '3501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17276', '法库县', '3501.12', 'area', '3501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17275', '康平县', '3501.11', 'area', '3501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17274', '辽中县', '3501.10', 'area', '3501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17273', '于洪区', '3501.9', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17272', '新城子区', '3501.8', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17271', '东陵区', '3501.7', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17270', '苏家屯区', '3501.6', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17269', '铁西区', '3501.5', 'area', '3502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17268', '皇姑区', '3501.4', 'area', '3501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17267', '大东区', '3501.3', 'area', '3501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17266', '沈河区', '3501.2', 'area', '3501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17265', '和平区', '3501.1', 'area', '3501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17264', '沈阳市', '3501', 'area', '3501', '1');
+INSERT INTO `web_cascadedata` VALUES ('17263', '辽宁省', '3500', 'area', '3500', '0');
+INSERT INTO `web_cascadedata` VALUES ('17262', '额济纳旗', '3012.3', 'area', '3012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17261', '阿拉善右旗', '3012.2', 'area', '3012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17260', '阿拉善左旗', '3012.1', 'area', '3012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17259', '阿拉善盟', '3012', 'area', '3012', '1');
+INSERT INTO `web_cascadedata` VALUES ('17258', '多伦县', '3011.12', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17257', '正蓝旗', '3011.11', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17256', '正镶白旗', '3011.10', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17255', '镶黄旗', '3011.9', 'area', '3012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17254', '太仆寺旗', '3011.8', 'area', '3012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17253', '西乌珠穆沁旗', '3011.7', 'area', '3012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17252', '东乌珠穆沁旗', '3011.6', 'area', '3012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17251', '苏尼特右旗', '3011.5', 'area', '3012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17250', '苏尼特左旗', '3011.4', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17249', '阿巴嘎旗', '3011.3', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17248', '锡林浩特市', '3011.2', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17247', '二连浩特市', '3011.1', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17246', '锡林郭勒盟', '3011', 'area', '3011', '1');
+INSERT INTO `web_cascadedata` VALUES ('17245', '突泉县', '3010.6', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17244', '扎赉特旗', '3010.5', 'area', '3011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17243', '科尔沁右翼中旗', '3010.4', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17242', '科尔沁右翼前旗', '3010.3', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17241', '阿尔山市', '3010.2', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17240', '乌兰浩特市', '3010.1', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17239', '兴安盟', '3010', 'area', '3010', '1');
+INSERT INTO `web_cascadedata` VALUES ('17238', '丰镇市', '3009.11', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17237', '四子王旗', '3009.10', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17236', '察哈尔右翼后旗', '3009.9', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17235', '察哈尔右翼中旗', '3009.8', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17234', '察哈尔右翼前旗', '3009.7', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17233', '凉城县', '3009.6', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17232', '兴和县', '3009.5', 'area', '3010', '2');
+INSERT INTO `web_cascadedata` VALUES ('17231', '商都县', '3009.4', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17230', '化德县', '3009.3', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17229', '卓资县', '3009.2', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17228', '集宁区', '3009.1', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17227', '乌兰察布市', '3009', 'area', '3009', '1');
+INSERT INTO `web_cascadedata` VALUES ('17226', '杭锦后旗', '3008.7', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17225', '乌拉特后旗', '3008.6', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17224', '乌拉特中旗', '3008.5', 'area', '3009', '2');
+INSERT INTO `web_cascadedata` VALUES ('17223', '乌拉特前旗', '3008.4', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17222', '磴口县', '3008.3', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17221', '五原县', '3008.2', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17220', '临河区', '3008.1', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17219', '巴彦淖尔市', '3008', 'area', '3008', '1');
+INSERT INTO `web_cascadedata` VALUES ('17218', '根河市', '3007.13', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17217', '额尔古纳市', '3007.12', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17216', '扎兰屯市', '3007.11', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17215', '牙克石市', '3007.10', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17214', '满洲里市', '3007.9', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17213', '新巴尔虎右旗', '3007.8', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17212', '新巴尔虎左旗', '3007.7', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17211', '陈巴尔虎旗', '3007.6', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17210', '鄂温克族自治旗', '3007.5', 'area', '3008', '2');
+INSERT INTO `web_cascadedata` VALUES ('17209', '鄂伦春自治旗', '3007.4', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17208', '莫力达瓦达斡尔族自治旗', '3007.3', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17207', '阿荣旗', '3007.2', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17206', '海拉尔区', '3007.1', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17205', '呼伦贝尔市', '3007', 'area', '3007', '1');
+INSERT INTO `web_cascadedata` VALUES ('17204', '伊金霍洛旗', '3006.8', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17203', '乌审旗', '3006.7', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17202', '杭锦旗', '3006.6', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17201', '鄂托克旗', '3006.5', 'area', '3007', '2');
+INSERT INTO `web_cascadedata` VALUES ('17200', '鄂托克前旗', '3006.4', 'area', '3006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17199', '准格尔旗', '3006.3', 'area', '3006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17198', '达拉特旗', '3006.2', 'area', '3006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17197', '东胜区', '3006.1', 'area', '3006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17196', '鄂尔多斯市', '3006', 'area', '3006', '1');
+INSERT INTO `web_cascadedata` VALUES ('17195', '霍林郭勒市', '3005.8', 'area', '3006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17194', '扎鲁特旗', '3005.7', 'area', '3006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17193', '奈曼旗', '3005.6', 'area', '3006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17192', '库伦旗', '3005.5', 'area', '3006', '2');
+INSERT INTO `web_cascadedata` VALUES ('17191', '开鲁县', '3005.4', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17190', '科尔沁左翼后旗', '3005.3', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17189', '科尔沁左翼中旗', '3005.2', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17188', '科尔沁区', '3005.1', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17187', '通辽市', '3005', 'area', '3005', '1');
+INSERT INTO `web_cascadedata` VALUES ('17186', '敖汉旗', '3004.12', 'area', '3004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17185', '宁城县', '3004.11', 'area', '3004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17184', '喀喇沁旗', '3004.10', 'area', '3004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17183', '翁牛特旗', '3004.9', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17182', '克什克腾旗', '3004.8', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17181', '林西县', '3004.7', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17180', '巴林右旗', '3004.6', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17179', '巴林左旗', '3004.5', 'area', '3005', '2');
+INSERT INTO `web_cascadedata` VALUES ('17178', '阿鲁科尔沁旗', '3004.4', 'area', '3004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17177', '松山区', '3004.3', 'area', '3004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17176', '元宝山区', '3004.2', 'area', '3004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17175', '红山区', '3004.1', 'area', '3004', '2');
+INSERT INTO `web_cascadedata` VALUES ('17174', '赤峰市', '3004', 'area', '3004', '1');
+INSERT INTO `web_cascadedata` VALUES ('17173', '乌达区', '3003.3', 'area', '3003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17172', '海南区', '3003.2', 'area', '3003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17171', '海勃湾区', '3003.1', 'area', '3003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17170', '乌海市', '3003', 'area', '3003', '1');
+INSERT INTO `web_cascadedata` VALUES ('17169', '达尔罕茂明安联合旗', '3002.9', 'area', '3003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17168', '固阳县', '3002.8', 'area', '3003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17167', '土默特右旗', '3002.7', 'area', '3003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17166', '九原区', '3002.6', 'area', '3003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17165', '白云矿区', '3002.5', 'area', '3003', '2');
+INSERT INTO `web_cascadedata` VALUES ('17164', '石拐区', '3002.4', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17163', '青山区', '3002.3', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17162', '昆都仑区', '3002.2', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17161', '东河区', '3002.1', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17160', '包头市', '3002', 'area', '3002', '1');
+INSERT INTO `web_cascadedata` VALUES ('17159', '武川县', '3001.9', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17158', '清水河县', '3001.8', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17157', '和林格尔县', '3001.7', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17156', '托克托县', '3001.6', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17155', '土默特左旗', '3001.5', 'area', '3002', '2');
+INSERT INTO `web_cascadedata` VALUES ('17154', '赛罕区', '3001.4', 'area', '3001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17153', '玉泉区', '3001.3', 'area', '3001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17152', '回民区', '3001.2', 'area', '3001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17151', '新城区', '3001.1', 'area', '3001', '2');
+INSERT INTO `web_cascadedata` VALUES ('17150', '呼和浩特市', '3001', 'area', '3001', '1');
+INSERT INTO `web_cascadedata` VALUES ('17149', '内蒙古自治区', '3000', 'area', '3000', '0');
+INSERT INTO `web_cascadedata` VALUES ('17148', '汾阳市', '2511.13', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17147', '孝义市', '2511.12', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17146', '交口县', '2511.11', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17145', '中阳县', '2511.10', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17144', '方山县', '2511.9', 'area', '2512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17143', '岚　县', '2511.8', 'area', '2512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17142', '石楼县', '2511.7', 'area', '2512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17141', '柳林县', '2511.6', 'area', '2512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17140', '临　县', '2511.5', 'area', '2512', '2');
+INSERT INTO `web_cascadedata` VALUES ('17139', '兴　县', '2511.4', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17138', '交城县', '2511.3', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17137', '文水县', '2511.2', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17136', '离石区', '2511.1', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17135', '吕梁市', '2511', 'area', '2511', '1');
+INSERT INTO `web_cascadedata` VALUES ('17134', '霍州市', '2510.17', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17133', '侯马市', '2510.16', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17132', '汾西县', '2510.15', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17131', '蒲　县', '2510.14', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17130', '永和县', '2510.13', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17129', '隰　县', '2510.12', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17128', '大宁县', '2510.11', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17127', '乡宁县', '2510.10', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17126', '吉　县', '2510.9', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17125', '浮山县', '2510.8', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17124', '安泽县', '2510.7', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17123', '古　县', '2510.6', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17122', '洪洞县', '2510.5', 'area', '2511', '2');
+INSERT INTO `web_cascadedata` VALUES ('17121', '襄汾县', '2510.4', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17120', '翼城县', '2510.3', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17119', '曲沃县', '2510.2', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17118', '尧都区', '2510.1', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17117', '临汾市', '2510', 'area', '2510', '1');
+INSERT INTO `web_cascadedata` VALUES ('17116', '原平市', '2509.14', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17115', '偏关县', '2509.13', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17114', '保德县', '2509.12', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17113', '河曲县', '2509.11', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17112', '岢岚县', '2509.10', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17111', '五寨县', '2509.9', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17110', '神池县', '2509.8', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17109', '静乐县', '2509.7', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17108', '宁武县', '2509.6', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17107', '繁峙县', '2509.5', 'area', '2510', '2');
+INSERT INTO `web_cascadedata` VALUES ('17106', '代　县', '2509.4', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17105', '五台县', '2509.3', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17104', '定襄县', '2509.2', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17103', '忻府区', '2509.1', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17102', '忻州市', '2509', 'area', '2509', '1');
+INSERT INTO `web_cascadedata` VALUES ('17101', '河津市', '2508.13', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17100', '永济市', '2508.12', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17099', '芮城县', '2508.11', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17098', '平陆县', '2508.10', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17097', '夏　县', '2508.9', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17096', '垣曲县', '2508.8', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17095', '绛　县', '2508.7', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17094', '新绛县', '2508.6', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17093', '稷山县', '2508.5', 'area', '2509', '2');
+INSERT INTO `web_cascadedata` VALUES ('17092', '闻喜县', '2508.4', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17091', '万荣县', '2508.3', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17090', '临猗县', '2508.2', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17089', '盐湖区', '2508.1', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17088', '运城市', '2508', 'area', '2508', '1');
+INSERT INTO `web_cascadedata` VALUES ('17087', '介休市', '2507.11', 'area', '2507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17086', '灵石县', '2507.10', 'area', '2507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17085', '平遥县', '2507.9', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17084', '祁　县', '2507.8', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17083', '太谷县', '2507.7', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17082', '寿阳县', '2507.6', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17081', '昔阳县', '2507.5', 'area', '2508', '2');
+INSERT INTO `web_cascadedata` VALUES ('17080', '和顺县', '2507.4', 'area', '2507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17079', '左权县', '2507.3', 'area', '2507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17078', '榆社县', '2507.2', 'area', '2507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17077', '榆次区', '2507.1', 'area', '2507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17076', '晋中市', '2507', 'area', '2507', '1');
+INSERT INTO `web_cascadedata` VALUES ('17075', '怀仁县', '2506.6', 'area', '2507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17074', '右玉县', '2506.5', 'area', '2507', '2');
+INSERT INTO `web_cascadedata` VALUES ('17073', '应　县', '2506.4', 'area', '2506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17072', '山阴县', '2506.3', 'area', '2506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17071', '平鲁区', '2506.2', 'area', '2506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17070', '朔城区', '2506.1', 'area', '2506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17069', '朔州市', '2506', 'area', '2506', '1');
+INSERT INTO `web_cascadedata` VALUES ('17068', '高平市', '2505.6', 'area', '2506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17067', '泽州县', '2505.5', 'area', '2506', '2');
+INSERT INTO `web_cascadedata` VALUES ('17066', '陵川县', '2505.4', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17065', '阳城县', '2505.3', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17064', '沁水县', '2505.2', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17063', '城　区', '2505.1', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17062', '晋城市', '2505', 'area', '2505', '1');
+INSERT INTO `web_cascadedata` VALUES ('17061', '潞城市', '2504.13', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17060', '沁源县', '2504.12', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17059', '沁　县', '2504.11', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17058', '武乡县', '2504.10', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17057', '长子县', '2504.9', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17056', '壶关县', '2504.8', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17055', '黎城县', '2504.7', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17054', '平顺县', '2504.6', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17053', '屯留县', '2504.5', 'area', '2505', '2');
+INSERT INTO `web_cascadedata` VALUES ('17052', '襄垣县', '2504.4', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17051', '长治县', '2504.3', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17050', '郊　区', '2504.2', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17049', '城　区', '2504.1', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17048', '长治市', '2504', 'area', '2504', '1');
+INSERT INTO `web_cascadedata` VALUES ('17047', '盂　县', '2503.5', 'area', '2504', '2');
+INSERT INTO `web_cascadedata` VALUES ('17046', '平定县', '2503.4', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17045', '郊　区', '2503.3', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17044', '矿　区', '2503.2', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17043', '城　区', '2503.1', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17042', '阳泉市', '2503', 'area', '2503', '1');
+INSERT INTO `web_cascadedata` VALUES ('17041', '南郊区', '2502.12', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17040', '矿　区', '2502.11', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17039', '城　区', '2502.10', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17038', '大同县', '2502.9', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17037', '左云县', '2502.8', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17036', '浑源县', '2502.7', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17035', '灵丘县', '2502.6', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17034', '广灵县', '2502.5', 'area', '2503', '2');
+INSERT INTO `web_cascadedata` VALUES ('17033', '天镇县', '2502.4', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17032', '阳高县', '2502.3', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17031', '新荣区', '2502.2', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17030', '南郊区', '2502.1', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17029', '大同市', '2502', 'area', '2502', '1');
+INSERT INTO `web_cascadedata` VALUES ('17028', '古交市', '2501.10', 'area', '2501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17027', '娄烦县', '2501.9', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17026', '阳曲县', '2501.8', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17025', '清徐县', '2501.7', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17024', '晋源区', '2501.6', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17023', '万柏林区', '2501.5', 'area', '2502', '2');
+INSERT INTO `web_cascadedata` VALUES ('17022', '尖草坪区', '2501.4', 'area', '2501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17021', '杏花岭区', '2501.3', 'area', '2501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17020', '迎泽区', '2501.2', 'area', '2501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17019', '小店区', '2501.1', 'area', '2501', '2');
+INSERT INTO `web_cascadedata` VALUES ('17018', '太原市', '2501', 'area', '2501', '1');
+INSERT INTO `web_cascadedata` VALUES ('17017', '山西省', '2500', 'area', '2500', '0');
+INSERT INTO `web_cascadedata` VALUES ('17016', '河间市', '2011.16', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17015', '黄骅市', '2011.15', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17014', '任丘市', '2011.14', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17013', '泊头市', '2011.13', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17012', '孟村回族自治县', '2011.12', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17011', '献　县', '2011.11', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17010', '吴桥县', '2011.10', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17009', '南皮县', '2011.9', 'area', '2012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17008', '肃宁县', '2011.8', 'area', '2012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17007', '盐山县', '2011.7', 'area', '2012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17006', '海兴县', '2011.6', 'area', '2012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17005', '东光县', '2011.5', 'area', '2012', '2');
+INSERT INTO `web_cascadedata` VALUES ('17004', '青　县', '2011.4', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17003', '沧　县', '2011.3', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17002', '运河区', '2011.2', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17001', '新华区', '2011.1', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('17000', '沧州市', '2011', 'area', '2011', '1');
+INSERT INTO `web_cascadedata` VALUES ('16999', '深州市', '2010.11', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16998', '冀州市', '2010.10', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16997', '阜城县', '2010.9', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('16996', '景　县', '2010.8', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('16995', '故城县', '2010.7', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('16994', '安平县', '2010.6', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('16993', '饶阳县', '2010.5', 'area', '2011', '2');
+INSERT INTO `web_cascadedata` VALUES ('16992', '武强县', '2010.4', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16991', '武邑县', '2010.3', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16990', '枣强县', '2010.2', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16989', '桃城区', '2010.1', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16988', '衡水市', '2010', 'area', '2010', '1');
+INSERT INTO `web_cascadedata` VALUES ('16987', '三河市', '2009.10', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16986', '霸州市', '2009.9', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16985', '大厂回族自治县', '2009.8', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16984', '文安县', '2009.7', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16983', '大城县', '2009.6', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16982', '香河县', '2009.5', 'area', '2010', '2');
+INSERT INTO `web_cascadedata` VALUES ('16981', '永清县', '2009.4', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16980', '固安县', '2009.3', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16979', '广阳区', '2009.2', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16978', '安次区', '2009.1', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16977', '廊坊市', '2009', 'area', '2009', '1');
+INSERT INTO `web_cascadedata` VALUES ('16976', ' 围场满族蒙古族自治县', '2008.11', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16975', '宽城满族自治', '2008.10', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16974', '丰宁满族自治县', '2008.9', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16973', '隆化县', '2008.8', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16972', '滦平县', '2008.7', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16971', '平泉县', '2008.6', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16970', '兴隆县', '2008.5', 'area', '2009', '2');
+INSERT INTO `web_cascadedata` VALUES ('16969', '承德县', '2008.4', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16968', '鹰手营子矿区', '2008.3', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16967', '双滦区', '2008.2', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16966', '双桥区', '2008.1', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16965', '承德市', '2008', 'area', '2008', '1');
+INSERT INTO `web_cascadedata` VALUES ('16964', '崇礼县', '2007.17', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16963', '赤城县', '2007.16', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16962', '涿鹿县', '2007.15', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16961', '怀来县', '2007.14', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16960', '万全县', '2007.13', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16959', '怀安县', '2007.12', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16958', '阳原县', '2007.11', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16957', '蔚　县', '2007.10', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16956', '尚义县', '2007.9', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16955', '沽源县', '2007.8', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16954', '康保县', '2007.7', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16953', '张北县', '2007.6', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16952', '宣化县', '2007.5', 'area', '2008', '2');
+INSERT INTO `web_cascadedata` VALUES ('16951', '下花园区', '2007.4', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16950', '宣化区', '2007.3', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16949', '桥西区', '2007.2', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16948', '桥东区', '2007.1', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16947', '张家口市', '2007', 'area', '2007', '1');
+INSERT INTO `web_cascadedata` VALUES ('16946', '高碑店市', '2006.25', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16945', '安国市', '2006.24', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16944', '定州市', '2006.23', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16943', '涿州市', '2006.22', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16942', '雄　县', '2006.21', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16941', '博野县', '2006.20', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16940', '顺平县', '2006.19', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16939', '蠡　县', '2006.18', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16938', '曲阳县', '2006.17', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16937', '易县', '2006.16', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16936', '安新县', '2006.15', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16935', '望都县', '2006.14', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16934', '涞源县', '2006.13', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16933', '容城县', '2006.12', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16932', '高阳县', '2006.11', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16931', '唐　县', '2006.10', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16930', '定兴县', '2006.9', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16929', '徐水县', '2006.8', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16928', '阜平县', '2006.7', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16927', '涞水县', '2006.6', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16926', '清苑县', '2006.5', 'area', '2007', '2');
+INSERT INTO `web_cascadedata` VALUES ('16925', '满城县', '2006.4', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16924', '南市区', '2006.3', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16923', '北市区', '2006.2', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16922', '新市区', '2006.1', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16921', '保定市', '2006', 'area', '2006', '1');
+INSERT INTO `web_cascadedata` VALUES ('16920', '沙河市', '2005.19', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16919', '南宫市', '2005.18', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16918', '临西县', '2005.17', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16917', '清河县', '2005.16', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16916', '威　县', '2005.15', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16915', '平乡县', '2005.14', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16914', '广宗县', '2005.13', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16913', '新河县', '2005.12', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16912', '巨鹿县', '2005.11', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16911', '宁晋县', '2005.10', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16910', '南和县', '2005.9', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16909', '任　县', '2005.8', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16908', '隆尧县', '2005.7', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16907', '柏乡县', '2005.6', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16906', '内丘县', '2005.5', 'area', '2006', '2');
+INSERT INTO `web_cascadedata` VALUES ('16905', '临城县', '2005.4', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16904', '邢台县', '2005.3', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16903', '桥西区', '2005.2', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16902', '桥东区', '2005.1', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16901', '邢台市', '2005', 'area', '2005', '1');
+INSERT INTO `web_cascadedata` VALUES ('16900', '武安市', '2004.20', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16899', '曲周县', '2004.19', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16898', '魏县', '2004.18', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16897', '馆陶县', '2004.17', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16896', '广平县', '2004.16', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16895', '鸡泽县', '2004.15', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16894', '邱　县', '2004.14', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16893', '永年县', '2004.13', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16892', '肥乡县', '2004.12', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16891', '磁　县', '2004.11', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16890', '涉　县', '2004.10', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16889', '大名县', '2004.9', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16888', '成安县', '2004.8', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16887', '临漳县', '2004.7', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16886', '邯郸县', '2004.6', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16885', '峰峰矿区', '2004.5', 'area', '2005', '2');
+INSERT INTO `web_cascadedata` VALUES ('16884', '复兴区', '2004.4', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16883', '丛台区', '2004.3', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16882', '邯山区', '2004.2', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16881', '市辖区', '2004.1', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16880', '邯郸市', '2004', 'area', '2004', '1');
+INSERT INTO `web_cascadedata` VALUES ('16879', '卢龙县', '2003.7', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16878', '抚宁县', '2003.6', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16877', '昌黎县', '2003.5', 'area', '2004', '2');
+INSERT INTO `web_cascadedata` VALUES ('16876', '青龙满族自治县', '2003.4', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16875', '北戴河区', '2003.3', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16874', '山海关区', '2003.2', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16873', '海港区', '2003.1', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16872', '秦皇岛市', '2003', 'area', '2003', '1');
+INSERT INTO `web_cascadedata` VALUES ('16871', '迁安市', '2002.14', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16870', '遵化市', '2002.13', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16869', '唐海县', '2002.12', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16868', '玉田县', '2002.11', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16867', '迁西县', '2002.10', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16866', '乐亭县', '2002.9', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16865', '滦南县', '2002.8', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16864', '滦　县', '2002.7', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16863', '丰润区', '2002.6', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16862', '丰南区', '2002.5', 'area', '2003', '2');
+INSERT INTO `web_cascadedata` VALUES ('16861', '开平区', '2002.4', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16860', '古冶区', '2002.3', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16859', '路北区', '2002.2', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16858', '路南区', '2002.1', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16857', '唐山市', '2002', 'area', '2002', '1');
+INSERT INTO `web_cascadedata` VALUES ('16856', '鹿泉市', '2001.23', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16855', '新乐市', '2001.22', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16854', '晋州市', '2001.21', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16853', '藁城市', '2001.20', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16852', '辛集市', '2001.19', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16851', '赵　县', '2001.18', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16850', '元氏县', '2001.17', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16849', '平山县', '2001.16', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16848', '无极县', '2001.15', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16847', '赞皇县', '2001.14', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16846', '深泽县', '2001.13', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16845', '高邑县', '2001.12', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16844', '灵寿县', '2001.11', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16843', '行唐县', '2001.10', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16842', '栾城县', '2001.9', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16841', '正定县', '2001.8', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16840', '井陉县', '2001.7', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16839', '裕华区', '2001.6', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16838', '井陉矿区', '2001.5', 'area', '2002', '2');
+INSERT INTO `web_cascadedata` VALUES ('16837', '新华区', '2001.4', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16836', '桥西区', '2001.3', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16835', '桥东区', '2001.2', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16834', '长安区', '2001.1', 'area', '2001', '2');
+INSERT INTO `web_cascadedata` VALUES ('16833', '石家庄市', '2001', 'area', '2001', '1');
+INSERT INTO `web_cascadedata` VALUES ('16832', '河北省', '2000', 'area', '2000', '0');
+INSERT INTO `web_cascadedata` VALUES ('16831', '蓟　县', '1518', 'area', '1518', '1');
+INSERT INTO `web_cascadedata` VALUES ('16830', '静海县', '1517', 'area', '1517', '1');
+INSERT INTO `web_cascadedata` VALUES ('16829', '宁河县', '1516', 'area', '1516', '1');
+INSERT INTO `web_cascadedata` VALUES ('16828', '宝坻区', '1515', 'area', '1515', '1');
+INSERT INTO `web_cascadedata` VALUES ('16827', '武清区', '1514', 'area', '1514', '1');
+INSERT INTO `web_cascadedata` VALUES ('16826', '北辰区', '1513', 'area', '1513', '1');
+INSERT INTO `web_cascadedata` VALUES ('16825', '津南区', '1512', 'area', '1512', '1');
+INSERT INTO `web_cascadedata` VALUES ('16824', '西青区', '1511', 'area', '1511', '1');
+INSERT INTO `web_cascadedata` VALUES ('16823', '东丽区', '1510', 'area', '1510', '1');
+INSERT INTO `web_cascadedata` VALUES ('16822', '大港区', '1509', 'area', '1509', '1');
+INSERT INTO `web_cascadedata` VALUES ('16821', '汉沽区', '1508', 'area', '1508', '1');
+INSERT INTO `web_cascadedata` VALUES ('16820', '塘沽区', '1507', 'area', '1507', '1');
+INSERT INTO `web_cascadedata` VALUES ('16819', '红桥区', '1506', 'area', '1506', '1');
+INSERT INTO `web_cascadedata` VALUES ('16818', '河北区', '1505', 'area', '1505', '1');
+INSERT INTO `web_cascadedata` VALUES ('16817', '南开区', '1504', 'area', '1504', '1');
+INSERT INTO `web_cascadedata` VALUES ('16816', '河西区', '1503', 'area', '1503', '1');
+INSERT INTO `web_cascadedata` VALUES ('16815', '河东区', '1502', 'area', '1502', '1');
+INSERT INTO `web_cascadedata` VALUES ('16814', '和平区', '1501', 'area', '1501', '1');
+INSERT INTO `web_cascadedata` VALUES ('16813', '天津市', '1500', 'area', '1500', '0');
+INSERT INTO `web_cascadedata` VALUES ('16812', '延庆县', '1018', 'area', '1018', '1');
+INSERT INTO `web_cascadedata` VALUES ('16811', '密云县', '1017', 'area', '1017', '1');
+INSERT INTO `web_cascadedata` VALUES ('16810', '平谷区', '1016', 'area', '1016', '1');
+INSERT INTO `web_cascadedata` VALUES ('16809', '怀柔区', '1015', 'area', '1015', '1');
+INSERT INTO `web_cascadedata` VALUES ('16808', '大兴区', '1014', 'area', '1014', '1');
+INSERT INTO `web_cascadedata` VALUES ('16807', '昌平区', '1013', 'area', '1013', '1');
+INSERT INTO `web_cascadedata` VALUES ('16806', '顺义区', '1012', 'area', '1012', '1');
+INSERT INTO `web_cascadedata` VALUES ('16805', '通州区', '1011', 'area', '1011', '1');
+INSERT INTO `web_cascadedata` VALUES ('16804', '房山区', '1010', 'area', '1010', '1');
+INSERT INTO `web_cascadedata` VALUES ('16803', '门头沟区', '1009', 'area', '1009', '1');
+INSERT INTO `web_cascadedata` VALUES ('16802', '海淀区', '1008', 'area', '1008', '1');
+INSERT INTO `web_cascadedata` VALUES ('16801', '石景山区', '1007', 'area', '1007', '1');
+INSERT INTO `web_cascadedata` VALUES ('16800', '丰台区', '1006', 'area', '1006', '1');
+INSERT INTO `web_cascadedata` VALUES ('16799', '朝阳区', '1005', 'area', '1005', '1');
+INSERT INTO `web_cascadedata` VALUES ('16798', '宣武区', '1004', 'area', '1004', '1');
+INSERT INTO `web_cascadedata` VALUES ('16797', '崇文区', '1003', 'area', '1003', '1');
+INSERT INTO `web_cascadedata` VALUES ('16796', '西城区', '1002', 'area', '1002', '1');
+INSERT INTO `web_cascadedata` VALUES ('16795', '东城区', '1001', 'area', '1001', '1');
+INSERT INTO `web_cascadedata` VALUES ('16794', '北京市', '1000', 'area', '1000', '0');
+INSERT INTO `web_cascadedata` VALUES ('1', '白羊座', '1', 'astro', '1', '0');
+INSERT INTO `web_cascadedata` VALUES ('2', '金牛座', '2', 'astro', '2', '0');
+INSERT INTO `web_cascadedata` VALUES ('3', '双子座', '3', 'astro', '3', '0');
+INSERT INTO `web_cascadedata` VALUES ('4', '巨蟹座', '4', 'astro', '4', '0');
+INSERT INTO `web_cascadedata` VALUES ('5', '狮子座', '5', 'astro', '5', '0');
+INSERT INTO `web_cascadedata` VALUES ('6', '处女座', '6', 'astro', '6', '0');
+INSERT INTO `web_cascadedata` VALUES ('7', '天枰座', '7', 'astro', '7', '0');
+INSERT INTO `web_cascadedata` VALUES ('8', '天蝎座', '8', 'astro', '8', '0');
+INSERT INTO `web_cascadedata` VALUES ('9', '射手座', '9', 'astro', '9', '0');
+INSERT INTO `web_cascadedata` VALUES ('10', '摩羯座', '10', 'astro', '10', '0');
+INSERT INTO `web_cascadedata` VALUES ('11', '水瓶座', '11', 'astro', '11', '0');
+INSERT INTO `web_cascadedata` VALUES ('12', '双鱼座', '12', 'astro', '12', '0');
+INSERT INTO `web_cascadedata` VALUES ('13', 'A型', '1', 'bloodtype', '1', '0');
+INSERT INTO `web_cascadedata` VALUES ('14', 'B型', '2', 'bloodtype', '2', '0');
+INSERT INTO `web_cascadedata` VALUES ('15', 'O型', '3', 'bloodtype', '3', '0');
+INSERT INTO `web_cascadedata` VALUES ('16', 'AB型', '4', 'bloodtype', '4', '0');
+INSERT INTO `web_cascadedata` VALUES ('17', '其他', '5', 'bloodtype', '5', '0');
+INSERT INTO `web_cascadedata` VALUES ('18', '身份证', '1', 'cardtype', '1', '0');
+INSERT INTO `web_cascadedata` VALUES ('19', '护照', '2', 'cardtype', '2', '0');
+INSERT INTO `web_cascadedata` VALUES ('20', '驾驶证', '3', 'cardtype', '3', '0');
+INSERT INTO `web_cascadedata` VALUES ('21', '无安全提问', '0', 'question', '1', '0');
+INSERT INTO `web_cascadedata` VALUES ('22', '母亲的名字', '1', 'question', '2', '0');
+INSERT INTO `web_cascadedata` VALUES ('23', '爷爷的名字', '2', 'question', '3', '0');
+INSERT INTO `web_cascadedata` VALUES ('24', '父亲出生的城市', '3', 'question', '4', '0');
+INSERT INTO `web_cascadedata` VALUES ('25', '你其中一位老师的名字', '4', 'question', '5', '0');
+INSERT INTO `web_cascadedata` VALUES ('26', '你个人计算机的型号', '5', 'question', '6', '0');
+INSERT INTO `web_cascadedata` VALUES ('27', '你最喜欢的餐馆名称', '6', 'question', '7', '0');
+INSERT INTO `web_cascadedata` VALUES ('28', '驾驶执照最后四位数字', '7', 'question', '8', '0');
+INSERT INTO `web_cascadedata` VALUES ('29', 'IT信息技术', '1', 'trade', '1', '0');
+INSERT INTO `web_cascadedata` VALUES ('30', '金融', '2', 'trade', '2', '0');
+INSERT INTO `web_cascadedata` VALUES ('31', '互联网', '3', 'trade', '3', '0');
+INSERT INTO `web_cascadedata` VALUES ('32', '广告传媒', '4', 'trade', '4', '0');
+INSERT INTO `web_cascadedata` VALUES ('33', '贸易零售', '5', 'trade', '5', '0');
+INSERT INTO `web_cascadedata` VALUES ('34', '交通物流', '6', 'trade', '6', '0');
+INSERT INTO `web_cascadedata` VALUES ('35', '房地产', '7', 'trade', '7', '0');
+INSERT INTO `web_cascadedata` VALUES ('36', '旅游餐饮', '8', 'trade', '8', '0');
+INSERT INTO `web_cascadedata` VALUES ('37', '加工制造业', '9', 'trade', '9', '0');
+INSERT INTO `web_cascadedata` VALUES ('38', '石化采掘', '10', 'trade', '10', '0');
+INSERT INTO `web_cascadedata` VALUES ('39', '农林牧渔', '11', 'trade', '11', '0');
+INSERT INTO `web_cascadedata` VALUES ('40', '社会服务', '12', 'trade', '12', '0');
+INSERT INTO `web_cascadedata` VALUES ('41', '医药生物', '13', 'trade', '13', '0');
+INSERT INTO `web_cascadedata` VALUES ('42', '教育培训科研', '14', 'trade', '14', '0');
+
+-- ----------------------------
+-- Table structure for `web_diyfield`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_diyfield`;
+CREATE TABLE `web_diyfield` (
+  `id` smallint(6) unsigned NOT NULL AUTO_INCREMENT COMMENT '自定义字段id',
+  `infotype` tinyint(1) unsigned NOT NULL COMMENT '所属模型',
+  `catepriv` varchar(255) NOT NULL COMMENT '所属栏目',
+  `fieldname` varchar(30) NOT NULL COMMENT '字段名称',
+  `fieldtitle` varchar(30) NOT NULL COMMENT '字段标题',
+  `fielddesc` varchar(255) NOT NULL COMMENT '字段提示',
+  `fieldtype` varchar(30) NOT NULL COMMENT '字段类型',
+  `fieldlong` varchar(10) NOT NULL COMMENT '字段长度',
+  `fieldsel` varchar(255) NOT NULL COMMENT '字段选项值',
+  `fieldcheck` varchar(80) NOT NULL COMMENT '校验正则',
+  `fieldcback` varchar(30) NOT NULL COMMENT '未通过提示',
+  `orderid` smallint(6) NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_diyfield
+-- ----------------------------
+INSERT INTO `web_diyfield` VALUES ('1', '2', '6,7,8,9', 'price', '产品价格', '', 'varchar', '20', '', '', '', '1', 'true');
+
+-- ----------------------------
+-- Table structure for `web_diymenu`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_diymenu`;
+CREATE TABLE `web_diymenu` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '自定义菜单id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属菜单id',
+  `classname` varchar(30) NOT NULL COMMENT '菜单项名称',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_diymenu
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_diymodel`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_diymodel`;
+CREATE TABLE `web_diymodel` (
+  `id` smallint(6) unsigned NOT NULL AUTO_INCREMENT COMMENT '自定义模型id',
+  `modeltitle` varchar(30) NOT NULL COMMENT '模型标题',
+  `modelname` varchar(30) NOT NULL COMMENT '模型名称',
+  `modeltbname` varchar(30) NOT NULL COMMENT '模型表名',
+  `defaultfield` varchar(80) NOT NULL COMMENT '预设栏目',
+  `orderid` smallint(6) NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_diymodel
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_failedlogin`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_failedlogin`;
+CREATE TABLE `web_failedlogin` (
+  `username` char(30) NOT NULL COMMENT '用户名',
+  `ip` char(15) NOT NULL COMMENT '登录IP',
+  `time` int(10) unsigned NOT NULL COMMENT '登录时间',
+  `num` tinyint(1) NOT NULL COMMENT '失败次数',
+  `isadmin` tinyint(1) NOT NULL COMMENT '是否是管理员',
+  PRIMARY KEY (`username`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_failedlogin
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_fragment`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_fragment`;
+CREATE TABLE `web_fragment` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '碎片数据id',
+  `title` varchar(30) NOT NULL COMMENT '碎片数据名称',
+  `picurl` varchar(80) NOT NULL COMMENT '碎片数据缩略图',
+  `linkurl` varchar(80) NOT NULL COMMENT '碎片数据连接',
+  `content` mediumtext NOT NULL COMMENT '碎片数据内容',
+  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_fragment
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_getmode`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_getmode`;
+CREATE TABLE `web_getmode` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '货到方式id',
+  `classname` varchar(30) NOT NULL COMMENT '货到方式名称',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_getmode
+-- ----------------------------
+INSERT INTO `web_getmode` VALUES ('1', '送货上门', '1', 'true');
+INSERT INTO `web_getmode` VALUES ('2', '用户自取', '2', 'true');
+
+-- ----------------------------
+-- Table structure for `web_goods`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_goods`;
+CREATE TABLE `web_goods` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品id',
+  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属栏目父id',
+  `parentstr` varchar(80) NOT NULL COMMENT '所属栏目父id字符串',
+  `typeid` smallint(5) unsigned NOT NULL COMMENT '商品分类',
+  `typepid` smallint(5) unsigned NOT NULL COMMENT '商品分类父id',
+  `typepstr` varchar(80) NOT NULL COMMENT '商品分类父id字符串',
+  `brandid` smallint(5) NOT NULL COMMENT '商品品牌id',
+  `brandpid` smallint(5) NOT NULL COMMENT '品牌上级id',
+  `brandpstr` varchar(80) NOT NULL COMMENT '品牌上级id字符串',
+  `title` varchar(80) NOT NULL COMMENT '商品名称',
+  `colorval` char(10) NOT NULL COMMENT '标题颜色',
+  `boldval` char(10) NOT NULL COMMENT '标题加粗',
+  `flag` varchar(30) NOT NULL COMMENT '属性',
+  `goodsid` varchar(30) NOT NULL COMMENT '货号',
+  `payfreight` enum('0','1') NOT NULL COMMENT '运费承担',
+  `weight` varchar(10) NOT NULL COMMENT '重量',
+  `attrstr` text NOT NULL COMMENT '属性字符串',
+  `marketprice` char(10) NOT NULL COMMENT '市场价格',
+  `salesprice` char(10) NOT NULL COMMENT '销售价格',
+  `housenum` smallint(5) unsigned NOT NULL COMMENT '库存数量',
+  `housewarn` enum('true','false') NOT NULL COMMENT '库存警告',
+  `warnnum` smallint(5) unsigned NOT NULL COMMENT '警告数量',
+  `integral` char(10) NOT NULL COMMENT '积分点数',
+  `source` varchar(50) NOT NULL COMMENT '文章来源',
+  `author` varchar(50) NOT NULL COMMENT '作者编辑',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `keywords` varchar(30) NOT NULL COMMENT '关键词',
+  `description` varchar(255) NOT NULL COMMENT '摘要',
+  `content` mediumtext NOT NULL COMMENT '详细内容',
+  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
+  `picarr` text NOT NULL COMMENT '组图',
+  `hits` int(10) unsigned NOT NULL COMMENT '点击次数',
+  `orderid` int(10) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  `delstate` set('true') NOT NULL COMMENT '删除状态',
+  `deltime` int(10) NOT NULL COMMENT '删除时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_goods
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_goodsattr`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_goodsattr`;
+CREATE TABLE `web_goodsattr` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品属性id',
+  `goodsid` smallint(5) unsigned NOT NULL COMMENT '所属分类',
+  `attrname` varchar(30) NOT NULL COMMENT '属性名称',
+  `orderid` mediumint(8) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_goodsattr
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_goodsbrand`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_goodsbrand`;
+CREATE TABLE `web_goodsbrand` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品品牌id',
+  `parentid` mediumint(8) unsigned NOT NULL COMMENT '品牌上级id',
+  `parentstr` varchar(50) NOT NULL COMMENT '品牌上级id字符串',
+  `classname` varchar(30) NOT NULL COMMENT '品牌名称',
+  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `orderid` mediumint(10) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_goodsbrand
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_goodsflag`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_goodsflag`;
+CREATE TABLE `web_goodsflag` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品标记id',
+  `flag` varchar(30) NOT NULL COMMENT '标记名称',
+  `flagname` varchar(30) NOT NULL COMMENT '标记标识',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_goodsflag
+-- ----------------------------
+INSERT INTO `web_goodsflag` VALUES ('1', 'c', '推荐', '1');
+INSERT INTO `web_goodsflag` VALUES ('2', 'f', '幻灯', '2');
+INSERT INTO `web_goodsflag` VALUES ('3', 'a', '特推', '3');
+INSERT INTO `web_goodsflag` VALUES ('4', 't', '特价', '4');
+INSERT INTO `web_goodsflag` VALUES ('5', 'h', '热卖', '5');
+
+-- ----------------------------
+-- Table structure for `web_goodsorder`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_goodsorder`;
+CREATE TABLE `web_goodsorder` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品订单id',
+  `username` varchar(30) NOT NULL COMMENT '会员用户名',
+  `attrstr` text NOT NULL COMMENT '商品列表',
+  `truename` varchar(30) NOT NULL COMMENT '收货人姓名',
+  `telephone` varchar(30) NOT NULL COMMENT '电话',
+  `idcard` varchar(30) NOT NULL COMMENT '证件号码',
+  `zipcode` varchar(30) NOT NULL COMMENT '邮编',
+  `postarea_prov` varchar(10) NOT NULL COMMENT '配送地区_省',
+  `postarea_city` varchar(10) NOT NULL COMMENT '配送地区_市',
+  `postarea_country` varchar(10) NOT NULL COMMENT '配送地区_县',
+  `address` varchar(80) NOT NULL COMMENT '地址',
+  `postmode` smallint(5) NOT NULL COMMENT '配送方式',
+  `paymode` smallint(5) NOT NULL COMMENT '支付方式',
+  `getmode` smallint(5) NOT NULL COMMENT '货到方式',
+  `ordernum` varchar(30) NOT NULL COMMENT '订单号',
+  `postid` varchar(30) NOT NULL COMMENT '运单号',
+  `weight` varchar(10) NOT NULL COMMENT '物品重量',
+  `cost` varchar(10) NOT NULL COMMENT '商品运费',
+  `amount` varchar(10) NOT NULL COMMENT '订单金额',
+  `integral` smallint(5) unsigned NOT NULL COMMENT '积分点数',
+  `buyremark` text NOT NULL COMMENT '购物备注',
+  `sendremark` text NOT NULL COMMENT '发货方备注',
+  `posttime` int(10) unsigned NOT NULL COMMENT '订单时间',
+  `orderid` mediumint(10) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` varchar(255) NOT NULL COMMENT '审核状态',
+  `core` set('true') NOT NULL COMMENT '是否加星',
+  `delstate` set('true') NOT NULL COMMENT '删除状态',
+  `deltime` int(10) unsigned NOT NULL COMMENT '删除时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_goodsorder
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_goodstype`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_goodstype`;
+CREATE TABLE `web_goodstype` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品类型id',
+  `parentid` mediumint(8) unsigned NOT NULL COMMENT '类型上级id',
+  `parentstr` varchar(50) NOT NULL COMMENT '类型上级id字符串',
+  `classname` varchar(30) NOT NULL COMMENT '类别名称',
+  `picurl` varchar(255) DEFAULT NULL COMMENT '缩略图片',
+  `linkurl` varchar(255) DEFAULT NULL COMMENT '跳转链接',
+  `orderid` mediumint(8) unsigned NOT NULL COMMENT '排列顺序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '隐藏类别',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_goodstype
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_info`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_info`;
+CREATE TABLE `web_info` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '单页id',
+  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目id',
+  `mainid` smallint(5) NOT NULL COMMENT '二级类别id',
+  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
+  `content` mediumtext NOT NULL COMMENT '内容',
+  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_info
+-- ----------------------------
+INSERT INTO `web_info` VALUES ('1', '2', '-1', 'uploads/image/20150216/1424090898.png', '<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;font-size:24px;\"><strong>企业文化</strong></span>\r\n</div>\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">&nbsp;</span>\r\n<ul style=\"padding:0px 0px 0px 25px;margin:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:16px;\"><strong>养生理念是药食同源食疗养生</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:16px;\"><strong>好善乐施传递正能量激发养生新概念</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:16px;\"><strong>生活方式是健康第一，家庭第二，事业第三</strong></span>\r\n	</li>\r\n</ul>\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">&nbsp;</span>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;font-size:24px;\"><strong>企业使命</strong></span>\r\n</div>\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">&nbsp;</span>\r\n<ul style=\"padding:0px 0px 0px 25px;margin:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:18px;\"><strong>为中国梦健康每个人</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:18px;\"><strong>以振兴民族企业为已任，以弘扬人类健康求发展</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:18px;\"><strong>公司本着以人为本，厚德裁物的精神坚持品质至上，服务</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:18px;\"><strong>制胜的理念，立志将公司打造成中国健康产业的航母！</strong></span>\r\n	</li>\r\n</ul>', '1424087403');
+INSERT INTO `web_info` VALUES ('2', '18', '-1', '', '<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b><span style=\"font-size:14.0pt;font-family:&quot;\">2015</span></b><b><span style=\"font-size:14.0pt;font-family:&quot;\">年<span>3004</span>民心工程</span></b><span style=\"font-size:16pt;font-family:宋体;color:#333333;\">·</span><b><span style=\"font-size:14.0pt;font-family:&quot;\">180</span></b><b><span style=\"font-size:14.0pt;font-family:&quot;\">微商大联盟<span></span></span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b><span style=\"font-size:14.0pt;font-family:&quot;\">火爆开启新春大赠送<span></span></span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<span style=\"font-family:&quot;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"text-indent:32.0pt;\">\r\n	<span style=\"font-size:16.0pt;font-family:华文新魏;\">为了远离心脑血管疾病，健康快乐的人生，为了尽快完成武汉红桃<span>K</span>集团创始人，武汉大学教授张廷壁发起的“<span>3004</span>民心工程”，河南市场总部在<span>2015</span>年新春来临之际，隆重开启了“<span>180</span>微商大联盟”互助大赠送：<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"text-indent:32.0pt;\">\r\n	<span style=\"font-size:16.0pt;font-family:华文新魏;\"></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:39.0pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">1、<span style=\"font-size:7pt;font-family:\'Times New Roman\';\"> </span></span><span style=\"font-size:12.0pt;font-family:&quot;\">凡在<span>2015</span>年<span>5</span>月<span>1</span>日前加盟的微商贵宾会员，赠送养生茶一盒（市场价<span>380</span>元）<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:39.0pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">2、<span style=\"font-size:7pt;font-family:\'Times New Roman\';\"> </span></span><span style=\"font-size:12.0pt;font-family:&quot;\">升成合格一级贵宾会员，赠送纯银保健杯一套（市场价<span>580</span>元）<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:39.0pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">3、<span style=\"font-size:7pt;font-family:\'Times New Roman\';\"> </span></span><span style=\"font-size:12.0pt;font-family:&quot;\">升成合格二级贵宾会员，赠送电热器一台或养生茶一套（<span>2</span>盒）<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:39.0pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">4、<span style=\"font-size:7pt;font-family:\'Times New Roman\';\"> </span></span><span style=\"font-size:12.0pt;font-family:&quot;\">升成合格三级贵宾会员，赠送九级磁化能量水机一台（市场价<span>4980</span>元）<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">此活动<span>2015</span>年<span>5</span>月<span>1</span>日前结束。<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\">好善乐施传递正能量，你帮我助成就创业梦！<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:21.0pt;text-align:center;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\">健康一生，快乐人生！<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:21.0pt;text-align:center;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">服务热线：<span>15937982788</span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">河南市场销售总部<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">2015</span><span style=\"font-size:12.0pt;font-family:&quot;\">年<span>2</span>月<span>16</span>日<span></span></span>\r\n</p>', '1424094480');
+INSERT INTO `web_info` VALUES ('3', '1', '-1', '', '<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;font-size:24px;\"><strong>武汉彼尔生物医药技术有限公司</strong></span>\r\n</div>\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">&nbsp;</span><br style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\" />\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\"> </span><span style=\"padding:0px;margin:0px;color:#333333;font-family:宋体;white-space:normal;font-size:18px;background-color:#F6F6F6;\"> 武汉彼尔生物医药技术有限公司位于风景秀丽的国家级高新技术开发区武汉东湖高新技术开发区。公司2002年正式成立，是一家集新产品研发、生产、销售于一体的高新技术企业。主要从事保健食品、生物医用材料、试剂、医疗器械、原料药物及高端制剂的研究、开发、技术转让及相关的技术服务。公司研发及管理团队主要由美国海归人士组成包括两位博士及一位工商管理硕士，拥有国际化视野及丰富海外实践经验。自成立以来，已自主开发出国家级二类、四类、五类新药及保健品和特殊营养食品等多项成果，还有多个项目正在研发中。公司现拥有自有厂房3600平米，两条生产线，自有资产三千万元人民币。销售网络遍布全国30个省市区。公司主导产品之一的“富硒花栓豆”系列产品是联合国世界和平基金会认定产品，同时，也就中国“治未病”制定产品。<br />\r\n天道酬勤，济世惠民！<br />\r\n武汉彼尔生物医药将一如既往地发扬“勤奋专注，诚信敬业，务实创新，追求卓越”的公司精神，与从事健康管理事业的同行们一道，“善待生命，崇尚科学”！传播健康理念，倡导健康生活，全心全意为人类健康服务！</span>', '1424094941');
+
+-- ----------------------------
+-- Table structure for `web_infoclass`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_infoclass`;
+CREATE TABLE `web_infoclass` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '栏目id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '栏目上级id',
+  `parentstr` varchar(50) NOT NULL COMMENT '栏目上级id字符串',
+  `infotype` tinyint(1) unsigned NOT NULL COMMENT '栏目类型',
+  `classname` varchar(30) NOT NULL COMMENT '栏目名称',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
+  `picwidth` varchar(5) NOT NULL COMMENT '缩略图宽度',
+  `picheight` varchar(5) NOT NULL COMMENT '缩略图高度',
+  `seotitle` varchar(80) NOT NULL COMMENT 'SEO标题',
+  `keywords` varchar(50) NOT NULL COMMENT '关键词',
+  `description` varchar(255) NOT NULL COMMENT '描述',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_infoclass
+-- ----------------------------
+INSERT INTO `web_infoclass` VALUES ('1', '1', '0', '0,', '0', '公司简介', '', '', '', '', '', '', '', '1', 'true');
+INSERT INTO `web_infoclass` VALUES ('2', '1', '1', '0,1,', '0', '企业文化', '', '', '', '', '', '', '', '2', 'true');
+INSERT INTO `web_infoclass` VALUES ('3', '1', '1', '0,1,', '2', '公司荣誉', '', '', '', '', '', '', '', '3', 'true');
+INSERT INTO `web_infoclass` VALUES ('4', '1', '1', '0,1,', '2', '视频中心', '', '', '', '', '', '', '', '4', 'true');
+INSERT INTO `web_infoclass` VALUES ('5', '1', '1', '0,1,', '1', '领导关怀', '', '', '', '', '', '', '', '5', 'true');
+INSERT INTO `web_infoclass` VALUES ('6', '1', '0', '0,', '2', '产品专区', '', '', '', '', '', '', '', '6', 'true');
+INSERT INTO `web_infoclass` VALUES ('7', '1', '6', '0,6,', '2', '营养食品', '', '', '', '', '', '', '', '7', 'true');
+INSERT INTO `web_infoclass` VALUES ('8', '1', '6', '0,6,', '2', '美容化妆', '', '', '', '', '', '', '', '8', 'true');
+INSERT INTO `web_infoclass` VALUES ('9', '1', '6', '0,6,', '2', '生态家纺', '', '', '', '', '', '', '', '9', 'true');
+INSERT INTO `web_infoclass` VALUES ('10', '1', '0', '0,', '1', '新闻资讯', '', '', '', '', '', '', '', '10', 'true');
+INSERT INTO `web_infoclass` VALUES ('11', '1', '10', '0,10,', '1', '公司新闻', '', '', '', '', '', '', '', '11', 'true');
+INSERT INTO `web_infoclass` VALUES ('12', '1', '10', '0,10,', '1', '行业动态', '', '', '', '', '', '', '', '12', 'true');
+INSERT INTO `web_infoclass` VALUES ('13', '1', '0', '0,', '3', '文件下载', '', '', '', '', '', '', '', '13', 'true');
+INSERT INTO `web_infoclass` VALUES ('14', '1', '13', '0,13,', '3', '企业资料', '', '', '', '', '', '', '', '14', 'true');
+INSERT INTO `web_infoclass` VALUES ('15', '1', '13', '0,13,', '3', '视频下载', '', '', '', '', '', '', '', '15', 'true');
+INSERT INTO `web_infoclass` VALUES ('16', '1', '13', '0,13,', '3', '美容化妆', '', '', '', '', '', '', '', '16', 'true');
+INSERT INTO `web_infoclass` VALUES ('18', '1', '0', '0,', '0', '招商加盟', '', '', '', '', '', '', '', '18', 'true');
+
+-- ----------------------------
+-- Table structure for `web_infoflag`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_infoflag`;
+CREATE TABLE `web_infoflag` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '信息标记id',
+  `flag` varchar(30) NOT NULL COMMENT '标记名称',
+  `flagname` varchar(30) NOT NULL COMMENT '标记标识',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_infoflag
+-- ----------------------------
+INSERT INTO `web_infoflag` VALUES ('1', 'h', '头条', '1');
+INSERT INTO `web_infoflag` VALUES ('2', 'c', '推荐', '2');
+INSERT INTO `web_infoflag` VALUES ('3', 'f', '幻灯', '3');
+INSERT INTO `web_infoflag` VALUES ('4', 'a', '特荐', '4');
+INSERT INTO `web_infoflag` VALUES ('5', 's', '滚动', '5');
+INSERT INTO `web_infoflag` VALUES ('6', 'j', '跳转', '6');
+
+-- ----------------------------
+-- Table structure for `web_infoimg`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_infoimg`;
+CREATE TABLE `web_infoimg` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '图片信息id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属栏目上级id',
+  `parentstr` varchar(80) NOT NULL COMMENT '所属栏目上级id字符串',
+  `mainid` smallint(5) NOT NULL COMMENT '二级类别id',
+  `mainpid` smallint(5) NOT NULL COMMENT '二级类别父id',
+  `mainpstr` varchar(80) NOT NULL COMMENT '二级累呗父id字符串',
+  `title` varchar(80) NOT NULL COMMENT '标题',
+  `colorval` char(10) NOT NULL COMMENT '字体颜色',
+  `boldval` char(10) NOT NULL COMMENT '字体加粗',
+  `flag` varchar(30) NOT NULL COMMENT '属性',
+  `source` varchar(50) NOT NULL COMMENT '文章来源',
+  `author` varchar(50) NOT NULL COMMENT '作者编辑',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `keywords` varchar(50) NOT NULL COMMENT '关键词',
+  `description` varchar(255) NOT NULL COMMENT '摘要',
+  `content` mediumtext NOT NULL COMMENT '详细内容',
+  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
+  `picarr` text NOT NULL COMMENT '组图',
+  `hits` mediumint(8) unsigned NOT NULL COMMENT '点击次数',
+  `orderid` int(10) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) NOT NULL COMMENT '更新时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  `delstate` set('true') NOT NULL COMMENT '删除状态',
+  `deltime` int(10) unsigned NOT NULL COMMENT '删除时间',
+  `price` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_infoimg
+-- ----------------------------
+INSERT INTO `web_infoimg` VALUES ('1', '1', '4', '1', '0,1,', '-1', '-1', '', '彼尔生物医药产品宣传片', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzE3MDM0NDUy/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424093482.jpg', '', '52', '1', '1424088066', 'true', '', '0', '');
+INSERT INTO `web_infoimg` VALUES ('2', '1', '4', '1', '0,1,', '-1', '-1', '', '张廷璧教授讲解心脑血管病治疗', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzIyMjE4MDg0/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424090008.jpg', '', '154', '2', '1424088708', 'true', '', '0', '');
+INSERT INTO `web_infoimg` VALUES ('3', '1', '4', '1', '0,1,', '-1', '-1', '', '张廷璧教授接受记者采访', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzIyMjI0OTI0/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424093018.jpg', '', '145', '3', '1424091590', 'true', '', '0', '');
+INSERT INTO `web_infoimg` VALUES ('4', '1', '4', '1', '0,1,', '-1', '-1', '', '高血压典型病例3', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzIxMjYzMjA4/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424093949.jpg', '', '159', '4', '1424091663', 'true', '', '0', '');
+INSERT INTO `web_infoimg` VALUES ('5', '1', '4', '1', '0,1,', '-1', '-1', '', '冠心病典型案例', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzIxMjcwMzUy/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424093708.jpg', '', '111', '5', '1424091737', 'true', '', '0', '');
+INSERT INTO `web_infoimg` VALUES ('6', '1', '7', '6', '0,6,', '-1', '-1', '', '富硒花栓豆（硬包装）', '', '', '', '', 'admin', '', '', '什么是富硒花栓豆？是谁发明了富硒花栓豆？ 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。 富硒花栓豆的溶栓酶，科学名...', '<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">什么是富硒花栓豆？是谁发明了富硒花栓豆？</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。<br />\r\n富硒花栓豆的溶栓酶，科学名字叫豆豉纤溶酶，它的特点是和血管壁亲和力很低，帮不会造成出血。<br />\r\n武汉大学生命科学院张廷璧教授，潜心研究近十年，终于培育出一种“枯草菌”，用于发酵大豆，制作出来的富硒花栓豆与日本“纳豆”相比较，品质更高，保质期更长。张廷璧教授取名为“富硒花栓豆”，即“溶化血栓”之意。</span>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;font-family:宋体;white-space:normal;color:red;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的成份是什么？</span>\r\n</h1>\r\n<p style=\"margin-top:0px;margin-bottom:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆”含有丰富的有机硒、溶栓酶、大豆多肽，卵磷脂、维生素K、红曲，天然它汀化合物。每10克“富硒花栓豆”含有溶栓酶16000个单位，相当于中风病人住院初期每日注射一针800元的尿激酶。溶栓酶有强力的溶解血栓、抑制血小板凝结，防止血栓的形成作用。大豆多肽和卵磷脂，有降血脂、降胆固醇的作用。会使血管变得通畅、柔软、富有弹性，防止动脉硬化，防治冠心病和中风的发生。丰富的硒不仅是突出的免疫力增强剂，心脏和肝脏的保护剂，更有“抗癌之王”的美称。</span>\r\n</p>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的适用人群</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 1、已有心脑血管疾病的人群如：高血粘、高血脂（特别是转氨酶高不能用“他汀类”西药降脂的患者），高胆固醇、高血压、酒精肝、脂肪肝、冠心病（心绞痛、心悸、心慌、胸闷气短、头晕、白天发困、腰背发酸、手脚发麻、发凉、乏力），脑梗塞、脑中风等“已病”人群。<br />\r\n2、亚健康人群—指长期抽烟、喝酒或进食肥腻且运动量过小，肥胖的中青年人，血压、血脂、血糖偏高，代谢功能差的“未病”人群。<br />\r\n3、血粘度高的患者（乏力、嗜睡、精神不振、思想不敏捷、哈欠连天）。<br />\r\n凡五十岁左右的中老年朋友，按照“少吃饭、多走路，菜和油同时下锅，一天一包富硒花栓豆的要求去做半年，就要不得心脑血管疾病。<br />\r\n&nbsp;</span>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的服用方法</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;\">正常服用富硒花栓豆，每天一袋，直接用温水吞服或嚼服。</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span class=\"STYLE1\" style=\"padding:0px;margin:0px;line-height:25px;\">服用过程中应当注意以下情况：</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\">1、富硒花栓豆的主要成人是豆豉纤溶酶，豆豉纤溶酶是生物制剂，遇热失活，因此应该温水或凉水服用。<br />\r\n2、富硒花栓豆稀释血液浓度见效特别快（4小时见效），因此有高血压症状且血粘稠特别高者，会出现大便变稀或者变结的情况，有些人服用后出现头昏现象，建议3天一袋，适应后改为1天一袋。<br />\r\n3、富硒花栓豆是功能性食品，而非药物，无任何毒副作用，可与其它食品或药品同时食用，因此无需咨询医疗界人士。（医疗界一般都判定高血压等需长期用药，不信任食品可以治病，服用富硒花栓豆者要理解富硒花栓豆是安全、无毒的食品，可以大胆放心地使用）。<br />\r\n4、富硒花栓豆含有丰富的蛋白质和大豆异黄酮等成份，对于蛋白质缺乏者，初期（约1至15天）食用可能会出现上火现象，如口腔溃疡等。出现此症状较严重时，可暂停2至3天再服用，反复几次即可恢复正常。<br />\r\n5、富硒花栓豆具有调整肠胃功能的作用，肠胃功能不好者，初期（约1至15天）食用可能会出现在肠胃不舒适感、腹痛、腹泻、便秘等反应，坚持一至两周即可恢复正常，而且恢复正常后肠胃功能保持稳定，排泄轻松，代谢正常。<br />\r\n6、痛风患者、肾病患者、尿酸过高者应改用除掉嘌呤的饭豆发酵的富硒花栓豆。<br />\r\n7、血糖高者（糖尿病人）应当先服用富硒花栓豆二型。血糖正常以后，最好配合富硒花栓豆继续服用，直到其他血液参数恢复正常为止。</span>\r\n</div>', 'uploads/image/20150216/1424104164.jpg', '', '182', '6', '1424098855', 'true', '', '0', '998');
+INSERT INTO `web_infoimg` VALUES ('7', '1', '7', '6', '0,6,', '-1', '-1', '', '富硒花栓豆（软盒装）', '', '', '', '', 'admin', '', '', '什么是富硒花栓豆？是谁发明了富硒花栓豆？ 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。 富硒花栓豆的溶栓酶，科学名...', '<h1 style=\"margin:0px;padding:0px;font-size:30px;font-family:宋体;white-space:normal;color:red;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">什么是富硒花栓豆？是谁发明了富硒花栓豆？</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。<br />\r\n富硒花栓豆的溶栓酶，科学名字叫豆豉纤溶酶，它的特点是和血管壁亲和力很低，帮不会造成出血。<br />\r\n武汉大学生命科学院张廷璧教授，潜心研究近十年，终于培育出一种“枯草菌”，用于发酵大豆，制作出来的富硒花栓豆与日本“纳豆”相比较，品质更高，保质期更长。张廷璧教授取名为“富硒花栓豆”，即“溶化血栓”之意。</span><br />\r\n	<h1 style=\"margin:0px;padding:0px;font-size:30px;color:red;text-align:center;\">\r\n		<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的成份是什么？</span>\r\n	</h1>\r\n	<p style=\"margin-top:0px;margin-bottom:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆”含有丰富的有机硒、溶栓酶、大豆多肽，卵磷脂、维生素K、红曲，天然它汀化合物。每10克“富硒花栓豆”含有溶栓酶16000个单位，相当于中风病人住院初期每日注射一针800元的尿激酶。溶栓酶有强力的溶解血栓、抑制血小板凝结，防止血栓的形成作用。大豆多肽和卵磷脂，有降血脂、降胆固醇的作用。会使血管变得通畅、柔软、富有弹性，防止动脉硬化，防治冠心病和中风的发生。丰富的硒不仅是突出的免疫力增强剂，心脏和肝脏的保护剂，更有“抗癌之王”的美称。</span>\r\n	</p>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的适用人群</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 1、已有心脑血管疾病的人群如：高血粘、高血脂（特别是转氨酶高不能用“他汀类”西药降脂的患者），高胆固醇、高血压、酒精肝、脂肪肝、冠心病（心绞痛、心悸、心慌、胸闷气短、头晕、白天发困、腰背发酸、手脚发麻、发凉、乏力），脑梗塞、脑中风等“已病”人群。<br />\r\n2、亚健康人群—指长期抽烟、喝酒或进食肥腻且运动量过小，肥胖的中青年人，血压、血脂、血糖偏高，代谢功能差的“未病”人群。<br />\r\n3、血粘度高的患者（乏力、嗜睡、精神不振、思想不敏捷、哈欠连天）。<br />\r\n凡五十岁左右的中老年朋友，按照“少吃饭、多走路，菜和油同时下锅，一天一包富硒花栓豆的要求去做半年，就要不得心脑血管疾病。<br />\r\n&nbsp;</span>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的服用方法</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;\">正常服用富硒花栓豆，每天一袋，直接用温水吞服或嚼服。</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span class=\"STYLE1\" style=\"padding:0px;margin:0px;line-height:25px;\">服用过程中应当注意以下情况：</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\">1、富硒花栓豆的主要成人是豆豉纤溶酶，豆豉纤溶酶是生物制剂，遇热失活，因此应该温水或凉水服用。<br />\r\n2、富硒花栓豆稀释血液浓度见效特别快（4小时见效），因此有高血压症状且血粘稠特别高者，会出现大便变稀或者变结的情况，有些人服用后出现头昏现象，建议3天一袋，适应后改为1天一袋。<br />\r\n3、富硒花栓豆是功能性食品，而非药物，无任何毒副作用，可与其它食品或药品同时食用，因此无需咨询医疗界人士。（医疗界一般都判定高血压等需长期用药，不信任食品可以治病，服用富硒花栓豆者要理解富硒花栓豆是安全、无毒的食品，可以大胆放心地使用）。<br />\r\n4、富硒花栓豆含有丰富的蛋白质和大豆异黄酮等成份，对于蛋白质缺乏者，初期（约1至15天）食用可能会出现上火现象，如口腔溃疡等。出现此症状较严重时，可暂停2至3天再服用，反复几次即可恢复正常。<br />\r\n5、富硒花栓豆具有调整肠胃功能的作用，肠胃功能不好者，初期（约1至15天）食用可能会出现在肠胃不舒适感、腹痛、腹泻、便秘等反应，坚持一至两周即可恢复正常，而且恢复正常后肠胃功能保持稳定，排泄轻松，代谢正常。<br />\r\n6、痛风患者、肾病患者、尿酸过高者应改用除掉嘌呤的饭豆发酵的富硒花栓豆。<br />\r\n7、血糖高者（糖尿病人）应当先服用富硒花栓豆二型。血糖正常以后，最好配合富硒花栓豆继续服用，直到其他血液参数恢复正常为止。</span>\r\n</div>', 'uploads/image/20150216/1424106926.jpg', '', '138', '7', '1424099018', 'true', '', '0', '480');
+INSERT INTO `web_infoimg` VALUES ('8', '1', '7', '6', '0,6,', '-1', '-1', '', '二型富硒花生豆', '', '', '', '', 'admin', '', '', '什么是富硒花栓豆？是谁发明了富硒花栓豆？ 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。 富硒花栓豆的溶栓酶，科学名...', '<h1 style=\"margin:0px;padding:0px;font-size:30px;font-family:宋体;white-space:normal;color:red;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">什么是富硒花栓豆？是谁发明了富硒花栓豆？</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。<br />\r\n富硒花栓豆的溶栓酶，科学名字叫豆豉纤溶酶，它的特点是和血管壁亲和力很低，帮不会造成出血。<br />\r\n武汉大学生命科学院张廷璧教授，潜心研究近十年，终于培育出一种“枯草菌”，用于发酵大豆，制作出来的富硒花栓豆与日本“纳豆”相比较，品质更高，保质期更长。张廷璧教授取名为“富硒花栓豆”，即“溶化血栓”之意。</span><br />\r\n	<h1 style=\"margin:0px;padding:0px;font-size:30px;color:red;text-align:center;\">\r\n		<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的成份是什么？</span>\r\n	</h1>\r\n	<p style=\"margin-top:0px;margin-bottom:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆”含有丰富的有机硒、溶栓酶、大豆多肽，卵磷脂、维生素K、红曲，天然它汀化合物。每10克“富硒花栓豆”含有溶栓酶16000个单位，相当于中风病人住院初期每日注射一针800元的尿激酶。溶栓酶有强力的溶解血栓、抑制血小板凝结，防止血栓的形成作用。大豆多肽和卵磷脂，有降血脂、降胆固醇的作用。会使血管变得通畅、柔软、富有弹性，防止动脉硬化，防治冠心病和中风的发生。丰富的硒不仅是突出的免疫力增强剂，心脏和肝脏的保护剂，更有“抗癌之王”的美称。</span>\r\n	</p>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的适用人群</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 1、已有心脑血管疾病的人群如：高血粘、高血脂（特别是转氨酶高不能用“他汀类”西药降脂的患者），高胆固醇、高血压、酒精肝、脂肪肝、冠心病（心绞痛、心悸、心慌、胸闷气短、头晕、白天发困、腰背发酸、手脚发麻、发凉、乏力），脑梗塞、脑中风等“已病”人群。<br />\r\n2、亚健康人群—指长期抽烟、喝酒或进食肥腻且运动量过小，肥胖的中青年人，血压、血脂、血糖偏高，代谢功能差的“未病”人群。<br />\r\n3、血粘度高的患者（乏力、嗜睡、精神不振、思想不敏捷、哈欠连天）。<br />\r\n凡五十岁左右的中老年朋友，按照“少吃饭、多走路，菜和油同时下锅，一天一包富硒花栓豆的要求去做半年，就要不得心脑血管疾病。<br />\r\n&nbsp;</span>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的服用方法</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;\">正常服用富硒花栓豆，每天一袋，直接用温水吞服或嚼服。</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span class=\"STYLE1\" style=\"padding:0px;margin:0px;line-height:25px;\">服用过程中应当注意以下情况：</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\">1、富硒花栓豆的主要成人是豆豉纤溶酶，豆豉纤溶酶是生物制剂，遇热失活，因此应该温水或凉水服用。<br />\r\n2、富硒花栓豆稀释血液浓度见效特别快（4小时见效），因此有高血压症状且血粘稠特别高者，会出现大便变稀或者变结的情况，有些人服用后出现头昏现象，建议3天一袋，适应后改为1天一袋。<br />\r\n3、富硒花栓豆是功能性食品，而非药物，无任何毒副作用，可与其它食品或药品同时食用，因此无需咨询医疗界人士。（医疗界一般都判定高血压等需长期用药，不信任食品可以治病，服用富硒花栓豆者要理解富硒花栓豆是安全、无毒的食品，可以大胆放心地使用）。<br />\r\n4、富硒花栓豆含有丰富的蛋白质和大豆异黄酮等成份，对于蛋白质缺乏者，初期（约1至15天）食用可能会出现上火现象，如口腔溃疡等。出现此症状较严重时，可暂停2至3天再服用，反复几次即可恢复正常。<br />\r\n5、富硒花栓豆具有调整肠胃功能的作用，肠胃功能不好者，初期（约1至15天）食用可能会出现在肠胃不舒适感、腹痛、腹泻、便秘等反应，坚持一至两周即可恢复正常，而且恢复正常后肠胃功能保持稳定，排泄轻松，代谢正常。<br />\r\n6、痛风患者、肾病患者、尿酸过高者应改用除掉嘌呤的饭豆发酵的富硒花栓豆。<br />\r\n7、血糖高者（糖尿病人）应当先服用富硒花栓豆二型。血糖正常以后，最好配合富硒花栓豆继续服用，直到其他血液参数恢复正常为止。</span>\r\n</div>', 'uploads/image/20150216/1424107090.jpg', '', '136', '8', '1424099072', 'true', '', '0', '998');
+INSERT INTO `web_infoimg` VALUES ('9', '1', '7', '6', '0,6,', '-1', '-1', '', '特膳大礼包', '', '', '', '', 'admin', '', '', '彼尔生物医药糖脂特膳中的营养素 膳食纤维： 膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养素，营养学称为第...', '<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">彼尔生物医药糖脂特膳中的营养素</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维：</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养素，营养学称为第七营养素。膳食纤维可延长食物在肠内的停留时间，降低葡萄糖吸收速度，使餐后血糖不会急剧上升，有利于糖尿病病情的改善。因此糖尿病膳食中长期增加食物纤维，可降低胰岛素需要量，控制餐后血糖。</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞：</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞被誉为“五谷之王”，所含的营养成分非常丰富，主要包括生物类黄酮、高活性蛋白、氨基酸、脂肪酸、膳食纤维、微量元素等。苦荞中生物类黄酮的含量较高，其中以芦丁和槲皮素为主。芦丁是降糖、降脂和改善心脑血管微循环功效的关键物质，能够促进胰岛b细胞的恢复，降低血糖和血清胆固醇，改善糖耐量，对抗肾上腺素的升糖作用，同时它还能够抑制醛糖还原酶，因此可以治疗糖尿病及其并发症。</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">海参：</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">海参具有滋阴养血、调整机体免疫力、延缓衰老、提高记忆力、抗疲劳和调节血糖的功效。现代医学认为，海参中的酸性粘多糖具有降低血糖活性，所含有的钾、钒等微量元素对促进胰岛素分泌起着重要作用。</span>\r\n	</div>\r\n	<div>\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\"><br />\r\n</span>\r\n	</div>\r\n</div>', 'uploads/image/20150216/1424102530.jpg', '', '149', '9', '1424099142', 'true', '', '0', '928');
+INSERT INTO `web_infoimg` VALUES ('10', '1', '7', '6', '0,6,', '-1', '-1', '', '三联技术组合套装一疗程', '', '', '', '', 'admin', '', '', '使用时间为半年。 彼尔生物医药糖脂特膳中的营养素 膳食纤维： 膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养...', '<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">使用时间为半年。</span>\r\n</p>\r\n<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\"><br />\r\n</span>\r\n</p>\r\n<p>\r\n	<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">彼尔生物医药糖脂特膳中的营养素</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养素，营养学称为第七营养素。膳食纤维可延长食物在肠内的停留时间，降低葡萄糖吸收速度，使餐后血糖不会急剧上升，有利于糖尿病病情的改善。因此糖尿病膳食中长期增加食物纤维，可降低胰岛素需要量，控制餐后血糖。</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞被誉为“五谷之王”，所含的营养成分非常丰富，主要包括生物类黄酮、高活性蛋白、氨基酸、脂肪酸、膳食纤维、微量元素等。苦荞中生物类黄酮的含量较高，其中以芦丁和槲皮素为主。芦丁是降糖、降脂和改善心脑血管微循环功效的关键物质，能够促进胰岛b细胞的恢复，降低血糖和血清胆固醇，改善糖耐量，对抗肾上腺素的升糖作用，同时它还能够抑制醛糖还原酶，因此可以治疗糖尿病及其并发症。</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">海参：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">海参具有滋阴养血、调整机体免疫力、延缓衰老、提高记忆力、抗疲劳和调节血糖的功效。现代医学认为，海参中的酸性粘多糖具有降低血糖活性，所含有的钾、钒等微量元素对促进胰岛素分泌起着重要作用。</span>\r\n		</div>\r\n		<div>\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\"><br />\r\n</span>\r\n		</div>\r\n	</div>\r\n</p>', 'uploads/image/20150216/1424101388.jpg', '', '164', '10', '1424099217', 'true', '', '0', '11556');
+INSERT INTO `web_infoimg` VALUES ('11', '1', '7', '6', '0,6,', '-1', '-1', '', '三联技术组合套装二疗程', '', '', '', '', 'admin', '', '', '使用时间为一年。 彼尔生物医药糖脂特膳中的营养素 膳食纤维： 膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养...', '<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">使用时间为一年。</span>\r\n</p>\r\n<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\"><br />\r\n</span>\r\n</p>\r\n<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">彼尔生物医药糖脂特膳中的营养素</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养素，营养学称为第七营养素。膳食纤维可延长食物在肠内的停留时间，降低葡萄糖吸收速度，使餐后血糖不会急剧上升，有利于糖尿病病情的改善。因此糖尿病膳食中长期增加食物纤维，可降低胰岛素需要量，控制餐后血糖。</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞被誉为“五谷之王”，所含的营养成分非常丰富，主要包括生物类黄酮、高活性蛋白、氨基酸、脂肪酸、膳食纤维、微量元素等。苦荞中生物类黄酮的含量较高，其中以芦丁和槲皮素为主。芦丁是降糖、降脂和改善心脑血管微循环功效的关键物质，能够促进胰岛b细胞的恢复，降低血糖和血清胆固醇，改善糖耐量，对抗肾上腺素的升糖作用，同时它还能够抑制醛糖还原酶，因此可以治疗糖尿病及其并发症。</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">海参：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">海参具有滋阴养血、调整机体免疫力、延缓衰老、提高记忆力、抗疲劳和调节血糖的功效。现代医学认为，海参中的酸性粘多糖具有降低血糖活性，所含有的钾、钒等微量元素对促进胰岛素分泌起着重要作用。</span>\r\n		</div>\r\n		<div>\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\"><br />\r\n</span>\r\n		</div>\r\n	</div>\r\n<br />\r\n</span>\r\n</p>', 'uploads/image/20150216/1424107574.jpg', '', '97', '11', '1424099303', 'true', '', '0', '23112');
+INSERT INTO `web_infoimg` VALUES ('12', '1', '3', '1', '0,1,', '-1', '-1', '', '中国医促会中老年保健专业委员会指定产品证书', '', '', '', '', 'admin', '', '', '', '', 'uploads/image/20150216/1424104756.jpg', '', '60', '12', '1424099792', 'true', '', '0', '');
+
+-- ----------------------------
+-- Table structure for `web_infolist`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_infolist`;
+CREATE TABLE `web_infolist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '列表信息id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属栏目上级id',
+  `parentstr` varchar(80) NOT NULL COMMENT '所属栏目上级id字符串',
+  `mainid` smallint(5) NOT NULL COMMENT '二级类别id',
+  `mainpid` smallint(5) NOT NULL COMMENT '二级类别上级id',
+  `mainpstr` varchar(80) NOT NULL COMMENT '二级类别上级id字符串',
+  `title` varchar(80) NOT NULL COMMENT '标题',
+  `colorval` char(10) NOT NULL COMMENT '字体颜色',
+  `boldval` char(10) NOT NULL COMMENT '字体加粗',
+  `flag` varchar(30) NOT NULL COMMENT '属性',
+  `source` varchar(50) NOT NULL COMMENT '文章来源',
+  `author` varchar(50) NOT NULL COMMENT '作者编辑',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `keywords` varchar(50) NOT NULL COMMENT '关键词',
+  `description` varchar(255) NOT NULL COMMENT '摘要',
+  `content` mediumtext NOT NULL COMMENT '详细内容',
+  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
+  `picarr` text NOT NULL COMMENT '组图',
+  `hits` mediumint(8) unsigned NOT NULL COMMENT '点击次数',
+  `orderid` int(10) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) NOT NULL COMMENT '更新时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  `delstate` set('true') NOT NULL COMMENT '删除状态',
+  `deltime` int(10) unsigned NOT NULL COMMENT '删除时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_infolist
+-- ----------------------------
+INSERT INTO `web_infolist` VALUES ('1', '1', '10', '0', '0,', '-1', '-1', '', '各界人士会见张廷璧教授', '', '', '', '', 'admin', '', '', '由于张廷璧教授在自己领域所做出的杰出的贡献，受到了各界人士认同，同时各界人士纷纷和张教授联系问医', '<img src=\"/3004mxgc180.com/uploads/image/20150216/1424091284.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424088294.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424095174.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424088710.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424095663.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424090666.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424096301.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424091619.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424090334.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424094970.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424088190.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424087555.jpg\" alt=\"\" />', '', '', '108', '1', '1424086628', 'true', '', '0');
+INSERT INTO `web_infolist` VALUES ('2', '1', '10', '0', '0,', '-1', '-1', '', '只有尽快改变中国医药和西医接轨的立法思想才', '', '', '', '', 'admin', '', '', '我曾以湖北省政府参事名义给中央领导写了一封信，就是“用科学技术完成一项重大民心工程的建议”，简称3004工程。就是说要把中国的心脑血管病发病率30%降到0.4%。有人提醒我，降低5%就是了不起的贡献，降低30%是否太难了。我说能达到，方法就是“少吃饭，多走路，一天一包花栓豆”。花栓豆就是用特殊选育的枯草杆菌发酵的黄豆，富人能办到，穷人也能办到。世界上有大量的研究报告证明用花栓豆食疗防治心脑血管病是切实可行的办...', '<span style=\"padding:0px;margin:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">我曾以湖北省政府参事名义给中央领导写了一封信，就是“用科学技术完成一项重大民心工程的建议”，简称3004工程。就是说要把中国的心脑血管病发病率30%降到0.4%。有人提醒我，降低5%就是了不起的贡献，降低30%是否太难了。我说能达到，方法就是“少吃饭，多走路，一天一包花栓豆”。花栓豆就是用特殊选育的枯草杆菌发酵的黄豆，富人能办到，穷人也能办到。世界上有大量的研究报告证明用花栓豆食疗防治心脑血管病是切实可行的办法，现在的问题是一定要冲破食品不准宣传治疗功效的法律障碍，食品是很大的类别，有的食品没有防病治病效果，有的确实具有防病治病效果，一律人为的规定食品不准宣传治疗功效显然是荒谬的。所以中医历来强调药食同源，强调先用食品治病，再辅助之药品，中国破除法律障碍强制实行加碘盐再2000年消灭了碘缺乏症就是用食品治病的例子，中国政府也公布了一批药食同源品种名单，但是宣传很不够，品种也太少。</span><br style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\" />\r\n<span style=\"padding:0px;margin:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">遗憾的是中国现在的医药立法是按照西医、西药立法。强调用单一成分对抗治疗，强调围绕单一成份的标准化，强调药品和食品分家，而中医，中药处于受排挤的地位，重要历来反对单一成份用药，强调复方配伍，强调药食同源。反对把食品或天然药材提纯成单一成份，正如吕炳奎老中医给胡锦涛主席信中指出的“对中医，这个自古以来传承至今的中国文化脊梁，绝不能在西医的统治下被消灭。”中医，中药受压制是一个中国医药立法存在的整体问题。不解决立法思想的原则障碍，就不能解决中医，中药的生存障碍，更不可能有中国人的身体健康。</span>', '', '', '178', '2', '1424097882', 'true', '', '0');
+
+-- ----------------------------
+-- Table structure for `web_infosrc`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_infosrc`;
+CREATE TABLE `web_infosrc` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '来源id',
+  `srcname` varchar(30) NOT NULL COMMENT '来源名称',
+  `linkurl` varchar(80) NOT NULL COMMENT '来源地址',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '来源排序',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_infosrc
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_job`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_job`;
+CREATE TABLE `web_job` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '招聘信息id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `title` varchar(50) NOT NULL COMMENT '位岗名称',
+  `jobplace` varchar(80) NOT NULL COMMENT '工作地点',
+  `jobdescription` varchar(50) NOT NULL COMMENT '工作性质',
+  `employ` smallint(5) unsigned NOT NULL COMMENT '招聘人数',
+  `jobsex` enum('0','1','2') NOT NULL COMMENT '性别要求',
+  `treatment` varchar(50) NOT NULL COMMENT '工资待遇',
+  `usefullife` varchar(50) NOT NULL COMMENT '有效期',
+  `experience` varchar(50) NOT NULL COMMENT '工作经验',
+  `education` varchar(80) NOT NULL COMMENT '学历要求',
+  `joblang` varchar(50) NOT NULL COMMENT '言语能力',
+  `workdesc` mediumtext NOT NULL COMMENT '职位描述',
+  `content` mediumtext NOT NULL COMMENT '职位要求',
+  `orderid` mediumint(8) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_job
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_lnk`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_lnk`;
+CREATE TABLE `web_lnk` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '快捷方式id',
+  `lnkname` varchar(30) NOT NULL COMMENT '快捷方式名称',
+  `lnklink` varchar(50) NOT NULL COMMENT '跳转链接',
+  `lnkico` varchar(50) NOT NULL COMMENT 'ico地址',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_lnk
+-- ----------------------------
+INSERT INTO `web_lnk` VALUES ('1', '栏目管理', 'infoclass.php', 'templates/images/lnkBg01.png', '1');
+INSERT INTO `web_lnk` VALUES ('2', '列表管理', 'infolist.php', 'templates/images/lnkBg02.png', '2');
+INSERT INTO `web_lnk` VALUES ('3', '图片管理', 'infoimg.php', 'templates/images/lnkBg03.png', '3');
+INSERT INTO `web_lnk` VALUES ('4', '商品管理', 'goods.php', 'templates/images/lnkBg04.png', '4');
+
+-- ----------------------------
+-- Table structure for `web_maintype`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_maintype`;
+CREATE TABLE `web_maintype` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '二级类别id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '类别上级id',
+  `parentstr` varchar(50) NOT NULL COMMENT '类别上级id字符串',
+  `classname` varchar(30) NOT NULL COMMENT '类别名称',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_maintype
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_member`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_member`;
+CREATE TABLE `web_member` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户id',
+  `username` varchar(32) NOT NULL COMMENT '用户名',
+  `password` varchar(32) NOT NULL COMMENT '密码',
+  `question` varchar(50) NOT NULL COMMENT '提问',
+  `answer` varchar(50) NOT NULL COMMENT '回答',
+  `cnname` varchar(10) NOT NULL COMMENT '姓名',
+  `enname` varchar(20) NOT NULL COMMENT '英文名',
+  `avatar` varchar(100) NOT NULL COMMENT '头像',
+  `sex` tinyint(1) unsigned NOT NULL COMMENT '性别',
+  `birthtype` tinyint(1) unsigned NOT NULL COMMENT '生日类型',
+  `birth_year` varchar(10) NOT NULL DEFAULT '-1' COMMENT '生日_年',
+  `birth_month` varchar(10) NOT NULL DEFAULT '-1' COMMENT '生日_月',
+  `birth_day` varchar(10) NOT NULL DEFAULT '-1' COMMENT '生日_日',
+  `astro` varchar(10) NOT NULL DEFAULT '-1' COMMENT '星座',
+  `bloodtype` tinyint(2) NOT NULL DEFAULT '-1' COMMENT '血型',
+  `trade` varchar(10) NOT NULL DEFAULT '-1' COMMENT '行业',
+  `live_prov` varchar(10) NOT NULL DEFAULT '-1' COMMENT '现居地_省',
+  `live_city` varchar(10) NOT NULL DEFAULT '-1' COMMENT '现居地_市',
+  `live_country` varchar(15) NOT NULL DEFAULT '-1' COMMENT '现居地_区',
+  `home_prov` varchar(10) NOT NULL DEFAULT '-1' COMMENT '故乡_省',
+  `home_city` varchar(10) NOT NULL DEFAULT '-1' COMMENT '故乡_市',
+  `home_country` varchar(15) NOT NULL DEFAULT '-1' COMMENT '故乡_区',
+  `cardtype` tinyint(2) NOT NULL DEFAULT '-1' COMMENT '证件类型',
+  `cardnum` varchar(32) NOT NULL COMMENT '证件号码',
+  `intro` text NOT NULL COMMENT '个人说明',
+  `email` varchar(40) NOT NULL COMMENT '电子邮件',
+  `qqnum` varchar(20) NOT NULL COMMENT 'QQ号码',
+  `mobile` varchar(20) NOT NULL COMMENT '手机',
+  `telephone` varchar(20) NOT NULL COMMENT '固定电话',
+  `address_prov` varchar(10) NOT NULL DEFAULT '-1' COMMENT '通信地址_省',
+  `address_city` varchar(10) NOT NULL DEFAULT '-1' COMMENT '通信地址_市',
+  `address_country` varchar(15) NOT NULL DEFAULT '-1' COMMENT '通信地址_区',
+  `address` varchar(100) NOT NULL COMMENT '通信地址',
+  `zipcode` varchar(10) NOT NULL COMMENT '邮编',
+  `enteruser` set('1') NOT NULL COMMENT '认证',
+  `expval` int(10) NOT NULL COMMENT '经验值',
+  `integral` int(10) unsigned NOT NULL COMMENT '积分',
+  `regtime` int(10) unsigned NOT NULL COMMENT '注册时间',
+  `regip` varchar(20) NOT NULL COMMENT '注册IP',
+  `logintime` int(10) unsigned NOT NULL COMMENT '登录时间',
+  `loginip` varchar(20) NOT NULL COMMENT '登录IP',
+  `qqid` varchar(32) NOT NULL COMMENT '绑定QQ',
+  `weiboid` varchar(32) NOT NULL COMMENT '绑定微博',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_member
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_message`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_message`;
+CREATE TABLE `web_message` (
+  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '留言id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `nickname` varchar(30) NOT NULL COMMENT '昵称',
+  `contact` varchar(50) NOT NULL COMMENT '联系方式',
+  `content` text NOT NULL COMMENT '留言内容',
+  `htop` set('true') NOT NULL COMMENT '置顶',
+  `rtop` set('true') NOT NULL COMMENT '推荐',
+  `ip` char(20) NOT NULL COMMENT '留言IP',
+  `recont` text NOT NULL COMMENT '回复内容',
+  `retime` int(10) unsigned NOT NULL COMMENT '回复时间',
+  `orderid` mediumint(8) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_message
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_nav`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_nav`;
+CREATE TABLE `web_nav` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '导航id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '导航分类',
+  `parentstr` varchar(50) NOT NULL COMMENT '导航分类父id字符串',
+  `classname` varchar(30) NOT NULL COMMENT '导航名称',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `relinkurl` varchar(255) NOT NULL COMMENT '重写地址',
+  `picurl` varchar(100) NOT NULL COMMENT '导航图片',
+  `target` varchar(30) NOT NULL COMMENT '打开方式',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '隐藏导航',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_nav
+-- ----------------------------
+INSERT INTO `web_nav` VALUES ('1', '1', '0', '0,', '主菜单', '#', '', '', '', '1', 'true');
+INSERT INTO `web_nav` VALUES ('2', '1', '1', '0,1,', '首页', 'index.php', '', '', '', '2', 'true');
+
+-- ----------------------------
+-- Table structure for `web_paymode`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_paymode`;
+CREATE TABLE `web_paymode` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '支付方式id',
+  `classname` varchar(30) NOT NULL COMMENT '支付方式名称',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_paymode
+-- ----------------------------
+INSERT INTO `web_paymode` VALUES ('1', '在线支付', '1', 'true');
+INSERT INTO `web_paymode` VALUES ('2', '货到付款', '2', 'true');
+
+-- ----------------------------
+-- Table structure for `web_postmode`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_postmode`;
+CREATE TABLE `web_postmode` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '配送方式id',
+  `classname` varchar(30) NOT NULL COMMENT '配送方式',
+  `postprice` varchar(10) NOT NULL COMMENT '配送价格',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_postmode
+-- ----------------------------
+INSERT INTO `web_postmode` VALUES ('1', '申通', '15', '1', 'true');
+INSERT INTO `web_postmode` VALUES ('2', '中通', '15', '2', 'true');
+INSERT INTO `web_postmode` VALUES ('3', '圆通', '15', '3', 'true');
+INSERT INTO `web_postmode` VALUES ('4', '顺丰', '22', '4', 'true');
+INSERT INTO `web_postmode` VALUES ('5', 'EMS', '20', '5', 'true');
+
+-- ----------------------------
+-- Table structure for `web_site`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_site`;
+CREATE TABLE `web_site` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '站点ID',
+  `sitename` varchar(30) NOT NULL COMMENT '站点名称',
+  `sitekey` varchar(30) NOT NULL COMMENT '站点标识',
+  `sitelang` varchar(50) NOT NULL COMMENT '站点语言包',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_site
+-- ----------------------------
+INSERT INTO `web_site` VALUES ('1', '默认站点', 'zh_CN', 'zh_CN');
+
+-- ----------------------------
+-- Table structure for `web_soft`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_soft`;
+CREATE TABLE `web_soft` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '软件信息id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属栏目上级id',
+  `parentstr` varchar(80) NOT NULL COMMENT '所属栏目上级id字符串',
+  `mainid` smallint(5) NOT NULL COMMENT '二级类别id',
+  `mainpid` smallint(5) NOT NULL COMMENT '二级类别父id',
+  `mainpstr` varchar(80) NOT NULL COMMENT '二级累呗父id字符串',
+  `title` varchar(80) NOT NULL COMMENT '标题',
+  `colorval` char(10) NOT NULL COMMENT '字体颜色',
+  `boldval` char(10) NOT NULL COMMENT '字体加粗',
+  `flag` varchar(30) NOT NULL COMMENT '属性',
+  `filetype` char(4) NOT NULL COMMENT '文件类型',
+  `softtype` char(10) NOT NULL COMMENT '软件类型',
+  `language` char(10) NOT NULL COMMENT '界面语言',
+  `accredit` char(10) NOT NULL COMMENT '授权方式',
+  `softsize` varchar(10) NOT NULL COMMENT '软件大小',
+  `unit` char(4) NOT NULL COMMENT '软件大小单位',
+  `runos` varchar(50) NOT NULL COMMENT '运行环境',
+  `website` varchar(255) NOT NULL COMMENT '官方网站',
+  `demourl` varchar(255) NOT NULL COMMENT '演示地址',
+  `dlurl` varchar(255) NOT NULL COMMENT '下载地址',
+  `source` varchar(50) NOT NULL COMMENT '文章来源',
+  `author` varchar(50) NOT NULL COMMENT '作者编辑',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `keywords` varchar(50) NOT NULL COMMENT '关键字',
+  `description` varchar(255) NOT NULL COMMENT '描述',
+  `content` mediumtext NOT NULL COMMENT '内容',
+  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
+  `picarr` text NOT NULL COMMENT '组图',
+  `hits` mediumint(8) unsigned NOT NULL COMMENT '点击次数',
+  `orderid` int(10) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) NOT NULL COMMENT '更新时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  `delstate` set('true') NOT NULL COMMENT '删除状态',
+  `deltime` int(10) unsigned NOT NULL COMMENT '删除时间',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_soft
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_sysevent`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_sysevent`;
+CREATE TABLE `web_sysevent` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '信息id',
+  `uname` varchar(30) NOT NULL COMMENT '用户名',
+  `siteid` tinyint(1) unsigned NOT NULL COMMENT '站点id',
+  `model` varchar(30) NOT NULL COMMENT '操作模块',
+  `classid` int(10) unsigned NOT NULL COMMENT '栏目id',
+  `action` varchar(10) NOT NULL COMMENT '执行操作',
+  `posttime` int(10) NOT NULL COMMENT '操作时间',
+  `ip` varchar(20) NOT NULL COMMENT '操作ip',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=113 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_sysevent
+-- ----------------------------
+INSERT INTO `web_sysevent` VALUES ('1', 'admin', '1', 'login', '0', '', '1424067188', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('2', 'admin', '1', 'web_config', '0', 'all', '1424067195', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('3', 'admin', '1', 'web_config', '0', 'all', '1424067283', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('4', 'admin', '1', 'site', '0', 'all', '1424067320', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('5', 'admin', '1', 'admin', '0', 'all', '1424067322', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('6', 'admin', '1', 'database_backup', '0', 'all', '1424067327', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('7', 'admin', '1', 'infoclass', '0', 'all', '1424067340', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('8', 'admin', '1', 'infoclass', '0', 'all', '1424067417', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('9', 'admin', '1', 'info', '1', 'add', '1424067434', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('10', 'admin', '1', 'info', '3', 'update', '1424067462', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('11', 'admin', '1', 'infoclass', '0', 'all', '1424067481', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('12', 'admin', '1', 'info', '1', 'add', '1424067501', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('13', 'admin', '1', 'infoclass', '0', 'all', '1424067553', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('14', 'admin', '1', 'infoimg', '6', 'add', '1424067553', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('15', 'admin', '1', 'infoclass', '0', 'all', '1424067635', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('16', 'admin', '1', 'infolist', '10', 'add', '1424067647', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('17', 'admin', '1', 'info', '0', 'all', '1424068165', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('18', 'admin', '1', 'diymodel', '0', 'all', '1424068180', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('19', 'admin', '1', 'fragment', '0', 'all', '1424068194', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('20', 'admin', '1', 'soft', '0', 'all', '1424068196', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('21', 'admin', '1', 'cascade', '0', 'all', '1424068206', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('22', 'admin', '1', 'vote', '0', 'all', '1424068231', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('23', 'admin', '1', 'check_bom', '0', 'all', '1424068247', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('24', 'admin', '1', 'admin', '0', 'all', '1424068261', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('25', 'admin', '1', 'infolist', '0', 'all', '1424068264', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('26', 'admin', '1', 'infoimg', '0', 'all', '1424068266', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('27', 'admin', '1', 'infoclass', '0', 'all', '1424068994', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('28', 'admin', '1', 'soft', '0', 'all', '1424068998', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('29', 'admin', '1', 'soft', '13', 'add', '1424069036', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('30', 'admin', '1', 'infoclass', '0', 'all', '1424069058', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('31', 'admin', '1', 'web_config', '0', 'all', '1424071915', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('32', 'admin', '1', 'infoclass', '0', 'all', '1424072180', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('33', 'admin', '1', 'infoclass', '0', 'all', '1424072243', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('34', 'admin', '1', 'nav', '0', 'all', '1424072686', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('35', 'admin', '1', 'nav', '0', 'all', '1424072751', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('36', 'admin', '1', 'infoclass', '0', 'all', '1424072799', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('37', 'admin', '1', 'login', '0', '', '1424073745', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('38', 'admin', '1', 'infoclass', '0', 'all', '1424073752', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('39', 'admin', '1', 'infoclass', '0', 'all', '1424074008', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('40', 'admin', '1', 'info', '17', 'del', '1424074008', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('41', 'admin', '1', 'login', '0', '', '1424085986', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('42', 'admin', '1', 'admin', '0', 'all', '1424086194', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('43', 'admin', '1', 'web_config', '0', 'all', '1424086197', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('44', 'admin', '1', 'infoclass', '0', 'all', '1424086290', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('45', 'admin', '1', 'infolist', '0', 'all', '1424086440', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('46', 'admin', '1', 'infolist', '0', 'all', '1424086619', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('47', 'admin', '1', 'infoclass', '0', 'all', '1424086624', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('48', 'admin', '1', 'infolist', '0', 'all', '1424086735', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('49', 'admin', '1', 'infolist', '10', 'add', '1424086735', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('50', 'admin', '1', 'infoclass', '0', 'all', '1424087385', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('51', 'admin', '1', 'info', '0', 'all', '1424087399', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('52', 'admin', '1', 'info', '2', 'update', '1424087455', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('53', 'admin', '1', 'infoclass', '0', 'all', '1424088037', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('54', 'admin', '1', 'infoimg', '0', 'all', '1424088040', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('55', 'admin', '1', 'infoimg', '0', 'all', '1424088281', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('56', 'admin', '1', 'infoimg', '4', 'add', '1424088281', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('57', 'admin', '1', 'infoimg', '0', 'all', '1424088708', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('58', 'admin', '1', 'infoimg', '0', 'all', '1424091511', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('59', 'admin', '1', 'infoimg', '4', 'add', '1424091511', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('60', 'admin', '1', 'infoimg', '0', 'all', '1424091585', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('61', 'admin', '1', 'infoimg', '4', 'add', '1424091628', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('62', 'admin', '1', 'infoimg', '0', 'all', '1424091653', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('63', 'admin', '1', 'infoimg', '4', 'add', '1424091698', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('64', 'admin', '1', 'infoimg', '0', 'all', '1424091731', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('65', 'admin', '1', 'infoimg', '0', 'all', '1424091794', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('66', 'admin', '1', 'infoimg', '4', 'add', '1424091794', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('67', 'admin', '1', 'infoimg', '0', 'all', '1424092360', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('68', 'admin', '1', 'info', '0', 'all', '1424094477', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('69', 'admin', '1', 'info', '18', 'update', '1424094528', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('70', 'admin', '1', 'info', '0', 'all', '1424094941', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('71', 'admin', '1', 'info', '1', 'update', '1424094946', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('72', 'admin', '1', 'infolist', '0', 'all', '1424095926', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('73', 'admin', '1', 'infoimg', '0', 'all', '1424095930', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('74', 'admin', '1', 'infosrc', '0', 'all', '1424095946', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('75', 'admin', '1', 'infoimg', '0', 'all', '1424095997', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('76', 'admin', '1', 'infolist', '0', 'all', '1424096011', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('77', 'admin', '1', 'infosrc', '0', 'all', '1424096017', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('78', 'admin', '1', 'editfile', '0', 'all', '1424096030', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('79', 'admin', '1', 'cascade', '0', 'all', '1424096054', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('80', 'admin', '1', 'infoclass', '0', 'all', '1424096057', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('81', 'admin', '1', 'maintype', '0', 'all', '1424096059', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('82', 'admin', '1', 'info', '0', 'all', '1424096061', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('83', 'admin', '1', 'infoimg', '0', 'all', '1424096066', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('84', 'admin', '1', 'infolist', '0', 'all', '1424097285', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('85', 'admin', '1', 'infoimg', '0', 'all', '1424097289', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('86', 'admin', '1', 'infolist', '0', 'all', '1424097373', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('87', 'admin', '1', 'infolist', '10', 'update', '1424097373', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('88', 'admin', '1', 'infolist', '0', 'all', '1424097882', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('89', 'admin', '1', 'infolist', '10', 'add', '1424097907', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('90', 'admin', '1', 'diymodel', '0', 'all', '1424098689', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('91', 'admin', '1', 'goodstype', '0', 'all', '1424098700', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('92', 'admin', '1', 'goodsbrand', '0', 'all', '1424098702', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('93', 'admin', '1', 'goods', '0', 'all', '1424098705', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('94', 'admin', '1', 'diyfield', '0', 'all', '1424098720', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('95', 'admin', '1', 'diyfield', '0', 'all', '1424098830', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('96', 'admin', '1', 'infoclass', '0', 'all', '1424098853', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('97', 'admin', '1', 'infoimg', '0', 'all', '1424098855', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('98', 'admin', '1', 'infoimg', '0', 'all', '1424098955', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('99', 'admin', '1', 'infoimg', '7', 'add', '1424098955', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('100', 'admin', '1', 'infoimg', '0', 'all', '1424099018', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('101', 'admin', '1', 'infoimg', '7', 'add', '1424099051', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('102', 'admin', '1', 'infoimg', '0', 'all', '1424099121', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('103', 'admin', '1', 'infoimg', '7', 'add', '1424099121', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('104', 'admin', '1', 'infoimg', '0', 'all', '1424099192', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('105', 'admin', '1', 'infoimg', '7', 'add', '1424099192', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('106', 'admin', '1', 'infoimg', '0', 'all', '1424099261', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('107', 'admin', '1', 'infoimg', '7', 'add', '1424099261', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('108', 'admin', '1', 'infoimg', '0', 'all', '1424099335', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('109', 'admin', '1', 'infoimg', '7', 'add', '1424099335', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('110', 'admin', '1', 'infoimg', '0', 'all', '1424099768', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('111', 'admin', '1', 'infoimg', '0', 'all', '1424099916', '127.0.0.1');
+INSERT INTO `web_sysevent` VALUES ('112', 'admin', '1', 'infoimg', '3', 'add', '1424099916', '127.0.0.1');
+
+-- ----------------------------
+-- Table structure for `web_uploads`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_uploads`;
+CREATE TABLE `web_uploads` (
+  `id` mediumint(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '上传信息id',
+  `name` varchar(30) NOT NULL COMMENT '文件名称',
+  `path` varchar(100) NOT NULL COMMENT '文件路径',
+  `size` int(10) NOT NULL COMMENT '文件大小',
+  `type` enum('image','soft','media') NOT NULL COMMENT '文件类型',
+  `posttime` int(10) NOT NULL COMMENT '上传日期',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_uploads
+-- ----------------------------
+INSERT INTO `web_uploads` VALUES ('1', '1424091284.jpg', 'uploads/image/20150216/1424091284.jpg', '53154', 'image', '1424086710');
+INSERT INTO `web_uploads` VALUES ('2', '1424088294.jpg', 'uploads/image/20150216/1424088294.jpg', '66159', 'image', '1424086711');
+INSERT INTO `web_uploads` VALUES ('3', '1424095174.jpg', 'uploads/image/20150216/1424095174.jpg', '64128', 'image', '1424086712');
+INSERT INTO `web_uploads` VALUES ('4', '1424088710.jpg', 'uploads/image/20150216/1424088710.jpg', '73692', 'image', '1424086713');
+INSERT INTO `web_uploads` VALUES ('5', '1424095663.jpg', 'uploads/image/20150216/1424095663.jpg', '61672', 'image', '1424086715');
+INSERT INTO `web_uploads` VALUES ('6', '1424090666.jpg', 'uploads/image/20150216/1424090666.jpg', '57140', 'image', '1424086716');
+INSERT INTO `web_uploads` VALUES ('7', '1424096301.jpg', 'uploads/image/20150216/1424096301.jpg', '65422', 'image', '1424086717');
+INSERT INTO `web_uploads` VALUES ('8', '1424091619.jpg', 'uploads/image/20150216/1424091619.jpg', '56678', 'image', '1424086718');
+INSERT INTO `web_uploads` VALUES ('9', '1424090334.jpg', 'uploads/image/20150216/1424090334.jpg', '60194', 'image', '1424086719');
+INSERT INTO `web_uploads` VALUES ('10', '1424094970.jpg', 'uploads/image/20150216/1424094970.jpg', '74931', 'image', '1424086720');
+INSERT INTO `web_uploads` VALUES ('11', '1424088190.jpg', 'uploads/image/20150216/1424088190.jpg', '64906', 'image', '1424086721');
+INSERT INTO `web_uploads` VALUES ('12', '1424087555.jpg', 'uploads/image/20150216/1424087555.jpg', '59453', 'image', '1424086722');
+INSERT INTO `web_uploads` VALUES ('13', '1424090898.png', 'uploads/image/20150216/1424090898.png', '19778', 'image', '1424087447');
+INSERT INTO `web_uploads` VALUES ('14', '1424093482.jpg', 'uploads/image/20150216/1424093482.jpg', '49461', 'image', '1424088084');
+INSERT INTO `web_uploads` VALUES ('15', '1424090008.jpg', 'uploads/image/20150216/1424090008.jpg', '53010', 'image', '1424088745');
+INSERT INTO `web_uploads` VALUES ('16', '1424093018.jpg', 'uploads/image/20150216/1424093018.jpg', '61817', 'image', '1424091599');
+INSERT INTO `web_uploads` VALUES ('17', '1424093949.jpg', 'uploads/image/20150216/1424093949.jpg', '48730', 'image', '1424091682');
+INSERT INTO `web_uploads` VALUES ('18', '1424093708.jpg', 'uploads/image/20150216/1424093708.jpg', '34679', 'image', '1424091791');
+INSERT INTO `web_uploads` VALUES ('19', '1424104164.jpg', 'uploads/image/20150216/1424104164.jpg', '122076', 'image', '1424098935');
+INSERT INTO `web_uploads` VALUES ('20', '1424106926.jpg', 'uploads/image/20150216/1424106926.jpg', '118824', 'image', '1424099025');
+INSERT INTO `web_uploads` VALUES ('21', '1424107090.jpg', 'uploads/image/20150216/1424107090.jpg', '115171', 'image', '1424099081');
+INSERT INTO `web_uploads` VALUES ('22', '1424102530.jpg', 'uploads/image/20150216/1424102530.jpg', '95575', 'image', '1424099149');
+INSERT INTO `web_uploads` VALUES ('23', '1424101388.jpg', 'uploads/image/20150216/1424101388.jpg', '110237', 'image', '1424099224');
+INSERT INTO `web_uploads` VALUES ('24', '1424107574.jpg', 'uploads/image/20150216/1424107574.jpg', '110237', 'image', '1424099312');
+INSERT INTO `web_uploads` VALUES ('25', '1424104756.jpg', 'uploads/image/20150216/1424104756.jpg', '118698', 'image', '1424099799');
+
+-- ----------------------------
+-- Table structure for `web_usercomment`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_usercomment`;
+CREATE TABLE `web_usercomment` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '评论id',
+  `aid` int(10) unsigned NOT NULL COMMENT '信息id',
+  `molds` tinyint(1) unsigned NOT NULL COMMENT '信息类型',
+  `uid` int(10) unsigned NOT NULL COMMENT '用户id',
+  `uname` varchar(20) NOT NULL COMMENT '用户名',
+  `body` text NOT NULL COMMENT '评论内容',
+  `reply` text NOT NULL COMMENT '回复内容',
+  `link` varchar(200) NOT NULL COMMENT '评论网址',
+  `time` int(10) unsigned NOT NULL COMMENT '评论时间',
+  `ip` varchar(30) NOT NULL COMMENT '评论ip',
+  `isshow` tinyint(1) unsigned NOT NULL COMMENT '是否显示',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_usercomment
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_userfavorite`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_userfavorite`;
+CREATE TABLE `web_userfavorite` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '收藏id',
+  `aid` int(10) unsigned NOT NULL COMMENT '信息id',
+  `molds` tinyint(1) unsigned NOT NULL COMMENT '信息类型',
+  `uid` int(10) unsigned NOT NULL COMMENT '用户id',
+  `uname` varchar(20) NOT NULL COMMENT '用户名',
+  `link` varchar(200) NOT NULL COMMENT '收藏网址',
+  `time` int(10) unsigned NOT NULL COMMENT '评论时间',
+  `ip` varchar(30) NOT NULL COMMENT '评论ip',
+  `isshow` tinyint(1) unsigned NOT NULL COMMENT '是否显示',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_userfavorite
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_usergroup`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_usergroup`;
+CREATE TABLE `web_usergroup` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户组id',
+  `groupname` varchar(30) NOT NULL COMMENT '用户组名称',
+  `expvala` int(11) NOT NULL COMMENT '用户组经验介于a',
+  `expvalb` int(11) NOT NULL COMMENT '用户组经验介于b',
+  `stars` int(10) unsigned NOT NULL COMMENT '星星数',
+  `color` varchar(10) NOT NULL COMMENT '头衔颜色',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_usergroup
+-- ----------------------------
+INSERT INTO `web_usergroup` VALUES ('1', '禁止访问', '-99999', '0', '0', '');
+INSERT INTO `web_usergroup` VALUES ('2', '新手会员', '1', '50', '1', '');
+INSERT INTO `web_usergroup` VALUES ('3', '初级会员', '51', '200', '4', '');
+INSERT INTO `web_usergroup` VALUES ('4', '中级会员', '201', '500', '8', '');
+INSERT INTO `web_usergroup` VALUES ('5', '高级会员', '501', '1000', '12', '');
+INSERT INTO `web_usergroup` VALUES ('6', '金牌会员', '1001', '3000', '16', '');
+
+-- ----------------------------
+-- Table structure for `web_vote`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_vote`;
+CREATE TABLE `web_vote` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '投票id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `title` varchar(30) NOT NULL COMMENT '投票标题',
+  `content` text NOT NULL COMMENT '投票描述',
+  `starttime` int(10) unsigned NOT NULL COMMENT '开始时间',
+  `endtime` int(10) unsigned NOT NULL COMMENT '结束时间',
+  `isguest` enum('true','false') NOT NULL COMMENT '游客投票',
+  `isview` enum('true','false') NOT NULL COMMENT '查看投票',
+  `intval` int(10) unsigned NOT NULL COMMENT '投票间隔',
+  `isradio` tinyint(1) unsigned NOT NULL COMMENT '是否多选',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_vote
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_votedata`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_votedata`;
+CREATE TABLE `web_votedata` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '投票数据id',
+  `voteid` smallint(6) unsigned NOT NULL COMMENT '投票id',
+  `optionid` text NOT NULL COMMENT '选票id',
+  `userid` int(10) unsigned NOT NULL COMMENT '投票人id',
+  `posttime` int(10) unsigned NOT NULL COMMENT '投票时间',
+  `ip` varchar(30) NOT NULL COMMENT '投票ip',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_votedata
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_voteoption`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_voteoption`;
+CREATE TABLE `web_voteoption` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '投票选项id',
+  `voteid` smallint(6) unsigned NOT NULL COMMENT '投票id',
+  `options` varchar(30) NOT NULL COMMENT '投票选项',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_voteoption
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_webconfig`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_webconfig`;
+CREATE TABLE `web_webconfig` (
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `varname` varchar(50) NOT NULL COMMENT '变量名称',
+  `varinfo` varchar(80) NOT NULL COMMENT '参数说明',
+  `vargroup` smallint(5) unsigned NOT NULL COMMENT '所属组',
+  `vartype` char(10) NOT NULL COMMENT '变量类型',
+  `varvalue` text NOT NULL COMMENT '变量值',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  PRIMARY KEY (`varname`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_webconfig
+-- ----------------------------
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_webname', '网站名称', '0', 'string', '3004民心工程●180微商大联盟', '1');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_weburl', '网站地址', '0', 'string', 'http://127.0.0.1', '2');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_webpath', '网站目录', '0', 'string', '/3004mxgc180.com', '3');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_author', '网站作者', '0', 'string', 'RockSnap', '4');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_generator', '程序引擎', '0', 'string', '', '5');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_seotitle', 'SEO标题', '0', 'string', '3004民心工程●180微商大联盟', '6');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_keyword', '关键字设置', '0', 'string', '3004民心工程●180微商大联盟', '7');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_description', '网站描述', '0', 'bstring', '3004民心工程●180微商大联盟', '8');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_copyright', '版权信息', '0', 'bstring', 'Copyright © 2014 - 2015 www.3004mxgc180.com All Rights Reserved', '9');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_hotline', '客服热线', '0', 'string', '', '10');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_icp', '备案编号', '0', 'string', '', '11');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_webswitch', '启用站点', '0', 'bool', 'Y', '12');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_switchshow', '关闭说明', '0', 'bstring', '对不起，网站维护，请稍后登录。<br />网站维护期间对您造成的不便，请谅解！', '13');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_upload_img_type', '上传图片类型', '1', 'string', 'gif|png|jpg|bmp', '23');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_upload_soft_type', '上传软件类型', '1', 'string', 'zip|gz|rar|iso|doc|xls|ppt|wps|txt', '24');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_upload_media_type', '上传媒体类型', '1', 'string', 'swf|flv|mpg|mp3|rm|rmvb|wmv|wma|wav', '25');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_max_file_size', '上传文件大小', '1', 'string', '2097152', '26');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_imgresize', '自动缩略图方式　<br />(是\"裁切\",否\"填充\")', '1', 'bool', 'Y', '27');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_countcode', '流量统计代码', '1', 'bstring', '', '28');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_qqcode', '在线QQ　<br />(多个用\",\"分隔)', '1', 'bstring', '', '29');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_mysql_type', '数据库类型(支持mysql和mysqli)', '2', 'string', 'mysqli', '40');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_pagenum', '每页显示记录数', '2', 'string', '20', '41');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_timezone', '服务器时区设置', '2', 'string', '8', '42');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_mobile', '自动跳转手机版', '2', 'bool', 'N', '43');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_member', '开启会员功能', '2', 'bool', 'N', '44');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_oauth', '开启一键登录', '2', 'bool', 'N', '45');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_comment', '开启文章评论', '2', 'bool', 'N', '46');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_maintype', '开启二级类别', '2', 'bool', 'N', '47');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_typefold', '类别默认折叠', '2', 'bool', 'N', '48');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_quicktool', '管理页工具条', '2', 'bool', 'Y', '49');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_diserror', 'PHP错误显示', '2', 'bool', 'Y', '50');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_isreurl', '是否启用伪静态', '3', 'bool', 'N', '60');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_index', '首页规则', '3', 'string', 'index.html', '61');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_about', '关于我们页', '3', 'string', '{about}-{cid}-{page}.html', '62');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_news', '新闻中心页', '3', 'string', '{news}-{cid}-{page}.html', '63');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_newsshow', '新闻内容页', '3', 'string', '{newsshow}-{cid}-{id}-{page}.html', '64');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_product', '产品展示页', '3', 'string', '{product}-{cid}-{page}.html', '65');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_productshow', '产品内容页', '3', 'string', '{productshow}-{cid}-{id}-{page}.html', '66');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_case', '案例展示页', '3', 'string', '{case}-{cid}-{page}.html', '67');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_caseshow', '案例内容页', '3', 'string', '{caseshow}-{cid}-{id}-{page}.html', '68');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_join', '人才招聘页', '3', 'string', '{join}-{page}.html', '69');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_joinshow', '招聘内容页', '3', 'string', '{joinshow}-{id}.html', '70');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_message', '客户留言页', '3', 'string', '{message}-{page}.html', '71');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_contact', '联系我们页', '3', 'string', '{contact}-{cid}-{page}.html', '72');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_soft', '软件下载页', '3', 'string', '{soft}-{cid}-{page}.html', '73');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_softshow', '软件内容页', '3', 'string', '{softshow}-{cid}-{id}-{page}.html', '74');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_goods', '商品展示页', '3', 'string', '{goods}-{cid}-{tid}-{page}.html', '75');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_goodsshow', '商品内容页', '3', 'string', '{goodsshow}-{cid}-{tid}-{id}-{page}.html', '76');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_vote', '投票内容页', '3', 'string', '{vote}-{id}.html', '77');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_custom', '自定义规则', '3', 'string', '{file}.html', '78');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_auth_key', '网站标识码', '4', 'string', '2xUxGeWtt9Wgi3sR', '90');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_alipay_uname', '支付宝帐户', '4', 'string', '', '91');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_alipay_partner', '支付宝合作身份者ID', '4', 'string', '', '92');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_alipay_key', '支付宝安全检验码', '4', 'string', '', '93');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_qq_appid', 'QQ登录组件AppID', '4', 'string', '', '94');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_qq_appkey', 'QQ登录组件AppKey', '4', 'string', '', '95');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_weibo_appid', '微博登录组件AppID', '4', 'string', '', '96');
+INSERT INTO `web_webconfig` VALUES ('1', 'cfg_weibo_appkey', '微博登录组件AppKey', '4', 'string', '', '97');
+
+-- ----------------------------
+-- Table structure for `web_weblink`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_weblink`;
+CREATE TABLE `web_weblink` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '友情链接id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `classid` smallint(5) unsigned NOT NULL COMMENT '所属类别id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属类别父id',
+  `parentstr` varchar(80) NOT NULL COMMENT '所属类别父id字符串',
+  `webname` varchar(30) NOT NULL COMMENT '网站名称',
+  `webnote` varchar(200) NOT NULL COMMENT '网站描述',
+  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
+  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
+  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_weblink
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `web_weblinktype`
+-- ----------------------------
+DROP TABLE IF EXISTS `web_weblinktype`;
+CREATE TABLE `web_weblinktype` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '友情链接类型id',
+  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
+  `parentid` smallint(5) unsigned NOT NULL COMMENT '类别父id',
+  `parentstr` varchar(50) NOT NULL COMMENT '类别父id字符串',
+  `classname` varchar(30) NOT NULL COMMENT '类别名称',
+  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列顺序',
+  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of web_weblinktype
+-- ----------------------------
