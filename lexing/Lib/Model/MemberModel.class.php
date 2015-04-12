@@ -108,31 +108,18 @@ class MemberModel extends Model {
 	 * 返回$id用户推荐体系的人数
 	 * @param int $id 要判断的用户ID
 	 */
-	public function areaNums($id,$nums=0) {
-		$return = $nums; $condition = array();
+	public function areaNums($id) {
+		$return = 0; $condition = array();
 		$condition['parent_aid'] = $id;
-		
-		$condition['parent_area'] = 'A';
-		$son_A = $this->findAble($condition);
-		if ($son_A !== false && !empty($son_A)) {
-			$return++;
-			$return = $this->areaNums($son_A['id'],$return);
+		$condition['level'] = array('in','1,2,3,4,5,6,7,8');
+		$condition['status'] = 1;
+		$condition['parent_area'] = array('in','A,B,C');
+		$sons = $this->where($condition)->getField('id',true);
+		$sons_count = count($sons);
+		if (!empty($sons) && count($sons) > 0) {
+			$return += $sons_count;
+			$return += $this->areaNums(array('in',$sons));
 		}
-
-		$condition['parent_area'] = 'B';
-		$son_B = $this->findAble($condition);
-		if ($son_B !== false && !empty($son_B)) {
-			$return++;
-			$return = $this->areaNums($son_B['id'],$return);
-		}
-		
-		$condition['parent_area'] = 'C';
-		$son_C = $this->findAble($condition);
-		if ($son_C !== false && !empty($son_C)) {
-			$return++;
-			$return = $this->areaNums($son_C['id'],$return);
-		}
-		
 		return $return;
 	}
 	
