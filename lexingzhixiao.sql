@@ -2,15 +2,15 @@
 Navicat MySQL Data Transfer
 
 Source Server         : 127.0.0.1
-Source Server Version : 50542
+Source Server Version : 50516
 Source Host           : localhost:3306
 Source Database       : lexingzhixiao
 
 Target Server Type    : MYSQL
-Target Server Version : 50542
+Target Server Version : 50516
 File Encoding         : 65001
 
-Date: 2015-02-28 12:11:56
+Date: 2015-04-12 21:08:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -34,14 +34,14 @@ CREATE TABLE `lx_article` (
   `update_time` varchar(20) NOT NULL DEFAULT '0' COMMENT '更新时间 unix时间戳',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '-1-删除 0-禁用 1-正常',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=84 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=84 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of lx_article
 -- ----------------------------
-INSERT INTO `lx_article` VALUES ('74', '用户欢迎页', '3004民心工程·180微商大联盟', '<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b><span style=\"font-size:14.0pt;font-family:&quot;\">3004</span></b><b><span style=\"font-size:14.0pt;font-family:&quot;\">民心工程</span></b><span style=\"font-size:16pt;font-family:宋体;color:#333333;\">·</span><b><span style=\"font-size:14.0pt;font-family:&quot;\">180</span></b><b><span style=\"font-size:14.0pt;font-family:&quot;\">微商大联盟<span></span></span></b>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\">好善乐施传递正能量，你帮我助成就创业梦！<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<span style=\"font-size:18.0pt;font-family:华文新魏;\">运营方案<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">&nbsp;&nbsp;&nbsp; </span><span style=\"font-size:11.0pt;font-family:&quot;\">微商加盟费：<span>180</span>元，送“<span>3004</span>民心工程”<span>VIP</span>贵宾增值服务卡，成为公司的微代理商。晋升为合格二级贵宾会员后，免费赠送“富硒花栓豆”产品（或其他赠品任选）。<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">1、</span><span style=\"font-size:11.0pt;font-family:&quot;\">推荐奖：<span>180</span>元<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">2、</span><span style=\"font-size:11.0pt;font-family:&quot;\">互助金：<span></span></span>\r\n</p>\r\n<table class=\"MsoTableGrid\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse;border:none;\">\r\n	<tbody>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">层数<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">级别<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">人数<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">互助金<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">升级费<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">管理层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">赠品<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">一<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格一级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">3</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">3</span><span style=\"font-family:&quot;\">×<span>180=540</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">360</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上二层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">贵宾增值服务卡<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">二<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格二级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">9</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">9</span><span style=\"font-family:&quot;\">×<span>360=3240</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">720</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上三层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（一盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">三<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格三级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">27</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">27</span><span style=\"font-family:&quot;\">×<span>720=19440</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">1440</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上四层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（二盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">四<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格四级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">81</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">81</span><span style=\"font-family:&quot;\">×<span>1440=116640</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">2880</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上五层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（三盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">五<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格五级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">243</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">243</span><span style=\"font-family:&quot;\">×<span>2880=699840</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">5760</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上六层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（四盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">六<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格六级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">729</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">729</span><span style=\"font-family:&quot;\">×<span>5760=4199040</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">11520</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上七层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（五盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">七<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格七级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">2187</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">2187</span><span style=\"font-family:&quot;\">×<span>11520=25194240</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">23040</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">上八层<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">富硒花栓豆（六盒）<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">八<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">合格八级<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">6561</span>\r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">6561</span><span style=\"font-family:&quot;\">×<span>23040=151165440</span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">———<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:&quot;\">出局<span></span></span>\r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:&quot;\">十万元专卖店<span></span></span>\r\n				</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">3、</span><span style=\"font-size:11.0pt;font-family:&quot;\">综合管理费<span>10%</span>，秒算秒结，随时提现，手续费<span>5%</span>，<span>2</span>天内到账。<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:25.5pt;\">\r\n	<span style=\"font-family:&quot;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-family:&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"font-size:11.0pt;font-family:&quot;\">&nbsp;</span><span style=\"font-size:11.0pt;font-family:&quot;\">网址：<span>www.3004mxgc180.com</span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"font-size:11.0pt;font-family:&quot;\">市场招商热线：<span>15937982788</span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:11.0pt;font-family:&quot;\">2015</span><span style=\"font-size:11.0pt;font-family:&quot;\">年<span>2</span>月<span>16</span>日<span></span></span>\r\n</p>', 'admin', null, '0', '0', '1', '1', '1388028542', '1424100633', '1');
+INSERT INTO `lx_article` VALUES ('74', '用户欢迎页', '3004民心工程·180微商大联盟', '<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b><span style=\"font-size:14.0pt;font-family:;\">3004</span></b><b><span style=\"font-size:14.0pt;font-family:;\">民心工程</span></b><span style=\"font-size:16pt;font-family:宋体;color:#333333;\">·</span><b><span style=\"font-size:14.0pt;font-family:;\">180</span></b><b><span style=\"font-size:14.0pt;font-family:;\">微商大联盟<span></span></span></b> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\">好善乐施传递正能量，你帮我助成就创业梦！<span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<span style=\"font-size:18.0pt;font-family:华文新魏;\">运营方案<span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-size:11.0pt;font-family:;\"> </span><span style=\"font-size:11.0pt;font-family:;\">微商加盟费：<span>180</span>元，送“<span>3004</span>民心工程”<span>VIP</span>贵宾增值服务卡，成为公司的微代理商。晋升为合格二级贵宾会员后，免费赠送“富硒花栓豆”产品（或其他赠品任选）。<span></span></span> \r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:;\">1、</span><span style=\"font-size:11.0pt;font-family:;\">推荐奖：<span>180</span>元<span></span></span> \r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:;\">2、</span><span style=\"font-size:11.0pt;font-family:;\">互助金：<span></span></span> \r\n</p>\r\n<table class=\"MsoTableGrid\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse;border:none;\">\r\n	<tbody>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">层数<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">级别<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">人数<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">互助金<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">升级费<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">管理层<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">赠品<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">一<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">合格一级<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">3</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">3</span><span style=\"font-family:;\">×<span>180=540</span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">360</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">上二层<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">贵宾增值服务卡<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">二<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">合格二级<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">9</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">9</span><span style=\"font-family:;\">×<span>360=3240</span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">720</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">上三层<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">富硒花栓豆（一盒）<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">三<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">合格三级<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">27</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">27</span><span style=\"font-family:;\">×<span>720=19440</span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">1440</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">上四层<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">富硒花栓豆（二盒）<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">四<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">合格四级<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">81</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">81</span><span style=\"font-family:;\">×<span>1440=116640</span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">2880</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">上五层<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">富硒花栓豆（三盒）<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">五<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">合格五级<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">243</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">243</span><span style=\"font-family:;\">×<span>2880=699840</span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">5760</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">上六层<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">富硒花栓豆（四盒）<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">六<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">合格六级<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">729</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">729</span><span style=\"font-family:;\">×<span>5760=4199040</span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">11520</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">上七层<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">富硒花栓豆（五盒）<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">七<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">合格七级<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">2187</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">2187</span><span style=\"font-family:;\">×<span>11520=25194240</span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">23040</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">上八层<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">富硒花栓豆（六盒）<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<td width=\"45\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">八<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"76\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">合格八级<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"47\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">6561</span> \r\n				</p>\r\n			</td>\r\n			<td width=\"183\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">6561</span><span style=\"font-family:;\">×<span>23040=151165440</span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"63\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">———<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"66\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n					<span style=\"font-family:;\">出局<span></span></span> \r\n				</p>\r\n			</td>\r\n			<td width=\"134\" valign=\"top\" style=\"border:solid black 1.0pt;\">\r\n				<p class=\"MsoNormal\">\r\n					<span style=\"font-family:;\">十万元专卖店<span></span></span> \r\n				</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:43.5pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:11.0pt;font-family:;\">\r\n	<p class=\"MsoListParagraph\" align=\"left\" style=\"color:#333333;font-family:宋体;font-size:14px;text-indent:-18pt;background-color:#F6F6F6;\">\r\n		<span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">3、</span><span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">综合管理费<span>10%</span>，秒算秒结，</span><span color:#e53333;\"=\"\" style=\"padding: 0px; margin: 0px; font-size: 11pt; color: rgb(229, 51, 51);\">先升级</span><span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">后提现，转账费<span>5%</span>，<span>2</span>天内到账<span>(</span></span><span color:#e53333;\"=\"\" style=\"padding: 0px; margin: 0px; font-size: 11pt;\"><span style=\"color:#E53333;\">周六</span><span style=\"color:#E53333;\">,</span><span style=\"color:#E53333;\">周日为公休日</span><span style=\"color:#E53333;\">,</span><span style=\"color:#E53333;\">不受理提现</span></span><span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">)</span><span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">。<span></span></span>\r\n	</p>\r\n	<p class=\"MsoListParagraph\" align=\"left\" style=\"color:#333333;font-family:宋体;font-size:14px;text-indent:-18pt;background-color:#F6F6F6;\">\r\n		<span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">4、</span><span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">奖金积分的用途：</span><span style=\"font-size:9pt;font-family:Tahoma, sans-serif;\"></span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"color:#333333;font-family:宋体;font-size:14px;text-indent:-18pt;background-color:#F6F6F6;\">\r\n		<span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">（<span>1</span>）奖金积分可用作升级。不收任何手续费</span><span style=\"font-size:9pt;font-family:Tahoma, sans-serif;\"></span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"color:#333333;font-family:宋体;font-size:14px;text-indent:-18pt;background-color:#F6F6F6;\">\r\n		<span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">（<span>2</span>）奖金积分可现金提现，扣转账费<span>5%</span></span><span style=\"font-size:9pt;font-family:Tahoma, sans-serif;\"></span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"left\" style=\"color:#333333;font-family:宋体;font-size:14px;text-indent:-18pt;background-color:#F6F6F6;\">\r\n		<span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">（<span>3</span>）奖金积分可换购富硒花栓豆，减免转账费<span>5%</span></span>\r\n	</p>\r\n</span><span style=\"font-size:11.0pt;font-family:;\"><span></span><span></span><span></span><span></span></span> \r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:25.5pt;\">\r\n	<span style=\"font-family:;\"></span> \r\n</p>\r\n<p class=\"MsoNormal\">\r\n	<span style=\"font-family:;\"> </span><span style=\"font-size:11.0pt;font-family:;\"> </span><span style=\"font-size:11.0pt;font-family:;\">网址：<span>www.3004mxgc180.com</span></span> \r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:11.0pt;font-family:;\"> </span><span style=\"font-size:11.0pt;font-family:;\">\r\n	<p class=\"MsoNormal\" align=\"right\" style=\"margin-left:0cm;color:#333333;font-family:宋体;font-size:14px;text-align:right;background-color:#F6F6F6;\">\r\n		<span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">市场招商热线：<span>15937982788</span></span><span style=\"font-size:9pt;font-family:Tahoma, sans-serif;\"></span>\r\n	</p>\r\n	<p class=\"MsoNormal\" align=\"right\" style=\"margin-left:0cm;color:#333333;font-family:宋体;font-size:14px;text-align:right;background-color:#F6F6F6;\">\r\n		<span style=\"font-size:11pt;font-family:微软雅黑, sans-serif;\">18203798112</span>\r\n	</p>\r\n</span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:11.0pt;font-family:;\"></span><span style=\"font-size:11.0pt;font-family:;\"><span></span><span></span><span></span></span> \r\n</p>', 'admin', null, '0', '0', '1', '1', '1388028542', '1426151262', '1');
 INSERT INTO `lx_article` VALUES ('75', '公司简介', '公司简介', '<span>这里显示的内容请到后台 新闻公告-&gt;公司简介 中修改</span>', 'admin', null, '0', '0', '1', '1', '1388028564', '1388376012', '1');
-INSERT INTO `lx_article` VALUES ('64', '产品介绍', '产品介绍', '这里显示的内容请到后台 新闻公告-&gt;产品介绍 中修改', 'admin', null, '0', '0', '1', '1', '1388028012', '1424100216', '1');
+INSERT INTO `lx_article` VALUES ('64', '产品介绍', '产品介绍', '<p>\r\n	<img src=\"/system/Public/Kindattached/image/20150317/20150317091625_45332.png\" alt=\"\" /> \r\n</p>', 'admin', null, '0', '0', '1', '1', '1388028012', '1426583801', '1');
 
 -- ----------------------------
 -- Table structure for `lx_bonus`
@@ -54,13 +54,691 @@ CREATE TABLE `lx_bonus` (
   `guanli_fee` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '管理费',
   `bonus` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '实际奖励积分',
   `create_time` varchar(20) NOT NULL DEFAULT '0' COMMENT '结算时间 unix时间戳',
-  KEY `member_id` (`member_id`),
-  KEY `new_member_id` (`source_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='奖金记录表';
+  KEY `member_id` (`member_id`) USING BTREE,
+  KEY `new_member_id` (`source_id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='奖金记录表';
 
 -- ----------------------------
 -- Records of lx_bonus
 -- ----------------------------
+INSERT INTO `lx_bonus` VALUES ('8', '20', '180.00', '18.00', '162.00', '1424162628');
+INSERT INTO `lx_bonus` VALUES ('20', '21', '180.00', '18.00', '162.00', '1424183925');
+INSERT INTO `lx_bonus` VALUES ('21', '22', '180.00', '18.00', '162.00', '1424184783');
+INSERT INTO `lx_bonus` VALUES ('22', '23', '180.00', '18.00', '162.00', '1424185191');
+INSERT INTO `lx_bonus` VALUES ('23', '24', '180.00', '18.00', '162.00', '1424185583');
+INSERT INTO `lx_bonus` VALUES ('24', '25', '180.00', '18.00', '162.00', '1424186379');
+INSERT INTO `lx_bonus` VALUES ('25', '26', '180.00', '18.00', '162.00', '1424187184');
+INSERT INTO `lx_bonus` VALUES ('20', '27', '180.00', '18.00', '162.00', '1424223710');
+INSERT INTO `lx_bonus` VALUES ('27', '28', '180.00', '18.00', '162.00', '1424224311');
+INSERT INTO `lx_bonus` VALUES ('20', '29', '180.00', '18.00', '162.00', '1424226196');
+INSERT INTO `lx_bonus` VALUES ('29', '30', '180.00', '18.00', '162.00', '1424226471');
+INSERT INTO `lx_bonus` VALUES ('24', '31', '180.00', '18.00', '162.00', '1424229344');
+INSERT INTO `lx_bonus` VALUES ('8', '32', '180.00', '18.00', '162.00', '1424236589');
+INSERT INTO `lx_bonus` VALUES ('32', '33', '180.00', '18.00', '162.00', '1424236967');
+INSERT INTO `lx_bonus` VALUES ('7', '20', '360.00', '36.00', '324.00', '1424351227');
+INSERT INTO `lx_bonus` VALUES ('32', '34', '180.00', '18.00', '162.00', '1424353910');
+INSERT INTO `lx_bonus` VALUES ('20', '35', '180.00', '18.00', '162.00', '1424507912');
+INSERT INTO `lx_bonus` VALUES ('35', '36', '180.00', '18.00', '162.00', '1424758784');
+INSERT INTO `lx_bonus` VALUES ('22', '37', '180.00', '18.00', '162.00', '1424783124');
+INSERT INTO `lx_bonus` VALUES ('29', '39', '180.00', '18.00', '162.00', '1424915974');
+INSERT INTO `lx_bonus` VALUES ('29', '38', '180.00', '18.00', '162.00', '1424915980');
+INSERT INTO `lx_bonus` VALUES ('8', '29', '360.00', '36.00', '324.00', '1424919766');
+INSERT INTO `lx_bonus` VALUES ('30', '42', '180.00', '18.00', '162.00', '1424920712');
+INSERT INTO `lx_bonus` VALUES ('30', '40', '180.00', '18.00', '162.00', '1424920719');
+INSERT INTO `lx_bonus` VALUES ('30', '41', '180.00', '18.00', '162.00', '1424920724');
+INSERT INTO `lx_bonus` VALUES ('40', '45', '180.00', '18.00', '162.00', '1424921442');
+INSERT INTO `lx_bonus` VALUES ('40', '43', '180.00', '18.00', '162.00', '1424921447');
+INSERT INTO `lx_bonus` VALUES ('40', '44', '180.00', '18.00', '162.00', '1424921452');
+INSERT INTO `lx_bonus` VALUES ('20', '30', '360.00', '36.00', '324.00', '1424921620');
+INSERT INTO `lx_bonus` VALUES ('29', '40', '360.00', '36.00', '324.00', '1424921689');
+INSERT INTO `lx_bonus` VALUES ('35', '46', '180.00', '18.00', '162.00', '1424950418');
+INSERT INTO `lx_bonus` VALUES ('23', '47', '180.00', '18.00', '162.00', '1424951171');
+INSERT INTO `lx_bonus` VALUES ('43', '50', '180.00', '18.00', '162.00', '1425104529');
+INSERT INTO `lx_bonus` VALUES ('45', '48', '180.00', '18.00', '162.00', '1425104544');
+INSERT INTO `lx_bonus` VALUES ('45', '49', '180.00', '18.00', '162.00', '1425104550');
+INSERT INTO `lx_bonus` VALUES ('38', '51', '180.00', '18.00', '162.00', '1425109877');
+INSERT INTO `lx_bonus` VALUES ('38', '52', '180.00', '18.00', '162.00', '1425109882');
+INSERT INTO `lx_bonus` VALUES ('38', '53', '180.00', '18.00', '162.00', '1425109888');
+INSERT INTO `lx_bonus` VALUES ('44', '54', '180.00', '18.00', '162.00', '1425109893');
+INSERT INTO `lx_bonus` VALUES ('20', '38', '360.00', '36.00', '324.00', '1425109947');
+INSERT INTO `lx_bonus` VALUES ('51', '57', '180.00', '18.00', '162.00', '1425110299');
+INSERT INTO `lx_bonus` VALUES ('51', '56', '180.00', '18.00', '162.00', '1425110304');
+INSERT INTO `lx_bonus` VALUES ('51', '55', '180.00', '18.00', '162.00', '1425110312');
+INSERT INTO `lx_bonus` VALUES ('29', '51', '360.00', '36.00', '324.00', '1425110481');
+INSERT INTO `lx_bonus` VALUES ('52', '58', '180.00', '18.00', '162.00', '1425110759');
+INSERT INTO `lx_bonus` VALUES ('52', '59', '180.00', '18.00', '162.00', '1425110763');
+INSERT INTO `lx_bonus` VALUES ('53', '61', '180.00', '18.00', '162.00', '1425111602');
+INSERT INTO `lx_bonus` VALUES ('53', '60', '180.00', '18.00', '162.00', '1425111607');
+INSERT INTO `lx_bonus` VALUES ('58', '62', '180.00', '18.00', '162.00', '1425111932');
+INSERT INTO `lx_bonus` VALUES ('7', '29', '720.00', '72.00', '648.00', '1425113042');
+INSERT INTO `lx_bonus` VALUES ('41', '63', '180.00', '18.00', '162.00', '1425114431');
+INSERT INTO `lx_bonus` VALUES ('42', '64', '180.00', '18.00', '162.00', '1425114436');
+INSERT INTO `lx_bonus` VALUES ('41', '65', '180.00', '18.00', '162.00', '1425115468');
+INSERT INTO `lx_bonus` VALUES ('39', '66', '180.00', '18.00', '162.00', '1425115473');
+INSERT INTO `lx_bonus` VALUES ('6', '20', '720.00', '72.00', '648.00', '1425171631');
+INSERT INTO `lx_bonus` VALUES ('49', '68', '180.00', '18.00', '162.00', '1425193707');
+INSERT INTO `lx_bonus` VALUES ('53', '67', '180.00', '18.00', '162.00', '1425193714');
+INSERT INTO `lx_bonus` VALUES ('49', '69', '180.00', '18.00', '162.00', '1425193724');
+INSERT INTO `lx_bonus` VALUES ('68', '70', '180.00', '18.00', '162.00', '1425194446');
+INSERT INTO `lx_bonus` VALUES ('68', '71', '180.00', '18.00', '162.00', '1425194451');
+INSERT INTO `lx_bonus` VALUES ('29', '53', '360.00', '36.00', '324.00', '1425194662');
+INSERT INTO `lx_bonus` VALUES ('29', '72', '180.00', '18.00', '162.00', '1425196688');
+INSERT INTO `lx_bonus` VALUES ('33', '73', '180.00', '18.00', '162.00', '1425196707');
+INSERT INTO `lx_bonus` VALUES ('73', '75', '180.00', '18.00', '162.00', '1425197313');
+INSERT INTO `lx_bonus` VALUES ('52', '74', '180.00', '18.00', '162.00', '1425197318');
+INSERT INTO `lx_bonus` VALUES ('37', '76', '180.00', '18.00', '162.00', '1425198027');
+INSERT INTO `lx_bonus` VALUES ('37', '77', '180.00', '18.00', '162.00', '1425198037');
+INSERT INTO `lx_bonus` VALUES ('29', '52', '360.00', '36.00', '324.00', '1425199112');
+INSERT INTO `lx_bonus` VALUES ('73', '78', '180.00', '18.00', '162.00', '1425210826');
+INSERT INTO `lx_bonus` VALUES ('75', '79', '180.00', '18.00', '162.00', '1425210830');
+INSERT INTO `lx_bonus` VALUES ('73', '80', '180.00', '18.00', '162.00', '1425222452');
+INSERT INTO `lx_bonus` VALUES ('8', '73', '360.00', '36.00', '324.00', '1425222840');
+INSERT INTO `lx_bonus` VALUES ('70', '81', '180.00', '18.00', '162.00', '1425269169');
+INSERT INTO `lx_bonus` VALUES ('43', '82', '180.00', '18.00', '162.00', '1425269180');
+INSERT INTO `lx_bonus` VALUES ('43', '83', '180.00', '18.00', '162.00', '1425269192');
+INSERT INTO `lx_bonus` VALUES ('30', '43', '360.00', '36.00', '324.00', '1425272135');
+INSERT INTO `lx_bonus` VALUES ('35', '84', '180.00', '18.00', '162.00', '1425276198');
+INSERT INTO `lx_bonus` VALUES ('84', '85', '180.00', '18.00', '162.00', '1425279049');
+INSERT INTO `lx_bonus` VALUES ('20', '35', '360.00', '36.00', '324.00', '1425279105');
+INSERT INTO `lx_bonus` VALUES ('36', '86', '180.00', '18.00', '162.00', '1425279412');
+INSERT INTO `lx_bonus` VALUES ('75', '87', '180.00', '18.00', '162.00', '1425289331');
+INSERT INTO `lx_bonus` VALUES ('80', '88', '180.00', '18.00', '162.00', '1425290698');
+INSERT INTO `lx_bonus` VALUES ('65', '89', '180.00', '18.00', '162.00', '1425290731');
+INSERT INTO `lx_bonus` VALUES ('29', '90', '180.00', '18.00', '162.00', '1425291015');
+INSERT INTO `lx_bonus` VALUES ('88', '91', '180.00', '18.00', '162.00', '1425306528');
+INSERT INTO `lx_bonus` VALUES ('80', '92', '180.00', '18.00', '162.00', '1425354082');
+INSERT INTO `lx_bonus` VALUES ('84', '93', '180.00', '18.00', '162.00', '1425369791');
+INSERT INTO `lx_bonus` VALUES ('33', '94', '180.00', '18.00', '162.00', '1425379254');
+INSERT INTO `lx_bonus` VALUES ('33', '95', '180.00', '18.00', '162.00', '1425379283');
+INSERT INTO `lx_bonus` VALUES ('8', '33', '360.00', '36.00', '324.00', '1425379342');
+INSERT INTO `lx_bonus` VALUES ('27', '96', '180.00', '18.00', '162.00', '1425381100');
+INSERT INTO `lx_bonus` VALUES ('23', '97', '180.00', '18.00', '162.00', '1425385079');
+INSERT INTO `lx_bonus` VALUES ('24', '98', '180.00', '18.00', '162.00', '1425386737');
+INSERT INTO `lx_bonus` VALUES ('20', '24', '360.00', '36.00', '324.00', '1425386783');
+INSERT INTO `lx_bonus` VALUES ('20', '23', '360.00', '36.00', '324.00', '1425387178');
+INSERT INTO `lx_bonus` VALUES ('22', '99', '180.00', '18.00', '162.00', '1425391354');
+INSERT INTO `lx_bonus` VALUES ('20', '22', '360.00', '36.00', '324.00', '1425391426');
+INSERT INTO `lx_bonus` VALUES ('92', '100', '180.00', '18.00', '162.00', '1425466628');
+INSERT INTO `lx_bonus` VALUES ('100', '101', '180.00', '18.00', '162.00', '1425468335');
+INSERT INTO `lx_bonus` VALUES ('37', '102', '180.00', '18.00', '162.00', '1425473784');
+INSERT INTO `lx_bonus` VALUES ('20', '37', '360.00', '36.00', '324.00', '1425473870');
+INSERT INTO `lx_bonus` VALUES ('45', '103', '180.00', '18.00', '162.00', '1425519663');
+INSERT INTO `lx_bonus` VALUES ('103', '104', '180.00', '18.00', '162.00', '1425521817');
+INSERT INTO `lx_bonus` VALUES ('100', '105', '180.00', '18.00', '162.00', '1425522369');
+INSERT INTO `lx_bonus` VALUES ('68', '106', '180.00', '18.00', '162.00', '1425523972');
+INSERT INTO `lx_bonus` VALUES ('68', '107', '180.00', '18.00', '162.00', '1425524161');
+INSERT INTO `lx_bonus` VALUES ('40', '68', '360.00', '36.00', '324.00', '1425524266');
+INSERT INTO `lx_bonus` VALUES ('5', '20', '1440.00', '144.00', '1296.00', '1425524698');
+INSERT INTO `lx_bonus` VALUES ('49', '108', '180.00', '18.00', '162.00', '1425525283');
+INSERT INTO `lx_bonus` VALUES ('49', '109', '180.00', '18.00', '162.00', '1425525288');
+INSERT INTO `lx_bonus` VALUES ('49', '110', '180.00', '18.00', '162.00', '1425525430');
+INSERT INTO `lx_bonus` VALUES ('40', '49', '360.00', '36.00', '324.00', '1425525862');
+INSERT INTO `lx_bonus` VALUES ('44', '111', '180.00', '18.00', '162.00', '1425526335');
+INSERT INTO `lx_bonus` VALUES ('92', '112', '180.00', '18.00', '162.00', '1425527081');
+INSERT INTO `lx_bonus` VALUES ('82', '113', '180.00', '18.00', '162.00', '1425527708');
+INSERT INTO `lx_bonus` VALUES ('30', '45', '360.00', '36.00', '324.00', '1425528774');
+INSERT INTO `lx_bonus` VALUES ('92', '114', '180.00', '18.00', '162.00', '1425528840');
+INSERT INTO `lx_bonus` VALUES ('41', '115', '180.00', '18.00', '162.00', '1425528850');
+INSERT INTO `lx_bonus` VALUES ('73', '92', '360.00', '36.00', '324.00', '1425529247');
+INSERT INTO `lx_bonus` VALUES ('29', '41', '360.00', '36.00', '324.00', '1425535704');
+INSERT INTO `lx_bonus` VALUES ('63', '116', '180.00', '18.00', '162.00', '1425544236');
+INSERT INTO `lx_bonus` VALUES ('116', '117', '180.00', '18.00', '162.00', '1425545252');
+INSERT INTO `lx_bonus` VALUES ('43', '119', '180.00', '18.00', '162.00', '1425558410');
+INSERT INTO `lx_bonus` VALUES ('112', '120', '180.00', '18.00', '162.00', '1425561393');
+INSERT INTO `lx_bonus` VALUES ('120', '121', '180.00', '18.00', '162.00', '1425562439');
+INSERT INTO `lx_bonus` VALUES ('76', '122', '180.00', '18.00', '162.00', '1425569542');
+INSERT INTO `lx_bonus` VALUES ('76', '123', '180.00', '18.00', '162.00', '1425569549');
+INSERT INTO `lx_bonus` VALUES ('77', '124', '180.00', '18.00', '162.00', '1425569555');
+INSERT INTO `lx_bonus` VALUES ('77', '125', '180.00', '18.00', '162.00', '1425569563');
+INSERT INTO `lx_bonus` VALUES ('77', '126', '180.00', '18.00', '162.00', '1425569570');
+INSERT INTO `lx_bonus` VALUES ('102', '127', '180.00', '18.00', '162.00', '1425569576');
+INSERT INTO `lx_bonus` VALUES ('102', '128', '180.00', '18.00', '162.00', '1425569581');
+INSERT INTO `lx_bonus` VALUES ('102', '129', '180.00', '18.00', '162.00', '1425569587');
+INSERT INTO `lx_bonus` VALUES ('22', '77', '360.00', '36.00', '324.00', '1425569878');
+INSERT INTO `lx_bonus` VALUES ('22', '102', '360.00', '36.00', '324.00', '1425569939');
+INSERT INTO `lx_bonus` VALUES ('8', '22', '720.00', '72.00', '648.00', '1425570073');
+INSERT INTO `lx_bonus` VALUES ('94', '130', '180.00', '18.00', '162.00', '1425571385');
+INSERT INTO `lx_bonus` VALUES ('43', '118', '180.00', '18.00', '162.00', '1425603713');
+INSERT INTO `lx_bonus` VALUES ('121', '131', '180.00', '18.00', '162.00', '1425606729');
+INSERT INTO `lx_bonus` VALUES ('29', '132', '180.00', '18.00', '162.00', '1425610008');
+INSERT INTO `lx_bonus` VALUES ('29', '133', '180.00', '18.00', '162.00', '1425610013');
+INSERT INTO `lx_bonus` VALUES ('29', '134', '180.00', '18.00', '162.00', '1425610018');
+INSERT INTO `lx_bonus` VALUES ('29', '135', '180.00', '18.00', '162.00', '1425610023');
+INSERT INTO `lx_bonus` VALUES ('29', '136', '180.00', '18.00', '162.00', '1425610488');
+INSERT INTO `lx_bonus` VALUES ('29', '137', '180.00', '18.00', '162.00', '1425610494');
+INSERT INTO `lx_bonus` VALUES ('29', '138', '180.00', '18.00', '162.00', '1425610498');
+INSERT INTO `lx_bonus` VALUES ('29', '139', '180.00', '18.00', '162.00', '1425610503');
+INSERT INTO `lx_bonus` VALUES ('29', '140', '180.00', '18.00', '162.00', '1425610909');
+INSERT INTO `lx_bonus` VALUES ('29', '141', '180.00', '18.00', '162.00', '1425610914');
+INSERT INTO `lx_bonus` VALUES ('29', '142', '180.00', '18.00', '162.00', '1425610919');
+INSERT INTO `lx_bonus` VALUES ('29', '143', '180.00', '18.00', '162.00', '1425610923');
+INSERT INTO `lx_bonus` VALUES ('29', '144', '180.00', '18.00', '162.00', '1425610928');
+INSERT INTO `lx_bonus` VALUES ('29', '145', '180.00', '18.00', '162.00', '1425610934');
+INSERT INTO `lx_bonus` VALUES ('49', '146', '180.00', '18.00', '162.00', '1425621161');
+INSERT INTO `lx_bonus` VALUES ('146', '147', '180.00', '18.00', '162.00', '1425621479');
+INSERT INTO `lx_bonus` VALUES ('44', '148', '180.00', '18.00', '162.00', '1425621868');
+INSERT INTO `lx_bonus` VALUES ('44', '149', '180.00', '18.00', '162.00', '1425623803');
+INSERT INTO `lx_bonus` VALUES ('80', '150', '180.00', '18.00', '162.00', '1425624245');
+INSERT INTO `lx_bonus` VALUES ('33', '80', '360.00', '36.00', '324.00', '1425624425');
+INSERT INTO `lx_bonus` VALUES ('44', '151', '180.00', '18.00', '162.00', '1425625304');
+INSERT INTO `lx_bonus` VALUES ('30', '44', '360.00', '36.00', '324.00', '1425626742');
+INSERT INTO `lx_bonus` VALUES ('149', '152', '180.00', '18.00', '162.00', '1425627334');
+INSERT INTO `lx_bonus` VALUES ('149', '153', '180.00', '18.00', '162.00', '1425627363');
+INSERT INTO `lx_bonus` VALUES ('149', '154', '180.00', '18.00', '162.00', '1425627376');
+INSERT INTO `lx_bonus` VALUES ('111', '155', '180.00', '18.00', '162.00', '1425628995');
+INSERT INTO `lx_bonus` VALUES ('111', '156', '180.00', '18.00', '162.00', '1425629034');
+INSERT INTO `lx_bonus` VALUES ('111', '157', '180.00', '18.00', '162.00', '1425630184');
+INSERT INTO `lx_bonus` VALUES ('40', '111', '360.00', '36.00', '324.00', '1425630289');
+INSERT INTO `lx_bonus` VALUES ('44', '149', '360.00', '36.00', '324.00', '1425630957');
+INSERT INTO `lx_bonus` VALUES ('149', '158', '180.00', '18.00', '162.00', '1425632079');
+INSERT INTO `lx_bonus` VALUES ('29', '159', '180.00', '18.00', '162.00', '1425637343');
+INSERT INTO `lx_bonus` VALUES ('41', '160', '180.00', '18.00', '162.00', '1425637349');
+INSERT INTO `lx_bonus` VALUES ('75', '161', '180.00', '18.00', '162.00', '1425637355');
+INSERT INTO `lx_bonus` VALUES ('30', '162', '180.00', '18.00', '162.00', '1425637779');
+INSERT INTO `lx_bonus` VALUES ('73', '163', '180.00', '18.00', '162.00', '1425638847');
+INSERT INTO `lx_bonus` VALUES ('76', '164', '180.00', '18.00', '162.00', '1425639388');
+INSERT INTO `lx_bonus` VALUES ('22', '76', '360.00', '36.00', '324.00', '1425639415');
+INSERT INTO `lx_bonus` VALUES ('73', '165', '180.00', '18.00', '162.00', '1425642155');
+INSERT INTO `lx_bonus` VALUES ('101', '166', '180.00', '18.00', '162.00', '1425643434');
+INSERT INTO `lx_bonus` VALUES ('101', '167', '180.00', '18.00', '162.00', '1425644216');
+INSERT INTO `lx_bonus` VALUES ('101', '168', '180.00', '18.00', '162.00', '1425644424');
+INSERT INTO `lx_bonus` VALUES ('100', '169', '180.00', '18.00', '162.00', '1425647725');
+INSERT INTO `lx_bonus` VALUES ('33', '75', '360.00', '36.00', '324.00', '1425648145');
+INSERT INTO `lx_bonus` VALUES ('41', '170', '180.00', '18.00', '162.00', '1425703383');
+INSERT INTO `lx_bonus` VALUES ('30', '171', '180.00', '18.00', '162.00', '1425703394');
+INSERT INTO `lx_bonus` VALUES ('29', '197', '180.00', '18.00', '162.00', '1425715662');
+INSERT INTO `lx_bonus` VALUES ('29', '182', '180.00', '18.00', '162.00', '1425715684');
+INSERT INTO `lx_bonus` VALUES ('29', '181', '180.00', '18.00', '162.00', '1425715695');
+INSERT INTO `lx_bonus` VALUES ('29', '180', '180.00', '18.00', '162.00', '1425715714');
+INSERT INTO `lx_bonus` VALUES ('29', '179', '180.00', '18.00', '162.00', '1425715727');
+INSERT INTO `lx_bonus` VALUES ('29', '178', '180.00', '18.00', '162.00', '1425715739');
+INSERT INTO `lx_bonus` VALUES ('29', '177', '180.00', '18.00', '162.00', '1425715757');
+INSERT INTO `lx_bonus` VALUES ('29', '176', '180.00', '18.00', '162.00', '1425715783');
+INSERT INTO `lx_bonus` VALUES ('29', '175', '180.00', '18.00', '162.00', '1425715793');
+INSERT INTO `lx_bonus` VALUES ('29', '174', '180.00', '18.00', '162.00', '1425715803');
+INSERT INTO `lx_bonus` VALUES ('29', '173', '180.00', '18.00', '162.00', '1425715814');
+INSERT INTO `lx_bonus` VALUES ('29', '172', '180.00', '18.00', '162.00', '1425715839');
+INSERT INTO `lx_bonus` VALUES ('29', '183', '180.00', '18.00', '162.00', '1425715857');
+INSERT INTO `lx_bonus` VALUES ('29', '184', '180.00', '18.00', '162.00', '1425715878');
+INSERT INTO `lx_bonus` VALUES ('29', '185', '180.00', '18.00', '162.00', '1425715898');
+INSERT INTO `lx_bonus` VALUES ('29', '186', '180.00', '18.00', '162.00', '1425715915');
+INSERT INTO `lx_bonus` VALUES ('29', '187', '180.00', '18.00', '162.00', '1425715932');
+INSERT INTO `lx_bonus` VALUES ('29', '188', '180.00', '18.00', '162.00', '1425715956');
+INSERT INTO `lx_bonus` VALUES ('29', '189', '180.00', '18.00', '162.00', '1425715965');
+INSERT INTO `lx_bonus` VALUES ('29', '190', '180.00', '18.00', '162.00', '1425715983');
+INSERT INTO `lx_bonus` VALUES ('29', '191', '180.00', '18.00', '162.00', '1425716001');
+INSERT INTO `lx_bonus` VALUES ('29', '192', '180.00', '18.00', '162.00', '1425716038');
+INSERT INTO `lx_bonus` VALUES ('29', '193', '180.00', '18.00', '162.00', '1425716048');
+INSERT INTO `lx_bonus` VALUES ('29', '194', '180.00', '18.00', '162.00', '1425716058');
+INSERT INTO `lx_bonus` VALUES ('29', '195', '180.00', '18.00', '162.00', '1425716076');
+INSERT INTO `lx_bonus` VALUES ('29', '196', '180.00', '18.00', '162.00', '1425716095');
+INSERT INTO `lx_bonus` VALUES ('80', '100', '360.00', '36.00', '324.00', '1425726566');
+INSERT INTO `lx_bonus` VALUES ('84', '198', '180.00', '18.00', '162.00', '1425734709');
+INSERT INTO `lx_bonus` VALUES ('22', '84', '360.00', '36.00', '324.00', '1425734736');
+INSERT INTO `lx_bonus` VALUES ('80', '199', '180.00', '18.00', '162.00', '1425793476');
+INSERT INTO `lx_bonus` VALUES ('80', '200', '180.00', '18.00', '162.00', '1425796378');
+INSERT INTO `lx_bonus` VALUES ('100', '201', '180.00', '18.00', '162.00', '1425797464');
+INSERT INTO `lx_bonus` VALUES ('94', '202', '180.00', '18.00', '162.00', '1425810749');
+INSERT INTO `lx_bonus` VALUES ('80', '203', '180.00', '18.00', '162.00', '1425815822');
+INSERT INTO `lx_bonus` VALUES ('203', '204', '180.00', '18.00', '162.00', '1425816955');
+INSERT INTO `lx_bonus` VALUES ('36', '205', '180.00', '18.00', '162.00', '1425825005');
+INSERT INTO `lx_bonus` VALUES ('92', '206', '180.00', '18.00', '162.00', '1425878510');
+INSERT INTO `lx_bonus` VALUES ('92', '207', '180.00', '18.00', '162.00', '1425885638');
+INSERT INTO `lx_bonus` VALUES ('203', '208', '180.00', '18.00', '162.00', '1425891811');
+INSERT INTO `lx_bonus` VALUES ('73', '209', '180.00', '18.00', '162.00', '1425898936');
+INSERT INTO `lx_bonus` VALUES ('93', '210', '180.00', '18.00', '162.00', '1425905959');
+INSERT INTO `lx_bonus` VALUES ('93', '211', '180.00', '18.00', '162.00', '1425905985');
+INSERT INTO `lx_bonus` VALUES ('93', '212', '180.00', '18.00', '162.00', '1425905990');
+INSERT INTO `lx_bonus` VALUES ('35', '93', '360.00', '36.00', '324.00', '1425913095');
+INSERT INTO `lx_bonus` VALUES ('8', '73', '720.00', '72.00', '648.00', '1425980104');
+INSERT INTO `lx_bonus` VALUES ('203', '213', '180.00', '18.00', '162.00', '1426044079');
+INSERT INTO `lx_bonus` VALUES ('80', '203', '360.00', '36.00', '324.00', '1426044473');
+INSERT INTO `lx_bonus` VALUES ('203', '214', '180.00', '18.00', '162.00', '1426046216');
+INSERT INTO `lx_bonus` VALUES ('88', '215', '180.00', '18.00', '162.00', '1426080546');
+INSERT INTO `lx_bonus` VALUES ('203', '216', '180.00', '18.00', '162.00', '1426147001');
+INSERT INTO `lx_bonus` VALUES ('73', '217', '180.00', '18.00', '162.00', '1426147008');
+INSERT INTO `lx_bonus` VALUES ('80', '218', '180.00', '18.00', '162.00', '1426150256');
+INSERT INTO `lx_bonus` VALUES ('203', '219', '180.00', '18.00', '162.00', '1426162061');
+INSERT INTO `lx_bonus` VALUES ('203', '220', '180.00', '18.00', '162.00', '1426162338');
+INSERT INTO `lx_bonus` VALUES ('203', '221', '180.00', '18.00', '162.00', '1426163151');
+INSERT INTO `lx_bonus` VALUES ('203', '222', '180.00', '18.00', '162.00', '1426163166');
+INSERT INTO `lx_bonus` VALUES ('203', '223', '180.00', '18.00', '162.00', '1426163510');
+INSERT INTO `lx_bonus` VALUES ('73', '203', '720.00', '72.00', '648.00', '1426166285');
+INSERT INTO `lx_bonus` VALUES ('46', '224', '180.00', '18.00', '162.00', '1426171435');
+INSERT INTO `lx_bonus` VALUES ('8', '80', '720.00', '72.00', '648.00', '1426205895');
+INSERT INTO `lx_bonus` VALUES ('92', '225', '180.00', '18.00', '162.00', '1426243954');
+INSERT INTO `lx_bonus` VALUES ('92', '226', '180.00', '18.00', '162.00', '1426244805');
+INSERT INTO `lx_bonus` VALUES ('208', '227', '180.00', '18.00', '162.00', '1426335625');
+INSERT INTO `lx_bonus` VALUES ('93', '228', '180.00', '18.00', '162.00', '1426385091');
+INSERT INTO `lx_bonus` VALUES ('93', '229', '180.00', '18.00', '162.00', '1426386840');
+INSERT INTO `lx_bonus` VALUES ('93', '230', '180.00', '18.00', '162.00', '1426387638');
+INSERT INTO `lx_bonus` VALUES ('101', '231', '180.00', '18.00', '162.00', '1426388573');
+INSERT INTO `lx_bonus` VALUES ('231', '232', '180.00', '18.00', '162.00', '1426389202');
+INSERT INTO `lx_bonus` VALUES ('231', '233', '180.00', '18.00', '162.00', '1426390031');
+INSERT INTO `lx_bonus` VALUES ('93', '234', '180.00', '18.00', '162.00', '1426392007');
+INSERT INTO `lx_bonus` VALUES ('93', '235', '180.00', '18.00', '162.00', '1426392674');
+INSERT INTO `lx_bonus` VALUES ('93', '236', '180.00', '18.00', '162.00', '1426393063');
+INSERT INTO `lx_bonus` VALUES ('22', '93', '720.00', '72.00', '648.00', '1426393361');
+INSERT INTO `lx_bonus` VALUES ('93', '237', '180.00', '18.00', '162.00', '1426394087');
+INSERT INTO `lx_bonus` VALUES ('93', '238', '180.00', '18.00', '162.00', '1426394640');
+INSERT INTO `lx_bonus` VALUES ('93', '239', '180.00', '18.00', '162.00', '1426398045');
+INSERT INTO `lx_bonus` VALUES ('231', '240', '180.00', '18.00', '162.00', '1426399506');
+INSERT INTO `lx_bonus` VALUES ('100', '231', '360.00', '36.00', '324.00', '1426399629');
+INSERT INTO `lx_bonus` VALUES ('212', '241', '180.00', '18.00', '162.00', '1426411006');
+INSERT INTO `lx_bonus` VALUES ('213', '244', '180.00', '18.00', '162.00', '1426411024');
+INSERT INTO `lx_bonus` VALUES ('150', '243', '180.00', '18.00', '162.00', '1426411057');
+INSERT INTO `lx_bonus` VALUES ('211', '242', '180.00', '18.00', '162.00', '1426411095');
+INSERT INTO `lx_bonus` VALUES ('86', '245', '180.00', '18.00', '162.00', '1426418758');
+INSERT INTO `lx_bonus` VALUES ('225', '246', '180.00', '18.00', '162.00', '1426419537');
+INSERT INTO `lx_bonus` VALUES ('246', '247', '180.00', '18.00', '162.00', '1426420293');
+INSERT INTO `lx_bonus` VALUES ('246', '248', '180.00', '18.00', '162.00', '1426420743');
+INSERT INTO `lx_bonus` VALUES ('246', '249', '180.00', '18.00', '162.00', '1426421362');
+INSERT INTO `lx_bonus` VALUES ('229', '250', '180.00', '18.00', '162.00', '1426423071');
+INSERT INTO `lx_bonus` VALUES ('250', '251', '180.00', '18.00', '162.00', '1426424934');
+INSERT INTO `lx_bonus` VALUES ('229', '252', '180.00', '18.00', '162.00', '1426424972');
+INSERT INTO `lx_bonus` VALUES ('229', '253', '180.00', '18.00', '162.00', '1426424986');
+INSERT INTO `lx_bonus` VALUES ('93', '229', '360.00', '36.00', '324.00', '1426425376');
+INSERT INTO `lx_bonus` VALUES ('211', '254', '180.00', '18.00', '162.00', '1426441698');
+INSERT INTO `lx_bonus` VALUES ('36', '255', '180.00', '18.00', '162.00', '1426473892');
+INSERT INTO `lx_bonus` VALUES ('225', '256', '180.00', '18.00', '162.00', '1426474767');
+INSERT INTO `lx_bonus` VALUES ('233', '257', '180.00', '18.00', '162.00', '1426475935');
+INSERT INTO `lx_bonus` VALUES ('225', '258', '180.00', '18.00', '162.00', '1426476764');
+INSERT INTO `lx_bonus` VALUES ('36', '259', '180.00', '18.00', '162.00', '1426477784');
+INSERT INTO `lx_bonus` VALUES ('258', '260', '180.00', '18.00', '162.00', '1426477792');
+INSERT INTO `lx_bonus` VALUES ('92', '225', '360.00', '36.00', '324.00', '1426478069');
+INSERT INTO `lx_bonus` VALUES ('22', '36', '360.00', '36.00', '324.00', '1426480420');
+INSERT INTO `lx_bonus` VALUES ('259', '261', '180.00', '18.00', '162.00', '1426483410');
+INSERT INTO `lx_bonus` VALUES ('210', '265', '180.00', '18.00', '162.00', '1426483426');
+INSERT INTO `lx_bonus` VALUES ('259', '262', '180.00', '18.00', '162.00', '1426483435');
+INSERT INTO `lx_bonus` VALUES ('113', '263', '180.00', '18.00', '162.00', '1426483443');
+INSERT INTO `lx_bonus` VALUES ('261', '266', '180.00', '18.00', '162.00', '1426485714');
+INSERT INTO `lx_bonus` VALUES ('261', '267', '180.00', '18.00', '162.00', '1426485722');
+INSERT INTO `lx_bonus` VALUES ('261', '268', '180.00', '18.00', '162.00', '1426485729');
+INSERT INTO `lx_bonus` VALUES ('257', '269', '180.00', '18.00', '162.00', '1426487122');
+INSERT INTO `lx_bonus` VALUES ('261', '270', '180.00', '18.00', '162.00', '1426488822');
+INSERT INTO `lx_bonus` VALUES ('259', '271', '180.00', '18.00', '162.00', '1426488862');
+INSERT INTO `lx_bonus` VALUES ('259', '272', '180.00', '18.00', '162.00', '1426488872');
+INSERT INTO `lx_bonus` VALUES ('259', '273', '180.00', '18.00', '162.00', '1426489417');
+INSERT INTO `lx_bonus` VALUES ('85', '274', '180.00', '18.00', '162.00', '1426495870');
+INSERT INTO `lx_bonus` VALUES ('273', '275', '180.00', '18.00', '162.00', '1426495879');
+INSERT INTO `lx_bonus` VALUES ('273', '276', '180.00', '18.00', '162.00', '1426495896');
+INSERT INTO `lx_bonus` VALUES ('262', '277', '180.00', '18.00', '162.00', '1426495910');
+INSERT INTO `lx_bonus` VALUES ('243', '278', '180.00', '18.00', '162.00', '1426497209');
+INSERT INTO `lx_bonus` VALUES ('272', '279', '180.00', '18.00', '162.00', '1426498742');
+INSERT INTO `lx_bonus` VALUES ('278', '280', '180.00', '18.00', '162.00', '1426499272');
+INSERT INTO `lx_bonus` VALUES ('243', '281', '180.00', '18.00', '162.00', '1426505507');
+INSERT INTO `lx_bonus` VALUES ('281', '282', '180.00', '18.00', '162.00', '1426506081');
+INSERT INTO `lx_bonus` VALUES ('259', '283', '180.00', '18.00', '162.00', '1426561590');
+INSERT INTO `lx_bonus` VALUES ('262', '285', '180.00', '18.00', '162.00', '1426561620');
+INSERT INTO `lx_bonus` VALUES ('243', '286', '180.00', '18.00', '162.00', '1426563712');
+INSERT INTO `lx_bonus` VALUES ('80', '243', '360.00', '36.00', '324.00', '1426563802');
+INSERT INTO `lx_bonus` VALUES ('267', '287', '180.00', '18.00', '162.00', '1426565272');
+INSERT INTO `lx_bonus` VALUES ('259', '288', '180.00', '18.00', '162.00', '1426569690');
+INSERT INTO `lx_bonus` VALUES ('278', '289', '180.00', '18.00', '162.00', '1426570760');
+INSERT INTO `lx_bonus` VALUES ('278', '290', '180.00', '18.00', '162.00', '1426571620');
+INSERT INTO `lx_bonus` VALUES ('208', '291', '180.00', '18.00', '162.00', '1426580094');
+INSERT INTO `lx_bonus` VALUES ('85', '292', '180.00', '18.00', '162.00', '1426584419');
+INSERT INTO `lx_bonus` VALUES ('85', '293', '180.00', '18.00', '162.00', '1426585739');
+INSERT INTO `lx_bonus` VALUES ('233', '294', '180.00', '18.00', '162.00', '1426585748');
+INSERT INTO `lx_bonus` VALUES ('35', '85', '360.00', '36.00', '324.00', '1426585897');
+INSERT INTO `lx_bonus` VALUES ('36', '259', '360.00', '36.00', '324.00', '1426586088');
+INSERT INTO `lx_bonus` VALUES ('294', '295', '180.00', '18.00', '162.00', '1426586625');
+INSERT INTO `lx_bonus` VALUES ('92', '296', '180.00', '18.00', '162.00', '1426590288');
+INSERT INTO `lx_bonus` VALUES ('8', '92', '720.00', '72.00', '648.00', '1426590368');
+INSERT INTO `lx_bonus` VALUES ('73', '150', '360.00', '36.00', '324.00', '1426591114');
+INSERT INTO `lx_bonus` VALUES ('254', '297', '180.00', '18.00', '162.00', '1426594864');
+INSERT INTO `lx_bonus` VALUES ('273', '298', '180.00', '18.00', '162.00', '1426594909');
+INSERT INTO `lx_bonus` VALUES ('262', '299', '180.00', '18.00', '162.00', '1426594927');
+INSERT INTO `lx_bonus` VALUES ('259', '300', '180.00', '18.00', '162.00', '1426595011');
+INSERT INTO `lx_bonus` VALUES ('283', '301', '180.00', '18.00', '162.00', '1426601628');
+INSERT INTO `lx_bonus` VALUES ('271', '302', '180.00', '18.00', '162.00', '1426601636');
+INSERT INTO `lx_bonus` VALUES ('36', '309', '180.00', '18.00', '162.00', '1426644700');
+INSERT INTO `lx_bonus` VALUES ('36', '308', '180.00', '18.00', '162.00', '1426644728');
+INSERT INTO `lx_bonus` VALUES ('255', '307', '180.00', '18.00', '162.00', '1426644833');
+INSERT INTO `lx_bonus` VALUES ('255', '306', '180.00', '18.00', '162.00', '1426644906');
+INSERT INTO `lx_bonus` VALUES ('297', '305', '180.00', '18.00', '162.00', '1426644940');
+INSERT INTO `lx_bonus` VALUES ('297', '304', '180.00', '18.00', '162.00', '1426644966');
+INSERT INTO `lx_bonus` VALUES ('254', '303', '180.00', '18.00', '162.00', '1426645005');
+INSERT INTO `lx_bonus` VALUES ('255', '310', '180.00', '18.00', '162.00', '1426645453');
+INSERT INTO `lx_bonus` VALUES ('35', '255', '360.00', '36.00', '324.00', '1426645507');
+INSERT INTO `lx_bonus` VALUES ('292', '311', '180.00', '18.00', '162.00', '1426645920');
+INSERT INTO `lx_bonus` VALUES ('287', '312', '180.00', '18.00', '162.00', '1426647519');
+INSERT INTO `lx_bonus` VALUES ('285', '313', '180.00', '18.00', '162.00', '1426649348');
+INSERT INTO `lx_bonus` VALUES ('255', '262', '360.00', '36.00', '324.00', '1426649539');
+INSERT INTO `lx_bonus` VALUES ('290', '314', '180.00', '18.00', '162.00', '1426651798');
+INSERT INTO `lx_bonus` VALUES ('150', '278', '360.00', '36.00', '324.00', '1426651922');
+INSERT INTO `lx_bonus` VALUES ('259', '273', '360.00', '36.00', '324.00', '1426659332');
+INSERT INTO `lx_bonus` VALUES ('309', '315', '180.00', '18.00', '162.00', '1426665010');
+INSERT INTO `lx_bonus` VALUES ('298', '316', '180.00', '18.00', '162.00', '1426665242');
+INSERT INTO `lx_bonus` VALUES ('292', '320', '180.00', '18.00', '162.00', '1426665299');
+INSERT INTO `lx_bonus` VALUES ('298', '317', '180.00', '18.00', '162.00', '1426665309');
+INSERT INTO `lx_bonus` VALUES ('277', '319', '180.00', '18.00', '162.00', '1426665317');
+INSERT INTO `lx_bonus` VALUES ('298', '318', '180.00', '18.00', '162.00', '1426665331');
+INSERT INTO `lx_bonus` VALUES ('20', '35', '720.00', '72.00', '648.00', '1426666074');
+INSERT INTO `lx_bonus` VALUES ('259', '321', '180.00', '18.00', '162.00', '1426670791');
+INSERT INTO `lx_bonus` VALUES ('309', '322', '180.00', '18.00', '162.00', '1426672930');
+INSERT INTO `lx_bonus` VALUES ('321', '323', '180.00', '18.00', '162.00', '1426672939');
+INSERT INTO `lx_bonus` VALUES ('309', '324', '180.00', '18.00', '162.00', '1426673239');
+INSERT INTO `lx_bonus` VALUES ('318', '325', '180.00', '18.00', '162.00', '1426673260');
+INSERT INTO `lx_bonus` VALUES ('36', '309', '360.00', '36.00', '324.00', '1426673394');
+INSERT INTO `lx_bonus` VALUES ('259', '298', '360.00', '36.00', '324.00', '1426673585');
+INSERT INTO `lx_bonus` VALUES ('273', '326', '180.00', '18.00', '162.00', '1426681107');
+INSERT INTO `lx_bonus` VALUES ('236', '327', '180.00', '18.00', '162.00', '1426684206');
+INSERT INTO `lx_bonus` VALUES ('272', '328', '180.00', '18.00', '162.00', '1426685527');
+INSERT INTO `lx_bonus` VALUES ('78', '329', '180.00', '18.00', '162.00', '1426689117');
+INSERT INTO `lx_bonus` VALUES ('311', '330', '180.00', '18.00', '162.00', '1426730547');
+INSERT INTO `lx_bonus` VALUES ('311', '331', '180.00', '18.00', '162.00', '1426732196');
+INSERT INTO `lx_bonus` VALUES ('311', '332', '180.00', '18.00', '162.00', '1426732206');
+INSERT INTO `lx_bonus` VALUES ('85', '311', '360.00', '36.00', '324.00', '1426734158');
+INSERT INTO `lx_bonus` VALUES ('332', '333', '180.00', '18.00', '162.00', '1426737438');
+INSERT INTO `lx_bonus` VALUES ('299', '334', '180.00', '18.00', '162.00', '1426755630');
+INSERT INTO `lx_bonus` VALUES ('299', '335', '180.00', '18.00', '162.00', '1426755653');
+INSERT INTO `lx_bonus` VALUES ('299', '336', '180.00', '18.00', '162.00', '1426755658');
+INSERT INTO `lx_bonus` VALUES ('334', '337', '180.00', '18.00', '162.00', '1426756289');
+INSERT INTO `lx_bonus` VALUES ('288', '338', '180.00', '18.00', '162.00', '1426758038');
+INSERT INTO `lx_bonus` VALUES ('262', '299', '360.00', '36.00', '324.00', '1426761424');
+INSERT INTO `lx_bonus` VALUES ('330', '339', '180.00', '18.00', '162.00', '1426822122');
+INSERT INTO `lx_bonus` VALUES ('339', '340', '180.00', '18.00', '162.00', '1426825416');
+INSERT INTO `lx_bonus` VALUES ('273', '343', '180.00', '18.00', '162.00', '1426853050');
+INSERT INTO `lx_bonus` VALUES ('32', '341', '180.00', '18.00', '162.00', '1426853400');
+INSERT INTO `lx_bonus` VALUES ('309', '344', '180.00', '18.00', '162.00', '1426853924');
+INSERT INTO `lx_bonus` VALUES ('292', '347', '180.00', '18.00', '162.00', '1426854500');
+INSERT INTO `lx_bonus` VALUES ('305', '342', '180.00', '18.00', '162.00', '1426854558');
+INSERT INTO `lx_bonus` VALUES ('84', '292', '360.00', '36.00', '324.00', '1426855186');
+INSERT INTO `lx_bonus` VALUES ('347', '348', '180.00', '18.00', '162.00', '1426855347');
+INSERT INTO `lx_bonus` VALUES ('328', '349', '180.00', '18.00', '162.00', '1426856618');
+INSERT INTO `lx_bonus` VALUES ('315', '350', '180.00', '18.00', '162.00', '1426856636');
+INSERT INTO `lx_bonus` VALUES ('315', '351', '180.00', '18.00', '162.00', '1426856981');
+INSERT INTO `lx_bonus` VALUES ('315', '352', '180.00', '18.00', '162.00', '1426857427');
+INSERT INTO `lx_bonus` VALUES ('352', '353', '180.00', '18.00', '162.00', '1426858126');
+INSERT INTO `lx_bonus` VALUES ('350', '354', '180.00', '18.00', '162.00', '1426858331');
+INSERT INTO `lx_bonus` VALUES ('36', '315', '360.00', '36.00', '324.00', '1426858441');
+INSERT INTO `lx_bonus` VALUES ('7', '32', '360.00', '36.00', '324.00', '1426863289');
+INSERT INTO `lx_bonus` VALUES ('286', '356', '180.00', '18.00', '162.00', '1426929516');
+INSERT INTO `lx_bonus` VALUES ('269', '359', '180.00', '18.00', '162.00', '1426952506');
+INSERT INTO `lx_bonus` VALUES ('330', '360', '180.00', '18.00', '162.00', '1426991876');
+INSERT INTO `lx_bonus` VALUES ('34', '361', '180.00', '18.00', '162.00', '1427002171');
+INSERT INTO `lx_bonus` VALUES ('350', '363', '180.00', '18.00', '162.00', '1427016928');
+INSERT INTO `lx_bonus` VALUES ('350', '364', '180.00', '18.00', '162.00', '1427017035');
+INSERT INTO `lx_bonus` VALUES ('309', '350', '360.00', '36.00', '324.00', '1427018015');
+INSERT INTO `lx_bonus` VALUES ('101', '366', '180.00', '18.00', '162.00', '1427018219');
+INSERT INTO `lx_bonus` VALUES ('92', '101', '360.00', '36.00', '324.00', '1427018288');
+INSERT INTO `lx_bonus` VALUES ('364', '365', '180.00', '18.00', '162.00', '1427019339');
+INSERT INTO `lx_bonus` VALUES ('366', '367', '180.00', '18.00', '162.00', '1427019484');
+INSERT INTO `lx_bonus` VALUES ('366', '369', '180.00', '18.00', '162.00', '1427020735');
+INSERT INTO `lx_bonus` VALUES ('326', '368', '180.00', '18.00', '162.00', '1427020775');
+INSERT INTO `lx_bonus` VALUES ('366', '370', '180.00', '18.00', '162.00', '1427021442');
+INSERT INTO `lx_bonus` VALUES ('101', '366', '360.00', '36.00', '324.00', '1427021611');
+INSERT INTO `lx_bonus` VALUES ('275', '371', '180.00', '18.00', '162.00', '1427027651');
+INSERT INTO `lx_bonus` VALUES ('255', '261', '360.00', '36.00', '324.00', '1427057720');
+INSERT INTO `lx_bonus` VALUES ('254', '355', '180.00', '18.00', '162.00', '1427077022');
+INSERT INTO `lx_bonus` VALUES ('305', '357', '180.00', '18.00', '162.00', '1427077030');
+INSERT INTO `lx_bonus` VALUES ('304', '358', '180.00', '18.00', '162.00', '1427077035');
+INSERT INTO `lx_bonus` VALUES ('242', '362', '180.00', '18.00', '162.00', '1427077041');
+INSERT INTO `lx_bonus` VALUES ('350', '372', '180.00', '18.00', '162.00', '1427101455');
+INSERT INTO `lx_bonus` VALUES ('330', '377', '180.00', '18.00', '162.00', '1427104243');
+INSERT INTO `lx_bonus` VALUES ('292', '330', '360.00', '36.00', '324.00', '1427105060');
+INSERT INTO `lx_bonus` VALUES ('93', '254', '360.00', '36.00', '324.00', '1427110525');
+INSERT INTO `lx_bonus` VALUES ('377', '380', '180.00', '18.00', '162.00', '1427165475');
+INSERT INTO `lx_bonus` VALUES ('377', '382', '180.00', '18.00', '162.00', '1427165486');
+INSERT INTO `lx_bonus` VALUES ('377', '381', '180.00', '18.00', '162.00', '1427165505');
+INSERT INTO `lx_bonus` VALUES ('339', '383', '180.00', '18.00', '162.00', '1427165513');
+INSERT INTO `lx_bonus` VALUES ('311', '377', '360.00', '36.00', '324.00', '1427166103');
+INSERT INTO `lx_bonus` VALUES ('364', '373', '180.00', '18.00', '162.00', '1427171796');
+INSERT INTO `lx_bonus` VALUES ('364', '374', '180.00', '18.00', '162.00', '1427171801');
+INSERT INTO `lx_bonus` VALUES ('372', '375', '180.00', '18.00', '162.00', '1427171806');
+INSERT INTO `lx_bonus` VALUES ('363', '376', '180.00', '18.00', '162.00', '1427171817');
+INSERT INTO `lx_bonus` VALUES ('315', '364', '360.00', '36.00', '324.00', '1427173923');
+INSERT INTO `lx_bonus` VALUES ('361', '388', '180.00', '18.00', '162.00', '1427194198');
+INSERT INTO `lx_bonus` VALUES ('277', '385', '180.00', '18.00', '162.00', '1427195417');
+INSERT INTO `lx_bonus` VALUES ('84', '387', '180.00', '18.00', '162.00', '1427195425');
+INSERT INTO `lx_bonus` VALUES ('290', '389', '180.00', '18.00', '162.00', '1427197117');
+INSERT INTO `lx_bonus` VALUES ('290', '390', '180.00', '18.00', '162.00', '1427197476');
+INSERT INTO `lx_bonus` VALUES ('243', '290', '360.00', '36.00', '324.00', '1427197507');
+INSERT INTO `lx_bonus` VALUES ('389', '391', '180.00', '18.00', '162.00', '1427197838');
+INSERT INTO `lx_bonus` VALUES ('391', '392', '180.00', '18.00', '162.00', '1427198218');
+INSERT INTO `lx_bonus` VALUES ('392', '393', '180.00', '18.00', '162.00', '1427198565');
+INSERT INTO `lx_bonus` VALUES ('392', '394', '180.00', '18.00', '162.00', '1427199086');
+INSERT INTO `lx_bonus` VALUES ('392', '395', '180.00', '18.00', '162.00', '1427199558');
+INSERT INTO `lx_bonus` VALUES ('290', '392', '360.00', '36.00', '324.00', '1427199580');
+INSERT INTO `lx_bonus` VALUES ('393', '396', '180.00', '18.00', '162.00', '1427199879');
+INSERT INTO `lx_bonus` VALUES ('373', '386', '180.00', '18.00', '162.00', '1427210272');
+INSERT INTO `lx_bonus` VALUES ('372', '384', '180.00', '18.00', '162.00', '1427210282');
+INSERT INTO `lx_bonus` VALUES ('387', '398', '180.00', '18.00', '162.00', '1427253683');
+INSERT INTO `lx_bonus` VALUES ('380', '399', '180.00', '18.00', '162.00', '1427257330');
+INSERT INTO `lx_bonus` VALUES ('7', '22', '1440.00', '144.00', '1296.00', '1427269492');
+INSERT INTO `lx_bonus` VALUES ('6', '29', '1440.00', '144.00', '1296.00', '1427269636');
+INSERT INTO `lx_bonus` VALUES ('7', '33', '720.00', '72.00', '648.00', '1427269958');
+INSERT INTO `lx_bonus` VALUES ('262', '400', '180.00', '18.00', '162.00', '1427280555');
+INSERT INTO `lx_bonus` VALUES ('334', '401', '180.00', '18.00', '162.00', '1427280568');
+INSERT INTO `lx_bonus` VALUES ('273', '402', '180.00', '18.00', '162.00', '1427280988');
+INSERT INTO `lx_bonus` VALUES ('354', '405', '180.00', '18.00', '162.00', '1427290021');
+INSERT INTO `lx_bonus` VALUES ('405', '406', '180.00', '18.00', '162.00', '1427290355');
+INSERT INTO `lx_bonus` VALUES ('363', '403', '180.00', '18.00', '162.00', '1427290730');
+INSERT INTO `lx_bonus` VALUES ('374', '404', '180.00', '18.00', '162.00', '1427290745');
+INSERT INTO `lx_bonus` VALUES ('385', '407', '180.00', '18.00', '162.00', '1427337533');
+INSERT INTO `lx_bonus` VALUES ('374', '408', '180.00', '18.00', '162.00', '1427337545');
+INSERT INTO `lx_bonus` VALUES ('385', '411', '180.00', '18.00', '162.00', '1427338313');
+INSERT INTO `lx_bonus` VALUES ('353', '412', '180.00', '18.00', '162.00', '1427338326');
+INSERT INTO `lx_bonus` VALUES ('385', '409', '180.00', '18.00', '162.00', '1427338348');
+INSERT INTO `lx_bonus` VALUES ('363', '410', '180.00', '18.00', '162.00', '1427338848');
+INSERT INTO `lx_bonus` VALUES ('412', '413', '180.00', '18.00', '162.00', '1427339405');
+INSERT INTO `lx_bonus` VALUES ('262', '385', '360.00', '36.00', '324.00', '1427339598');
+INSERT INTO `lx_bonus` VALUES ('388', '417', '180.00', '18.00', '162.00', '1427340962');
+INSERT INTO `lx_bonus` VALUES ('413', '416', '180.00', '18.00', '162.00', '1427342596');
+INSERT INTO `lx_bonus` VALUES ('413', '415', '180.00', '18.00', '162.00', '1427342603');
+INSERT INTO `lx_bonus` VALUES ('413', '414', '180.00', '18.00', '162.00', '1427342609');
+INSERT INTO `lx_bonus` VALUES ('255', '419', '180.00', '18.00', '162.00', '1427342930');
+INSERT INTO `lx_bonus` VALUES ('255', '418', '180.00', '18.00', '162.00', '1427342937');
+INSERT INTO `lx_bonus` VALUES ('84', '421', '180.00', '18.00', '162.00', '1427357938');
+INSERT INTO `lx_bonus` VALUES ('360', '422', '180.00', '18.00', '162.00', '1427357953');
+INSERT INTO `lx_bonus` VALUES ('319', '420', '180.00', '18.00', '162.00', '1427358106');
+INSERT INTO `lx_bonus` VALUES ('350', '428', '180.00', '18.00', '162.00', '1427422575');
+INSERT INTO `lx_bonus` VALUES ('360', '423', '180.00', '18.00', '162.00', '1427423099');
+INSERT INTO `lx_bonus` VALUES ('315', '363', '360.00', '36.00', '324.00', '1427423387');
+INSERT INTO `lx_bonus` VALUES ('361', '429', '180.00', '18.00', '162.00', '1427423661');
+INSERT INTO `lx_bonus` VALUES ('361', '430', '180.00', '18.00', '162.00', '1427423993');
+INSERT INTO `lx_bonus` VALUES ('32', '361', '360.00', '36.00', '324.00', '1427424045');
+INSERT INTO `lx_bonus` VALUES ('381', '424', '180.00', '18.00', '162.00', '1427426712');
+INSERT INTO `lx_bonus` VALUES ('381', '425', '180.00', '18.00', '162.00', '1427426728');
+INSERT INTO `lx_bonus` VALUES ('361', '437', '180.00', '18.00', '162.00', '1427434008');
+INSERT INTO `lx_bonus` VALUES ('208', '438', '180.00', '18.00', '162.00', '1427434476');
+INSERT INTO `lx_bonus` VALUES ('80', '208', '360.00', '36.00', '324.00', '1427434566');
+INSERT INTO `lx_bonus` VALUES ('388', '439', '180.00', '18.00', '162.00', '1427435044');
+INSERT INTO `lx_bonus` VALUES ('381', '441', '180.00', '18.00', '162.00', '1427440375');
+INSERT INTO `lx_bonus` VALUES ('360', '431', '180.00', '18.00', '162.00', '1427440709');
+INSERT INTO `lx_bonus` VALUES ('93', '432', '180.00', '18.00', '162.00', '1427441924');
+INSERT INTO `lx_bonus` VALUES ('93', '433', '180.00', '18.00', '162.00', '1427441932');
+INSERT INTO `lx_bonus` VALUES ('236', '434', '180.00', '18.00', '162.00', '1427441940');
+INSERT INTO `lx_bonus` VALUES ('237', '435', '180.00', '18.00', '162.00', '1427441948');
+INSERT INTO `lx_bonus` VALUES ('237', '436', '180.00', '18.00', '162.00', '1427441957');
+INSERT INTO `lx_bonus` VALUES ('311', '360', '360.00', '36.00', '324.00', '1427442695');
+INSERT INTO `lx_bonus` VALUES ('330', '381', '360.00', '36.00', '324.00', '1427442771');
+INSERT INTO `lx_bonus` VALUES ('20', '93', '1440.00', '144.00', '1296.00', '1427446965');
+INSERT INTO `lx_bonus` VALUES ('352', '443', '180.00', '18.00', '162.00', '1427447930');
+INSERT INTO `lx_bonus` VALUES ('352', '442', '180.00', '18.00', '162.00', '1427447936');
+INSERT INTO `lx_bonus` VALUES ('374', '444', '180.00', '18.00', '162.00', '1427448835');
+INSERT INTO `lx_bonus` VALUES ('350', '374', '360.00', '36.00', '324.00', '1427449131');
+INSERT INTO `lx_bonus` VALUES ('309', '352', '360.00', '36.00', '324.00', '1427449439');
+INSERT INTO `lx_bonus` VALUES ('423', '445', '180.00', '18.00', '162.00', '1427516949');
+INSERT INTO `lx_bonus` VALUES ('34', '448', '180.00', '18.00', '162.00', '1427538980');
+INSERT INTO `lx_bonus` VALUES ('448', '449', '180.00', '18.00', '162.00', '1427539237');
+INSERT INTO `lx_bonus` VALUES ('84', '450', '180.00', '18.00', '162.00', '1427551909');
+INSERT INTO `lx_bonus` VALUES ('450', '451', '180.00', '18.00', '162.00', '1427553270');
+INSERT INTO `lx_bonus` VALUES ('428', '453', '180.00', '18.00', '162.00', '1427586312');
+INSERT INTO `lx_bonus` VALUES ('353', '456', '180.00', '18.00', '162.00', '1427595735');
+INSERT INTO `lx_bonus` VALUES ('353', '457', '180.00', '18.00', '162.00', '1427595750');
+INSERT INTO `lx_bonus` VALUES ('315', '353', '360.00', '36.00', '324.00', '1427595785');
+INSERT INTO `lx_bonus` VALUES ('453', '454', '180.00', '18.00', '162.00', '1427596207');
+INSERT INTO `lx_bonus` VALUES ('450', '455', '180.00', '18.00', '162.00', '1427600407');
+INSERT INTO `lx_bonus` VALUES ('450', '458', '180.00', '18.00', '162.00', '1427600422');
+INSERT INTO `lx_bonus` VALUES ('451', '459', '180.00', '18.00', '162.00', '1427600437');
+INSERT INTO `lx_bonus` VALUES ('292', '450', '360.00', '36.00', '324.00', '1427611165');
+INSERT INTO `lx_bonus` VALUES ('399', '446', '180.00', '18.00', '162.00', '1427613536');
+INSERT INTO `lx_bonus` VALUES ('399', '440', '180.00', '18.00', '162.00', '1427613544');
+INSERT INTO `lx_bonus` VALUES ('399', '427', '180.00', '18.00', '162.00', '1427613552');
+INSERT INTO `lx_bonus` VALUES ('381', '452', '180.00', '18.00', '162.00', '1427613559');
+INSERT INTO `lx_bonus` VALUES ('455', '466', '180.00', '18.00', '162.00', '1427614573');
+INSERT INTO `lx_bonus` VALUES ('459', '462', '180.00', '18.00', '162.00', '1427614604');
+INSERT INTO `lx_bonus` VALUES ('451', '460', '180.00', '18.00', '162.00', '1427614615');
+INSERT INTO `lx_bonus` VALUES ('451', '461', '180.00', '18.00', '162.00', '1427614622');
+INSERT INTO `lx_bonus` VALUES ('459', '463', '180.00', '18.00', '162.00', '1427614629');
+INSERT INTO `lx_bonus` VALUES ('459', '464', '180.00', '18.00', '162.00', '1427614641');
+INSERT INTO `lx_bonus` VALUES ('464', '467', '180.00', '18.00', '162.00', '1427616977');
+INSERT INTO `lx_bonus` VALUES ('414', '465', '180.00', '18.00', '162.00', '1427617956');
+INSERT INTO `lx_bonus` VALUES ('414', '468', '180.00', '18.00', '162.00', '1427617962');
+INSERT INTO `lx_bonus` VALUES ('414', '469', '180.00', '18.00', '162.00', '1427617968');
+INSERT INTO `lx_bonus` VALUES ('353', '414', '360.00', '36.00', '324.00', '1427618219');
+INSERT INTO `lx_bonus` VALUES ('467', '470', '180.00', '18.00', '162.00', '1427618319');
+INSERT INTO `lx_bonus` VALUES ('467', '471', '180.00', '18.00', '162.00', '1427618507');
+INSERT INTO `lx_bonus` VALUES ('292', '451', '360.00', '36.00', '324.00', '1427620642');
+INSERT INTO `lx_bonus` VALUES ('450', '459', '360.00', '36.00', '324.00', '1427620729');
+INSERT INTO `lx_bonus` VALUES ('470', '472', '180.00', '18.00', '162.00', '1427623176');
+INSERT INTO `lx_bonus` VALUES ('462', '473', '180.00', '18.00', '162.00', '1427623191');
+INSERT INTO `lx_bonus` VALUES ('458', '474', '180.00', '18.00', '162.00', '1427684917');
+INSERT INTO `lx_bonus` VALUES ('458', '475', '180.00', '18.00', '162.00', '1427684924');
+INSERT INTO `lx_bonus` VALUES ('380', '476', '180.00', '18.00', '162.00', '1427686007');
+INSERT INTO `lx_bonus` VALUES ('476', '480', '180.00', '18.00', '162.00', '1427687294');
+INSERT INTO `lx_bonus` VALUES ('380', '478', '180.00', '18.00', '162.00', '1427687314');
+INSERT INTO `lx_bonus` VALUES ('347', '481', '180.00', '18.00', '162.00', '1427687501');
+INSERT INTO `lx_bonus` VALUES ('414', '477', '180.00', '18.00', '162.00', '1427687994');
+INSERT INTO `lx_bonus` VALUES ('414', '479', '180.00', '18.00', '162.00', '1427688000');
+INSERT INTO `lx_bonus` VALUES ('414', '482', '180.00', '18.00', '162.00', '1427688008');
+INSERT INTO `lx_bonus` VALUES ('330', '380', '360.00', '36.00', '324.00', '1427688848');
+INSERT INTO `lx_bonus` VALUES ('377', '399', '360.00', '36.00', '324.00', '1427688916');
+INSERT INTO `lx_bonus` VALUES ('481', '483', '180.00', '18.00', '162.00', '1427688922');
+INSERT INTO `lx_bonus` VALUES ('414', '484', '180.00', '18.00', '162.00', '1427690059');
+INSERT INTO `lx_bonus` VALUES ('414', '485', '180.00', '18.00', '162.00', '1427690081');
+INSERT INTO `lx_bonus` VALUES ('414', '486', '180.00', '18.00', '162.00', '1427690090');
+INSERT INTO `lx_bonus` VALUES ('414', '487', '180.00', '18.00', '162.00', '1427690102');
+INSERT INTO `lx_bonus` VALUES ('414', '488', '180.00', '18.00', '162.00', '1427690109');
+INSERT INTO `lx_bonus` VALUES ('414', '489', '180.00', '18.00', '162.00', '1427690119');
+INSERT INTO `lx_bonus` VALUES ('416', '490', '180.00', '18.00', '162.00', '1427691797');
+INSERT INTO `lx_bonus` VALUES ('416', '491', '180.00', '18.00', '162.00', '1427691803');
+INSERT INTO `lx_bonus` VALUES ('413', '492', '180.00', '18.00', '162.00', '1427703662');
+INSERT INTO `lx_bonus` VALUES ('413', '493', '180.00', '18.00', '162.00', '1427703668');
+INSERT INTO `lx_bonus` VALUES ('415', '495', '180.00', '18.00', '162.00', '1427703677');
+INSERT INTO `lx_bonus` VALUES ('416', '497', '180.00', '18.00', '162.00', '1427704251');
+INSERT INTO `lx_bonus` VALUES ('35', '414', '720.00', '72.00', '648.00', '1427704371');
+INSERT INTO `lx_bonus` VALUES ('451', '498', '180.00', '18.00', '162.00', '1427706080');
+INSERT INTO `lx_bonus` VALUES ('347', '496', '180.00', '18.00', '162.00', '1427707445');
+INSERT INTO `lx_bonus` VALUES ('451', '499', '180.00', '18.00', '162.00', '1427708909');
+INSERT INTO `lx_bonus` VALUES ('198', '502', '180.00', '18.00', '162.00', '1427727017');
+INSERT INTO `lx_bonus` VALUES ('85', '347', '360.00', '36.00', '324.00', '1427767326');
+INSERT INTO `lx_bonus` VALUES ('35', '330', '720.00', '72.00', '648.00', '1427768105');
+INSERT INTO `lx_bonus` VALUES ('35', '311', '720.00', '72.00', '648.00', '1427768172');
+INSERT INTO `lx_bonus` VALUES ('64', '505', '180.00', '18.00', '162.00', '1427783746');
+INSERT INTO `lx_bonus` VALUES ('505', '506', '180.00', '18.00', '162.00', '1427785100');
+INSERT INTO `lx_bonus` VALUES ('473', '500', '180.00', '18.00', '162.00', '1427789397');
+INSERT INTO `lx_bonus` VALUES ('455', '504', '180.00', '18.00', '162.00', '1427789407');
+INSERT INTO `lx_bonus` VALUES ('455', '503', '180.00', '18.00', '162.00', '1427789412');
+INSERT INTO `lx_bonus` VALUES ('460', '501', '180.00', '18.00', '162.00', '1427789420');
+INSERT INTO `lx_bonus` VALUES ('347', '455', '360.00', '36.00', '324.00', '1427789752');
+INSERT INTO `lx_bonus` VALUES ('483', '507', '180.00', '18.00', '162.00', '1427794032');
+INSERT INTO `lx_bonus` VALUES ('483', '508', '180.00', '18.00', '162.00', '1427795195');
+INSERT INTO `lx_bonus` VALUES ('438', '509', '180.00', '18.00', '162.00', '1427796401');
+INSERT INTO `lx_bonus` VALUES ('438', '510', '180.00', '18.00', '162.00', '1427796980');
+INSERT INTO `lx_bonus` VALUES ('227', '511', '180.00', '18.00', '162.00', '1427796998');
+INSERT INTO `lx_bonus` VALUES ('227', '512', '180.00', '18.00', '162.00', '1427797731');
+INSERT INTO `lx_bonus` VALUES ('511', '513', '180.00', '18.00', '162.00', '1427798684');
+INSERT INTO `lx_bonus` VALUES ('511', '514', '180.00', '18.00', '162.00', '1427799129');
+INSERT INTO `lx_bonus` VALUES ('227', '515', '180.00', '18.00', '162.00', '1427801821');
+INSERT INTO `lx_bonus` VALUES ('203', '227', '360.00', '36.00', '324.00', '1427807680');
+INSERT INTO `lx_bonus` VALUES ('29', '518', '180.00', '18.00', '162.00', '1427876624');
+INSERT INTO `lx_bonus` VALUES ('481', '519', '180.00', '18.00', '162.00', '1427877289');
+INSERT INTO `lx_bonus` VALUES ('324', '520', '180.00', '18.00', '162.00', '1427878597');
+INSERT INTO `lx_bonus` VALUES ('324', '521', '180.00', '18.00', '162.00', '1427878621');
+INSERT INTO `lx_bonus` VALUES ('324', '522', '180.00', '18.00', '162.00', '1427879467');
+INSERT INTO `lx_bonus` VALUES ('324', '525', '180.00', '18.00', '162.00', '1427879585');
+INSERT INTO `lx_bonus` VALUES ('324', '526', '180.00', '18.00', '162.00', '1427879899');
+INSERT INTO `lx_bonus` VALUES ('522', '527', '180.00', '18.00', '162.00', '1427880516');
+INSERT INTO `lx_bonus` VALUES ('522', '528', '180.00', '18.00', '162.00', '1427880840');
+INSERT INTO `lx_bonus` VALUES ('480', '524', '180.00', '18.00', '162.00', '1427881044');
+INSERT INTO `lx_bonus` VALUES ('522', '529', '180.00', '18.00', '162.00', '1427881153');
+INSERT INTO `lx_bonus` VALUES ('522', '530', '180.00', '18.00', '162.00', '1427881517');
+INSERT INTO `lx_bonus` VALUES ('530', '531', '180.00', '18.00', '162.00', '1427881860');
+INSERT INTO `lx_bonus` VALUES ('528', '532', '180.00', '18.00', '162.00', '1427882367');
+INSERT INTO `lx_bonus` VALUES ('528', '533', '180.00', '18.00', '162.00', '1427882836');
+INSERT INTO `lx_bonus` VALUES ('483', '534', '180.00', '18.00', '162.00', '1427883486');
+INSERT INTO `lx_bonus` VALUES ('309', '523', '180.00', '18.00', '162.00', '1427883675');
+INSERT INTO `lx_bonus` VALUES ('347', '483', '360.00', '36.00', '324.00', '1427885961');
+INSERT INTO `lx_bonus` VALUES ('36', '324', '360.00', '36.00', '324.00', '1427896590');
+INSERT INTO `lx_bonus` VALUES ('324', '522', '360.00', '36.00', '324.00', '1427896972');
+INSERT INTO `lx_bonus` VALUES ('438', '543', '180.00', '18.00', '162.00', '1427897228');
+INSERT INTO `lx_bonus` VALUES ('208', '438', '360.00', '36.00', '324.00', '1427897306');
+INSERT INTO `lx_bonus` VALUES ('309', '545', '180.00', '18.00', '162.00', '1427929838');
+INSERT INTO `lx_bonus` VALUES ('36', '544', '180.00', '18.00', '162.00', '1427929872');
+INSERT INTO `lx_bonus` VALUES ('255', '542', '180.00', '18.00', '162.00', '1427931625');
+INSERT INTO `lx_bonus` VALUES ('464', '546', '180.00', '18.00', '162.00', '1427947806');
+INSERT INTO `lx_bonus` VALUES ('455', '547', '180.00', '18.00', '162.00', '1427947813');
+INSERT INTO `lx_bonus` VALUES ('236', '516', '180.00', '18.00', '162.00', '1427950376');
+INSERT INTO `lx_bonus` VALUES ('211', '447', '180.00', '18.00', '162.00', '1427950389');
+INSERT INTO `lx_bonus` VALUES ('210', '536', '180.00', '18.00', '162.00', '1427950454');
+INSERT INTO `lx_bonus` VALUES ('234', '535', '180.00', '18.00', '162.00', '1427950464');
+INSERT INTO `lx_bonus` VALUES ('234', '537', '180.00', '18.00', '162.00', '1427950476');
+INSERT INTO `lx_bonus` VALUES ('235', '538', '180.00', '18.00', '162.00', '1427950484');
+INSERT INTO `lx_bonus` VALUES ('235', '539', '180.00', '18.00', '162.00', '1427950491');
+INSERT INTO `lx_bonus` VALUES ('235', '540', '180.00', '18.00', '162.00', '1427950497');
+INSERT INTO `lx_bonus` VALUES ('93', '235', '360.00', '36.00', '324.00', '1427951402');
+INSERT INTO `lx_bonus` VALUES ('93', '236', '360.00', '36.00', '324.00', '1427951562');
+INSERT INTO `lx_bonus` VALUES ('84', '211', '360.00', '36.00', '324.00', '1427952055');
+INSERT INTO `lx_bonus` VALUES ('354', '548', '180.00', '18.00', '162.00', '1427953343');
+INSERT INTO `lx_bonus` VALUES ('548', '549', '180.00', '18.00', '162.00', '1427953959');
+INSERT INTO `lx_bonus` VALUES ('425', '494', '180.00', '18.00', '162.00', '1427955251');
+INSERT INTO `lx_bonus` VALUES ('64', '555', '180.00', '18.00', '162.00', '1427962074');
+INSERT INTO `lx_bonus` VALUES ('210', '550', '180.00', '18.00', '162.00', '1427962585');
+INSERT INTO `lx_bonus` VALUES ('234', '551', '180.00', '18.00', '162.00', '1427962595');
+INSERT INTO `lx_bonus` VALUES ('237', '552', '180.00', '18.00', '162.00', '1427962601');
+INSERT INTO `lx_bonus` VALUES ('242', '553', '180.00', '18.00', '162.00', '1427962608');
+INSERT INTO `lx_bonus` VALUES ('242', '554', '180.00', '18.00', '162.00', '1427963598');
+INSERT INTO `lx_bonus` VALUES ('530', '557', '180.00', '18.00', '162.00', '1427966238');
+INSERT INTO `lx_bonus` VALUES ('511', '558', '180.00', '18.00', '162.00', '1427966564');
+INSERT INTO `lx_bonus` VALUES ('208', '511', '360.00', '36.00', '324.00', '1427966580');
+INSERT INTO `lx_bonus` VALUES ('514', '559', '180.00', '18.00', '162.00', '1427966771');
+INSERT INTO `lx_bonus` VALUES ('93', '234', '360.00', '36.00', '324.00', '1427967663');
+INSERT INTO `lx_bonus` VALUES ('84', '210', '360.00', '36.00', '324.00', '1427967734');
+INSERT INTO `lx_bonus` VALUES ('93', '237', '360.00', '36.00', '324.00', '1427967795');
+INSERT INTO `lx_bonus` VALUES ('211', '242', '360.00', '36.00', '324.00', '1427967852');
+INSERT INTO `lx_bonus` VALUES ('530', '560', '180.00', '18.00', '162.00', '1427974669');
+INSERT INTO `lx_bonus` VALUES ('522', '530', '360.00', '36.00', '324.00', '1427976782');
+INSERT INTO `lx_bonus` VALUES ('499', '556', '180.00', '18.00', '162.00', '1428026464');
+INSERT INTO `lx_bonus` VALUES ('478', '561', '180.00', '18.00', '162.00', '1428035403');
+INSERT INTO `lx_bonus` VALUES ('507', '562', '180.00', '18.00', '162.00', '1428052453');
+INSERT INTO `lx_bonus` VALUES ('508', '564', '180.00', '18.00', '162.00', '1428052459');
+INSERT INTO `lx_bonus` VALUES ('507', '565', '180.00', '18.00', '162.00', '1428053276');
+INSERT INTO `lx_bonus` VALUES ('500', '563', '180.00', '18.00', '162.00', '1428062169');
+INSERT INTO `lx_bonus` VALUES ('560', '566', '180.00', '18.00', '162.00', '1428062557');
+INSERT INTO `lx_bonus` VALUES ('560', '567', '180.00', '18.00', '162.00', '1428065343');
+INSERT INTO `lx_bonus` VALUES ('560', '568', '180.00', '18.00', '162.00', '1428068541');
+INSERT INTO `lx_bonus` VALUES ('522', '560', '360.00', '36.00', '324.00', '1428069141');
+INSERT INTO `lx_bonus` VALUES ('297', '570', '180.00', '18.00', '162.00', '1428072265');
+INSERT INTO `lx_bonus` VALUES ('305', '571', '180.00', '18.00', '162.00', '1428072283');
+INSERT INTO `lx_bonus` VALUES ('235', '297', '360.00', '36.00', '324.00', '1428072822');
+INSERT INTO `lx_bonus` VALUES ('254', '305', '360.00', '36.00', '324.00', '1428072961');
+INSERT INTO `lx_bonus` VALUES ('531', '575', '180.00', '18.00', '162.00', '1428119205');
+INSERT INTO `lx_bonus` VALUES ('95', '577', '180.00', '18.00', '162.00', '1428242869');
+INSERT INTO `lx_bonus` VALUES ('481', '578', '180.00', '18.00', '162.00', '1428307094');
+INSERT INTO `lx_bonus` VALUES ('292', '481', '360.00', '36.00', '324.00', '1428307221');
+INSERT INTO `lx_bonus` VALUES ('467', '579', '180.00', '18.00', '162.00', '1428327291');
+INSERT INTO `lx_bonus` VALUES ('459', '467', '360.00', '36.00', '324.00', '1428376639');
+INSERT INTO `lx_bonus` VALUES ('477', '580', '180.00', '18.00', '162.00', '1428459078');
+INSERT INTO `lx_bonus` VALUES ('481', '581', '180.00', '18.00', '162.00', '1428461499');
+INSERT INTO `lx_bonus` VALUES ('353', '413', '360.00', '36.00', '324.00', '1428539211');
+INSERT INTO `lx_bonus` VALUES ('35', '353', '720.00', '72.00', '648.00', '1428540201');
+INSERT INTO `lx_bonus` VALUES ('40', '585', '180.00', '18.00', '162.00', '1428565973');
+INSERT INTO `lx_bonus` VALUES ('40', '584', '180.00', '18.00', '162.00', '1428565980');
+INSERT INTO `lx_bonus` VALUES ('40', '583', '180.00', '18.00', '162.00', '1428565987');
+INSERT INTO `lx_bonus` VALUES ('40', '589', '180.00', '18.00', '162.00', '1428566446');
+INSERT INTO `lx_bonus` VALUES ('580', '591', '180.00', '18.00', '162.00', '1428569653');
+INSERT INTO `lx_bonus` VALUES ('580', '586', '180.00', '18.00', '162.00', '1428569659');
+INSERT INTO `lx_bonus` VALUES ('580', '590', '180.00', '18.00', '162.00', '1428569665');
+INSERT INTO `lx_bonus` VALUES ('414', '580', '360.00', '36.00', '324.00', '1428589214');
+INSERT INTO `lx_bonus` VALUES ('382', '595', '180.00', '18.00', '162.00', '1428657130');
+INSERT INTO `lx_bonus` VALUES ('586', '594', '180.00', '18.00', '162.00', '1428676938');
+INSERT INTO `lx_bonus` VALUES ('586', '592', '180.00', '18.00', '162.00', '1428676949');
+INSERT INTO `lx_bonus` VALUES ('586', '593', '180.00', '18.00', '162.00', '1428676957');
+INSERT INTO `lx_bonus` VALUES ('382', '596', '180.00', '18.00', '162.00', '1428745782');
+INSERT INTO `lx_bonus` VALUES ('382', '597', '180.00', '18.00', '162.00', '1428745788');
 
 -- ----------------------------
 -- Table structure for `lx_cash`
@@ -81,11 +759,94 @@ CREATE TABLE `lx_cash` (
   `check_time` varchar(20) NOT NULL DEFAULT '0' COMMENT '审核时间',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注留言',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='提现记录表';
+) ENGINE=InnoDB AUTO_INCREMENT=84 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='提现记录表';
 
 -- ----------------------------
 -- Records of lx_cash
 -- ----------------------------
+INSERT INTO `lx_cash` VALUES ('1', '29', '宋培勤', '农村信用社', '623059100300571053', '巩义', '800.00', '40.00', '760.00', '3', '1425200392', '1425536996', '');
+INSERT INTO `lx_cash` VALUES ('2', '68', '韩三营', '中国农业银行', '6228480718676348573', '巩义小关支行', '200.00', '10.00', '190.00', '3', '1425524452', '1425537005', '');
+INSERT INTO `lx_cash` VALUES ('3', '49', '张俊廷', '农村信用社', '623059100300387674', '巩义小关支行', '400.00', '20.00', '380.00', '3', '1425526115', '1425537014', '');
+INSERT INTO `lx_cash` VALUES ('4', '30', '喻荣', '农村信用社', '623059100300688493', '河南巩义市', '700.00', '35.00', '665.00', '3', '1425529244', '1425537020', '');
+INSERT INTO `lx_cash` VALUES ('5', '40', '喻荣', '农村信用社', '623059100300688493', '河南巩义', '500.00', '25.00', '475.00', '3', '1425538238', '1425542941', '');
+INSERT INTO `lx_cash` VALUES ('6', '44', '马会转', '工商银行', '6222081702005162893', '河南巩义支行', '400.00', '20.00', '380.00', '3', '1425621946', '1425643927', '');
+INSERT INTO `lx_cash` VALUES ('7', '101', '徐小勇', '工商银行洛阳分行丽春西路支行', '6222021705012987346', '洛阳市涧西区丽春西路支行', '400.00', '20.00', '380.00', '3', '1425645741', '1425645838', '');
+INSERT INTO `lx_cash` VALUES ('8', '149', '张宝国', '农村信用社', '622991100300611977', '河南巩义支行', '200.00', '10.00', '190.00', '3', '1425694621', '1425703459', '');
+INSERT INTO `lx_cash` VALUES ('9', '44', '马会转', '工商银行', '6222081702005162893', '河南巩义支行', '300.00', '15.00', '285.00', '3', '1425711454', '1425884918', '');
+INSERT INTO `lx_cash` VALUES ('10', '29', '宋培勤', '农村信用社', '623059100300571053', '巩义', '5700.00', '285.00', '5415.00', '3', '1425718743', '1425884922', '');
+INSERT INTO `lx_cash` VALUES ('11', '100', '王留云', '中国农业银行', '6228482071657251210', '渑池分行', '200.00', '10.00', '190.00', '3', '1425872760', '1425873553', '');
+INSERT INTO `lx_cash` VALUES ('12', '41', '陈利敏', '农村信用社', '623059100300307367', '河南巩义支行', '400.00', '20.00', '380.00', '3', '1425878439', '1425884913', '');
+INSERT INTO `lx_cash` VALUES ('13', '92', '段保成', '中国建设银行', '6210812450000194070', '洛阳分行', '400.00', '20.00', '380.00', '3', '1425886644', '1425887147', '');
+INSERT INTO `lx_cash` VALUES ('14', '203', '韩天宏', '中国工商银行', '6222081705000518670', '洛阳分行', '500.00', '25.00', '475.00', '3', '1426209194', '1426233354', '');
+INSERT INTO `lx_cash` VALUES ('15', '36', '李林华', '农行', '6228483478326759177', '赣州支行', '200.00', '10.00', '190.00', '3', '1426497737', '1426601903', '');
+INSERT INTO `lx_cash` VALUES ('16', '259', '陈小红', '中国农业银行', '6228483478028726672', '农业银行赣州分行', '700.00', '35.00', '665.00', '3', '1426586482', '1426638284', '');
+INSERT INTO `lx_cash` VALUES ('17', '36', '李林华', '中国农业银行', '6228483478326759177', '江西省赣州支行', '400.00', '20.00', '380.00', '2', '1426586768', '1426637457', '');
+INSERT INTO `lx_cash` VALUES ('18', '36', '李林华', '中国农业银行', '6228483478326759177', '江西省赣州支行', '400.00', '20.00', '380.00', '3', '1426638691', '1426639391', '');
+INSERT INTO `lx_cash` VALUES ('19', '273', '邱华英', '中国农业银行', '6228483471339347015', '江西省赣州市文清路支行', '200.00', '10.00', '190.00', '3', '1426685080', '1426745263', '');
+INSERT INTO `lx_cash` VALUES ('20', '259', '陈小红', '中国农业银行', '6228483478028726672', '农业银行赣州分行', '1000.00', '50.00', '950.00', '3', '1426685259', '1426745279', '');
+INSERT INTO `lx_cash` VALUES ('21', '35', '谢莲香', '中国农业银行', '6228483470644977318', '赣州市兴国农业支行', '300.00', '15.00', '285.00', '3', '1426688219', '1426745325', '');
+INSERT INTO `lx_cash` VALUES ('22', '36', '李林华', '中国农业银行', '6228483478326759177', '江西省赣州支行', '600.00', '30.00', '570.00', '3', '1426730414', '1426745308', '');
+INSERT INTO `lx_cash` VALUES ('23', '262', '邹地长', '中国农业银行', '6228483478382259278', '江西省赣州分行章贡支行', '400.00', '20.00', '380.00', '3', '1426761585', '1426936064', '');
+INSERT INTO `lx_cash` VALUES ('24', '85', '谢祯勇', '农业银行', '6228483478396148772', '江西省赣州市时代广场', '400.00', '20.00', '380.00', '3', '1426774692', '1426936094', '');
+INSERT INTO `lx_cash` VALUES ('25', '273', '邱华英', '中国农业银行', '6228483471339347015', '江西省赣州市文清路支行', '200.00', '10.00', '190.00', '3', '1426853389', '1426936131', '');
+INSERT INTO `lx_cash` VALUES ('26', '36', '李林华', '中国农业银行', '6228483478326759177', '江西省赣州支行', '300.00', '15.00', '285.00', '3', '1426858942', '1426936228', '');
+INSERT INTO `lx_cash` VALUES ('27', '84', '李坤', '农业银行', '6228483478292006470', '赣州支行', '400.00', '20.00', '380.00', '3', '1426860964', '1426936200', '');
+INSERT INTO `lx_cash` VALUES ('28', '261', '鄢俊明', '中国农业银行', '6228483478186160672', '中国农业银行赣州支行', '600.00', '30.00', '570.00', '2', '1426989121', '1427057678', '');
+INSERT INTO `lx_cash` VALUES ('29', '272', '杨青华', '中国农业银行', '6228483478431492573', '江西省赣州市于都支行', '300.00', '15.00', '285.00', '2', '1426989799', '1427057957', '');
+INSERT INTO `lx_cash` VALUES ('30', '315', '董静', '中国农业银行', '6228483478326907073', '赣州支行', '400.00', '20.00', '380.00', '3', '1427177230', '1427197358', '');
+INSERT INTO `lx_cash` VALUES ('31', '309', '李燕英', '中国农业银行', '6228483471113601611', '江西赣州支行', '600.00', '30.00', '570.00', '3', '1427243809', '1427257543', '');
+INSERT INTO `lx_cash` VALUES ('32', '84', '李坤', '农业银行', '6228483471103286415', '赣州支行', '200.00', '10.00', '190.00', '3', '1427246282', '1427261066', '');
+INSERT INTO `lx_cash` VALUES ('33', '262', '邹地长', '中国农业银行', '6228483478382259278', '江西省赣州分行章贡支行', '200.00', '10.00', '190.00', '3', '1427281867', '1427286838', '');
+INSERT INTO `lx_cash` VALUES ('34', '273', '邱华英', '中国农业银行', '6228483471339347015', '江西省赣州市文清路支行', '200.00', '10.00', '190.00', '3', '1427284315', '1427286844', '');
+INSERT INTO `lx_cash` VALUES ('35', '43', '刘淑叶', '农村信用社', '623059100300425797', '巩义', '400.00', '20.00', '380.00', '2', '1427333715', '1427508151', '');
+INSERT INTO `lx_cash` VALUES ('36', '40', '喻荣', '农村信用社', '623059100300688493', '河南巩义支行', '500.00', '25.00', '475.00', '2', '1427339099', '1427508156', '');
+INSERT INTO `lx_cash` VALUES ('37', '262', '邹地长', '中国农业银行', '6228483478382259278', '江西省赣州分行章贡支行', '300.00', '15.00', '285.00', '3', '1427342452', '1427343160', '');
+INSERT INTO `lx_cash` VALUES ('38', '292', '庄国华', '农业银行', '6228483476098204166', '赣州崇义县支行阳岭分理处', '400.00', '20.00', '380.00', '3', '1427363097', '1427416742', '');
+INSERT INTO `lx_cash` VALUES ('39', '272', '杨青华', '农行', '6228483478431492573', '于都', '300.00', '15.00', '285.00', '3', '1427416275', '1427416851', '');
+INSERT INTO `lx_cash` VALUES ('40', '350', '肖军', '中国农业银行', '6228453470017722610', '江西赣州市赣州营业部', '400.00', '20.00', '380.00', '3', '1427422829', '1427449683', '');
+INSERT INTO `lx_cash` VALUES ('41', '315', '董静', '中国农业银行', '6228483478326907073', '赣州支行', '300.00', '15.00', '285.00', '3', '1427425058', '1427449764', '');
+INSERT INTO `lx_cash` VALUES ('42', '309', '李燕英', '中国农业银行', '6228483471113601611', '江西赣州支行', '300.00', '15.00', '285.00', '3', '1427449712', '1427450165', '');
+INSERT INTO `lx_cash` VALUES ('43', '361', '孙现坡', '中国农业银行', '6228480738152776071', '洛阳老城青年宫支行', '200.00', '10.00', '190.00', '3', '1427469414', '1427497896', '');
+INSERT INTO `lx_cash` VALUES ('44', '73', '王长莉', '中国工商银行', '6222021705001616534', '洛阳支行', '800.00', '40.00', '760.00', '3', '1427602500', '1427602596', '');
+INSERT INTO `lx_cash` VALUES ('45', '243', '陈玉梅', '中国农业银行', '622848073213631051', 'ly', '400.00', '20.00', '380.00', '2', '1427623914', '1427777188', '');
+INSERT INTO `lx_cash` VALUES ('46', '315', '董静', '中国农业银行', '6228483478326907073', '赣州支行', '300.00', '15.00', '285.00', '3', '1427681373', '1427682951', '');
+INSERT INTO `lx_cash` VALUES ('47', '292', '庄国华', '农业银行', '6228483476098204166', '赣州崇义县支行阳岭分理处', '600.00', '30.00', '570.00', '3', '1427686442', '1427696967', '');
+INSERT INTO `lx_cash` VALUES ('48', '377', '廖声才', '农业银行', '6228482311474403317', '江西省吉安市永丰支行', '200.00', '10.00', '190.00', '3', '1427698065', '1427699680', '');
+INSERT INTO `lx_cash` VALUES ('49', '92', '段保成', '中国农业银行', '6228480732036480414', '洛阳支行', '400.00', '20.00', '380.00', '3', '1427711083', '1427775408', '');
+INSERT INTO `lx_cash` VALUES ('50', '84', '李坤', '农业银行', '6228483471103286415', '赣州支行', '300.00', '15.00', '285.00', '3', '1427714144', '1427774552', '');
+INSERT INTO `lx_cash` VALUES ('51', '35', '谢莲香', '中国农业银行', '6228483470644977318', '赣州市兴国农业支行', '700.00', '35.00', '665.00', '3', '1427714238', '1427774175', '');
+INSERT INTO `lx_cash` VALUES ('52', '451', '谢军英', '农业银行', '6228483478245174979', '江西赣州大余支行', '400.00', '20.00', '380.00', '3', '1427760217', '1427775271', '');
+INSERT INTO `lx_cash` VALUES ('53', '290', '杨旗峰', '中国农业银行', '6228480738558032574', '洛阳支行', '400.00', '20.00', '380.00', '3', '1427769592', '1427770066', '');
+INSERT INTO `lx_cash` VALUES ('54', '243', '陈玉梅', '中国农业银行', '6228480732136310511', '洛阳支行', '400.00', '20.00', '380.00', '3', '1427777229', '1427778236', '');
+INSERT INTO `lx_cash` VALUES ('55', '40', '喻荣', '农村信用社', '623059100300688493', '河南巩义支行', '500.00', '25.00', '475.00', '3', '1427784509', '1427848520', '');
+INSERT INTO `lx_cash` VALUES ('56', '43', '刘淑叶', '农村信用社', '623059100300425797', '巩义', '400.00', '20.00', '380.00', '3', '1427784664', '1427848296', '');
+INSERT INTO `lx_cash` VALUES ('57', '35', '谢莲香', '中国农业银行', '6228483470644977318', '赣州市兴国农业支行', '1300.00', '65.00', '1235.00', '3', '1427804318', '1427847657', '');
+INSERT INTO `lx_cash` VALUES ('58', '85', '谢祯勇', '农业银行', '6228483478396148772', '江西省赣州市时代广场', '300.00', '15.00', '285.00', '3', '1427804498', '1427847751', '');
+INSERT INTO `lx_cash` VALUES ('59', '381', '廖明华', '农业铱行', '9559982311274462315', '吉安市永丰县支行', '200.00', '10.00', '190.00', '2', '1427810862', '1427946336', '');
+INSERT INTO `lx_cash` VALUES ('60', '30', '喻荣', '农村信用社', '623059100300688493', '河南巩义支行', '500.00', '25.00', '475.00', '3', '1427876401', '1427935752', '');
+INSERT INTO `lx_cash` VALUES ('61', '324', '刘锡洋', '中国农业银行', '6228483470345703419', '赣州支行', '400.00', '20.00', '380.00', '3', '1427896798', '1427936358', '');
+INSERT INTO `lx_cash` VALUES ('62', '36', '李林华', '中国农业银行', '6228483478326759177', '江西省赣州支行', '500.00', '25.00', '475.00', '3', '1427933179', '1427939528', '');
+INSERT INTO `lx_cash` VALUES ('63', '29', '宋培勤', '农村信用社', '623059100300571053', '郑州市巩义', '200.00', '10.00', '190.00', '3', '1427937700', '1427940035', '');
+INSERT INTO `lx_cash` VALUES ('64', '324', '刘锡洋', '中国农业银行', '6228483470345703419', '赣州支行', '300.00', '15.00', '285.00', '3', '1427939834', '1427940652', '');
+INSERT INTO `lx_cash` VALUES ('65', '309', '李燕英', '中国农业银行', '6228483471113601611', '赣州支行', '300.00', '15.00', '285.00', '3', '1427943796', '1427946328', '');
+INSERT INTO `lx_cash` VALUES ('66', '347', '庄萍', '农业银行', '6228483478065335379', '赣州南京路支行', '700.00', '35.00', '665.00', '3', '1427958827', '1427959998', '');
+INSERT INTO `lx_cash` VALUES ('67', '84', '李坤', '农业银行', '6228483471103286415', '赣州支行', '300.00', '15.00', '285.00', '3', '1427961658', '1427963273', '');
+INSERT INTO `lx_cash` VALUES ('68', '93', '王文进', '中国农业银行', '6228483470686163314', '中国农业银行兴国支行', '1600.00', '80.00', '1520.00', '3', '1427970931', '1428021871', '');
+INSERT INTO `lx_cash` VALUES ('69', '255', '罗菊兰', '农行赣州支行', '6228483478209067870', '农行赣州支行', '1200.00', '60.00', '1140.00', '3', '1427972250', '1428021950', '');
+INSERT INTO `lx_cash` VALUES ('70', '450', '饶开生', '农业银行', '6228483471137110110', '江西赣州大余支行', '400.00', '20.00', '380.00', '3', '1427975412', '1428022014', '');
+INSERT INTO `lx_cash` VALUES ('71', '455', '黄祖兰', '中国农业银业', '6228483478185828477', '江西赣州大余', '200.00', '10.00', '190.00', '3', '1427975501', '1428022070', '');
+INSERT INTO `lx_cash` VALUES ('72', '522', '康小英', '中国农业银行', '6228483478069030679', '赣州市赣州支行', '600.00', '30.00', '570.00', '3', '1427976930', '1428022138', '');
+INSERT INTO `lx_cash` VALUES ('73', '350', '肖军', '中国农业银行', '6228453470017722610', '江西赣州支行赣州营业部', '300.00', '15.00', '285.00', '3', '1428135567', '1428367941', '');
+INSERT INTO `lx_cash` VALUES ('74', '522', '康小英', '中国农业银行', '6228483478069030679', '赣州市赣州支行', '300.00', '15.00', '285.00', '3', '1428141078', '1428368123', '');
+INSERT INTO `lx_cash` VALUES ('75', '261', '鄢俊明', '中国农业银行', '6228483478186160672', '中国农业银行赣州支行', '200.00', '10.00', '190.00', '3', '1428378182', '1428395354', '');
+INSERT INTO `lx_cash` VALUES ('76', '459', '魏学裘', '中国农业银行', '6228483471211860119', '江西大余支行', '400.00', '20.00', '380.00', '3', '1428461050', '1428478263', '');
+INSERT INTO `lx_cash` VALUES ('77', '211', '曾维富', '农业银行', '6228483478430941372', '赣州农业银行贸易广场支行', '400.00', '20.00', '380.00', '3', '1428475484', '1428480836', '');
+INSERT INTO `lx_cash` VALUES ('78', '413', '李茂芳', '中国农业银行', '6228483471082602517', '赣州支行', '400.00', '20.00', '380.00', '3', '1428539245', '1428555079', '');
+INSERT INTO `lx_cash` VALUES ('79', '40', '喻荣', '农村信用社', '623059100300688493', '河南巩义支行', '700.00', '35.00', '665.00', '3', '1428566733', '1428567247', '');
+INSERT INTO `lx_cash` VALUES ('80', '414', '钟贵秀', '中国农业银行', '6228483478432839475', '赣州信丰分行', '1100.00', '55.00', '1045.00', '3', '1428649378', '1428651585', '');
+INSERT INTO `lx_cash` VALUES ('81', '254', '熊家庆', '江西省农业银行', '6228483470874248513', '兴国支行', '400.00', '20.00', '380.00', '3', '1428659374', '1428678795', '');
+INSERT INTO `lx_cash` VALUES ('82', '35', '谢莲香', '中国农业银行', '6228483470644977318', '赣州市兴国农业支行', '600.00', '30.00', '570.00', '1', '1428805322', '0', '');
+INSERT INTO `lx_cash` VALUES ('83', '84', '李坤', '农业银行', '6228483471103286415', '赣州支行', '300.00', '15.00', '285.00', '1', '1428805568', '0', '');
 
 -- ----------------------------
 -- Table structure for `lx_config`
@@ -98,8 +859,8 @@ CREATE TABLE `lx_config` (
   `cfgval` text COMMENT '配置值',
   `remark` varchar(255) DEFAULT NULL COMMENT '配置说明',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `cfgname` (`name`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+  UNIQUE KEY `cfgname` (`name`) USING BTREE
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of lx_config
@@ -107,10 +868,10 @@ CREATE TABLE `lx_config` (
 INSERT INTO `lx_config` VALUES ('1', 'fees', '提现手续费', '5', '单位 %');
 INSERT INTO `lx_config` VALUES ('2', 'basepoints', '基础积分', '180', null);
 INSERT INTO `lx_config` VALUES ('3', 'maxlevel', '最高级别', '8', null);
-INSERT INTO `lx_config` VALUES ('4', 'realname', '开户姓名', '请在后台设置开户姓名', null);
-INSERT INTO `lx_config` VALUES ('5', 'bankname', '开户银行', '请在后台设置开户银行', null);
-INSERT INTO `lx_config` VALUES ('6', 'bankcard', '银行卡号', '请在后台设置银行卡号', null);
-INSERT INTO `lx_config` VALUES ('7', 'bankaddress', '开户地址', '请在后台设置开户地址', null);
+INSERT INTO `lx_config` VALUES ('4', 'realname', '开户姓名', '卢集联', null);
+INSERT INTO `lx_config` VALUES ('5', 'bankname', '开户银行', '中国农业银行', null);
+INSERT INTO `lx_config` VALUES ('6', 'bankcard', '银行卡号', '6228480732496502210', null);
+INSERT INTO `lx_config` VALUES ('7', 'bankaddress', '开户地址', '洛阳市新区支行', null);
 INSERT INTO `lx_config` VALUES ('8', 'payremark', '温馨提醒', '', '显示在注册页面和升级页面');
 INSERT INTO `lx_config` VALUES ('9', 'guanlifees', '管理费率', '10', '单位 %');
 INSERT INTO `lx_config` VALUES ('10', 'sysname', '系统名称', '3004民心工程●180微商大联盟', '公司名称');
@@ -134,11 +895,704 @@ CREATE TABLE `lx_levelup` (
   `type` tinyint(1) NOT NULL DEFAULT '1' COMMENT '升级类型 1-付款升级 2-积分升级',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注留言',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='升级记录';
+) ENGINE=InnoDB AUTO_INCREMENT=723 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='升级记录';
 
 -- ----------------------------
 -- Records of lx_levelup
 -- ----------------------------
+INSERT INTO `lx_levelup` VALUES ('26', '20', '1424162595', '0', '1', '180.00', '180.00', '2233', '8', '1424162628', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('27', '21', '1424183655', '0', '1', '180.00', '180.00', '65', '20', '1424183925', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('28', '22', '1424184746', '0', '1', '180.00', '180.00', '6', '21', '1424184783', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('29', '23', '1424185165', '0', '1', '180.00', '180.00', '3', '22', '1424185191', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('30', '24', '1424185554', '0', '1', '180.00', '180.00', '62', '23', '1424185583', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('31', '25', '1424186360', '0', '1', '180.00', '180.00', '8', '24', '1424186379', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('32', '26', '1424187158', '0', '1', '180.00', '180.00', '2', '25', '1424187184', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('33', '27', '1424223628', '0', '1', '180.00', '180.00', '10', '20', '1424223710', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('34', '28', '1424224260', '0', '1', '180.00', '180.00', '01', '27', '1424224311', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('35', '29', '1424226176', '0', '1', '180.00', '180.00', '09', '20', '1424226196', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('36', '30', '1424226448', '0', '1', '180.00', '180.00', '06', '29', '1424226471', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('37', '31', '1424229318', '0', '1', '180.00', '180.00', '78', '24', '1424229344', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('38', '32', '1424236575', '0', '1', '180.00', '0.00', null, '8', '1424236589', '3', '1', '此会员由管理员注册');
+INSERT INTO `lx_levelup` VALUES ('39', '33', '1424236910', '0', '1', '180.00', '180.00', '81', '32', '1424236967', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('40', '20', '1424351227', '1', '2', '360.00', '360.00', null, '7', '1424351227', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('41', '34', '1424353696', '0', '1', '180.00', '180.00', '05', '32', '1424353910', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('42', '35', '1424507818', '0', '1', '180.00', '180.00', '654', '20', '1424507912', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('43', '36', '1424758625', '0', '1', '180.00', '180.00', '14：16', '35', '1424758784', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('44', '37', '1424783032', '0', '1', '180.00', '180.00', '19.；00', '22', '1424783124', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('45', '38', '1424915724', '0', '1', '180.00', '180.00', '9', '29', '1424915980', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('46', '39', '1424915903', '0', '1', '180.00', '180.00', '6', '29', '1424915974', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('47', '29', '1424919766', '1', '2', '360.00', '360.00', null, '8', '1424919766', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('48', '40', '1424920336', '0', '1', '180.00', '180.00', '3', '30', '1424920719', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('49', '41', '1424920456', '0', '1', '180.00', '180.00', '5', '30', '1424920724', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('50', '42', '1424920653', '0', '1', '180.00', '180.00', '5', '30', '1424920712', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('51', '43', '1424921170', '0', '1', '180.00', '180.00', '2', '40', '1424921447', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('52', '44', '1424921293', '0', '1', '180.00', '180.00', '6', '40', '1424921452', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('53', '45', '1424921420', '0', '1', '180.00', '180.00', '2', '40', '1424921442', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('54', '30', '1424921619', '1', '2', '360.00', '360.00', null, '20', '1424921619', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('55', '40', '1424921689', '1', '2', '360.00', '360.00', null, '29', '1424921689', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('56', '46', '1424950366', '0', '1', '180.00', '180.00', '19；31', '35', '1424950418', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('57', '47', '1424951145', '0', '1', '180.00', '180.00', '19;50', '23', '1424951171', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('58', '48', '1425099927', '0', '1', '180.00', '180.00', '2015.02.28', '45', '1425104544', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('59', '49', '1425100039', '0', '1', '180.00', '180.00', '2015.2.28', '45', '1425104550', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('60', '50', '1425104437', '0', '1', '180.00', '180.00', '2015.14.19', '43', '1425104529', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('61', '51', '1425108993', '0', '1', '180.00', '180.00', '2015.2.28', '38', '1425109877', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('62', '52', '1425109080', '0', '1', '180.00', '180.00', '2015.2.28', '38', '1425109882', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('63', '53', '1425109147', '0', '1', '180.00', '180.00', '2015.2.28', '38', '1425109888', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('64', '54', '1425109758', '0', '1', '180.00', '180.00', '2015.2.28', '44', '1425109893', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('65', '38', '1425109947', '1', '2', '360.00', '360.00', null, '20', '1425109947', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('66', '55', '1425110078', '0', '1', '180.00', '180.00', '2015.2.28', '51', '1425110312', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('67', '56', '1425110161', '0', '1', '180.00', '180.00', '2015.2.28', '51', '1425110304', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('68', '57', '1425110271', '0', '1', '180.00', '180.00', '2015.2.28', '51', '1425110299', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('69', '51', '1425110481', '1', '2', '360.00', '360.00', null, '29', '1425110481', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('70', '58', '1425110590', '0', '1', '180.00', '180.00', '2015.2.28', '52', '1425110759', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('71', '59', '1425110742', '0', '1', '180.00', '180.00', '2015.2.28', '52', '1425110763', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('72', '60', '1425111518', '0', '1', '180.00', '180.00', '2015.2.28', '53', '1425111607', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('73', '61', '1425111588', '0', '1', '180.00', '180.00', '2015.2.28', '53', '1425111602', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('74', '62', '1425111924', '0', '1', '180.00', '180.00', '2015.2.28', '58', '1425111932', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('75', '29', '1425113042', '2', '3', '720.00', '720.00', null, '7', '1425113042', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('76', '63', '1425113496', '0', '1', '180.00', '180.00', '1', '41', '1425114431', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('77', '64', '1425114097', '0', '1', '180.00', '180.00', '2', '42', '1425114436', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('78', '65', '1425114947', '0', '1', '180.00', '180.00', '1', '41', '1425115468', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('79', '66', '1425115354', '0', '1', '180.00', '180.00', '2', '39', '1425115473', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('80', '20', '1425171631', '2', '3', '720.00', '720.00', null, '6', '1425171631', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('81', '67', '1425187025', '0', '1', '180.00', '180.00', '2', '53', '1425193714', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('82', '68', '1425192748', '0', '1', '180.00', '180.00', '1', '49', '1425193707', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('83', '69', '1425192836', '0', '1', '180.00', '180.00', '1', '49', '1425193724', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('84', '70', '1425193913', '0', '1', '180.00', '180.00', '1', '68', '1425194446', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('85', '71', '1425193971', '0', '1', '180.00', '180.00', '1', '68', '1425194451', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('86', '53', '1425194662', '1', '2', '360.00', '360.00', null, '29', '1425194662', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('87', '72', '1425195272', '0', '1', '180.00', '180.00', '1', '29', '1425196688', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('88', '73', '1425196573', '0', '1', '180.00', '180.00', '15.58', '33', '1425196707', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('89', '74', '1425197085', '0', '1', '180.00', '180.00', '1', '52', '1425197318', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('90', '75', '1425197260', '0', '1', '180.00', '180.00', '16.10', '73', '1425197313', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('91', '76', '1425197814', '0', '1', '180.00', '180.00', '16.19', '37', '1425198027', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('92', '77', '1425197996', '0', '1', '180.00', '180.00', '16.22', '37', '1425198037', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('93', '52', '1425199112', '1', '2', '360.00', '360.00', null, '29', '1425199112', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('94', '78', '1425210447', '0', '1', '180.00', '180.00', '19.49', '73', '1425210826', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('95', '79', '1425210768', '0', '1', '180.00', '180.00', '19.54', '75', '1425210830', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('96', '80', '1425222185', '0', '1', '180.00', '180.00', '23.1', '73', '1425222452', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('97', '73', '1425222840', '1', '2', '360.00', '360.00', null, '8', '1425222840', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('98', '81', '1425267188', '0', '1', '180.00', '180.00', '1', '70', '1425269169', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('99', '82', '1425268336', '0', '1', '180.00', '180.00', '1', '43', '1425269180', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('100', '83', '1425268437', '0', '1', '180.00', '180.00', '1', '43', '1425269192', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('101', '43', '1425272135', '1', '2', '360.00', '360.00', null, '30', '1425272135', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('102', '84', '1425276040', '0', '1', '180.00', '180.00', '13，58', '35', '1425276198', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('103', '85', '1425278997', '0', '1', '180.00', '180.00', '14；35', '84', '1425279049', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('104', '35', '1425279105', '1', '2', '360.00', '360.00', null, '20', '1425279105', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('105', '86', '1425279391', '0', '1', '180.00', '180.00', '14；56', '36', '1425279412', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('106', '87', '1425289092', '0', '1', '180.00', '180.00', '17.40', '75', '1425289331', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('107', '88', '1425290645', '0', '1', '180.00', '180.00', '18.06', '80', '1425290698', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('108', '89', '1425290648', '0', '1', '180.00', '180.00', '1', '65', '1425290731', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('109', '90', '1425290836', '0', '1', '180.00', '180.00', '1', '29', '1425291015', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('110', '91', '1425306448', '0', '1', '180.00', '180.00', '22.29', '88', '1425306528', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('111', '92', '1425353023', '0', '1', '180.00', '180.00', '11.35', '80', '1425354082', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('112', '93', '1425369739', '0', '1', '180.00', '180.00', '16；01', '84', '1425369791', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('113', '94', '1425379076', '0', '1', '180.00', '180.00', '18；37', '33', '1425379254', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('114', '95', '1425379194', '0', '1', '180.00', '180.00', '18；50', '33', '1425379283', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('115', '33', '1425379342', '1', '2', '360.00', '360.00', null, '8', '1425379342', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('116', '96', '1425381087', '0', '1', '180.00', '180.00', '17；10', '27', '1425381100', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('117', '97', '1425385061', '0', '1', '180.00', '180.00', '20；06', '23', '1425385079', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('118', '98', '1425386722', '0', '1', '180.00', '180.00', '20；45', '24', '1425386737', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('119', '24', '1425386783', '1', '2', '360.00', '360.00', null, '20', '1425386783', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('120', '23', '1425387178', '1', '2', '360.00', '360.00', null, '20', '1425387178', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('121', '99', '1425391315', '0', '1', '180.00', '180.00', '22；01', '22', '1425391354', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('122', '22', '1425391426', '1', '2', '360.00', '360.00', null, '20', '1425391426', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('123', '100', '1425466428', '0', '1', '180.00', '180.00', '18.56', '92', '1425466628', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('124', '101', '1425467094', '0', '1', '180.00', '180.00', '19.07', '100', '1425468335', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('125', '102', '1425473684', '0', '1', '180.00', '180.00', '20.54', '37', '1425473784', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('126', '37', '1425473870', '1', '2', '360.00', '360.00', null, '20', '1425473870', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('127', '103', '1425519153', '0', '1', '180.00', '180.00', '1', '45', '1425519663', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('128', '104', '1425521768', '0', '1', '180.00', '180.00', '1', '103', '1425521817', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('129', '105', '1425521999', '0', '1', '180.00', '180.00', '10.22', '100', '1425522369', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('130', '106', '1425523871', '0', '1', '180.00', '180.00', '1', '68', '1425523972', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('131', '107', '1425524019', '0', '1', '180.00', '180.00', '1', '68', '1425524161', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('132', '68', '1425524266', '1', '2', '360.00', '360.00', null, '40', '1425524266', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('133', '20', '1425524698', '3', '4', '1440.00', '1440.00', null, '5', '1425524698', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('134', '108', '1425525100', '0', '1', '180.00', '180.00', '1', '49', '1425525283', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('135', '109', '1425525159', '0', '1', '180.00', '180.00', '1', '49', '1425525288', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('136', '110', '1425525385', '0', '1', '180.00', '180.00', '1', '49', '1425525430', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('137', '49', '1425525862', '1', '2', '360.00', '360.00', null, '40', '1425525862', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('138', '111', '1425526323', '0', '1', '180.00', '180.00', '1', '44', '1425526335', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('139', '112', '1425526931', '0', '1', '180.00', '180.00', '11.44', '92', '1425527081', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('140', '113', '1425527638', '0', '1', '180.00', '180.00', '1', '82', '1425527708', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('141', '114', '1425528199', '0', '1', '180.00', '180.00', '12.05', '92', '1425528840', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('142', '115', '1425528294', '0', '1', '180.00', '180.00', '1', '41', '1425528850', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('143', '45', '1425528774', '1', '2', '360.00', '360.00', null, '30', '1425528774', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('144', '92', '1425529247', '1', '2', '360.00', '360.00', null, '73', '1425529247', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('145', '41', '1425535704', '1', '2', '360.00', '360.00', null, '29', '1425535704', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('146', '116', '1425544150', '0', '1', '180.00', '180.00', '1', '63', '1425544236', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('147', '117', '1425544355', '0', '1', '180.00', '180.00', '1', '116', '1425545252', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('148', '118', '1425547595', '0', '1', '180.00', '180.00', '1', '43', '1425603713', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('149', '119', '1425547652', '0', '1', '180.00', '180.00', '1', '43', '1425558410', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('150', '120', '1425560916', '0', '1', '180.00', '180.00', '21.08', '112', '1425561393', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('151', '121', '1425562204', '0', '1', '180.00', '180.00', '21.32', '120', '1425562439', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('152', '122', '1425568288', '0', '1', '180.00', '180.00', '23；02', '76', '1425569542', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('153', '123', '1425568441', '0', '1', '180.00', '180.00', '23；07', '76', '1425569549', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('154', '124', '1425568716', '0', '1', '180.00', '180.00', '23；15', '77', '1425569555', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('155', '125', '1425568849', '0', '1', '180.00', '180.00', '23；20', '77', '1425569563', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('156', '126', '1425568959', '0', '1', '180.00', '180.00', '23；22', '77', '1425569570', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('157', '127', '1425569193', '0', '1', '180.00', '180.00', '23；26', '102', '1425569576', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('158', '128', '1425569326', '0', '1', '180.00', '180.00', '23；30', '102', '1425569581', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('159', '129', '1425569462', '0', '1', '180.00', '180.00', '23；32', '102', '1425569587', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('160', '77', '1425569878', '1', '2', '360.00', '360.00', null, '22', '1425569878', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('161', '102', '1425569939', '1', '2', '360.00', '360.00', null, '22', '1425569939', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('162', '22', '1425570073', '2', '3', '720.00', '720.00', null, '8', '1425570073', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('163', '130', '1425571367', '0', '1', '180.00', '180.00', '23；', '94', '1425571385', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('164', '131', '1425606665', '0', '1', '180.00', '180.00', '9.46', '121', '1425606729', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('165', '132', '1425609732', '0', '1', '180.00', '180.00', '1', '29', '1425610008', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('166', '133', '1425609782', '0', '1', '180.00', '180.00', '1', '29', '1425610013', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('167', '134', '1425609855', '0', '1', '180.00', '180.00', '1', '29', '1425610018', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('168', '135', '1425609977', '0', '1', '180.00', '180.00', '1', '29', '1425610023', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('169', '136', '1425610044', '0', '1', '180.00', '180.00', '1', '29', '1425610488', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('170', '137', '1425610197', '0', '1', '180.00', '180.00', '1', '29', '1425610494', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('171', '138', '1425610262', '0', '1', '180.00', '180.00', '1', '29', '1425610498', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('172', '139', '1425610359', '0', '1', '180.00', '180.00', '1', '29', '1425610503', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('173', '140', '1425610518', '0', '1', '180.00', '180.00', '1', '29', '1425610909', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('174', '141', '1425610588', '0', '1', '180.00', '180.00', '1', '29', '1425610914', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('175', '142', '1425610635', '0', '1', '180.00', '180.00', '1', '29', '1425610919', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('176', '143', '1425610687', '0', '1', '180.00', '180.00', '1', '29', '1425610923', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('177', '144', '1425610734', '0', '1', '180.00', '180.00', '1', '29', '1425610928', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('178', '145', '1425610778', '0', '1', '180.00', '180.00', '1', '29', '1425610934', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('179', '146', '1425620947', '0', '1', '180.00', '180.00', '1', '49', '1425621161', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('180', '147', '1425621332', '0', '1', '180.00', '180.00', '1', '146', '1425621479', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('181', '148', '1425621725', '0', '1', '180.00', '180.00', '1', '44', '1425621868', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('182', '149', '1425622823', '0', '1', '180.00', '180.00', '14.20', '44', '1425623803', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('183', '150', '1425624175', '0', '1', '180.00', '180.00', '14.45', '80', '1425624245', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('184', '80', '1425624425', '1', '2', '360.00', '360.00', null, '33', '1425624425', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('185', '151', '1425625241', '0', '1', '180.00', '180.00', '15.00', '44', '1425625304', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('186', '152', '1425625739', '0', '1', '180.00', '180.00', '15.07', '149', '1425627334', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('187', '153', '1425626188', '0', '1', '180.00', '180.00', '15.15', '149', '1425627363', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('188', '154', '1425626499', '0', '1', '180.00', '180.00', '15.20', '149', '1425627376', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('189', '44', '1425626742', '1', '2', '360.00', '360.00', null, '30', '1425626742', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('190', '155', '1425628001', '0', '1', '180.00', '180.00', '15.45', '111', '1425628995', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('191', '156', '1425628452', '0', '1', '180.00', '180.00', '15.48', '111', '1425629034', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('192', '157', '1425629622', '0', '1', '180.00', '180.00', '16.00', '111', '1425630184', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('193', '111', '1425630289', '1', '2', '360.00', '360.00', null, '40', '1425630289', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('194', '158', '1425630917', '0', '1', '180.00', '180.00', '16.30', '149', '1425632079', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('195', '149', '1425630957', '1', '2', '360.00', '360.00', null, '44', '1425630957', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('196', '159', '1425634326', '0', '1', '180.00', '180.00', '17.30', '29', '1425637343', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('197', '160', '1425635269', '0', '1', '180.00', '180.00', '17.45', '41', '1425637349', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('198', '161', '1425636512', '0', '1', '180.00', '180.00', '18.08', '75', '1425637355', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('199', '162', '1425637717', '0', '1', '180.00', '180.00', '18.30', '30', '1425637779', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('200', '163', '1425638435', '0', '1', '180.00', '180.00', '18.43', '73', '1425638847', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('201', '164', '1425639374', '0', '1', '180.00', '180.00', '18.56', '76', '1425639388', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('202', '76', '1425639415', '1', '2', '360.00', '360.00', null, '22', '1425639415', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('203', '165', '1425641950', '0', '1', '180.00', '180.00', '19.38', '73', '1425642155', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('204', '166', '1425643121', '0', '1', '180.00', '180.00', '20.01', '101', '1425643434', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('205', '167', '1425643990', '0', '1', '180.00', '180.00', '20.15', '101', '1425644216', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('206', '168', '1425644317', '0', '1', '180.00', '180.00', '20.21', '101', '1425644424', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('207', '169', '1425647387', '0', '1', '180.00', '180.00', '21.12', '100', '1425647725', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('208', '75', '1425648145', '1', '2', '360.00', '360.00', null, '33', '1425648145', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('209', '170', '1425698748', '0', '1', '180.00', '180.00', '1', '41', '1425703383', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('210', '171', '1425700989', '0', '1', '180.00', '180.00', '1', '30', '1425703393', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('211', '172', '1425713735', '0', '1', '180.00', '180.00', '1', '29', '1425715839', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('212', '173', '1425713797', '0', '1', '180.00', '180.00', '1', '29', '1425715814', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('213', '174', '1425713843', '0', '1', '180.00', '180.00', '2', '29', '1425715803', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('214', '175', '1425713881', '0', '1', '180.00', '180.00', '1', '29', '1425715793', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('215', '176', '1425713927', '0', '1', '180.00', '180.00', '1', '29', '1425715782', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('216', '177', '1425714031', '0', '1', '180.00', '180.00', '1', '29', '1425715757', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('217', '178', '1425714276', '0', '1', '180.00', '180.00', '1', '29', '1425715739', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('218', '179', '1425714315', '0', '1', '180.00', '180.00', '1', '29', '1425715727', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('219', '180', '1425714353', '0', '1', '180.00', '180.00', '1', '29', '1425715714', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('220', '181', '1425714501', '0', '1', '180.00', '180.00', '1', '29', '1425715695', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('221', '182', '1425714538', '0', '1', '180.00', '180.00', '1', '29', '1425715684', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('222', '183', '1425714578', '0', '1', '180.00', '180.00', '1', '29', '1425715857', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('223', '184', '1425714614', '0', '1', '180.00', '180.00', '1', '29', '1425715878', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('224', '185', '1425714657', '0', '1', '180.00', '180.00', '1', '29', '1425715898', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('225', '186', '1425714699', '0', '1', '180.00', '180.00', '1', '29', '1425715915', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('226', '187', '1425714737', '0', '1', '180.00', '180.00', '1', '29', '1425715932', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('227', '188', '1425714781', '0', '1', '180.00', '180.00', '1', '29', '1425715956', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('228', '189', '1425714825', '0', '1', '180.00', '180.00', '1', '29', '1425715965', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('229', '190', '1425714954', '0', '1', '180.00', '180.00', '1', '29', '1425715983', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('230', '191', '1425714992', '0', '1', '180.00', '180.00', '1', '29', '1425716001', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('231', '192', '1425715030', '0', '1', '180.00', '180.00', '1', '29', '1425716038', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('232', '193', '1425715071', '0', '1', '180.00', '180.00', '1', '29', '1425716048', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('233', '194', '1425715107', '0', '1', '180.00', '180.00', '1', '29', '1425716058', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('234', '195', '1425715149', '0', '1', '180.00', '180.00', '1', '29', '1425716076', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('235', '196', '1425715186', '0', '1', '180.00', '180.00', '1', '29', '1425716095', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('236', '197', '1425715224', '0', '1', '180.00', '180.00', '1', '29', '1425715662', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('237', '100', '1425726566', '1', '2', '360.00', '360.00', null, '80', '1425726566', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('238', '198', '1425734632', '0', '1', '180.00', '180.00', '21；22', '84', '1425734709', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('239', '84', '1425734736', '1', '2', '360.00', '360.00', null, '22', '1425734736', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('240', '199', '1425791844', '0', '1', '180.00', '180.00', '13.10', '80', '1425793476', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('241', '200', '1425795743', '0', '1', '180.00', '180.00', '14.25', '80', '1425796378', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('242', '201', '1425797339', '0', '1', '180.00', '180.00', '12.50', '100', '1425797464', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('243', '202', '1425810715', '0', '1', '180.00', '180.00', '18.31', '94', '1425810749', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('244', '203', '1425815649', '0', '1', '180.00', '180.00', '19.56', '80', '1425815822', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('245', '204', '1425816823', '0', '1', '180.00', '180.00', '20.11', '203', '1425816955', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('246', '205', '1425824994', '0', '1', '180.00', '180.00', '22；28', '36', '1425825005', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('247', '206', '1425878233', '0', '1', '180.00', '180.00', '13.02', '92', '1425878510', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('248', '207', '1425885455', '0', '1', '180.00', '180.00', '15.20', '92', '1425885638', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('249', '208', '1425891543', '0', '1', '180.00', '180.00', '17.00', '203', '1425891811', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('250', '209', '1425898758', '0', '1', '180.00', '180.00', '19.02', '73', '1425898936', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('251', '210', '1425905359', '0', '1', '180.00', '180.00', '20；52', '93', '1425905959', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('252', '211', '1425905614', '0', '1', '180.00', '180.00', '20；56', '93', '1425905985', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('253', '212', '1425905923', '0', '1', '180.00', '180.00', '21；01', '93', '1425905990', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('254', '93', '1425913095', '1', '2', '360.00', '360.00', null, '35', '1425913095', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('255', '73', '1425980103', '2', '3', '720.00', '720.00', null, '8', '1425980104', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('256', '213', '1426043786', '0', '1', '180.00', '180.00', '11.16', '203', '1426044079', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('257', '203', '1426044473', '1', '2', '360.00', '360.00', null, '80', '1426044473', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('258', '214', '1426046098', '0', '1', '180.00', '180.00', '11.54', '203', '1426046216', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('259', '215', '1426080531', '0', '1', '180.00', '180.00', '21.31', '88', '1426080546', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('260', '216', '1426143975', '0', '1', '180.00', '180.00', '15.06', '203', '1426147001', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('261', '217', '1426146781', '0', '1', '180.00', '180.00', '13.55', '73', '1426147008', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('262', '218', '1426150057', '0', '1', '180.00', '180.00', '16.5', '80', '1426150256', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('263', '219', '1426161848', '0', '1', '180.00', '180.00', '20.07', '203', '1426162061', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('264', '220', '1426162221', '0', '1', '180.00', '180.00', '20.13', '203', '1426162338', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('265', '221', '1426162506', '0', '1', '180.00', '180.00', '20.18', '203', '1426163151', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('266', '222', '1426163005', '0', '1', '180.00', '180.00', '20.26', '203', '1426163166', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('267', '223', '1426163398', '0', '1', '180.00', '180.00', '20.32', '203', '1426163510', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('268', '203', '1426166285', '2', '3', '720.00', '720.00', null, '73', '1426166285', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('269', '224', '1426171406', '0', '1', '180.00', '180.00', '22；46', '46', '1426171435', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('270', '80', '1426205894', '2', '3', '720.00', '720.00', null, '8', '1426205895', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('271', '225', '1426242817', '0', '1', '180.00', '180.00', '18.35', '92', '1426243954', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('272', '226', '1426244539', '0', '1', '180.00', '180.00', '19.01', '92', '1426244805', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('273', '227', '1426335397', '0', '1', '180.00', '180.00', '20.16', '208', '1426335625', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('274', '228', '1426384964', '0', '1', '180.00', '180.00', '10:00', '93', '1426385091', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('275', '229', '1426386816', '0', '1', '180.00', '180.00', '10：31', '93', '1426386840', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('276', '230', '1426387583', '0', '1', '180.00', '180.00', '10:41', '93', '1426387638', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('277', '231', '1426388371', '0', '1', '180.00', '180.00', '10.57', '101', '1426388573', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('278', '232', '1426389102', '0', '1', '180.00', '180.00', '11.14', '231', '1426389202', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('279', '233', '1426389925', '0', '1', '180.00', '180.00', '11.28', '231', '1426390031', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('280', '234', '1426391947', '0', '1', '180.00', '180.00', '11；57', '93', '1426392007', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('281', '235', '1426392387', '0', '1', '180.00', '180.00', '12；03', '93', '1426392674', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('282', '236', '1426393018', '0', '1', '180.00', '180.00', '12；15', '93', '1426393063', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('283', '93', '1426393361', '2', '3', '720.00', '720.00', null, '22', '1426393361', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('284', '237', '1426393924', '0', '1', '180.00', '180.00', '12；29', '93', '1426394087', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('285', '238', '1426394521', '0', '1', '180.00', '180.00', '12；40', '93', '1426394640', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('286', '239', '1426398010', '0', '1', '180.00', '180.00', '13:39', '93', '1426398045', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('287', '240', '1426399452', '0', '1', '180.00', '180.00', '14.05', '231', '1426399506', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('288', '231', '1426399629', '1', '2', '360.00', '360.00', null, '100', '1426399629', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('289', '241', '1426406509', '0', '1', '180.00', '180.00', '16:01', '212', '1426411006', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('290', '242', '1426408429', '0', '1', '180.00', '180.00', '16:33', '211', '1426411095', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('291', '243', '1426410748', '0', '1', '180.00', '180.00', '17.15', '150', '1426411057', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('292', '244', '1426410807', '0', '1', '180.00', '180.00', '17.13', '213', '1426411024', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('293', '245', '1426418719', '0', '1', '180.00', '180.00', '2015 3·15 -19：23 ', '86', '1426418758', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('294', '246', '1426419493', '0', '1', '180.00', '180.00', '19.36', '225', '1426419537', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('295', '247', '1426420144', '0', '1', '180.00', '180.00', '19.49', '246', '1426420293', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('296', '248', '1426420632', '0', '1', '180.00', '180.00', '20.00', '246', '1426420743', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('297', '249', '1426421306', '0', '1', '180.00', '180.00', '20.11', '246', '1426421362', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('298', '250', '1426422549', '0', '1', '180.00', '180.00', '20；25', '229', '1426423071', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('299', '251', '1426423853', '0', '1', '180.00', '180.00', '20；50', '250', '1426424934', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('300', '252', '1426424597', '0', '1', '180.00', '180.00', '21；01', '229', '1426424972', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('301', '253', '1426424742', '0', '1', '180.00', '180.00', '21；05', '229', '1426424986', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('302', '229', '1426425376', '1', '2', '360.00', '360.00', null, '93', '1426425376', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('303', '254', '1426429972', '0', '1', '180.00', '180.00', '20:32', '211', '1426441698', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('304', '255', '1426472319', '0', '1', '180.00', '180.00', '2015_3_16_10:16', '36', '1426473892', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('305', '256', '1426474670', '0', '1', '180.00', '180.00', '11.00', '225', '1426474767', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('306', '257', '1426475832', '0', '1', '180.00', '180.00', '11.20', '233', '1426475935', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('307', '258', '1426476590', '0', '1', '180.00', '180.00', '11.32', '225', '1426476764', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('308', '259', '1426477256', '0', '1', '180.00', '180.00', '2015.3.16.。11:40', '36', '1426477784', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('309', '260', '1426477529', '0', '1', '180.00', '180.00', '11.48', '258', '1426477792', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('310', '225', '1426478069', '1', '2', '360.00', '360.00', null, '92', '1426478069', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('311', '261', '1426478549', '0', '1', '180.00', '180.00', '2015.3.16.。11:40', '259', '1426483410', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('312', '262', '1426478929', '0', '1', '180.00', '180.00', '2015.3.16.。11:40', '259', '1426483435', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('313', '263', '1426479797', '0', '1', '180.00', '180.00', '1', '113', '1426483443', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('314', '36', '1426480420', '1', '2', '360.00', '360.00', null, '22', '1426480420', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('316', '265', '1426483168', '0', '1', '180.00', '180.00', '13:20', '210', '1426483426', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('317', '266', '1426485090', '0', '1', '180.00', '180.00', '2015.3.16—13：51', '261', '1426485714', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('318', '267', '1426485484', '0', '1', '180.00', '180.00', '2015.3.16—13：57', '261', '1426485722', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('319', '268', '1426485653', '0', '1', '180.00', '180.00', '2015.3.16—13：57', '261', '1426485729', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('320', '269', '1426487014', '0', '1', '180.00', '180.00', '14.28', '257', '1426487122', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('321', '270', '1426487324', '0', '1', '180.00', '180.00', '2015.3.16-14：28', '261', '1426488822', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('322', '271', '1426488272', '0', '1', '180.00', '180.00', '2015.3.16-14：44', '259', '1426488862', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('323', '272', '1426488725', '0', '1', '180.00', '180.00', '2015.3.16-14：51', '259', '1426488872', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('324', '273', '1426489239', '0', '1', '180.00', '180.00', '2015.3.16-14：59', '259', '1426489417', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('325', '274', '1426491215', '0', '1', '180.00', '180.00', '14：44', '85', '1426495870', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('326', '275', '1426492983', '0', '1', '180.00', '180.00', '2016。3.16—16：02', '273', '1426495879', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('327', '276', '1426493868', '0', '1', '180.00', '180.00', '2016。3.16—16：17', '273', '1426495896', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('328', '277', '1426495242', '0', '1', '180.00', '180.00', '2015.3.16—16：40', '262', '1426495910', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('329', '278', '1426496949', '0', '1', '180.00', '180.00', '17.09', '243', '1426497209', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('330', '279', '1426497184', '0', '1', '180.00', '180.00', '2015.3.16.15：12', '272', '1426498742', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('331', '280', '1426499206', '0', '1', '180.00', '180.00', '17.48', '278', '1426499272', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('332', '281', '1426505420', '0', '1', '180.00', '180.00', '19.31', '243', '1426505507', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('333', '282', '1426506007', '0', '1', '180.00', '180.00', '19.40', '281', '1426506081', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('334', '283', '1426555859', '0', '1', '180.00', '180.00', '2015.3.17—9:30', '259', '1426561590', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('336', '285', '1426561297', '0', '1', '180.00', '180.00', '2015.3.17—11:00', '262', '1426561620', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('337', '286', '1426563507', '0', '1', '180.00', '180.00', '11.39', '243', '1426563712', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('338', '243', '1426563802', '1', '2', '360.00', '360.00', null, '80', '1426563802', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('339', '287', '1426564160', '0', '1', '180.00', '180.00', '11：41', '267', '1426565272', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('340', '288', '1426567881', '0', '1', '180.00', '180.00', '2015.3.17—12:50', '259', '1426569690', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('341', '289', '1426570656', '0', '1', '180.00', '180.00', '13.40', '278', '1426570760', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('342', '290', '1426571557', '0', '1', '180.00', '180.00', '13.55', '278', '1426571620', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('343', '291', '1426579219', '0', '1', '180.00', '180.00', '15.59', '208', '1426580094', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('344', '292', '1426583967', '0', '1', '180.00', '180.00', '17：:17', '85', '1426584419', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('345', '293', '1426584483', '0', '1', '180.00', '180.00', '17:17', '85', '1426585739', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('346', '294', '1426585685', '0', '1', '180.00', '180.00', '17：47', '233', '1426585748', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('347', '85', '1426585897', '1', '2', '360.00', '360.00', null, '35', '1426585897', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('348', '259', '1426586087', '1', '2', '360.00', '360.00', null, '36', '1426586088', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('349', '295', '1426586527', '0', '1', '180.00', '180.00', '17：56', '294', '1426586625', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('350', '296', '1426590250', '0', '1', '180.00', '180.00', '19：03', '92', '1426590288', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('351', '92', '1426590368', '2', '3', '720.00', '720.00', null, '8', '1426590368', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('352', '150', '1426591044', '1', '2', '360.00', '200.00', '18，0', '73', '1426591114', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('353', '297', '1426591338', '0', '1', '180.00', '180.00', '19:30', '254', '1426594864', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('354', '298', '1426593733', '0', '1', '180.00', '180.00', '20:01', '273', '1426594909', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('355', '299', '1426594387', '0', '1', '180.00', '180.00', '20:01', '262', '1426594927', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('356', '300', '1426594930', '0', '1', '180.00', '180.00', '20:01', '259', '1426595011', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('357', '301', '1426595314', '0', '1', '180.00', '180.00', '20:01', '283', '1426601628', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('358', '302', '1426600537', '0', '1', '180.00', '180.00', '21:55', '271', '1426601636', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('359', '303', '1426636368', '0', '1', '180.00', '180.00', '7:50', '254', '1426645005', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('360', '304', '1426637045', '0', '1', '180.00', '180.00', '8:05', '297', '1426644966', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('361', '305', '1426637392', '0', '1', '180.00', '180.00', '8:10', '297', '1426644940', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('362', '306', '1426643096', '0', '1', '180.00', '180.00', '2015.3.18—9：47', '255', '1426644906', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('363', '307', '1426643272', '0', '1', '180.00', '180.00', '2015，3,18—9:51', '255', '1426644833', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('364', '308', '1426644331', '0', '1', '180.00', '180.00', '2015,3,18,10:08', '36', '1426644728', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('365', '309', '1426644540', '0', '1', '180.00', '180.00', '2015,3,18,10:12', '36', '1426644700', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('366', '310', '1426645160', '0', '1', '180.00', '180.00', '2015,3,18,10:22', '255', '1426645453', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('367', '255', '1426645507', '1', '2', '360.00', '360.00', null, '35', '1426645507', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('368', '311', '1426645774', '0', '1', '180.00', '180.00', '10:28', '292', '1426645920', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('369', '312', '1426647404', '0', '1', '180.00', '180.00', '10；50', '287', '1426647519', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('370', '313', '1426649105', '0', '1', '180.00', '180.00', '10；50分', '285', '1426649348', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('371', '262', '1426649539', '1', '2', '360.00', '360.00', null, '255', '1426649539', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('372', '314', '1426651567', '0', '1', '180.00', '180.00', '12.03', '290', '1426651798', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('373', '278', '1426651922', '1', '2', '360.00', '360.00', null, '150', '1426651922', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('374', '315', '1426657852', '0', '1', '180.00', '180.00', '2015.03,18—13:50', '309', '1426665010', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('375', '273', '1426659332', '1', '2', '360.00', '360.00', null, '259', '1426659332', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('376', '316', '1426661649', '0', '1', '180.00', '180.00', '14:56', '298', '1426665242', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('377', '317', '1426662390', '0', '1', '180.00', '180.00', '14：57', '298', '1426665309', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('378', '318', '1426662708', '0', '1', '180.00', '180.00', '14:56', '298', '1426665331', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('379', '319', '1426663210', '0', '1', '180.00', '180.00', '14:56', '277', '1426665317', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('380', '320', '1426663277', '0', '1', '180.00', '180.00', '15.20', '292', '1426665299', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('381', '35', '1426666074', '2', '3', '720.00', '720.00', null, '20', '1426666074', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('382', '321', '1426668753', '0', '1', '180.00', '180.00', '15：05', '259', '1426670791', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('383', '322', '1426672610', '0', '1', '180.00', '180.00', '2015,3,18,17:59', '309', '1426672930', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('384', '323', '1426672733', '0', '1', '180.00', '180.00', '14:56', '321', '1426672939', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('385', '324', '1426672988', '0', '1', '180.00', '180.00', '2015,3,18,18:00', '309', '1426673239', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('386', '325', '1426673141', '0', '1', '180.00', '180.00', '14:56', '318', '1426673260', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('387', '309', '1426673394', '1', '2', '360.00', '360.00', null, '36', '1426673394', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('388', '298', '1426673585', '1', '2', '360.00', '360.00', null, '259', '1426673585', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('389', '326', '1426680514', '0', '1', '180.00', '180.00', '20:09', '273', '1426681107', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('390', '327', '1426683903', '0', '1', '180.00', '180.00', '19:05', '236', '1426684206', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('391', '328', '1426684292', '0', '1', '180.00', '180.00', '21:11', '272', '1426685527', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('392', '329', '1426688948', '0', '1', '180.00', '180.00', '22.32', '78', '1426689117', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('393', '330', '1426730514', '0', '1', '180.00', '180.00', '2015.3.19.', '311', '1426730547', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('394', '331', '1426730904', '0', '1', '180.00', '180.00', '2015.3.19', '311', '1426732196', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('395', '332', '1426731290', '0', '1', '180.00', '180.00', '2015.3.19', '311', '1426732206', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('396', '311', '1426734158', '1', '2', '360.00', '360.00', null, '85', '1426734158', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('397', '333', '1426736724', '0', '1', '180.00', '180.00', '2015.3.19', '332', '1426737438', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('398', '334', '1426753843', '0', '1', '180.00', '180.00', '17:06', '299', '1426755630', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('399', '335', '1426754754', '0', '1', '180.00', '180.00', '17:06', '299', '1426755653', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('400', '336', '1426754993', '0', '1', '180.00', '180.00', '17:06', '299', '1426755658', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('401', '337', '1426756123', '0', '1', '180.00', '180.00', '17:06', '334', '1426756289', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('402', '338', '1426758003', '0', '1', '180.00', '180.00', '17:06', '288', '1426758038', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('403', '299', '1426761424', '1', '2', '360.00', '360.00', null, '262', '1426761424', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('404', '339', '1426818877', '0', '1', '180.00', '180.00', '2015.3.20', '330', '1426822122', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('405', '340', '1426824886', '0', '1', '180.00', '180.00', '2015.3.20', '339', '1426825416', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('406', '341', '1426847758', '0', '1', '180.00', '180.00', '18：35', '32', '1426853400', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('407', '342', '1426849214', '0', '1', '180.00', '180.00', '19:01', '305', '1426854558', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('408', '343', '1426852377', '0', '1', '180.00', '180.00', '19：56', '273', '1426853050', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('409', '344', '1426852612', '0', '1', '180.00', '180.00', '2015,3,20—19:54', '309', '1426853924', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('410', '345', '1426853111', '0', '1', '180.00', '180.00', '2015,3，20—20:03', '309', '1426853912', '2', '1', null);
+INSERT INTO `lx_levelup` VALUES ('411', '346', '1426853457', '0', '1', '180.00', '180.00', '2015,3,20—20:08', '309', '1426853896', '2', '1', null);
+INSERT INTO `lx_levelup` VALUES ('412', '347', '1426854273', '0', '1', '180.00', '180.00', '20:22', '292', '1426854500', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('413', '348', '1426854851', '0', '1', '180.00', '180.00', '20:22', '347', '1426855347', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('414', '292', '1426855186', '1', '2', '360.00', '360.00', null, '84', '1426855186', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('415', '349', '1426856390', '0', '1', '180.00', '180.00', '20；56', '328', '1426856618', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('416', '350', '1426856416', '0', '1', '180.00', '180.00', '2015,3,20，20:58', '315', '1426856636', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('417', '351', '1426856822', '0', '1', '180.00', '180.00', '2015,3,20,21:05', '315', '1426856981', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('418', '352', '1426857282', '0', '1', '180.00', '180.00', '2015,3,20,21:12', '315', '1426857427', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('419', '353', '1426857898', '0', '1', '180.00', '180.00', '2015,3,20,21:22', '352', '1426858126', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('420', '354', '1426858277', '0', '1', '180.00', '180.00', '2015,3,20,21:29', '350', '1426858331', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('421', '315', '1426858439', '1', '2', '360.00', '360.00', null, '36', '1426858441', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('422', '32', '1426863289', '1', '2', '360.00', '360.00', null, '7', '1426863289', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('423', '355', '1426915016', '0', '1', '180.00', '180.00', '13:20', '254', '1427077022', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('424', '356', '1426929463', '0', '1', '180.00', '180.00', '17：16', '286', '1426929516', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('425', '357', '1426930547', '0', '1', '180.00', '180.00', '17:40', '305', '1427077030', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('426', '358', '1426936698', '0', '1', '180.00', '180.00', '19:15', '304', '1427077035', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('427', '359', '1426952429', '0', '1', '180.00', '180.00', '23.40', '269', '1426952506', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('428', '360', '1426990501', '0', '1', '180.00', '180.00', '2015.3.22', '330', '1426991876', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('429', '361', '1427002071', '0', '1', '180.00', '180.00', '13.27', '34', '1427002171', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('430', '362', '1427011919', '0', '1', '180.00', '180.00', '16:11', '242', '1427077041', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('431', '363', '1427015006', '0', '1', '180.00', '180.00', '2015,3,22,17:05', '350', '1427016928', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('432', '364', '1427015278', '0', '1', '180.00', '180.00', '2015,3，22，17:10', '350', '1427017035', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('433', '365', '1427017543', '0', '1', '180.00', '180.00', '2015.03.22.17.49', '364', '1427019339', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('434', '350', '1427018015', '1', '2', '360.00', '360.00', null, '309', '1427018015', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('435', '366', '1427018167', '0', '1', '180.00', '180.00', '17.55', '101', '1427018219', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('436', '101', '1427018288', '1', '2', '360.00', '360.00', null, '92', '1427018288', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('437', '367', '1427019462', '0', '1', '180.00', '180.00', '18.18', '366', '1427019484', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('438', '368', '1427020237', '0', '1', '180.00', '180.00', '18：29', '326', '1427020775', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('439', '369', '1427020568', '0', '1', '180.00', '180.00', '18.30', '366', '1427020735', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('440', '370', '1427021372', '0', '1', '180.00', '180.00', '18.18', '366', '1427021442', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('441', '366', '1427021611', '1', '2', '360.00', '360.00', null, '101', '1427021611', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('442', '371', '1427027579', '0', '1', '180.00', '180.00', '20:32', '275', '1427027651', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('443', '261', '1427057720', '1', '2', '360.00', '360.00', null, '255', '1427057720', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('444', '372', '1427099958', '0', '1', '180.00', '180.00', '2015.3.23.16.45', '350', '1427101455', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('445', '373', '1427102018', '0', '1', '180.00', '180.00', '2015.3.23.17.12', '364', '1427171796', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('446', '374', '1427102401', '0', '1', '180.00', '180.00', '2015.3.23.17.20', '364', '1427171801', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('447', '375', '1427103213', '0', '1', '180.00', '180.00', '2015.3.23', '372', '1427171806', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('448', '376', '1427103574', '0', '1', '180.00', '180.00', '2015.3.23', '363', '1427171817', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('449', '377', '1427103631', '0', '1', '180.00', '180.00', '2015.3.23', '330', '1427104243', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('450', '330', '1427105060', '1', '2', '360.00', '360.00', null, '292', '1427105060', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('451', '254', '1427110525', '1', '2', '360.00', '360.00', null, '93', '1427110525', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('452', '378', '1427120317', '0', '1', '180.00', '180.00', '2015 3 23  22:30', '315', '1427366637', '2', '1', null);
+INSERT INTO `lx_levelup` VALUES ('453', '379', '1427120805', '0', '1', '180.00', '180.00', '2015 3  23   22：30', '315', '1427366630', '2', '1', null);
+INSERT INTO `lx_levelup` VALUES ('454', '380', '1427161816', '0', '1', '180.00', '180.00', '2015.03.24', '377', '1427165475', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('455', '381', '1427162045', '0', '1', '180.00', '180.00', '2015.03.24', '377', '1427165505', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('456', '382', '1427162425', '0', '1', '180.00', '180.00', '20150.24', '377', '1427165486', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('457', '383', '1427163232', '0', '1', '180.00', '180.00', '2015-03-24', '339', '1427165513', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('458', '377', '1427166103', '1', '2', '360.00', '360.00', null, '311', '1427166103', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('459', '364', '1427173923', '1', '2', '360.00', '360.00', null, '315', '1427173923', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('460', '384', '1427182875', '0', '1', '180.00', '180.00', '2015.3.24', '372', '1427210282', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('461', '385', '1427183013', '0', '1', '180.00', '180.00', '16：30', '277', '1427195417', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('462', '386', '1427184021', '0', '1', '180.00', '180.00', '2015.3.24', '373', '1427210272', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('463', '387', '1427189083', '0', '1', '180.00', '180.00', '17:22', '84', '1427195425', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('464', '388', '1427194161', '0', '1', '180.00', '180.00', '18；49', '361', '1427194196', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('465', '389', '1427197021', '0', '1', '180.00', '180.00', '8.0', '290', '1427197117', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('466', '390', '1427197436', '0', '1', '180.00', '180.00', '8.0', '290', '1427197473', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('467', '290', '1427197505', '1', '2', '360.00', '360.00', null, '243', '1427197507', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('468', '391', '1427197822', '0', '1', '180.00', '180.00', '8.0', '389', '1427197838', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('469', '392', '1427198170', '0', '1', '180.00', '180.00', '8.0', '391', '1427198218', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('470', '393', '1427198555', '0', '1', '180.00', '180.00', '8.0', '392', '1427198565', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('471', '394', '1427199030', '0', '1', '180.00', '180.00', '8.0', '392', '1427199086', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('472', '395', '1427199504', '0', '1', '180.00', '180.00', '8.0', '392', '1427199558', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('473', '392', '1427199580', '1', '2', '360.00', '360.00', null, '290', '1427199580', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('474', '396', '1427199858', '0', '1', '180.00', '180.00', '8.0', '393', '1427199879', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('475', '397', '1427252568', '0', '1', '180.00', '180.00', '2015-3-25', '361', '1427423254', '2', '1', null);
+INSERT INTO `lx_levelup` VALUES ('476', '398', '1427252923', '0', '1', '180.00', '180.00', '11:05', '387', '1427253683', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('477', '399', '1427255489', '0', '1', '180.00', '180.00', '2015.03.25', '380', '1427257330', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('478', '22', '1427269492', '3', '4', '1440.00', '1440.00', null, '7', '1427269492', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('479', '29', '1427269635', '3', '4', '1440.00', '1440.00', null, '6', '1427269636', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('480', '33', '1427269957', '2', '3', '720.00', '720.00', null, '7', '1427269958', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('481', '400', '1427279737', '0', '1', '180.00', '180.00', '18:05', '262', '1427280555', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('482', '401', '1427280202', '0', '1', '180.00', '180.00', '18:05', '334', '1427280568', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('483', '402', '1427280668', '0', '1', '180.00', '180.00', '18:05', '273', '1427280988', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('484', '403', '1427288641', '0', '1', '180.00', '180.00', '2015.3.25', '363', '1427290730', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('485', '404', '1427289489', '0', '1', '180.00', '180.00', '2015.3.25', '374', '1427290745', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('486', '405', '1427289940', '0', '1', '180.00', '180.00', '2015.3.25', '354', '1427290021', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('487', '406', '1427290279', '0', '1', '180.00', '180.00', '2015.3.25', '405', '1427290355', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('488', '407', '1427337055', '0', '1', '180.00', '180.00', '11:10', '385', '1427337533', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('489', '408', '1427337273', '0', '1', '180.00', '180.00', '2015.3.26', '374', '1427337545', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('490', '409', '1427337636', '0', '1', '180.00', '180.00', '11:10', '385', '1427338348', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('491', '410', '1427337754', '0', '1', '180.00', '180.00', '2015.3.26', '363', '1427338848', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('492', '411', '1427337867', '0', '1', '180.00', '180.00', '11:10', '385', '1427338313', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('493', '412', '1427338187', '0', '1', '180.00', '180.00', '2015,3,26,10:47', '353', '1427338326', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('494', '413', '1427339268', '0', '1', '180.00', '180.00', '2015,3,26,11:05', '412', '1427339405', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('495', '385', '1427339598', '1', '2', '360.00', '360.00', null, '262', '1427339598', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('496', '414', '1427340145', '0', '1', '180.00', '180.00', '2015,3,26,11:20', '413', '1427342609', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('497', '415', '1427340412', '0', '1', '180.00', '180.00', '2015,3,26,11:24', '413', '1427342603', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('498', '416', '1427340776', '0', '1', '180.00', '180.00', '2015,3,26,11:30', '413', '1427342596', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('499', '417', '1427340924', '0', '1', '180.00', '180.00', '11；34', '388', '1427340962', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('500', '418', '1427342428', '0', '1', '180.00', '180.00', '2015，3,26', '255', '1427342937', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('501', '419', '1427342665', '0', '1', '180.00', '180.00', '2015,3,26,12:02', '255', '1427342930', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('502', '420', '1427344408', '0', '1', '180.00', '180.00', '13:10', '319', '1427358106', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('503', '421', '1427355751', '0', '1', '180.00', '180.00', '15:40', '84', '1427357938', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('504', '422', '1427356838', '0', '1', '180.00', '180.00', '15:58', '360', '1427357953', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('505', '423', '1427368252', '0', '1', '180.00', '180.00', '2015.03。26', '360', '1427423099', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('506', '424', '1427378552', '0', '1', '180.00', '180.00', '2015.03.26', '381', '1427426712', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('507', '425', '1427400930', '0', '1', '180.00', '180.00', '2015.03.25', '381', '1427426728', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('509', '427', '1427407217', '0', '1', '180.00', '180.00', '2015.03.27', '399', '1427613552', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('510', '428', '1427421654', '0', '1', '180.00', '180.00', '2015.3.27', '350', '1427422575', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('511', '363', '1427423386', '1', '2', '360.00', '360.00', null, '315', '1427423387', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('512', '429', '1427423538', '0', '1', '180.00', '180.00', '10；32', '361', '1427423661', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('513', '430', '1427423977', '0', '1', '180.00', '180.00', '10；39', '361', '1427423993', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('514', '361', '1427424045', '1', '2', '360.00', '360.00', null, '32', '1427424045', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('515', '431', '1427424220', '0', '1', '180.00', '180.00', '2015.3.27', '360', '1427440709', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('516', '432', '1427429622', '0', '1', '180.00', '180.00', '12；20', '93', '1427441924', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('517', '433', '1427430020', '0', '1', '180.00', '180.00', '12；25', '93', '1427441932', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('518', '434', '1427431963', '0', '1', '180.00', '180.00', '12；50', '236', '1427441940', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('519', '435', '1427432333', '0', '1', '180.00', '180.00', '12；55', '237', '1427441948', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('520', '436', '1427432755', '0', '1', '180.00', '180.00', '13；10', '237', '1427441957', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('521', '437', '1427433991', '0', '1', '180.00', '180.00', '13；26', '361', '1427434008', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('522', '438', '1427434444', '0', '1', '180.00', '180.00', '13；34', '208', '1427434476', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('523', '208', '1427434566', '1', '2', '360.00', '360.00', null, '80', '1427434566', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('524', '439', '1427435030', '0', '1', '180.00', '180.00', '13.43', '388', '1427435044', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('525', '440', '1427437671', '0', '1', '180.00', '180.00', '2015.03.县', '399', '1427613544', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('526', '441', '1427439475', '0', '1', '180.00', '180.00', '2015.03.27', '381', '1427440375', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('527', '360', '1427442695', '1', '2', '360.00', '360.00', null, '311', '1427442695', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('528', '381', '1427442771', '1', '2', '360.00', '360.00', null, '330', '1427442771', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('529', '442', '1427445185', '0', '1', '180.00', '180.00', '2015.3.27', '352', '1427447936', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('530', '443', '1427446889', '0', '1', '180.00', '180.00', '2015.3.27', '352', '1427447930', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('531', '93', '1427446965', '3', '4', '1440.00', '1440.00', null, '20', '1427446965', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('532', '444', '1427448720', '0', '1', '180.00', '180.00', '2015.3.27', '374', '1427448835', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('533', '374', '1427449130', '1', '2', '360.00', '360.00', null, '350', '1427449131', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('534', '352', '1427449437', '1', '2', '360.00', '360.00', null, '309', '1427449439', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('535', '445', '1427506471', '0', '1', '180.00', '180.00', '9:31', '423', '1427516949', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('536', '446', '1427516752', '0', '1', '180.00', '180.00', '2015.03.28', '399', '1427613536', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('537', '447', '1427520595', '0', '1', '180.00', '180.00', '13:30', '211', '1427950389', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('538', '448', '1427538911', '0', '1', '180.00', '180.00', '18；35', '34', '1427538980', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('539', '449', '1427539218', '0', '1', '180.00', '180.00', '18；40', '448', '1427539237', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('540', '450', '1427551706', '0', '1', '180.00', '180.00', '22:06', '84', '1427551909', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('541', '451', '1427552878', '0', '1', '180.00', '180.00', '22:25', '450', '1427553270', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('542', '452', '1427572020', '0', '1', '180.00', '180.00', '2015.03.29', '381', '1427613559', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('543', '453', '1427586018', '0', '1', '180.00', '180.00', '2015.3.29', '428', '1427586312', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('544', '454', '1427587096', '0', '1', '180.00', '180.00', '2015', '453', '1427596207', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('545', '455', '1427594777', '0', '1', '180.00', '180.00', '10.20', '450', '1427600407', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('546', '456', '1427595145', '0', '1', '180.00', '180.00', '2015,3,29,10:04', '353', '1427595735', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('547', '457', '1427595365', '0', '1', '180.00', '180.00', '2015,3,29,10:13', '353', '1427595750', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('548', '353', '1427595785', '1', '2', '360.00', '360.00', null, '315', '1427595785', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('549', '458', '1427598155', '0', '1', '180.00', '180.00', '11.30', '450', '1427600422', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('550', '459', '1427598641', '0', '1', '180.00', '180.00', '11.30', '451', '1427600437', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('551', '460', '1427599057', '0', '1', '180.00', '180.00', '11.30', '451', '1427614615', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('552', '461', '1427599322', '0', '1', '180.00', '180.00', '12.00', '451', '1427614622', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('553', '462', '1427607690', '0', '1', '180.00', '180.00', '15.30', '459', '1427614604', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('554', '463', '1427608088', '0', '1', '180.00', '180.00', '15.30', '459', '1427614629', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('555', '464', '1427608557', '0', '1', '180.00', '180.00', '15.30', '459', '1427614641', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('556', '450', '1427611165', '1', '2', '360.00', '360.00', null, '292', '1427611165', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('557', '465', '1427612377', '0', '1', '180.00', '180.00', '20150329.14:52', '414', '1427617956', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('558', '466', '1427613166', '0', '1', '180.00', '180.00', '16.30', '455', '1427614573', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('559', '467', '1427615376', '0', '1', '180.00', '180.00', '16.30', '464', '1427616977', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('560', '468', '1427616563', '0', '1', '180.00', '180.00', '2015,3,29.16:02', '414', '1427617962', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('561', '469', '1427617459', '0', '1', '180.00', '180.00', '2015.0329.16:16', '414', '1427617968', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('562', '470', '1427617648', '0', '1', '180.00', '180.00', '16.30', '467', '1427618319', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('563', '414', '1427618219', '1', '2', '360.00', '360.00', null, '353', '1427618219', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('564', '471', '1427618423', '0', '1', '180.00', '180.00', '16.30', '467', '1427618507', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('565', '472', '1427618638', '0', '1', '180.00', '180.00', '16.30', '470', '1427623176', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('566', '451', '1427620640', '1', '2', '360.00', '360.00', null, '292', '1427620642', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('567', '459', '1427620728', '1', '2', '360.00', '360.00', null, '450', '1427620729', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('568', '473', '1427622305', '0', '1', '180.00', '180.00', '18.30', '462', '1427623191', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('569', '474', '1427676181', '0', '1', '180.00', '180.00', '10', '458', '1427684917', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('570', '475', '1427676927', '0', '1', '180.00', '180.00', '10', '458', '1427684924', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('571', '476', '1427683066', '0', '1', '180.00', '180.00', '2015.03.30', '380', '1427686007', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('572', '477', '1427686403', '0', '1', '180.00', '180.00', '2015033011:25', '414', '1427687994', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('573', '478', '1427686782', '0', '1', '180.00', '180.00', '2015.03.30', '380', '1427687314', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('574', '479', '1427686825', '0', '1', '180.00', '180.00', '2015033011:33', '414', '1427688000', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('575', '480', '1427687185', '0', '1', '180.00', '180.00', '2015.03.30', '476', '1427687294', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('576', '481', '1427687278', '0', '1', '180.00', '180.00', '11:45', '347', '1427687501', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('577', '482', '1427687436', '0', '1', '180.00', '180.00', '2015033011:43', '414', '1427688008', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('578', '483', '1427688059', '0', '1', '180.00', '180.00', '11:58', '481', '1427688922', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('579', '484', '1427688595', '0', '1', '180.00', '180.00', '201503301202', '414', '1427690059', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('580', '485', '1427688786', '0', '1', '180.00', '180.00', '2015033012:06', '414', '1427690081', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('581', '380', '1427688848', '1', '2', '360.00', '360.00', null, '330', '1427688848', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('582', '399', '1427688915', '1', '2', '360.00', '360.00', null, '377', '1427688916', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('583', '486', '1427689368', '0', '1', '180.00', '180.00', '2015033012:09', '414', '1427690090', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('584', '487', '1427689578', '0', '1', '180.00', '180.00', '2015033012:19', '414', '1427690102', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('585', '488', '1427689735', '0', '1', '180.00', '180.00', '2015033012:21', '414', '1427690109', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('586', '489', '1427689981', '0', '1', '180.00', '180.00', '2015033012:25', '414', '1427690119', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('587', '490', '1427690722', '0', '1', '180.00', '180.00', '2015033012:38', '416', '1427691797', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('588', '491', '1427690830', '0', '1', '180.00', '180.00', '2015033012:40', '416', '1427691803', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('589', '492', '1427701605', '0', '1', '180.00', '180.00', '2015033015:39', '413', '1427703662', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('590', '493', '1427701783', '0', '1', '180.00', '180.00', '2015033015:42', '413', '1427703668', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('591', '494', '1427702560', '0', '1', '180.00', '180.00', '2015.03.30', '425', '1427955251', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('592', '495', '1427702662', '0', '1', '180.00', '180.00', '2015033015:57', '415', '1427703677', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('593', '496', '1427703044', '0', '1', '180.00', '180.00', '16:08', '347', '1427707445', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('594', '497', '1427703985', '0', '1', '180.00', '180.00', '2015033016:19', '416', '1427704251', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('595', '498', '1427704033', '0', '1', '180.00', '180.00', '16.30', '451', '1427706080', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('596', '414', '1427704371', '2', '3', '720.00', '720.00', null, '35', '1427704371', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('597', '499', '1427706972', '0', '1', '180.00', '180.00', '17.30', '451', '1427708909', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('598', '500', '1427716812', '0', '1', '180.00', '180.00', '8.30', '473', '1427789397', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('599', '501', '1427719343', '0', '1', '180.00', '180.00', '00', '460', '1427789420', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('600', '502', '1427726923', '0', '1', '180.00', '180.00', '22：45', '198', '1427727017', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('601', '347', '1427767324', '1', '2', '360.00', '360.00', null, '85', '1427767326', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('602', '330', '1427768105', '2', '3', '720.00', '720.00', null, '35', '1427768105', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('603', '311', '1427768171', '2', '3', '720.00', '720.00', null, '35', '1427768172', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('604', '503', '1427773908', '0', '1', '180.00', '180.00', '16', '455', '1427789412', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('605', '504', '1427774190', '0', '1', '180.00', '180.00', '16', '455', '1427789407', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('606', '505', '1427783521', '0', '1', '180.00', '180.00', '1', '64', '1427783746', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('607', '506', '1427784049', '0', '1', '180.00', '180.00', '1', '505', '1427785100', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('608', '455', '1427789751', '1', '2', '360.00', '360.00', null, '347', '1427789752', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('609', '507', '1427793894', '0', '1', '180.00', '180.00', '17:22', '483', '1427794032', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('610', '508', '1427794974', '0', '1', '180.00', '180.00', '17:42', '483', '1427795195', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('611', '509', '1427795940', '0', '1', '180.00', '180.00', '18.1', '438', '1427796401', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('612', '510', '1427796650', '0', '1', '180.00', '180.00', '18013', '438', '1427796980', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('613', '511', '1427796921', '0', '1', '180.00', '180.00', '18.17', '227', '1427796998', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('614', '512', '1427797572', '0', '1', '180.00', '180.00', '18.28', '227', '1427797731', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('615', '513', '1427798578', '0', '1', '180.00', '180.00', '18.45', '511', '1427798684', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('616', '514', '1427799005', '0', '1', '180.00', '180.00', '18.52', '511', '1427799129', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('617', '515', '1427801689', '0', '1', '180.00', '180.00', '19.37', '227', '1427801821', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('618', '227', '1427807680', '1', '2', '360.00', '360.00', null, '203', '1427807680', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('619', '516', '1427809427', '0', '1', '180.00', '180.00', '19;50', '236', '1427950376', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('621', '518', '1427876078', '0', '1', '180.00', '180.00', '1', '29', '1427876624', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('622', '519', '1427877067', '0', '1', '180.00', '180.00', '16：28', '481', '1427877289', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('623', '520', '1427878113', '0', '1', '180.00', '180.00', '16:47', '324', '1427878597', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('624', '521', '1427878371', '0', '1', '180.00', '180.00', '16:51', '324', '1427878621', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('625', '522', '1427879249', '0', '1', '180.00', '180.00', '17:07', '324', '1427879467', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('626', '523', '1427879285', '0', '1', '180.00', '180.00', '2015,4,1,17:05', '309', '1427883675', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('627', '524', '1427879434', '0', '1', '180.00', '180.00', '2015.4.1', '480', '1427881044', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('628', '525', '1427879550', '0', '1', '180.00', '180.00', '17:12', '324', '1427879585', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('629', '526', '1427879869', '0', '1', '180.00', '180.00', '17:17', '324', '1427879899', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('630', '527', '1427880455', '0', '1', '180.00', '180.00', '17:23', '522', '1427880516', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('631', '528', '1427880763', '0', '1', '180.00', '180.00', '17:30', '522', '1427880840', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('632', '529', '1427881114', '0', '1', '180.00', '180.00', '17:36', '522', '1427881153', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('633', '530', '1427881468', '0', '1', '180.00', '180.00', '17:42', '522', '1427881517', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('634', '531', '1427881823', '0', '1', '180.00', '180.00', '17:47', '530', '1427881860', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('635', '532', '1427882286', '0', '1', '180.00', '180.00', '17:55', '528', '1427882367', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('636', '533', '1427882779', '0', '1', '180.00', '180.00', '18:04', '528', '1427882836', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('637', '534', '1427883358', '0', '1', '180.00', '180.00', '18：15', '483', '1427883486', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('638', '483', '1427885961', '1', '2', '360.00', '360.00', null, '347', '1427885961', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('639', '535', '1427890926', '0', '1', '180.00', '180.00', '20:30', '234', '1427950464', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('640', '536', '1427892138', '0', '1', '180.00', '180.00', '20:40', '210', '1427950454', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('641', '537', '1427892533', '0', '1', '180.00', '180.00', '20:50', '234', '1427950476', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('642', '538', '1427893017', '0', '1', '180.00', '180.00', '21:01', '235', '1427950484', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('643', '539', '1427893385', '0', '1', '180.00', '180.00', '21:10', '235', '1427950491', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('644', '540', '1427893695', '0', '1', '180.00', '180.00', '21:10', '235', '1427950497', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('645', '541', '1427894261', '0', '1', '180.00', '180.00', '21:20', '242', '1427950503', '2', '1', '节点位置已被占用');
+INSERT INTO `lx_levelup` VALUES ('646', '542', '1427896051', '0', '1', '180.00', '180.00', '20150401，,21:42', '255', '1427931625', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('647', '324', '1427896590', '1', '2', '360.00', '360.00', null, '36', '1427896590', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('648', '522', '1427896972', '1', '2', '360.00', '360.00', null, '324', '1427896972', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('649', '543', '1427897210', '0', '1', '180.00', '180.00', '22；07', '438', '1427897228', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('650', '438', '1427897306', '1', '2', '360.00', '360.00', null, '208', '1427897306', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('651', '544', '1427899745', '0', '1', '180.00', '180.00', '2015,04,01.22:46', '36', '1427929872', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('652', '545', '1427900157', '0', '1', '180.00', '180.00', '2015,0401,22:53', '309', '1427929838', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('653', '546', '1427942051', '0', '1', '180.00', '180.00', '12.30', '464', '1427947806', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('654', '547', '1427942978', '0', '1', '180.00', '180.00', '12.30', '455', '1427947813', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('655', '235', '1427951402', '1', '2', '360.00', '360.00', null, '93', '1427951402', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('656', '236', '1427951560', '1', '2', '360.00', '360.00', null, '93', '1427951562', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('657', '211', '1427952055', '1', '2', '360.00', '360.00', null, '84', '1427952055', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('658', '548', '1427952801', '0', '1', '180.00', '180.00', '2015,，4,2', '354', '1427953343', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('659', '549', '1427953886', '0', '1', '180.00', '180.00', '2015.4.2', '548', '1427953959', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('660', '550', '1427958215', '0', '1', '180.00', '180.00', '15:05', '210', '1427962585', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('661', '551', '1427958703', '0', '1', '180.00', '180.00', '15:10', '234', '1427962595', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('662', '552', '1427959114', '0', '1', '180.00', '180.00', '15:20', '237', '1427962601', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('663', '553', '1427959450', '0', '1', '180.00', '180.00', '15:30', '242', '1427962608', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('664', '554', '1427959818', '0', '1', '180.00', '180.00', '15:30', '242', '1427963598', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('665', '555', '1427960902', '0', '1', '180.00', '180.00', '1', '64', '1427962074', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('666', '556', '1427963776', '0', '1', '180.00', '180.00', '16.30', '499', '1428026464', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('667', '557', '1427964211', '0', '1', '180.00', '180.00', '16:36', '530', '1427966238', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('668', '558', '1427966552', '0', '1', '180.00', '180.00', '17；22', '511', '1427966564', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('669', '511', '1427966579', '1', '2', '360.00', '360.00', null, '208', '1427966580', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('670', '559', '1427966744', '0', '1', '180.00', '180.00', '17；25', '514', '1427966771', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('671', '234', '1427967663', '1', '2', '360.00', '360.00', null, '93', '1427967663', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('672', '210', '1427967734', '1', '2', '360.00', '360.00', null, '84', '1427967734', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('673', '237', '1427967795', '1', '2', '360.00', '360.00', null, '93', '1427967795', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('674', '242', '1427967852', '1', '2', '360.00', '360.00', null, '211', '1427967852', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('675', '560', '1427974195', '0', '1', '180.00', '180.00', '19:27', '530', '1427974669', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('676', '530', '1427976782', '1', '2', '360.00', '360.00', null, '522', '1427976782', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('677', '561', '1428028931', '0', '1', '180.00', '180.00', '2015.04.03', '478', '1428035403', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('678', '562', '1428051361', '0', '1', '180.00', '180.00', '16:53', '507', '1428052453', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('679', '563', '1428051459', '0', '1', '180.00', '180.00', '20.30', '500', '1428062169', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('680', '564', '1428052003', '0', '1', '180.00', '180.00', '17：04', '508', '1428052459', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('681', '565', '1428052813', '0', '1', '180.00', '180.00', '17:17', '507', '1428053276', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('682', '566', '1428062044', '0', '1', '180.00', '180.00', '19:38', '560', '1428062557', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('683', '567', '1428065024', '0', '1', '180.00', '180.00', '20:45', '560', '1428065343', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('684', '568', '1428065510', '0', '1', '180.00', '180.00', '20:53', '560', '1428068541', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('685', '569', '1428068289', '0', '1', '180.00', '180.00', '654', '560', '0', '1', '1', null);
+INSERT INTO `lx_levelup` VALUES ('686', '560', '1428069141', '1', '2', '360.00', '360.00', null, '522', '1428069141', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('687', '570', '1428070548', '0', '1', '180.00', '180.00', '22.;05', '297', '1428072265', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('688', '571', '1428071099', '0', '1', '180.00', '180.00', '22\'20', '305', '1428072283', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('689', '297', '1428072822', '1', '2', '360.00', '360.00', null, '235', '1428072822', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('690', '305', '1428072961', '1', '2', '360.00', '360.00', null, '254', '1428072961', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('691', '572', '1428108590', '0', '1', '180.00', '180.00', '8;50', '212', '0', '1', '1', null);
+INSERT INTO `lx_levelup` VALUES ('692', '573', '1428109094', '0', '1', '180.00', '180.00', '8\'58', '212', '0', '1', '1', null);
+INSERT INTO `lx_levelup` VALUES ('693', '574', '1428109421', '0', '1', '180.00', '180.00', '9\'05', '238', '0', '1', '1', null);
+INSERT INTO `lx_levelup` VALUES ('694', '575', '1428118867', '0', '1', '180.00', '180.00', '11:41', '531', '1428119205', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('695', '576', '1428134924', '0', '1', '180.00', '180.00', '14\'10', '357', '0', '1', '1', null);
+INSERT INTO `lx_levelup` VALUES ('696', '577', '1428242751', '0', '1', '180.00', '180.00', '22；08', '95', '1428242869', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('697', '578', '1428306980', '0', '1', '180.00', '180.00', '15：56', '481', '1428307094', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('698', '481', '1428307221', '1', '2', '360.00', '360.00', null, '292', '1428307221', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('699', '579', '1428308792', '0', '1', '180.00', '180.00', '20.30', '467', '1428327291', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('700', '467', '1428376639', '1', '2', '360.00', '360.00', null, '459', '1428376639', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('701', '580', '1428397583', '0', '1', '180.00', '180.00', '2015.04.08.10:00', '477', '1428459078', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('702', '581', '1428460967', '0', '1', '180.00', '180.00', '10:40', '481', '1428461499', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('703', '582', '1428493307', '0', '1', '180.00', '180.00', '19.40', '265', '0', '1', '1', null);
+INSERT INTO `lx_levelup` VALUES ('704', '413', '1428539211', '1', '2', '360.00', '360.00', null, '353', '1428539211', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('705', '353', '1428540201', '2', '3', '720.00', '720.00', null, '35', '1428540201', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('706', '583', '1428555066', '0', '1', '180.00', '180.00', '1', '40', '1428565987', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('707', '584', '1428555243', '0', '1', '180.00', '180.00', '1', '40', '1428565980', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('708', '585', '1428555345', '0', '1', '180.00', '180.00', '1', '40', '1428565973', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('709', '586', '1428560404', '0', '1', '180.00', '180.00', '2015.09.17时', '580', '1428569659', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('710', '587', '1428563331', '0', '1', '180.00', '180.00', '2015.09.17', '580', '1428567013', '2', '1', null);
+INSERT INTO `lx_levelup` VALUES ('711', '588', '1428563813', '0', '1', '180.00', '180.00', '2015.09.17', '580', '1428567025', '2', '1', null);
+INSERT INTO `lx_levelup` VALUES ('712', '589', '1428566139', '0', '1', '180.00', '180.00', '1', '40', '1428566446', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('713', '590', '1428567701', '0', '1', '180.00', '180.00', '2015.09.17', '580', '1428569665', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('714', '591', '1428568173', '0', '1', '180.00', '180.00', '2015.09.17', '580', '1428569653', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('715', '592', '1428571706', '0', '1', '180.00', '180.00', '2015.04.10', '586', '1428676949', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('716', '593', '1428573543', '0', '1', '180.00', '180.00', '2015.04.10', '586', '1428676957', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('717', '594', '1428574311', '0', '1', '180.00', '180.00', '2015.04.10', '586', '1428676938', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('718', '580', '1428589214', '1', '2', '360.00', '360.00', null, '414', '1428589214', '3', '2', '');
+INSERT INTO `lx_levelup` VALUES ('719', '595', '1428656509', '0', '1', '180.00', '180.00', '2015.04.10', '382', '1428657130', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('720', '596', '1428744268', '0', '1', '180.00', '180.00', '2015.04.11', '382', '1428745782', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('721', '597', '1428744872', '0', '1', '180.00', '180.00', '2015.04.11', '382', '1428745788', '3', '1', null);
+INSERT INTO `lx_levelup` VALUES ('722', '598', '1428745800', '0', '1', '180.00', '180.00', '2015.04.12', '580', '0', '1', '1', null);
 
 -- ----------------------------
 -- Table structure for `lx_member`
@@ -165,7 +1619,7 @@ CREATE TABLE `lx_member` (
   `create_time` varchar(20) DEFAULT '0' COMMENT '注册时间',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '-1-删除 0-禁用 1-正常',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=599 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 -- Records of lx_member
@@ -174,10 +1628,589 @@ INSERT INTO `lx_member` VALUES ('1', '88888888', '16714a291ecf4352b8379d7ec843f5
 INSERT INTO `lx_member` VALUES ('2', '77777777', 'd76af4ef1cd554ebc27c0545fdc23812', 'd76af4ef1cd554ebc27c0545fdc23812', '1', '1', 'A', '8', '0.00', '77777777', '', null, null, null, null, null, null, '0', '1');
 INSERT INTO `lx_member` VALUES ('3', '66666666', 'ed121ffa4035b7028e52208d356f31a6', 'ed121ffa4035b7028e52208d356f31a6', '2', '2', 'A', '8', '0.00', '66666666', '', null, null, null, null, null, null, '0', '1');
 INSERT INTO `lx_member` VALUES ('4', '55555555', '8f06db987426cb2e624a52a53231b822', '8f06db987426cb2e624a52a53231b822', '3', '3', 'A', '8', '0.00', '55555555', '', null, null, null, null, null, null, '0', '1');
-INSERT INTO `lx_member` VALUES ('5', '44444444', '3c34dff7a87cb8d9a9c2e9c74975bcbf', '3c34dff7a87cb8d9a9c2e9c74975bcbf', '4', '4', 'A', '8', '0.00', '44444444', '', null, null, null, null, null, null, '0', '1');
-INSERT INTO `lx_member` VALUES ('6', '33333333', '47d6b72dc43d832fe3f5be06614e09a2', '47d6b72dc43d832fe3f5be06614e09a2', '5', '5', 'A', '8', '0.00', '33333333', '', null, null, null, null, null, null, '0', '1');
-INSERT INTO `lx_member` VALUES ('7', '22222222', '2ef5afbc6923d240a5e5fdc998860330', '2ef5afbc6923d240a5e5fdc998860330', '6', '6', 'A', '8', '0.00', '22222222', '', null, null, null, null, null, null, '0', '1');
-INSERT INTO `lx_member` VALUES ('8', '11111111', '551bc3e48995982a6121f577f8e7a25a', '551bc3e48995982a6121f577f8e7a25a', '7', '7', 'A', '8', '0.00', '11111111', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('5', '44444444', '3c34dff7a87cb8d9a9c2e9c74975bcbf', '3c34dff7a87cb8d9a9c2e9c74975bcbf', '4', '4', 'A', '8', '1296.00', '44444444', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('6', '33333333', '47d6b72dc43d832fe3f5be06614e09a2', '47d6b72dc43d832fe3f5be06614e09a2', '5', '5', 'A', '8', '1944.00', '33333333', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('7', '22222222', '2ef5afbc6923d240a5e5fdc998860330', '2ef5afbc6923d240a5e5fdc998860330', '6', '6', 'A', '8', '3240.00', '22222222', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('8', '11111111', 'bbfccdf7fb15c4a1c07717edbbbf2c3c', '551bc3e48995982a6121f577f8e7a25a', '7', '7', 'A', '8', '3888.00', '11111111', '', null, null, null, null, null, null, '0', '1');
+INSERT INTO `lx_member` VALUES ('20', '552288', '2ab7f7faeb4365096c3e31a950af3e13', '325ec771fc23045ffdc75c93213cb983', '8', '8', 'A', '4', '2340.00', '吕超杰', '15937881366', '410827197811203380', '1', '1', '1', '1', '1', '1424162595', '1');
+INSERT INTO `lx_member` VALUES ('21', '666888', 'bbfccdf7fb15c4a1c07717edbbbf2c3c', '2ab7f7faeb4365096c3e31a950af3e13', '20', '20', 'A', '1', '162.00', '吕春', '15515366887', '111111111111111111', '1', '', '', '', '', '1424183655', '1');
+INSERT INTO `lx_member` VALUES ('22', '588666', 'bbfccdf7fb15c4a1c07717edbbbf2c3c', '2ab7f7faeb4365096c3e31a950af3e13', '21', '21', 'A', '4', '234.00', '李少英', '15538530557', '111111111111111112', '1', '1', '', '', '', '1424184746', '1');
+INSERT INTO `lx_member` VALUES ('23', '668855', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '22', '22', 'A', '2', '126.00', '王朋水', '15538879606', '111111111111111113', '', '', '', '', '', '1424185165', '1');
+INSERT INTO `lx_member` VALUES ('24', '555888', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '23', '23', 'A', '2', '126.00', '卫发展', '1362375848', '111111111111111115', '', '', '', '', '', '1424185554', '1');
+INSERT INTO `lx_member` VALUES ('25', '126662', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '24', '24', 'A', '1', '162.00', '葛阿利', '15139973229', '111111111111111116', '', '', '', '', '', '1424186360', '1');
+INSERT INTO `lx_member` VALUES ('26', '866655', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '25', '25', 'A', '1', '0.00', '李红英', '1', '111111111111111117', '', '', '', '', '', '1424187158', '1');
+INSERT INTO `lx_member` VALUES ('27', '888888', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '20', '20', 'B', '1', '324.00', '李红旗', '18638161223', '111111111111111118', '', '', '', '', '', '1424223628', '1');
+INSERT INTO `lx_member` VALUES ('28', '225566', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '27', '27', 'A', '1', '0.00', '范艳萍', '13014529330', '111111111111111119', '', '', '', '', '', '1424224260', '1');
+INSERT INTO `lx_member` VALUES ('29', '111686', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '20', '20', 'C', '4', '14.00', '宋培勤', '13503822405', '410124196507128522', '', '宋培勤', '623059100300571053', '农村信用社', '郑州市巩义', '1424226176', '1');
+INSERT INTO `lx_member` VALUES ('30', '588999', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '29', 'A', '2', '222.00', '宋会芹', '1', '111111111111111121', '', '宋会芹', '622991100301341210', '农村信用社', '河南巩义支行', '1424226448', '1');
+INSERT INTO `lx_member` VALUES ('31', '666555', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '24', '24', 'B', '1', '0.00', '卫刚', '11111111111', '111111111111111122', '', '', '', '', '', '1424229318', '1');
+INSERT INTO `lx_member` VALUES ('32', '666666', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '8', '8', 'B', '2', '450.00', '卢鹏蓁', '15937982788', '111111111111111188', '', '', '', '', '', '1424236575', '1');
+INSERT INTO `lx_member` VALUES ('33', '588888', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '32', '32', 'A', '3', '54.00', '陈利娟', '13937932789', '111111111111111266', '', '', '', '', '', '1424236910', '1');
+INSERT INTO `lx_member` VALUES ('34', '888999', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '32', '32', 'B', '1', '324.00', '吕春玲', '1', '111111111111111588', '', '', '', '', '', '1424353696', '1');
+INSERT INTO `lx_member` VALUES ('35', '556688', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '20', '22', 'B', '3', '670.00', '谢莲香', '13033268219', '362133197006181729', '江西省赣州市', '谢莲香', '6228483470644977318', '中国农业银行', '赣州市兴国农业支行', '1424507818', '1');
+INSERT INTO `lx_member` VALUES ('36', '666668', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '35', '35', 'A', '2', '70.00', '李林华', '15979748787', '362101196612300630', '', '李林华', '6228483478326759177', '中国农业银行', '江西省赣州支行', '1424758625', '1');
+INSERT INTO `lx_member` VALUES ('37', '112266', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '22', '22', 'C', '2', '126.00', '彭姣姣', '13014765328', '410305195206230029', '', '彭姣姣', '6228480731987811916', '中国农业银行', '洛阳市支行', '1424783032', '1');
+INSERT INTO `lx_member` VALUES ('38', '566222', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '29', 'B', '2', '126.00', '赵金昌', '1', '410827196910203518', '', '', '', '', '', '1424915724', '1');
+INSERT INTO `lx_member` VALUES ('39', '166286', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '29', 'C', '1', '162.00', '白本华', '1', '410227196911225610', '', '', '', '', '', '1424915902', '1');
+INSERT INTO `lx_member` VALUES ('40', '678678', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '30', '30', 'A', '2', '46.00', '喻荣', '18538010578', '500222198603025447', '', '喻荣', '623059100300688493', '农村信用社', '河南巩义支行', '1424920336', '1');
+INSERT INTO `lx_member` VALUES ('41', '236666', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '30', '30', 'B', '2', '50.00', '陈利敏', '15937982788', '412827198810102356', '', '陈利敏', '623059100300307367', '农村信用社', '河南巩义支行', '1424920456', '1');
+INSERT INTO `lx_member` VALUES ('42', '996188', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '30', '30', 'C', '1', '162.00', '李秀玲', '159', '410827196611235612', '', '', '', '', '', '1424920653', '1');
+INSERT INTO `lx_member` VALUES ('43', '662288', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '40', '40', 'A', '2', '50.00', '刘淑叶', '159818188218', '410124194208115028', '', '刘淑叶', '623059100300425797', '农村信用社', '巩义', '1424921170', '1');
+INSERT INTO `lx_member` VALUES ('44', '558558', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '40', '40', 'B', '2', '74.00', '马会转', '13703827619', '410181196302163540', '', '马会转', '6222081702005162893', '工商银行', '河南巩义支行', '1424921293', '1');
+INSERT INTO `lx_member` VALUES ('45', '888555', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '40', '40', 'C', '2', '126.00', '李春辉', '18538010578', '410181198501173513', '', '喻荣', '623059100300688493', '农村信用社', '河南巩义支行', '1424921420', '1');
+INSERT INTO `lx_member` VALUES ('46', '266885', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '35', '35', 'B', '1', '162.00', '梁恒铖', '13926556878', '362132196602193418', '', '梁恒铖', '9559980120451245118', '中国农业银行', '广东省深圳市国贸支行', '1424950366', '1');
+INSERT INTO `lx_member` VALUES ('47', '685555', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '23', '23', 'B', '1', '0.00', '卢海伟', '13', '411111111111111161', '', '', '', '', '', '1424951145', '1');
+INSERT INTO `lx_member` VALUES ('48', '602698', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '45', '45', 'A', '1', '0.00', '赵菊红', '1', '410827197811262560', '', '', '', '', '', '1425099927', '1');
+INSERT INTO `lx_member` VALUES ('49', '602696', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '45', '45', 'B', '2', '212.00', '张俊廷', '1', '410827197811262506', '', '', '', '', '', '1425100038', '1');
+INSERT INTO `lx_member` VALUES ('50', '602658', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '43', '43', 'A', '1', '0.00', '张会省', '13938433933', '410124196512236544', '', '', '', '', '', '1425104437', '1');
+INSERT INTO `lx_member` VALUES ('51', '602588', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '38', '38', 'A', '2', '126.00', '孙国曾', '1', '111111111111111120', '', '', '', '', '', '1425108993', '1');
+INSERT INTO `lx_member` VALUES ('52', '602587', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '38', '38', 'B', '2', '126.00', '刘焕', '1', '111111111101111122', '', '', '', '', '', '1425109080', '1');
+INSERT INTO `lx_member` VALUES ('53', '602586', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '38', '38', 'C', '2', '126.00', '周贵星', '1', '111110111111111210', '', '', '', '', '', '1425109147', '1');
+INSERT INTO `lx_member` VALUES ('54', '602578', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '44', '44', 'A', '1', '0.00', '宋淑彩', '1', '410124195406143526', '', '', '', '', '', '1425109758', '1');
+INSERT INTO `lx_member` VALUES ('55', '602558', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '51', '51', 'A', '1', '0.00', '李同治', '15890099278', '410181196507296099', '', '', '', '', '', '1425110078', '1');
+INSERT INTO `lx_member` VALUES ('56', '602695', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '51', '51', 'B', '1', '0.00', '于太州', '1', '410124195611111111', '', '', '', '', '', '1425110161', '1');
+INSERT INTO `lx_member` VALUES ('57', '602690', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '51', '51', 'C', '1', '0.00', '焦丽娜', '1', '410181196511111111', '', '', '', '', '', '1425110271', '1');
+INSERT INTO `lx_member` VALUES ('58', '602659', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '52', '52', 'A', '1', '162.00', '周江海', '1', '410124111111111111', '', '', '', '', '', '1425110590', '1');
+INSERT INTO `lx_member` VALUES ('59', '602585', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '52', '52', 'B', '1', '0.00', '胡女英', '1', '41012419440615604X', '', '', '', '', '', '1425110742', '1');
+INSERT INTO `lx_member` VALUES ('60', '602660', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '53', '53', 'A', '1', '0.00', '焦正宽', '1', '410124194801212525', '', '', '', '', '', '1425111518', '1');
+INSERT INTO `lx_member` VALUES ('61', '602568', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '53', '53', 'B', '1', '0.00', '苏焕敏', '1', '410124195601112323', '', '', '', '', '', '1425111588', '1');
+INSERT INTO `lx_member` VALUES ('62', '602697', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '58', '58', 'A', '1', '0.00', '王芳', '1', '410124196511112233', '', '', '', '', '', '1425111924', '1');
+INSERT INTO `lx_member` VALUES ('63', '602583', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '41', '41', 'A', '1', '162.00', '许利', '1', '410124196802151111', '', '', '', '', '', '1425113496', '1');
+INSERT INTO `lx_member` VALUES ('64', '602582', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '42', '42', 'A', '1', '324.00', '陈梦珍', '13700861284', '410124197007242222', '', '', '', '', '', '1425114097', '1');
+INSERT INTO `lx_member` VALUES ('65', '602581', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '41', '41', 'B', '1', '162.00', '范子英', '1', '410124196912121111', '', '', '', '', '', '1425114947', '1');
+INSERT INTO `lx_member` VALUES ('66', '602580', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '39', '39', 'A', '1', '0.00', '任素珍', '1', '410124196601122222', '', '', '', '', '', '1425115354', '1');
+INSERT INTO `lx_member` VALUES ('67', '602589', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '53', '53', 'C', '1', '0.00', '张文耀', '1', '41012419440905601X', '', '', '', '', '', '1425187025', '1');
+INSERT INTO `lx_member` VALUES ('68', '602691', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '49', '49', 'A', '2', '88.00', '韩三营', '1', '410124196612231111', '', '韩三营', '6228480718676348573', '农业银行', '河南巩义小关支行', '1425192748', '1');
+INSERT INTO `lx_member` VALUES ('69', '602591', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '49', '49', 'B', '1', '0.00', '牛长明', '15238620679', '410181194803191030', '', '', '', '', '', '1425192836', '1');
+INSERT INTO `lx_member` VALUES ('70', '602593', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '68', '68', 'A', '1', '162.00', '王彬', '15617838796', '410124194911231012', '', '', '', '', '', '1425193912', '1');
+INSERT INTO `lx_member` VALUES ('71', '602592', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '68', '68', 'B', '1', '0.00', '张献忠', '13137127662', '410124196304121010', '', '', '', '', '', '1425193971', '1');
+INSERT INTO `lx_member` VALUES ('72', '602590', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '39', 'B', '1', '0.00', '姚爱玲', '1', '410124196311231111', '', '', '', '', '', '1425195272', '1');
+INSERT INTO `lx_member` VALUES ('73', '602788', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '33', '33', 'A', '3', '550.00', '王长莉', '15537919942', '41030319551128002x', '', '', '', '', '', '1425196573', '1');
+INSERT INTO `lx_member` VALUES ('74', '602821', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '52', '52', 'C', '1', '0.00', '张本杰', '64034751', '410124194305086038', '', '', '', '', '', '1425197084', '1');
+INSERT INTO `lx_member` VALUES ('75', '602768', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '73', '73', 'A', '2', '126.00', '马玉芝', '13598487346', '410303194509092527', '', '', '', '', '', '1425197260', '1');
+INSERT INTO `lx_member` VALUES ('76', '602786', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '37', '37', 'A', '2', '126.00', '赵顶轩', '128', '410827196611236512', '', '', '', '', '', '1425197814', '1');
+INSERT INTO `lx_member` VALUES ('77', '602787', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '37', '37', 'B', '2', '126.00', '徐乐今', '186', '410826196612304568', '', '', '', '', '', '1425197996', '1');
+INSERT INTO `lx_member` VALUES ('78', '602766', 'e534c4dbe53321ef6ee00c415492fece', 'e534c4dbe53321ef6ee00c415492fece', '73', '73', 'B', '1', '162.00', '谢延民', '15036957173', '412726196005127973', '', '', '', '', '', '1425210447', '1');
+INSERT INTO `lx_member` VALUES ('79', '602799', '0f960cd5946182ddf8671d65dbf08034', '0f960cd5946182ddf8671d65dbf08034', '75', '75', 'A', '1', '0.00', '卜繁华', '15978692486', '410303194602010514', '', '', '', '', '', '1425210768', '1');
+INSERT INTO `lx_member` VALUES ('80', '602789', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '73', '73', 'C', '3', '1350.00', '李杰', '13058110981', '410303109010100026', '', '', '', '', '', '1425222185', '1');
+INSERT INTO `lx_member` VALUES ('81', '602595', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '70', '70', 'A', '1', '0.00', '王万朝', '1', '410124195710141031', '', '', '', '', '', '1425267188', '1');
+INSERT INTO `lx_member` VALUES ('82', '602597', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '43', '43', 'B', '1', '162.00', '于淑利', '1', '410181196808251111', '', '', '', '', '', '1425268336', '1');
+INSERT INTO `lx_member` VALUES ('83', '602596', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '43', '43', 'C', '1', '0.00', '韩文成', '1', '410124193902155092', '', '', '', '', '', '1425268437', '1');
+INSERT INTO `lx_member` VALUES ('84', '600656', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '35', '35', 'C', '2', '384.00', '李坤', '13870714414', '362133197602141715', '', '李坤', '6228483471103286415', '农业银行', '赣州支行', '1425276040', '1');
+INSERT INTO `lx_member` VALUES ('85', '602780', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '84', '84', 'A', '2', '74.00', '谢祯勇', '18607076973', '362133196610221710', '', '谢祯勇', '6228483478396148772', '农业银行', '江西省赣州市时代广场', '1425278997', '1');
+INSERT INTO `lx_member` VALUES ('86', '602781', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '36', '36', 'A', '1', '162.00', '曾明发', '18579701025', '360733198404165375', '', '', '', '', '', '1425279391', '1');
+INSERT INTO `lx_member` VALUES ('87', '602777', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '75', '75', 'B', '1', '0.00', '李松娥', '15333793533', '410327195009200726', '', '', '', '', '', '1425289092', '1');
+INSERT INTO `lx_member` VALUES ('88', '602778', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '80', '80', 'A', '1', '324.00', '齐灵霞', '13014755993', '410321196304305025', '', '齐灵霞', '6228480738657816778', '中国农业银行', '洛阳支行', '1425290645', '1');
+INSERT INTO `lx_member` VALUES ('89', '602816', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '65', '65', 'A', '1', '0.00', '孟保军', '1', '410124195601151111', '', '', '', '', '', '1425290648', '1');
+INSERT INTO `lx_member` VALUES ('90', '602818', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '39', 'C', '1', '0.00', '于荣学', '15560203807', '410725196208130074', '', '', '', '', '', '1425290836', '1');
+INSERT INTO `lx_member` VALUES ('91', '602798', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '88', '88', 'A', '1', '0.00', '孙解放', '13721670536', '410311196811242521', '', '', '', '', '', '1425306448', '1');
+INSERT INTO `lx_member` VALUES ('92', '602796', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '80', '80', 'B', '3', '64.00', '段保成', '13243079356', '410328195001214513', '', '', '', '', '', '1425353023', '1');
+INSERT INTO `lx_member` VALUES ('93', '602802', '917392e118283324321ecfe8063efbff', '2ab7f7faeb4365096c3e31a950af3e13', '84', '84', 'B', '4', '92.00', '王文进', '15070720741', '362133196109193912', '', '王文进', '6228483470686163314', '中国农业银行', '中国农业银行兴国支行', '1425369739', '1');
+INSERT INTO `lx_member` VALUES ('94', '600026', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '33', '33', 'B', '1', '324.00', '申保山', '28', '410827195810203518', '', '', '', '', '', '1425379076', '1');
+INSERT INTO `lx_member` VALUES ('95', '600028', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '33', '33', 'C', '1', '162.00', '刘宇砖', '13892066005', '610402197108095217', '', '', '', '', '', '1425379194', '1');
+INSERT INTO `lx_member` VALUES ('96', '600228', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '27', '27', 'B', '1', '0.00', '李珂', '231', '410877198810225679', '', '', '', '', '', '1425381087', '1');
+INSERT INTO `lx_member` VALUES ('97', '600122', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '23', '23', 'C', '1', '0.00', '王凤仙', '18937949639', '410311196306204022', '', '', '', '', '', '1425385061', '1');
+INSERT INTO `lx_member` VALUES ('98', '600216', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '24', '24', 'C', '1', '0.00', '朱丽', '13623795846', '410827196510263526', '', '', '', '', '', '1425386722', '1');
+INSERT INTO `lx_member` VALUES ('99', '600096', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '22', '76', 'A', '1', '0.00', '王东霞', '1285', '410827196602062367', '', '', '', '', '', '1425391315', '1');
+INSERT INTO `lx_member` VALUES ('100', '602776', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '92', '92', 'A', '2', '412.00', '王留云', '15515355716', '411221195208175049', '', '王留云', '6228482071657251210', '中国农业银行', '', '1425466428', '1');
+INSERT INTO `lx_member` VALUES ('101', '600135', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '100', '100', 'A', '2', '374.00', '徐小勇', '13693796079', '410305195310271525', '', '', '', '', '', '1425467094', '1');
+INSERT INTO `lx_member` VALUES ('102', '600123', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '37', '37', 'C', '2', '126.00', '胡敏', '58', '410827196510203516', '', '', '', '', '', '1425473684', '1');
+INSERT INTO `lx_member` VALUES ('103', '602626', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '45', '45', 'C', '1', '162.00', '牛金香', '18939158373', '410124196602122222', '', '', '', '', '', '1425519153', '1');
+INSERT INTO `lx_member` VALUES ('104', '602616', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '103', '103', 'A', '1', '0.00', '姚培勤', '15539120190', '410124196407243333', '', '', '', '', '', '1425521768', '1');
+INSERT INTO `lx_member` VALUES ('105', '602785', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '100', '100', 'B', '1', '0.00', '贾金苹', '15538577466', '411221198808150228', '', '', '', '', '', '1425521999', '1');
+INSERT INTO `lx_member` VALUES ('106', '602617', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '68', '68', 'C', '1', '0.00', '孙东海', '15515891617', '410124195003061016', '', '', '', '', '', '1425523871', '1');
+INSERT INTO `lx_member` VALUES ('107', '602615', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '68', '71', 'A', '1', '0.00', '郑新喜', '15225084009', '410124195611041019', '', '', '', '', '', '1425524019', '1');
+INSERT INTO `lx_member` VALUES ('108', '602608', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '49', '49', 'C', '1', '0.00', '张粉兰', '13017699968', '410124194608171029', '', '', '', '', '', '1425525100', '1');
+INSERT INTO `lx_member` VALUES ('109', '602609', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '49', '69', 'A', '1', '0.00', '李冬成', '13598816284', '410124197107151031', '', '', '', '', '', '1425525159', '1');
+INSERT INTO `lx_member` VALUES ('110', '602606', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '49', '108', 'A', '1', '0.00', '崔文站', '18539275719', '410181197212297531', '', '', '', '', '', '1425525385', '1');
+INSERT INTO `lx_member` VALUES ('111', '602600', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '44', '44', 'B', '2', '126.00', '陈留锁', '13703827619', '410181196404134011', '', '', '', '', '', '1425526323', '1');
+INSERT INTO `lx_member` VALUES ('112', '602703', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '92', '92', 'B', '1', '162.00', '张川民', '15838522853', '411224197101035618', '', '', '', '', '', '1425526931', '1');
+INSERT INTO `lx_member` VALUES ('113', '602602', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '82', '82', 'A', '1', '162.00', '李占国', '13014658979', '410124194908248534', '', '李占国', '604914110200112178', '中国邮政', '河南巩义涉村支行', '1425527638', '1');
+INSERT INTO `lx_member` VALUES ('114', '602770', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '92', '92', 'C', '1', '0.00', '李文清', '15515331872', '610202196305183624', '', '', '', '', '', '1425528199', '1');
+INSERT INTO `lx_member` VALUES ('115', '602610', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '41', '41', 'C', '1', '0.00', '李建波', '1', '410124196901231111', '', '', '', '', '', '1425528294', '1');
+INSERT INTO `lx_member` VALUES ('116', '602607', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '63', '63', 'A', '1', '162.00', '康霞', '1', '410181196601075524', '', '', '', '', '', '1425544150', '1');
+INSERT INTO `lx_member` VALUES ('117', '602611', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '116', '116', 'A', '1', '0.00', '王六敏', '1', '410124196301225252', '', '', '', '', '', '1425544355', '1');
+INSERT INTO `lx_member` VALUES ('118', '602603', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '43', '83', 'A', '1', '0.00', '康新福', '1', '410124195605261212', '', '', '', '', '', '1425547595', '1');
+INSERT INTO `lx_member` VALUES ('119', '602605', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '43', '83', 'B', '1', '0.00', '付利红', '1', '410181196412212323', '', '', '', '', '', '1425547652', '1');
+INSERT INTO `lx_member` VALUES ('120', '600137', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '112', '112', 'A', '1', '162.00', '焦爱荣', '15896622129', '410311195110115023', '', '', '', '', '', '1425560916', '1');
+INSERT INTO `lx_member` VALUES ('121', '602792', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '120', '120', 'A', '1', '162.00', '牛双奇', '13213598908', '410304195802040532', '', '', '', '', '', '1425562204', '1');
+INSERT INTO `lx_member` VALUES ('122', '600033', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '76', '76', 'B', '1', '0.00', '王焦凤', '32', '410827195601023675', '', '', '', '', '', '1425568288', '1');
+INSERT INTO `lx_member` VALUES ('123', '600035', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '76', '76', 'C', '1', '0.00', '彭新兴', '336', '410827196706085678', '', '', '', '', '', '1425568441', '1');
+INSERT INTO `lx_member` VALUES ('124', '600036', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '77', '77', 'A', '1', '0.00', '张颖颖', '32', '410827198811223344', '', '', '', '', '', '1425568716', '1');
+INSERT INTO `lx_member` VALUES ('125', '600037', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '77', '77', 'B', '1', '0.00', '胡春燕', '38', '410827196806093456', '', '', '', '', '', '1425568849', '1');
+INSERT INTO `lx_member` VALUES ('126', '600038', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '77', '77', 'C', '1', '0.00', '姚楠', '135', '410827198802033468', '', '', '', '', '', '1425568959', '1');
+INSERT INTO `lx_member` VALUES ('127', '600039', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '102', '102', 'A', '1', '0.00', '叶爱芳', '135', '410827196801025679', '', '', '', '', '', '1425569193', '1');
+INSERT INTO `lx_member` VALUES ('128', '600050', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '102', '102', 'B', '1', '0.00', '王会武', '12', '410827198806081235', '', '', '', '', '', '1425569326', '1');
+INSERT INTO `lx_member` VALUES ('129', '600139', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '102', '102', 'C', '1', '0.00', '周杰', '38', '410827196803066789', '', '', '', '', '', '1425569462', '1');
+INSERT INTO `lx_member` VALUES ('130', '558888', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '94', '94', 'A', '1', '0.00', '闫丽珠', '8', '410827196807082356', '', '', '', '', '', '1425571367', '1');
+INSERT INTO `lx_member` VALUES ('131', '602772', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '121', '121', 'A', '1', '0.00', '李全三', '15290586908', '410311194809033019', '', '', '', '', '', '1425606665', '1');
+INSERT INTO `lx_member` VALUES ('132', '602618', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '55', 'A', '1', '0.00', '孙1', '1', '410124195506070102', '', '', '', '', '', '1425609732', '1');
+INSERT INTO `lx_member` VALUES ('133', '602579', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '55', 'B', '1', '0.00', '孙2', '1', '410181195507040102', '', '', '', '', '', '1425609782', '1');
+INSERT INTO `lx_member` VALUES ('134', '602577', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '55', 'C', '1', '0.00', '孙3', '1', '410181195408210102', '', '', '', '', '', '1425609855', '1');
+INSERT INTO `lx_member` VALUES ('135', '602576', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '56', 'A', '1', '0.00', '孙4', '1', '410124195605241221', '', '', '', '', '', '1425609977', '1');
+INSERT INTO `lx_member` VALUES ('136', '602575', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '57', 'A', '1', '0.00', '孙5', '1', '410181195305282332', '', '', '', '', '', '1425610044', '1');
+INSERT INTO `lx_member` VALUES ('137', '602573', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '132', 'A', '1', '0.00', '孙6', '1', '410181111111111111', '', '', '', '', '', '1425610197', '1');
+INSERT INTO `lx_member` VALUES ('138', '602572', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '132', 'B', '1', '0.00', '孙7', '1', '410124111111111110', '', '', '', '', '', '1425610262', '1');
+INSERT INTO `lx_member` VALUES ('139', '602571', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '132', 'C', '1', '0.00', '孙8', '1', '410124195211112222', '', '', '', '', '', '1425610359', '1');
+INSERT INTO `lx_member` VALUES ('140', '602570', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '133', 'A', '1', '0.00', '孙9', '1', '410124194512123536', '', '', '', '', '', '1425610518', '1');
+INSERT INTO `lx_member` VALUES ('141', '602569', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '133', 'B', '1', '0.00', '孙10', '1', '410124195202212560', '', '', '', '', '', '1425610588', '1');
+INSERT INTO `lx_member` VALUES ('142', '602567', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '133', 'C', '1', '0.00', '孙11', '1', '410124195301231111', '', '', '', '', '', '1425610635', '1');
+INSERT INTO `lx_member` VALUES ('143', '602566', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '134', 'A', '1', '0.00', '孙12', '1', '410124195303263665', '', '', '', '', '', '1425610687', '1');
+INSERT INTO `lx_member` VALUES ('144', '602565', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '134', 'B', '1', '0.00', '孙13', '1', '410181195203252123', '', '', '', '', '', '1425610734', '1');
+INSERT INTO `lx_member` VALUES ('145', '602563', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '134', 'C', '1', '0.00', '孙14', '1', '410181195206262121', '', '', '', '', '', '1425610778', '1');
+INSERT INTO `lx_member` VALUES ('146', '602612', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '49', '108', 'B', '1', '162.00', '杜秀珍', '1', '41018119560614052X', '', '', '', '', '', '1425620947', '1');
+INSERT INTO `lx_member` VALUES ('147', '602601', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '146', '146', 'A', '1', '0.00', '刘秋凤', '1', '410181197410040040', '', '', '', '', '', '1425621332', '1');
+INSERT INTO `lx_member` VALUES ('148', '602706', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '44', '44', 'C', '1', '0.00', '陈昱冰', '15037166128', '410181199401153544', '', '', '', '', '', '1425621725', '1');
+INSERT INTO `lx_member` VALUES ('149', '602708', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '44', '111', 'A', '2', '88.00', '张宝国', '15138691358', '410124195309023514', '', '张宝国', '622991100300611977', '农村信用社', '河南巩义支行', '1425622823', '1');
+INSERT INTO `lx_member` VALUES ('150', '600115', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '80', '80', 'C', '2', '486.00', '韩庆生', '13838819533', '412326196307205437', '', '', '', '', '', '1425624175', '1');
+INSERT INTO `lx_member` VALUES ('151', '602628', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '44', '148', 'A', '1', '0.00', '马学斌', '13703827619', '410124195508153514', '', '', '', '', '', '1425625241', '1');
+INSERT INTO `lx_member` VALUES ('152', '602619', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '149', '149', 'A', '1', '0.00', '张建玲', '13838076389', '410124195401293525', '', '', '', '', '', '1425625739', '1');
+INSERT INTO `lx_member` VALUES ('153', '602620', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '149', '149', 'B', '1', '0.00', '张金焕', '15138691358', '410181197911243524', '', '', '', '', '', '1425626188', '1');
+INSERT INTO `lx_member` VALUES ('154', '602621', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '149', '149', 'C', '1', '0.00', '白本再', '13526555545', '410124194512053511', '', '', '', '', '', '1425626499', '1');
+INSERT INTO `lx_member` VALUES ('155', '602622', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '111', '111', 'B', '1', '0.00', '李爱英', '15638437886', '410124196702273522', '', '', '', '', '', '1425628001', '1');
+INSERT INTO `lx_member` VALUES ('156', '602629', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '111', '111', 'C', '1', '0.00', '陈会娟', '13703827619', '410181196910134049', '', '', '', '', '', '1425628452', '1');
+INSERT INTO `lx_member` VALUES ('157', '602819', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '111', '156', 'A', '1', '0.00', '白奇庄', '15037166128', '410124195605103519', '', '', '', '', '', '1425629622', '1');
+INSERT INTO `lx_member` VALUES ('158', '602709', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '149', '152', 'A', '1', '0.00', '张文峰', '1', '410181111111111112', '', '', '', '', '', '1425630917', '1');
+INSERT INTO `lx_member` VALUES ('159', '602672', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '72', 'A', '1', '0.00', '焦红杰', '159363215629', '410124197007146016', '', '', '', '', '', '1425634326', '1');
+INSERT INTO `lx_member` VALUES ('160', '602811', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '41', '115', 'A', '1', '0.00', '白金亮', '15617838832', '410181197803235017', '', '', '', '', '', '1425635269', '1');
+INSERT INTO `lx_member` VALUES ('161', '600110', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '75', '75', 'C', '1', '0.00', '程丽华', '18238878116', '410302197202291545', '', '程丽华', '6222021705015664454', '中国工商银行', '', '1425636512', '1');
+INSERT INTO `lx_member` VALUES ('162', '602688', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '30', '48', 'A', '1', '0.00', '李晶晶', '15138659350', '410181198811243548', '', '', '', '', '', '1425637717', '1');
+INSERT INTO `lx_member` VALUES ('163', '600117', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '73', '78', 'A', '1', '0.00', '杨玉荣', '13373795549', '610203194607082922', '', '', '', '', '', '1425638435', '1');
+INSERT INTO `lx_member` VALUES ('164', '600212', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '76', '99', 'A', '1', '0.00', '史建祥', '186', '410827196811023568', '', '', '', '', '', '1425639374', '1');
+INSERT INTO `lx_member` VALUES ('165', '600073', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '73', '78', 'B', '1', '0.00', '黄东梁', '18937909373', '410381195212013520', '', '', '', '', '', '1425641950', '1');
+INSERT INTO `lx_member` VALUES ('166', '60055', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '101', '101', 'A', '1', '0.00', '琚云霞', '18236103686', '410782199306239613', '', '', '', '', '', '1425643121', '1');
+INSERT INTO `lx_member` VALUES ('167', '600077', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '101', '101', 'B', '1', '0.00', '冯振原', '18973429774', '410327199210270038', '', '', '', '', '', '1425643990', '1');
+INSERT INTO `lx_member` VALUES ('168', '600079', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '101', '101', 'C', '1', '0.00', '李兰州', '15225405807', '410303194501061521', '', '', '', '', '', '1425644317', '1');
+INSERT INTO `lx_member` VALUES ('169', '602775', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '100', '100', 'C', '1', '0.00', '裴超瑾', '18638871936', '410303195504050058', '', '', '', '', '', '1425647387', '1');
+INSERT INTO `lx_member` VALUES ('170', '602666', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '41', '115', 'B', '1', '0.00', '李光恩', '1', '410124195512212121', '', '李光恩', '623059100300574149', '农村信用社', '河南巩义支行', '1425698748', '1');
+INSERT INTO `lx_member` VALUES ('171', '602808', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '30', '103', 'B', '1', '0.00', '李道仲', '1', '410181195711183513', '', '李道仲', '622991100301341491', '农村信用社', '河南巩义支行', '1425700989', '1');
+INSERT INTO `lx_member` VALUES ('172', '602528', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '137', 'A', '1', '0.00', '孙15', '1', '410124195802232121', '', '', '', '', '', '1425713735', '1');
+INSERT INTO `lx_member` VALUES ('173', '602529', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '137', 'B', '1', '0.00', '孙16', '1', '410124195605282121', '', '', '', '', '', '1425713797', '1');
+INSERT INTO `lx_member` VALUES ('174', '602530', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '137', 'C', '1', '0.00', '孙17', '1', '410124196503212322', '', '', '', '', '', '1425713843', '1');
+INSERT INTO `lx_member` VALUES ('175', '602531', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '138', 'A', '1', '0.00', '孙18', '1', '410124195704050113', '', '', '', '', '', '1425713881', '1');
+INSERT INTO `lx_member` VALUES ('176', '602532', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '138', 'B', '1', '0.00', '孙19', '1', '410124195806050201', '', '', '', '', '', '1425713927', '1');
+INSERT INTO `lx_member` VALUES ('177', '602533', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '138', 'C', '1', '0.00', '孙20', '1', '410124195603012211', '', '', '', '', '', '1425714031', '1');
+INSERT INTO `lx_member` VALUES ('178', '602535', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '139', 'A', '1', '0.00', '孙21', '1', '410181195702020202', '', '', '', '', '', '1425714276', '1');
+INSERT INTO `lx_member` VALUES ('179', '602536', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '139', 'B', '1', '0.00', '孙22', '1', '410124195401012020', '', '', '', '', '', '1425714315', '1');
+INSERT INTO `lx_member` VALUES ('180', '602537', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '139', 'C', '1', '0.00', '孙23', '1', '410124195603031010', '', '', '', '', '', '1425714353', '1');
+INSERT INTO `lx_member` VALUES ('181', '602538', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '140', 'A', '1', '0.00', '孙24', '1', '410124194802021010', '', '', '', '', '', '1425714501', '1');
+INSERT INTO `lx_member` VALUES ('182', '602539', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '140', 'B', '1', '0.00', '孙25', '1', '410124194603021010', '', '', '', '', '', '1425714538', '1');
+INSERT INTO `lx_member` VALUES ('183', '602550', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '140', 'C', '1', '0.00', '孙26', '1', '410181194705011010', '', '', '', '', '', '1425714578', '1');
+INSERT INTO `lx_member` VALUES ('184', '602551', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '141', 'A', '1', '0.00', '孙27', '1', '410124194705211010', '', '', '', '', '', '1425714614', '1');
+INSERT INTO `lx_member` VALUES ('185', '602552', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '141', 'B', '1', '0.00', '孙28', '1', '410124194502231010', '', '', '', '', '', '1425714657', '1');
+INSERT INTO `lx_member` VALUES ('186', '602553', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '141', 'C', '1', '0.00', '孙29', '1', '410181194502251010', '', '', '', '', '', '1425714699', '1');
+INSERT INTO `lx_member` VALUES ('187', '602556', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '142', 'A', '1', '0.00', '孙30', '1', '410124195602251010', '', '', '', '', '', '1425714737', '1');
+INSERT INTO `lx_member` VALUES ('188', '602557', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '142', 'B', '1', '0.00', '孙31', '1', '410181195409231010', '', '', '', '', '', '1425714781', '1');
+INSERT INTO `lx_member` VALUES ('189', '602560', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '142', 'C', '1', '0.00', '孙32', '1', '410124195610231010', '', '', '', '', '', '1425714825', '1');
+INSERT INTO `lx_member` VALUES ('190', '602561', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '143', 'A', '1', '0.00', '孙33', '1', '410124195812211010', '', '', '', '', '', '1425714954', '1');
+INSERT INTO `lx_member` VALUES ('191', '602562', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '143', 'B', '1', '0.00', '孙34', '1', '410181195612211010', '', '', '', '', '', '1425714992', '1');
+INSERT INTO `lx_member` VALUES ('192', '602656', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '143', 'C', '1', '0.00', '孙35', '1', '410124195810211010', '', '', '', '', '', '1425715030', '1');
+INSERT INTO `lx_member` VALUES ('193', '602678', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '144', 'A', '1', '0.00', '孙36', '1', '410124195611021010', '', '', '', '', '', '1425715071', '1');
+INSERT INTO `lx_member` VALUES ('194', '602679', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '144', 'B', '1', '0.00', '孙37', '1', '410124195711032010', '', '', '', '', '', '1425715107', '1');
+INSERT INTO `lx_member` VALUES ('195', '602680', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '144', 'C', '1', '0.00', '孙38', '1', '410124196301201010', '', '', '', '', '', '1425715149', '1');
+INSERT INTO `lx_member` VALUES ('196', '602686', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '145', 'A', '1', '0.00', '孙39', '1', '410181196601121010', '', '', '', '', '', '1425715186', '1');
+INSERT INTO `lx_member` VALUES ('197', '602806', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '145', 'B', '1', '0.00', '孙40', '1', '410124196402212210', '', '', '', '', '', '1425715224', '1');
+INSERT INTO `lx_member` VALUES ('198', '602767', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '84', '84', 'C', '1', '162.00', '谢海英', '13979131419', '362427197702023627', '', '', '', '中国农业银行', '', '1425734632', '1');
+INSERT INTO `lx_member` VALUES ('199', '602800', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '80', '150', 'A', '1', '0.00', '李宁军', '13623896084', '410311195304194532', '', '', '', '', '', '1425791844', '1');
+INSERT INTO `lx_member` VALUES ('200', '602797', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '80', '150', 'B', '1', '0.00', '王素真', '15637954556', '412326196106165440', '', '', '', '', '', '1425795743', '1');
+INSERT INTO `lx_member` VALUES ('201', '602783', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '100', '105', 'A', '1', '0.00', '张景义', '13373980109', '411221119508153032', '', '', '', '', '', '1425797339', '1');
+INSERT INTO `lx_member` VALUES ('202', '600029', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '94', '94', 'B', '1', '0.00', '王晓丹', '186', '410827196806082576', '', '', '', '', '', '1425810715', '1');
+INSERT INTO `lx_member` VALUES ('203', '600076', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '80', '88', 'B', '3', '364.00', '韩天宏', '18937946868', '410381197101076518', '', '韩天宏', '6222081705000518670', '洛阳工商银行', '洛阳分行', '1425815649', '1');
+INSERT INTO `lx_member` VALUES ('204', '600060', 'c0be78e751a33064d924ef339dbaccff', '2ab7f7faeb4365096c3e31a950af3e13', '203', '203', 'A', '1', '0.00', '侯利卫', '13598161263', '410326197911277317', '', '', '', '', '', '1425816823', '1');
+INSERT INTO `lx_member` VALUES ('205', '600078', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '36', '36', 'B', '1', '0.00', '程福莲', '13763927411', '302121196810210121', '', '程福莲', '6228483471048820310', '中国农业银行', '江西省赣州赣县支行', '1425824994', '1');
+INSERT INTO `lx_member` VALUES ('206', '600126', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '92', '112', 'B', '1', '0.00', '胡向丽', '13698834571', '410322196803072824', '', '', '', '', '', '1425878233', '1');
+INSERT INTO `lx_member` VALUES ('207', '600095', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '92', '112', 'C', '1', '0.00', '贺亚南', '15896510040', '410328198808169657', '', '', '', '', '', '1425885455', '1');
+INSERT INTO `lx_member` VALUES ('208', '600116', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '203', 'B', '2', '774.00', '雷会君', '18937946868', '410381196907116529', '', '', '', '', '', '1425891543', '1');
+INSERT INTO `lx_member` VALUES ('209', '600075', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '73', '78', 'C', '1', '0.00', '翟顺', '13513794572', '410324195107280011', '', '翟顺', '6228480732229450711', '中国农业银行', '栾川', '1425898758', '1');
+INSERT INTO `lx_member` VALUES ('210', '600066', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '93', 'A', '2', '126.00', '陈小连', '13657073907', '36213319701226132x', '', '', '', '', '', '1425905359', '1');
+INSERT INTO `lx_member` VALUES ('211', '600100', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '93', 'B', '2', '50.00', '曾维富', '13097339652', '362101197612312812', '', '', '6228483478430941372', '农业银行', '', '1425905614', '1');
+INSERT INTO `lx_member` VALUES ('212', '600111', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '93', 'C', '1', '162.00', '刘即佶', '13697073574', '362101196712192518', '', '', '', '', '', '1425905923', '1');
+INSERT INTO `lx_member` VALUES ('213', '600056', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '203', 'C', '1', '162.00', '武民生', '18739058606', '410381195704046554', '', '', '', '', '', '1426043786', '1');
+INSERT INTO `lx_member` VALUES ('214', '600128', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '204', 'A', '1', '0.00', '王红梅', '13613895199', '41032119721221602x', '', '', '', '', '', '1426046098', '1');
+INSERT INTO `lx_member` VALUES ('215', '600058', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '88', '88', 'C', '1', '0.00', '柴西敏', '15517938753', '410305197009290064', '', '柴西敏', '6236682450000394326', '中国建设银行', '洛阳支行', '1426080531', '1');
+INSERT INTO `lx_member` VALUES ('216', '600098', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '204', 'B', '1', '0.00', '靳怀霞', '15036717127', '411023196806145065', '', '', '', '', '', '1426143975', '1');
+INSERT INTO `lx_member` VALUES ('217', '600136', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '73', '165', 'A', '1', '0.00', '郭治明', '13643892623', '410328197004201557', '', '郭治明', '6217002450000387604', '中国建设银行', '', '1426146781', '1');
+INSERT INTO `lx_member` VALUES ('218', '600129', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '80', '206', 'B', '1', '0.00', '李飞', '13923887155', '410303198001260014', '', '', '', '', '', '1426150057', '1');
+INSERT INTO `lx_member` VALUES ('219', '600255', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '204', 'C', '1', '0.00', '常双风', '13233918007', '410329197211155027', '', '', '', '', '', '1426161848', '1');
+INSERT INTO `lx_member` VALUES ('220', '600226', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '208', 'A', '1', '0.00', '刘战红', '13700791556', '410327197502068246', '', '', '', '', '', '1426162221', '1');
+INSERT INTO `lx_member` VALUES ('221', '600229', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '208', 'B', '1', '0.00', '夏国卿', '15538880788', '410329197305225022', '', '', '', '', '', '1426162506', '1');
+INSERT INTO `lx_member` VALUES ('222', '600258', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '213', 'A', '1', '0.00', '周素玲', '18695992539', '410321196612088140', '', '', '', '', '', '1426163005', '1');
+INSERT INTO `lx_member` VALUES ('223', '600256', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '203', '213', 'B', '1', '0.00', '武动生', '15603791737', '410321197502174032', '', '', '', '', '', '1426163398', '1');
+INSERT INTO `lx_member` VALUES ('224', '600099', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '46', '46', 'A', '1', '0.00', '姚志芹', '18688204134', '239005196407302829', '', '姚志芹', '6228480038385888627', '农业银行', '', '1426171406', '1');
+INSERT INTO `lx_member` VALUES ('225', '600239', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '92', '114', 'A', '2', '126.00', 'l李素卿', '13007550451', '410305193009080528', '', '李素卿', '6228480738631825077', '中国农业银行', '', '1426242817', '1');
+INSERT INTO `lx_member` VALUES ('226', '600138', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '92', '114', 'B', '1', '0.00', '菜秀英', '13243079356', '410303195501128002', '', '', '', '', '', '1426244539', '1');
+INSERT INTO `lx_member` VALUES ('227', '600198', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '208', '208', 'C', '2', '126.00', '韩卓衡', '15303865858', '410381199505246535', '', '', '', '', '', '1426335397', '1');
+INSERT INTO `lx_member` VALUES ('228', '601938', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '210', 'A', '1', '0.00', '欧阳天圣', '18', '410827196308073562', '', '', '', '', '', '1426384964', '1');
+INSERT INTO `lx_member` VALUES ('229', '601932', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '210', 'B', '2', '126.00', '程冬梅', '13970797845', '362101196512111322', '', '', '6228453470023004110', '', '', '1426386816', '1');
+INSERT INTO `lx_member` VALUES ('230', '601936', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '210', 'C', '1', '0.00', '张永连', '18370751026', '362132197510310327', '', '张永连', '6228483476072689168', '', '于都红旗大道支行', '1426387583', '1');
+INSERT INTO `lx_member` VALUES ('231', '600223', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '101', '166', 'A', '2', '126.00', '毛俊松', '18037627099', '410303196306102552', '', '毛俊松', '6212261705001337073', '中国工商银行', '', '1426388371', '1');
+INSERT INTO `lx_member` VALUES ('232', '600108', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '231', '231', 'A', '1', '0.00', '王周元', '18303685538', '410303194511170037', '', '王周元', '6212261705006677283', '中国工商银行', '', '1426389102', '1');
+INSERT INTO `lx_member` VALUES ('233', '600109', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '231', '231', 'B', '1', '324.00', '毛子成', '18037627099', '410303198804192510', '', '毛子成', '6215581705000298777', '中国工商银行', '', '1426389924', '1');
+INSERT INTO `lx_member` VALUES ('234', '601930', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '211', 'A', '2', '126.00', '王斯学', '15970882231', '362133198407063919', '', '', '', '', '', '1426391947', '1');
+INSERT INTO `lx_member` VALUES ('235', '601931', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '211', 'B', '2', '450.00', '王斯仁', '15170650841', '362133198608123917', '', '', '', '', '', '1426392387', '1');
+INSERT INTO `lx_member` VALUES ('236', '601929', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '211', 'C', '2', '126.00', '熊祖香', '13407971234', '362133196008123911', '', '', '', '', '', '1426393018', '1');
+INSERT INTO `lx_member` VALUES ('237', '601833', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '212', 'A', '2', '126.00', '李英', '1321708632', '362133196008062423', '', '', '', '', '', '1426393924', '1');
+INSERT INTO `lx_member` VALUES ('238', '601933', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '212', 'B', '1', '0.00', '陈平英', '13607973234', '362133196808073254', '', '', '', '', '', '1426394521', '1');
+INSERT INTO `lx_member` VALUES ('239', '601935', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '212', 'C', '1', '0.00', '李宁', '13507073442', '362133197810062123', '', '', '', '', '', '1426398010', '1');
+INSERT INTO `lx_member` VALUES ('240', '600225', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '231', '231', 'C', '1', '0.00', '曹建社', '13213608988', '410311195804034017', '', '', '', '', '', '1426399452', '1');
+INSERT INTO `lx_member` VALUES ('241', '601928', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '212', '237', 'A', '1', '0.00', '华斌', '15697897112', '362132197409051455', '', '', '', '', '', '1426406509', '1');
+INSERT INTO `lx_member` VALUES ('242', '601927', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '211', '236', 'C', '2', '126.00', '黄圣旺', '15180289088', '362101197505211936', '', '', '6228483478396117678', '', '', '1426408429', '1');
+INSERT INTO `lx_member` VALUES ('243', '600236', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '150', '150', 'C', '2', '50.00', '陈玉梅', '13525429153', '410303195310272525', '', '陈玉梅', '6228480732136310511', '中国农业银行', '', '1426410748', '1');
+INSERT INTO `lx_member` VALUES ('244', '600196', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '213', '213', 'C', '1', '0.00', '蔡蓓', '13838454777', '410304197910051027', '', '', '', '', '', '1426410807', '1');
+INSERT INTO `lx_member` VALUES ('245', '601778', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '86', '86', 'A', '1', '0.00', '杨人汉', '13970123115', '362101194502281011', '', '', '6228483471137955217', '', '', '1426418719', '1');
+INSERT INTO `lx_member` VALUES ('246', '600235', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '225', '225', 'A', '1', '486.00', '李春芝', '15538559560', '410311195603041528', '', '', '', '', '', '1426419493', '1');
+INSERT INTO `lx_member` VALUES ('247', '600093', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '246', '246', 'A', '1', '0.00', '张素娟', '18134788974', '410311194905283026', '', '张素娟', '6236682450000159018', '中国建设银行', '', '1426420144', '1');
+INSERT INTO `lx_member` VALUES ('248', '602795', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '246', '246', 'B', '1', '0.00', '漫君卫', '13698860562', '410482197512236733', '', '', '', '', '', '1426420632', '1');
+INSERT INTO `lx_member` VALUES ('249', '602791', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '246', '246', 'C', '1', '0.00', '马臣', '18848954128', '410305198010063568', '', '', '', '', '', '1426421306', '1');
+INSERT INTO `lx_member` VALUES ('250', '601925', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '229', '229', 'A', '1', '162.00', '刘春萍', '13970797845', '362101196332643787', '', '刘春萍', '622848467547857', '', '1', '1426422549', '1');
+INSERT INTO `lx_member` VALUES ('251', '601926', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '250', '250', 'A', '1', '0.00', '袁观连', '13870734828', '362132197101133862', '', '袁观连', '6228453470023322413', '', '红旗大道支行', '1426423853', '1');
+INSERT INTO `lx_member` VALUES ('252', '601922', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '229', '250', 'C', '1', '0.00', '华仔', '1', '362132197408052237', '1', '华仔', '1', '1', '1', '1426424597', '1');
+INSERT INTO `lx_member` VALUES ('253', '601896', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '229', '250', 'B', '1', '0.00', '欧阳', '1', '362122197408160309', '1', '欧阳', '', '', '', '1426424742', '1');
+INSERT INTO `lx_member` VALUES ('254', '601893', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '211', '235', 'C', '2', '50.00', '熊家庆', '18607971591', '36073219890915005x', '', '', '6228483470874248513', '', '', '1426429972', '1');
+INSERT INTO `lx_member` VALUES ('255', '601811', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '36', '36', 'C', '2', '60.00', '罗菊兰', '15083790645', '362124195209010545', '', '罗菊兰', '6228483478209067870', '农行赣州支行', '农行赣州支行', '1426472319', '1');
+INSERT INTO `lx_member` VALUES ('256', '600130', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '225', '225', 'B', '1', '0.00', '唐桂芝', '13383892604', '410303194208131027', '', '唐桂芝', '6228480731842858912', '中国农业银行', '', '1426474670', '1');
+INSERT INTO `lx_member` VALUES ('257', '602801', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '233', '233', 'A', '1', '162.00', '席宏运', '13137065659', '410302196408141513', '', '席宏运', '6228480732267324919', '中国农业银行', '', '1426475832', '1');
+INSERT INTO `lx_member` VALUES ('258', '600092', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '225', '225', 'C', '1', '162.00', '韩玉亮', '132135869785', '41030519410701107x', '', '韩玉亮', '6228480739117223076', '中国农业银行', '', '1426476590', '1');
+INSERT INTO `lx_member` VALUES ('259', '601855', 'e534c4dbe53321ef6ee00c415492fece', '2ab7f7faeb4365096c3e31a950af3e13', '36', '255', 'A', '2', '46.00', '陈小红', '18679773515', '362129197301071325', '', '陈小红', '6228483478028726672', '中国农业银行', '农业银行赣州分行', '1426477256', '1');
+INSERT INTO `lx_member` VALUES ('260', '600233', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '258', '258', 'A', '1', '0.00', '韩松珍', '15713791532', '41032519361228052x', '', '', '', '', '', '1426477529', '1');
+INSERT INTO `lx_member` VALUES ('261', '601856', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '259', 'A', '2', '88.00', '鄢俊明', '13507979625', '362101195702171030', '', '鄢俊明', '6228483478186160672', '中国农业银行', '中国农业银行赣州支行', '1426478549', '1');
+INSERT INTO `lx_member` VALUES ('262', '601857', 'e534c4dbe53321ef6ee00c415492fece', '2ab7f7faeb4365096c3e31a950af3e13', '259', '259', 'B', '2', '36.00', '邹地长', '15297776574', '362101198205051015', '', '邹地长', '6228483478382259278', '中国农业银行', '江西省赣州分行章贡支行', '1426478929', '1');
+INSERT INTO `lx_member` VALUES ('263', '602710', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '113', '113', 'A', '1', '0.00', '田振芳', '15890641005', '410181195206136548', '', '田振芳', '6217002430022900220', '中国建设银行', '河南巩义支行', '1426479797', '1');
+INSERT INTO `lx_member` VALUES ('264', '601866', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '259', 'A', '0', '0.00', '邱发昭', '15170158111', '362101197302152534', '江西省赣州市', '邱发昭', '6228433479003350414', '中国农业银行', '江西省赣州市赣县', '1426481743', '-1');
+INSERT INTO `lx_member` VALUES ('265', '601892', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '210', '229', 'B', '1', '0.00', '王凤潭', '13445632157', '360602196208151102', '', '', '6228483478397742979', '', '', '1426483168', '1');
+INSERT INTO `lx_member` VALUES ('266', '601862', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '261', '261', 'A', '1', '0.00', '鄢杰凤', '13602796899', '360702198506181021', '', '', '', '', '', '1426485090', '1');
+INSERT INTO `lx_member` VALUES ('267', '601870', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '261', '261', 'B', '1', '162.00', '李秋英', '18779727811', '411327198109172122', '', '', '', '', '', '1426485484', '1');
+INSERT INTO `lx_member` VALUES ('268', '601863', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '261', '261', 'C', '1', '0.00', '鄢杰华', '18170114246', '360102198206298049', '', '', '', '', '', '1426485653', '1');
+INSERT INTO `lx_member` VALUES ('269', '600113', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '257', '257', 'A', '1', '162.00', '陈素琴', '18638868551', '410311194905136528', '', '陈素琴', '6228480732265550515', '中国农业银行', '', '1426487014', '1');
+INSERT INTO `lx_member` VALUES ('270', '601851', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '261', '266', 'A', '1', '0.00', '鄢杰夏', '13826299822', '362101198309011085', '', '', '', '', '', '1426487324', '1');
+INSERT INTO `lx_member` VALUES ('271', '601876', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '259', 'C', '1', '162.00', '刘坤', '13479788088', '63070219870116063X', '', '', '', '', '', '1426488272', '1');
+INSERT INTO `lx_member` VALUES ('272', '601875', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '262', 'A', '1', '24.00', '杨青华', '15970884528', '362132196812032225', '', '杨青华', '6228483478431492573', '农行', '于都', '1426488725', '1');
+INSERT INTO `lx_member` VALUES ('273', '601859', 'a4a433f731e1a1a2ad09e764fd307db6', '2ab7f7faeb4365096c3e31a950af3e13', '259', '271', 'A', '2', '12.00', '邱华英', '15679706286', '362121197408316424', '', '邱华英', '6228483471339347015', '中国农业银行', '江西省赣州市文清路支行', '1426489239', '1');
+INSERT INTO `lx_member` VALUES ('274', '601860', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '85', '85', 'A', '1', '0.00', '邹凯', '15216185019', '362101194012050616', '', '', '', '', '', '1426491215', '1');
+INSERT INTO `lx_member` VALUES ('275', '601869', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '273', '273', 'A', '1', '162.00', '黄同彬', '18970784169', '362122197806041119', '', '黄同彬', '6228483476046660667', '农业银行', '赣州支行', '1426492983', '1');
+INSERT INTO `lx_member` VALUES ('276', '601879', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '273', '273', 'B', '1', '0.00', '刘重光', '13576763089', '362121195401193215', '', '', '6228483470104956612', '', '', '1426493868', '1');
+INSERT INTO `lx_member` VALUES ('277', '601871', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '262', '262', 'B', '1', '324.00', '张万升', '15579750096', '362101195012081310', '', '', '6228483470072461314', '', '', '1426495242', '1');
+INSERT INTO `lx_member` VALUES ('278', '600227', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '243', '243', 'A', '2', '126.00', '张二花', '13373790396', '410302194707012026', '', '张二花', '6228480738558032574', '中国农业银行', '', '1426496949', '1');
+INSERT INTO `lx_member` VALUES ('279', '601878', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '272', '272', 'A', '1', '0.00', '骆连生', '13970111869', '362101196312050051', '', '', '', '', '', '1426497184', '1');
+INSERT INTO `lx_member` VALUES ('280', '600252', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '278', '278', 'A', '1', '0.00', '焦书臣', '18137723619', '410303196103180534', '', '', '', '', '', '1426499206', '1');
+INSERT INTO `lx_member` VALUES ('281', '600251', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '243', '243', 'B', '1', '162.00', '李元琛', '15637971989', '410303197803132511', '', '', '', '', '', '1426505420', '1');
+INSERT INTO `lx_member` VALUES ('282', '600237', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '281', '281', 'A', '1', '0.00', '阴娜', '15637971989', '410103198104012442', '', '', '', '', '', '1426506007', '1');
+INSERT INTO `lx_member` VALUES ('283', '601689', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '271', 'B', '1', '162.00', '邱祥纹', '15679763141', '362121197701302419', '', '邱祥纹', '6228483478328716175', '中国农业银行', '农业银行赣州支行', '1426555859', '1');
+INSERT INTO `lx_member` VALUES ('284', '601706', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '262', 'C', '0', '0.00', '明立煌', '18370431319', '362132195601201717', '', '', '', '', '', '1426556691', '-1');
+INSERT INTO `lx_member` VALUES ('285', '601700', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '262', '262', 'C', '1', '162.00', '谢有信', '13170819531', '362121194708117212', '', '谢有信', '6228483478397847372', '中国农业银行', '江西省赣州分行水南分理处', '1426561297', '1');
+INSERT INTO `lx_member` VALUES ('286', '600253', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '243', '243', 'C', '1', '162.00', '吉琴', '13663888179', '410304195609061040', '', '吉琴', '6222021705014036308', '中国工商银行', '', '1426563507', '1');
+INSERT INTO `lx_member` VALUES ('287', '601692', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '267', '267', 'A', '1', '162.00', '朱玉清', '13479903866', '362101195710011061', '', '朱玉清', '6228483471309210110', '农业银行', '江西省赣州市', '1426564160', '1');
+INSERT INTO `lx_member` VALUES ('288', '601705', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '271', 'C', '1', '162.00', '明立煌', '18370431319', '362132195601201717', '', '明立煌', '6228483478096559872', '农业银行', '江西赣州支行', '1426567881', '1');
+INSERT INTO `lx_member` VALUES ('289', '602790', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '278', '278', 'B', '1', '0.00', '张中明', '13373790396', '620502193902190018', '', '张中明', '6228480738558032574', '中国农业银行', '', '1426570656', '1');
+INSERT INTO `lx_member` VALUES ('290', '600257', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '278', '278', 'C', '2', '50.00', '杨旗峰', '13373790396', '410302197905292018', '', '杨旗峰', '6228480738558032574', '中国农业银行', '', '1426571557', '1');
+INSERT INTO `lx_member` VALUES ('291', '6000112', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '208', '220', 'A', '1', '0.00', '雷会英', '13271526820', '410321197211276565', '', '', '', '', '', '1426579219', '1');
+INSERT INTO `lx_member` VALUES ('292', '601839', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '85', '85', 'B', '2', '422.00', '庄国华', '18979798205', '362126196103120612', '', '庄国华', '6228483476098204166', '农业银行', '赣州崇义县支行阳岭分理处', '1426583967', '1');
+INSERT INTO `lx_member` VALUES ('293', '601798', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '85', '85', 'C', '1', '0.00', '谢庆贵', '18679768419', '362101195001050332', '', '谢庆贵', '6228483478326642472', '农业银行', '', '1426584483', '1');
+INSERT INTO `lx_member` VALUES ('294', '600127', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '233', '233', 'B', '1', '162.00', '金秀芳', '15037942146', '410303196711292548', '', '金秀芳', '6216618002001774534', '中国银行', '河南洛阳支行', '1426585685', '1');
+INSERT INTO `lx_member` VALUES ('295', '600180', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '294', '294', 'A', '1', '0.00', '王东华', '18037627099', '411123197711269524', '', '王东华', '6228482926181532262', '中国农业银行', '河南漯河支行', '1426586527', '1');
+INSERT INTO `lx_member` VALUES ('296', '600182', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '92', '114', 'C', '1', '0.00', '韩秀蕊', '16', '41030519420310318x', '', '', '', '', '', '1426590250', '1');
+INSERT INTO `lx_member` VALUES ('297', '601886', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '254', '254', 'A', '2', '126.00', '彭青莲', '18970129623', '362101194710290625', '', '', '6228483470443636412', '', '', '1426591338', '1');
+INSERT INTO `lx_member` VALUES ('298', '601728', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '273', '273', 'C', '2', '126.00', '吴荷秀', '18759011361', '350821198909303620', '', '吴荷秀', '6228481558026070579', '农业银行', '福建省龙岩市长汀县支行', '1426593733', '1');
+INSERT INTO `lx_member` VALUES ('299', '601697', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '262', '285', 'A', '2', '126.00', '杨仁珍', '13870738633', '362126196606270022', '', '杨仁珍', '6228483478317095979', '中国农业银行', '江西省赣州市支行', '1426594387', '1');
+INSERT INTO `lx_member` VALUES ('300', '601719', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '272', 'B', '1', '0.00', '钟拥军', '13320079391', '362125197103064014', '', '钟拥军', '6228483471571016310', '中国农业银行', '江西省赣州市支行', '1426594930', '1');
+INSERT INTO `lx_member` VALUES ('301', '601696', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '283', '283', 'A', '1', '0.00', '陈庆珍', '15879747725', '362428197712287745', '', '陈庆珍', '6228483478209373971', '中国农业银行', '', '1426595314', '1');
+INSERT INTO `lx_member` VALUES ('302', '601698', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '271', '283', 'B', '1', '0.00', '李明径', '15975426118', '362101197010241957', '', '李明径', '', '', '', '1426600537', '1');
+INSERT INTO `lx_member` VALUES ('303', '601887', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '254', '297', 'A', '1', '0.00', '郑族华', '18650821281', '352622197606061233', '', '', '6228481558122137876', '', '', '1426636368', '1');
+INSERT INTO `lx_member` VALUES ('304', '601836', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '297', '297', 'B', '1', '162.00', '程洪山', '13803511290', '360104195902251913', '江西省南昌市站前西路3号   邮编：330002', '程洪山', '6228480921263834415', '中国农业银行', '江西省南昌市银星支行', '1426637045', '1');
+INSERT INTO `lx_member` VALUES ('305', '601937', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '297', '297', 'C', '2', '126.00', '肖华庆', '13698470514', '36213319560613422X', '', '', '6228483478068928071', '', '', '1426637392', '1');
+INSERT INTO `lx_member` VALUES ('306', '601868', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '255', '255', 'B', '1', '0.00', '高丽华', '18879857214', '360203195807013529', '', '高丽华', '6228481560671533513', '中国农业银行', '赣州支行', '1426643096', '1');
+INSERT INTO `lx_member` VALUES ('307', '601867', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '255', '255', 'C', '1', '0.00', '刘中玲', '15879787881', '362101197209230649', '', '', '', '', '', '1426643272', '1');
+INSERT INTO `lx_member` VALUES ('308', '601873', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '36', '205', 'A', '1', '0.00', '廖光生', '601873', '362122195412150233', '', '', '', '', '', '1426644331', '1');
+INSERT INTO `lx_member` VALUES ('309', '601872', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '36', '86', 'B', '2', '60.00', '李燕英', '15570063562', '362101196310050621', '', '李燕英', '6228483471113601611', '中国农业银行', '赣州支行', '1426644540', '1');
+INSERT INTO `lx_member` VALUES ('310', '601861', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '255', '306', 'A', '1', '0.00', '王广兰', '15873471562', '430419195807243703', '', '', '', '', '', '1426645160', '1');
+INSERT INTO `lx_member` VALUES ('311', '601768', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '292', '292', 'A', '3', '54.00', '欧阳辉华', '13317973191', '362133197003235816', '', '欧阳辉华', '6228413470134041919', '农业银行', '', '1426645774', '1');
+INSERT INTO `lx_member` VALUES ('312', '601701', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '287', '287', 'A', '1', '0.00', '蔡勇慧', '15979776172', '362101195707230028', '', '蔡勇慧', '6228483478328801274', '中国农业银行', '江西省赣州市支行', '1426647404', '1');
+INSERT INTO `lx_member` VALUES ('313', '601713', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '285', '285', 'B', '1', '0.00', '杨长源', '15970897238', '362102194711200018', '', '杨长源', '', '', '', '1426649105', '1');
+INSERT INTO `lx_member` VALUES ('314', '600175', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '290', '290', 'A', '1', '0.00', '芦杨', '13937961018', '410302199010130017', '', '', '', '', '', '1426651567', '1');
+INSERT INTO `lx_member` VALUES ('315', '601865', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '309', '309', 'A', '2', '98.00', '董静', '13319498678', '362101196310290369', '', '董静', '6228483478326907073', '中国农业银行', '赣州支行', '1426657852', '1');
+INSERT INTO `lx_member` VALUES ('316', '601699', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '298', '298', 'A', '1', '0.00', '涂健海', '15206059193', '350821198803263632', '', '涂健海', '6228481552633409213', '中国农业银行', '福建省龙岩市长汀县支行', '1426661649', '1');
+INSERT INTO `lx_member` VALUES ('317', '601709', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '298', '298', 'B', '1', '0.00', '涂健晖', '18650881181', '350821198704263610', '', '涂健晖', '6228481558537581874', '中国农业银行', '福建省龙岩市长汀县支行', '1426662390', '1');
+INSERT INTO `lx_member` VALUES ('318', '601716', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '298', '298', 'C', '1', '162.00', '温俊辉', '15880211964', '350821198601143659', '', '温俊辉', '622848007012398913', '中国农业银行', '福建省厦门市湖里区中孚支行', '1426662708', '1');
+INSERT INTO `lx_member` VALUES ('319', '601711', 'bbfccdf7fb15c4a1c07717edbbbf2c3c', '2ab7f7faeb4365096c3e31a950af3e13', '277', '277', 'A', '1', '162.00', '许兰生', '13133776553', '362122195706104830', '', '许兰生', '6228483470826994016', '中国农业银行', '江西省赣州市', '1426663210', '1');
+INSERT INTO `lx_member` VALUES ('320', '601777', '0eb3fa732ca958ef6d30e472033a0734', '2ab7f7faeb4365096c3e31a950af3e13', '292', '292', 'B', '1', '0.00', '郭向阳', '18370826793', '362427195911231132', '江西赣州市', '郭向阳', '6228483471412608812', '中国农业银行', '江西赣州市章贡支行', '1426663277', '1');
+INSERT INTO `lx_member` VALUES ('321', '601693', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '259', '268', 'A', '1', '162.00', '王晓棠', '13684804697', '36210119770620226x', '', '王晓棠', '中国农业银行', '6228483478028687072', '江西省赣州市支行', '1426668753', '1');
+INSERT INTO `lx_member` VALUES ('322', '601880', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '309', '309', 'B', '1', '0.00', '李祖齐', '18770769646', '362101193208270616', '', '', '', '', '', '1426672610', '1');
+INSERT INTO `lx_member` VALUES ('323', '601718', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '321', '321', 'A', '1', '0.00', '邱永红', '13117978119', '362101196903082522', '', '邱永红', '6228483471081896219', '中国农业银行', '江西省赣州市龙都支行', '1426672733', '1');
+INSERT INTO `lx_member` VALUES ('324', '600690', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '309', '309', 'C', '2', '74.00', '刘锡洋', '18679677269', '36213219630428141X', '', '刘锡洋', '6228483470345703419', '中国农业银行', '赣州支行', '1426672988', '1');
+INSERT INTO `lx_member` VALUES ('325', '601715', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '318', '318', 'A', '1', '0.00', '吴繁荣', '13950052025', '350821198302093655', '福建省厦门市', '吴繁荣', '6228480078042241774', '中国农业银行', '厦门市分行', '1426673141', '1');
+INSERT INTO `lx_member` VALUES ('326', '601691', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '273', '275', 'A', '1', '162.00', '赖祖祥', '13617079616', '362132197802211734', '江西省赣州市', '赖祖祥', '6228483470824510715', '中国农业银行', '江西省赣州市青年路支行', '1426680514', '1');
+INSERT INTO `lx_member` VALUES ('327', '601853', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '236', '236', 'B', '1', '0.00', '巫记连', '15216116284', '441827198207207221', '', '', '', '', '', '1426683903', '1');
+INSERT INTO `lx_member` VALUES ('328', '601717', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '272', '272', 'C', '1', '162.00', '黄平阳', '18296886553', '362132197705054394', '', '黄平阳', '6228483478139529171', '中国农业银行', '江西省于都支行', '1426684292', '1');
+INSERT INTO `lx_member` VALUES ('329', '600286', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '78', '165', 'B', '1', '0.00', '李顺先', '18337988405', '41032219700310612x', '', '李顺先', '6228480738181089272', '中国农业银行', '', '1426688948', '1');
+INSERT INTO `lx_member` VALUES ('330', '600788', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '311', '311', 'A', '3', '54.00', '赖火玲', '18970128678', '362133197612015122', '', '', '', '', '', '1426730514', '1');
+INSERT INTO `lx_member` VALUES ('331', '600666', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '311', '311', 'B', '1', '0.00', '欧阳金荣', '18070575088', '362133197408185810', '', '', '', '', '', '1426730904', '1');
+INSERT INTO `lx_member` VALUES ('332', '600668', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '311', '311', 'C', '1', '162.00', '欧阳斌', '18070575099', '362133194808275811', '', '', '', '', '', '1426731290', '1');
+INSERT INTO `lx_member` VALUES ('333', '600808', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '332', '332', 'A', '1', '0.00', '钟明生', '18607973316', '362133197604050032', '', '', '', '', '', '1426736724', '1');
+INSERT INTO `lx_member` VALUES ('334', '601726', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '299', '299', 'A', '1', '324.00', '赖凯', '13979705132', '360725199807010030', '', '赖凯', '6228483478431161871', '中国农业银行', '江西省赣州市越秀支行', '1426753843', '1');
+INSERT INTO `lx_member` VALUES ('335', '601695', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '299', '299', 'B', '1', '0.00', '彭春红', '15279768516', '362124197606031824', '', '彭春红', '6228483476014862667', '中国农业银行', '', '1426754754', '1');
+INSERT INTO `lx_member` VALUES ('336', '601731', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '299', '299', 'C', '1', '0.00', '赖和兰', '13870738633', '362126194011190447', '', '赖和兰', '', '中国农业银行', '', '1426754993', '1');
+INSERT INTO `lx_member` VALUES ('337', '601727', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '334', '334', 'A', '1', '0.00', '杨仁建', '15070765116', '362126197302020416', '', '杨仁建', '62284878290317275', '中国农业银行', '江西省赣州市崇义县支行', '1426756123', '1');
+INSERT INTO `lx_member` VALUES ('338', '601725', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '288', '288', 'A', '1', '0.00', '黄桂红', '13879744945', '362124196501190349', '', '黄桂红', '6228483478328694471', '中国农业银行', '江西省赣州市分行', '1426758003', '1');
+INSERT INTO `lx_member` VALUES ('339', '600768', '95d4f17297a6fbd5fca0a0f0f4c51fd2', '2ab7f7faeb4365096c3e31a950af3e13', '330', '330', 'A', '1', '324.00', '陈志高', '18607073778', '362133195001010059', '', '', '', '', '', '1426818877', '1');
+INSERT INTO `lx_member` VALUES ('340', '600698', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '339', '339', 'A', '1', '0.00', '曾斌', '13155795188', '362133196804040037', '', '', '', '', '', '1426824886', '1');
+INSERT INTO `lx_member` VALUES ('341', '600188', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '32', '32', 'C', '1', '0.00', '何玉彬', '15333794637', '410482197202028218', '', '', '', '', '', '1426847758', '1');
+INSERT INTO `lx_member` VALUES ('342', '601852', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '305', '305', 'C', '1', '0.00', '詹小红', '15979811034', '36210119651121002X', '', '', '6228483478382036270', '', '', '1426849214', '1');
+INSERT INTO `lx_member` VALUES ('343', '601712', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '273', '276', 'A', '1', '0.00', '熊满珍', '13979707318', '36210119560911068x', '', '熊满珍', '6228483478316726475', '中国农业银行', '江西省赣州市分行', '1426852377', '1');
+INSERT INTO `lx_member` VALUES ('344', '600755', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '309', '324', 'A', '1', '0.00', '欧阳琳', '15307979027', '362122195001130027', '', '', '', '', '', '1426852612', '1');
+INSERT INTO `lx_member` VALUES ('345', '600915', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '309', '324', 'B', '0', '0.00', '肖军', '18370760908', '362101196207311010', '', '', '', '', '', '1426853111', '1');
+INSERT INTO `lx_member` VALUES ('346', '601673', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '309', '315', 'A', '0', '0.00', '李黎明', '18007077825', '362101196101310669', '', '', '', '', '', '1426853457', '1');
+INSERT INTO `lx_member` VALUES ('347', '601770', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '292', '292', 'C', '2', '74.00', '庄萍', '13697903601', '360725198604220623', '', '庄萍', '6228483478065335379', '农业银行', '赣州南京路支行', '1426854273', '1');
+INSERT INTO `lx_member` VALUES ('348', '601759', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '347', '347', 'A', '1', '0.00', '幸程霞', '13766397396', '362101196810190022', '', '幸程霞', '6228483471338173917', '农业银行', '', '1426854851', '1');
+INSERT INTO `lx_member` VALUES ('349', '601702', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '328', '328', 'A', '1', '0.00', '张品胜', '13970139092', '362126196603241111', '', '张品胜', '6228483478206158979', '中国农业银行', '江西省赣州市支行', '1426856390', '1');
+INSERT INTO `lx_member` VALUES ('350', '601783', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '315', '315', 'A', '2', '74.00', '肖军', '18370760908', '362101196207311010', '', '', '', '', '', '1426856416', '1');
+INSERT INTO `lx_member` VALUES ('351', '601763', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '315', '315', 'B', '1', '0.00', '李黎明', '18007077825', '362101196101310668', '', '', '', '', '', '1426856822', '1');
+INSERT INTO `lx_member` VALUES ('352', '601762', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '315', '315', 'C', '2', '126.00', '凌清华', '13879728836', '362136197504070027', '', '', '', '', '', '1426857282', '1');
+INSERT INTO `lx_member` VALUES ('353', '601761', 'e48a525923b719ac9870f51eefc5bf08', '2ab7f7faeb4365096c3e31a950af3e13', '352', '352', 'A', '3', '54.00', '范晓波', '18679715055', '360104198611071924', '', '', '', '', '', '1426857898', '1');
+INSERT INTO `lx_member` VALUES ('354', '601782', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '350', '350', 'A', '1', '324.00', '兰恩权', '13970795609', '362101195310080017', '', '', '', '', '', '1426858277', '1');
+INSERT INTO `lx_member` VALUES ('355', '601881', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '254', '304', 'B', '1', '0.00', '周品希', '13755803280', '362126197504180223', '', '', '6228483471208775015', '', '', '1426915016', '1');
+INSERT INTO `lx_member` VALUES ('356', '600169', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '286', '286', 'A', '1', '0.00', '杨百州', '13526908767', '410304195501091010', '', '', '', '', '', '1426929463', '1');
+INSERT INTO `lx_member` VALUES ('357', '601850', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '305', '305', 'B', '1', '0.00', '丁青玲', '13576705221', '362123197801194243', '', '', '6228483471339370116', '', '', '1426930547', '1');
+INSERT INTO `lx_member` VALUES ('358', '601895', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '304', '304', 'C', '1', '0.00', '谢金', '13677978896', '362101195209231626', '', '', '6228483470719580013', '', '', '1426936698', '1');
+INSERT INTO `lx_member` VALUES ('359', '600190', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '269', '269', 'A', '1', '0.00', '郑月琴', '13837924351', '411221195303044020', '', '', '', '', '', '1426952429', '1');
+INSERT INTO `lx_member` VALUES ('360', '600818', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '330', '330', 'B', '2', '126.00', '黄光洋', '18970135892', '362133197310071516', '江西省兴国县', '黄光洋', '6228483478097642677', '中国农业银行', '兴国支行', '1426990501', '1');
+INSERT INTO `lx_member` VALUES ('361', '602288', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '34', '34', 'A', '2', '88.00', '孙现坡', '18638885831', '410482195312203313', '河南省洛阳市老城区北大街', '孙现坡', '6228480738152776071', '中国农业银行', '洛阳老城青年宫支行', '1427002071', '1');
+INSERT INTO `lx_member` VALUES ('362', '601838', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '242', '242', 'C', '1', '0.00', '黄作裕', '13767791690', '362101196610151918', '', '', '6228413470110938112', '', '', '1427011919', '1');
+INSERT INTO `lx_member` VALUES ('363', '600627', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '350', '350', 'B', '2', '126.00', '马赣英', '13667076297', '36210119621231008X', '', '', '', '', '', '1427015006', '1');
+INSERT INTO `lx_member` VALUES ('364', '600727', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '350', '350', 'C', '2', '126.00', '钟慧英', '13879716834', '362125196410220529', '', '', '', '', '', '1427015278', '1');
+INSERT INTO `lx_member` VALUES ('365', '600631', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '364', '364', 'A', '1', '0.00', '张继香', '18579798682', '362124196211070023', '', '张继香', '6228483478328257279', '中国农业银行', '江西赣州支行', '1427017543', '1');
+INSERT INTO `lx_member` VALUES ('366', '600166', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '101', '166', 'B', '2', '126.00', '杨保林', '15538586674', '410205196605132054', '', '杨保林', '6212261705006709011', '中国工商银行', '', '1427018167', '1');
+INSERT INTO `lx_member` VALUES ('367', '600168', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '366', '366', 'A', '1', '0.00', '王胜江', '17767092285', '41088119730616301x', '', '王胜江', '6228484171603864716', '中国农业银行', '', '1427019462', '1');
+INSERT INTO `lx_member` VALUES ('368', '601877', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '326', '326', 'A', '1', '0.00', '魏修月', '18779788965', '362124195805280023', '', '魏修月', '6228483478382161276', '中国农业银行', '江西省赣州市', '1427020237', '1');
+INSERT INTO `lx_member` VALUES ('369', '600163', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '366', '366', 'B', '1', '0.00', '史留武', '15538586674', '410305196801030536', '', '史留武', '6222620830002117061', '洛阳交通银行', '', '1427020568', '1');
+INSERT INTO `lx_member` VALUES ('370', '600165', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '366', '366', 'C', '1', '0.00', '史新玲', '15538586674', '410305195607254523', '', '史新玲', '6222620830001876675', '交通银行', '', '1427021372', '1');
+INSERT INTO `lx_member` VALUES ('371', '601707', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '275', '275', 'B', '1', '0.00', '曾劲松', '13361771098', '36213219701101083x', '', '曾劲松', '6228483478291949571', '中国农业银行', '江西省赣州市', '1427027579', '1');
+INSERT INTO `lx_member` VALUES ('372', '601772', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '350', '363', 'A', '1', '324.00', '朱龙英', '13097301739', '362101195405260723', '', '朱龙英', '6228453478005941274', '中国农业银行', '江西赣州支行', '1427099958', '1');
+INSERT INTO `lx_member` VALUES ('373', '600653', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '364', '364', 'B', '1', '162.00', '郭飞', '13767726337', '362123197901234513', '', '郭飞', '6228483478327014978', '中国农业银行', '江西赣州', '1427102018', '1');
+INSERT INTO `lx_member` VALUES ('374', '600660', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '364', '364', 'C', '2', '126.00', '刘建妹', '15770728678', '362101195603300626', '', '刘建妹', '6228483471388622714', '中国农业银行', '江西赣州', '1427102401', '1');
+INSERT INTO `lx_member` VALUES ('375', '601773', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '372', '372', 'A', '1', '0.00', '刘小平', '15870701811', '362121195410054815', '', '刘小平', '6228483471113925010', '中国农业银行', '江西赣州支行', '1427103213', '1');
+INSERT INTO `lx_member` VALUES ('376', '600659', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '363', '363', 'B', '1', '0.00', '许位超', '15279780658', '362121198110043659', '', '', '', '', '', '1427103574', '1');
+INSERT INTO `lx_member` VALUES ('377', '600758', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '330', '330', 'C', '2', '250.00', '廖声才', '15179611719', '36242519501002001x', '江西吉安市永丰县恩江镇永淑路一栋一单四号', '廖声才', '6228482311474403317', '农业银行', '江西省吉安市永丰支行', '1427103631', '1');
+INSERT INTO `lx_member` VALUES ('378', '111168', 'b578e264eca5cc8bb4d45743df5b7f6d', 'b578e264eca5cc8bb4d45743df5b7f6d', '315', '351', 'A', '0', '0.00', '董斌', '13319498678', '36210119690323037x', '', '董斌', '6217002120001980216', '建设银行', '江西赣州市支行', '1427120317', '1');
+INSERT INTO `lx_member` VALUES ('379', '647918', 'b578e264eca5cc8bb4d45743df5b7f6d', 'b578e264eca5cc8bb4d45743df5b7f6d', '315', '351', 'B', '0', '0.00', '刘娣招', '13319498678', '362101194102150047', '', '刘娣招', '6212261510000773876', '工商银行', '', '1427120805', '1');
+INSERT INTO `lx_member` VALUES ('380', '600669', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '377', '377', 'A', '2', '126.00', '张凤秀', '18907969048', '362425195203150048', '江西吉安市永丰县直街', '张凤秀', '', '中国农业银行', '', '1427161816', '1');
+INSERT INTO `lx_member` VALUES ('381', '600778', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '377', '377', 'B', '2', '288.00', '廖明华', '15390796131', '362425197411080119', '江西吉安市永丰县县城直街', '廖明华', '9559982311274462315', '农业铱行', '吉安市永丰县支行', '1427162044', '1');
+INSERT INTO `lx_member` VALUES ('382', '600779', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '377', '377', 'C', '1', '486.00', '廖雪华', '15170855187', '362425197701250040', '', '', '', '', '', '1427162425', '1');
+INSERT INTO `lx_member` VALUES ('383', '600809', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '339', '339', 'B', '1', '0.00', '龙振祥', '18179642895', '362421195502276817', '', '龙振祥', '6228482310792959810', '中国农业银行', '吉安市吉安县支行', '1427163232', '1');
+INSERT INTO `lx_member` VALUES ('384', '601760', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '372', '372', 'B', '1', '0.00', '钟福莲', '15279744728', '362101195312080686', '', '', '', '', '', '1427182874', '1');
+INSERT INTO `lx_member` VALUES ('385', '601722', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '277', '277', 'B', '2', '126.00', '李升姣', '15083789768', '362101195811020047', '', '李升姣', '6228483470916052113', '中国农业银行', '江西省赣州分行厚德支行', '1427183013', '1');
+INSERT INTO `lx_member` VALUES ('386', '601775', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '373', '373', 'A', '1', '0.00', '张伸香', '13970795974', '362101195909251628', '', '', '', '', '', '1427184021', '1');
+INSERT INTO `lx_member` VALUES ('387', '601752', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '84', '198', 'A', '1', '162.00', '孔泓淦', '13217975501', '362137196308060034', '', '孔泓淦', '6228483471187742317', '农业银行', '赣州厚德分理处', '1427189083', '1');
+INSERT INTO `lx_member` VALUES ('388', '601188', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '361', '361', 'A', '1', '324.00', '朱永明', '13346986995', '410305196712204151', '', '', '', '', '', '1427194161', '1');
+INSERT INTO `lx_member` VALUES ('389', '600118', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '290', '290', 'B', '1', '162.00', '张彩霞', '13373790396', '410306196804190048', '', '张彩霞', '6228480738558032574', '中国农业银行', '', '1427197021', '1');
+INSERT INTO `lx_member` VALUES ('390', '600171', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '290', '290', 'C', '1', '0.00', '方便', '13233947538', '410322195106204727', '', '方便', '6228480731987811510', '中国农业银行', '', '1427197436', '1');
+INSERT INTO `lx_member` VALUES ('391', '600172', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '389', '389', 'A', '1', '162.00', '田书香', '13526944272', '410302194311152524', '', '田书香', '6228480732136376215', '中国农业银行', '', '1427197821', '1');
+INSERT INTO `lx_member` VALUES ('392', '600187', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '391', '391', 'A', '2', '126.00', '李素玲', '15565372056', '410302194501132022', '', '李素玲', '6228480738456417075', '中国农业银行', '', '1427198170', '1');
+INSERT INTO `lx_member` VALUES ('393', '600230', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '392', '392', 'A', '1', '162.00', '孙淑花', '15515306887', '410303193903230022', '', '孙淑花', '6228480731203299615', '中国农业银行', '', '1427198555', '1');
+INSERT INTO `lx_member` VALUES ('394', '600161', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '392', '392', 'B', '1', '0.00', '赵粉桃', '13233993224', '410302195011100524', '', '赵粉桃', '6228480732268098611', '中国农业银行', '', '1427199030', '1');
+INSERT INTO `lx_member` VALUES ('395', '601315', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '392', '392', 'C', '1', '0.00', '李春秀', '18211965254', '410303194604240524', '', '李春秀', '62284807366588302570', '中国农业银行', '', '1427199504', '1');
+INSERT INTO `lx_member` VALUES ('396', '601313', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '393', '393', 'A', '1', '0.00', '陈素敏', '62312431', '41030319420102152x', '', '', '', '', '', '1427199858', '1');
+INSERT INTO `lx_member` VALUES ('397', '558037', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '361', '361', 'B', '0', '0.00', '胡英平', '13525903577', '41048219550414002x', '洛阳市老城区北大街宝安园', '胡英平', '9559980737768704717', '中国农业银行', '洛阳市老城区青年宫支行', '1427252568', '1');
+INSERT INTO `lx_member` VALUES ('398', '600810', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '387', '387', 'A', '1', '0.00', '黄嘉松', '13576692507', '350424197610121219', '赣州章贡爱丁堡', '黄嘉松', '6228483476016420761', '农行银行', '赣州市章贡区红旗支行', '1427252923', '1');
+INSERT INTO `lx_member` VALUES ('399', '600819', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '380', '380', 'A', '2', '126.00', '胡淑华', '18070464111', '362421195804150021', '', '', '', '', '', '1427255489', '1');
+INSERT INTO `lx_member` VALUES ('400', '601757', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '262', '277', 'C', '1', '0.00', '刘美春', '13698056556', '362133196709270029', '', '刘美春', '6228483471103684312', '中国农业银行', '江西省赣州市兴国县支行', '1427279737', '1');
+INSERT INTO `lx_member` VALUES ('401', '601765', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '334', '334', 'B', '1', '0.00', '陶庆兰', '18172756878', '231083195903074447', '', '陶庆兰', '6228483478095830472', '中国农业银行', '江西省赣州市', '1427280202', '1');
+INSERT INTO `lx_member` VALUES ('402', '600815', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '273', '275', 'C', '1', '0.00', '宋海军', '13479955621', '360733198806252797', '', '宋海军', '6228483478095029471', '中国农业银行', '江西省赣州市华坚路黄金支行', '1427280668', '1');
+INSERT INTO `lx_member` VALUES ('403', '600667', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '363', '363', 'C', '1', '0.00', '刘尤彬', '13667076297', '360702198909280016', '', '', '', '', '', '1427288641', '1');
+INSERT INTO `lx_member` VALUES ('404', '600805', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '374', '374', 'A', '1', '0.00', '廖红霞', '18397973170', '441424198901111181', '', '廖红霞', '6228483471571924612', '中国农业银行', '江西赣州支行', '1427289489', '1');
+INSERT INTO `lx_member` VALUES ('405', '600663', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '354', '354', 'A', '1', '162.00', '曾林根', '13507072590', '362131196207290035', '', '曾林根', '6228483470009070311', '中国农业银行', '江西赣州支行', '1427289940', '1');
+INSERT INTO `lx_member` VALUES ('406', '600661', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '405', '405', 'A', '1', '0.00', '钟金春', '13970734916', '362131196103010035', '', '', '', '', '', '1427290279', '1');
+INSERT INTO `lx_member` VALUES ('407', '600623', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '385', '385', 'A', '1', '0.00', '李勇', '13970767336', '360702198603300694', '', '李升娇', '6228483470916052113', '中国农业银行', '江西省赣州分行厚德支行', '1427337055', '1');
+INSERT INTO `lx_member` VALUES ('408', '600820', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '374', '374', 'B', '1', '0.00', '王蕙', '15770728678', '362101198009220686', '', '', '', '', '', '1427337273', '1');
+INSERT INTO `lx_member` VALUES ('409', '600621', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '385', '385', 'B', '1', '0.00', '樊季生', '18720717266', '362101196210090036', '', '李升姣', '6228483470916052113', '中国农业银行', '江西省赣州分行厚德支行', '1427337636', '1');
+INSERT INTO `lx_member` VALUES ('410', '600665', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '363', '372', 'C', '1', '0.00', '张贤福', '13617073959', '362102197502285514', '', '张贤福', '6228483478382313372', '中国农业银行', '江西赣州支行', '1427337754', '1');
+INSERT INTO `lx_member` VALUES ('411', '601710', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '385', '385', 'C', '1', '0.00', '李雪春', '15216181728', '362101198001310660', '', ' 李升姣', '6228483470916052113', '中国农业银行', '江西省赣州分行厚德支行', '1427337867', '1');
+INSERT INTO `lx_member` VALUES ('412', '600817', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '353', '353', 'A', '1', '162.00', '赖欣', '13766377922', '362123195910126814', '', '', '', '', '', '1427338187', '1');
+INSERT INTO `lx_member` VALUES ('413', '600652', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '412', '412', 'A', '2', '50.00', '李茂芳', '15579858898', '362123196806074537', '', '李茂芳', '6228483471082602517', '中国农业银行', '赣州支行', '1427339268', '1');
+INSERT INTO `lx_member` VALUES ('414', '600639', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '413', '413', 'A', '3', '88.00', '钟贵秀', '15970013930', '360723198605093424', '', '钟贵秀', '6228483478432839475', '中国农业银行', '赣州信丰分行', '1427340145', '1');
+INSERT INTO `lx_member` VALUES ('415', '601781', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '413', '413', 'B', '1', '162.00', '李小文', '13576703127', '362123196704044513', '', '', '', '', '', '1427340412', '1');
+INSERT INTO `lx_member` VALUES ('416', '601751', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '413', '413', 'C', '1', '486.00', '李花红', '18370705320', '362123197703114529', '', '李花红', '6228483478291517675', '中国农业银行', '赣州市信丰分行', '1427340776', '1');
+INSERT INTO `lx_member` VALUES ('417', '601228', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '388', '388', 'A', '1', '0.00', '麻雪娥', '15225405606', '410311195610205543', '', '', '', '', '', '1427340924', '1');
+INSERT INTO `lx_member` VALUES ('418', '600821', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '255', '306', 'B', '1', '0.00', '罗新兰', '15970120785', '362126196010160623', '', '', '', '', '', '1427342428', '1');
+INSERT INTO `lx_member` VALUES ('419', '600812', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '255', '306', 'C', '1', '0.00', '王丽红', '13632469016', '410202198309040526', '', '', '', '', '', '1427342665', '1');
+INSERT INTO `lx_member` VALUES ('420', '601785', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '319', '319', 'A', '1', '0.00', '李璇', '18679718155', '362101198305091022', '', '李璇', '6228483471510628613', '中国农业银行', '江西省赣州分行', '1427344408', '1');
+INSERT INTO `lx_member` VALUES ('421', '600825', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '84', '198', 'B', '1', '0.00', '何明柏', '15079748886', '36210319630914683X', '', '何明柏', '6228453470004975213', '农业银行', '赣州市崇义', '1427355751', '1');
+INSERT INTO `lx_member` VALUES ('422', '600650', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '360', '360', 'A', '1', '0.00', '程晓丽', '13576710221', '362101198312012564', '赣州', '程晓丽', '6228483471568906010', '农业银行', '农业银行', '1427356838', '1');
+INSERT INTO `lx_member` VALUES ('423', '600822', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '360', '360', 'B', '1', '162.00', '阳仕倩', '18970704585', '362129194407050019', '', '阳仕倩', '6228483470781754710', '农业银行', '赣州兴国支行', '1427368252', '1');
+INSERT INTO `lx_member` VALUES ('424', '600622', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '381', '381', 'A', '1', '0.00', '邹招凤', '15979676523', '362425197307220040', '吉安市永丰县县城直街', '邹招凤', '', '农业银行', '', '1427378552', '1');
+INSERT INTO `lx_member` VALUES ('425', '600633', '8c0587bd4e1791c711a7e510ea9008fc', '2ab7f7faeb4365096c3e31a950af3e13', '381', '381', 'C', '1', '162.00', '熊安英', '18607967848', '362401196403251525', '江西省吉安市吉州区', '', '', '', '', '1427400930', '1');
+INSERT INTO `lx_member` VALUES ('426', '600629', 'b3a712a2633abaac536a1ce6f65f476d', 'b3a712a2633abaac536a1ce6f65f476d', '381', '381', 'A', '0', '0.00', '廖君华', '15979676523', '362425197201130026', '吉安市永丰县桥南', '', '', '', '', '1427404185', '-1');
+INSERT INTO `lx_member` VALUES ('427', '600655', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '399', '399', 'A', '1', '0.00', '肖木林', '15979652659', '362421195207200414', '', '', '', '', '', '1427407217', '1');
+INSERT INTO `lx_member` VALUES ('428', '601771', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '350', '354', 'B', '1', '162.00', '邱玉香', '13627046286', '362132197201250324', '', '', '', '', '', '1427421654', '1');
+INSERT INTO `lx_member` VALUES ('429', '601236', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '361', '361', 'B', '1', '0.00', '胡英平', '13525903577', '410827196811203517', '', '', '', '', '', '1427423538', '1');
+INSERT INTO `lx_member` VALUES ('430', '601237', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '361', '361', 'C', '1', '0.00', '杜会乐', '15517985083', '410482195311203315', '', '', '', '', '', '1427423977', '1');
+INSERT INTO `lx_member` VALUES ('431', '600789', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '360', '360', 'C', '1', '0.00', '卜玉梅', '18970135892', '362133198102041528', '', '', '', '', '', '1427424220', '1');
+INSERT INTO `lx_member` VALUES ('432', '601891', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '235', 'B', '1', '0.00', '王飞', '2', '362133198708053946', '', '', '', '', '', '1427429622', '1');
+INSERT INTO `lx_member` VALUES ('433', '601791', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '93', '235', 'A', '1', '0.00', '王贵', '5', '362133198707053948', '', '', '', '', '', '1427430020', '1');
+INSERT INTO `lx_member` VALUES ('434', '601889', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '236', '236', 'A', '1', '0.00', '金明', '1', '362133198906123964', '', '', '', '', '', '1427431963', '1');
+INSERT INTO `lx_member` VALUES ('435', '601890', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '237', '237', 'B', '1', '0.00', '张路', '3', '362133198709083962', '', '', '', '', '', '1427432333', '1');
+INSERT INTO `lx_member` VALUES ('436', '601885', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '237', '237', 'C', '1', '0.00', '陈明路', '3', '362133197808093913', '', '', '', '', '', '1427432755', '1');
+INSERT INTO `lx_member` VALUES ('437', '601266', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '361', '388', 'B', '1', '0.00', '曹建彬', '18537937378', '511111197308141019', '', '', '', '', '', '1427433991', '1');
+INSERT INTO `lx_member` VALUES ('438', '601268', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '208', '227', 'A', '2', '126.00', '高素霞', '13838811393', '410303196705280524', '', '', '', '', '', '1427434444', '1');
+INSERT INTO `lx_member` VALUES ('439', '601298', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '388', '388', 'C', '1', '0.00', '孙飞要', '13733923221', '410827196910023514', '', '', '', '', '', '1427435030', '1');
+INSERT INTO `lx_member` VALUES ('440', '600679', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '399', '399', 'B', '1', '0.00', '曾清英', '13576632470', '362421194705120025', '江西省吉安市吉安县', '', '', '', '', '1427437671', '1');
+INSERT INTO `lx_member` VALUES ('441', '600706', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '381', '381', 'B', '1', '0.00', '王斯哲', '13207968899', '362401197106032013', '', '', '', '', '', '1427439475', '1');
+INSERT INTO `lx_member` VALUES ('442', '600802', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '352', '352', 'B', '1', '0.00', '凌艳娣', '13879728836', '362136197510282448', '', '', '', '', '', '1427445185', '1');
+INSERT INTO `lx_member` VALUES ('443', '600607', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '352', '352', 'C', '1', '0.00', '李英静', '13970112557', '362101195508240020', '', '', '', '', '', '1427446889', '1');
+INSERT INTO `lx_member` VALUES ('444', '600807', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '374', '374', 'C', '1', '0.00', '钟兆升', '13766357699', '362101196111151358', '', '钟兆升', '6228483478138770073', '中国农业银行', '', '1427448720', '1');
+INSERT INTO `lx_member` VALUES ('445', '600676', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '423', '423', 'A', '1', '0.00', '李世生', '13576663656', '36213319731106131X', '', '', '', '', '', '1427506471', '1');
+INSERT INTO `lx_member` VALUES ('446', '600716', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '399', '399', 'C', '1', '0.00', '曹龙恩', '13970453637', '362401196012212510', '', '', '', '', '', '1427516752', '1');
+INSERT INTO `lx_member` VALUES ('447', '601884', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '211', '234', 'C', '1', '0.00', '刘胜芬', '3', '362426198307107749', '', '', '6228483470780240216', '', '', '1427520595', '1');
+INSERT INTO `lx_member` VALUES ('448', '601158', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '34', '34', 'B', '1', '162.00', '于延华', '13', '410827196810203689', '', '', '', '', '', '1427538911', '1');
+INSERT INTO `lx_member` VALUES ('449', '601199', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '448', '448', 'A', '1', '0.00', '李华', '18', '410827196911203546', '', '', '', '', '', '1427539218', '1');
+INSERT INTO `lx_member` VALUES ('450', '600677', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '84', '347', 'B', '2', '50.00', '饶开生', '13807974168', '362124195410010336', '江西省赣州市大余县余西街牡丹苑1-2号', '饶开生', '6228483471137110110', '农业银行', '江西赣州大余支行', '1427551706', '1');
+INSERT INTO `lx_member` VALUES ('451', '600673', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '450', '450', 'A', '2', '50.00', '谢军英', '18879787387', '362124197202270060', '江西省赣州市大余县金莲山', '谢军英', '6228483478245174979', '农业银行', '江西赣州大余支行', '1427552878', '1');
+INSERT INTO `lx_member` VALUES ('452', '600722', 'a73b655776d23a9f5feda5780d723ccd', '2ab7f7faeb4365096c3e31a950af3e13', '381', '441', 'A', '1', '0.00', '曾裕栋', '13907966030', '362401196204080014', '江西省吉安市吉州区', '', '', '', '', '1427572020', '1');
+INSERT INTO `lx_member` VALUES ('453', '600801', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '428', '428', 'A', '1', '162.00', '李红', '13317970986', '362124197504050020', '', '', '', '', '', '1427586018', '1');
+INSERT INTO `lx_member` VALUES ('454', '600795', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '453', '453', 'A', '1', '0.00', '刘小芳', '13879720732', '362124197508172025', '', '', '', '', '', '1427587096', '1');
+INSERT INTO `lx_member` VALUES ('455', '601141', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '450', '450', 'B', '2', '88.00', '黄祖兰', '13807974101', '362124195602100045', '江西省赣州市大余县余西街牡丹苑1-2号', '黄祖兰', '6228483478185828477', '中国农业银业', '江西赣州大余', '1427594777', '1');
+INSERT INTO `lx_member` VALUES ('456', '601131', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '353', '353', 'B', '1', '0.00', '董斌', '13319498678', '362101196903230377', '', '董斌', '', '中国农业银行', '', '1427595145', '1');
+INSERT INTO `lx_member` VALUES ('457', '601132', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '353', '353', 'C', '1', '0.00', '李英秀', '18679677269', '362132196706101442', '', '', '', '', '', '1427595365', '1');
+INSERT INTO `lx_member` VALUES ('458', '601142', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '450', '450', 'C', '1', '324.00', '蔡瑞莲', '15083733199', '362124195508081220', '江西省赣州市大余县金莲山小区', '蔡瑞莲', '6228483471527537914', '中国农业银行', '中国赣州大余支行', '1427598155', '1');
+INSERT INTO `lx_member` VALUES ('459', '601143', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '451', '451', 'A', '2', '50.00', '魏学裘', '15970907536', '362124195803090349', '江西大余', '魏学裘', '6228483471211860119', '中国农业银行', '江西大余支行', '1427598641', '1');
+INSERT INTO `lx_member` VALUES ('460', '601144', 'fb2ad0323b122b8d31fa1e24e46c7c6f', '2ab7f7faeb4365096c3e31a950af3e13', '451', '451', 'B', '1', '162.00', '刘世娇', '13767733318', '362124196003200022', '江西省赣州市大余县', '刘世娇', '6228483470573946714', '中国农业银行', '江西赣州大余支行', '1427599057', '1');
+INSERT INTO `lx_member` VALUES ('461', '601145', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '451', '451', 'C', '1', '0.00', '王五伦', '15579760836', '362124194412290182', '  江西赣州大余', '王五伦', '', '', '', '1427599322', '1');
+INSERT INTO `lx_member` VALUES ('462', '601146', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '459', '459', 'A', '1', '162.00', '叶会香', '13576693220', '362124195412130067', '江西省赣州市大余县南安镇', '叶会香', '6228483478245409672', '中国农业银行', '贛州市大余县农支行', '1427607690', '1');
+INSERT INTO `lx_member` VALUES ('463', '601147', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '459', '459', 'B', '1', '0.00', '罗春风', '13803570615', '362124195209090047', '江西省贛州市大余县南安镇', '罗春风', '6228483476046550769', '中国农业银行', '赣州市大余农支行', '1427608088', '1');
+INSERT INTO `lx_member` VALUES ('464', '601148', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '459', '459', 'C', '1', '324.00', '马金兰', '13307978819', '362124196110313428', '江西省贛州市', '马金兰', '6228483478327406976', '中国很业银行', '贛州市农支行', '1427608557', '1');
+INSERT INTO `lx_member` VALUES ('465', '601133', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '414', 'A', '1', '0.00', '王海升', '15970845866', '36072219860815453X', '', '王海升', '6228483471083166116', '中国农业银行', '江西赣州信丰分行', '1427612376', '1');
+INSERT INTO `lx_member` VALUES ('466', '601149', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '455', '455', 'A', '1', '0.00', '涂桂盛', '18970743861', '362124195811100033', '江西省赣州市大余县', '涂桂盛', '', '中国农业银行', '江西赣州大余支行', '1427613166', '1');
+INSERT INTO `lx_member` VALUES ('467', '601150', '74e27d97946c9e4a7d8a41989d27f8f4', '2ab7f7faeb4365096c3e31a950af3e13', '464', '464', 'C', '2', '126.00', '谢淑兰', '18870498846', '362126195405160025', '江西省赣州市大余县', '谢淑兰', '', '', '', '1427615376', '1');
+INSERT INTO `lx_member` VALUES ('468', '601134', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '414', 'B', '1', '0.00', '李桂姣', '13437976912', '362123195407094827', '信丰县马鞍山脐橙小区', '李桂姣', '6228483478432839574', '中国农业银行', '信丰县游洲分行', '1427616563', '1');
+INSERT INTO `lx_member` VALUES ('469', '601135', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '414', 'C', '1', '0.00', '李红福', '13479781318', '362123197911264898', '', '', '', '', '', '1427617459', '1');
+INSERT INTO `lx_member` VALUES ('470', '601200', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '467', '467', 'A', '1', '162.00', '彭丽华', '15879780225', '362124195608010040', ' 江西赣州大余', '彭丽华', '6228483478185953275', '中国农业银行', '江西赣州大余支行', '1427617648', '1');
+INSERT INTO `lx_member` VALUES ('471', '601201', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '467', '467', 'B', '1', '0.00', '邱惠兰', '13879767826', '362124195711170042', '江西赣州大余', '邱惠兰', '6228483478245310672', '中国农业银行', '江西赣州大余支行', '1427618423', '1');
+INSERT INTO `lx_member` VALUES ('472', '601202', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '470', '470', 'A', '1', '0.00', '龙荣芳', '15870045785', '362124196506160325', '江西赣州大余', '龙荣芳', '6228483470687834111', '中国农业银行', '江西大余支行', '1427618638', '1');
+INSERT INTO `lx_member` VALUES ('473', '601203', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '462', '462', 'A', '1', '162.00', '邱秀英', '15979746638', '362124195508290022', '江西省赣州市大余县', '邱秀英', '6228483478328123075', '中国农业银行', '贛州市大余支行', '1427622305', '1');
+INSERT INTO `lx_member` VALUES ('474', '601205', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '458', '458', 'A', '1', '0.00', '廖淸梅', '18279718185', '362124196303230127', '江西省赣州市大余县南安镇', '廖淸悔', '622848347818576667', '中国农业银行', '江西赣州大余', '1427676181', '1');
+INSERT INTO `lx_member` VALUES ('475', '601206', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '458', '458', 'B', '1', '0.00', '刘忠代', '15216166046', '362124194212271215', '江西省赣州市大余县金', '刘忠代', '6228483478395796571', '中国农业银行', '江西赣州大余支行', '1427676927', '1');
+INSERT INTO `lx_member` VALUES ('476', '601776', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '380', '380', 'B', '1', '162.00', '龚小云', '15879648199', '362422196910316727', '', '', '', '', '', '1427683066', '1');
+INSERT INTO `lx_member` VALUES ('477', '601136', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '468', 'A', '1', '162.00', '吕明生', '18779750096', '36212319541002511X', '', '吕明生', '6228483478398752373', '中国农业银行', '赣州市信丰县分行', '1427686403', '1');
+INSERT INTO `lx_member` VALUES ('478', '600729', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '380', '380', 'C', '1', '162.00', '刘炳英', '18970609100', '362422193612020022', '', '', '', '', '', '1427686782', '1');
+INSERT INTO `lx_member` VALUES ('479', '601137', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '468', 'B', '1', '0.00', '曹乙生', '13576753582', '362123195507240019', '', '曹乙生', '6228483478432247570', '中国农业银行', '赣州信丰分行', '1427686825', '1');
+INSERT INTO `lx_member` VALUES ('480', '600796', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '476', '476', 'A', '1', '162.00', '廖慧珍', '13479628887', '36242219641111002x', '', '', '6228482318346333978', '中国农业银行吉水支行', '', '1427687185', '1');
+INSERT INTO `lx_member` VALUES ('481', '600837', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '347', '347', 'C', '2', '288.00', '曹国琴', '15279752787', '360902197908060229', '江西省赣州巿章贡区海会路10号湖景花园c橦402室', '曹国琴', '6228483478328659078', '农业银行', '江西赣州文清路', '1427687278', '1');
+INSERT INTO `lx_member` VALUES ('482', '601138', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '468', 'C', '1', '0.00', '刘兰秀', '13698479850', '362123196501110066', '', '刘兰秀', '6228483478470502472', '中国农业银行', '赣州市信丰县分行', '1427687436', '1');
+INSERT INTO `lx_member` VALUES ('483', '600836', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '481', '481', 'A', '2', '126.00', '吴万香', '13698062873', '362122192412104129', '', '吴万香', '6228413470436880717', '农业银行', '', '1427688059', '1');
+INSERT INTO `lx_member` VALUES ('484', '601139', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '465', 'A', '1', '0.00', '李过姣', '15970017733', '362123196712114542', '', '李过姣', '6228483478432845571', '中国农业银行', '赣州市信丰分行', '1427688595', '1');
+INSERT INTO `lx_member` VALUES ('485', '601140', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '465', 'B', '1', '0.00', '曾春梅', '15216196388', '140102197605065140', '', '', '', '', '', '1427688786', '1');
+INSERT INTO `lx_member` VALUES ('486', '601270', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '465', 'C', '1', '0.00', '李进林', '13677078149', '36212319781123363X', '', '李进林', '6228483478247048171', '中国农业银行', '赣州市信丰分行', '1427689368', '1');
+INSERT INTO `lx_member` VALUES ('487', '601271', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '469', 'A', '1', '0.00', '李万生', '1507070030446', '362123196410084552', '', '', '', '', '', '1427689578', '1');
+INSERT INTO `lx_member` VALUES ('488', '601272', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '469', 'B', '1', '0.00', '李为秀', '15970190651', '362123197011134553', '', '李为秀', '6228483478470449674', '中国农业银行', '赣州信丰分行', '1427689735', '1');
+INSERT INTO `lx_member` VALUES ('489', '601273', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '414', '469', 'C', '1', '0.00', '李晓玉', '13767786128', '362123196402140040', '', '李晓玉', '6228483478316947071', '中国农业银行', '赣州市信丰分行', '1427689981', '1');
+INSERT INTO `lx_member` VALUES ('490', '601274', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '416', '416', 'A', '1', '0.00', '陈燕', '15970108387', '362123196501110023', '', '陈燕', '6228483471251067419', '中国农业银行', '赣州市信丰分行', '1427690722', '1');
+INSERT INTO `lx_member` VALUES ('491', '601275', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '416', '416', 'B', '1', '0.00', '陈莲', '15970108387', '362123197003170060', '', '', '', '', '', '1427690830', '1');
+INSERT INTO `lx_member` VALUES ('492', '601276', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '413', '415', 'A', '1', '0.00', '袁国胜', '13979731315', '362123197110010652', '', '袁国胜', '6228413470038572415', '中国农业银行', '赣州信丰分行', '1427701605', '1');
+INSERT INTO `lx_member` VALUES ('493', '601277', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '413', '415', 'B', '1', '0.00', '王诚秀', '18270759322', '362123197410120636', '', '', '', '', '', '1427701783', '1');
+INSERT INTO `lx_member` VALUES ('494', '600833', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '425', '425', 'A', '1', '0.00', '郭歌', '13177969658', '362401195605020018', '', '', '', '', '', '1427702560', '1');
+INSERT INTO `lx_member` VALUES ('495', '601278', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '415', '415', 'C', '1', '0.00', '刘大妹', '15350077800', '362123195807214824', '', '刘大妹', '6228413470038218811', '中国农业银行', '赣州信丰分行', '1427702662', '1');
+INSERT INTO `lx_member` VALUES ('496', '600835', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '347', '481', 'B', '1', '0.00', '钟向阳', '15879779542', '362126197107032016', '', '钟向阳', '6228453470018007516', '农业银行', '赣州崇义支行', '1427703044', '1');
+INSERT INTO `lx_member` VALUES ('497', '601279', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '416', '416', 'C', '1', '0.00', '王桂平', '13418012048', '360722198408024829', '', '', '', '', '', '1427703985', '1');
+INSERT INTO `lx_member` VALUES ('498', '601208', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '451', '461', 'A', '1', '0.00', '廖明桂', '15879736692', '362124197210273122', '江西省赣州市大余县', '廖明桂', '6228483476100466969', '中国农业银行', '江西赣州大余支行', '1427704033', '1');
+INSERT INTO `lx_member` VALUES ('499', '601207', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '451', '498', 'A', '1', '162.00', '王贤慧', '13763901529', '362124197108192043', '江西赣州大余', '王贤慧', '6228453478005919973', '中国农业银行', '江西赣州大余支行', '1427706972', '1');
+INSERT INTO `lx_member` VALUES ('500', '601209', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '473', '473', 'A', '1', '162.00', '邱邑莲', '15970120165', '362124194907050021', '江西省贛州市大余县南安镇', '邱邑莲', '6228483471211871918', '中国农业银行', '贛州市大余县农支行', '1427716812', '1');
+INSERT INTO `lx_member` VALUES ('501', '601210', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '460', '460', 'A', '1', '0.00', '黄美华', '15083911238', '362124195804180020', '江西省赣州市大余县', '黄美华', '62284834787245025874', '中国农业银行', '江西赣州大余支行', '1427719343', '1');
+INSERT INTO `lx_member` VALUES ('502', '600832', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '198', '198', 'C', '1', '0.00', '黄雪珺', '13870888107', '360111197509140945', '', '黄雪珺', '6228480928332842378', '农业银行', '', '1427726923', '1');
+INSERT INTO `lx_member` VALUES ('503', '601211', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '455', '455', 'B', '1', '0.00', '谢丰亮', '13576716840', '362124195309170917', '江西赣州大余县', '谢丰亮', '6228483478245045476', '中国农业银行', '大余县支行', '1427773908', '1');
+INSERT INTO `lx_member` VALUES ('504', '601212', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '455', '455', 'C', '1', '0.00', '黄癸英', '15070769462', '362124196309270322', '江西赣州大余县', '黄癸英', '6228483478185994170', '中国农业银行', '大余县支行', '1427774190', '1');
+INSERT INTO `lx_member` VALUES ('505', '602650', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '64', '64', 'A', '1', '162.00', '李淑珍', '1', '41012419350812452X', '', '', '', '', '', '1427783521', '1');
+INSERT INTO `lx_member` VALUES ('506', '602651', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '505', '505', 'A', '1', '0.00', '李珍珠', '1', '410124194602228522', '', '', '', '', '', '1427784049', '1');
+INSERT INTO `lx_member` VALUES ('507', '600713', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '483', '483', 'A', '1', '324.00', '邓甲珠', '13576660956', '362122196409273827', '', '邓甲珠', '6228483478434362070', '农业银行', '赣州唐江支行', '1427793893', '1');
+INSERT INTO `lx_member` VALUES ('508', '600752', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '483', '483', 'B', '1', '162.00', '刘德麟', '13617978524', '362101195609190317', '', '刘德麟', '6228483471573096211', '农业银行', '', '1427794974', '1');
+INSERT INTO `lx_member` VALUES ('509', '601269', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '438', '438', 'A', '1', '0.00', '赵喜成', '18637998339', '410311195710305015', '', '', '', '', '', '1427795940', '1');
+INSERT INTO `lx_member` VALUES ('510', '601263', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '438', '438', 'B', '1', '0.00', '周淑浈', '136988851777', '410303199110142521', '', '', '', '', '', '1427796650', '1');
+INSERT INTO `lx_member` VALUES ('511', '601262', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '227', '227', 'B', '2', '126.00', '赵松霞', '13383895376', '410311196002123565', '', '', '', '', '', '1427796921', '1');
+INSERT INTO `lx_member` VALUES ('512', '601260', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '227', '511', 'A', '1', '0.00', '刘汉普', '15896634357', '41031119841201351x', '', '', '', '', '', '1427797572', '1');
+INSERT INTO `lx_member` VALUES ('513', '601261', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '511', '511', 'B', '1', '0.00', '刘海丹', '15236116488', '410311198301223522', '', '', '', '', '', '1427798578', '1');
+INSERT INTO `lx_member` VALUES ('514', '601265', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '511', '511', 'C', '1', '162.00', '刘会平', '15978688239', '410311195310133510', '', '', '', '', '', '1427799005', '1');
+INSERT INTO `lx_member` VALUES ('515', '601282', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '227', '438', 'C', '1', '0.00', '高小霞', '13598482865', '410323197209010528', '', '', '', '', '', '1427801689', '1');
+INSERT INTO `lx_member` VALUES ('516', '601920', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '236', '242', 'B', '1', '0.00', '熊玉连', '2', '362133199909063534', '', '', '', '', '', '1427809427', '1');
+INSERT INTO `lx_member` VALUES ('517', '601819', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '211', '234', 'C', '0', '0.00', '王伟先', '3', '362133200608063911', '', '', '', '', '', '1427810220', '-1');
+INSERT INTO `lx_member` VALUES ('518', '602662', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '29', '72', 'B', '1', '0.00', '马新敏', '1', '411121196710264521', '', '', '', '', '', '1427876077', '1');
+INSERT INTO `lx_member` VALUES ('519', '600839', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '481', '481', 'C', '1', '0.00', '郭生华', '13829117539', '362127194811190512', '赣州市章贡区厚德路50号', '郭生华', '', '', '', '1427877067', '1');
+INSERT INTO `lx_member` VALUES ('520', '601086', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '324', '324', 'B', '1', '0.00', '刘灵', '18260134886', '360731198801260015', '', '刘灵', '', '', '', '1427878113', '1');
+INSERT INTO `lx_member` VALUES ('521', '601077', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '324', '324', 'C', '1', '0.00', '丁克华', '13763976525', '360731198702072617', '', '丁克华', '', '', '', '1427878371', '1');
+INSERT INTO `lx_member` VALUES ('522', '601069', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '324', '520', 'A', '2', '36.00', '康小英', '13767744851', '362132196311041422', '', '康小英', '6228483478069030679', '中国农业银行', '', '1427879249', '1');
+INSERT INTO `lx_member` VALUES ('523', '601027', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '309', '344', 'A', '1', '0.00', '徐显旗', '15879706516', '362101196211080323', '', '徐显旗', '6228483478246384973', '中国农业银行', '江西赣州支行', '1427879285', '1');
+INSERT INTO `lx_member` VALUES ('524', '600786', '99abb83e2081286d47f9a30efbae5ed0', '99abb83e2081286d47f9a30efbae5ed0', '480', '480', 'A', '1', '0.00', '黄金连', '15179648717', '36242219620116672x', '江西省吉安市吉水县', '', '6228482318346333879', '中国农业银行吉水支行', '', '1427879434', '1');
+INSERT INTO `lx_member` VALUES ('525', '601008', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '324', '521', 'C', '1', '0.00', '李卫民', '15118236369', '362132196812302213', '', '', '', '', '', '1427879550', '1');
+INSERT INTO `lx_member` VALUES ('526', '600969', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '324', '520', 'B', '1', '0.00', '欧阳劣花', '15979572997', '362526197703294727', '', '', '', '', '', '1427879869', '1');
+INSERT INTO `lx_member` VALUES ('527', '601063', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '522', '522', 'A', '1', '0.00', '陈乐', '15970833406', '360731199012252228', '', '', '', '', '', '1427880455', '1');
+INSERT INTO `lx_member` VALUES ('528', '601058', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '522', '522', 'B', '1', '324.00', '康美英', '13766344246', '362123196411012446', '', '', '', '', '', '1427880763', '1');
+INSERT INTO `lx_member` VALUES ('529', '601021', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '522', '522', 'C', '1', '0.00', '康雪琴', '15970077494', '362101196112301362', '', '', '', '', '', '1427881114', '1');
+INSERT INTO `lx_member` VALUES ('530', '601068', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '522', '527', 'A', '2', '126.00', '康小平', '13970100099', '362132196411100813', '', '康小平', '6228483478069288574', '中国农业银行', '赣州市赣州支行', '1427881468', '1');
+INSERT INTO `lx_member` VALUES ('531', '601026', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '530', '530', 'A', '1', '162.00', '康毅', '15270609038', '360731198910230819', '', '', '', '', '', '1427881823', '1');
+INSERT INTO `lx_member` VALUES ('532', '601028', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '528', '528', 'A', '1', '0.00', '康小云', '13097331189', '362123197106112429', '', '', '', '', '', '1427882286', '1');
+INSERT INTO `lx_member` VALUES ('533', '601062', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '528', '528', 'B', '1', '0.00', '黄香仔', '15870469236', '360721198611014427', '', '', '', '', '', '1427882779', '1');
+INSERT INTO `lx_member` VALUES ('534', '601011', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '483', '483', 'C', '1', '0.00', ' 陈庆梅', '18779065507', '362101195208140669', '   三康庙小商品市场二楼150', '', '', '', '', '1427883358', '1');
+INSERT INTO `lx_member` VALUES ('535', '601818', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '234', '234', 'B', '1', '0.00', '王伟前', '1', '362133200612233645', '', '', '', '', '', '1427890926', '1');
+INSERT INTO `lx_member` VALUES ('536', '601837', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '210', '230', 'C', '1', '0.00', '陈红连', '3', '362133200010093932', '', '', '', '', '', '1427892138', '1');
+INSERT INTO `lx_member` VALUES ('537', '601817', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '234', '234', 'A', '1', '0.00', '王伟明', '3', '362133200612093962', '', '', '', '', '', '1427892533', '1');
+INSERT INTO `lx_member` VALUES ('538', '601816', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '235', '432', 'C', '1', '0.00', '邱梅兰', '2', '362133198809073762', '', '', '', '', '', '1427893017', '1');
+INSERT INTO `lx_member` VALUES ('539', '601815', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '235', '432', 'B', '1', '0.00', '邱舂兰', '2', '362133198810203933', '', '', '', '', '', '1427893385', '1');
+INSERT INTO `lx_member` VALUES ('540', '601813', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '235', '432', 'A', '1', '0.00', '邱凤兰', '3', '362133199012093967', '', '', '', '', '', '1427893695', '1');
+INSERT INTO `lx_member` VALUES ('541', '601812', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '242', '242', 'B', '0', '0.00', '陈晓连', '2', '362133197609133356', '', '', '', '', '', '1427894261', '-1');
+INSERT INTO `lx_member` VALUES ('542', '600950', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '255', '307', 'A', '1', '0.00', '郭小纲', '15083790645', '362124197712170510', '', '', '', '', '', '1427896051', '1');
+INSERT INTO `lx_member` VALUES ('543', '601116', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '438', '509', 'A', '1', '0.00', '李旻轩', '18037933281', '410303198906160616', '', '', '', '', '', '1427897210', '1');
+INSERT INTO `lx_member` VALUES ('544', '600853', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '36', '484', 'A', '1', '0.00', '王志英', '18779754577', '362123197505161527', '', '', '', '', '', '1427899745', '1');
+INSERT INTO `lx_member` VALUES ('545', '600838', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '309', '322', 'A', '1', '0.00', '滕雅琴', '13003989589', '360602196304050029', '', '', '', '', '', '1427900157', '1');
+INSERT INTO `lx_member` VALUES ('546', '601213', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '464', '464', 'B', '1', '0.00', '陈丽娟', '13879799879', '362124195707130021', '江西省贛州市大余县南安镇', '陈丽娟', '', '中国农业银行', '', '1427942051', '1');
+INSERT INTO `lx_member` VALUES ('547', '601215', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '455', '504', 'A', '1', '0.00', '刘细妹', '15216163009', '362124195401010027', '', '', '', '', '', '1427942978', '1');
+INSERT INTO `lx_member` VALUES ('548', '600662', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '354', '354', 'C', '1', '162.00', '宋璐宏', '18879708678', '360702198407040629', '', '', '', '', '', '1427952801', '1');
+INSERT INTO `lx_member` VALUES ('549', '600725', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '548', '548', 'A', '1', '0.00', '聂淑萍', '18296725304', '430703199006182027', '', '', '', '', '', '1427953886', '1');
+INSERT INTO `lx_member` VALUES ('550', '601835', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '210', '229', 'C', '1', '0.00', '熊华群', '3', '362133186709073963', '', '', '', '', '', '1427958215', '1');
+INSERT INTO `lx_member` VALUES ('551', '601736', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '234', '537', 'A', '1', '0.00', '王有金', '567', '362133200110163933', '', '', '', '', '', '1427958703', '1');
+INSERT INTO `lx_member` VALUES ('552', '601735', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '237', '436', 'C', '1', '0.00', '陈明生', '2', '362133196811233921', '', '', '', '', '', '1427959114', '1');
+INSERT INTO `lx_member` VALUES ('553', '601831', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '242', '242', 'A', '1', '0.00', '黄月英', '23', '362133199411263673', '', '', '', '', '', '1427959450', '1');
+INSERT INTO `lx_member` VALUES ('554', '601830', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '242', '516', 'C', '1', '0.00', '熊春发', '123', '362133199906083963', '', '', '', '', '', '1427959818', '1');
+INSERT INTO `lx_member` VALUES ('555', '602652', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '64', '64', 'B', '1', '0.00', '王玉莲', '1', '410124194612212323', '', '', '', '', '', '1427960902', '1');
+INSERT INTO `lx_member` VALUES ('556', '601216', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '499', '499', 'A', '1', '0.00', '刘经洪', '13707072212', '362124197205112017', '', '', '', '中国农业银行', '', '1427963776', '1');
+INSERT INTO `lx_member` VALUES ('557', '601633', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '530', '530', 'B', '1', '0.00', '钟小春', '13807970107', '362101196604281353', '', '', '', '', '', '1427964211', '1');
+INSERT INTO `lx_member` VALUES ('558', '601113', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '511', '512', 'A', '1', '0.00', '李荣', '18627273739', '320324197103100922', '', '', '', '', '', '1427966552', '1');
+INSERT INTO `lx_member` VALUES ('559', '601112', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '514', '514', 'A', '1', '0.00', '赵新芳', '13633889083', '410327198604261447', '', '', '', '', '', '1427966744', '1');
+INSERT INTO `lx_member` VALUES ('560', '601368', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '530', '530', 'C', '2', '126.00', '康荣昌', '13970796222', '362123197703012418', '', '', '', '', '', '1427974195', '1');
+INSERT INTO `lx_member` VALUES ('561', '601059', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '478', '478', 'A', '1', '0.00', '周小青', '13766298567', '362422197404064365', '江西吉安市吉水城南岭下新村133', '周小青', '', '农业银行', '', '1428028931', '1');
+INSERT INTO `lx_member` VALUES ('562', '601680', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '507', '507', 'A', '1', '0.00', '幸泽明', '13970109271', '362122196908254436', '', '幸泽明', '6228483478136972275', '农业银行', '', '1428051361', '1');
+INSERT INTO `lx_member` VALUES ('563', '601217', '19dd70f936c1b89a4a648cb4e58f1d3d', '19dd70f936c1b89a4a648cb4e58f1d3d', '500', '500', 'A', '1', '0.00', '钟舒萍9', '13697016342', '362124196602020023', '江西省贛州市大余县', '', '', '', '', '1428051459', '1');
+INSERT INTO `lx_member` VALUES ('564', '601616', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '508', '508', 'A', '1', '0.00', '朱群英', '13576689332', '362122197109174442', '', '朱群英', '6222001510200788173', '农业银行', '', '1428052003', '1');
+INSERT INTO `lx_member` VALUES ('565', '601596', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '507', '507', 'B', '1', '0.00', '刘家武', '18720129564', '360782198806083831', '', '', '', '', '', '1428052813', '1');
+INSERT INTO `lx_member` VALUES ('566', '601676', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '560', '560', 'A', '1', '0.00', '林法娣', '15970082623', '362123194211052428', '', '', '', '', '', '1428062044', '1');
+INSERT INTO `lx_member` VALUES ('567', '601686', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '560', '560', 'B', '1', '0.00', '康远震', '15727751235', '362123194410012410', '', '', '', '', '', '1428065024', '1');
+INSERT INTO `lx_member` VALUES ('568', '601681', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '560', '560', 'C', '1', '0.00', '隋东初', '15970145786', '362134195407280610', '', '', '', '', '', '1428065510', '1');
+INSERT INTO `lx_member` VALUES ('569', '601682', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '560', '560', 'C', '0', '0.00', '隋东初', '6565', '362134195407280611', '', '', '', '', '', '1428068289', '1');
+INSERT INTO `lx_member` VALUES ('570', '601832', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '297', '304', 'A', '1', '0.00', '彭青连', '321', '362101194610290625', '', '', '', '', '', '1428070548', '1');
+INSERT INTO `lx_member` VALUES ('571', '601733', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '305', '305', 'A', '1', '0.00', '肖庆华', '45678', '362123195706134222', '', '', '', '', '', '1428071099', '1');
+INSERT INTO `lx_member` VALUES ('572', '601829', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '212', '238', 'A', '0', '0.00', '陈平香', '145', '362123197609063652', '', '', '', '', '', '1428108590', '1');
+INSERT INTO `lx_member` VALUES ('573', '601597', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '212', '238', 'B', '0', '0.00', '陈小英', '123456', '362133198810183977', '', '', '', '', '', '1428109094', '1');
+INSERT INTO `lx_member` VALUES ('574', '601595', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '238', '238', 'A', '0', '0.00', '陈正平', '13456', '362133197812093952', '', '', '', '', '', '1428109421', '1');
+INSERT INTO `lx_member` VALUES ('575', '601639', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '531', '531', 'A', '1', '0.00', '吴修财', '15970792888', '362121197303206018', '', '', '', '', '', '1428118867', '1');
+INSERT INTO `lx_member` VALUES ('576', '601581', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '357', '357', 'C', '0', '0.00', '李世玉', '13507072141', '362132196511303415', '', '', '6228483470339936314', '', '', '1428134924', '1');
+INSERT INTO `lx_member` VALUES ('577', '601306', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '95', '95', 'A', '1', '0.00', '王永红', '13892015685', '610404197001201123', '', '', '', '', '', '1428242751', '1');
+INSERT INTO `lx_member` VALUES ('578', '601550', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '481', '519', 'A', '1', '0.00', '刘群仙', '18720782086', '36210119400123062X', '赣州市章贡氏小南门13 号1栋', '刘群仙', '14-030200460449275', '中国农业银行', '', '1428306980', '1');
+INSERT INTO `lx_member` VALUES ('579', '601218', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '467', '467', 'C', '1', '0.00', '黄小菊', '13437072409', '362124195605212325', '江西省赣州市大余县', '黄小菊', '6228483470827003718', '中国农业银行', '江西省赣州市大余县人农支行', '1428308792', '1');
+INSERT INTO `lx_member` VALUES ('580', '600886', 'ae32a3eb3e0f0f4319a2f533fd9f0636', 'ae32a3eb3e0f0f4319a2f533fd9f0636', '477', '477', 'A', '2', '126.00', '郭玉英', '15270706857', '362123197508194527', '江西省音赣州市信丰县嘉定镇', '郭玉英', '6228483478380300074', '江西省赣州市信丰县农业银行', '信丰县农业银行', '1428397583', '1');
+INSERT INTO `lx_member` VALUES ('581', '601530', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '481', '578', 'A', '1', '0.00', '刘香英', '18779087216', '362132194711041721', '赣州市章贡区小南门13号1栋', '', '', '', '', '1428460966', '1');
+INSERT INTO `lx_member` VALUES ('582', '601582', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '265', '265', 'C', '0', '0.00', '袁朝宾', '15170630945', '362101194208080630', '', '', '', '', '', '1428493307', '1');
+INSERT INTO `lx_member` VALUES ('583', '602598', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '40', '162', 'A', '1', '0.00', '宋红武', '1', '410124195502101212', '', '', '', '', '', '1428555066', '1');
+INSERT INTO `lx_member` VALUES ('584', '602668', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '40', '162', 'B', '1', '0.00', '宋彩红', '13849035605', '410124196806242323', '', '', '', '', '', '1428555243', '1');
+INSERT INTO `lx_member` VALUES ('585', '602699', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '40', '162', 'C', '1', '0.00', '宋红旗', '135', '410124196006291212', '', '', '', '', '', '1428555345', '1');
+INSERT INTO `lx_member` VALUES ('586', '600925', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '580', '580', 'A', '1', '486.00', '王红梅', '15390708882', '362123196806163628', '江西省信丰县嘉定镇', '王红梅', '6228483478291453574', '农业银行', '江西省信丰县嘉定镇农业银行支行', '1428560404', '1');
+INSERT INTO `lx_member` VALUES ('587', '600909', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '580', '580', 'B', '0', '0.00', '王金荬', '18779758890', '362123197412214546', '江西省信丰县嘉定镇', '王金英', '6228483478380300074', '农业银行', '江西省信丰县嘉定镇农业银行', '1428563331', '1');
+INSERT INTO `lx_member` VALUES ('588', '600929', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '580', '580', 'C', '0', '0.00', '王丽珍', '15350362669', '362123197709304526', '江西省信丰县嘉定镇', '王丽诊', '6228483478398847678', '农业银行', '江西省信丰县嘉定镇农业银行', '1428563813', '1');
+INSERT INTO `lx_member` VALUES ('589', '602669', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '40', '583', 'A', '1', '0.00', '张喜珍', '1', '410181196203231020', '', '', '', '', '', '1428566139', '1');
+INSERT INTO `lx_member` VALUES ('590', '600916', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '580', '580', 'B', '1', '0.00', '康秀英', '13217973408', '362123194811210020', '江西省信丰县嘉定镇', '康秀英', '6228483478291797772', '中国农业银行', '江西省信丰县农业银行', '1428567701', '1');
+INSERT INTO `lx_member` VALUES ('591', '600923', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '580', '580', 'C', '1', '0.00', '李秀兰', '15979774396', '362123197710080048', '江西省信丰县嘉定镇', '李秀兰', '62284834711274810811', '中国农业银行', '江西省信丰县嘉定镇农业银行', '1428568173', '1');
+INSERT INTO `lx_member` VALUES ('592', '600895', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '586', '586', 'A', '1', '0.00', '李桂华', '13979779552', '36213019560204321x', '江西省赣州市全南省', '李桂华', '62284834715727764819', '中国农业银行', '江西省全南县农业银行', '1428571706', '1');
+INSERT INTO `lx_member` VALUES ('593', '600933', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '586', '586', 'B', '1', '0.00', '王金英', '18779758890', '362123197312214546', '江西省信丰县嘉定镇', '王金英', '6228483476166013960', '中国农业银行', '江西省信丰县嘉定镇', '1428573542', '1');
+INSERT INTO `lx_member` VALUES ('594', '600912', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '586', '586', 'C', '1', '0.00', '王丽珍', '15350362669', '362123197609304526', '江西省信丰县嘉定镇', '王丽珍', '6228483478398847678', '中国农业很行', '江西省信丰县嘉定镇', '1428574311', '1');
+INSERT INTO `lx_member` VALUES ('595', '600980', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '382', '382', 'A', '1', '0.00', '朱建宇', '18397866389', '362425197109040036', '江西省吉安市永丰恩江镇', '', '', '', '', '1428656509', '1');
+INSERT INTO `lx_member` VALUES ('596', '601072', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '382', '382', 'B', '1', '0.00', '胡力文', '18779682296', '362425196710301829', '', '', '', '', '', '1428744268', '1');
+INSERT INTO `lx_member` VALUES ('597', '601073', '2ab7f7faeb4365096c3e31a950af3e13', '2ab7f7faeb4365096c3e31a950af3e13', '382', '382', 'C', '1', '0.00', '李艳兰', '13766227952', '36242519831018444x', '', '', '', '', '', '1428744872', '1');
+INSERT INTO `lx_member` VALUES ('598', '600967', '15c9dfa38cfaf2635d54b1f94ffaed6c', '15c9dfa38cfaf2635d54b1f94ffaed6c', '580', '590', 'A', '0', '0.00', '廖圣兰', '15297751748', '362123194405050041', '江西省赣州市信丰县嘉定水东', '廖圣兰', '6228483478027194377', '中国农业银行', '江西省赣州市信丰县支行', '1428745799', '1');
 
 -- ----------------------------
 -- Table structure for `lx_message`
@@ -191,11 +2224,18 @@ CREATE TABLE `lx_message` (
   `reply` text COMMENT '回复内容',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '-1 删除  0 禁用 1 正常',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 -- Records of lx_message
 -- ----------------------------
+INSERT INTO `lx_message` VALUES ('1', '68', '身份证号码办加入时弄错了。咋改有无风险', '1425545003', null, '1');
+INSERT INTO `lx_message` VALUES ('2', '304', '公司领导：您好！\r\n听说会员注册后，有一张会员卡，今后可以凭卡购买商品享受优惠，请问，这张卡如何发放给我们这些会员？快递？还有，促销政策中的礼品什么时候寄送？如何寄送？请回答。谢谢！', '1426691121', null, '1');
+INSERT INTO `lx_message` VALUES ('3', '377', '尊敬的领导；我（600758）B区的600778的C区，600633一、二级密码遗失；请帮调整为‘111666’。谢谢！廖声才', '1427573144', null, '1');
+INSERT INTO `lx_message` VALUES ('4', '377', '领导早上好！请查下，600722应由600706推荐，怎变成600778推、应查正复元。', '1427668820', null, '1');
+INSERT INTO `lx_message` VALUES ('5', '478', '公司领导，我是公历十二月三日生，因此正确身衍证号是：362422193612030022。请更正，谢谢！', '1427700499', null, '1');
+INSERT INTO `lx_message` VALUES ('6', '425', '领导您好！我现在的编号是600633，而我手上的卡号是600603。请问是跟我定那个号？谢谢！！', '1427703803', null, '1');
+INSERT INTO `lx_message` VALUES ('7', '568', '180已打怎么还没升级\r\n', '1428066716', null, '1');
 
 -- ----------------------------
 -- Table structure for `lx_user`
@@ -214,4637 +2254,11 @@ CREATE TABLE `lx_user` (
   `update_time` varchar(20) DEFAULT '0' COMMENT 'unix时间戳',
   `status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '0-删除 1-正常',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `account` (`account`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+  UNIQUE KEY `account` (`account`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 -- Records of lx_user
 -- ----------------------------
-INSERT INTO `lx_user` VALUES ('1', 'admin', '9e90c6271eddcf23e2e251f65bda6be3', '超级管理员', '1424067213', '127.0.0.1', '111', null, '0', '1389940039', '1');
-INSERT INTO `lx_user` VALUES ('19', 'administrator', 'af73a1ef8d29ffc1c50c0bff6055b363', '超级管理员', '1424100087', '127.0.0.1', '88', '', '0', '1389940039', '1');
-
--- ----------------------------
--- Table structure for `web_admanage`
--- ----------------------------
-DROP TABLE IF EXISTS `web_admanage`;
-CREATE TABLE `web_admanage` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '信息id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `classid` smallint(5) unsigned NOT NULL COMMENT '投放范围(广告位)',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属广告位父id',
-  `parentstr` varchar(80) NOT NULL COMMENT '所属广告位父id字符串',
-  `title` varchar(30) NOT NULL COMMENT '广告标识',
-  `admode` char(10) NOT NULL COMMENT '展示模式',
-  `picurl` varchar(100) NOT NULL COMMENT '上传内容地址',
-  `adtext` text NOT NULL COMMENT '展示内容',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) unsigned NOT NULL COMMENT '提交时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_admanage
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_admin`
--- ----------------------------
-DROP TABLE IF EXISTS `web_admin`;
-CREATE TABLE `web_admin` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '信息id',
-  `username` varchar(30) NOT NULL COMMENT '用户名',
-  `password` char(32) NOT NULL COMMENT '密码',
-  `nickname` char(32) NOT NULL COMMENT '昵称',
-  `question` tinyint(1) unsigned NOT NULL COMMENT '登录提问',
-  `answer` varchar(50) NOT NULL COMMENT '登录回答',
-  `levelname` tinyint(1) unsigned NOT NULL COMMENT '级别',
-  `checkadmin` enum('true','false') NOT NULL COMMENT '审核',
-  `loginip` char(20) NOT NULL COMMENT '登录IP',
-  `logintime` int(10) unsigned NOT NULL COMMENT '登录时间',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_admin
--- ----------------------------
-INSERT INTO `web_admin` VALUES ('1', 'admin', '0c909a141f1f2c0a1cb602b0b2d7d050', '', '0', '', '1', 'true', '127.0.0.1', '1424085986');
-
--- ----------------------------
--- Table structure for `web_admingroup`
--- ----------------------------
-DROP TABLE IF EXISTS `web_admingroup`;
-CREATE TABLE `web_admingroup` (
-  `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT COMMENT '管理组id',
-  `groupname` varchar(30) NOT NULL COMMENT '管理组名称',
-  `description` text NOT NULL COMMENT '管理组描述',
-  `groupsite` varchar(30) NOT NULL COMMENT '默认进入站',
-  `checkinfo` set('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_admingroup
--- ----------------------------
-INSERT INTO `web_admingroup` VALUES ('1', '超级管理员', '超级管理员组', '1', 'true');
-INSERT INTO `web_admingroup` VALUES ('2', '站点管理员', '站点管理员组', '1', 'true');
-INSERT INTO `web_admingroup` VALUES ('3', '文章发布员', '文章发布员组', '1', 'true');
-
--- ----------------------------
--- Table structure for `web_adminnotes`
--- ----------------------------
-DROP TABLE IF EXISTS `web_adminnotes`;
-CREATE TABLE `web_adminnotes` (
-  `uname` varchar(30) NOT NULL COMMENT '用户名',
-  `body` mediumtext NOT NULL COMMENT '便签内容',
-  `posttime` int(10) unsigned NOT NULL COMMENT '提交时间',
-  `postip` varchar(30) NOT NULL COMMENT '提交IP',
-  PRIMARY KEY (`uname`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_adminnotes
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_adminprivacy`
--- ----------------------------
-DROP TABLE IF EXISTS `web_adminprivacy`;
-CREATE TABLE `web_adminprivacy` (
-  `groupid` tinyint(3) unsigned NOT NULL COMMENT '所属管理组id',
-  `siteid` tinyint(1) unsigned NOT NULL COMMENT '站点id',
-  `model` varchar(30) NOT NULL COMMENT '管理模块',
-  `classid` int(10) NOT NULL COMMENT '类型id',
-  `action` varchar(10) NOT NULL COMMENT '可执行操作'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_adminprivacy
--- ----------------------------
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'upload_filemgr_sql', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'web_config', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'admin', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'database_backup', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'infoclass', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'info', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'infolist', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'infoimg', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'soft', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'goodstype', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('2', '0', 'goods', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'infoclass', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'info', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'infolist', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'infoimg', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'soft', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'goodstype', '0', 'all');
-INSERT INTO `web_adminprivacy` VALUES ('3', '0', 'goods', '0', 'all');
-
--- ----------------------------
--- Table structure for `web_adtype`
--- ----------------------------
-DROP TABLE IF EXISTS `web_adtype`;
-CREATE TABLE `web_adtype` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '广告位id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '上级id',
-  `parentstr` varchar(50) NOT NULL COMMENT '上级id字符串',
-  `classname` varchar(30) NOT NULL COMMENT '广告位名称',
-  `width` smallint(5) unsigned NOT NULL COMMENT '广告位宽度',
-  `height` smallint(5) unsigned NOT NULL COMMENT '广告位高度',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列顺序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_adtype
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_cascade`
--- ----------------------------
-DROP TABLE IF EXISTS `web_cascade`;
-CREATE TABLE `web_cascade` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '级联组id',
-  `groupname` varchar(30) NOT NULL COMMENT '级联组名称',
-  `groupsign` varchar(30) NOT NULL COMMENT '级联组标识',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_cascade
--- ----------------------------
-INSERT INTO `web_cascade` VALUES ('1', '地区', 'area', '1');
-INSERT INTO `web_cascade` VALUES ('2', '星座', 'astro', '2');
-INSERT INTO `web_cascade` VALUES ('3', '血型', 'bloodtype', '3');
-INSERT INTO `web_cascade` VALUES ('4', '证件类型', 'cardtype', '4');
-INSERT INTO `web_cascade` VALUES ('5', '安全问题', 'question', '5');
-INSERT INTO `web_cascade` VALUES ('6', '行业分布', 'trade', '6');
-
--- ----------------------------
--- Table structure for `web_cascadedata`
--- ----------------------------
-DROP TABLE IF EXISTS `web_cascadedata`;
-CREATE TABLE `web_cascadedata` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '级联数据id',
-  `dataname` char(30) NOT NULL COMMENT '级联数据名称',
-  `datavalue` char(20) NOT NULL COMMENT '级联数据值',
-  `datagroup` char(20) NOT NULL COMMENT '所属级联组',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `level` tinyint(1) unsigned NOT NULL COMMENT '级联数据层次',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=20020 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_cascadedata
--- ----------------------------
-INSERT INTO `web_cascadedata` VALUES ('20019', '澳门特别行政区', '17500', 'area', '17500', '0');
-INSERT INTO `web_cascadedata` VALUES ('20018', '香港特别行政区', '17000', 'area', '17000', '0');
-INSERT INTO `web_cascadedata` VALUES ('20017', '台湾省', '16500', 'area', '16500', '0');
-INSERT INTO `web_cascadedata` VALUES ('20016', '图木舒克市', '16015.3', 'area', '16015', '2');
-INSERT INTO `web_cascadedata` VALUES ('20015', '阿拉尔市', '16015.2', 'area', '16015', '2');
-INSERT INTO `web_cascadedata` VALUES ('20014', '石河子市', '16015.1', 'area', '16015', '2');
-INSERT INTO `web_cascadedata` VALUES ('20013', '省直辖行政单位', '16015', 'area', '16015', '1');
-INSERT INTO `web_cascadedata` VALUES ('20012', '吉木乃县', '16014.7', 'area', '16015', '2');
-INSERT INTO `web_cascadedata` VALUES ('20011', '青河县', '16014.6', 'area', '16015', '2');
-INSERT INTO `web_cascadedata` VALUES ('20010', '哈巴河县', '16014.5', 'area', '16015', '2');
-INSERT INTO `web_cascadedata` VALUES ('20009', '福海县', '16014.4', 'area', '16014', '2');
-INSERT INTO `web_cascadedata` VALUES ('20008', '富蕴县', '16014.3', 'area', '16014', '2');
-INSERT INTO `web_cascadedata` VALUES ('20007', '布尔津县', '16014.2', 'area', '16014', '2');
-INSERT INTO `web_cascadedata` VALUES ('20006', '阿勒泰市', '16014.1', 'area', '16014', '2');
-INSERT INTO `web_cascadedata` VALUES ('20005', '阿勒泰地区', '16014', 'area', '16014', '1');
-INSERT INTO `web_cascadedata` VALUES ('20004', '和布克赛尔蒙古自治县', '16013.7', 'area', '16014', '2');
-INSERT INTO `web_cascadedata` VALUES ('20003', '裕民县', '16013.6', 'area', '16014', '2');
-INSERT INTO `web_cascadedata` VALUES ('20002', '托里县', '16013.5', 'area', '16014', '2');
-INSERT INTO `web_cascadedata` VALUES ('20001', '沙湾县', '16013.4', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('20000', '额敏县', '16013.3', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19999', '乌苏市', '16013.2', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19998', '塔城市', '16013.1', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19997', '塔城地区', '16013', 'area', '16013', '1');
-INSERT INTO `web_cascadedata` VALUES ('19996', '尼勒克县', '16012.10', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19995', '特克斯县', '16012.9', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19994', '昭苏县', '16012.8', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19993', '新源县', '16012.7', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19992', '巩留县', '16012.6', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19991', '霍城县', '16012.5', 'area', '16013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19990', '察布查尔锡伯自治县', '16012.4', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19989', '伊宁县', '16012.3', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19988', '奎屯市', '16012.2', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19987', '伊宁市', '16012.1', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19986', '伊犁哈萨克自治州', '16012', 'area', '16012', '1');
-INSERT INTO `web_cascadedata` VALUES ('19985', '民丰县', '16011.8', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19984', '于田县', '16011.7', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19983', '策勒县', '16011.6', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19982', '洛浦县', '16011.5', 'area', '16012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19981', '皮山县', '16011.4', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19980', '墨玉县', '16011.3', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19979', '和田县', '16011.2', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19978', '和田市', '16011.1', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19977', '和田地区', '16011', 'area', '16011', '1');
-INSERT INTO `web_cascadedata` VALUES ('19976', '塔什库尔干塔吉克自治县', '16010.12', 'area', '16010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19975', '巴楚县', '16010.11', 'area', '16010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19974', '伽师县', '16010.10', 'area', '16010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19973', '岳普湖县', '16010.9', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19972', '麦盖提县', '16010.8', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19971', '叶城县', '16010.7', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19970', '莎车县', '16010.6', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19969', '泽普县', '16010.5', 'area', '16011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19968', '英吉沙县', '16010.4', 'area', '16010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19967', '疏勒县', '16010.3', 'area', '16010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19966', '疏附县', '16010.2', 'area', '16010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19965', '喀什市', '16010.1', 'area', '16010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19964', '喀什地区', '16010', 'area', '16010', '1');
-INSERT INTO `web_cascadedata` VALUES ('19963', '乌恰县', '16009.4', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19962', '阿合奇县', '16009.3', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19961', '阿克陶县', '16009.2', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19960', '阿图什市', '16009.1', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19959', '克孜勒苏柯尔克孜自治州', '16009', 'area', '16009', '1');
-INSERT INTO `web_cascadedata` VALUES ('19958', '柯坪县', '16008.9', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19957', '阿瓦提县', '16008.8', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19956', '乌什县', '16008.7', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19955', '拜城县', '16008.6', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19954', '新和县', '16008.5', 'area', '16009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19953', '沙雅县', '16008.4', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19952', '库车县', '16008.3', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19951', '温宿县', '16008.2', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19950', '阿克苏市', '16008.1', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19949', '阿克苏地区', '16008', 'area', '16008', '1');
-INSERT INTO `web_cascadedata` VALUES ('19948', '博湖县', '16007.9', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19947', '和硕县', '16007.8', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19946', '和静县', '16007.7', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19945', '焉耆回族自治县', '16007.6', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19944', '且末县', '16007.5', 'area', '16008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19943', '若羌县', '16007.4', 'area', '16007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19942', '尉犁县', '16007.3', 'area', '16007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19941', '轮台县', '16007.2', 'area', '16007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19940', '库尔勒市', '16007.1', 'area', '16007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19939', '巴音郭楞蒙古自治州', '16007', 'area', '16007', '1');
-INSERT INTO `web_cascadedata` VALUES ('19938', '温泉县', '16006.3', 'area', '16006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19937', '精河县', '16006.2', 'area', '16006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19936', '博乐市', '16006.1', 'area', '16006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19935', '博尔塔拉蒙古自治州', '16006', 'area', '16006', '1');
-INSERT INTO `web_cascadedata` VALUES ('19934', '木垒哈萨克自治县', '16005.8', 'area', '16006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19933', '吉木萨尔县', '16005.7', 'area', '16006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19932', '奇台县', '16005.6', 'area', '16006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19931', '玛纳斯县', '16005.5', 'area', '16006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19930', '呼图壁县', '16005.4', 'area', '16005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19929', '米泉市', '16005.3', 'area', '16005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19928', '阜康市', '16005.2', 'area', '16005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19927', '昌吉市', '16005.1', 'area', '16005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19926', '昌吉回族自治州', '16005', 'area', '16005', '1');
-INSERT INTO `web_cascadedata` VALUES ('19925', '伊吾县', '16004.3', 'area', '16004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19924', '巴里坤哈萨克自治县', '16004.2', 'area', '16004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19923', '哈密市', '16004.1', 'area', '16004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19922', '哈密地区', '16004', 'area', '16004', '1');
-INSERT INTO `web_cascadedata` VALUES ('19921', '托克逊县', '16003.3', 'area', '16003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19920', '鄯善县', '16003.2', 'area', '16003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19919', '吐鲁番市', '16003.1', 'area', '16003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19918', '吐鲁番地区', '16003', 'area', '16003', '1');
-INSERT INTO `web_cascadedata` VALUES ('19917', '乌尔禾区', '16002.4', 'area', '16002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19916', '白碱滩区', '16002.3', 'area', '16002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19915', '克拉玛依区', '16002.2', 'area', '16002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19914', '独山子区', '16002.1', 'area', '16002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19913', '克拉玛依市', '16002', 'area', '16002', '1');
-INSERT INTO `web_cascadedata` VALUES ('19912', '乌鲁木齐县', '16001.8', 'area', '16002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19911', '东山区', '16001.7', 'area', '16002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19910', '达坂城区', '16001.6', 'area', '16002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19909', '头屯河区', '16001.5', 'area', '16002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19908', '水磨沟区', '16001.4', 'area', '16001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19907', '新市区', '16001.3', 'area', '16001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19906', '沙依巴克区', '16001.2', 'area', '16001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19905', '天山区', '16001.1', 'area', '16001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19904', '乌鲁木齐市', '16001', 'area', '16001', '1');
-INSERT INTO `web_cascadedata` VALUES ('19903', '新疆维吾尔自治区', '16000', 'area', '16000', '0');
-INSERT INTO `web_cascadedata` VALUES ('19902', '海原县', '15505.3', 'area', '15505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19901', '中宁县', '15505.2', 'area', '15505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19900', '沙坡头区', '15505.1', 'area', '15505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19899', '中卫市', '15505', 'area', '15505', '1');
-INSERT INTO `web_cascadedata` VALUES ('19898', '彭阳县', '15504.5', 'area', '15505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19897', '泾源县', '15504.4', 'area', '15504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19896', '隆德县', '15504.3', 'area', '15504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19895', '西吉县', '15504.2', 'area', '15504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19894', '原州区', '15504.1', 'area', '15504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19893', '固原市', '15504', 'area', '15504', '1');
-INSERT INTO `web_cascadedata` VALUES ('19892', '青铜峡市', '15503.4', 'area', '15503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19891', '同心县', '15503.3', 'area', '15503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19890', '盐池县', '15503.2', 'area', '15503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19889', '利通区', '15503.1', 'area', '15503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19888', '吴忠市', '15503', 'area', '15503', '1');
-INSERT INTO `web_cascadedata` VALUES ('19887', '平罗县', '15502.3', 'area', '15502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19886', '惠农区', '15502.2', 'area', '15502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19885', '大武口区', '15502.1', 'area', '15502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19884', '石嘴山市', '15502', 'area', '15502', '1');
-INSERT INTO `web_cascadedata` VALUES ('19883', '灵武市', '15501.6', 'area', '15502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19882', '贺兰县', '15501.5', 'area', '15502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19881', '永宁县', '15501.4', 'area', '15501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19880', '金凤区', '15501.3', 'area', '15501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19879', '西夏区', '15501.2', 'area', '15501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19878', '兴庆区', '15501.1', 'area', '15501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19877', '银川市', '15501', 'area', '15501', '1');
-INSERT INTO `web_cascadedata` VALUES ('19876', '宁夏回族自治区', '15500', 'area', '15500', '0');
-INSERT INTO `web_cascadedata` VALUES ('19875', '天峻县', '15008.5', 'area', '15009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19874', '都兰县', '15008.4', 'area', '15008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19873', '乌兰县', '15008.3', 'area', '15008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19872', '德令哈市', '15008.2', 'area', '15008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19871', '格尔木市', '15008.1', 'area', '15008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19870', '海西蒙古族藏族自治州', '15008', 'area', '15008', '1');
-INSERT INTO `web_cascadedata` VALUES ('19869', '曲麻莱县', '15007.6', 'area', '15008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19868', '囊谦县', '15007.5', 'area', '15008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19867', '治多县', '15007.4', 'area', '15007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19866', '称多县', '15007.3', 'area', '15007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19865', '杂多县', '15007.2', 'area', '15007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19864', '玉树县', '15007.1', 'area', '15007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19863', '玉树藏族自治州', '15007', 'area', '15007', '1');
-INSERT INTO `web_cascadedata` VALUES ('19862', '玛多县', '15006.6', 'area', '15007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19861', '久治县', '15006.5', 'area', '15007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19860', '达日县', '15006.4', 'area', '15006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19859', '甘德县', '15006.3', 'area', '15006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19858', '班玛县', '15006.2', 'area', '15006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19857', '玛沁县', '15006.1', 'area', '15006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19856', '果洛藏族自治州', '15006', 'area', '15006', '1');
-INSERT INTO `web_cascadedata` VALUES ('19855', '贵南县', '15005.5', 'area', '15006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19854', '兴海县', '15005.4', 'area', '15005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19853', '贵德县', '15005.3', 'area', '15005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19852', '同德县', '15005.2', 'area', '15005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19851', '共和县', '15005.1', 'area', '15005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19850', '海南藏族自治州', '15005', 'area', '15005', '1');
-INSERT INTO `web_cascadedata` VALUES ('19849', '河南蒙古族自治县', '15004.4', 'area', '15004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19848', '泽库县', '15004.3', 'area', '15004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19847', '尖扎县', '15004.2', 'area', '15004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19846', '同仁县', '15004.1', 'area', '15004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19845', '黄南藏族自治州', '15004', 'area', '15004', '1');
-INSERT INTO `web_cascadedata` VALUES ('19844', '刚察县', '15003.4', 'area', '15003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19843', '海晏县', '15003.3', 'area', '15003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19842', '祁连县', '15003.2', 'area', '15003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19841', '门源回族自治县', '15003.1', 'area', '15003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19840', '海北藏族自治州', '15003', 'area', '15003', '1');
-INSERT INTO `web_cascadedata` VALUES ('19839', '循化撒拉族自治县', '15002.6', 'area', '15003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19838', '化隆回族自治县', '15002.5', 'area', '15003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19837', '互助土族自治县', '15002.4', 'area', '15002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19836', '乐都县', '15002.3', 'area', '15002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19835', '民和回族土族自治县', '15002.2', 'area', '15002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19834', '平安县', '15002.1', 'area', '15002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19833', '海东地区', '15002', 'area', '15002', '1');
-INSERT INTO `web_cascadedata` VALUES ('19832', '湟源县', '15001.7', 'area', '15002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19831', '湟中县', '15001.6', 'area', '15002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19830', '大通回族土族自治县', '15001.5', 'area', '15002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19829', '城北区', '15001.4', 'area', '15001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19828', '城西区', '15001.3', 'area', '15001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19827', '城中区', '15001.2', 'area', '15001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19826', '城东区', '15001.1', 'area', '15001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19825', '西宁市', '15001', 'area', '15001', '1');
-INSERT INTO `web_cascadedata` VALUES ('19824', '青海省', '15000', 'area', '15000', '0');
-INSERT INTO `web_cascadedata` VALUES ('19823', '夏河县', '14514.8', 'area', '14515', '2');
-INSERT INTO `web_cascadedata` VALUES ('19822', '碌曲县', '14514.7', 'area', '14515', '2');
-INSERT INTO `web_cascadedata` VALUES ('19821', '玛曲县', '14514.6', 'area', '14515', '2');
-INSERT INTO `web_cascadedata` VALUES ('19820', '迭部县', '14514.5', 'area', '14515', '2');
-INSERT INTO `web_cascadedata` VALUES ('19819', '舟曲县', '14514.4', 'area', '14514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19818', '卓尼县', '14514.3', 'area', '14514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19817', '临潭县', '14514.2', 'area', '14514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19816', '合作市', '14514.1', 'area', '14514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19815', '甘南藏族自治州', '14514', 'area', '14514', '1');
-INSERT INTO `web_cascadedata` VALUES ('19814', '积石山保安族东乡族撒拉族自治县', '14513.8', 'area', '14514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19813', '东乡族自治县', '14513.7', 'area', '14514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19812', '和政县', '14513.6', 'area', '14514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19811', '广河县', '14513.5', 'area', '14514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19810', '永靖县', '14513.4', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19809', '康乐县', '14513.3', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19808', '临夏县', '14513.2', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19807', '临夏市', '14513.1', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19806', '临夏回族自治州', '14513', 'area', '14513', '1');
-INSERT INTO `web_cascadedata` VALUES ('19805', '两当县', '14512.9', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19804', '徽　县', '14512.8', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19803', '礼　县', '14512.7', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19802', '西和县', '14512.6', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19801', '康　县', '14512.5', 'area', '14513', '2');
-INSERT INTO `web_cascadedata` VALUES ('19800', '宕昌县', '14512.4', 'area', '14512', '2');
-INSERT INTO `web_cascadedata` VALUES ('19799', '文　县', '14512.3', 'area', '14512', '2');
-INSERT INTO `web_cascadedata` VALUES ('19798', '成　县', '14512.2', 'area', '14512', '2');
-INSERT INTO `web_cascadedata` VALUES ('19797', '武都区', '14512.1', 'area', '14512', '2');
-INSERT INTO `web_cascadedata` VALUES ('19796', '陇南市', '14512', 'area', '14512', '1');
-INSERT INTO `web_cascadedata` VALUES ('19795', '岷　县', '14511.7', 'area', '14512', '2');
-INSERT INTO `web_cascadedata` VALUES ('19794', '漳　县', '14511.6', 'area', '14512', '2');
-INSERT INTO `web_cascadedata` VALUES ('19793', '临洮县', '14511.5', 'area', '14512', '2');
-INSERT INTO `web_cascadedata` VALUES ('19792', '渭源县', '14511.4', 'area', '14511', '2');
-INSERT INTO `web_cascadedata` VALUES ('19791', '陇西县', '14511.3', 'area', '14511', '2');
-INSERT INTO `web_cascadedata` VALUES ('19790', '通渭县', '14511.2', 'area', '14511', '2');
-INSERT INTO `web_cascadedata` VALUES ('19789', '安定区', '14511.1', 'area', '14511', '2');
-INSERT INTO `web_cascadedata` VALUES ('19788', '定西市', '14511', 'area', '14511', '1');
-INSERT INTO `web_cascadedata` VALUES ('19787', '镇原县', '14510.8', 'area', '14511', '2');
-INSERT INTO `web_cascadedata` VALUES ('19786', '宁　县', '14510.7', 'area', '14511', '2');
-INSERT INTO `web_cascadedata` VALUES ('19785', '正宁县', '14510.6', 'area', '14511', '2');
-INSERT INTO `web_cascadedata` VALUES ('19784', '合水县', '14510.5', 'area', '14511', '2');
-INSERT INTO `web_cascadedata` VALUES ('19783', '华池县', '14510.4', 'area', '14510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19782', '环　县', '14510.3', 'area', '14510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19781', '庆城县', '14510.2', 'area', '14510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19780', '西峰区', '14510.1', 'area', '14510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19779', '庆阳市', '14510', 'area', '14510', '1');
-INSERT INTO `web_cascadedata` VALUES ('19778', '敦煌市', '14509.7', 'area', '14510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19777', '玉门市', '14509.6', 'area', '14510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19776', '阿克塞哈萨克族自治县', '14509.5', 'area', '14510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19775', '肃北蒙古族自治县', '14509.4', 'area', '14509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19774', '安西县', '14509.3', 'area', '14509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19773', '金塔县', '14509.2', 'area', '14509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19772', '肃州区', '14509.1', 'area', '14509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19771', '酒泉市', '14509', 'area', '14509', '1');
-INSERT INTO `web_cascadedata` VALUES ('19770', '静宁县', '14508.7', 'area', '14509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19769', '庄浪县', '14508.6', 'area', '14509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19768', '华亭县', '14508.5', 'area', '14509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19767', '崇信县', '14508.4', 'area', '14508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19766', '灵台县', '14508.3', 'area', '14508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19765', '泾川县', '14508.2', 'area', '14508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19764', '崆峒区', '14508.1', 'area', '14508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19763', '平凉市', '14508', 'area', '14508', '1');
-INSERT INTO `web_cascadedata` VALUES ('19762', '山丹县', '14507.6', 'area', '14508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19761', '高台县', '14507.5', 'area', '14508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19760', '临泽县', '14507.4', 'area', '14507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19759', '民乐县', '14507.3', 'area', '14507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19758', '肃南裕固族自治县', '14507.2', 'area', '14507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19757', '甘州区', '14507.1', 'area', '14507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19756', '张掖市', '14507', 'area', '14507', '1');
-INSERT INTO `web_cascadedata` VALUES ('19755', '天祝藏族自治县', '14506.4', 'area', '14506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19754', '古浪县', '14506.3', 'area', '14506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19753', '民勤县', '14506.2', 'area', '14506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19752', '凉州区', '14506.1', 'area', '14506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19751', '武威市', '14506', 'area', '14506', '1');
-INSERT INTO `web_cascadedata` VALUES ('19750', '张家川回族自治县', '14505.7', 'area', '14506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19749', '武山县', '14505.6', 'area', '14506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19748', '甘谷县', '14505.5', 'area', '14506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19747', '秦安县', '14505.4', 'area', '14505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19746', '清水县', '14505.3', 'area', '14505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19745', '北道区', '14505.2', 'area', '14505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19744', '秦城区', '14505.1', 'area', '14505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19743', '天水市', '14505', 'area', '14505', '1');
-INSERT INTO `web_cascadedata` VALUES ('19742', '景泰县', '14504.5', 'area', '14505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19741', '会宁县', '14504.4', 'area', '14504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19740', '靖远县', '14504.3', 'area', '14504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19739', '平川区', '14504.2', 'area', '14504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19738', '白银区', '14504.1', 'area', '14504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19737', '白银市', '14504', 'area', '14504', '1');
-INSERT INTO `web_cascadedata` VALUES ('19736', '永昌县', '14503.2', 'area', '14503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19735', '金川区', '14503.1', 'area', '14503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19734', '金昌市', '14503', 'area', '14503', '1');
-INSERT INTO `web_cascadedata` VALUES ('19733', '嘉峪关市', '14502', 'area', '14502', '1');
-INSERT INTO `web_cascadedata` VALUES ('19732', '榆中县', '14501.8', 'area', '14502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19731', '皋兰县', '14501.7', 'area', '14502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19730', '永登县', '14501.6', 'area', '14502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19729', '红古区', '14501.5', 'area', '14502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19728', '安宁区', '14501.4', 'area', '14501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19727', '西固区', '14501.3', 'area', '14501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19726', '七里河区', '14501.2', 'area', '14501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19725', '城关区', '14501.1', 'area', '14501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19724', '兰州市', '14501', 'area', '14501', '1');
-INSERT INTO `web_cascadedata` VALUES ('19723', '甘肃省', '14500', 'area', '14500', '0');
-INSERT INTO `web_cascadedata` VALUES ('19722', '柞水县', '14010.7', 'area', '14011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19721', '镇安县', '14010.6', 'area', '14011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19720', '山阳县', '14010.5', 'area', '14011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19719', '商南县', '14010.4', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19718', '丹凤县', '14010.3', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19717', '洛南县', '14010.2', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19716', '商州区', '14010.1', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19715', '商洛市', '14010', 'area', '14010', '1');
-INSERT INTO `web_cascadedata` VALUES ('19714', '白河县', '14009.10', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19713', '旬阳县', '14009.9', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19712', '镇坪县', '14009.8', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19711', '平利县', '14009.7', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19710', '岚皋县', '14009.6', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19709', '紫阳县', '14009.5', 'area', '14010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19708', '宁陕县', '14009.4', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19707', '石泉县', '14009.3', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19706', '汉阴县', '14009.2', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19705', '汉滨区', '14009.1', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19704', '安康市', '14009', 'area', '14009', '1');
-INSERT INTO `web_cascadedata` VALUES ('19703', '子洲县', '14008.12', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19702', '清涧县', '14008.11', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19701', '吴堡县', '14008.10', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19700', '佳　县', '14008.9', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19699', '米脂县', '14008.8', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19698', '绥德县', '14008.7', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19697', '定边县', '14008.6', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19696', '靖边县', '14008.5', 'area', '14009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19695', '横山县', '14008.4', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19694', '府谷县', '14008.3', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19693', '神木县', '14008.2', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19692', '榆阳区', '14008.1', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19691', '榆林市', '14008', 'area', '14008', '1');
-INSERT INTO `web_cascadedata` VALUES ('19690', '佛坪县', '14007.11', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19689', '留坝县', '14007.10', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19688', '镇巴县', '14007.9', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19687', '略阳县', '14007.8', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19686', '宁强县', '14007.7', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19685', '勉　县', '14007.6', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19684', '西乡县', '14007.5', 'area', '14008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19683', '洋　县', '14007.4', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19682', '城固县', '14007.3', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19681', '南郑县', '14007.2', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19680', '汉台区', '14007.1', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19679', '汉中市', '14007', 'area', '14007', '1');
-INSERT INTO `web_cascadedata` VALUES ('19678', '黄陵县', '14006.13', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19677', '黄龙县', '14006.12', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19676', '宜川县', '14006.11', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19675', '洛川县', '14006.10', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19674', '富　县', '14006.9', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19673', '甘泉县', '14006.8', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19672', '吴旗县', '14006.7', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19671', '志丹县', '14006.6', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19670', '安塞县', '14006.5', 'area', '14007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19669', '子长县', '14006.4', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19668', '延川县', '14006.3', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19667', '延长县', '14006.2', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19666', '宝塔区', '14006.1', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19665', '延安市', '14006', 'area', '14006', '1');
-INSERT INTO `web_cascadedata` VALUES ('19664', '华阴市', '14005.11', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19663', '韩城市', '14005.10', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19662', '富平县', '14005.9', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19661', '白水县', '14005.8', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19660', '蒲城县', '14005.7', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19659', '澄城县', '14005.6', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19658', '合阳县', '14005.5', 'area', '14006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19657', '大荔县', '14005.4', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19656', '潼关县', '14005.3', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19655', '华　县', '14005.2', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19654', '临渭区', '14005.1', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19653', '渭南市', '14005', 'area', '14005', '1');
-INSERT INTO `web_cascadedata` VALUES ('19652', '兴平市', '14004.14', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19651', '武功县', '14004.13', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19650', '淳化县', '14004.12', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19649', '旬邑县', '14004.11', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19648', '长武县', '14004.10', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19647', '彬　县', '14004.9', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19646', '永寿县', '14004.8', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19645', '礼泉县', '14004.7', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19644', '乾　县', '14004.6', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19643', '泾阳县', '14004.5', 'area', '14005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19642', '三原县', '14004.4', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19641', '渭城区', '14004.3', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19640', '杨凌区', '14004.2', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19639', '秦都区', '14004.1', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19638', '咸阳市', '14004', 'area', '14004', '1');
-INSERT INTO `web_cascadedata` VALUES ('19637', '太白县', '14003.12', 'area', '14003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19636', '凤　县', '14003.11', 'area', '14003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19635', '麟游县', '14003.10', 'area', '14003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19634', '千阳县', '14003.9', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19633', '陇　县', '14003.8', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19632', '眉　县', '14003.7', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19631', '扶风县', '14003.6', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19630', '岐山县', '14003.5', 'area', '14004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19629', '凤翔县', '14003.4', 'area', '14003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19628', '陈仓区', '14003.3', 'area', '14003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19627', '金台区', '14003.2', 'area', '14003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19626', '滨区', '14003.1', 'area', '14003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19625', '宝鸡市', '14003', 'area', '14003', '1');
-INSERT INTO `web_cascadedata` VALUES ('19624', '宜君县', '14002.4', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19623', '耀州区', '14002.3', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19622', '印台区', '14002.2', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19621', '王益区', '14002.1', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19620', '铜川市', '14002', 'area', '14002', '1');
-INSERT INTO `web_cascadedata` VALUES ('19619', '高陵县', '14001.13', 'area', '14001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19618', '户　县', '14001.12', 'area', '14001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19617', '周至县', '14001.11', 'area', '14001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19616', '蓝田县', '14001.10', 'area', '14001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19615', '长安区', '14001.9', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19614', '临潼区', '14001.8', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19613', '阎良区', '14001.7', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19612', '雁塔区', '14001.6', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19611', '未央区', '14001.5', 'area', '14002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19610', '灞桥区', '14001.4', 'area', '14001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19609', '莲湖区', '14001.3', 'area', '14001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19608', '碑林区', '14001.2', 'area', '14001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19607', '新城区', '14001.1', 'area', '14001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19606', '西安市', '14001', 'area', '14001', '1');
-INSERT INTO `web_cascadedata` VALUES ('19605', '陕西省', '14000', 'area', '14000', '0');
-INSERT INTO `web_cascadedata` VALUES ('19604', '朗　县', '13507.7', 'area', '13508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19603', '察隅县', '13507.6', 'area', '13508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19602', '波密县', '13507.5', 'area', '13508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19601', '墨脱县', '13507.4', 'area', '13507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19600', '米林县', '13507.3', 'area', '13507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19599', '工布江达县', '13507.2', 'area', '13507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19598', '林芝县', '13507.1', 'area', '13507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19597', '林芝地区', '13507', 'area', '13507', '1');
-INSERT INTO `web_cascadedata` VALUES ('19596', '措勤县', '13506.7', 'area', '13507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19595', '改则县', '13506.6', 'area', '13507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19594', '革吉县', '13506.5', 'area', '13507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19593', '日土县', '13506.4', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19592', '噶尔县', '13506.3', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19591', '札达县', '13506.2', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19590', '普兰县', '13506.1', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19589', '阿里地区', '13506', 'area', '13506', '1');
-INSERT INTO `web_cascadedata` VALUES ('19588', '尼玛县', '13505.10', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19587', '巴青县', '13505.9', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19586', '班戈县', '13505.8', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19585', '索　县', '13505.7', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19584', '申扎县', '13505.6', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19583', '安多县', '13505.5', 'area', '13506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19582', '聂荣县', '13505.4', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19581', '比如县', '13505.3', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19580', '嘉黎县', '13505.2', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19579', '那曲县', '13505.1', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19578', '那曲地区', '13505', 'area', '13505', '1');
-INSERT INTO `web_cascadedata` VALUES ('19577', '岗巴县', '13504.18', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19576', '萨嘎县', '13504.17', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19575', '聂拉木县', '13504.16', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19574', '吉隆县', '13504.15', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19573', '亚东县', '13504.14', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19572', '仲巴县', '13504.13', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19571', '定结县', '13504.12', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19570', '康马县', '13504.11', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19569', '仁布县', '13504.10', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19568', '白朗县', '13504.9', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19567', '谢通门县', '13504.8', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19566', '昂仁县', '13504.7', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19565', '拉孜县', '13504.6', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19564', '萨迦县', '13504.5', 'area', '13505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19563', '定日县', '13504.4', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19562', '江孜县', '13504.3', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19561', '南木林县', '13504.2', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19560', '日喀则市', '13504.1', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19559', '日喀则地区', '13504', 'area', '13504', '1');
-INSERT INTO `web_cascadedata` VALUES ('19558', '浪卡子县', '13503.12', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19557', '错那县', '13503.11', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19556', '隆子县', '13503.10', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19555', '加查县', '13503.9', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19554', '洛扎县', '13503.8', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19553', '措美县', '13503.7', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19552', '曲松县', '13503.6', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19551', '琼结县', '13503.5', 'area', '13504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19550', '桑日县', '13503.4', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19549', '贡嘎县', '13503.3', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19548', '扎囊县', '13503.2', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19547', '乃东县', '13503.1', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19546', '山南地区', '13503', 'area', '13503', '1');
-INSERT INTO `web_cascadedata` VALUES ('19545', '边坝县', '13502.11', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19544', '洛隆县', '13502.10', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19543', '芒康县', '13502.9', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19542', '左贡县', '13502.8', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19541', '八宿县', '13502.7', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19540', '察雅县', '13502.6', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19539', '丁青县', '13502.5', 'area', '13503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19538', '类乌齐县', '13502.4', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19537', '贡觉县', '13502.3', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19536', '江达县', '13502.2', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19535', '昌都县', '13502.1', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19534', '昌都地区', '13502', 'area', '13502', '1');
-INSERT INTO `web_cascadedata` VALUES ('19533', '墨竹工卡县', '13501.8', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19532', '达孜县', '13501.7', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19531', '堆龙德庆县', '13501.6', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19530', '曲水县', '13501.5', 'area', '13502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19529', '尼木县', '13501.4', 'area', '13501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19528', '当雄县', '13501.3', 'area', '13501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19527', '林周县', '13501.2', 'area', '13501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19526', '城关区', '13501.1', 'area', '13501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19525', '拉萨市', '13501', 'area', '13501', '1');
-INSERT INTO `web_cascadedata` VALUES ('19524', '西藏自治区', '13500', 'area', '13500', '0');
-INSERT INTO `web_cascadedata` VALUES ('19523', '维西傈僳族自治县', '13016.3', 'area', '13016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19522', '德钦县', '13016.2', 'area', '13016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19521', '香格里拉县', '13016.1', 'area', '13016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19520', '迪庆藏族自治州', '13016', 'area', '13016', '1');
-INSERT INTO `web_cascadedata` VALUES ('19519', '兰坪白族普米族自治县', '13015.4', 'area', '13015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19518', '贡山独龙族怒族自治县', '13015.3', 'area', '13015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19517', '福贡县', '13015.2', 'area', '13015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19516', '泸水县', '13015.1', 'area', '13015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19515', '怒江傈僳族自治州', '13015', 'area', '13015', '1');
-INSERT INTO `web_cascadedata` VALUES ('19514', '陇川县', '13014.5', 'area', '13015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19513', '盈江县', '13014.4', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19512', '梁河县', '13014.3', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19511', '潞西市', '13014.2', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19510', '瑞丽市', '13014.1', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19509', '德宏傣族景颇族自治州', '13014', 'area', '13014', '1');
-INSERT INTO `web_cascadedata` VALUES ('19508', '鹤庆县', '13013.12', 'area', '13013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19507', '剑川县', '13013.11', 'area', '13013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19506', '洱源县', '13013.10', 'area', '13013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19505', '云龙县', '13013.9', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19504', '永平县', '13013.8', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19503', '巍山彝族回族自治县', '13013.7', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19502', '南涧彝族自治县', '13013.6', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19501', '弥渡县', '13013.5', 'area', '13014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19500', '宾川县', '13013.4', 'area', '13013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19499', '祥云县', '13013.3', 'area', '13013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19498', '漾濞彝族自治县', '13013.2', 'area', '13013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19497', '大理市', '13013.1', 'area', '13013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19496', '大理白族自治州', '13013', 'area', '13013', '1');
-INSERT INTO `web_cascadedata` VALUES ('19495', '勐腊县', '13012.3', 'area', '13012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19494', '勐海县', '13012.2', 'area', '13012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19493', '景洪市', '13012.1', 'area', '13012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19492', '西双版纳傣族自治州', '13012', 'area', '13012', '1');
-INSERT INTO `web_cascadedata` VALUES ('19491', '富宁县', '13011.8', 'area', '13012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19490', '广南县', '13011.7', 'area', '13012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19489', '丘北县', '13011.6', 'area', '13012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19488', '马关县', '13011.5', 'area', '13012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19487', '麻栗坡县', '13011.4', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19486', '西畴县', '13011.3', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19485', '砚山县', '13011.2', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19484', '文山县', '13011.1', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19483', '文山壮族苗族自治州', '13011', 'area', '13011', '1');
-INSERT INTO `web_cascadedata` VALUES ('19482', '河口瑶族自治县', '13010.12', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19481', '绿春县', '13010.11', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19480', '金平苗族瑶族傣族自治县', '13010.10', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19479', '元阳县', '13010.9', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19478', '泸西县', '13010.8', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19477', '弥勒县', '13010.7', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19476', '石屏县', '13010.6', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19475', '建水县', '13010.5', 'area', '13011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19474', '屏边苗族自治县', '13010.4', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19473', '蒙自县', '13010.3', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19472', '开远市', '13010.2', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19471', '个旧市', '13010.1', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19470', '红河哈尼族彝族自治州', '13010', 'area', '13010', '1');
-INSERT INTO `web_cascadedata` VALUES ('19469', '禄丰县', '13009.10', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19468', '武定县', '13009.9', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19467', '元谋县', '13009.8', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19466', '永仁县', '13009.7', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19465', '大姚县', '13009.6', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19464', '姚安县', '13009.5', 'area', '13010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19463', '南华县', '13009.4', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19462', '牟定县', '13009.3', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19461', '双柏县', '13009.2', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19460', '楚雄市', '13009.1', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19459', '楚雄彝族自治州', '13009', 'area', '13009', '1');
-INSERT INTO `web_cascadedata` VALUES ('19458', '沧源佤族自治县', '13008.8', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19457', '耿马傣族佤族自治县', '13008.7', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19456', '双江拉祜族佤族布朗族傣族自治县', '13008.6', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19455', '镇康县', '13008.5', 'area', '13009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19454', '永德县', '13008.4', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19453', '云　县', '13008.3', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19452', '凤庆县', '13008.2', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19451', '临翔区', '13008.1', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19450', '临沧市', '13008', 'area', '13008', '1');
-INSERT INTO `web_cascadedata` VALUES ('19449', '西盟佤族自治县', '13007.10', 'area', '13007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19448', '澜沧拉祜族自治县', '13007.9', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19447', '孟连傣族拉祜族佤族自治县', '13007.8', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19446', '江城哈尼族彝族自治县', '13007.7', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19445', '镇沅彝族哈尼族拉祜族自治县', '13007.6', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19444', '景谷傣族彝族自治县', '13007.5', 'area', '13008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19443', '景东彝族自治县', '13007.4', 'area', '13007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19442', '墨江哈尼族自治县', '13007.3', 'area', '13007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19441', '普洱哈尼族彝族自治县', '13007.2', 'area', '13007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19440', '翠云区', '13007.1', 'area', '13007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19439', '思茅市', '13007', 'area', '13007', '1');
-INSERT INTO `web_cascadedata` VALUES ('19438', '宁蒗彝族自治县', '13006.5', 'area', '13007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19437', '华坪县', '13006.4', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19436', '永胜县', '13006.3', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19435', '玉龙纳西族自治县', '13006.2', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19434', '古城区', '13006.1', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19433', '丽江市', '13006', 'area', '13006', '1');
-INSERT INTO `web_cascadedata` VALUES ('19432', '水富县', '13005.11', 'area', '13005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19431', '威信县', '13005.10', 'area', '13005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19430', '彝良县', '13005.9', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19429', '镇雄县', '13005.8', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19428', '绥江县', '13005.7', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19427', '永善县', '13005.6', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19426', '大关县', '13005.5', 'area', '13006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19425', '盐津县', '13005.4', 'area', '13005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19424', '巧家县', '13005.3', 'area', '13005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19423', '鲁甸县', '13005.2', 'area', '13005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19422', '昭阳区', '13005.1', 'area', '13005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19421', '昭通市', '13005', 'area', '13005', '1');
-INSERT INTO `web_cascadedata` VALUES ('19420', '昌宁县', '13004.5', 'area', '13005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19419', '龙陵县', '13004.4', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19418', '腾冲县', '13004.3', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19417', '施甸县', '13004.2', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19416', '隆阳区', '13004.1', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19415', '保山市', '13004', 'area', '13004', '1');
-INSERT INTO `web_cascadedata` VALUES ('19414', '元江哈尼族彝族傣族自治县', '13003.9', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19413', '新平彝族傣族自治县', '13003.8', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19412', '峨山彝族自治县', '13003.7', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19411', '易门县', '13003.6', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19410', '华宁县', '13003.5', 'area', '13004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19409', '通海县', '13003.4', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19408', '澄江县', '13003.3', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19407', '江川县', '13003.2', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19406', '红塔区', '13003.1', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19405', '玉溪市', '13003', 'area', '13003', '1');
-INSERT INTO `web_cascadedata` VALUES ('19404', '宣威市', '13002.9', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19403', '沾益县', '13002.8', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19402', '会泽县', '13002.7', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19401', '富源县', '13002.6', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19400', '罗平县', '13002.5', 'area', '13003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19399', '师宗县', '13002.4', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19398', '陆良县', '13002.3', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19397', '马龙县', '13002.2', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19396', '麒麟区', '13002.1', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19395', '曲靖市', '13002', 'area', '13002', '1');
-INSERT INTO `web_cascadedata` VALUES ('19394', '安宁市', '13001.14', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19393', '寻甸回族彝族自治县', '13001.13', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19392', '禄劝彝族苗族自治县', '13001.12', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19391', '嵩明县', '13001.11', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19390', '石林彝族自治县', '13001.10', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19389', '宜良县', '13001.9', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19388', '富民县', '13001.8', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19387', '晋宁县', '13001.7', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19386', '呈贡县', '13001.6', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19385', '东川区', '13001.5', 'area', '13002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19384', '西山区', '13001.4', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19383', '官渡区', '13001.3', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19382', '盘龙区', '13001.2', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19381', '五华区', '13001.1', 'area', '13001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19380', '昆明市', '13001', 'area', '13001', '1');
-INSERT INTO `web_cascadedata` VALUES ('19379', '云南省', '13000', 'area', '13000', '0');
-INSERT INTO `web_cascadedata` VALUES ('19378', '三都水族自治县', '12509.12', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19377', '惠水县', '12509.11', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19376', '龙里县', '12509.10', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19375', '长顺县', '12509.9', 'area', '12510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19374', '罗甸县', '12509.8', 'area', '12510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19373', '平塘县', '12509.7', 'area', '12510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19372', '独山县', '12509.6', 'area', '12510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19371', '瓮安县', '12509.5', 'area', '12510', '2');
-INSERT INTO `web_cascadedata` VALUES ('19370', '贵定县', '12509.4', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19369', '荔波县', '12509.3', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19368', '福泉市', '12509.2', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19367', '都匀市', '12509.1', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19366', '黔南布依族苗族自治州', '12509', 'area', '12509', '1');
-INSERT INTO `web_cascadedata` VALUES ('19365', '麻江县', '12508.15', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19364', '雷山县', '12508.14', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19363', '从江县', '12508.13', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19362', '榕江县', '12508.12', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19361', '黎平县', '12508.11', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19360', '台江县', '12508.10', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19359', '剑河县', '12508.9', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19358', '锦屏县', '12508.8', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19357', '天柱县', '12508.7', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19356', '岑巩县', '12508.6', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19355', '镇远县', '12508.5', 'area', '12509', '2');
-INSERT INTO `web_cascadedata` VALUES ('19354', '三穗县', '12508.4', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19353', '施秉县', '12508.3', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19352', '黄平县', '12508.2', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19351', '凯里市', '12508.1', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19350', '黔东南苗族侗族自治州', '12508', 'area', '12508', '1');
-INSERT INTO `web_cascadedata` VALUES ('19349', '赫章县', '12507.8', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19348', '威宁彝族回族苗族自治县', '12507.7', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19347', '纳雍县', '12507.6', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19346', '织金县', '12507.5', 'area', '12508', '2');
-INSERT INTO `web_cascadedata` VALUES ('19345', '金沙县', '12507.4', 'area', '12507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19344', '黔西县', '12507.3', 'area', '12507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19343', '大方县', '12507.2', 'area', '12507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19342', '毕节市', '12507.1', 'area', '12507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19341', '毕节地区', '12507', 'area', '12507', '1');
-INSERT INTO `web_cascadedata` VALUES ('19340', '安龙县', '12506.8', 'area', '12507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19339', '册亨县', '12506.7', 'area', '12507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19338', '望谟县', '12506.6', 'area', '12507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19337', '贞丰县', '12506.5', 'area', '12507', '2');
-INSERT INTO `web_cascadedata` VALUES ('19336', '晴隆县', '12506.4', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19335', '普安县', '12506.3', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19334', '兴仁县', '12506.2', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19333', '兴义市', '12506.1', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19332', '黔西南布依族苗族自治州', '12506', 'area', '12506', '1');
-INSERT INTO `web_cascadedata` VALUES ('19331', '万山特区', '12505.10', 'area', '12505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19330', '松桃苗族自治县', '12505.9', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19329', '沿河土家族自治县', '12505.8', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19328', '德江县', '12505.7', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19327', '印江土家族苗族自治县', '12505.6', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19326', '思南县', '12505.5', 'area', '12506', '2');
-INSERT INTO `web_cascadedata` VALUES ('19325', '石阡县', '12505.4', 'area', '12505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19324', '玉屏侗族自治县', '12505.3', 'area', '12505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19323', '江口县', '12505.2', 'area', '12505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19322', '铜仁市', '12505.1', 'area', '12505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19321', '铜仁地区', '12505', 'area', '12505', '1');
-INSERT INTO `web_cascadedata` VALUES ('19320', '紫云苗族布依族自治县', '12504.6', 'area', '12505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19319', '关岭布依族苗族自治县', '12504.5', 'area', '12505', '2');
-INSERT INTO `web_cascadedata` VALUES ('19318', '镇宁布依族苗族自治县', '12504.4', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19317', '普定县', '12504.3', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19316', '平坝县', '12504.2', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19315', '西秀区', '12504.1', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19314', '安顺市', '12504', 'area', '12504', '1');
-INSERT INTO `web_cascadedata` VALUES ('19313', '仁怀市', '12503.14', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19312', '赤水市', '12503.13', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19311', '习水县', '12503.12', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19310', '余庆县', '12503.11', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19309', '湄潭县', '12503.10', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19308', '凤冈县', '12503.9', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19307', '务川仡佬族苗族自治县', '12503.8', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19306', '道真仡佬族苗族自治县', '12503.7', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19305', '正安县', '12503.6', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19304', '绥阳县', '12503.5', 'area', '12504', '2');
-INSERT INTO `web_cascadedata` VALUES ('19303', '桐梓县', '12503.4', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19302', '遵义县', '12503.3', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19301', '汇川区', '12503.2', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19300', '红花岗区', '12503.1', 'area', '12503', '2');
-INSERT INTO `web_cascadedata` VALUES ('19299', '遵义市', '12503', 'area', '12503', '1');
-INSERT INTO `web_cascadedata` VALUES ('19298', '盘　县', '12502.4', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19297', '水城县', '12502.3', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19296', '六枝特区', '12502.2', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19295', '钟山区', '12502.1', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19294', '六盘水市', '12502', 'area', '12502', '1');
-INSERT INTO `web_cascadedata` VALUES ('19293', '清镇市', '12501.10', 'area', '12501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19292', '修文县', '12501.9', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19291', '息烽县', '12501.8', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19290', '开阳县', '12501.7', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19289', '小河区', '12501.6', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19288', '白云区', '12501.5', 'area', '12502', '2');
-INSERT INTO `web_cascadedata` VALUES ('19287', '乌当区', '12501.4', 'area', '12501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19286', '花溪区', '12501.3', 'area', '12501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19285', '云岩区', '12501.2', 'area', '12501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19284', '南明区', '12501.1', 'area', '12501', '2');
-INSERT INTO `web_cascadedata` VALUES ('19283', '贵阳市', '12501', 'area', '12501', '1');
-INSERT INTO `web_cascadedata` VALUES ('19282', '贵州省', '12500', 'area', '12500', '0');
-INSERT INTO `web_cascadedata` VALUES ('19281', '雷波县', '12021.17', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19280', '美姑县', '12021.16', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19279', '甘洛县', '12021.15', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19278', '越西县', '12021.14', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19277', '冕宁县', '12021.13', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19276', '喜德县', '12021.12', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19275', '昭觉县', '12021.11', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19274', '金阳县', '12021.10', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19273', '布拖县', '12021.9', 'area', '12022', '2');
-INSERT INTO `web_cascadedata` VALUES ('19272', '普格县', '12021.8', 'area', '12022', '2');
-INSERT INTO `web_cascadedata` VALUES ('19271', '宁南县', '12021.7', 'area', '12022', '2');
-INSERT INTO `web_cascadedata` VALUES ('19270', '会东县', '12021.6', 'area', '12022', '2');
-INSERT INTO `web_cascadedata` VALUES ('19269', '会理县', '12021.5', 'area', '12022', '2');
-INSERT INTO `web_cascadedata` VALUES ('19268', '德昌县', '12021.4', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19267', '盐源县', '12021.3', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19266', '木里藏族自治县', '12021.2', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19265', '西昌市', '12021.1', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19264', '凉山彝族自治州', '12021', 'area', '12021', '1');
-INSERT INTO `web_cascadedata` VALUES ('19263', '得荣县', '12020.18', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19262', '稻城县', '12020.17', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19261', '乡城县', '12020.16', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19260', '巴塘县', '12020.15', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19259', '理塘县', '12020.14', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19258', '色达县', '12020.13', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19257', '石渠县', '12020.12', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19256', '白玉县', '12020.11', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19255', '德格县', '12020.10', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19254', '新龙县', '12020.9', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19253', '甘孜县', '12020.8', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19252', '炉霍县', '12020.7', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19251', '道孚县', '12020.6', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19250', '雅江县', '12020.5', 'area', '12021', '2');
-INSERT INTO `web_cascadedata` VALUES ('19249', '九龙县', '12020.4', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19248', '丹巴县', '12020.3', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19247', '泸定县', '12020.2', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19246', '康定县', '12020.1', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19245', '甘孜藏族自治州', '12020', 'area', '12020', '1');
-INSERT INTO `web_cascadedata` VALUES ('19244', '红原县', '12019.13', 'area', '12019', '2');
-INSERT INTO `web_cascadedata` VALUES ('19243', '若尔盖县', '12019.12', 'area', '12019', '2');
-INSERT INTO `web_cascadedata` VALUES ('19242', '阿坝县', '12019.11', 'area', '12019', '2');
-INSERT INTO `web_cascadedata` VALUES ('19241', '壤塘县', '12019.10', 'area', '12019', '2');
-INSERT INTO `web_cascadedata` VALUES ('19240', '马尔康县', '12019.9', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19239', '黑水县', '12019.8', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19238', '小金县', '12019.7', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19237', '金川县', '12019.6', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19236', '九寨沟县', '12019.5', 'area', '12020', '2');
-INSERT INTO `web_cascadedata` VALUES ('19235', '松潘县', '12019.4', 'area', '12019', '2');
-INSERT INTO `web_cascadedata` VALUES ('19234', '茂　县', '12019.3', 'area', '12019', '2');
-INSERT INTO `web_cascadedata` VALUES ('19233', '理　县', '12019.2', 'area', '12019', '2');
-INSERT INTO `web_cascadedata` VALUES ('19232', '汶川县', '12019.1', 'area', '12019', '2');
-INSERT INTO `web_cascadedata` VALUES ('19231', '阿坝藏族羌族自治州', '12019', 'area', '12019', '1');
-INSERT INTO `web_cascadedata` VALUES ('19230', '简阳市', '12018.4', 'area', '12018', '2');
-INSERT INTO `web_cascadedata` VALUES ('19229', '乐至县', '12018.3', 'area', '12018', '2');
-INSERT INTO `web_cascadedata` VALUES ('19228', '安岳县', '12018.2', 'area', '12018', '2');
-INSERT INTO `web_cascadedata` VALUES ('19227', '雁江区', '12018.1', 'area', '12018', '2');
-INSERT INTO `web_cascadedata` VALUES ('19226', '资阳市', '12018', 'area', '12018', '1');
-INSERT INTO `web_cascadedata` VALUES ('19225', '平昌县', '12017.4', 'area', '12017', '2');
-INSERT INTO `web_cascadedata` VALUES ('19224', '南江县', '12017.3', 'area', '12017', '2');
-INSERT INTO `web_cascadedata` VALUES ('19223', '通江县', '12017.2', 'area', '12017', '2');
-INSERT INTO `web_cascadedata` VALUES ('19222', '巴州区', '12017.1', 'area', '12017', '2');
-INSERT INTO `web_cascadedata` VALUES ('19221', '巴中市', '12017', 'area', '12017', '1');
-INSERT INTO `web_cascadedata` VALUES ('19220', '宝兴县', '12016.8', 'area', '12017', '2');
-INSERT INTO `web_cascadedata` VALUES ('19219', '芦山县', '12016.7', 'area', '12017', '2');
-INSERT INTO `web_cascadedata` VALUES ('19218', '天全县', '12016.6', 'area', '12017', '2');
-INSERT INTO `web_cascadedata` VALUES ('19217', '石棉县', '12016.5', 'area', '12017', '2');
-INSERT INTO `web_cascadedata` VALUES ('19216', '汉源县', '12016.4', 'area', '12016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19215', '荥经县', '12016.3', 'area', '12016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19214', '名山县', '12016.2', 'area', '12016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19213', '雨城区', '12016.1', 'area', '12016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19212', '雅安市', '12016', 'area', '12016', '1');
-INSERT INTO `web_cascadedata` VALUES ('19211', '万源市', '12015.7', 'area', '12016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19210', '渠　县', '12015.6', 'area', '12016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19209', '大竹县', '12015.5', 'area', '12016', '2');
-INSERT INTO `web_cascadedata` VALUES ('19208', '开江县', '12015.4', 'area', '12015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19207', '宣汉县', '12015.3', 'area', '12015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19206', '达　县', '12015.2', 'area', '12015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19205', '通川区', '12015.1', 'area', '12015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19204', '达州市', '12015', 'area', '12015', '1');
-INSERT INTO `web_cascadedata` VALUES ('19203', '华莹市', '12014.5', 'area', '12015', '2');
-INSERT INTO `web_cascadedata` VALUES ('19202', '邻水县', '12014.4', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19201', '武胜县', '12014.3', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19200', '岳池县', '12014.2', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19199', '广安区', '12014.1', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19198', '广安市', '12014', 'area', '12014', '1');
-INSERT INTO `web_cascadedata` VALUES ('19197', '屏山县', '12013.10', 'area', '12013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19196', '兴文县', '12013.9', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19195', '筠连县', '12013.8', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19194', '珙　县', '12013.7', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19193', '高　县', '12013.6', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19192', '长宁县', '12013.5', 'area', '12014', '2');
-INSERT INTO `web_cascadedata` VALUES ('19191', '江安县', '12013.4', 'area', '12013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19190', '南溪县', '12013.3', 'area', '12013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19189', '宜宾县', '12013.2', 'area', '12013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19188', '翠屏区', '12013.1', 'area', '12013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19187', '宜宾市', '12013', 'area', '12013', '1');
-INSERT INTO `web_cascadedata` VALUES ('19186', '青神县', '12012.6', 'area', '12013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19185', '丹棱县', '12012.5', 'area', '12013', '2');
-INSERT INTO `web_cascadedata` VALUES ('19184', '洪雅县', '12012.4', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19183', '彭山县', '12012.3', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19182', '仁寿县', '12012.2', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19181', '东坡区', '12012.1', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19180', '眉山市', '12012', 'area', '12012', '1');
-INSERT INTO `web_cascadedata` VALUES ('19179', '阆中市', '12011.9', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19178', '西充县', '12011.8', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19177', '仪陇县', '12011.7', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19176', '蓬安县', '12011.6', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19175', '营山县', '12011.5', 'area', '12012', '2');
-INSERT INTO `web_cascadedata` VALUES ('19174', '南部县', '12011.4', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19173', '嘉陵区', '12011.3', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19172', '高坪区', '12011.2', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19171', '顺庆区', '12011.1', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19170', '南充市', '12011', 'area', '12011', '1');
-INSERT INTO `web_cascadedata` VALUES ('19169', '峨眉山市', '12010.11', 'area', '12010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19168', '马边彝族自治县', '12010.10', 'area', '12010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19167', '峨边彝族自治县', '12010.9', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19166', '沐川县', '12010.8', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19165', '夹江县', '12010.7', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19164', '井研县', '12010.6', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19163', '犍为县', '12010.5', 'area', '12011', '2');
-INSERT INTO `web_cascadedata` VALUES ('19162', '金口河区', '12010.4', 'area', '12010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19161', '五通桥区', '12010.3', 'area', '12010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19160', '沙湾区', '12010.2', 'area', '12010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19159', '市中区', '12010.1', 'area', '12010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19158', '乐山市', '12010', 'area', '12010', '1');
-INSERT INTO `web_cascadedata` VALUES ('19157', '隆昌县', '12009.5', 'area', '12010', '2');
-INSERT INTO `web_cascadedata` VALUES ('19156', '资中县', '12009.4', 'area', '12009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19155', '威远县', '12009.3', 'area', '12009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19154', '东兴区', '12009.2', 'area', '12009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19153', '市中区', '12009.1', 'area', '12009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19152', '内江市', '12009', 'area', '12009', '1');
-INSERT INTO `web_cascadedata` VALUES ('19151', '大英县', '12008.5', 'area', '12009', '2');
-INSERT INTO `web_cascadedata` VALUES ('19150', '射洪县', '12008.4', 'area', '12008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19149', '蓬溪县', '12008.3', 'area', '12008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19148', '安居区', '12008.2', 'area', '12008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19147', '船山区', '12008.1', 'area', '12008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19146', '遂宁市', '12008', 'area', '12008', '1');
-INSERT INTO `web_cascadedata` VALUES ('19145', '苍溪县', '12007.7', 'area', '12008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19144', '剑阁县', '12007.6', 'area', '12008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19143', '青川县', '12007.5', 'area', '12008', '2');
-INSERT INTO `web_cascadedata` VALUES ('19142', '旺苍县', '12007.4', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19141', '朝天区', '12007.3', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19140', '元坝区', '12007.2', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19139', '市中区', '12007.1', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19138', '广元市', '12007', 'area', '12007', '1');
-INSERT INTO `web_cascadedata` VALUES ('19137', '江油市', '12006.9', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19136', '平武县', '12006.8', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19135', '北川羌族自治县', '12006.7', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19134', '梓潼县', '12006.6', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19133', '安　县', '12006.5', 'area', '12007', '2');
-INSERT INTO `web_cascadedata` VALUES ('19132', '盐亭县', '12006.4', 'area', '12006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19131', '三台县', '12006.3', 'area', '12006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19130', '游仙区', '12006.2', 'area', '12006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19129', '涪城区', '12006.1', 'area', '12006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19128', '绵阳市', '12006', 'area', '12006', '1');
-INSERT INTO `web_cascadedata` VALUES ('19127', '绵竹市', '12005.6', 'area', '12006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19126', '什邡市', '12005.5', 'area', '12006', '2');
-INSERT INTO `web_cascadedata` VALUES ('19125', '广汉市', '12005.4', 'area', '12005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19124', '罗江县', '12005.3', 'area', '12005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19123', '中江县', '12005.2', 'area', '12005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19122', '旌阳区', '12005.1', 'area', '12005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19121', '德阳市', '12005', 'area', '12005', '1');
-INSERT INTO `web_cascadedata` VALUES ('19120', '古蔺县', '12004.7', 'area', '12005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19119', '叙永县', '12004.6', 'area', '12005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19118', '合江县', '12004.5', 'area', '12005', '2');
-INSERT INTO `web_cascadedata` VALUES ('19117', '泸　县', '12004.4', 'area', '12004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19116', '龙马潭区', '12004.3', 'area', '12004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19115', '纳溪区', '12004.2', 'area', '12004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19114', '江阳区', '12004.1', 'area', '12004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19113', '泸州市', '12004', 'area', '12004', '1');
-INSERT INTO `web_cascadedata` VALUES ('19112', '盐边县', '12003.5', 'area', '12004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19111', '米易县', '12003.4', 'area', '12003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19110', '仁和区', '12003.3', 'area', '12003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19109', '西　区', '12003.2', 'area', '12003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19108', '东　区', '12003.1', 'area', '12003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19107', '攀枝花市', '12003', 'area', '12003', '1');
-INSERT INTO `web_cascadedata` VALUES ('19106', '富顺县', '12002.6', 'area', '12003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19105', '荣　县', '12002.5', 'area', '12003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19104', '沿滩区', '12002.4', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19103', '大安区', '12002.3', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19102', '贡井区', '12002.2', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19101', '自流井区', '12002.1', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19100', '自贡市', '12002', 'area', '12002', '1');
-INSERT INTO `web_cascadedata` VALUES ('19099', '崇州市', '12001.19', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19098', '邛崃市', '12001.18', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19097', '彭州市', '12001.17', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19096', '都江堰市', '12001.16', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19095', '新津县', '12001.15', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19094', '蒲江县', '12001.14', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19093', '大邑县', '12001.13', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19092', '郫　县', '12001.12', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19091', '双流县', '12001.11', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19090', '金堂县', '12001.10', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19089', '温江区', '12001.9', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19088', '新都区', '12001.8', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19087', '青白江区', '12001.7', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19086', '龙泉驿区', '12001.6', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19085', '成华区', '12001.5', 'area', '12002', '2');
-INSERT INTO `web_cascadedata` VALUES ('19084', '武侯区', '12001.4', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19083', '金牛区', '12001.3', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19082', '青羊区', '12001.2', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19081', '锦江区', '12001.1', 'area', '12001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19080', '成都市', '12001', 'area', '12001', '1');
-INSERT INTO `web_cascadedata` VALUES ('19079', '四川省', '12000', 'area', '12000', '0');
-INSERT INTO `web_cascadedata` VALUES ('19078', '南川市', '11540', 'area', '11540', '1');
-INSERT INTO `web_cascadedata` VALUES ('19077', '永川市', '11539', 'area', '11539', '1');
-INSERT INTO `web_cascadedata` VALUES ('19076', '合川市', '11538', 'area', '11538', '1');
-INSERT INTO `web_cascadedata` VALUES ('19075', '江津市', '11537', 'area', '11537', '1');
-INSERT INTO `web_cascadedata` VALUES ('19074', '彭水苗族土家族自治县', '11536', 'area', '11536', '1');
-INSERT INTO `web_cascadedata` VALUES ('19073', '酉阳土家族苗族自治县', '11535', 'area', '11535', '1');
-INSERT INTO `web_cascadedata` VALUES ('19072', '秀山土家族苗族自治县', '11534', 'area', '11534', '1');
-INSERT INTO `web_cascadedata` VALUES ('19071', '石柱土家族自治县', '11533', 'area', '11533', '1');
-INSERT INTO `web_cascadedata` VALUES ('19070', '巫溪县', '11532', 'area', '11532', '1');
-INSERT INTO `web_cascadedata` VALUES ('19069', '巫山县', '11531', 'area', '11531', '1');
-INSERT INTO `web_cascadedata` VALUES ('19068', '奉节县', '11530', 'area', '11530', '1');
-INSERT INTO `web_cascadedata` VALUES ('19067', '云阳县', '11529', 'area', '11529', '1');
-INSERT INTO `web_cascadedata` VALUES ('19066', '开　县', '11528', 'area', '11528', '1');
-INSERT INTO `web_cascadedata` VALUES ('19065', '忠　县', '11527', 'area', '11527', '1');
-INSERT INTO `web_cascadedata` VALUES ('19064', '武隆县', '11526', 'area', '11526', '1');
-INSERT INTO `web_cascadedata` VALUES ('19063', '垫江县', '11525', 'area', '11525', '1');
-INSERT INTO `web_cascadedata` VALUES ('19062', '丰都县', '11524', 'area', '11524', '1');
-INSERT INTO `web_cascadedata` VALUES ('19061', '城口县', '11523', 'area', '11523', '1');
-INSERT INTO `web_cascadedata` VALUES ('19060', '梁平县', '11522', 'area', '11522', '1');
-INSERT INTO `web_cascadedata` VALUES ('19059', '璧山县', '11521', 'area', '11521', '1');
-INSERT INTO `web_cascadedata` VALUES ('19058', '荣昌县', '11520', 'area', '11520', '1');
-INSERT INTO `web_cascadedata` VALUES ('19057', '大足县', '11519', 'area', '11519', '1');
-INSERT INTO `web_cascadedata` VALUES ('19056', '铜梁县', '11518', 'area', '11518', '1');
-INSERT INTO `web_cascadedata` VALUES ('19055', '潼南县', '11517', 'area', '11517', '1');
-INSERT INTO `web_cascadedata` VALUES ('19054', '綦江县', '11516', 'area', '11516', '1');
-INSERT INTO `web_cascadedata` VALUES ('19053', '长寿区', '11515', 'area', '11515', '1');
-INSERT INTO `web_cascadedata` VALUES ('19052', '黔江区', '11514', 'area', '11514', '1');
-INSERT INTO `web_cascadedata` VALUES ('19051', '巴南区', '11513', 'area', '11513', '1');
-INSERT INTO `web_cascadedata` VALUES ('19050', '渝北区', '11512', 'area', '11512', '1');
-INSERT INTO `web_cascadedata` VALUES ('19049', '双桥区', '11511', 'area', '11511', '1');
-INSERT INTO `web_cascadedata` VALUES ('19048', '万盛区', '11510', 'area', '11510', '1');
-INSERT INTO `web_cascadedata` VALUES ('19047', '北碚区', '11509', 'area', '11509', '1');
-INSERT INTO `web_cascadedata` VALUES ('19046', '南岸区', '11508', 'area', '11508', '1');
-INSERT INTO `web_cascadedata` VALUES ('19045', '九龙坡区', '11507', 'area', '11507', '1');
-INSERT INTO `web_cascadedata` VALUES ('19044', '沙坪坝区', '11506', 'area', '11506', '1');
-INSERT INTO `web_cascadedata` VALUES ('19043', '江北区', '11505', 'area', '11505', '1');
-INSERT INTO `web_cascadedata` VALUES ('19042', '大渡口区', '11504', 'area', '11504', '1');
-INSERT INTO `web_cascadedata` VALUES ('19041', '渝中区', '11503', 'area', '11503', '1');
-INSERT INTO `web_cascadedata` VALUES ('19040', '涪陵区', '11502', 'area', '11502', '1');
-INSERT INTO `web_cascadedata` VALUES ('19039', '万州区', '11501', 'area', '11501', '1');
-INSERT INTO `web_cascadedata` VALUES ('19038', '重庆市', '11500', 'area', '11500', '0');
-INSERT INTO `web_cascadedata` VALUES ('19037', '中沙群岛的岛礁及其海域', '11003.19', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19036', '南沙群岛', '11003.18', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19035', '西沙群岛', '11003.17', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19034', '琼中黎族苗族自治县', '11003.16', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19033', '保亭黎族苗族自治县', '11003.15', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19032', '陵水黎族自治县', '11003.14', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19031', '乐东黎族自治县', '11003.13', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19030', '昌江黎族自治县', '11003.12', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19029', '白沙黎族自治县', '11003.11', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19028', '临高县', '11003.10', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19027', '澄迈县', '11003.9', 'area', '11004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19026', '屯昌县', '11003.8', 'area', '11004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19025', '定安县', '11003.7', 'area', '11004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19024', '东方市', '11003.6', 'area', '11004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19023', '万宁市', '11003.5', 'area', '11004', '2');
-INSERT INTO `web_cascadedata` VALUES ('19022', '文昌市', '11003.4', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19021', '儋州市', '11003.3', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19020', '琼海市', '11003.2', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19019', '五指山市', '11003.1', 'area', '11003', '2');
-INSERT INTO `web_cascadedata` VALUES ('19018', '省直辖县级行政单位', '11003', 'area', '11003', '1');
-INSERT INTO `web_cascadedata` VALUES ('19017', '三亚市', '11002', 'area', '11002', '1');
-INSERT INTO `web_cascadedata` VALUES ('19016', '美兰区', '11001.4', 'area', '11001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19015', '琼山区', '11001.3', 'area', '11001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19014', '龙华区', '11001.2', 'area', '11001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19013', '秀英区', '11001.1', 'area', '11001', '2');
-INSERT INTO `web_cascadedata` VALUES ('19012', '海口市', '11001', 'area', '11001', '1');
-INSERT INTO `web_cascadedata` VALUES ('19011', '海南省', '11000', 'area', '11000', '0');
-INSERT INTO `web_cascadedata` VALUES ('19010', '凭祥市', '10514.7', 'area', '10515', '2');
-INSERT INTO `web_cascadedata` VALUES ('19009', '天等县', '10514.6', 'area', '10515', '2');
-INSERT INTO `web_cascadedata` VALUES ('19008', '大新县', '10514.5', 'area', '10515', '2');
-INSERT INTO `web_cascadedata` VALUES ('19007', '龙州县', '10514.4', 'area', '10514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19006', '宁明县', '10514.3', 'area', '10514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19005', '扶绥县', '10514.2', 'area', '10514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19004', '江洲区', '10514.1', 'area', '10514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19003', '崇左市', '10514', 'area', '10514', '1');
-INSERT INTO `web_cascadedata` VALUES ('19002', '合山市', '10513.6', 'area', '10514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19001', '金秀瑶族自治县', '10513.5', 'area', '10514', '2');
-INSERT INTO `web_cascadedata` VALUES ('19000', '武宣县', '10513.4', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18999', '象州县', '10513.3', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18998', '忻城县', '10513.2', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18997', '兴宾区', '10513.1', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18996', '来宾市', '10513', 'area', '10513', '1');
-INSERT INTO `web_cascadedata` VALUES ('18995', '宜州市', '10512.11', 'area', '10512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18994', '大化瑶族自治县', '10512.10', 'area', '10512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18993', '都安瑶族自治县', '10512.9', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18992', '巴马瑶族自治县', '10512.8', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18991', '环江毛南族自治县', '10512.7', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18990', '罗城仫佬族自治县', '10512.6', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18989', '东兰县', '10512.5', 'area', '10513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18988', '凤山县', '10512.4', 'area', '10512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18987', '天峨县', '10512.3', 'area', '10512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18986', '南丹县', '10512.2', 'area', '10512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18985', '金城江区', '10512.1', 'area', '10512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18984', '河池市', '10512', 'area', '10512', '1');
-INSERT INTO `web_cascadedata` VALUES ('18983', '富川瑶族自治县', '10511.4', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18982', '钟山县', '10511.3', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18981', '昭平县', '10511.2', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18980', '八步区', '10511.1', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18979', '贺州市', '10511', 'area', '10511', '1');
-INSERT INTO `web_cascadedata` VALUES ('18978', '隆林各族自治县', '10510.12', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18977', '西林县', '10510.11', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18976', '田林县', '10510.10', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18975', '乐业县', '10510.9', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18974', '凌云县', '10510.8', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18973', '那坡县', '10510.7', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18972', '靖西县', '10510.6', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18971', '德保县', '10510.5', 'area', '10511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18970', '平果县', '10510.4', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18969', '田东县', '10510.3', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18968', '田阳县', '10510.2', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18967', '右江区', '10510.1', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18966', '百色市', '10510', 'area', '10510', '1');
-INSERT INTO `web_cascadedata` VALUES ('18965', '北流市', '10509.6', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18964', '兴业县', '10509.5', 'area', '10510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18963', '博白县', '10509.4', 'area', '10509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18962', '陆川县', '10509.3', 'area', '10509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18961', '容　县', '10509.2', 'area', '10509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18960', '玉州区', '10509.1', 'area', '10509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18959', '玉林市', '10509', 'area', '10509', '1');
-INSERT INTO `web_cascadedata` VALUES ('18958', '桂平市', '10508.5', 'area', '10509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18957', '平南县', '10508.4', 'area', '10508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18956', '覃塘区', '10508.3', 'area', '10508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18955', '港南区', '10508.2', 'area', '10508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18954', '港北区', '10508.1', 'area', '10508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18953', '贵港市', '10508', 'area', '10508', '1');
-INSERT INTO `web_cascadedata` VALUES ('18952', '浦北县', '10507.4', 'area', '10507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18951', '灵山县', '10507.3', 'area', '10507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18950', '钦北区', '10507.2', 'area', '10507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18949', '钦南区', '10507.1', 'area', '10507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18948', '钦州市', '10507', 'area', '10507', '1');
-INSERT INTO `web_cascadedata` VALUES ('18947', '东兴市', '10506.4', 'area', '10506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18946', '上思县', '10506.3', 'area', '10506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18945', '防城区', '10506.2', 'area', '10506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18944', '港口区', '10506.1', 'area', '10506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18943', '防城港市', '10506', 'area', '10506', '1');
-INSERT INTO `web_cascadedata` VALUES ('18942', '合浦县', '10505.4', 'area', '10505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18941', '铁山港区', '10505.3', 'area', '10505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18940', '银海区', '10505.2', 'area', '10505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18939', '海城区', '10505.1', 'area', '10505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18938', '北海市', '10505', 'area', '10505', '1');
-INSERT INTO `web_cascadedata` VALUES ('18937', '岑溪市', '10504.7', 'area', '10505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18936', '蒙山县', '10504.6', 'area', '10505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18935', '藤　县', '10504.5', 'area', '10505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18934', '苍梧县', '10504.4', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18933', '长洲区', '10504.3', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18932', '蝶山区', '10504.2', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18931', '万秀区', '10504.1', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18930', '梧州市', '10504', 'area', '10504', '1');
-INSERT INTO `web_cascadedata` VALUES ('18929', '恭城瑶族自治县', '10503.17', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18928', '荔蒲县', '10503.16', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18927', '平乐县', '10503.15', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18926', '资源县', '10503.14', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18925', '龙胜各族自治县', '10503.13', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18924', '灌阳县', '10503.12', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18923', '永福县', '10503.11', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18922', '兴安县', '10503.10', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18921', '全州县', '10503.9', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18920', '灵川县', '10503.8', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18919', '临桂县', '10503.7', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18918', '阳朔县', '10503.6', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18917', '雁山区', '10503.5', 'area', '10504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18916', '七星区', '10503.4', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18915', '象山区', '10503.3', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18914', '叠彩区', '10503.2', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18913', '秀峰区', '10503.1', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18912', '桂林市', '10503', 'area', '10503', '1');
-INSERT INTO `web_cascadedata` VALUES ('18911', '三江侗族自治县', '10502.10', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18910', '融水苗族自治县', '10502.9', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18909', '融安县', '10502.8', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18908', '鹿寨县', '10502.7', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18907', '柳城县', '10502.6', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18906', '柳江县', '10502.5', 'area', '10503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18905', '柳北区', '10502.4', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18904', '柳南区', '10502.3', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18903', '鱼峰区', '10502.2', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18902', '城中区', '10502.1', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18901', '柳州市', '10502', 'area', '10502', '1');
-INSERT INTO `web_cascadedata` VALUES ('18900', '横　县', '10501.12', 'area', '10501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18899', '宾阳县', '10501.11', 'area', '10501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18898', '上林县', '10501.10', 'area', '10501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18897', '马山县', '10501.9', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18896', '隆安县', '10501.8', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18895', '武鸣县', '10501.7', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18894', '邕宁区', '10501.6', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18893', '良庆区', '10501.5', 'area', '10502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18892', '西乡塘区', '10501.4', 'area', '10501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18891', '江南区', '10501.3', 'area', '10501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18890', '青秀区', '10501.2', 'area', '10501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18889', '兴宁区', '10501.1', 'area', '10501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18888', '南宁市', '10501', 'area', '10501', '1');
-INSERT INTO `web_cascadedata` VALUES ('18887', '广西壮族自治区', '10500', 'area', '10500', '0');
-INSERT INTO `web_cascadedata` VALUES ('18886', '罗定市', '10021.5', 'area', '10022', '2');
-INSERT INTO `web_cascadedata` VALUES ('18885', '云安县', '10021.4', 'area', '10021', '2');
-INSERT INTO `web_cascadedata` VALUES ('18884', '郁南县', '10021.3', 'area', '10021', '2');
-INSERT INTO `web_cascadedata` VALUES ('18883', '新兴县', '10021.2', 'area', '10021', '2');
-INSERT INTO `web_cascadedata` VALUES ('18882', '云城区', '10021.1', 'area', '10021', '2');
-INSERT INTO `web_cascadedata` VALUES ('18881', '云浮市', '10021', 'area', '10021', '1');
-INSERT INTO `web_cascadedata` VALUES ('18880', '普宁市', '10020.5', 'area', '10021', '2');
-INSERT INTO `web_cascadedata` VALUES ('18879', '惠来县', '10020.4', 'area', '10020', '2');
-INSERT INTO `web_cascadedata` VALUES ('18878', '揭西县', '10020.3', 'area', '10020', '2');
-INSERT INTO `web_cascadedata` VALUES ('18877', '揭东县', '10020.2', 'area', '10020', '2');
-INSERT INTO `web_cascadedata` VALUES ('18876', '榕城区', '10020.1', 'area', '10020', '2');
-INSERT INTO `web_cascadedata` VALUES ('18875', '揭阳市', '10020', 'area', '10020', '1');
-INSERT INTO `web_cascadedata` VALUES ('18874', '饶平县', '10019.2', 'area', '10019', '2');
-INSERT INTO `web_cascadedata` VALUES ('18873', '潮安县', '10019.1', 'area', '10019', '2');
-INSERT INTO `web_cascadedata` VALUES ('18872', '潮州市', '10019', 'area', '10019', '1');
-INSERT INTO `web_cascadedata` VALUES ('18871', '中山市', '10018', 'area', '10018', '1');
-INSERT INTO `web_cascadedata` VALUES ('18870', '东莞市', '10017', 'area', '10017', '1');
-INSERT INTO `web_cascadedata` VALUES ('18869', '连州市', '10016.8', 'area', '10017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18868', '英德市', '10016.7', 'area', '10017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18867', '清新县', '10016.6', 'area', '10017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18866', '连南瑶族自治县', '10016.5', 'area', '10017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18865', '连山壮族瑶族自治县', '10016.4', 'area', '10016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18864', '阳山县', '10016.3', 'area', '10016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18863', '佛冈县', '10016.2', 'area', '10016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18862', '清城区', '10016.1', 'area', '10016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18861', '清远市', '10016', 'area', '10016', '1');
-INSERT INTO `web_cascadedata` VALUES ('18860', '阳春市', '10015.4', 'area', '10015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18859', '阳东县', '10015.3', 'area', '10015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18858', '阳西县', '10015.2', 'area', '10015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18857', '江城区', '10015.1', 'area', '10015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18856', '阳江市', '10015', 'area', '10015', '1');
-INSERT INTO `web_cascadedata` VALUES ('18855', '东源县', '10014.6', 'area', '10015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18854', '和平县', '10014.5', 'area', '10015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18853', '连平县', '10014.4', 'area', '10014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18852', '龙川县', '10014.3', 'area', '10014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18851', '紫金县', '10014.2', 'area', '10014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18850', '源城区', '10014.1', 'area', '10014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18849', '河源市', '10014', 'area', '10014', '1');
-INSERT INTO `web_cascadedata` VALUES ('18848', '陆丰市', '10013.4', 'area', '10013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18847', '陆河县', '10013.3', 'area', '10013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18846', '海丰县', '10013.2', 'area', '10013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18845', '城　区', '10013.1', 'area', '10013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18844', '汕尾市', '10013', 'area', '10013', '1');
-INSERT INTO `web_cascadedata` VALUES ('18843', '兴宁市', '10012.8', 'area', '10013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18842', '蕉岭县', '10012.7', 'area', '10013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18841', '平远县', '10012.6', 'area', '10013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18840', '五华县', '10012.5', 'area', '10013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18839', '丰顺县', '10012.4', 'area', '10012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18838', '大埔县', '10012.3', 'area', '10012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18837', '梅　县', '10012.2', 'area', '10012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18836', '梅江区', '10012.1', 'area', '10012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18835', '梅州市', '10012', 'area', '10012', '1');
-INSERT INTO `web_cascadedata` VALUES ('18834', '龙门县', '10011.5', 'area', '10012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18833', '惠东县', '10011.4', 'area', '10011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18832', '博罗县', '10011.3', 'area', '10011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18831', '惠阳区', '10011.2', 'area', '10011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18830', '惠城区', '10011.1', 'area', '10011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18829', '惠州市', '10011', 'area', '10011', '1');
-INSERT INTO `web_cascadedata` VALUES ('18828', '四会市', '10010.8', 'area', '10011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18827', '高要市', '10010.7', 'area', '10011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18826', '德庆县', '10010.6', 'area', '10011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18825', '封开县', '10010.5', 'area', '10011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18824', '怀集县', '10010.4', 'area', '10010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18823', '广宁县', '10010.3', 'area', '10010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18822', '鼎湖区', '10010.2', 'area', '10010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18821', '端州区', '10010.1', 'area', '10010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18820', '肇庆市', '10010', 'area', '10010', '1');
-INSERT INTO `web_cascadedata` VALUES ('18819', '信宜市', '10009.6', 'area', '10010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18818', '化州市', '10009.5', 'area', '10010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18817', '高州市', '10009.4', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18816', '电白县', '10009.3', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18815', '茂港区', '10009.2', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18814', '茂南区', '10009.1', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18813', '茂名市', '10009', 'area', '10009', '1');
-INSERT INTO `web_cascadedata` VALUES ('18812', '吴川市', '10008.9', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18811', '雷州市', '10008.8', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18810', '廉江市', '10008.7', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18809', '徐闻县', '10008.6', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18808', '遂溪县', '10008.5', 'area', '10009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18807', '麻章区', '10008.4', 'area', '10008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18806', '坡头区', '10008.3', 'area', '10008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18805', '霞山区', '10008.2', 'area', '10008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18804', '赤坎区', '10008.1', 'area', '10008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18803', '湛江市', '10008', 'area', '10008', '1');
-INSERT INTO `web_cascadedata` VALUES ('18802', '恩平市', '10007.7', 'area', '10008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18801', '鹤山市', '10007.6', 'area', '10008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18800', '开平市', '10007.5', 'area', '10008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18799', '台山市', '10007.4', 'area', '10007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18798', '新会区', '10007.3', 'area', '10007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18797', '江海区', '10007.2', 'area', '10007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18796', '蓬江区', '10007.1', 'area', '10007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18795', '江门市', '10007', 'area', '10007', '1');
-INSERT INTO `web_cascadedata` VALUES ('18794', '高明区', '10006.5', 'area', '10007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18793', '三水区', '10006.4', 'area', '10006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18792', '顺德区', '10006.3', 'area', '10006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18791', '南海区', '10006.2', 'area', '10006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18790', '禅城区', '10006.1', 'area', '10006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18789', '佛山市', '10006', 'area', '10006', '1');
-INSERT INTO `web_cascadedata` VALUES ('18788', '南澳县', '10005.7', 'area', '10006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18787', '澄海区', '10005.6', 'area', '10006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18786', '潮南区', '10005.5', 'area', '10006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18785', '潮阳区', '10005.4', 'area', '10005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18784', '濠江区', '10005.3', 'area', '10005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18783', '金平区', '10005.2', 'area', '10005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18782', '龙湖区', '10005.1', 'area', '10005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18781', '汕头市', '10005', 'area', '10005', '1');
-INSERT INTO `web_cascadedata` VALUES ('18780', '金湾区', '10004.3', 'area', '10004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18779', '斗门区', '10004.2', 'area', '10004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18778', '洲区', '10004.1', 'area', '10004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18777', '珠海市', '10004', 'area', '10004', '1');
-INSERT INTO `web_cascadedata` VALUES ('18776', '盐田区', '10003.6', 'area', '10004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18775', '龙岗区', '10003.5', 'area', '10004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18774', '宝安区', '10003.4', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18773', '南山区', '10003.3', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18772', '福田区', '10003.2', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18771', '罗湖区', '10003.1', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18770', '深圳市', '10003', 'area', '10003', '1');
-INSERT INTO `web_cascadedata` VALUES ('18769', '南雄市', '10002.10', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18768', '乐昌市', '10002.9', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18767', '新丰县', '10002.8', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18766', '乳源瑶族自治县', '10002.7', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18765', '翁源县', '10002.6', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18764', '仁化县', '10002.5', 'area', '10003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18763', '始兴县', '10002.4', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18762', '曲江区', '10002.3', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18761', '浈江区', '10002.2', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18760', '武江区', '10002.1', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18759', '韶关市', '10002', 'area', '10002', '1');
-INSERT INTO `web_cascadedata` VALUES ('18758', '从化市', '10001.12', 'area', '10001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18757', '增城市', '10001.11', 'area', '10001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18756', '花都区', '10001.10', 'area', '10001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18755', '番禺区', '10001.9', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18754', '黄埔区', '10001.8', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18753', '白云区', '10001.7', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18752', '芳村区', '10001.6', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18751', '天河区', '10001.5', 'area', '10002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18750', '海珠区', '10001.4', 'area', '10001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18749', '越秀区', '10001.3', 'area', '10001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18748', '荔湾区', '10001.2', 'area', '10001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18747', '东山区', '10001.1', 'area', '10001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18746', '广州市', '10001', 'area', '10001', '1');
-INSERT INTO `web_cascadedata` VALUES ('18745', '广东省', '10000', 'area', '10000', '0');
-INSERT INTO `web_cascadedata` VALUES ('18744', '龙山县', '9514.8', 'area', '9515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18743', '永顺县', '9514.7', 'area', '9515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18742', '古丈县', '9514.6', 'area', '9515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18741', '保靖县', '9514.5', 'area', '9515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18740', '花垣县', '9514.4', 'area', '9514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18739', '凤凰县', '9514.3', 'area', '9514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18738', '泸溪县', '9514.2', 'area', '9514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18737', '吉首市', '9514.1', 'area', '9514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18736', '湘西土家族苗族自治州', '9514', 'area', '9514', '1');
-INSERT INTO `web_cascadedata` VALUES ('18735', '涟源市', '9513.5', 'area', '9514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18734', '冷水江市', '9513.4', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18733', '新化县', '9513.3', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18732', '双峰县', '9513.2', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18731', '娄星区', '9513.1', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18730', '娄底市', '9513', 'area', '9513', '1');
-INSERT INTO `web_cascadedata` VALUES ('18729', '洪江市', '9512.12', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18728', '通道侗族自治县', '9512.11', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18727', '靖州苗族侗族自治县', '9512.10', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18726', '芷江侗族自治县', '9512.9', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18725', '新晃侗族自治县', '9512.8', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18724', '麻阳苗族自治县', '9512.7', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18723', '会同县', '9512.6', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18722', '溆浦县', '9512.5', 'area', '9513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18721', '辰溪县', '9512.4', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18720', '沅陵县', '9512.3', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18719', '中方县', '9512.2', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18718', '鹤城区', '9512.1', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18717', '怀化市', '9512', 'area', '9512', '1');
-INSERT INTO `web_cascadedata` VALUES ('18716', '江华瑶族自治县', '9511.11', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18715', '新田县', '9511.10', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18714', '蓝山县', '9511.9', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18713', '宁远县', '9511.8', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18712', '江永县', '9511.7', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18711', '道　县', '9511.6', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18710', '双牌县', '9511.5', 'area', '9512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18709', '东安县', '9511.4', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18708', '祁阳县', '9511.3', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18707', '冷水滩区', '9511.2', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18706', '芝山区', '9511.1', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18705', '永州市', '9511', 'area', '9511', '1');
-INSERT INTO `web_cascadedata` VALUES ('18704', '资兴市', '9510.11', 'area', '9510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18703', '安仁县', '9510.10', 'area', '9510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18702', '桂东县', '9510.9', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18701', '汝城县', '9510.8', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18700', '临武县', '9510.7', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18699', '嘉禾县', '9510.6', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18698', '永兴县', '9510.5', 'area', '9511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18697', '宜章县', '9510.4', 'area', '9510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18696', '桂阳县', '9510.3', 'area', '9510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18695', '苏仙区', '9510.2', 'area', '9510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18694', '北湖区', '9510.1', 'area', '9510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18693', '郴州市', '9510', 'area', '9510', '1');
-INSERT INTO `web_cascadedata` VALUES ('18692', '沅江市', '9509.6', 'area', '9510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18691', '安化县', '9509.5', 'area', '9510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18690', '桃江县', '9509.4', 'area', '9509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18689', '南　县', '9509.3', 'area', '9509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18688', '赫山区', '9509.2', 'area', '9509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18687', '资阳区', '9509.1', 'area', '9509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18686', '益阳市', '9509', 'area', '9509', '1');
-INSERT INTO `web_cascadedata` VALUES ('18685', '桑植县', '9508.4', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18684', '慈利县', '9508.3', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18683', '武陵源区', '9508.2', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18682', '永定区', '9508.1', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18681', '张家界市', '9508', 'area', '9508', '1');
-INSERT INTO `web_cascadedata` VALUES ('18680', '津市市', '9507.9', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18679', '石门县', '9507.8', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18678', '桃源县', '9507.7', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18677', '临澧县', '9507.6', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18676', '澧　县', '9507.5', 'area', '9508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18675', '汉寿县', '9507.4', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18674', '安乡县', '9507.3', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18673', '鼎城区', '9507.2', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18672', '武陵区', '9507.1', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18671', '常德市', '9507', 'area', '9507', '1');
-INSERT INTO `web_cascadedata` VALUES ('18670', '临湘市', '9506.9', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18669', '汨罗市', '9506.8', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18668', '平江县', '9506.7', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18667', '湘阴县', '9506.6', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18666', '华容县', '9506.5', 'area', '9507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18665', '岳阳县', '9506.4', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18664', '君山区', '9506.3', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18663', '云溪区', '9506.2', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18662', '岳阳楼区', '9506.1', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18661', '岳阳市', '9506', 'area', '9506', '1');
-INSERT INTO `web_cascadedata` VALUES ('18660', '武冈市', '9505.12', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18659', '城步苗族自治县', '9505.11', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18658', '新宁县', '9505.10', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18657', '绥宁县', '9505.9', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18656', '洞口县', '9505.8', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18655', '隆回县', '9505.7', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18654', '邵阳县', '9505.6', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18653', '新邵县', '9505.5', 'area', '9506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18652', '邵东县', '9505.4', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18651', '北塔区', '9505.3', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18650', '大祥区', '9505.2', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18649', '双清区', '9505.1', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18648', '邵阳市', '9505', 'area', '9505', '1');
-INSERT INTO `web_cascadedata` VALUES ('18647', '常宁市', '9504.12', 'area', '9504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18646', '耒阳市', '9504.11', 'area', '9504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18645', '祁东县', '9504.10', 'area', '9504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18644', '衡东县', '9504.9', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18643', '衡山县', '9504.8', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18642', '衡南县', '9504.7', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18641', '衡阳县', '9504.6', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18640', '南岳区', '9504.5', 'area', '9505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18639', '蒸湘区', '9504.4', 'area', '9504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18638', '石鼓区', '9504.3', 'area', '9504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18637', '雁峰区', '9504.2', 'area', '9504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18636', '珠晖区', '9504.1', 'area', '9504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18635', '衡阳市', '9504', 'area', '9504', '1');
-INSERT INTO `web_cascadedata` VALUES ('18634', '韶山市', '9503.5', 'area', '9504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18633', '湘乡市', '9503.4', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18632', '湘潭县', '9503.3', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18631', '岳塘区', '9503.2', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18630', '雨湖区', '9503.1', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18629', '湘潭市', '9503', 'area', '9503', '1');
-INSERT INTO `web_cascadedata` VALUES ('18628', '醴陵市', '9502.9', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18627', '炎陵县', '9502.8', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18626', '茶陵县', '9502.7', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18625', '攸　县', '9502.6', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18624', '株洲县', '9502.5', 'area', '9503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18623', '天元区', '9502.4', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18622', '石峰区', '9502.3', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18621', '芦淞区', '9502.2', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18620', '荷塘区', '9502.1', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18619', '株洲市', '9502', 'area', '9502', '1');
-INSERT INTO `web_cascadedata` VALUES ('18618', '浏阳市', '9501.9', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18617', '宁乡县', '9501.8', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18616', '望城县', '9501.7', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18615', '长沙县', '9501.6', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18614', '雨花区', '9501.5', 'area', '9502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18613', '开福区', '9501.4', 'area', '9501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18612', '岳麓区', '9501.3', 'area', '9501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18611', '天心区', '9501.2', 'area', '9501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18610', '芙蓉区', '9501.1', 'area', '9501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18609', '长沙市', '9501', 'area', '9501', '1');
-INSERT INTO `web_cascadedata` VALUES ('18608', '湖南省', '9500', 'area', '9500', '0');
-INSERT INTO `web_cascadedata` VALUES ('18607', '神农架林区', '9014.4', 'area', '9014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18606', '天门市', '9014.3', 'area', '9014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18605', '潜江市', '9014.2', 'area', '9014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18604', '仙桃市', '9014.1', 'area', '9014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18603', '省直辖行政单位', '9014', 'area', '9014', '1');
-INSERT INTO `web_cascadedata` VALUES ('18602', '鹤峰县', '9013.8', 'area', '9014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18601', '来凤县', '9013.7', 'area', '9014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18600', '咸丰县', '9013.6', 'area', '9014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18599', '宣恩县', '9013.5', 'area', '9014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18598', '巴东县', '9013.4', 'area', '9013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18597', '建始县', '9013.3', 'area', '9013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18596', '利川市', '9013.2', 'area', '9013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18595', '恩施市', '9013.1', 'area', '9013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18594', '恩施土家族苗族自治州', '9013', 'area', '9013', '1');
-INSERT INTO `web_cascadedata` VALUES ('18593', '广水市', '9012.2', 'area', '9012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18592', '曾都区', '9012.1', 'area', '9012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18591', '随州市', '9012', 'area', '9012', '1');
-INSERT INTO `web_cascadedata` VALUES ('18590', '赤壁市', '9011.6', 'area', '9012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18589', '通山县', '9011.5', 'area', '9012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18588', '崇阳县', '9011.4', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18587', '通城县', '9011.3', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18586', '嘉鱼县', '9011.2', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18585', '咸安区', '9011.1', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18584', '咸宁市', '9011', 'area', '9011', '1');
-INSERT INTO `web_cascadedata` VALUES ('18583', '武穴市', '9010.10', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18582', '麻城市', '9010.9', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18581', '黄梅县', '9010.8', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18580', '蕲春县', '9010.7', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18579', '浠水县', '9010.6', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18578', '英山县', '9010.5', 'area', '9011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18577', '罗田县', '9010.4', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18576', '红安县', '9010.3', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18575', '团风县', '9010.2', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18574', '州区', '9010.1', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18573', '黄冈市', '9010', 'area', '9010', '1');
-INSERT INTO `web_cascadedata` VALUES ('18572', '松滋市', '9009.8', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18571', '洪湖市', '9009.7', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18570', '石首市', '9009.6', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18569', '江陵县', '9009.5', 'area', '9010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18568', '监利县', '9009.4', 'area', '9009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18567', '公安县', '9009.3', 'area', '9009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18566', '荆州区', '9009.2', 'area', '9009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18565', '沙市区', '9009.1', 'area', '9009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18564', '荆州市', '9009', 'area', '9009', '1');
-INSERT INTO `web_cascadedata` VALUES ('18563', '汉川市', '9008.7', 'area', '9009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18562', '孝南区', '9008.6', 'area', '9009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18561', '孝昌县', '9008.5', 'area', '9009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18560', '大悟县', '9008.4', 'area', '9008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18559', '云梦县', '9008.3', 'area', '9008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18558', '应城市', '9008.2', 'area', '9008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18557', '安陆市', '9008.1', 'area', '9008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18556', '孝感市', '9008', 'area', '9008', '1');
-INSERT INTO `web_cascadedata` VALUES ('18555', '东宝区', '9007.5', 'area', '9008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18554', '掇刀区', '9007.4', 'area', '9007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18553', '京山县', '9007.3', 'area', '9007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18552', '沙洋县', '9007.2', 'area', '9007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18551', '钟祥市', '9007.1', 'area', '9007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18550', '荆门市', '9007', 'area', '9007', '1');
-INSERT INTO `web_cascadedata` VALUES ('18549', '鄂城区', '9006.3', 'area', '9006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18548', '华容区', '9006.2', 'area', '9006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18547', '梁子湖区', '9006.1', 'area', '9006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18546', '鄂州市', '9006', 'area', '9006', '1');
-INSERT INTO `web_cascadedata` VALUES ('18545', '宜城市', '9005.9', 'area', '9006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18544', '枣阳市', '9005.8', 'area', '9006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18543', '老河口市', '9005.7', 'area', '9006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18542', '保康县', '9005.6', 'area', '9006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18541', '谷城县', '9005.5', 'area', '9006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18540', '南漳县', '9005.4', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18539', '襄阳区', '9005.3', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18538', '樊城区', '9005.2', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18537', '襄城区', '9005.1', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18536', '襄樊市', '9005', 'area', '9005', '1');
-INSERT INTO `web_cascadedata` VALUES ('18535', '枝江市', '9004.13', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18534', '当阳市', '9004.12', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18533', '宜都市', '9004.11', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18532', '五峰土家族自治县', '9004.10', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18531', '长阳土家族自治县', '9004.9', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18530', '秭归县', '9004.8', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18529', '兴山县', '9004.7', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18528', '远安县', '9004.6', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18527', '夷陵区', '9004.5', 'area', '9005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18526', '猇亭区', '9004.4', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18525', '点军区', '9004.3', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18524', '伍家岗区', '9004.2', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18523', '西陵区', '9004.1', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18522', '宜昌市', '9004', 'area', '9004', '1');
-INSERT INTO `web_cascadedata` VALUES ('18521', '丹江口市', '9003.8', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18520', '房　县', '9003.7', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18519', '竹溪县', '9003.6', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18518', '竹山县', '9003.5', 'area', '9004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18517', '郧西县', '9003.4', 'area', '9003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18516', '郧　县', '9003.3', 'area', '9003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18515', '张湾区', '9003.2', 'area', '9003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18514', '茅箭区', '9003.1', 'area', '9003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18513', '十堰市', '9003', 'area', '9003', '1');
-INSERT INTO `web_cascadedata` VALUES ('18512', '大冶市', '9002.6', 'area', '9003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18511', '阳新县', '9002.5', 'area', '9003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18510', '铁山区', '9002.4', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18509', '下陆区', '9002.3', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18508', '西塞山区', '9002.2', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18507', '黄石港区', '9002.1', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18506', '黄石市', '9002', 'area', '9002', '1');
-INSERT INTO `web_cascadedata` VALUES ('18505', '新洲区', '9001.13', 'area', '9001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18504', '黄陂区', '9001.12', 'area', '9001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18503', '江夏区', '9001.11', 'area', '9001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18502', '蔡甸区', '9001.10', 'area', '9001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18501', '汉南区', '9001.9', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18500', '东西湖区', '9001.8', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18499', '洪山区', '9001.7', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18498', '青山区', '9001.6', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18497', '武昌区', '9001.5', 'area', '9002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18496', '汉阳区', '9001.4', 'area', '9001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18495', '乔口区', '9001.3', 'area', '9001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18494', '江汉区', '9001.2', 'area', '9001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18493', '江岸区', '9001.1', 'area', '9001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18492', '武汉市', '9001', 'area', '9001', '1');
-INSERT INTO `web_cascadedata` VALUES ('18491', '湖北省', '9000', 'area', '9000', '0');
-INSERT INTO `web_cascadedata` VALUES ('18490', '新蔡县', '8517.10', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18489', '遂平县', '8517.9', 'area', '8518', '2');
-INSERT INTO `web_cascadedata` VALUES ('18488', '汝南县', '8517.8', 'area', '8518', '2');
-INSERT INTO `web_cascadedata` VALUES ('18487', '泌阳县', '8517.7', 'area', '8518', '2');
-INSERT INTO `web_cascadedata` VALUES ('18486', '确山县', '8517.6', 'area', '8518', '2');
-INSERT INTO `web_cascadedata` VALUES ('18485', '正阳县', '8517.5', 'area', '8518', '2');
-INSERT INTO `web_cascadedata` VALUES ('18484', '平舆县', '8517.4', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18483', '上蔡县', '8517.3', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18482', '西平县', '8517.2', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18481', '驿城区', '8517.1', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18480', '驻马店市', '8517', 'area', '8517', '1');
-INSERT INTO `web_cascadedata` VALUES ('18479', '项城市', '8516.10', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18478', '鹿邑县', '8516.9', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18477', '太康县', '8516.8', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18476', '淮阳县', '8516.7', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18475', '郸城县', '8516.6', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18474', '沈丘县', '8516.5', 'area', '8517', '2');
-INSERT INTO `web_cascadedata` VALUES ('18473', '商水县', '8516.4', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18472', '西华县', '8516.3', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18471', '扶沟县', '8516.2', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18470', '川汇区', '8516.1', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18469', '周口市', '8516', 'area', '8516', '1');
-INSERT INTO `web_cascadedata` VALUES ('18468', '息　县', '8515.10', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18467', '淮滨县', '8515.9', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18466', '潢川县', '8515.8', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18465', '固始县', '8515.7', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18464', '商城县', '8515.6', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18463', '新　县', '8515.5', 'area', '8516', '2');
-INSERT INTO `web_cascadedata` VALUES ('18462', '光山县', '8515.4', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18461', '罗山县', '8515.3', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18460', '平桥区', '8515.2', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18459', '师河区', '8515.1', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18458', '信阳市', '8515', 'area', '8515', '1');
-INSERT INTO `web_cascadedata` VALUES ('18457', '永城市', '8514.9', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18456', '夏邑县', '8514.8', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18455', '虞城县', '8514.7', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18454', '柘城县', '8514.6', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18453', '宁陵县', '8514.5', 'area', '8515', '2');
-INSERT INTO `web_cascadedata` VALUES ('18452', '睢　县', '8514.4', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18451', '民权县', '8514.3', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18450', '睢阳区', '8514.2', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18449', '梁园区', '8514.1', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18448', '商丘市', '8514', 'area', '8514', '1');
-INSERT INTO `web_cascadedata` VALUES ('18447', '邓州市', '8513.13', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18446', '桐柏县', '8513.12', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18445', '新野县', '8513.11', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18444', '唐河县', '8513.10', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18443', '社旗县', '8513.9', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18442', '淅川县', '8513.8', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18441', '内乡县', '8513.7', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18440', '镇平县', '8513.6', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18439', '西峡县', '8513.5', 'area', '8514', '2');
-INSERT INTO `web_cascadedata` VALUES ('18438', '方城县', '8513.4', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18437', '南召县', '8513.3', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18436', '卧龙区', '8513.2', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18435', '宛城区', '8513.1', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18434', '南阳市', '8513', 'area', '8513', '1');
-INSERT INTO `web_cascadedata` VALUES ('18433', '灵宝市', '8512.6', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18432', '义马市', '8512.5', 'area', '8513', '2');
-INSERT INTO `web_cascadedata` VALUES ('18431', '卢氏县', '8512.4', 'area', '8512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18430', '陕　县', '8512.3', 'area', '8512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18429', '渑池县', '8512.2', 'area', '8512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18428', '湖滨区', '8512.1', 'area', '8512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18427', '三门峡市', '8512', 'area', '8512', '1');
-INSERT INTO `web_cascadedata` VALUES ('18426', '临颍县', '8511.5', 'area', '8512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18425', '舞阳县', '8511.4', 'area', '8511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18424', '召陵区', '8511.3', 'area', '8511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18423', '郾城区', '8511.2', 'area', '8511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18422', '源汇区', '8511.1', 'area', '8511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18421', '漯河市', '8511', 'area', '8511', '1');
-INSERT INTO `web_cascadedata` VALUES ('18420', '长葛市', '8510.6', 'area', '8511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18419', '禹州市', '8510.5', 'area', '8511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18418', '襄城县', '8510.4', 'area', '8510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18417', '鄢陵县', '8510.3', 'area', '8510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18416', '许昌县', '8510.2', 'area', '8510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18415', '魏都区', '8510.1', 'area', '8510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18414', '许昌市', '8510', 'area', '8510', '1');
-INSERT INTO `web_cascadedata` VALUES ('18413', '濮阳县', '8509.6', 'area', '8510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18412', '台前县', '8509.5', 'area', '8510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18411', '范　县', '8509.4', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18410', '南乐县', '8509.3', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18409', '清丰县', '8509.2', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18408', '华龙区', '8509.1', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18407', '濮阳市', '8509', 'area', '8509', '1');
-INSERT INTO `web_cascadedata` VALUES ('18406', '孟州市', '8508.11', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18405', '沁阳市', '8508.10', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18404', '济源市', '8508.9', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18403', '温　县', '8508.8', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18402', '武陟县', '8508.7', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18401', '博爱县', '8508.6', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18400', '修武县', '8508.5', 'area', '8509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18399', '山阳区', '8508.4', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18398', '马村区', '8508.3', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18397', '中站区', '8508.2', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18396', '解放区', '8508.1', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18395', '焦作市', '8508', 'area', '8508', '1');
-INSERT INTO `web_cascadedata` VALUES ('18394', '辉县市', '8507.12', 'area', '8507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18393', '卫辉市', '8507.11', 'area', '8507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18392', '长垣县', '8507.10', 'area', '8507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18391', '封丘县', '8507.9', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18390', '延津县', '8507.8', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18389', '原阳县', '8507.7', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18388', '获嘉县', '8507.6', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18387', '新乡县', '8507.5', 'area', '8508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18386', '牧野区', '8507.4', 'area', '8507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18385', '凤泉区', '8507.3', 'area', '8507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18384', '卫滨区', '8507.2', 'area', '8507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18383', '红旗区', '8507.1', 'area', '8507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18382', '新乡市', '8507', 'area', '8507', '1');
-INSERT INTO `web_cascadedata` VALUES ('18381', '淇　县', '8506.5', 'area', '8507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18380', '浚　县', '8506.4', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18379', '淇滨区', '8506.3', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18378', '山城区', '8506.2', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18377', '鹤山区', '8506.1', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18376', '鹤壁市', '8506', 'area', '8506', '1');
-INSERT INTO `web_cascadedata` VALUES ('18375', '林州市', '8505.9', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18374', '内黄县', '8505.8', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18373', '滑　县', '8505.7', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18372', '汤阴县', '8505.6', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18371', '安阳县', '8505.5', 'area', '8506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18370', '龙安区', '8505.4', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18369', '殷都区', '8505.3', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18368', '北关区', '8505.2', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18367', '文峰区', '8505.1', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18366', '安阳市', '8505', 'area', '8505', '1');
-INSERT INTO `web_cascadedata` VALUES ('18365', '汝州市', '8504.10', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18364', '舞钢市', '8504.9', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18363', '郏　县', '8504.8', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18362', '鲁山县', '8504.7', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18361', '叶　县', '8504.6', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18360', '宝丰县', '8504.5', 'area', '8505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18359', '湛河区', '8504.4', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18358', '石龙区', '8504.3', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18357', '卫东区', '8504.2', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18356', '新华区', '8504.1', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18355', '平顶山市', '8504', 'area', '8504', '1');
-INSERT INTO `web_cascadedata` VALUES ('18354', '偃师市', '8503.15', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18353', '伊川县', '8503.14', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18352', '洛宁县', '8503.13', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18351', '宜阳县', '8503.12', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18350', '汝阳县', '8503.11', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18349', '嵩　县', '8503.10', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18348', '栾川县', '8503.9', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18347', '新安县', '8503.8', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18346', '孟津县', '8503.7', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18345', '洛龙区', '8503.6', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18344', '吉利区', '8503.5', 'area', '8504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18343', '涧西区', '8503.4', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18342', '廛河回族区', '8503.3', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18341', '西工区', '8503.2', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18340', '老城区', '8503.1', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18339', '洛阳市', '8503', 'area', '8503', '1');
-INSERT INTO `web_cascadedata` VALUES ('18338', '兰考县', '8502.10', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18337', '开封县', '8502.9', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18336', '尉氏县', '8502.8', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18335', '通许县', '8502.7', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18334', '杞　县', '8502.6', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18333', '郊　区', '8502.5', 'area', '8503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18332', '南关区', '8502.4', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18331', '鼓楼区', '8502.3', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18330', '顺河回族区', '8502.2', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18329', '龙亭区', '8502.1', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18328', '开封市', '8502', 'area', '8502', '1');
-INSERT INTO `web_cascadedata` VALUES ('18327', '登封市', '8501.12', 'area', '8501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18326', '新郑市', '8501.11', 'area', '8501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18325', '新密市', '8501.10', 'area', '8501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18324', '荥阳市', '8501.9', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18323', '巩义市', '8501.8', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18322', '中牟县', '8501.7', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18321', '邙山区', '8501.6', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18320', '上街区', '8501.5', 'area', '8502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18319', '金水区', '8501.4', 'area', '8501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18318', '管城回族区', '8501.3', 'area', '8501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18317', '二七区', '8501.2', 'area', '8501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18316', '中原区', '8501.1', 'area', '8501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18315', '郑州市', '8501', 'area', '8501', '1');
-INSERT INTO `web_cascadedata` VALUES ('18314', '河南省', '8500', 'area', '8500', '0');
-INSERT INTO `web_cascadedata` VALUES ('18313', '东明县', '8016.9', 'area', '8017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18312', '定陶县', '8016.8', 'area', '8017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18311', '鄄城县', '8016.7', 'area', '8017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18310', '郓城县', '8016.6', 'area', '8017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18309', '巨野县', '8016.5', 'area', '8017', '2');
-INSERT INTO `web_cascadedata` VALUES ('18308', '成武县', '8016.4', 'area', '8016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18307', '单　县', '8016.3', 'area', '8016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18306', '曹　县', '8016.2', 'area', '8016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18305', '牡丹区', '8016.1', 'area', '8016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18304', '荷泽市', '8016', 'area', '8016', '1');
-INSERT INTO `web_cascadedata` VALUES ('18303', '邹平县', '8015.7', 'area', '8016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18302', '博兴县', '8015.6', 'area', '8016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18301', '沾化县', '8015.5', 'area', '8016', '2');
-INSERT INTO `web_cascadedata` VALUES ('18300', '无棣县', '8015.4', 'area', '8015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18299', '阳信县', '8015.3', 'area', '8015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18298', '惠民县', '8015.2', 'area', '8015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18297', '滨城区', '8015.1', 'area', '8015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18296', '滨州市', '8015', 'area', '8015', '1');
-INSERT INTO `web_cascadedata` VALUES ('18295', '临清市', '8014.8', 'area', '8015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18294', '高唐县', '8014.7', 'area', '8015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18293', '冠　县', '8014.6', 'area', '8015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18292', '东阿县', '8014.5', 'area', '8015', '2');
-INSERT INTO `web_cascadedata` VALUES ('18291', '茌平县', '8014.4', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18290', '莘　县', '8014.3', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18289', '阳谷县', '8014.2', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18288', '东昌府区', '8014.1', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18287', '聊城市', '8014', 'area', '8014', '1');
-INSERT INTO `web_cascadedata` VALUES ('18286', '禹城市', '8013.11', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18285', '乐陵市', '8013.10', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18284', '武城县', '8013.9', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18283', '夏津县', '8013.8', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18282', '平原县', '8013.7', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18281', '齐河县', '8013.6', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18280', '临邑县', '8013.5', 'area', '8014', '2');
-INSERT INTO `web_cascadedata` VALUES ('18279', '庆云县', '8013.4', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18278', '宁津县', '8013.3', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18277', '陵　县', '8013.2', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18276', '德城区', '8013.1', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18275', '德州市', '8013', 'area', '8013', '1');
-INSERT INTO `web_cascadedata` VALUES ('18274', '临沭县', '8012.12', 'area', '8012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18273', '蒙阴县', '8012.11', 'area', '8012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18272', '莒南县', '8012.10', 'area', '8012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18271', '平邑县', '8012.9', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18270', '费　县', '8012.8', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18269', '苍山县', '8012.7', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18268', '沂水县', '8012.6', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18267', '郯城县', '8012.5', 'area', '8013', '2');
-INSERT INTO `web_cascadedata` VALUES ('18266', '沂南县', '8012.4', 'area', '8012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18265', '河东区', '8012.3', 'area', '8012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18264', '罗庄区', '8012.2', 'area', '8012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18263', '兰山区', '8012.1', 'area', '8012', '2');
-INSERT INTO `web_cascadedata` VALUES ('18262', '临沂市', '8012', 'area', '8012', '1');
-INSERT INTO `web_cascadedata` VALUES ('18261', '钢城区', '8011.2', 'area', '8011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18260', '莱城区', '8011.1', 'area', '8011', '2');
-INSERT INTO `web_cascadedata` VALUES ('18259', '莱芜市', '8011', 'area', '8011', '1');
-INSERT INTO `web_cascadedata` VALUES ('18258', '莒　县', '8010.4', 'area', '8010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18257', '五莲县', '8010.3', 'area', '8010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18256', '岚山区', '8010.2', 'area', '8010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18255', '东港区', '8010.1', 'area', '8010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18254', '日照市', '8010', 'area', '8010', '1');
-INSERT INTO `web_cascadedata` VALUES ('18253', '乳山市', '8009.4', 'area', '8009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18252', '荣成市', '8009.3', 'area', '8009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18251', '文登市', '8009.2', 'area', '8009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18250', '环翠区', '8009.1', 'area', '8009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18249', '威海市', '8009', 'area', '8009', '1');
-INSERT INTO `web_cascadedata` VALUES ('18248', '肥城市', '8008.6', 'area', '8009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18247', '新泰市', '8008.5', 'area', '8009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18246', '东平县', '8008.4', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18245', '宁阳县', '8008.3', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18244', '岱岳区', '8008.2', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18243', '泰山区', '8008.1', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18242', '泰安市', '8008', 'area', '8008', '1');
-INSERT INTO `web_cascadedata` VALUES ('18241', '邹城市', '8007.12', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18240', '兖州市', '8007.11', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18239', '曲阜市', '8007.10', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18238', '梁山县', '8007.9', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18237', '泗水县', '8007.8', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18236', '汶上县', '8007.7', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18235', '嘉祥县', '8007.6', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18234', '金乡县', '8007.5', 'area', '8008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18233', '鱼台县', '8007.4', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18232', '微山县', '8007.3', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18231', '任城区', '8007.2', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18230', '市中区', '8007.1', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18229', '济宁市', '8007', 'area', '8007', '1');
-INSERT INTO `web_cascadedata` VALUES ('18228', '昌邑市', '8006.12', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18227', '高密市', '8006.11', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18226', '安丘市', '8006.10', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18225', '寿光市', '8006.9', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18224', '诸城市', '8006.8', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18223', '青州市', '8006.7', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18222', '昌乐县', '8006.6', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18221', '临朐县', '8006.5', 'area', '8007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18220', '奎文区', '8006.4', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18219', '坊子区', '8006.3', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18218', '寒亭区', '8006.2', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18217', '潍城区', '8006.1', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18216', '潍坊市', '8006', 'area', '8006', '1');
-INSERT INTO `web_cascadedata` VALUES ('18215', '海阳市', '8005.12', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18214', '栖霞市', '8005.11', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18213', '招远市', '8005.10', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18212', '蓬莱市', '8005.9', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18211', '莱州市', '8005.8', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18210', '莱阳市', '8005.7', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18209', '龙口市', '8005.6', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18208', '长岛县', '8005.5', 'area', '8006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18207', '莱山区', '8005.4', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18206', '牟平区', '8005.3', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18205', '福山区', '8005.2', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18204', '芝罘区', '8005.1', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18203', '烟台市', '8005', 'area', '8005', '1');
-INSERT INTO `web_cascadedata` VALUES ('18202', '滕州市', '8004.6', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18201', '山亭区', '8004.5', 'area', '8005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18200', '台儿庄区', '8004.4', 'area', '8004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18199', '峄城区', '8004.3', 'area', '8004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18198', '薛城区', '8004.2', 'area', '8004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18197', '市中区', '8004.1', 'area', '8004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18196', '枣庄市', '8004', 'area', '8004', '1');
-INSERT INTO `web_cascadedata` VALUES ('18195', '沂源县', '8003.8', 'area', '8004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18194', '高青县', '8003.7', 'area', '8004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18193', '桓台县', '8003.6', 'area', '8004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18192', '周村区', '8003.5', 'area', '8004', '2');
-INSERT INTO `web_cascadedata` VALUES ('18191', '临淄区', '8003.4', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18190', '博山区', '8003.3', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18189', '张店区', '8003.2', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18188', '淄川区', '8003.1', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18187', '淄博市', '8003', 'area', '8003', '1');
-INSERT INTO `web_cascadedata` VALUES ('18186', '莱西市', '8002.12', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18185', '胶南市', '8002.11', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18184', '平度市', '8002.10', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18183', '即墨市', '8002.9', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18182', '胶州市', '8002.8', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18181', '城阳区', '8002.7', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18180', '李沧区', '8002.6', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18179', '崂山区', '8002.5', 'area', '8003', '2');
-INSERT INTO `web_cascadedata` VALUES ('18178', '黄岛区', '8002.4', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18177', '四方区', '8002.3', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18176', '市北区', '8002.2', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18175', '市南区', '8002.1', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18174', '青岛市', '8002', 'area', '8002', '1');
-INSERT INTO `web_cascadedata` VALUES ('18173', '章丘市', '8001.10', 'area', '8001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18172', '商河县', '8001.9', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18171', '济阳县', '8001.8', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18170', '平阴县', '8001.7', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18169', '长清区', '8001.6', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18168', '历城区', '8001.5', 'area', '8002', '2');
-INSERT INTO `web_cascadedata` VALUES ('18167', '天桥区', '8001.4', 'area', '8001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18166', '槐荫区', '8001.3', 'area', '8001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18165', '市中区', '8001.2', 'area', '8001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18164', '历下区', '8001.1', 'area', '8001', '2');
-INSERT INTO `web_cascadedata` VALUES ('18163', '济南市', '8001', 'area', '8001', '1');
-INSERT INTO `web_cascadedata` VALUES ('18162', '山东省', '8000', 'area', '8000', '0');
-INSERT INTO `web_cascadedata` VALUES ('18161', '德兴市', '7511.12', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18160', '婺源县', '7511.11', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18159', '万年县', '7511.10', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18158', '鄱阳县', '7511.9', 'area', '7512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18157', '余干县', '7511.8', 'area', '7512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18156', '弋阳县', '7511.7', 'area', '7512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18155', '横峰县', '7511.6', 'area', '7512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18154', '铅山县', '7511.5', 'area', '7512', '2');
-INSERT INTO `web_cascadedata` VALUES ('18153', '玉山县', '7511.4', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18152', '广丰县', '7511.3', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18151', '上饶县', '7511.2', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18150', '信州区', '7511.1', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18149', '上饶市', '7511', 'area', '7511', '1');
-INSERT INTO `web_cascadedata` VALUES ('18148', '广昌县', '7510.11', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18147', '东乡县', '7510.10', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18146', '资溪县', '7510.9', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18145', '金溪县', '7510.8', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18144', '宜黄县', '7510.7', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18143', '乐安县', '7510.6', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18142', '崇仁县', '7510.5', 'area', '7511', '2');
-INSERT INTO `web_cascadedata` VALUES ('18141', '南丰县', '7510.4', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18140', '黎川县', '7510.3', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18139', '南城县', '7510.2', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18138', '临川区', '7510.1', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18137', '抚州市', '7510', 'area', '7510', '1');
-INSERT INTO `web_cascadedata` VALUES ('18136', '高安市', '7509.10', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18135', '樟树市', '7509.9', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18134', '丰城市', '7509.8', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18133', '铜鼓县', '7509.7', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18132', '靖安县', '7509.6', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18131', '宜丰县', '7509.5', 'area', '7510', '2');
-INSERT INTO `web_cascadedata` VALUES ('18130', '上高县', '7509.4', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18129', '万载县', '7509.3', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18128', '奉新县', '7509.2', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18127', '袁州区', '7509.1', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18126', '宜春市', '7509', 'area', '7509', '1');
-INSERT INTO `web_cascadedata` VALUES ('18125', '井冈山市', '7508.13', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18124', '永新县', '7508.12', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18123', '安福县', '7508.11', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18122', '万安县', '7508.10', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18121', '遂川县', '7508.9', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18120', '泰和县', '7508.8', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18119', '永丰县', '7508.7', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18118', '新干县', '7508.6', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18117', '峡江县', '7508.5', 'area', '7509', '2');
-INSERT INTO `web_cascadedata` VALUES ('18116', '吉水县', '7508.4', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18115', '吉安县', '7508.3', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18114', '青原区', '7508.2', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18113', '吉州区', '7508.1', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18112', '吉安市', '7508', 'area', '7508', '1');
-INSERT INTO `web_cascadedata` VALUES ('18111', '南康市', '7507.18', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18110', '瑞金市', '7507.17', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18109', '石城县', '7507.16', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18108', '寻乌县', '7507.15', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18107', '会昌县', '7507.14', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18106', '兴国县', '7507.13', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18105', '于都县', '7507.12', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18104', '宁都县', '7507.11', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18103', '全南县', '7507.10', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18102', '定南县', '7507.9', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18101', '龙南县', '7507.8', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18100', '安远县', '7507.7', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18099', '崇义县', '7507.6', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18098', '上犹县', '7507.5', 'area', '7508', '2');
-INSERT INTO `web_cascadedata` VALUES ('18097', '大余县', '7507.4', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18096', '信丰县', '7507.3', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18095', '赣　县', '7507.2', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18094', '章贡区', '7507.1', 'area', '7507', '2');
-INSERT INTO `web_cascadedata` VALUES ('18093', '赣州市', '7507', 'area', '7507', '1');
-INSERT INTO `web_cascadedata` VALUES ('18092', '贵溪市', '7506.3', 'area', '7506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18091', '余江县', '7506.2', 'area', '7506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18090', '月湖区', '7506.1', 'area', '7506', '2');
-INSERT INTO `web_cascadedata` VALUES ('18089', '鹰潭市', '7506', 'area', '7506', '1');
-INSERT INTO `web_cascadedata` VALUES ('18088', '分宜县', '7505.2', 'area', '7505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18087', '渝水区', '7505.1', 'area', '7505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18086', '新余市', '7505', 'area', '7505', '1');
-INSERT INTO `web_cascadedata` VALUES ('18085', '瑞昌市', '7504.12', 'area', '7504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18084', '彭泽县', '7504.11', 'area', '7504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18083', '湖口县', '7504.10', 'area', '7504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18082', '都昌县', '7504.9', 'area', '7505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18081', '星子县', '7504.8', 'area', '7505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18080', '德安县', '7504.7', 'area', '7505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18079', '永修县', '7504.6', 'area', '7505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18078', '修水县', '7504.5', 'area', '7505', '2');
-INSERT INTO `web_cascadedata` VALUES ('18077', '武宁县', '7504.4', 'area', '7504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18076', '九江县', '7504.3', 'area', '7504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18075', '浔阳区', '7504.2', 'area', '7504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18074', '庐山区', '7504.1', 'area', '7504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18073', '九江市', '7504', 'area', '7504', '1');
-INSERT INTO `web_cascadedata` VALUES ('18072', '芦溪县', '7503.5', 'area', '7504', '2');
-INSERT INTO `web_cascadedata` VALUES ('18071', '上栗县', '7503.4', 'area', '7503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18070', '莲花县', '7503.3', 'area', '7503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18069', '湘东区', '7503.2', 'area', '7503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18068', '安源区', '7503.1', 'area', '7503', '2');
-INSERT INTO `web_cascadedata` VALUES ('18067', '萍乡市', '7503', 'area', '7503', '1');
-INSERT INTO `web_cascadedata` VALUES ('18066', '乐平市', '7502.4', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18065', '浮梁县', '7502.3', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18064', '珠山区', '7502.2', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18063', '昌江区', '7502.1', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18062', '景德镇市', '7502', 'area', '7502', '1');
-INSERT INTO `web_cascadedata` VALUES ('18061', '进贤县', '7501.9', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18060', '安义县', '7501.8', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18059', '新建县', '7501.7', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18058', '南昌县', '7501.6', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18057', '青山湖区', '7501.5', 'area', '7502', '2');
-INSERT INTO `web_cascadedata` VALUES ('18056', '湾里区', '7501.4', 'area', '7501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18055', '青云谱区', '7501.3', 'area', '7501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18054', '西湖区', '7501.2', 'area', '7501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18053', '东湖区', '7501.1', 'area', '7501', '2');
-INSERT INTO `web_cascadedata` VALUES ('18052', '南昌市', '7501', 'area', '7501', '1');
-INSERT INTO `web_cascadedata` VALUES ('18051', '江西省', '7500', 'area', '7500', '0');
-INSERT INTO `web_cascadedata` VALUES ('18050', '福鼎市', '7009.9', 'area', '7010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18049', '福安市', '7009.8', 'area', '7010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18048', '柘荣县', '7009.7', 'area', '7010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18047', '周宁县', '7009.6', 'area', '7010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18046', '寿宁县', '7009.5', 'area', '7010', '2');
-INSERT INTO `web_cascadedata` VALUES ('18045', '屏南县', '7009.4', 'area', '7009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18044', '古田县', '7009.3', 'area', '7009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18043', '霞浦县', '7009.2', 'area', '7009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18042', '蕉城区', '7009.1', 'area', '7009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18041', '宁德市', '7009', 'area', '7009', '1');
-INSERT INTO `web_cascadedata` VALUES ('18040', '漳平市', '7008.7', 'area', '7009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18039', '连城县', '7008.6', 'area', '7009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18038', '武平县', '7008.5', 'area', '7009', '2');
-INSERT INTO `web_cascadedata` VALUES ('18037', '上杭县', '7008.4', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18036', '永定县', '7008.3', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18035', '长汀县', '7008.2', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18034', '新罗区', '7008.1', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18033', '龙岩市', '7008', 'area', '7008', '1');
-INSERT INTO `web_cascadedata` VALUES ('18032', '建阳市', '7007.10', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18031', '建瓯市', '7007.9', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18030', '武夷山市', '7007.8', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18029', '邵武市', '7007.7', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18028', '政和县', '7007.6', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18027', '松溪县', '7007.5', 'area', '7008', '2');
-INSERT INTO `web_cascadedata` VALUES ('18026', '光泽县', '7007.4', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18025', '浦城县', '7007.3', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18024', '顺昌县', '7007.2', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18023', '延平区', '7007.1', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18022', '南平市', '7007', 'area', '7007', '1');
-INSERT INTO `web_cascadedata` VALUES ('18021', '龙海市', '7006.11', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18020', '华安县', '7006.10', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18019', '平和县', '7006.9', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18018', '南靖县', '7006.8', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18017', '东山县', '7006.7', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18016', '长泰县', '7006.6', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18015', '诏安县', '7006.5', 'area', '7007', '2');
-INSERT INTO `web_cascadedata` VALUES ('18014', '漳浦县', '7006.4', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18013', '云霄县', '7006.3', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18012', '龙文区', '7006.2', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18011', '芗城区', '7006.1', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18010', '漳州市', '7006', 'area', '7006', '1');
-INSERT INTO `web_cascadedata` VALUES ('18009', '南安市', '7005.12', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18008', '晋江市', '7005.11', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18007', '石狮市', '7005.10', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18006', '金门县', '7005.9', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18005', '德化县', '7005.8', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18004', '永春县', '7005.7', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18003', '安溪县', '7005.6', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18002', '惠安县', '7005.5', 'area', '7006', '2');
-INSERT INTO `web_cascadedata` VALUES ('18001', '泉港区', '7005.4', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('18000', '洛江区', '7005.3', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17999', '丰泽区', '7005.2', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17998', '鲤城区', '7005.1', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17997', '泉州市', '7005', 'area', '7005', '1');
-INSERT INTO `web_cascadedata` VALUES ('17996', '永安市', '7004.12', 'area', '7004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17995', '建宁县', '7004.11', 'area', '7004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17994', '泰宁县', '7004.10', 'area', '7004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17993', '将乐县', '7004.9', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17992', '沙　县', '7004.8', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17991', '尤溪县', '7004.7', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17990', '大田县', '7004.6', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17989', '宁化县', '7004.5', 'area', '7005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17988', '清流县', '7004.4', 'area', '7004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17987', '明溪县', '7004.3', 'area', '7004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17986', '三元区', '7004.2', 'area', '7004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17985', '梅列区', '7004.1', 'area', '7004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17984', '三明市', '7004', 'area', '7004', '1');
-INSERT INTO `web_cascadedata` VALUES ('17983', '仙游县', '7003.5', 'area', '7004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17982', '秀屿区', '7003.4', 'area', '7003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17981', '荔城区', '7003.3', 'area', '7003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17980', '涵江区', '7003.2', 'area', '7003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17979', '城厢区', '7003.1', 'area', '7003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17978', '莆田市', '7003', 'area', '7003', '1');
-INSERT INTO `web_cascadedata` VALUES ('17977', '翔安区', '7002.6', 'area', '7003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17976', '同安区', '7002.5', 'area', '7003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17975', '集美区', '7002.4', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17974', '湖里区', '7002.3', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17973', '海沧区', '7002.2', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17972', '思明区', '7002.1', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17971', '厦门市', '7002', 'area', '7002', '1');
-INSERT INTO `web_cascadedata` VALUES ('17970', '长乐市', '7001.13', 'area', '7001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17969', '福清市', '7001.12', 'area', '7001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17968', '平潭县', '7001.11', 'area', '7001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17967', '永泰县', '7001.10', 'area', '7001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17966', '闽清县', '7001.9', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17965', '罗源县', '7001.8', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17964', '连江县', '7001.7', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17963', '闽侯县', '7001.6', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17962', '晋安区', '7001.5', 'area', '7002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17961', '马尾区', '7001.4', 'area', '7001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17960', '仓山区', '7001.3', 'area', '7001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17959', '台江区', '7001.2', 'area', '7001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17958', '鼓楼区', '7001.1', 'area', '7001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17957', '福州市', '7001', 'area', '7001', '1');
-INSERT INTO `web_cascadedata` VALUES ('17956', '福建省', '7000', 'area', '7000', '0');
-INSERT INTO `web_cascadedata` VALUES ('17955', '宁国市', '6517.7', 'area', '6518', '2');
-INSERT INTO `web_cascadedata` VALUES ('17954', '旌德县', '6517.6', 'area', '6518', '2');
-INSERT INTO `web_cascadedata` VALUES ('17953', '绩溪县', '6517.5', 'area', '6518', '2');
-INSERT INTO `web_cascadedata` VALUES ('17952', '泾　县', '6517.4', 'area', '6517', '2');
-INSERT INTO `web_cascadedata` VALUES ('17951', '广德县', '6517.3', 'area', '6517', '2');
-INSERT INTO `web_cascadedata` VALUES ('17950', '郎溪县', '6517.2', 'area', '6517', '2');
-INSERT INTO `web_cascadedata` VALUES ('17949', '宣州区', '6517.1', 'area', '6517', '2');
-INSERT INTO `web_cascadedata` VALUES ('17948', '宣城市', '6517', 'area', '6517', '1');
-INSERT INTO `web_cascadedata` VALUES ('17947', '青阳县', '6516.4', 'area', '6516', '2');
-INSERT INTO `web_cascadedata` VALUES ('17946', '石台县', '6516.3', 'area', '6516', '2');
-INSERT INTO `web_cascadedata` VALUES ('17945', '东至县', '6516.2', 'area', '6516', '2');
-INSERT INTO `web_cascadedata` VALUES ('17944', '贵池区', '6516.1', 'area', '6516', '2');
-INSERT INTO `web_cascadedata` VALUES ('17943', '池州市', '6516', 'area', '6516', '1');
-INSERT INTO `web_cascadedata` VALUES ('17942', '利辛县', '6515.4', 'area', '6515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17941', '蒙城县', '6515.3', 'area', '6515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17940', '涡阳县', '6515.2', 'area', '6515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17939', '谯城区', '6515.1', 'area', '6515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17938', '亳州市', '6515', 'area', '6515', '1');
-INSERT INTO `web_cascadedata` VALUES ('17937', '霍山县', '6514.7', 'area', '6515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17936', '金寨县', '6514.6', 'area', '6515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17935', '舒城县', '6514.5', 'area', '6515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17934', '霍邱县', '6514.4', 'area', '6514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17933', '寿　县', '6514.3', 'area', '6514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17932', '裕安区', '6514.2', 'area', '6514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17931', '金安区', '6514.1', 'area', '6514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17930', '六安市', '6514', 'area', '6514', '1');
-INSERT INTO `web_cascadedata` VALUES ('17929', '和　县', '6513.5', 'area', '6514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17928', '含山县', '6513.4', 'area', '6513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17927', '无为县', '6513.3', 'area', '6513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17926', '庐江县', '6513.2', 'area', '6513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17925', '居巢区', '6513.1', 'area', '6513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17924', '巢湖市', '6513', 'area', '6513', '1');
-INSERT INTO `web_cascadedata` VALUES ('17923', '泗　县', '6512.5', 'area', '6513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17922', '灵璧县', '6512.4', 'area', '6512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17921', '萧　县', '6512.3', 'area', '6512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17920', '砀山县', '6512.2', 'area', '6512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17919', '墉桥区', '6512.1', 'area', '6512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17918', '宿州市', '6512', 'area', '6512', '1');
-INSERT INTO `web_cascadedata` VALUES ('17917', '界首市', '6511.8', 'area', '6512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17916', '颍上县', '6511.7', 'area', '6512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17915', '阜南县', '6511.6', 'area', '6512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17914', '太和县', '6511.5', 'area', '6512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17913', '临泉县', '6511.4', 'area', '6511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17912', '颍泉区', '6511.3', 'area', '6511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17911', '颍东区', '6511.2', 'area', '6511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17910', '颍州区', '6511.1', 'area', '6511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17909', '阜阳市', '6511', 'area', '6511', '1');
-INSERT INTO `web_cascadedata` VALUES ('17908', '明光市', '6510.8', 'area', '6511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17907', '天长市', '6510.7', 'area', '6511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17906', '凤阳县', '6510.6', 'area', '6511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17905', '定远县', '6510.5', 'area', '6511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17904', '全椒县', '6510.4', 'area', '6510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17903', '来安县', '6510.3', 'area', '6510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17902', '南谯区', '6510.2', 'area', '6510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17901', '琅琊区', '6510.1', 'area', '6510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17900', '滁州市', '6510', 'area', '6510', '1');
-INSERT INTO `web_cascadedata` VALUES ('17899', '祁门县', '6509.7', 'area', '6510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17898', '黟　县', '6509.6', 'area', '6510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17897', '休宁县', '6509.5', 'area', '6510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17896', '歙　县', '6509.4', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17895', '徽州区', '6509.3', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17894', '黄山区', '6509.2', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17893', '屯溪区', '6509.1', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17892', '黄山市', '6509', 'area', '6509', '1');
-INSERT INTO `web_cascadedata` VALUES ('17891', '桐城市', '6508.11', 'area', '6508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17890', '岳西县', '6508.10', 'area', '6508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17889', '望江县', '6508.9', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17888', '宿松县', '6508.8', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17887', '太湖县', '6508.7', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17886', '潜山县', '6508.6', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17885', '枞阳县', '6508.5', 'area', '6509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17884', '怀宁县', '6508.4', 'area', '6508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17883', '郊　区', '6508.3', 'area', '6508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17882', '大观区', '6508.2', 'area', '6508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17881', '迎江区', '6508.1', 'area', '6508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17880', '安庆市', '6508', 'area', '6508', '1');
-INSERT INTO `web_cascadedata` VALUES ('17879', '铜陵县', '6507.4', 'area', '6507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17878', '郊　区', '6507.3', 'area', '6507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17877', '狮子山区', '6507.2', 'area', '6507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17876', '铜官山区', '6507.1', 'area', '6507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17875', '铜陵市', '6507', 'area', '6507', '1');
-INSERT INTO `web_cascadedata` VALUES ('17874', '濉溪县', '6506.4', 'area', '6506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17873', '烈山区', '6506.3', 'area', '6506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17872', '相山区', '6506.2', 'area', '6506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17871', '杜集区', '6506.1', 'area', '6506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17870', '淮北市', '6506', 'area', '6506', '1');
-INSERT INTO `web_cascadedata` VALUES ('17869', '当涂县', '6505.4', 'area', '6505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17868', '雨山区', '6505.3', 'area', '6505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17867', '花山区', '6505.2', 'area', '6505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17866', '金家庄区', '6505.1', 'area', '6505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17865', '马鞍山市', '6505', 'area', '6505', '1');
-INSERT INTO `web_cascadedata` VALUES ('17864', '凤台县', '6504.6', 'area', '6505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17863', '潘集区', '6504.5', 'area', '6505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17862', '八公山区', '6504.4', 'area', '6504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17861', '谢家集区', '6504.3', 'area', '6504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17860', '田家庵区', '6504.2', 'area', '6504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17859', '大通区', '6504.1', 'area', '6504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17858', '淮南市', '6504', 'area', '6504', '1');
-INSERT INTO `web_cascadedata` VALUES ('17857', '固镇县', '6503.7', 'area', '6504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17856', '五河县', '6503.6', 'area', '6504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17855', '怀远县', '6503.5', 'area', '6504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17854', '淮上区', '6503.4', 'area', '6503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17853', '禹会区', '6503.3', 'area', '6503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17852', '蚌山区', '6503.2', 'area', '6503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17851', '龙子湖区', '6503.1', 'area', '6503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17850', '蚌埠市', '6503', 'area', '6503', '1');
-INSERT INTO `web_cascadedata` VALUES ('17849', '南陵县', '6502.7', 'area', '6503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17848', '繁昌县', '6502.6', 'area', '6503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17847', '芜湖县', '6502.5', 'area', '6503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17846', '鸠江区', '6502.4', 'area', '6502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17845', '新芜区', '6502.3', 'area', '6502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17844', '马塘区', '6502.2', 'area', '6502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17843', '镜湖区', '6502.1', 'area', '6502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17842', '芜湖市', '6502', 'area', '6502', '1');
-INSERT INTO `web_cascadedata` VALUES ('17841', '肥西县', '6501.7', 'area', '6502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17840', '肥东县', '6501.6', 'area', '6502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17839', '长丰县', '6501.5', 'area', '6502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17838', '包河区', '6501.4', 'area', '6501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17837', '蜀山区', '6501.3', 'area', '6501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17836', '庐阳区', '6501.2', 'area', '6501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17835', '瑶海区', '6501.1', 'area', '6501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17834', '合肥市', '6501', 'area', '6501', '1');
-INSERT INTO `web_cascadedata` VALUES ('17833', '安徽省', '6500', 'area', '6500', '0');
-INSERT INTO `web_cascadedata` VALUES ('17832', '龙泉市', '6011.9', 'area', '6012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17831', '景宁畲族自治县', '6011.8', 'area', '6012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17830', '庆元县', '6011.7', 'area', '6012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17829', '云和县', '6011.6', 'area', '6012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17828', '松阳县', '6011.5', 'area', '6012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17827', '遂昌县', '6011.4', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17826', '缙云县', '6011.3', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17825', '青田县', '6011.2', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17824', '莲都区', '6011.1', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17823', '丽水市', '6011', 'area', '6011', '1');
-INSERT INTO `web_cascadedata` VALUES ('17822', '临海市', '6010.9', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17821', '温岭市', '6010.8', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17820', '仙居县', '6010.7', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17819', '天台县', '6010.6', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17818', '三门县', '6010.5', 'area', '6011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17817', '玉环县', '6010.4', 'area', '6010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17816', '路桥区', '6010.3', 'area', '6010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17815', '黄岩区', '6010.2', 'area', '6010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17814', '椒江区', '6010.1', 'area', '6010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17813', '台州市', '6010', 'area', '6010', '1');
-INSERT INTO `web_cascadedata` VALUES ('17812', '嵊泗县', '6009.4', 'area', '6009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17811', '岱山县', '6009.3', 'area', '6009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17810', '普陀区', '6009.2', 'area', '6009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17809', '定海区', '6009.1', 'area', '6009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17808', '舟山市', '6009', 'area', '6009', '1');
-INSERT INTO `web_cascadedata` VALUES ('17807', '江山市', '6008.6', 'area', '6009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17806', '龙游县', '6008.5', 'area', '6009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17805', '开化县', '6008.4', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17804', '常山县', '6008.3', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17803', '衢江区', '6008.2', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17802', '柯城区', '6008.1', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17801', '衢州市', '6008', 'area', '6008', '1');
-INSERT INTO `web_cascadedata` VALUES ('17800', '永康市', '6007.9', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17799', '东阳市', '6007.8', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17798', '义乌市', '6007.7', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17797', '兰溪市', '6007.6', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17796', '磐安县', '6007.5', 'area', '6008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17795', '浦江县', '6007.4', 'area', '6007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17794', '武义县', '6007.3', 'area', '6007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17793', '金东区', '6007.2', 'area', '6007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17792', '婺城区', '6007.1', 'area', '6007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17791', '金华市', '6007', 'area', '6007', '1');
-INSERT INTO `web_cascadedata` VALUES ('17790', '嵊州市', '6006.6', 'area', '6007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17789', '上虞市', '6006.5', 'area', '6007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17788', '诸暨市', '6006.4', 'area', '6006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17787', '新昌县', '6006.3', 'area', '6006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17786', '绍兴县', '6006.2', 'area', '6006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17785', '越城区', '6006.1', 'area', '6006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17784', '绍兴市', '6006', 'area', '6006', '1');
-INSERT INTO `web_cascadedata` VALUES ('17783', '安吉县', '6005.5', 'area', '6006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17782', '长兴县', '6005.4', 'area', '6005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17781', '德清县', '6005.3', 'area', '6005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17780', '南浔区', '6005.2', 'area', '6005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17779', '吴兴区', '6005.1', 'area', '6005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17778', '湖州市', '6005', 'area', '6005', '1');
-INSERT INTO `web_cascadedata` VALUES ('17777', '桐乡市', '6004.7', 'area', '6005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17776', '平湖市', '6004.6', 'area', '6005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17775', '海宁市', '6004.5', 'area', '6005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17774', '海盐县', '6004.4', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17773', '嘉善县', '6004.3', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17772', '秀洲区', '6004.2', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17771', '秀城区', '6004.1', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17770', '嘉兴市', '6004', 'area', '6004', '1');
-INSERT INTO `web_cascadedata` VALUES ('17769', '乐清市', '6003.11', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17768', '瑞安市', '6003.10', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17767', '泰顺县', '6003.9', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17766', '文成县', '6003.8', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17765', '苍南县', '6003.7', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17764', '平阳县', '6003.6', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17763', '永嘉县', '6003.5', 'area', '6004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17762', '洞头县', '6003.4', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17761', '瓯海区', '6003.3', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17760', '龙湾区', '6003.2', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17759', '鹿城区', '6003.1', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17758', '温州市', '6003', 'area', '6003', '1');
-INSERT INTO `web_cascadedata` VALUES ('17757', '奉化市', '6002.11', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17756', '慈溪市', '6002.10', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17755', '余姚市', '6002.9', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17754', '宁海县', '6002.8', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17753', '象山县', '6002.7', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17752', '鄞州区', '6002.6', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17751', '镇海区', '6002.5', 'area', '6003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17750', '北仑区', '6002.4', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17749', '江北区', '6002.3', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17748', '江东区', '6002.2', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17747', '海曙区', '6002.1', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17746', '宁波市', '6002', 'area', '6002', '1');
-INSERT INTO `web_cascadedata` VALUES ('17745', '临安市', '6001.13', 'area', '6001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17744', '富阳市', '6001.12', 'area', '6001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17743', '建德市', '6001.11', 'area', '6001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17742', '淳安县', '6001.10', 'area', '6001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17741', '桐庐县', '6001.9', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17740', '余杭区', '6001.8', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17739', '萧山区', '6001.7', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17738', '滨江区', '6001.6', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17737', '西湖区', '6001.5', 'area', '6002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17736', '拱墅区', '6001.4', 'area', '6001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17735', '江干区', '6001.3', 'area', '6001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17734', '下城区', '6001.2', 'area', '6001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17733', '上城区', '6001.1', 'area', '6001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17732', '杭州市', '6001', 'area', '6001', '1');
-INSERT INTO `web_cascadedata` VALUES ('17731', '浙江省', '6000', 'area', '6000', '0');
-INSERT INTO `web_cascadedata` VALUES ('17730', '泗洪县', '5513.5', 'area', '5514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17729', '泗阳县', '5513.4', 'area', '5513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17728', '沭阳县', '5513.3', 'area', '5513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17727', '宿豫区', '5513.2', 'area', '5513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17726', '宿城区', '5513.1', 'area', '5513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17725', '宿迁市', '5513', 'area', '5513', '1');
-INSERT INTO `web_cascadedata` VALUES ('17724', '姜堰市', '5512.6', 'area', '5513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17723', '泰兴市', '5512.5', 'area', '5513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17722', '靖江市', '5512.4', 'area', '5512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17721', '兴化市', '5512.3', 'area', '5512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17720', '高港区', '5512.2', 'area', '5512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17719', '海陵区', '5512.1', 'area', '5512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17718', '泰州市', '5512', 'area', '5512', '1');
-INSERT INTO `web_cascadedata` VALUES ('17717', '句容市', '5511.6', 'area', '5512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17716', '扬中市', '5511.5', 'area', '5512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17715', '丹阳市', '5511.4', 'area', '5511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17714', '丹徒区', '5511.3', 'area', '5511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17713', '润州区', '5511.2', 'area', '5511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17712', '京口区', '5511.1', 'area', '5511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17711', '镇江市', '5511', 'area', '5511', '1');
-INSERT INTO `web_cascadedata` VALUES ('17710', '江都市', '5510.7', 'area', '5511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17709', '高邮市', '5510.6', 'area', '5511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17708', '仪征市', '5510.5', 'area', '5511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17707', '宝应县', '5510.4', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17706', '郊　区', '5510.3', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17705', '邗江区', '5510.2', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17704', '广陵区', '5510.1', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17703', '扬州市', '5510', 'area', '5510', '1');
-INSERT INTO `web_cascadedata` VALUES ('17702', '大丰市', '5509.9', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17701', '东台市', '5509.8', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17700', '建湖县', '5509.7', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17699', '射阳县', '5509.6', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17698', '阜宁县', '5509.5', 'area', '5510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17697', '滨海县', '5509.4', 'area', '5509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17696', '响水县', '5509.3', 'area', '5509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17695', '盐都区', '5509.2', 'area', '5509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17694', '亭湖区', '5509.1', 'area', '5509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17693', '盐城市', '5509', 'area', '5509', '1');
-INSERT INTO `web_cascadedata` VALUES ('17692', '金湖县', '5508.8', 'area', '5509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17691', '盱眙县', '5508.7', 'area', '5509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17690', '洪泽县', '5508.6', 'area', '5509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17689', '涟水县', '5508.5', 'area', '5509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17688', '清浦区', '5508.4', 'area', '5508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17687', '淮阴区', '5508.3', 'area', '5508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17686', '楚州区', '5508.2', 'area', '5508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17685', '清河区', '5508.1', 'area', '5508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17684', '淮安市', '5508', 'area', '5508', '1');
-INSERT INTO `web_cascadedata` VALUES ('17683', '灌南县', '5507.7', 'area', '5508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17682', '灌云县', '5507.6', 'area', '5508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17681', '东海县', '5507.5', 'area', '5508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17680', '赣榆县', '5507.4', 'area', '5507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17679', '海州区', '5507.3', 'area', '5507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17678', '新浦区', '5507.2', 'area', '5507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17677', '连云区', '5507.1', 'area', '5507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17676', '连云港市', '5507', 'area', '5507', '1');
-INSERT INTO `web_cascadedata` VALUES ('17675', '海门市', '5506.8', 'area', '5507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17674', '通州市', '5506.7', 'area', '5507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17673', '如皋市', '5506.6', 'area', '5507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17672', '启东市', '5506.5', 'area', '5507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17671', '如东县', '5506.4', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17670', '海安县', '5506.3', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17669', '港闸区', '5506.2', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17668', '崇川区', '5506.1', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17667', '南通市', '5506', 'area', '5506', '1');
-INSERT INTO `web_cascadedata` VALUES ('17666', '太仓市', '5505.11', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17665', '吴江市', '5505.10', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17664', '昆山市', '5505.9', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17663', '张家港市', '5505.8', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17662', '常熟市', '5505.7', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17661', '相城区', '5505.6', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17660', '吴中区', '5505.5', 'area', '5506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17659', '虎丘区', '5505.4', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17658', '金阊区', '5505.3', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17657', '平江区', '5505.2', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17656', '沧浪区', '5505.1', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17655', '苏州市', '5505', 'area', '5505', '1');
-INSERT INTO `web_cascadedata` VALUES ('17654', '金坛市', '5504.7', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17653', '溧阳市', '5504.6', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17652', '武进区', '5504.5', 'area', '5505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17651', '新北区', '5504.4', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17650', '戚墅堰区', '5504.3', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17649', '钟楼区', '5504.2', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17648', '天宁区', '5504.1', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17647', '常州市', '5504', 'area', '5504', '1');
-INSERT INTO `web_cascadedata` VALUES ('17646', '邳州市', '5503.11', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17645', '新沂市', '5503.10', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17644', '睢宁县', '5503.9', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17643', '铜山县', '5503.8', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17642', '沛　县', '5503.7', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17641', '丰　县', '5503.6', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17640', '泉山区', '5503.5', 'area', '5504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17639', '贾汪区', '5503.4', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17638', '九里区', '5503.3', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17637', '云龙区', '5503.2', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17636', '鼓楼区', '5503.1', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17635', '徐州市', '5503', 'area', '5503', '1');
-INSERT INTO `web_cascadedata` VALUES ('17634', '宜兴市', '5502.8', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17633', '江阴市', '5502.7', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17632', '滨湖区', '5502.6', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17631', '惠山区', '5502.5', 'area', '5503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17630', '锡山区', '5502.4', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17629', '北塘区', '5502.3', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17628', '南长区', '5502.2', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17627', '崇安区', '5502.1', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17626', '无锡市', '5502', 'area', '5502', '1');
-INSERT INTO `web_cascadedata` VALUES ('17625', '高淳县', '5501.13', 'area', '5501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17624', '溧水县', '5501.12', 'area', '5501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17623', '六合区', '5501.11', 'area', '5501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17622', '江宁区', '5501.10', 'area', '5501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17621', '雨花台区', '5501.9', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17620', '栖霞区', '5501.8', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17619', '浦口区', '5501.7', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17618', '下关区', '5501.6', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17617', '鼓楼区', '5501.5', 'area', '5502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17616', '建邺区', '5501.4', 'area', '5501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17615', '秦淮区', '5501.3', 'area', '5501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17614', '白下区', '5501.2', 'area', '5501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17613', '武区', '5501.1', 'area', '5501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17612', '南京市', '5501', 'area', '5501', '1');
-INSERT INTO `web_cascadedata` VALUES ('17611', '江苏省', '5500', 'area', '5500', '0');
-INSERT INTO `web_cascadedata` VALUES ('17610', '崇明县', '5019', 'area', '5019', '1');
-INSERT INTO `web_cascadedata` VALUES ('17609', '奉贤区', '5018', 'area', '5018', '1');
-INSERT INTO `web_cascadedata` VALUES ('17608', '南汇区', '5017', 'area', '5017', '1');
-INSERT INTO `web_cascadedata` VALUES ('17607', '青浦区', '5016', 'area', '5016', '1');
-INSERT INTO `web_cascadedata` VALUES ('17606', '松江区', '5015', 'area', '5015', '1');
-INSERT INTO `web_cascadedata` VALUES ('17605', '金山区', '5014', 'area', '5014', '1');
-INSERT INTO `web_cascadedata` VALUES ('17604', '浦东新区', '5013', 'area', '5013', '1');
-INSERT INTO `web_cascadedata` VALUES ('17603', '嘉定区', '5012', 'area', '5012', '1');
-INSERT INTO `web_cascadedata` VALUES ('17602', '宝山区', '5011', 'area', '5011', '1');
-INSERT INTO `web_cascadedata` VALUES ('17601', '闵行区', '5010', 'area', '5010', '1');
-INSERT INTO `web_cascadedata` VALUES ('17600', '杨浦区', '5009', 'area', '5009', '1');
-INSERT INTO `web_cascadedata` VALUES ('17599', '虹口区', '5008', 'area', '5008', '1');
-INSERT INTO `web_cascadedata` VALUES ('17598', '闸北区', '5007', 'area', '5007', '1');
-INSERT INTO `web_cascadedata` VALUES ('17597', '普陀区', '5006', 'area', '5006', '1');
-INSERT INTO `web_cascadedata` VALUES ('17596', '静安区', '5005', 'area', '5005', '1');
-INSERT INTO `web_cascadedata` VALUES ('17595', '长宁区', '5004', 'area', '5004', '1');
-INSERT INTO `web_cascadedata` VALUES ('17594', '徐汇区', '5003', 'area', '5003', '1');
-INSERT INTO `web_cascadedata` VALUES ('17593', '卢湾区', '5002', 'area', '5002', '1');
-INSERT INTO `web_cascadedata` VALUES ('17592', '黄浦区', '5001', 'area', '5001', '1');
-INSERT INTO `web_cascadedata` VALUES ('17591', '上海市', '5000', 'area', '5000', '0');
-INSERT INTO `web_cascadedata` VALUES ('17590', '漠河县', '4513.3', 'area', '4513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17589', '塔河县', '4513.2', 'area', '4513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17588', '呼玛县', '4513.1', 'area', '4513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17587', '大兴安岭地区', '4513', 'area', '4513', '1');
-INSERT INTO `web_cascadedata` VALUES ('17586', '海伦市', '4512.10', 'area', '4512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17585', '肇东市', '4512.9', 'area', '4513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17584', '安达市', '4512.8', 'area', '4513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17583', '绥棱县', '4512.7', 'area', '4513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17582', '明水县', '4512.6', 'area', '4513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17581', '庆安县', '4512.5', 'area', '4513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17580', '青冈县', '4512.4', 'area', '4512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17579', '兰西县', '4512.3', 'area', '4512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17578', '望奎县', '4512.2', 'area', '4512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17577', '北林区', '4512.1', 'area', '4512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17576', '绥化市', '4512', 'area', '4512', '1');
-INSERT INTO `web_cascadedata` VALUES ('17575', '五大连池市', '4511.6', 'area', '4512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17574', '北安市', '4511.5', 'area', '4512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17573', '孙吴县', '4511.4', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17572', '逊克县', '4511.3', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17571', '嫩江县', '4511.2', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17570', '爱辉区', '4511.1', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17569', '黑河市', '4511', 'area', '4511', '1');
-INSERT INTO `web_cascadedata` VALUES ('17568', '穆棱市', '4510.10', 'area', '4510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17567', '宁安市', '4510.9', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17566', '海林市', '4510.8', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17565', '绥芬河市', '4510.7', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17564', '林口县', '4510.6', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17563', '东宁县', '4510.5', 'area', '4511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17562', '西安区', '4510.4', 'area', '4510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17561', '爱民区', '4510.3', 'area', '4510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17560', '阳明区', '4510.2', 'area', '4510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17559', '东安区', '4510.1', 'area', '4510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17558', '牡丹江市', '4510', 'area', '4510', '1');
-INSERT INTO `web_cascadedata` VALUES ('17557', '勃利县', '4509.4', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17556', '茄子河区', '4509.3', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17555', '桃山区', '4509.2', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17554', '新兴区', '4509.1', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17553', '七台河市', '4509', 'area', '4509', '1');
-INSERT INTO `web_cascadedata` VALUES ('17552', '富锦市', '4508.11', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17551', '同江市', '4508.10', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17550', '抚远县', '4508.9', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17549', '汤原县', '4508.8', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17548', '桦川县', '4508.7', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17547', '桦南县', '4508.6', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17546', '郊　区', '4508.5', 'area', '4509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17545', '东风区', '4508.4', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17544', '前进区', '4508.3', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17543', '向阳区', '4508.2', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17542', '永红区', '4508.1', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17541', '佳木斯市', '4508', 'area', '4508', '1');
-INSERT INTO `web_cascadedata` VALUES ('17540', '铁力市', '4507.17', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17539', '嘉荫县', '4507.16', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17538', '上甘岭区', '4507.15', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17537', '红星区', '4507.14', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17536', '乌伊岭区', '4507.13', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17535', '带岭区', '4507.12', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17534', '汤旺河区', '4507.11', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17533', '乌马河区', '4507.10', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17532', '五营区', '4507.9', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17531', '金山屯区', '4507.8', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17530', '美溪区', '4507.7', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17529', '新青区', '4507.6', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17528', '翠峦区', '4507.5', 'area', '4508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17527', '西林区', '4507.4', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17526', '友好区', '4507.3', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17525', '南岔区', '4507.2', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17524', '伊春区', '4507.1', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17523', '伊春市', '4507', 'area', '4507', '1');
-INSERT INTO `web_cascadedata` VALUES ('17522', '杜尔伯特蒙古族自治县', '4506.9', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17521', '林甸县', '4506.8', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17520', '肇源县', '4506.7', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17519', '肇州县', '4506.6', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17518', '大同区', '4506.5', 'area', '4507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17517', '红岗区', '4506.4', 'area', '4506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17516', '让胡路区', '4506.3', 'area', '4506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17515', '龙凤区', '4506.2', 'area', '4506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17514', '萨尔图区', '4506.1', 'area', '4506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17513', '大庆市', '4506', 'area', '4506', '1');
-INSERT INTO `web_cascadedata` VALUES ('17512', '饶河县', '4505.8', 'area', '4506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17511', '宝清县', '4505.7', 'area', '4506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17510', '友谊县', '4505.6', 'area', '4506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17509', '集贤县', '4505.5', 'area', '4506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17508', '宝山区', '4505.4', 'area', '4505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17507', '四方台区', '4505.3', 'area', '4505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17506', '岭东区', '4505.2', 'area', '4505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17505', '尖山区', '4505.1', 'area', '4505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17504', '双鸭山市', '4505', 'area', '4505', '1');
-INSERT INTO `web_cascadedata` VALUES ('17503', '绥滨县', '4504.8', 'area', '4505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17502', '萝北县', '4504.7', 'area', '4505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17501', '兴山区', '4504.6', 'area', '4505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17500', '东山区', '4504.5', 'area', '4505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17499', '兴安区', '4504.4', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17498', '南山区', '4504.3', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17497', '工农区', '4504.2', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17496', '向阳区', '4504.1', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17495', '鹤岗市', '4504', 'area', '4504', '1');
-INSERT INTO `web_cascadedata` VALUES ('17494', '密山市', '4503.9', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17493', '虎林市', '4503.8', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17492', '鸡东县', '4503.7', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17491', '麻山区', '4503.6', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17490', '城子河区', '4503.5', 'area', '4504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17489', '梨树区', '4503.4', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17488', '滴道区', '4503.3', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17487', '恒山区', '4503.2', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17486', '鸡冠区', '4503.1', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17485', '鸡西市', '4503', 'area', '4503', '1');
-INSERT INTO `web_cascadedata` VALUES ('17484', '讷河市', '4502.15', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17483', '拜泉县', '4502.14', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17482', '克东县', '4502.13', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17481', '克山县', '4502.12', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17480', '富裕县', '4502.11', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17479', '甘南县', '4502.10', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17478', '泰来县', '4502.9', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17477', '龙江县 依安县', '4502.8', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17476', '梅里斯达斡尔族区', '4502.7', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17475', '碾子山区', '4502.6', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17474', '富拉尔基区', '4502.5', 'area', '4503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17473', '昂昂溪区', '4502.4', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17472', '铁锋区', '4502.3', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17471', '建华区', '4502.2', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17470', '龙沙区', '4502.1', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17469', '齐齐哈尔市', '4502', 'area', '4502', '1');
-INSERT INTO `web_cascadedata` VALUES ('17468', '五常市', '4501.19', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17467', '尚志市', '4501.18', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17466', '双城市', '4501.17', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17465', '阿城市', '4501.16', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17464', '延寿县', '4501.15', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17463', '通河县', '4501.14', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17462', '木兰县', '4501.13', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17461', '巴彦县', '4501.12', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17460', '宾　县', '4501.11', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17459', '方正县', '4501.10', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17458', '依兰县', '4501.9', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17457', '呼兰区', '4501.8', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17456', '松北区', '4501.7', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17455', '平房区', '4501.6', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17454', '动力区', '4501.5', 'area', '4502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17453', '香坊区', '4501.4', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17452', '道外区', '4501.3', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17451', '南岗区', '4501.2', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17450', '道里区', '4501.1', 'area', '4501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17449', '哈尔滨市', '4501', 'area', '4501', '1');
-INSERT INTO `web_cascadedata` VALUES ('17448', '黑龙江省', '4500', 'area', '4500', '0');
-INSERT INTO `web_cascadedata` VALUES ('17447', '安图县', '4009.8', 'area', '4010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17446', '汪清县', '4009.7', 'area', '4010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17445', '和龙市', '4009.6', 'area', '4010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17444', '龙井市', '4009.5', 'area', '4010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17443', '珲春市', '4009.4', 'area', '4009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17442', '敦化市', '4009.3', 'area', '4009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17441', '图们市', '4009.2', 'area', '4009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17440', '延吉市', '4009.1', 'area', '4009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17439', '延边朝鲜族自治州', '4009', 'area', '4009', '1');
-INSERT INTO `web_cascadedata` VALUES ('17438', '大安市', '4008.5', 'area', '4009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17437', '洮南市', '4008.4', 'area', '4008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17436', '通榆县', '4008.3', 'area', '4008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17435', '镇赉县', '4008.2', 'area', '4008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17434', '洮北区', '4008.1', 'area', '4008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17433', '白城市', '4008', 'area', '4008', '1');
-INSERT INTO `web_cascadedata` VALUES ('17432', '扶余县', '4007.5', 'area', '4008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17431', '乾安县', '4007.4', 'area', '4007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17430', '长岭县', '4007.3', 'area', '4007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17429', '前郭尔罗斯蒙古族自治县', '4007.2', 'area', '4007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17428', '宁江区', '4007.1', 'area', '4007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17427', '松原市', '4007', 'area', '4007', '1');
-INSERT INTO `web_cascadedata` VALUES ('17426', '临江市', '4006.6', 'area', '4007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17425', '江源县', '4006.5', 'area', '4007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17424', '长白朝鲜族自治县', '4006.4', 'area', '4006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17423', '靖宇县', '4006.3', 'area', '4006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17422', '抚松县', '4006.2', 'area', '4006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17421', '八道江区', '4006.1', 'area', '4006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17420', '白山市', '4006', 'area', '4006', '1');
-INSERT INTO `web_cascadedata` VALUES ('17419', '集安市', '4005.7', 'area', '4006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17418', '梅河口市', '4005.6', 'area', '4006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17417', '柳河县', '4005.5', 'area', '4006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17416', '辉南县', '4005.4', 'area', '4005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17415', '通化县', '4005.3', 'area', '4005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17414', '二道江区', '4005.2', 'area', '4005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17413', '东昌区', '4005.1', 'area', '4005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17412', '通化市', '4005', 'area', '4005', '1');
-INSERT INTO `web_cascadedata` VALUES ('17411', '东辽县', '4004.4', 'area', '4004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17410', '东丰县', '4004.3', 'area', '4004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17409', '西安区', '4004.2', 'area', '4004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17408', '龙山区', '4004.1', 'area', '4004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17407', '辽源市', '4004', 'area', '4004', '1');
-INSERT INTO `web_cascadedata` VALUES ('17406', '双辽市', '4003.6', 'area', '4004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17405', '公主岭市', '4003.5', 'area', '4004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17404', '伊通满族自治县', '4003.4', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17403', '梨树县', '4003.3', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17402', '铁东区', '4003.2', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17401', '铁西区', '4003.1', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17400', '四平市', '4003', 'area', '4003', '1');
-INSERT INTO `web_cascadedata` VALUES ('17399', '磐石市', '4002.9', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17398', '舒兰市', '4002.8', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17397', '桦甸市', '4002.7', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17396', '蛟河市', '4002.6', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17395', '永吉县', '4002.5', 'area', '4003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17394', '丰满区', '4002.4', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17393', '船营区', '4002.3', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17392', '龙潭区', '4002.2', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17391', '昌邑区', '4002.1', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17390', '吉林市', '4002', 'area', '4002', '1');
-INSERT INTO `web_cascadedata` VALUES ('17389', '德惠市', '4001.10', 'area', '4001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17388', '榆树市', '4001.9', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17387', '九台市', '4001.8', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17386', '农安县', '4001.7', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17385', '双阳区', '4001.6', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17384', '绿园区', '4001.5', 'area', '4002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17383', '二道区', '4001.4', 'area', '4001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17382', '朝阳区', '4001.3', 'area', '4001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17381', '宽城区', '4001.2', 'area', '4001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17380', '南关区', '4001.1', 'area', '4001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17379', '长春市', '4001', 'area', '4001', '1');
-INSERT INTO `web_cascadedata` VALUES ('17378', '吉林省', '4000', 'area', '4000', '0');
-INSERT INTO `web_cascadedata` VALUES ('17377', '兴城市', '3514.6', 'area', '3515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17376', '建昌县', '3514.5', 'area', '3515', '2');
-INSERT INTO `web_cascadedata` VALUES ('17375', '绥中县', '3514.4', 'area', '3514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17374', '南票区', '3514.3', 'area', '3514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17373', '龙港区', '3514.2', 'area', '3514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17372', '连山区', '3514.1', 'area', '3514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17371', '葫芦岛市', '3514', 'area', '3514', '1');
-INSERT INTO `web_cascadedata` VALUES ('17370', '凌源市', '3513.7', 'area', '3514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17369', '北票市', '3513.6', 'area', '3514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17368', '喀喇沁左翼蒙古族自治县', '3513.5', 'area', '3514', '2');
-INSERT INTO `web_cascadedata` VALUES ('17367', '建平县', '3513.4', 'area', '3513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17366', '朝阳县', '3513.3', 'area', '3513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17365', '龙城区', '3513.2', 'area', '3513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17364', '双塔区', '3513.1', 'area', '3513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17363', '朝阳市', '3513', 'area', '3513', '1');
-INSERT INTO `web_cascadedata` VALUES ('17362', '开原市', '3512.7', 'area', '3513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17361', '调兵山市', '3512.6', 'area', '3513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17360', '昌图县', '3512.5', 'area', '3513', '2');
-INSERT INTO `web_cascadedata` VALUES ('17359', '西丰县', '3512.4', 'area', '3512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17358', '铁岭县', '3512.3', 'area', '3512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17357', '清河区', '3512.2', 'area', '3512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17356', '银州区', '3512.1', 'area', '3512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17355', '铁岭市', '3512', 'area', '3512', '1');
-INSERT INTO `web_cascadedata` VALUES ('17354', '盘山县', '3511.4', 'area', '3511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17353', '大洼县', '3511.3', 'area', '3511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17352', '兴隆台区', '3511.2', 'area', '3511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17351', '双台子区', '3511.1', 'area', '3511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17350', '盘锦市', '3511', 'area', '3511', '1');
-INSERT INTO `web_cascadedata` VALUES ('17349', '灯塔市', '3510.7', 'area', '3511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17348', '辽阳县', '3510.6', 'area', '3511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17347', '太子河区', '3510.5', 'area', '3511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17346', '弓长岭区', '3510.4', 'area', '3510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17345', '宏伟区', '3510.3', 'area', '3510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17344', '文圣区', '3510.2', 'area', '3510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17343', '白塔区', '3510.1', 'area', '3510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17342', '辽阳市', '3510', 'area', '3510', '1');
-INSERT INTO `web_cascadedata` VALUES ('17341', '彰武县', '3509.7', 'area', '3510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17340', '阜新蒙古族自治县', '3509.6', 'area', '3510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17339', '细河区', '3509.5', 'area', '3510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17338', '清河门区', '3509.4', 'area', '3509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17337', '太平区', '3509.3', 'area', '3509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17336', '新邱区', '3509.2', 'area', '3509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17335', '海州区', '3509.1', 'area', '3509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17334', '阜新市', '3509', 'area', '3509', '1');
-INSERT INTO `web_cascadedata` VALUES ('17333', '大石桥市', '3508.6', 'area', '3509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17332', '盖州市', '3508.5', 'area', '3509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17331', '老边区', '3508.4', 'area', '3508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17330', '鲅鱼圈区', '3508.3', 'area', '3508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17329', '西市区', '3508.2', 'area', '3508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17328', '站前区', '3508.1', 'area', '3508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17327', '营口市', '3508', 'area', '3508', '1');
-INSERT INTO `web_cascadedata` VALUES ('17326', '北宁市', '3507.7', 'area', '3508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17325', '凌海市', '3507.6', 'area', '3508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17324', '义　县', '3507.5', 'area', '3508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17323', '黑山县', '3507.4', 'area', '3507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17322', '太和区', '3507.3', 'area', '3507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17321', '凌河区', '3507.2', 'area', '3507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17320', '古塔区', '3507.1', 'area', '3507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17319', '锦州市', '3507', 'area', '3507', '1');
-INSERT INTO `web_cascadedata` VALUES ('17318', '凤城市', '3506.6', 'area', '3507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17317', '东港市', '3506.5', 'area', '3507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17316', '宽甸满族自治县', '3506.4', 'area', '3506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17315', '振安区', '3506.3', 'area', '3506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17314', '振兴区', '3506.2', 'area', '3506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17313', '元宝区', '3506.1', 'area', '3506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17312', '丹东市', '3506', 'area', '3506', '1');
-INSERT INTO `web_cascadedata` VALUES ('17311', '桓仁满族自治县', '3505.6', 'area', '3506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17310', '本溪满族自治县', '3505.5', 'area', '3506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17309', '南芬区', '3505.4', 'area', '3505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17308', '明山区', '3505.3', 'area', '3505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17307', '溪湖区', '3505.2', 'area', '3505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17306', '平山区', '3505.1', 'area', '3505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17305', '本溪市', '3505', 'area', '3505', '1');
-INSERT INTO `web_cascadedata` VALUES ('17304', '清原满族自治县', '3504.7', 'area', '3505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17303', '新宾满族自治县', '3504.6', 'area', '3505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17302', '抚顺县', '3504.5', 'area', '3505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17301', '顺城区', '3504.4', 'area', '3504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17300', '望花区', '3504.3', 'area', '3504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17299', '东洲区', '3504.2', 'area', '3504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17298', '新抚区', '3504.1', 'area', '3504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17297', '抚顺市', '3504', 'area', '3504', '1');
-INSERT INTO `web_cascadedata` VALUES ('17296', '海城市', '3503.7', 'area', '3504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17295', '岫岩满族自治县', '3503.6', 'area', '3504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17294', '台安县', '3503.5', 'area', '3504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17293', '千山区', '3503.4', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17292', '立山区', '3503.3', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17291', '铁西区', '3503.2', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17290', '铁东区', '3503.1', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17289', '鞍山市', '3503', 'area', '3503', '1');
-INSERT INTO `web_cascadedata` VALUES ('17288', '庄河市', '3502.10', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17287', '普兰店市', '3502.9', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17286', '瓦房店市', '3502.8', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17285', '长海县', '3502.7', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17284', '金州区', '3502.6', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17283', '旅顺口区', '3502.5', 'area', '3503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17282', '甘井子区', '3502.4', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17281', '沙河口区', '3502.3', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17280', '西岗区', '3502.2', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17279', '中山区', '3502.1', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17278', '大连市', '3502', 'area', '3502', '1');
-INSERT INTO `web_cascadedata` VALUES ('17277', '新民市', '3501.13', 'area', '3501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17276', '法库县', '3501.12', 'area', '3501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17275', '康平县', '3501.11', 'area', '3501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17274', '辽中县', '3501.10', 'area', '3501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17273', '于洪区', '3501.9', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17272', '新城子区', '3501.8', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17271', '东陵区', '3501.7', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17270', '苏家屯区', '3501.6', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17269', '铁西区', '3501.5', 'area', '3502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17268', '皇姑区', '3501.4', 'area', '3501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17267', '大东区', '3501.3', 'area', '3501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17266', '沈河区', '3501.2', 'area', '3501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17265', '和平区', '3501.1', 'area', '3501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17264', '沈阳市', '3501', 'area', '3501', '1');
-INSERT INTO `web_cascadedata` VALUES ('17263', '辽宁省', '3500', 'area', '3500', '0');
-INSERT INTO `web_cascadedata` VALUES ('17262', '额济纳旗', '3012.3', 'area', '3012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17261', '阿拉善右旗', '3012.2', 'area', '3012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17260', '阿拉善左旗', '3012.1', 'area', '3012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17259', '阿拉善盟', '3012', 'area', '3012', '1');
-INSERT INTO `web_cascadedata` VALUES ('17258', '多伦县', '3011.12', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17257', '正蓝旗', '3011.11', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17256', '正镶白旗', '3011.10', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17255', '镶黄旗', '3011.9', 'area', '3012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17254', '太仆寺旗', '3011.8', 'area', '3012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17253', '西乌珠穆沁旗', '3011.7', 'area', '3012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17252', '东乌珠穆沁旗', '3011.6', 'area', '3012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17251', '苏尼特右旗', '3011.5', 'area', '3012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17250', '苏尼特左旗', '3011.4', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17249', '阿巴嘎旗', '3011.3', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17248', '锡林浩特市', '3011.2', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17247', '二连浩特市', '3011.1', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17246', '锡林郭勒盟', '3011', 'area', '3011', '1');
-INSERT INTO `web_cascadedata` VALUES ('17245', '突泉县', '3010.6', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17244', '扎赉特旗', '3010.5', 'area', '3011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17243', '科尔沁右翼中旗', '3010.4', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17242', '科尔沁右翼前旗', '3010.3', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17241', '阿尔山市', '3010.2', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17240', '乌兰浩特市', '3010.1', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17239', '兴安盟', '3010', 'area', '3010', '1');
-INSERT INTO `web_cascadedata` VALUES ('17238', '丰镇市', '3009.11', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17237', '四子王旗', '3009.10', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17236', '察哈尔右翼后旗', '3009.9', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17235', '察哈尔右翼中旗', '3009.8', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17234', '察哈尔右翼前旗', '3009.7', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17233', '凉城县', '3009.6', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17232', '兴和县', '3009.5', 'area', '3010', '2');
-INSERT INTO `web_cascadedata` VALUES ('17231', '商都县', '3009.4', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17230', '化德县', '3009.3', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17229', '卓资县', '3009.2', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17228', '集宁区', '3009.1', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17227', '乌兰察布市', '3009', 'area', '3009', '1');
-INSERT INTO `web_cascadedata` VALUES ('17226', '杭锦后旗', '3008.7', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17225', '乌拉特后旗', '3008.6', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17224', '乌拉特中旗', '3008.5', 'area', '3009', '2');
-INSERT INTO `web_cascadedata` VALUES ('17223', '乌拉特前旗', '3008.4', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17222', '磴口县', '3008.3', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17221', '五原县', '3008.2', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17220', '临河区', '3008.1', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17219', '巴彦淖尔市', '3008', 'area', '3008', '1');
-INSERT INTO `web_cascadedata` VALUES ('17218', '根河市', '3007.13', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17217', '额尔古纳市', '3007.12', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17216', '扎兰屯市', '3007.11', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17215', '牙克石市', '3007.10', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17214', '满洲里市', '3007.9', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17213', '新巴尔虎右旗', '3007.8', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17212', '新巴尔虎左旗', '3007.7', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17211', '陈巴尔虎旗', '3007.6', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17210', '鄂温克族自治旗', '3007.5', 'area', '3008', '2');
-INSERT INTO `web_cascadedata` VALUES ('17209', '鄂伦春自治旗', '3007.4', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17208', '莫力达瓦达斡尔族自治旗', '3007.3', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17207', '阿荣旗', '3007.2', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17206', '海拉尔区', '3007.1', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17205', '呼伦贝尔市', '3007', 'area', '3007', '1');
-INSERT INTO `web_cascadedata` VALUES ('17204', '伊金霍洛旗', '3006.8', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17203', '乌审旗', '3006.7', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17202', '杭锦旗', '3006.6', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17201', '鄂托克旗', '3006.5', 'area', '3007', '2');
-INSERT INTO `web_cascadedata` VALUES ('17200', '鄂托克前旗', '3006.4', 'area', '3006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17199', '准格尔旗', '3006.3', 'area', '3006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17198', '达拉特旗', '3006.2', 'area', '3006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17197', '东胜区', '3006.1', 'area', '3006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17196', '鄂尔多斯市', '3006', 'area', '3006', '1');
-INSERT INTO `web_cascadedata` VALUES ('17195', '霍林郭勒市', '3005.8', 'area', '3006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17194', '扎鲁特旗', '3005.7', 'area', '3006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17193', '奈曼旗', '3005.6', 'area', '3006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17192', '库伦旗', '3005.5', 'area', '3006', '2');
-INSERT INTO `web_cascadedata` VALUES ('17191', '开鲁县', '3005.4', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17190', '科尔沁左翼后旗', '3005.3', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17189', '科尔沁左翼中旗', '3005.2', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17188', '科尔沁区', '3005.1', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17187', '通辽市', '3005', 'area', '3005', '1');
-INSERT INTO `web_cascadedata` VALUES ('17186', '敖汉旗', '3004.12', 'area', '3004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17185', '宁城县', '3004.11', 'area', '3004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17184', '喀喇沁旗', '3004.10', 'area', '3004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17183', '翁牛特旗', '3004.9', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17182', '克什克腾旗', '3004.8', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17181', '林西县', '3004.7', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17180', '巴林右旗', '3004.6', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17179', '巴林左旗', '3004.5', 'area', '3005', '2');
-INSERT INTO `web_cascadedata` VALUES ('17178', '阿鲁科尔沁旗', '3004.4', 'area', '3004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17177', '松山区', '3004.3', 'area', '3004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17176', '元宝山区', '3004.2', 'area', '3004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17175', '红山区', '3004.1', 'area', '3004', '2');
-INSERT INTO `web_cascadedata` VALUES ('17174', '赤峰市', '3004', 'area', '3004', '1');
-INSERT INTO `web_cascadedata` VALUES ('17173', '乌达区', '3003.3', 'area', '3003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17172', '海南区', '3003.2', 'area', '3003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17171', '海勃湾区', '3003.1', 'area', '3003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17170', '乌海市', '3003', 'area', '3003', '1');
-INSERT INTO `web_cascadedata` VALUES ('17169', '达尔罕茂明安联合旗', '3002.9', 'area', '3003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17168', '固阳县', '3002.8', 'area', '3003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17167', '土默特右旗', '3002.7', 'area', '3003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17166', '九原区', '3002.6', 'area', '3003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17165', '白云矿区', '3002.5', 'area', '3003', '2');
-INSERT INTO `web_cascadedata` VALUES ('17164', '石拐区', '3002.4', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17163', '青山区', '3002.3', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17162', '昆都仑区', '3002.2', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17161', '东河区', '3002.1', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17160', '包头市', '3002', 'area', '3002', '1');
-INSERT INTO `web_cascadedata` VALUES ('17159', '武川县', '3001.9', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17158', '清水河县', '3001.8', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17157', '和林格尔县', '3001.7', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17156', '托克托县', '3001.6', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17155', '土默特左旗', '3001.5', 'area', '3002', '2');
-INSERT INTO `web_cascadedata` VALUES ('17154', '赛罕区', '3001.4', 'area', '3001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17153', '玉泉区', '3001.3', 'area', '3001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17152', '回民区', '3001.2', 'area', '3001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17151', '新城区', '3001.1', 'area', '3001', '2');
-INSERT INTO `web_cascadedata` VALUES ('17150', '呼和浩特市', '3001', 'area', '3001', '1');
-INSERT INTO `web_cascadedata` VALUES ('17149', '内蒙古自治区', '3000', 'area', '3000', '0');
-INSERT INTO `web_cascadedata` VALUES ('17148', '汾阳市', '2511.13', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17147', '孝义市', '2511.12', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17146', '交口县', '2511.11', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17145', '中阳县', '2511.10', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17144', '方山县', '2511.9', 'area', '2512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17143', '岚　县', '2511.8', 'area', '2512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17142', '石楼县', '2511.7', 'area', '2512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17141', '柳林县', '2511.6', 'area', '2512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17140', '临　县', '2511.5', 'area', '2512', '2');
-INSERT INTO `web_cascadedata` VALUES ('17139', '兴　县', '2511.4', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17138', '交城县', '2511.3', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17137', '文水县', '2511.2', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17136', '离石区', '2511.1', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17135', '吕梁市', '2511', 'area', '2511', '1');
-INSERT INTO `web_cascadedata` VALUES ('17134', '霍州市', '2510.17', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17133', '侯马市', '2510.16', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17132', '汾西县', '2510.15', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17131', '蒲　县', '2510.14', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17130', '永和县', '2510.13', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17129', '隰　县', '2510.12', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17128', '大宁县', '2510.11', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17127', '乡宁县', '2510.10', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17126', '吉　县', '2510.9', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17125', '浮山县', '2510.8', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17124', '安泽县', '2510.7', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17123', '古　县', '2510.6', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17122', '洪洞县', '2510.5', 'area', '2511', '2');
-INSERT INTO `web_cascadedata` VALUES ('17121', '襄汾县', '2510.4', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17120', '翼城县', '2510.3', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17119', '曲沃县', '2510.2', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17118', '尧都区', '2510.1', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17117', '临汾市', '2510', 'area', '2510', '1');
-INSERT INTO `web_cascadedata` VALUES ('17116', '原平市', '2509.14', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17115', '偏关县', '2509.13', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17114', '保德县', '2509.12', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17113', '河曲县', '2509.11', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17112', '岢岚县', '2509.10', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17111', '五寨县', '2509.9', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17110', '神池县', '2509.8', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17109', '静乐县', '2509.7', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17108', '宁武县', '2509.6', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17107', '繁峙县', '2509.5', 'area', '2510', '2');
-INSERT INTO `web_cascadedata` VALUES ('17106', '代　县', '2509.4', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17105', '五台县', '2509.3', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17104', '定襄县', '2509.2', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17103', '忻府区', '2509.1', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17102', '忻州市', '2509', 'area', '2509', '1');
-INSERT INTO `web_cascadedata` VALUES ('17101', '河津市', '2508.13', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17100', '永济市', '2508.12', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17099', '芮城县', '2508.11', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17098', '平陆县', '2508.10', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17097', '夏　县', '2508.9', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17096', '垣曲县', '2508.8', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17095', '绛　县', '2508.7', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17094', '新绛县', '2508.6', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17093', '稷山县', '2508.5', 'area', '2509', '2');
-INSERT INTO `web_cascadedata` VALUES ('17092', '闻喜县', '2508.4', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17091', '万荣县', '2508.3', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17090', '临猗县', '2508.2', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17089', '盐湖区', '2508.1', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17088', '运城市', '2508', 'area', '2508', '1');
-INSERT INTO `web_cascadedata` VALUES ('17087', '介休市', '2507.11', 'area', '2507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17086', '灵石县', '2507.10', 'area', '2507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17085', '平遥县', '2507.9', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17084', '祁　县', '2507.8', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17083', '太谷县', '2507.7', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17082', '寿阳县', '2507.6', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17081', '昔阳县', '2507.5', 'area', '2508', '2');
-INSERT INTO `web_cascadedata` VALUES ('17080', '和顺县', '2507.4', 'area', '2507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17079', '左权县', '2507.3', 'area', '2507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17078', '榆社县', '2507.2', 'area', '2507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17077', '榆次区', '2507.1', 'area', '2507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17076', '晋中市', '2507', 'area', '2507', '1');
-INSERT INTO `web_cascadedata` VALUES ('17075', '怀仁县', '2506.6', 'area', '2507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17074', '右玉县', '2506.5', 'area', '2507', '2');
-INSERT INTO `web_cascadedata` VALUES ('17073', '应　县', '2506.4', 'area', '2506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17072', '山阴县', '2506.3', 'area', '2506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17071', '平鲁区', '2506.2', 'area', '2506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17070', '朔城区', '2506.1', 'area', '2506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17069', '朔州市', '2506', 'area', '2506', '1');
-INSERT INTO `web_cascadedata` VALUES ('17068', '高平市', '2505.6', 'area', '2506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17067', '泽州县', '2505.5', 'area', '2506', '2');
-INSERT INTO `web_cascadedata` VALUES ('17066', '陵川县', '2505.4', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17065', '阳城县', '2505.3', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17064', '沁水县', '2505.2', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17063', '城　区', '2505.1', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17062', '晋城市', '2505', 'area', '2505', '1');
-INSERT INTO `web_cascadedata` VALUES ('17061', '潞城市', '2504.13', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17060', '沁源县', '2504.12', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17059', '沁　县', '2504.11', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17058', '武乡县', '2504.10', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17057', '长子县', '2504.9', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17056', '壶关县', '2504.8', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17055', '黎城县', '2504.7', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17054', '平顺县', '2504.6', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17053', '屯留县', '2504.5', 'area', '2505', '2');
-INSERT INTO `web_cascadedata` VALUES ('17052', '襄垣县', '2504.4', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17051', '长治县', '2504.3', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17050', '郊　区', '2504.2', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17049', '城　区', '2504.1', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17048', '长治市', '2504', 'area', '2504', '1');
-INSERT INTO `web_cascadedata` VALUES ('17047', '盂　县', '2503.5', 'area', '2504', '2');
-INSERT INTO `web_cascadedata` VALUES ('17046', '平定县', '2503.4', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17045', '郊　区', '2503.3', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17044', '矿　区', '2503.2', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17043', '城　区', '2503.1', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17042', '阳泉市', '2503', 'area', '2503', '1');
-INSERT INTO `web_cascadedata` VALUES ('17041', '南郊区', '2502.12', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17040', '矿　区', '2502.11', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17039', '城　区', '2502.10', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17038', '大同县', '2502.9', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17037', '左云县', '2502.8', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17036', '浑源县', '2502.7', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17035', '灵丘县', '2502.6', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17034', '广灵县', '2502.5', 'area', '2503', '2');
-INSERT INTO `web_cascadedata` VALUES ('17033', '天镇县', '2502.4', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17032', '阳高县', '2502.3', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17031', '新荣区', '2502.2', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17030', '南郊区', '2502.1', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17029', '大同市', '2502', 'area', '2502', '1');
-INSERT INTO `web_cascadedata` VALUES ('17028', '古交市', '2501.10', 'area', '2501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17027', '娄烦县', '2501.9', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17026', '阳曲县', '2501.8', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17025', '清徐县', '2501.7', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17024', '晋源区', '2501.6', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17023', '万柏林区', '2501.5', 'area', '2502', '2');
-INSERT INTO `web_cascadedata` VALUES ('17022', '尖草坪区', '2501.4', 'area', '2501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17021', '杏花岭区', '2501.3', 'area', '2501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17020', '迎泽区', '2501.2', 'area', '2501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17019', '小店区', '2501.1', 'area', '2501', '2');
-INSERT INTO `web_cascadedata` VALUES ('17018', '太原市', '2501', 'area', '2501', '1');
-INSERT INTO `web_cascadedata` VALUES ('17017', '山西省', '2500', 'area', '2500', '0');
-INSERT INTO `web_cascadedata` VALUES ('17016', '河间市', '2011.16', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17015', '黄骅市', '2011.15', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17014', '任丘市', '2011.14', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17013', '泊头市', '2011.13', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17012', '孟村回族自治县', '2011.12', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17011', '献　县', '2011.11', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17010', '吴桥县', '2011.10', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17009', '南皮县', '2011.9', 'area', '2012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17008', '肃宁县', '2011.8', 'area', '2012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17007', '盐山县', '2011.7', 'area', '2012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17006', '海兴县', '2011.6', 'area', '2012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17005', '东光县', '2011.5', 'area', '2012', '2');
-INSERT INTO `web_cascadedata` VALUES ('17004', '青　县', '2011.4', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17003', '沧　县', '2011.3', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17002', '运河区', '2011.2', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17001', '新华区', '2011.1', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('17000', '沧州市', '2011', 'area', '2011', '1');
-INSERT INTO `web_cascadedata` VALUES ('16999', '深州市', '2010.11', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16998', '冀州市', '2010.10', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16997', '阜城县', '2010.9', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('16996', '景　县', '2010.8', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('16995', '故城县', '2010.7', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('16994', '安平县', '2010.6', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('16993', '饶阳县', '2010.5', 'area', '2011', '2');
-INSERT INTO `web_cascadedata` VALUES ('16992', '武强县', '2010.4', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16991', '武邑县', '2010.3', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16990', '枣强县', '2010.2', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16989', '桃城区', '2010.1', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16988', '衡水市', '2010', 'area', '2010', '1');
-INSERT INTO `web_cascadedata` VALUES ('16987', '三河市', '2009.10', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16986', '霸州市', '2009.9', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16985', '大厂回族自治县', '2009.8', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16984', '文安县', '2009.7', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16983', '大城县', '2009.6', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16982', '香河县', '2009.5', 'area', '2010', '2');
-INSERT INTO `web_cascadedata` VALUES ('16981', '永清县', '2009.4', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16980', '固安县', '2009.3', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16979', '广阳区', '2009.2', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16978', '安次区', '2009.1', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16977', '廊坊市', '2009', 'area', '2009', '1');
-INSERT INTO `web_cascadedata` VALUES ('16976', ' 围场满族蒙古族自治县', '2008.11', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16975', '宽城满族自治', '2008.10', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16974', '丰宁满族自治县', '2008.9', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16973', '隆化县', '2008.8', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16972', '滦平县', '2008.7', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16971', '平泉县', '2008.6', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16970', '兴隆县', '2008.5', 'area', '2009', '2');
-INSERT INTO `web_cascadedata` VALUES ('16969', '承德县', '2008.4', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16968', '鹰手营子矿区', '2008.3', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16967', '双滦区', '2008.2', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16966', '双桥区', '2008.1', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16965', '承德市', '2008', 'area', '2008', '1');
-INSERT INTO `web_cascadedata` VALUES ('16964', '崇礼县', '2007.17', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16963', '赤城县', '2007.16', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16962', '涿鹿县', '2007.15', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16961', '怀来县', '2007.14', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16960', '万全县', '2007.13', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16959', '怀安县', '2007.12', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16958', '阳原县', '2007.11', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16957', '蔚　县', '2007.10', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16956', '尚义县', '2007.9', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16955', '沽源县', '2007.8', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16954', '康保县', '2007.7', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16953', '张北县', '2007.6', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16952', '宣化县', '2007.5', 'area', '2008', '2');
-INSERT INTO `web_cascadedata` VALUES ('16951', '下花园区', '2007.4', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16950', '宣化区', '2007.3', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16949', '桥西区', '2007.2', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16948', '桥东区', '2007.1', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16947', '张家口市', '2007', 'area', '2007', '1');
-INSERT INTO `web_cascadedata` VALUES ('16946', '高碑店市', '2006.25', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16945', '安国市', '2006.24', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16944', '定州市', '2006.23', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16943', '涿州市', '2006.22', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16942', '雄　县', '2006.21', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16941', '博野县', '2006.20', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16940', '顺平县', '2006.19', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16939', '蠡　县', '2006.18', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16938', '曲阳县', '2006.17', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16937', '易县', '2006.16', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16936', '安新县', '2006.15', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16935', '望都县', '2006.14', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16934', '涞源县', '2006.13', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16933', '容城县', '2006.12', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16932', '高阳县', '2006.11', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16931', '唐　县', '2006.10', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16930', '定兴县', '2006.9', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16929', '徐水县', '2006.8', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16928', '阜平县', '2006.7', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16927', '涞水县', '2006.6', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16926', '清苑县', '2006.5', 'area', '2007', '2');
-INSERT INTO `web_cascadedata` VALUES ('16925', '满城县', '2006.4', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16924', '南市区', '2006.3', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16923', '北市区', '2006.2', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16922', '新市区', '2006.1', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16921', '保定市', '2006', 'area', '2006', '1');
-INSERT INTO `web_cascadedata` VALUES ('16920', '沙河市', '2005.19', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16919', '南宫市', '2005.18', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16918', '临西县', '2005.17', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16917', '清河县', '2005.16', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16916', '威　县', '2005.15', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16915', '平乡县', '2005.14', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16914', '广宗县', '2005.13', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16913', '新河县', '2005.12', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16912', '巨鹿县', '2005.11', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16911', '宁晋县', '2005.10', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16910', '南和县', '2005.9', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16909', '任　县', '2005.8', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16908', '隆尧县', '2005.7', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16907', '柏乡县', '2005.6', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16906', '内丘县', '2005.5', 'area', '2006', '2');
-INSERT INTO `web_cascadedata` VALUES ('16905', '临城县', '2005.4', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16904', '邢台县', '2005.3', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16903', '桥西区', '2005.2', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16902', '桥东区', '2005.1', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16901', '邢台市', '2005', 'area', '2005', '1');
-INSERT INTO `web_cascadedata` VALUES ('16900', '武安市', '2004.20', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16899', '曲周县', '2004.19', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16898', '魏县', '2004.18', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16897', '馆陶县', '2004.17', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16896', '广平县', '2004.16', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16895', '鸡泽县', '2004.15', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16894', '邱　县', '2004.14', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16893', '永年县', '2004.13', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16892', '肥乡县', '2004.12', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16891', '磁　县', '2004.11', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16890', '涉　县', '2004.10', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16889', '大名县', '2004.9', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16888', '成安县', '2004.8', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16887', '临漳县', '2004.7', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16886', '邯郸县', '2004.6', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16885', '峰峰矿区', '2004.5', 'area', '2005', '2');
-INSERT INTO `web_cascadedata` VALUES ('16884', '复兴区', '2004.4', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16883', '丛台区', '2004.3', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16882', '邯山区', '2004.2', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16881', '市辖区', '2004.1', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16880', '邯郸市', '2004', 'area', '2004', '1');
-INSERT INTO `web_cascadedata` VALUES ('16879', '卢龙县', '2003.7', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16878', '抚宁县', '2003.6', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16877', '昌黎县', '2003.5', 'area', '2004', '2');
-INSERT INTO `web_cascadedata` VALUES ('16876', '青龙满族自治县', '2003.4', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16875', '北戴河区', '2003.3', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16874', '山海关区', '2003.2', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16873', '海港区', '2003.1', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16872', '秦皇岛市', '2003', 'area', '2003', '1');
-INSERT INTO `web_cascadedata` VALUES ('16871', '迁安市', '2002.14', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16870', '遵化市', '2002.13', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16869', '唐海县', '2002.12', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16868', '玉田县', '2002.11', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16867', '迁西县', '2002.10', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16866', '乐亭县', '2002.9', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16865', '滦南县', '2002.8', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16864', '滦　县', '2002.7', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16863', '丰润区', '2002.6', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16862', '丰南区', '2002.5', 'area', '2003', '2');
-INSERT INTO `web_cascadedata` VALUES ('16861', '开平区', '2002.4', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16860', '古冶区', '2002.3', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16859', '路北区', '2002.2', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16858', '路南区', '2002.1', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16857', '唐山市', '2002', 'area', '2002', '1');
-INSERT INTO `web_cascadedata` VALUES ('16856', '鹿泉市', '2001.23', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16855', '新乐市', '2001.22', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16854', '晋州市', '2001.21', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16853', '藁城市', '2001.20', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16852', '辛集市', '2001.19', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16851', '赵　县', '2001.18', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16850', '元氏县', '2001.17', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16849', '平山县', '2001.16', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16848', '无极县', '2001.15', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16847', '赞皇县', '2001.14', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16846', '深泽县', '2001.13', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16845', '高邑县', '2001.12', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16844', '灵寿县', '2001.11', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16843', '行唐县', '2001.10', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16842', '栾城县', '2001.9', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16841', '正定县', '2001.8', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16840', '井陉县', '2001.7', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16839', '裕华区', '2001.6', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16838', '井陉矿区', '2001.5', 'area', '2002', '2');
-INSERT INTO `web_cascadedata` VALUES ('16837', '新华区', '2001.4', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16836', '桥西区', '2001.3', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16835', '桥东区', '2001.2', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16834', '长安区', '2001.1', 'area', '2001', '2');
-INSERT INTO `web_cascadedata` VALUES ('16833', '石家庄市', '2001', 'area', '2001', '1');
-INSERT INTO `web_cascadedata` VALUES ('16832', '河北省', '2000', 'area', '2000', '0');
-INSERT INTO `web_cascadedata` VALUES ('16831', '蓟　县', '1518', 'area', '1518', '1');
-INSERT INTO `web_cascadedata` VALUES ('16830', '静海县', '1517', 'area', '1517', '1');
-INSERT INTO `web_cascadedata` VALUES ('16829', '宁河县', '1516', 'area', '1516', '1');
-INSERT INTO `web_cascadedata` VALUES ('16828', '宝坻区', '1515', 'area', '1515', '1');
-INSERT INTO `web_cascadedata` VALUES ('16827', '武清区', '1514', 'area', '1514', '1');
-INSERT INTO `web_cascadedata` VALUES ('16826', '北辰区', '1513', 'area', '1513', '1');
-INSERT INTO `web_cascadedata` VALUES ('16825', '津南区', '1512', 'area', '1512', '1');
-INSERT INTO `web_cascadedata` VALUES ('16824', '西青区', '1511', 'area', '1511', '1');
-INSERT INTO `web_cascadedata` VALUES ('16823', '东丽区', '1510', 'area', '1510', '1');
-INSERT INTO `web_cascadedata` VALUES ('16822', '大港区', '1509', 'area', '1509', '1');
-INSERT INTO `web_cascadedata` VALUES ('16821', '汉沽区', '1508', 'area', '1508', '1');
-INSERT INTO `web_cascadedata` VALUES ('16820', '塘沽区', '1507', 'area', '1507', '1');
-INSERT INTO `web_cascadedata` VALUES ('16819', '红桥区', '1506', 'area', '1506', '1');
-INSERT INTO `web_cascadedata` VALUES ('16818', '河北区', '1505', 'area', '1505', '1');
-INSERT INTO `web_cascadedata` VALUES ('16817', '南开区', '1504', 'area', '1504', '1');
-INSERT INTO `web_cascadedata` VALUES ('16816', '河西区', '1503', 'area', '1503', '1');
-INSERT INTO `web_cascadedata` VALUES ('16815', '河东区', '1502', 'area', '1502', '1');
-INSERT INTO `web_cascadedata` VALUES ('16814', '和平区', '1501', 'area', '1501', '1');
-INSERT INTO `web_cascadedata` VALUES ('16813', '天津市', '1500', 'area', '1500', '0');
-INSERT INTO `web_cascadedata` VALUES ('16812', '延庆县', '1018', 'area', '1018', '1');
-INSERT INTO `web_cascadedata` VALUES ('16811', '密云县', '1017', 'area', '1017', '1');
-INSERT INTO `web_cascadedata` VALUES ('16810', '平谷区', '1016', 'area', '1016', '1');
-INSERT INTO `web_cascadedata` VALUES ('16809', '怀柔区', '1015', 'area', '1015', '1');
-INSERT INTO `web_cascadedata` VALUES ('16808', '大兴区', '1014', 'area', '1014', '1');
-INSERT INTO `web_cascadedata` VALUES ('16807', '昌平区', '1013', 'area', '1013', '1');
-INSERT INTO `web_cascadedata` VALUES ('16806', '顺义区', '1012', 'area', '1012', '1');
-INSERT INTO `web_cascadedata` VALUES ('16805', '通州区', '1011', 'area', '1011', '1');
-INSERT INTO `web_cascadedata` VALUES ('16804', '房山区', '1010', 'area', '1010', '1');
-INSERT INTO `web_cascadedata` VALUES ('16803', '门头沟区', '1009', 'area', '1009', '1');
-INSERT INTO `web_cascadedata` VALUES ('16802', '海淀区', '1008', 'area', '1008', '1');
-INSERT INTO `web_cascadedata` VALUES ('16801', '石景山区', '1007', 'area', '1007', '1');
-INSERT INTO `web_cascadedata` VALUES ('16800', '丰台区', '1006', 'area', '1006', '1');
-INSERT INTO `web_cascadedata` VALUES ('16799', '朝阳区', '1005', 'area', '1005', '1');
-INSERT INTO `web_cascadedata` VALUES ('16798', '宣武区', '1004', 'area', '1004', '1');
-INSERT INTO `web_cascadedata` VALUES ('16797', '崇文区', '1003', 'area', '1003', '1');
-INSERT INTO `web_cascadedata` VALUES ('16796', '西城区', '1002', 'area', '1002', '1');
-INSERT INTO `web_cascadedata` VALUES ('16795', '东城区', '1001', 'area', '1001', '1');
-INSERT INTO `web_cascadedata` VALUES ('16794', '北京市', '1000', 'area', '1000', '0');
-INSERT INTO `web_cascadedata` VALUES ('1', '白羊座', '1', 'astro', '1', '0');
-INSERT INTO `web_cascadedata` VALUES ('2', '金牛座', '2', 'astro', '2', '0');
-INSERT INTO `web_cascadedata` VALUES ('3', '双子座', '3', 'astro', '3', '0');
-INSERT INTO `web_cascadedata` VALUES ('4', '巨蟹座', '4', 'astro', '4', '0');
-INSERT INTO `web_cascadedata` VALUES ('5', '狮子座', '5', 'astro', '5', '0');
-INSERT INTO `web_cascadedata` VALUES ('6', '处女座', '6', 'astro', '6', '0');
-INSERT INTO `web_cascadedata` VALUES ('7', '天枰座', '7', 'astro', '7', '0');
-INSERT INTO `web_cascadedata` VALUES ('8', '天蝎座', '8', 'astro', '8', '0');
-INSERT INTO `web_cascadedata` VALUES ('9', '射手座', '9', 'astro', '9', '0');
-INSERT INTO `web_cascadedata` VALUES ('10', '摩羯座', '10', 'astro', '10', '0');
-INSERT INTO `web_cascadedata` VALUES ('11', '水瓶座', '11', 'astro', '11', '0');
-INSERT INTO `web_cascadedata` VALUES ('12', '双鱼座', '12', 'astro', '12', '0');
-INSERT INTO `web_cascadedata` VALUES ('13', 'A型', '1', 'bloodtype', '1', '0');
-INSERT INTO `web_cascadedata` VALUES ('14', 'B型', '2', 'bloodtype', '2', '0');
-INSERT INTO `web_cascadedata` VALUES ('15', 'O型', '3', 'bloodtype', '3', '0');
-INSERT INTO `web_cascadedata` VALUES ('16', 'AB型', '4', 'bloodtype', '4', '0');
-INSERT INTO `web_cascadedata` VALUES ('17', '其他', '5', 'bloodtype', '5', '0');
-INSERT INTO `web_cascadedata` VALUES ('18', '身份证', '1', 'cardtype', '1', '0');
-INSERT INTO `web_cascadedata` VALUES ('19', '护照', '2', 'cardtype', '2', '0');
-INSERT INTO `web_cascadedata` VALUES ('20', '驾驶证', '3', 'cardtype', '3', '0');
-INSERT INTO `web_cascadedata` VALUES ('21', '无安全提问', '0', 'question', '1', '0');
-INSERT INTO `web_cascadedata` VALUES ('22', '母亲的名字', '1', 'question', '2', '0');
-INSERT INTO `web_cascadedata` VALUES ('23', '爷爷的名字', '2', 'question', '3', '0');
-INSERT INTO `web_cascadedata` VALUES ('24', '父亲出生的城市', '3', 'question', '4', '0');
-INSERT INTO `web_cascadedata` VALUES ('25', '你其中一位老师的名字', '4', 'question', '5', '0');
-INSERT INTO `web_cascadedata` VALUES ('26', '你个人计算机的型号', '5', 'question', '6', '0');
-INSERT INTO `web_cascadedata` VALUES ('27', '你最喜欢的餐馆名称', '6', 'question', '7', '0');
-INSERT INTO `web_cascadedata` VALUES ('28', '驾驶执照最后四位数字', '7', 'question', '8', '0');
-INSERT INTO `web_cascadedata` VALUES ('29', 'IT信息技术', '1', 'trade', '1', '0');
-INSERT INTO `web_cascadedata` VALUES ('30', '金融', '2', 'trade', '2', '0');
-INSERT INTO `web_cascadedata` VALUES ('31', '互联网', '3', 'trade', '3', '0');
-INSERT INTO `web_cascadedata` VALUES ('32', '广告传媒', '4', 'trade', '4', '0');
-INSERT INTO `web_cascadedata` VALUES ('33', '贸易零售', '5', 'trade', '5', '0');
-INSERT INTO `web_cascadedata` VALUES ('34', '交通物流', '6', 'trade', '6', '0');
-INSERT INTO `web_cascadedata` VALUES ('35', '房地产', '7', 'trade', '7', '0');
-INSERT INTO `web_cascadedata` VALUES ('36', '旅游餐饮', '8', 'trade', '8', '0');
-INSERT INTO `web_cascadedata` VALUES ('37', '加工制造业', '9', 'trade', '9', '0');
-INSERT INTO `web_cascadedata` VALUES ('38', '石化采掘', '10', 'trade', '10', '0');
-INSERT INTO `web_cascadedata` VALUES ('39', '农林牧渔', '11', 'trade', '11', '0');
-INSERT INTO `web_cascadedata` VALUES ('40', '社会服务', '12', 'trade', '12', '0');
-INSERT INTO `web_cascadedata` VALUES ('41', '医药生物', '13', 'trade', '13', '0');
-INSERT INTO `web_cascadedata` VALUES ('42', '教育培训科研', '14', 'trade', '14', '0');
-
--- ----------------------------
--- Table structure for `web_diyfield`
--- ----------------------------
-DROP TABLE IF EXISTS `web_diyfield`;
-CREATE TABLE `web_diyfield` (
-  `id` smallint(6) unsigned NOT NULL AUTO_INCREMENT COMMENT '自定义字段id',
-  `infotype` tinyint(1) unsigned NOT NULL COMMENT '所属模型',
-  `catepriv` varchar(255) NOT NULL COMMENT '所属栏目',
-  `fieldname` varchar(30) NOT NULL COMMENT '字段名称',
-  `fieldtitle` varchar(30) NOT NULL COMMENT '字段标题',
-  `fielddesc` varchar(255) NOT NULL COMMENT '字段提示',
-  `fieldtype` varchar(30) NOT NULL COMMENT '字段类型',
-  `fieldlong` varchar(10) NOT NULL COMMENT '字段长度',
-  `fieldsel` varchar(255) NOT NULL COMMENT '字段选项值',
-  `fieldcheck` varchar(80) NOT NULL COMMENT '校验正则',
-  `fieldcback` varchar(30) NOT NULL COMMENT '未通过提示',
-  `orderid` smallint(6) NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_diyfield
--- ----------------------------
-INSERT INTO `web_diyfield` VALUES ('1', '2', '6,7,8,9', 'price', '产品价格', '', 'varchar', '20', '', '', '', '1', 'true');
-
--- ----------------------------
--- Table structure for `web_diymenu`
--- ----------------------------
-DROP TABLE IF EXISTS `web_diymenu`;
-CREATE TABLE `web_diymenu` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '自定义菜单id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属菜单id',
-  `classname` varchar(30) NOT NULL COMMENT '菜单项名称',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_diymenu
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_diymodel`
--- ----------------------------
-DROP TABLE IF EXISTS `web_diymodel`;
-CREATE TABLE `web_diymodel` (
-  `id` smallint(6) unsigned NOT NULL AUTO_INCREMENT COMMENT '自定义模型id',
-  `modeltitle` varchar(30) NOT NULL COMMENT '模型标题',
-  `modelname` varchar(30) NOT NULL COMMENT '模型名称',
-  `modeltbname` varchar(30) NOT NULL COMMENT '模型表名',
-  `defaultfield` varchar(80) NOT NULL COMMENT '预设栏目',
-  `orderid` smallint(6) NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_diymodel
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_failedlogin`
--- ----------------------------
-DROP TABLE IF EXISTS `web_failedlogin`;
-CREATE TABLE `web_failedlogin` (
-  `username` char(30) NOT NULL COMMENT '用户名',
-  `ip` char(15) NOT NULL COMMENT '登录IP',
-  `time` int(10) unsigned NOT NULL COMMENT '登录时间',
-  `num` tinyint(1) NOT NULL COMMENT '失败次数',
-  `isadmin` tinyint(1) NOT NULL COMMENT '是否是管理员',
-  PRIMARY KEY (`username`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_failedlogin
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_fragment`
--- ----------------------------
-DROP TABLE IF EXISTS `web_fragment`;
-CREATE TABLE `web_fragment` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '碎片数据id',
-  `title` varchar(30) NOT NULL COMMENT '碎片数据名称',
-  `picurl` varchar(80) NOT NULL COMMENT '碎片数据缩略图',
-  `linkurl` varchar(80) NOT NULL COMMENT '碎片数据连接',
-  `content` mediumtext NOT NULL COMMENT '碎片数据内容',
-  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_fragment
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_getmode`
--- ----------------------------
-DROP TABLE IF EXISTS `web_getmode`;
-CREATE TABLE `web_getmode` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '货到方式id',
-  `classname` varchar(30) NOT NULL COMMENT '货到方式名称',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_getmode
--- ----------------------------
-INSERT INTO `web_getmode` VALUES ('1', '送货上门', '1', 'true');
-INSERT INTO `web_getmode` VALUES ('2', '用户自取', '2', 'true');
-
--- ----------------------------
--- Table structure for `web_goods`
--- ----------------------------
-DROP TABLE IF EXISTS `web_goods`;
-CREATE TABLE `web_goods` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品id',
-  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属栏目父id',
-  `parentstr` varchar(80) NOT NULL COMMENT '所属栏目父id字符串',
-  `typeid` smallint(5) unsigned NOT NULL COMMENT '商品分类',
-  `typepid` smallint(5) unsigned NOT NULL COMMENT '商品分类父id',
-  `typepstr` varchar(80) NOT NULL COMMENT '商品分类父id字符串',
-  `brandid` smallint(5) NOT NULL COMMENT '商品品牌id',
-  `brandpid` smallint(5) NOT NULL COMMENT '品牌上级id',
-  `brandpstr` varchar(80) NOT NULL COMMENT '品牌上级id字符串',
-  `title` varchar(80) NOT NULL COMMENT '商品名称',
-  `colorval` char(10) NOT NULL COMMENT '标题颜色',
-  `boldval` char(10) NOT NULL COMMENT '标题加粗',
-  `flag` varchar(30) NOT NULL COMMENT '属性',
-  `goodsid` varchar(30) NOT NULL COMMENT '货号',
-  `payfreight` enum('0','1') NOT NULL COMMENT '运费承担',
-  `weight` varchar(10) NOT NULL COMMENT '重量',
-  `attrstr` text NOT NULL COMMENT '属性字符串',
-  `marketprice` char(10) NOT NULL COMMENT '市场价格',
-  `salesprice` char(10) NOT NULL COMMENT '销售价格',
-  `housenum` smallint(5) unsigned NOT NULL COMMENT '库存数量',
-  `housewarn` enum('true','false') NOT NULL COMMENT '库存警告',
-  `warnnum` smallint(5) unsigned NOT NULL COMMENT '警告数量',
-  `integral` char(10) NOT NULL COMMENT '积分点数',
-  `source` varchar(50) NOT NULL COMMENT '文章来源',
-  `author` varchar(50) NOT NULL COMMENT '作者编辑',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `keywords` varchar(30) NOT NULL COMMENT '关键词',
-  `description` varchar(255) NOT NULL COMMENT '摘要',
-  `content` mediumtext NOT NULL COMMENT '详细内容',
-  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
-  `picarr` text NOT NULL COMMENT '组图',
-  `hits` int(10) unsigned NOT NULL COMMENT '点击次数',
-  `orderid` int(10) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  `delstate` set('true') NOT NULL COMMENT '删除状态',
-  `deltime` int(10) NOT NULL COMMENT '删除时间',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_goods
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_goodsattr`
--- ----------------------------
-DROP TABLE IF EXISTS `web_goodsattr`;
-CREATE TABLE `web_goodsattr` (
-  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品属性id',
-  `goodsid` smallint(5) unsigned NOT NULL COMMENT '所属分类',
-  `attrname` varchar(30) NOT NULL COMMENT '属性名称',
-  `orderid` mediumint(8) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_goodsattr
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_goodsbrand`
--- ----------------------------
-DROP TABLE IF EXISTS `web_goodsbrand`;
-CREATE TABLE `web_goodsbrand` (
-  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品品牌id',
-  `parentid` mediumint(8) unsigned NOT NULL COMMENT '品牌上级id',
-  `parentstr` varchar(50) NOT NULL COMMENT '品牌上级id字符串',
-  `classname` varchar(30) NOT NULL COMMENT '品牌名称',
-  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `orderid` mediumint(10) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_goodsbrand
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_goodsflag`
--- ----------------------------
-DROP TABLE IF EXISTS `web_goodsflag`;
-CREATE TABLE `web_goodsflag` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品标记id',
-  `flag` varchar(30) NOT NULL COMMENT '标记名称',
-  `flagname` varchar(30) NOT NULL COMMENT '标记标识',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_goodsflag
--- ----------------------------
-INSERT INTO `web_goodsflag` VALUES ('1', 'c', '推荐', '1');
-INSERT INTO `web_goodsflag` VALUES ('2', 'f', '幻灯', '2');
-INSERT INTO `web_goodsflag` VALUES ('3', 'a', '特推', '3');
-INSERT INTO `web_goodsflag` VALUES ('4', 't', '特价', '4');
-INSERT INTO `web_goodsflag` VALUES ('5', 'h', '热卖', '5');
-
--- ----------------------------
--- Table structure for `web_goodsorder`
--- ----------------------------
-DROP TABLE IF EXISTS `web_goodsorder`;
-CREATE TABLE `web_goodsorder` (
-  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品订单id',
-  `username` varchar(30) NOT NULL COMMENT '会员用户名',
-  `attrstr` text NOT NULL COMMENT '商品列表',
-  `truename` varchar(30) NOT NULL COMMENT '收货人姓名',
-  `telephone` varchar(30) NOT NULL COMMENT '电话',
-  `idcard` varchar(30) NOT NULL COMMENT '证件号码',
-  `zipcode` varchar(30) NOT NULL COMMENT '邮编',
-  `postarea_prov` varchar(10) NOT NULL COMMENT '配送地区_省',
-  `postarea_city` varchar(10) NOT NULL COMMENT '配送地区_市',
-  `postarea_country` varchar(10) NOT NULL COMMENT '配送地区_县',
-  `address` varchar(80) NOT NULL COMMENT '地址',
-  `postmode` smallint(5) NOT NULL COMMENT '配送方式',
-  `paymode` smallint(5) NOT NULL COMMENT '支付方式',
-  `getmode` smallint(5) NOT NULL COMMENT '货到方式',
-  `ordernum` varchar(30) NOT NULL COMMENT '订单号',
-  `postid` varchar(30) NOT NULL COMMENT '运单号',
-  `weight` varchar(10) NOT NULL COMMENT '物品重量',
-  `cost` varchar(10) NOT NULL COMMENT '商品运费',
-  `amount` varchar(10) NOT NULL COMMENT '订单金额',
-  `integral` smallint(5) unsigned NOT NULL COMMENT '积分点数',
-  `buyremark` text NOT NULL COMMENT '购物备注',
-  `sendremark` text NOT NULL COMMENT '发货方备注',
-  `posttime` int(10) unsigned NOT NULL COMMENT '订单时间',
-  `orderid` mediumint(10) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` varchar(255) NOT NULL COMMENT '审核状态',
-  `core` set('true') NOT NULL COMMENT '是否加星',
-  `delstate` set('true') NOT NULL COMMENT '删除状态',
-  `deltime` int(10) unsigned NOT NULL COMMENT '删除时间',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_goodsorder
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_goodstype`
--- ----------------------------
-DROP TABLE IF EXISTS `web_goodstype`;
-CREATE TABLE `web_goodstype` (
-  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '商品类型id',
-  `parentid` mediumint(8) unsigned NOT NULL COMMENT '类型上级id',
-  `parentstr` varchar(50) NOT NULL COMMENT '类型上级id字符串',
-  `classname` varchar(30) NOT NULL COMMENT '类别名称',
-  `picurl` varchar(255) DEFAULT NULL COMMENT '缩略图片',
-  `linkurl` varchar(255) DEFAULT NULL COMMENT '跳转链接',
-  `orderid` mediumint(8) unsigned NOT NULL COMMENT '排列顺序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '隐藏类别',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_goodstype
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_info`
--- ----------------------------
-DROP TABLE IF EXISTS `web_info`;
-CREATE TABLE `web_info` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '单页id',
-  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目id',
-  `mainid` smallint(5) NOT NULL COMMENT '二级类别id',
-  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
-  `content` mediumtext NOT NULL COMMENT '内容',
-  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_info
--- ----------------------------
-INSERT INTO `web_info` VALUES ('1', '2', '-1', 'uploads/image/20150216/1424090898.png', '<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;font-size:24px;\"><strong>企业文化</strong></span>\r\n</div>\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">&nbsp;</span>\r\n<ul style=\"padding:0px 0px 0px 25px;margin:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:16px;\"><strong>养生理念是药食同源食疗养生</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:16px;\"><strong>好善乐施传递正能量激发养生新概念</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:16px;\"><strong>生活方式是健康第一，家庭第二，事业第三</strong></span>\r\n	</li>\r\n</ul>\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">&nbsp;</span>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;font-size:24px;\"><strong>企业使命</strong></span>\r\n</div>\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">&nbsp;</span>\r\n<ul style=\"padding:0px 0px 0px 25px;margin:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:18px;\"><strong>为中国梦健康每个人</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:18px;\"><strong>以振兴民族企业为已任，以弘扬人类健康求发展</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:18px;\"><strong>公司本着以人为本，厚德裁物的精神坚持品质至上，服务</strong></span>\r\n	</li>\r\n	<li style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:18px;\"><strong>制胜的理念，立志将公司打造成中国健康产业的航母！</strong></span>\r\n	</li>\r\n</ul>', '1424087403');
-INSERT INTO `web_info` VALUES ('2', '18', '-1', '', '<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b><span style=\"font-size:14.0pt;font-family:&quot;\">2015</span></b><b><span style=\"font-size:14.0pt;font-family:&quot;\">年<span>3004</span>民心工程</span></b><span style=\"font-size:16pt;font-family:宋体;color:#333333;\">·</span><b><span style=\"font-size:14.0pt;font-family:&quot;\">180</span></b><b><span style=\"font-size:14.0pt;font-family:&quot;\">微商大联盟<span></span></span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<b><span style=\"font-size:14.0pt;font-family:&quot;\">火爆开启新春大赠送<span></span></span></b>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center;\">\r\n	<span style=\"font-family:&quot;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"text-indent:32.0pt;\">\r\n	<span style=\"font-size:16.0pt;font-family:华文新魏;\">为了远离心脑血管疾病，健康快乐的人生，为了尽快完成武汉红桃<span>K</span>集团创始人，武汉大学教授张廷壁发起的“<span>3004</span>民心工程”，河南市场总部在<span>2015</span>年新春来临之际，隆重开启了“<span>180</span>微商大联盟”互助大赠送：<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"text-indent:32.0pt;\">\r\n	<span style=\"font-size:16.0pt;font-family:华文新魏;\"></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:39.0pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">1、<span style=\"font-size:7pt;font-family:\'Times New Roman\';\"> </span></span><span style=\"font-size:12.0pt;font-family:&quot;\">凡在<span>2015</span>年<span>5</span>月<span>1</span>日前加盟的微商贵宾会员，赠送养生茶一盒（市场价<span>380</span>元）<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:39.0pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">2、<span style=\"font-size:7pt;font-family:\'Times New Roman\';\"> </span></span><span style=\"font-size:12.0pt;font-family:&quot;\">升成合格一级贵宾会员，赠送纯银保健杯一套（市场价<span>580</span>元）<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:39.0pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">3、<span style=\"font-size:7pt;font-family:\'Times New Roman\';\"> </span></span><span style=\"font-size:12.0pt;font-family:&quot;\">升成合格二级贵宾会员，赠送电热器一台或养生茶一套（<span>2</span>盒）<span></span></span>\r\n</p>\r\n<p class=\"MsoListParagraph\" style=\"margin-left:39.0pt;text-indent:-18.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">4、<span style=\"font-size:7pt;font-family:\'Times New Roman\';\"> </span></span><span style=\"font-size:12.0pt;font-family:&quot;\">升成合格三级贵宾会员，赠送九级磁化能量水机一台（市场价<span>4980</span>元）<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">此活动<span>2015</span>年<span>5</span>月<span>1</span>日前结束。<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\" style=\"margin-left:21.0pt;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\">好善乐施传递正能量，你帮我助成就创业梦！<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:21.0pt;text-align:center;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\">健康一生，快乐人生！<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"center\" style=\"margin-left:21.0pt;text-align:center;\">\r\n	<span style=\"font-size:20.0pt;font-family:华文隶书;\"></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">服务热线：<span>15937982788</span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">河南市场销售总部<span></span></span>\r\n</p>\r\n<p class=\"MsoNormal\" align=\"right\" style=\"text-align:right;\">\r\n	<span style=\"font-size:12.0pt;font-family:&quot;\">2015</span><span style=\"font-size:12.0pt;font-family:&quot;\">年<span>2</span>月<span>16</span>日<span></span></span>\r\n</p>', '1424094480');
-INSERT INTO `web_info` VALUES ('3', '1', '-1', '', '<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;line-height:24px;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;font-size:24px;\"><strong>武汉彼尔生物医药技术有限公司</strong></span>\r\n</div>\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\">&nbsp;</span><br style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\" />\r\n<span style=\"color:#333333;font-family:宋体;line-height:24px;white-space:normal;background-color:#F6F6F6;\"> </span><span style=\"padding:0px;margin:0px;color:#333333;font-family:宋体;white-space:normal;font-size:18px;background-color:#F6F6F6;\"> 武汉彼尔生物医药技术有限公司位于风景秀丽的国家级高新技术开发区武汉东湖高新技术开发区。公司2002年正式成立，是一家集新产品研发、生产、销售于一体的高新技术企业。主要从事保健食品、生物医用材料、试剂、医疗器械、原料药物及高端制剂的研究、开发、技术转让及相关的技术服务。公司研发及管理团队主要由美国海归人士组成包括两位博士及一位工商管理硕士，拥有国际化视野及丰富海外实践经验。自成立以来，已自主开发出国家级二类、四类、五类新药及保健品和特殊营养食品等多项成果，还有多个项目正在研发中。公司现拥有自有厂房3600平米，两条生产线，自有资产三千万元人民币。销售网络遍布全国30个省市区。公司主导产品之一的“富硒花栓豆”系列产品是联合国世界和平基金会认定产品，同时，也就中国“治未病”制定产品。<br />\r\n天道酬勤，济世惠民！<br />\r\n武汉彼尔生物医药将一如既往地发扬“勤奋专注，诚信敬业，务实创新，追求卓越”的公司精神，与从事健康管理事业的同行们一道，“善待生命，崇尚科学”！传播健康理念，倡导健康生活，全心全意为人类健康服务！</span>', '1424094941');
-
--- ----------------------------
--- Table structure for `web_infoclass`
--- ----------------------------
-DROP TABLE IF EXISTS `web_infoclass`;
-CREATE TABLE `web_infoclass` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '栏目id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '栏目上级id',
-  `parentstr` varchar(50) NOT NULL COMMENT '栏目上级id字符串',
-  `infotype` tinyint(1) unsigned NOT NULL COMMENT '栏目类型',
-  `classname` varchar(30) NOT NULL COMMENT '栏目名称',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
-  `picwidth` varchar(5) NOT NULL COMMENT '缩略图宽度',
-  `picheight` varchar(5) NOT NULL COMMENT '缩略图高度',
-  `seotitle` varchar(80) NOT NULL COMMENT 'SEO标题',
-  `keywords` varchar(50) NOT NULL COMMENT '关键词',
-  `description` varchar(255) NOT NULL COMMENT '描述',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_infoclass
--- ----------------------------
-INSERT INTO `web_infoclass` VALUES ('1', '1', '0', '0,', '0', '公司简介', '', '', '', '', '', '', '', '1', 'true');
-INSERT INTO `web_infoclass` VALUES ('2', '1', '1', '0,1,', '0', '企业文化', '', '', '', '', '', '', '', '2', 'true');
-INSERT INTO `web_infoclass` VALUES ('3', '1', '1', '0,1,', '2', '公司荣誉', '', '', '', '', '', '', '', '3', 'true');
-INSERT INTO `web_infoclass` VALUES ('4', '1', '1', '0,1,', '2', '视频中心', '', '', '', '', '', '', '', '4', 'true');
-INSERT INTO `web_infoclass` VALUES ('5', '1', '1', '0,1,', '1', '领导关怀', '', '', '', '', '', '', '', '5', 'true');
-INSERT INTO `web_infoclass` VALUES ('6', '1', '0', '0,', '2', '产品专区', '', '', '', '', '', '', '', '6', 'true');
-INSERT INTO `web_infoclass` VALUES ('7', '1', '6', '0,6,', '2', '营养食品', '', '', '', '', '', '', '', '7', 'true');
-INSERT INTO `web_infoclass` VALUES ('8', '1', '6', '0,6,', '2', '美容化妆', '', '', '', '', '', '', '', '8', 'true');
-INSERT INTO `web_infoclass` VALUES ('9', '1', '6', '0,6,', '2', '生态家纺', '', '', '', '', '', '', '', '9', 'true');
-INSERT INTO `web_infoclass` VALUES ('10', '1', '0', '0,', '1', '新闻资讯', '', '', '', '', '', '', '', '10', 'true');
-INSERT INTO `web_infoclass` VALUES ('11', '1', '10', '0,10,', '1', '公司新闻', '', '', '', '', '', '', '', '11', 'true');
-INSERT INTO `web_infoclass` VALUES ('12', '1', '10', '0,10,', '1', '行业动态', '', '', '', '', '', '', '', '12', 'true');
-INSERT INTO `web_infoclass` VALUES ('13', '1', '0', '0,', '3', '文件下载', '', '', '', '', '', '', '', '13', 'true');
-INSERT INTO `web_infoclass` VALUES ('14', '1', '13', '0,13,', '3', '企业资料', '', '', '', '', '', '', '', '14', 'true');
-INSERT INTO `web_infoclass` VALUES ('15', '1', '13', '0,13,', '3', '视频下载', '', '', '', '', '', '', '', '15', 'true');
-INSERT INTO `web_infoclass` VALUES ('16', '1', '13', '0,13,', '3', '美容化妆', '', '', '', '', '', '', '', '16', 'true');
-INSERT INTO `web_infoclass` VALUES ('18', '1', '0', '0,', '0', '招商加盟', '', '', '', '', '', '', '', '18', 'true');
-
--- ----------------------------
--- Table structure for `web_infoflag`
--- ----------------------------
-DROP TABLE IF EXISTS `web_infoflag`;
-CREATE TABLE `web_infoflag` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '信息标记id',
-  `flag` varchar(30) NOT NULL COMMENT '标记名称',
-  `flagname` varchar(30) NOT NULL COMMENT '标记标识',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_infoflag
--- ----------------------------
-INSERT INTO `web_infoflag` VALUES ('1', 'h', '头条', '1');
-INSERT INTO `web_infoflag` VALUES ('2', 'c', '推荐', '2');
-INSERT INTO `web_infoflag` VALUES ('3', 'f', '幻灯', '3');
-INSERT INTO `web_infoflag` VALUES ('4', 'a', '特荐', '4');
-INSERT INTO `web_infoflag` VALUES ('5', 's', '滚动', '5');
-INSERT INTO `web_infoflag` VALUES ('6', 'j', '跳转', '6');
-
--- ----------------------------
--- Table structure for `web_infoimg`
--- ----------------------------
-DROP TABLE IF EXISTS `web_infoimg`;
-CREATE TABLE `web_infoimg` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '图片信息id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属栏目上级id',
-  `parentstr` varchar(80) NOT NULL COMMENT '所属栏目上级id字符串',
-  `mainid` smallint(5) NOT NULL COMMENT '二级类别id',
-  `mainpid` smallint(5) NOT NULL COMMENT '二级类别父id',
-  `mainpstr` varchar(80) NOT NULL COMMENT '二级累呗父id字符串',
-  `title` varchar(80) NOT NULL COMMENT '标题',
-  `colorval` char(10) NOT NULL COMMENT '字体颜色',
-  `boldval` char(10) NOT NULL COMMENT '字体加粗',
-  `flag` varchar(30) NOT NULL COMMENT '属性',
-  `source` varchar(50) NOT NULL COMMENT '文章来源',
-  `author` varchar(50) NOT NULL COMMENT '作者编辑',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `keywords` varchar(50) NOT NULL COMMENT '关键词',
-  `description` varchar(255) NOT NULL COMMENT '摘要',
-  `content` mediumtext NOT NULL COMMENT '详细内容',
-  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
-  `picarr` text NOT NULL COMMENT '组图',
-  `hits` mediumint(8) unsigned NOT NULL COMMENT '点击次数',
-  `orderid` int(10) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) NOT NULL COMMENT '更新时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  `delstate` set('true') NOT NULL COMMENT '删除状态',
-  `deltime` int(10) unsigned NOT NULL COMMENT '删除时间',
-  `price` varchar(20) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_infoimg
--- ----------------------------
-INSERT INTO `web_infoimg` VALUES ('1', '1', '4', '1', '0,1,', '-1', '-1', '', '彼尔生物医药产品宣传片', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzE3MDM0NDUy/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424093482.jpg', '', '52', '1', '1424088066', 'true', '', '0', '');
-INSERT INTO `web_infoimg` VALUES ('2', '1', '4', '1', '0,1,', '-1', '-1', '', '张廷璧教授讲解心脑血管病治疗', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzIyMjE4MDg0/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424090008.jpg', '', '154', '2', '1424088708', 'true', '', '0', '');
-INSERT INTO `web_infoimg` VALUES ('3', '1', '4', '1', '0,1,', '-1', '-1', '', '张廷璧教授接受记者采访', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzIyMjI0OTI0/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424093018.jpg', '', '145', '3', '1424091590', 'true', '', '0', '');
-INSERT INTO `web_infoimg` VALUES ('4', '1', '4', '1', '0,1,', '-1', '-1', '', '高血压典型病例3', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzIxMjYzMjA4/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424093949.jpg', '', '159', '4', '1424091663', 'true', '', '0', '');
-INSERT INTO `web_infoimg` VALUES ('5', '1', '4', '1', '0,1,', '-1', '-1', '', '冠心病典型案例', '', '', '', '', 'admin', '', '', '', '<embed src=\"http://player.youku.com/player.php/sid/XNzIxMjcwMzUy/v.swf\" type=\"application/x-shockwave-flash\" width=\"640\" height=\"480\" quality=\"high\" />', 'uploads/image/20150216/1424093708.jpg', '', '111', '5', '1424091737', 'true', '', '0', '');
-INSERT INTO `web_infoimg` VALUES ('6', '1', '7', '6', '0,6,', '-1', '-1', '', '富硒花栓豆（硬包装）', '', '', '', '', 'admin', '', '', '什么是富硒花栓豆？是谁发明了富硒花栓豆？ 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。 富硒花栓豆的溶栓酶，科学名...', '<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">什么是富硒花栓豆？是谁发明了富硒花栓豆？</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。<br />\r\n富硒花栓豆的溶栓酶，科学名字叫豆豉纤溶酶，它的特点是和血管壁亲和力很低，帮不会造成出血。<br />\r\n武汉大学生命科学院张廷璧教授，潜心研究近十年，终于培育出一种“枯草菌”，用于发酵大豆，制作出来的富硒花栓豆与日本“纳豆”相比较，品质更高，保质期更长。张廷璧教授取名为“富硒花栓豆”，即“溶化血栓”之意。</span>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;font-family:宋体;white-space:normal;color:red;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的成份是什么？</span>\r\n</h1>\r\n<p style=\"margin-top:0px;margin-bottom:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆”含有丰富的有机硒、溶栓酶、大豆多肽，卵磷脂、维生素K、红曲，天然它汀化合物。每10克“富硒花栓豆”含有溶栓酶16000个单位，相当于中风病人住院初期每日注射一针800元的尿激酶。溶栓酶有强力的溶解血栓、抑制血小板凝结，防止血栓的形成作用。大豆多肽和卵磷脂，有降血脂、降胆固醇的作用。会使血管变得通畅、柔软、富有弹性，防止动脉硬化，防治冠心病和中风的发生。丰富的硒不仅是突出的免疫力增强剂，心脏和肝脏的保护剂，更有“抗癌之王”的美称。</span>\r\n</p>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的适用人群</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 1、已有心脑血管疾病的人群如：高血粘、高血脂（特别是转氨酶高不能用“他汀类”西药降脂的患者），高胆固醇、高血压、酒精肝、脂肪肝、冠心病（心绞痛、心悸、心慌、胸闷气短、头晕、白天发困、腰背发酸、手脚发麻、发凉、乏力），脑梗塞、脑中风等“已病”人群。<br />\r\n2、亚健康人群—指长期抽烟、喝酒或进食肥腻且运动量过小，肥胖的中青年人，血压、血脂、血糖偏高，代谢功能差的“未病”人群。<br />\r\n3、血粘度高的患者（乏力、嗜睡、精神不振、思想不敏捷、哈欠连天）。<br />\r\n凡五十岁左右的中老年朋友，按照“少吃饭、多走路，菜和油同时下锅，一天一包富硒花栓豆的要求去做半年，就要不得心脑血管疾病。<br />\r\n&nbsp;</span>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的服用方法</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;\">正常服用富硒花栓豆，每天一袋，直接用温水吞服或嚼服。</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span class=\"STYLE1\" style=\"padding:0px;margin:0px;line-height:25px;\">服用过程中应当注意以下情况：</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\">1、富硒花栓豆的主要成人是豆豉纤溶酶，豆豉纤溶酶是生物制剂，遇热失活，因此应该温水或凉水服用。<br />\r\n2、富硒花栓豆稀释血液浓度见效特别快（4小时见效），因此有高血压症状且血粘稠特别高者，会出现大便变稀或者变结的情况，有些人服用后出现头昏现象，建议3天一袋，适应后改为1天一袋。<br />\r\n3、富硒花栓豆是功能性食品，而非药物，无任何毒副作用，可与其它食品或药品同时食用，因此无需咨询医疗界人士。（医疗界一般都判定高血压等需长期用药，不信任食品可以治病，服用富硒花栓豆者要理解富硒花栓豆是安全、无毒的食品，可以大胆放心地使用）。<br />\r\n4、富硒花栓豆含有丰富的蛋白质和大豆异黄酮等成份，对于蛋白质缺乏者，初期（约1至15天）食用可能会出现上火现象，如口腔溃疡等。出现此症状较严重时，可暂停2至3天再服用，反复几次即可恢复正常。<br />\r\n5、富硒花栓豆具有调整肠胃功能的作用，肠胃功能不好者，初期（约1至15天）食用可能会出现在肠胃不舒适感、腹痛、腹泻、便秘等反应，坚持一至两周即可恢复正常，而且恢复正常后肠胃功能保持稳定，排泄轻松，代谢正常。<br />\r\n6、痛风患者、肾病患者、尿酸过高者应改用除掉嘌呤的饭豆发酵的富硒花栓豆。<br />\r\n7、血糖高者（糖尿病人）应当先服用富硒花栓豆二型。血糖正常以后，最好配合富硒花栓豆继续服用，直到其他血液参数恢复正常为止。</span>\r\n</div>', 'uploads/image/20150216/1424104164.jpg', '', '182', '6', '1424098855', 'true', '', '0', '998');
-INSERT INTO `web_infoimg` VALUES ('7', '1', '7', '6', '0,6,', '-1', '-1', '', '富硒花栓豆（软盒装）', '', '', '', '', 'admin', '', '', '什么是富硒花栓豆？是谁发明了富硒花栓豆？ 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。 富硒花栓豆的溶栓酶，科学名...', '<h1 style=\"margin:0px;padding:0px;font-size:30px;font-family:宋体;white-space:normal;color:red;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">什么是富硒花栓豆？是谁发明了富硒花栓豆？</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。<br />\r\n富硒花栓豆的溶栓酶，科学名字叫豆豉纤溶酶，它的特点是和血管壁亲和力很低，帮不会造成出血。<br />\r\n武汉大学生命科学院张廷璧教授，潜心研究近十年，终于培育出一种“枯草菌”，用于发酵大豆，制作出来的富硒花栓豆与日本“纳豆”相比较，品质更高，保质期更长。张廷璧教授取名为“富硒花栓豆”，即“溶化血栓”之意。</span><br />\r\n	<h1 style=\"margin:0px;padding:0px;font-size:30px;color:red;text-align:center;\">\r\n		<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的成份是什么？</span>\r\n	</h1>\r\n	<p style=\"margin-top:0px;margin-bottom:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆”含有丰富的有机硒、溶栓酶、大豆多肽，卵磷脂、维生素K、红曲，天然它汀化合物。每10克“富硒花栓豆”含有溶栓酶16000个单位，相当于中风病人住院初期每日注射一针800元的尿激酶。溶栓酶有强力的溶解血栓、抑制血小板凝结，防止血栓的形成作用。大豆多肽和卵磷脂，有降血脂、降胆固醇的作用。会使血管变得通畅、柔软、富有弹性，防止动脉硬化，防治冠心病和中风的发生。丰富的硒不仅是突出的免疫力增强剂，心脏和肝脏的保护剂，更有“抗癌之王”的美称。</span>\r\n	</p>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的适用人群</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 1、已有心脑血管疾病的人群如：高血粘、高血脂（特别是转氨酶高不能用“他汀类”西药降脂的患者），高胆固醇、高血压、酒精肝、脂肪肝、冠心病（心绞痛、心悸、心慌、胸闷气短、头晕、白天发困、腰背发酸、手脚发麻、发凉、乏力），脑梗塞、脑中风等“已病”人群。<br />\r\n2、亚健康人群—指长期抽烟、喝酒或进食肥腻且运动量过小，肥胖的中青年人，血压、血脂、血糖偏高，代谢功能差的“未病”人群。<br />\r\n3、血粘度高的患者（乏力、嗜睡、精神不振、思想不敏捷、哈欠连天）。<br />\r\n凡五十岁左右的中老年朋友，按照“少吃饭、多走路，菜和油同时下锅，一天一包富硒花栓豆的要求去做半年，就要不得心脑血管疾病。<br />\r\n&nbsp;</span>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的服用方法</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;\">正常服用富硒花栓豆，每天一袋，直接用温水吞服或嚼服。</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span class=\"STYLE1\" style=\"padding:0px;margin:0px;line-height:25px;\">服用过程中应当注意以下情况：</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\">1、富硒花栓豆的主要成人是豆豉纤溶酶，豆豉纤溶酶是生物制剂，遇热失活，因此应该温水或凉水服用。<br />\r\n2、富硒花栓豆稀释血液浓度见效特别快（4小时见效），因此有高血压症状且血粘稠特别高者，会出现大便变稀或者变结的情况，有些人服用后出现头昏现象，建议3天一袋，适应后改为1天一袋。<br />\r\n3、富硒花栓豆是功能性食品，而非药物，无任何毒副作用，可与其它食品或药品同时食用，因此无需咨询医疗界人士。（医疗界一般都判定高血压等需长期用药，不信任食品可以治病，服用富硒花栓豆者要理解富硒花栓豆是安全、无毒的食品，可以大胆放心地使用）。<br />\r\n4、富硒花栓豆含有丰富的蛋白质和大豆异黄酮等成份，对于蛋白质缺乏者，初期（约1至15天）食用可能会出现上火现象，如口腔溃疡等。出现此症状较严重时，可暂停2至3天再服用，反复几次即可恢复正常。<br />\r\n5、富硒花栓豆具有调整肠胃功能的作用，肠胃功能不好者，初期（约1至15天）食用可能会出现在肠胃不舒适感、腹痛、腹泻、便秘等反应，坚持一至两周即可恢复正常，而且恢复正常后肠胃功能保持稳定，排泄轻松，代谢正常。<br />\r\n6、痛风患者、肾病患者、尿酸过高者应改用除掉嘌呤的饭豆发酵的富硒花栓豆。<br />\r\n7、血糖高者（糖尿病人）应当先服用富硒花栓豆二型。血糖正常以后，最好配合富硒花栓豆继续服用，直到其他血液参数恢复正常为止。</span>\r\n</div>', 'uploads/image/20150216/1424106926.jpg', '', '138', '7', '1424099018', 'true', '', '0', '480');
-INSERT INTO `web_infoimg` VALUES ('8', '1', '7', '6', '0,6,', '-1', '-1', '', '二型富硒花生豆', '', '', '', '', 'admin', '', '', '什么是富硒花栓豆？是谁发明了富硒花栓豆？ 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。 富硒花栓豆的溶栓酶，科学名...', '<h1 style=\"margin:0px;padding:0px;font-size:30px;font-family:宋体;white-space:normal;color:red;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">什么是富硒花栓豆？是谁发明了富硒花栓豆？</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆是中医药食同源产品，是专为心脑血管人设计的特殊食品，是大豆经现代发酵技术加工的高科技产品，《中药大词典》以“谈豆豉”记载。<br />\r\n富硒花栓豆的溶栓酶，科学名字叫豆豉纤溶酶，它的特点是和血管壁亲和力很低，帮不会造成出血。<br />\r\n武汉大学生命科学院张廷璧教授，潜心研究近十年，终于培育出一种“枯草菌”，用于发酵大豆，制作出来的富硒花栓豆与日本“纳豆”相比较，品质更高，保质期更长。张廷璧教授取名为“富硒花栓豆”，即“溶化血栓”之意。</span><br />\r\n	<h1 style=\"margin:0px;padding:0px;font-size:30px;color:red;text-align:center;\">\r\n		<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的成份是什么？</span>\r\n	</h1>\r\n	<p style=\"margin-top:0px;margin-bottom:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;line-height:25px;\"> 富硒花栓豆”含有丰富的有机硒、溶栓酶、大豆多肽，卵磷脂、维生素K、红曲，天然它汀化合物。每10克“富硒花栓豆”含有溶栓酶16000个单位，相当于中风病人住院初期每日注射一针800元的尿激酶。溶栓酶有强力的溶解血栓、抑制血小板凝结，防止血栓的形成作用。大豆多肽和卵磷脂，有降血脂、降胆固醇的作用。会使血管变得通畅、柔软、富有弹性，防止动脉硬化，防治冠心病和中风的发生。丰富的硒不仅是突出的免疫力增强剂，心脏和肝脏的保护剂，更有“抗癌之王”的美称。</span>\r\n	</p>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的适用人群</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\"> 1、已有心脑血管疾病的人群如：高血粘、高血脂（特别是转氨酶高不能用“他汀类”西药降脂的患者），高胆固醇、高血压、酒精肝、脂肪肝、冠心病（心绞痛、心悸、心慌、胸闷气短、头晕、白天发困、腰背发酸、手脚发麻、发凉、乏力），脑梗塞、脑中风等“已病”人群。<br />\r\n2、亚健康人群—指长期抽烟、喝酒或进食肥腻且运动量过小，肥胖的中青年人，血压、血脂、血糖偏高，代谢功能差的“未病”人群。<br />\r\n3、血粘度高的患者（乏力、嗜睡、精神不振、思想不敏捷、哈欠连天）。<br />\r\n凡五十岁左右的中老年朋友，按照“少吃饭、多走路，菜和油同时下锅，一天一包富硒花栓豆的要求去做半年，就要不得心脑血管疾病。<br />\r\n&nbsp;</span>\r\n</div>\r\n<h1 style=\"margin:0px;padding:0px;font-size:30px;color:#333333;font-family:宋体;white-space:normal;text-align:center;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;color:#FFFFFF;background-color:#0000CD;\">富硒花栓豆的服用方法</span>\r\n</h1>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;\">正常服用富硒花栓豆，每天一袋，直接用温水吞服或嚼服。</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span class=\"STYLE1\" style=\"padding:0px;margin:0px;line-height:25px;\">服用过程中应当注意以下情况：</span>\r\n</div>\r\n<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<span style=\"padding:0px;margin:0px;line-height:25px;\">1、富硒花栓豆的主要成人是豆豉纤溶酶，豆豉纤溶酶是生物制剂，遇热失活，因此应该温水或凉水服用。<br />\r\n2、富硒花栓豆稀释血液浓度见效特别快（4小时见效），因此有高血压症状且血粘稠特别高者，会出现大便变稀或者变结的情况，有些人服用后出现头昏现象，建议3天一袋，适应后改为1天一袋。<br />\r\n3、富硒花栓豆是功能性食品，而非药物，无任何毒副作用，可与其它食品或药品同时食用，因此无需咨询医疗界人士。（医疗界一般都判定高血压等需长期用药，不信任食品可以治病，服用富硒花栓豆者要理解富硒花栓豆是安全、无毒的食品，可以大胆放心地使用）。<br />\r\n4、富硒花栓豆含有丰富的蛋白质和大豆异黄酮等成份，对于蛋白质缺乏者，初期（约1至15天）食用可能会出现上火现象，如口腔溃疡等。出现此症状较严重时，可暂停2至3天再服用，反复几次即可恢复正常。<br />\r\n5、富硒花栓豆具有调整肠胃功能的作用，肠胃功能不好者，初期（约1至15天）食用可能会出现在肠胃不舒适感、腹痛、腹泻、便秘等反应，坚持一至两周即可恢复正常，而且恢复正常后肠胃功能保持稳定，排泄轻松，代谢正常。<br />\r\n6、痛风患者、肾病患者、尿酸过高者应改用除掉嘌呤的饭豆发酵的富硒花栓豆。<br />\r\n7、血糖高者（糖尿病人）应当先服用富硒花栓豆二型。血糖正常以后，最好配合富硒花栓豆继续服用，直到其他血液参数恢复正常为止。</span>\r\n</div>', 'uploads/image/20150216/1424107090.jpg', '', '136', '8', '1424099072', 'true', '', '0', '998');
-INSERT INTO `web_infoimg` VALUES ('9', '1', '7', '6', '0,6,', '-1', '-1', '', '特膳大礼包', '', '', '', '', 'admin', '', '', '彼尔生物医药糖脂特膳中的营养素 膳食纤维： 膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养素，营养学称为第...', '<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">彼尔生物医药糖脂特膳中的营养素</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维：</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养素，营养学称为第七营养素。膳食纤维可延长食物在肠内的停留时间，降低葡萄糖吸收速度，使餐后血糖不会急剧上升，有利于糖尿病病情的改善。因此糖尿病膳食中长期增加食物纤维，可降低胰岛素需要量，控制餐后血糖。</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞：</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞被誉为“五谷之王”，所含的营养成分非常丰富，主要包括生物类黄酮、高活性蛋白、氨基酸、脂肪酸、膳食纤维、微量元素等。苦荞中生物类黄酮的含量较高，其中以芦丁和槲皮素为主。芦丁是降糖、降脂和改善心脑血管微循环功效的关键物质，能够促进胰岛b细胞的恢复，降低血糖和血清胆固醇，改善糖耐量，对抗肾上腺素的升糖作用，同时它还能够抑制醛糖还原酶，因此可以治疗糖尿病及其并发症。</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">海参：</span>\r\n	</div>\r\n	<div style=\"margin:0px;padding:0px;\">\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\">海参具有滋阴养血、调整机体免疫力、延缓衰老、提高记忆力、抗疲劳和调节血糖的功效。现代医学认为，海参中的酸性粘多糖具有降低血糖活性，所含有的钾、钒等微量元素对促进胰岛素分泌起着重要作用。</span>\r\n	</div>\r\n	<div>\r\n		<span style=\"padding:0px;margin:0px;font-size:12px;\"><br />\r\n</span>\r\n	</div>\r\n</div>', 'uploads/image/20150216/1424102530.jpg', '', '149', '9', '1424099142', 'true', '', '0', '928');
-INSERT INTO `web_infoimg` VALUES ('10', '1', '7', '6', '0,6,', '-1', '-1', '', '三联技术组合套装一疗程', '', '', '', '', 'admin', '', '', '使用时间为半年。 彼尔生物医药糖脂特膳中的营养素 膳食纤维： 膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养...', '<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">使用时间为半年。</span>\r\n</p>\r\n<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\"><br />\r\n</span>\r\n</p>\r\n<p>\r\n	<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">彼尔生物医药糖脂特膳中的营养素</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养素，营养学称为第七营养素。膳食纤维可延长食物在肠内的停留时间，降低葡萄糖吸收速度，使餐后血糖不会急剧上升，有利于糖尿病病情的改善。因此糖尿病膳食中长期增加食物纤维，可降低胰岛素需要量，控制餐后血糖。</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞被誉为“五谷之王”，所含的营养成分非常丰富，主要包括生物类黄酮、高活性蛋白、氨基酸、脂肪酸、膳食纤维、微量元素等。苦荞中生物类黄酮的含量较高，其中以芦丁和槲皮素为主。芦丁是降糖、降脂和改善心脑血管微循环功效的关键物质，能够促进胰岛b细胞的恢复，降低血糖和血清胆固醇，改善糖耐量，对抗肾上腺素的升糖作用，同时它还能够抑制醛糖还原酶，因此可以治疗糖尿病及其并发症。</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">海参：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">海参具有滋阴养血、调整机体免疫力、延缓衰老、提高记忆力、抗疲劳和调节血糖的功效。现代医学认为，海参中的酸性粘多糖具有降低血糖活性，所含有的钾、钒等微量元素对促进胰岛素分泌起着重要作用。</span>\r\n		</div>\r\n		<div>\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\"><br />\r\n</span>\r\n		</div>\r\n	</div>\r\n</p>', 'uploads/image/20150216/1424101388.jpg', '', '164', '10', '1424099217', 'true', '', '0', '11556');
-INSERT INTO `web_infoimg` VALUES ('11', '1', '7', '6', '0,6,', '-1', '-1', '', '三联技术组合套装二疗程', '', '', '', '', 'admin', '', '', '使用时间为一年。 彼尔生物医药糖脂特膳中的营养素 膳食纤维： 膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养...', '<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">使用时间为一年。</span>\r\n</p>\r\n<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\"><br />\r\n</span>\r\n</p>\r\n<p>\r\n	<span style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n	<div style=\"margin:0px;padding:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">彼尔生物医药糖脂特膳中的营养素</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">膳食纤维是一种不能被人体消化的碳水化合物，分为水溶性纤维素与非水溶性纤维素。膳食纤维在体内具有重要的生理作用，是维持人体健康必不可少的一类营养素，营养学称为第七营养素。膳食纤维可延长食物在肠内的停留时间，降低葡萄糖吸收速度，使餐后血糖不会急剧上升，有利于糖尿病病情的改善。因此糖尿病膳食中长期增加食物纤维，可降低胰岛素需要量，控制餐后血糖。</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">苦荞被誉为“五谷之王”，所含的营养成分非常丰富，主要包括生物类黄酮、高活性蛋白、氨基酸、脂肪酸、膳食纤维、微量元素等。苦荞中生物类黄酮的含量较高，其中以芦丁和槲皮素为主。芦丁是降糖、降脂和改善心脑血管微循环功效的关键物质，能够促进胰岛b细胞的恢复，降低血糖和血清胆固醇，改善糖耐量，对抗肾上腺素的升糖作用，同时它还能够抑制醛糖还原酶，因此可以治疗糖尿病及其并发症。</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">海参：</span>\r\n		</div>\r\n		<div style=\"margin:0px;padding:0px;\">\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\">海参具有滋阴养血、调整机体免疫力、延缓衰老、提高记忆力、抗疲劳和调节血糖的功效。现代医学认为，海参中的酸性粘多糖具有降低血糖活性，所含有的钾、钒等微量元素对促进胰岛素分泌起着重要作用。</span>\r\n		</div>\r\n		<div>\r\n			<span style=\"padding:0px;margin:0px;font-size:12px;\"><br />\r\n</span>\r\n		</div>\r\n	</div>\r\n<br />\r\n</span>\r\n</p>', 'uploads/image/20150216/1424107574.jpg', '', '97', '11', '1424099303', 'true', '', '0', '23112');
-INSERT INTO `web_infoimg` VALUES ('12', '1', '3', '1', '0,1,', '-1', '-1', '', '中国医促会中老年保健专业委员会指定产品证书', '', '', '', '', 'admin', '', '', '', '', 'uploads/image/20150216/1424104756.jpg', '', '60', '12', '1424099792', 'true', '', '0', '');
-
--- ----------------------------
--- Table structure for `web_infolist`
--- ----------------------------
-DROP TABLE IF EXISTS `web_infolist`;
-CREATE TABLE `web_infolist` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '列表信息id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属栏目上级id',
-  `parentstr` varchar(80) NOT NULL COMMENT '所属栏目上级id字符串',
-  `mainid` smallint(5) NOT NULL COMMENT '二级类别id',
-  `mainpid` smallint(5) NOT NULL COMMENT '二级类别上级id',
-  `mainpstr` varchar(80) NOT NULL COMMENT '二级类别上级id字符串',
-  `title` varchar(80) NOT NULL COMMENT '标题',
-  `colorval` char(10) NOT NULL COMMENT '字体颜色',
-  `boldval` char(10) NOT NULL COMMENT '字体加粗',
-  `flag` varchar(30) NOT NULL COMMENT '属性',
-  `source` varchar(50) NOT NULL COMMENT '文章来源',
-  `author` varchar(50) NOT NULL COMMENT '作者编辑',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `keywords` varchar(50) NOT NULL COMMENT '关键词',
-  `description` varchar(255) NOT NULL COMMENT '摘要',
-  `content` mediumtext NOT NULL COMMENT '详细内容',
-  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
-  `picarr` text NOT NULL COMMENT '组图',
-  `hits` mediumint(8) unsigned NOT NULL COMMENT '点击次数',
-  `orderid` int(10) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) NOT NULL COMMENT '更新时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  `delstate` set('true') NOT NULL COMMENT '删除状态',
-  `deltime` int(10) unsigned NOT NULL COMMENT '删除时间',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_infolist
--- ----------------------------
-INSERT INTO `web_infolist` VALUES ('1', '1', '10', '0', '0,', '-1', '-1', '', '各界人士会见张廷璧教授', '', '', '', '', 'admin', '', '', '由于张廷璧教授在自己领域所做出的杰出的贡献，受到了各界人士认同，同时各界人士纷纷和张教授联系问医', '<img src=\"/3004mxgc180.com/uploads/image/20150216/1424091284.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424088294.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424095174.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424088710.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424095663.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424090666.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424096301.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424091619.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424090334.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424094970.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424088190.jpg\" alt=\"\" /><img src=\"/3004mxgc180.com/uploads/image/20150216/1424087555.jpg\" alt=\"\" />', '', '', '108', '1', '1424086628', 'true', '', '0');
-INSERT INTO `web_infolist` VALUES ('2', '1', '10', '0', '0,', '-1', '-1', '', '只有尽快改变中国医药和西医接轨的立法思想才', '', '', '', '', 'admin', '', '', '我曾以湖北省政府参事名义给中央领导写了一封信，就是“用科学技术完成一项重大民心工程的建议”，简称3004工程。就是说要把中国的心脑血管病发病率30%降到0.4%。有人提醒我，降低5%就是了不起的贡献，降低30%是否太难了。我说能达到，方法就是“少吃饭，多走路，一天一包花栓豆”。花栓豆就是用特殊选育的枯草杆菌发酵的黄豆，富人能办到，穷人也能办到。世界上有大量的研究报告证明用花栓豆食疗防治心脑血管病是切实可行的办...', '<span style=\"padding:0px;margin:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">我曾以湖北省政府参事名义给中央领导写了一封信，就是“用科学技术完成一项重大民心工程的建议”，简称3004工程。就是说要把中国的心脑血管病发病率30%降到0.4%。有人提醒我，降低5%就是了不起的贡献，降低30%是否太难了。我说能达到，方法就是“少吃饭，多走路，一天一包花栓豆”。花栓豆就是用特殊选育的枯草杆菌发酵的黄豆，富人能办到，穷人也能办到。世界上有大量的研究报告证明用花栓豆食疗防治心脑血管病是切实可行的办法，现在的问题是一定要冲破食品不准宣传治疗功效的法律障碍，食品是很大的类别，有的食品没有防病治病效果，有的确实具有防病治病效果，一律人为的规定食品不准宣传治疗功效显然是荒谬的。所以中医历来强调药食同源，强调先用食品治病，再辅助之药品，中国破除法律障碍强制实行加碘盐再2000年消灭了碘缺乏症就是用食品治病的例子，中国政府也公布了一批药食同源品种名单，但是宣传很不够，品种也太少。</span><br style=\"color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\" />\r\n<span style=\"padding:0px;margin:0px;color:#333333;font-family:宋体;font-size:14px;line-height:28px;white-space:normal;background-color:#F6F6F6;\">遗憾的是中国现在的医药立法是按照西医、西药立法。强调用单一成分对抗治疗，强调围绕单一成份的标准化，强调药品和食品分家，而中医，中药处于受排挤的地位，重要历来反对单一成份用药，强调复方配伍，强调药食同源。反对把食品或天然药材提纯成单一成份，正如吕炳奎老中医给胡锦涛主席信中指出的“对中医，这个自古以来传承至今的中国文化脊梁，绝不能在西医的统治下被消灭。”中医，中药受压制是一个中国医药立法存在的整体问题。不解决立法思想的原则障碍，就不能解决中医，中药的生存障碍，更不可能有中国人的身体健康。</span>', '', '', '178', '2', '1424097882', 'true', '', '0');
-
--- ----------------------------
--- Table structure for `web_infosrc`
--- ----------------------------
-DROP TABLE IF EXISTS `web_infosrc`;
-CREATE TABLE `web_infosrc` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '来源id',
-  `srcname` varchar(30) NOT NULL COMMENT '来源名称',
-  `linkurl` varchar(80) NOT NULL COMMENT '来源地址',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '来源排序',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_infosrc
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_job`
--- ----------------------------
-DROP TABLE IF EXISTS `web_job`;
-CREATE TABLE `web_job` (
-  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '招聘信息id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `title` varchar(50) NOT NULL COMMENT '位岗名称',
-  `jobplace` varchar(80) NOT NULL COMMENT '工作地点',
-  `jobdescription` varchar(50) NOT NULL COMMENT '工作性质',
-  `employ` smallint(5) unsigned NOT NULL COMMENT '招聘人数',
-  `jobsex` enum('0','1','2') NOT NULL COMMENT '性别要求',
-  `treatment` varchar(50) NOT NULL COMMENT '工资待遇',
-  `usefullife` varchar(50) NOT NULL COMMENT '有效期',
-  `experience` varchar(50) NOT NULL COMMENT '工作经验',
-  `education` varchar(80) NOT NULL COMMENT '学历要求',
-  `joblang` varchar(50) NOT NULL COMMENT '言语能力',
-  `workdesc` mediumtext NOT NULL COMMENT '职位描述',
-  `content` mediumtext NOT NULL COMMENT '职位要求',
-  `orderid` mediumint(8) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_job
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_lnk`
--- ----------------------------
-DROP TABLE IF EXISTS `web_lnk`;
-CREATE TABLE `web_lnk` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '快捷方式id',
-  `lnkname` varchar(30) NOT NULL COMMENT '快捷方式名称',
-  `lnklink` varchar(50) NOT NULL COMMENT '跳转链接',
-  `lnkico` varchar(50) NOT NULL COMMENT 'ico地址',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_lnk
--- ----------------------------
-INSERT INTO `web_lnk` VALUES ('1', '栏目管理', 'infoclass.php', 'templates/images/lnkBg01.png', '1');
-INSERT INTO `web_lnk` VALUES ('2', '列表管理', 'infolist.php', 'templates/images/lnkBg02.png', '2');
-INSERT INTO `web_lnk` VALUES ('3', '图片管理', 'infoimg.php', 'templates/images/lnkBg03.png', '3');
-INSERT INTO `web_lnk` VALUES ('4', '商品管理', 'goods.php', 'templates/images/lnkBg04.png', '4');
-
--- ----------------------------
--- Table structure for `web_maintype`
--- ----------------------------
-DROP TABLE IF EXISTS `web_maintype`;
-CREATE TABLE `web_maintype` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '二级类别id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '类别上级id',
-  `parentstr` varchar(50) NOT NULL COMMENT '类别上级id字符串',
-  `classname` varchar(30) NOT NULL COMMENT '类别名称',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_maintype
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_member`
--- ----------------------------
-DROP TABLE IF EXISTS `web_member`;
-CREATE TABLE `web_member` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户id',
-  `username` varchar(32) NOT NULL COMMENT '用户名',
-  `password` varchar(32) NOT NULL COMMENT '密码',
-  `question` varchar(50) NOT NULL COMMENT '提问',
-  `answer` varchar(50) NOT NULL COMMENT '回答',
-  `cnname` varchar(10) NOT NULL COMMENT '姓名',
-  `enname` varchar(20) NOT NULL COMMENT '英文名',
-  `avatar` varchar(100) NOT NULL COMMENT '头像',
-  `sex` tinyint(1) unsigned NOT NULL COMMENT '性别',
-  `birthtype` tinyint(1) unsigned NOT NULL COMMENT '生日类型',
-  `birth_year` varchar(10) NOT NULL DEFAULT '-1' COMMENT '生日_年',
-  `birth_month` varchar(10) NOT NULL DEFAULT '-1' COMMENT '生日_月',
-  `birth_day` varchar(10) NOT NULL DEFAULT '-1' COMMENT '生日_日',
-  `astro` varchar(10) NOT NULL DEFAULT '-1' COMMENT '星座',
-  `bloodtype` tinyint(2) NOT NULL DEFAULT '-1' COMMENT '血型',
-  `trade` varchar(10) NOT NULL DEFAULT '-1' COMMENT '行业',
-  `live_prov` varchar(10) NOT NULL DEFAULT '-1' COMMENT '现居地_省',
-  `live_city` varchar(10) NOT NULL DEFAULT '-1' COMMENT '现居地_市',
-  `live_country` varchar(15) NOT NULL DEFAULT '-1' COMMENT '现居地_区',
-  `home_prov` varchar(10) NOT NULL DEFAULT '-1' COMMENT '故乡_省',
-  `home_city` varchar(10) NOT NULL DEFAULT '-1' COMMENT '故乡_市',
-  `home_country` varchar(15) NOT NULL DEFAULT '-1' COMMENT '故乡_区',
-  `cardtype` tinyint(2) NOT NULL DEFAULT '-1' COMMENT '证件类型',
-  `cardnum` varchar(32) NOT NULL COMMENT '证件号码',
-  `intro` text NOT NULL COMMENT '个人说明',
-  `email` varchar(40) NOT NULL COMMENT '电子邮件',
-  `qqnum` varchar(20) NOT NULL COMMENT 'QQ号码',
-  `mobile` varchar(20) NOT NULL COMMENT '手机',
-  `telephone` varchar(20) NOT NULL COMMENT '固定电话',
-  `address_prov` varchar(10) NOT NULL DEFAULT '-1' COMMENT '通信地址_省',
-  `address_city` varchar(10) NOT NULL DEFAULT '-1' COMMENT '通信地址_市',
-  `address_country` varchar(15) NOT NULL DEFAULT '-1' COMMENT '通信地址_区',
-  `address` varchar(100) NOT NULL COMMENT '通信地址',
-  `zipcode` varchar(10) NOT NULL COMMENT '邮编',
-  `enteruser` set('1') NOT NULL COMMENT '认证',
-  `expval` int(10) NOT NULL COMMENT '经验值',
-  `integral` int(10) unsigned NOT NULL COMMENT '积分',
-  `regtime` int(10) unsigned NOT NULL COMMENT '注册时间',
-  `regip` varchar(20) NOT NULL COMMENT '注册IP',
-  `logintime` int(10) unsigned NOT NULL COMMENT '登录时间',
-  `loginip` varchar(20) NOT NULL COMMENT '登录IP',
-  `qqid` varchar(32) NOT NULL COMMENT '绑定QQ',
-  `weiboid` varchar(32) NOT NULL COMMENT '绑定微博',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_member
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_message`
--- ----------------------------
-DROP TABLE IF EXISTS `web_message`;
-CREATE TABLE `web_message` (
-  `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '留言id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `nickname` varchar(30) NOT NULL COMMENT '昵称',
-  `contact` varchar(50) NOT NULL COMMENT '联系方式',
-  `content` text NOT NULL COMMENT '留言内容',
-  `htop` set('true') NOT NULL COMMENT '置顶',
-  `rtop` set('true') NOT NULL COMMENT '推荐',
-  `ip` char(20) NOT NULL COMMENT '留言IP',
-  `recont` text NOT NULL COMMENT '回复内容',
-  `retime` int(10) unsigned NOT NULL COMMENT '回复时间',
-  `orderid` mediumint(8) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_message
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_nav`
--- ----------------------------
-DROP TABLE IF EXISTS `web_nav`;
-CREATE TABLE `web_nav` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '导航id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '导航分类',
-  `parentstr` varchar(50) NOT NULL COMMENT '导航分类父id字符串',
-  `classname` varchar(30) NOT NULL COMMENT '导航名称',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `relinkurl` varchar(255) NOT NULL COMMENT '重写地址',
-  `picurl` varchar(100) NOT NULL COMMENT '导航图片',
-  `target` varchar(30) NOT NULL COMMENT '打开方式',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '隐藏导航',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_nav
--- ----------------------------
-INSERT INTO `web_nav` VALUES ('1', '1', '0', '0,', '主菜单', '#', '', '', '', '1', 'true');
-INSERT INTO `web_nav` VALUES ('2', '1', '1', '0,1,', '首页', 'index.php', '', '', '', '2', 'true');
-
--- ----------------------------
--- Table structure for `web_paymode`
--- ----------------------------
-DROP TABLE IF EXISTS `web_paymode`;
-CREATE TABLE `web_paymode` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '支付方式id',
-  `classname` varchar(30) NOT NULL COMMENT '支付方式名称',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_paymode
--- ----------------------------
-INSERT INTO `web_paymode` VALUES ('1', '在线支付', '1', 'true');
-INSERT INTO `web_paymode` VALUES ('2', '货到付款', '2', 'true');
-
--- ----------------------------
--- Table structure for `web_postmode`
--- ----------------------------
-DROP TABLE IF EXISTS `web_postmode`;
-CREATE TABLE `web_postmode` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '配送方式id',
-  `classname` varchar(30) NOT NULL COMMENT '配送方式',
-  `postprice` varchar(10) NOT NULL COMMENT '配送价格',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_postmode
--- ----------------------------
-INSERT INTO `web_postmode` VALUES ('1', '申通', '15', '1', 'true');
-INSERT INTO `web_postmode` VALUES ('2', '中通', '15', '2', 'true');
-INSERT INTO `web_postmode` VALUES ('3', '圆通', '15', '3', 'true');
-INSERT INTO `web_postmode` VALUES ('4', '顺丰', '22', '4', 'true');
-INSERT INTO `web_postmode` VALUES ('5', 'EMS', '20', '5', 'true');
-
--- ----------------------------
--- Table structure for `web_site`
--- ----------------------------
-DROP TABLE IF EXISTS `web_site`;
-CREATE TABLE `web_site` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '站点ID',
-  `sitename` varchar(30) NOT NULL COMMENT '站点名称',
-  `sitekey` varchar(30) NOT NULL COMMENT '站点标识',
-  `sitelang` varchar(50) NOT NULL COMMENT '站点语言包',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_site
--- ----------------------------
-INSERT INTO `web_site` VALUES ('1', '默认站点', 'zh_CN', 'zh_CN');
-
--- ----------------------------
--- Table structure for `web_soft`
--- ----------------------------
-DROP TABLE IF EXISTS `web_soft`;
-CREATE TABLE `web_soft` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '软件信息id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `classid` smallint(5) unsigned NOT NULL COMMENT '所属栏目id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属栏目上级id',
-  `parentstr` varchar(80) NOT NULL COMMENT '所属栏目上级id字符串',
-  `mainid` smallint(5) NOT NULL COMMENT '二级类别id',
-  `mainpid` smallint(5) NOT NULL COMMENT '二级类别父id',
-  `mainpstr` varchar(80) NOT NULL COMMENT '二级累呗父id字符串',
-  `title` varchar(80) NOT NULL COMMENT '标题',
-  `colorval` char(10) NOT NULL COMMENT '字体颜色',
-  `boldval` char(10) NOT NULL COMMENT '字体加粗',
-  `flag` varchar(30) NOT NULL COMMENT '属性',
-  `filetype` char(4) NOT NULL COMMENT '文件类型',
-  `softtype` char(10) NOT NULL COMMENT '软件类型',
-  `language` char(10) NOT NULL COMMENT '界面语言',
-  `accredit` char(10) NOT NULL COMMENT '授权方式',
-  `softsize` varchar(10) NOT NULL COMMENT '软件大小',
-  `unit` char(4) NOT NULL COMMENT '软件大小单位',
-  `runos` varchar(50) NOT NULL COMMENT '运行环境',
-  `website` varchar(255) NOT NULL COMMENT '官方网站',
-  `demourl` varchar(255) NOT NULL COMMENT '演示地址',
-  `dlurl` varchar(255) NOT NULL COMMENT '下载地址',
-  `source` varchar(50) NOT NULL COMMENT '文章来源',
-  `author` varchar(50) NOT NULL COMMENT '作者编辑',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `keywords` varchar(50) NOT NULL COMMENT '关键字',
-  `description` varchar(255) NOT NULL COMMENT '描述',
-  `content` mediumtext NOT NULL COMMENT '内容',
-  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
-  `picarr` text NOT NULL COMMENT '组图',
-  `hits` mediumint(8) unsigned NOT NULL COMMENT '点击次数',
-  `orderid` int(10) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) NOT NULL COMMENT '更新时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  `delstate` set('true') NOT NULL COMMENT '删除状态',
-  `deltime` int(10) unsigned NOT NULL COMMENT '删除时间',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_soft
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_sysevent`
--- ----------------------------
-DROP TABLE IF EXISTS `web_sysevent`;
-CREATE TABLE `web_sysevent` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '信息id',
-  `uname` varchar(30) NOT NULL COMMENT '用户名',
-  `siteid` tinyint(1) unsigned NOT NULL COMMENT '站点id',
-  `model` varchar(30) NOT NULL COMMENT '操作模块',
-  `classid` int(10) unsigned NOT NULL COMMENT '栏目id',
-  `action` varchar(10) NOT NULL COMMENT '执行操作',
-  `posttime` int(10) NOT NULL COMMENT '操作时间',
-  `ip` varchar(20) NOT NULL COMMENT '操作ip',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=113 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_sysevent
--- ----------------------------
-INSERT INTO `web_sysevent` VALUES ('1', 'admin', '1', 'login', '0', '', '1424067188', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('2', 'admin', '1', 'web_config', '0', 'all', '1424067195', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('3', 'admin', '1', 'web_config', '0', 'all', '1424067283', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('4', 'admin', '1', 'site', '0', 'all', '1424067320', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('5', 'admin', '1', 'admin', '0', 'all', '1424067322', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('6', 'admin', '1', 'database_backup', '0', 'all', '1424067327', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('7', 'admin', '1', 'infoclass', '0', 'all', '1424067340', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('8', 'admin', '1', 'infoclass', '0', 'all', '1424067417', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('9', 'admin', '1', 'info', '1', 'add', '1424067434', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('10', 'admin', '1', 'info', '3', 'update', '1424067462', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('11', 'admin', '1', 'infoclass', '0', 'all', '1424067481', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('12', 'admin', '1', 'info', '1', 'add', '1424067501', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('13', 'admin', '1', 'infoclass', '0', 'all', '1424067553', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('14', 'admin', '1', 'infoimg', '6', 'add', '1424067553', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('15', 'admin', '1', 'infoclass', '0', 'all', '1424067635', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('16', 'admin', '1', 'infolist', '10', 'add', '1424067647', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('17', 'admin', '1', 'info', '0', 'all', '1424068165', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('18', 'admin', '1', 'diymodel', '0', 'all', '1424068180', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('19', 'admin', '1', 'fragment', '0', 'all', '1424068194', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('20', 'admin', '1', 'soft', '0', 'all', '1424068196', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('21', 'admin', '1', 'cascade', '0', 'all', '1424068206', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('22', 'admin', '1', 'vote', '0', 'all', '1424068231', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('23', 'admin', '1', 'check_bom', '0', 'all', '1424068247', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('24', 'admin', '1', 'admin', '0', 'all', '1424068261', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('25', 'admin', '1', 'infolist', '0', 'all', '1424068264', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('26', 'admin', '1', 'infoimg', '0', 'all', '1424068266', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('27', 'admin', '1', 'infoclass', '0', 'all', '1424068994', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('28', 'admin', '1', 'soft', '0', 'all', '1424068998', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('29', 'admin', '1', 'soft', '13', 'add', '1424069036', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('30', 'admin', '1', 'infoclass', '0', 'all', '1424069058', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('31', 'admin', '1', 'web_config', '0', 'all', '1424071915', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('32', 'admin', '1', 'infoclass', '0', 'all', '1424072180', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('33', 'admin', '1', 'infoclass', '0', 'all', '1424072243', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('34', 'admin', '1', 'nav', '0', 'all', '1424072686', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('35', 'admin', '1', 'nav', '0', 'all', '1424072751', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('36', 'admin', '1', 'infoclass', '0', 'all', '1424072799', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('37', 'admin', '1', 'login', '0', '', '1424073745', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('38', 'admin', '1', 'infoclass', '0', 'all', '1424073752', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('39', 'admin', '1', 'infoclass', '0', 'all', '1424074008', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('40', 'admin', '1', 'info', '17', 'del', '1424074008', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('41', 'admin', '1', 'login', '0', '', '1424085986', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('42', 'admin', '1', 'admin', '0', 'all', '1424086194', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('43', 'admin', '1', 'web_config', '0', 'all', '1424086197', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('44', 'admin', '1', 'infoclass', '0', 'all', '1424086290', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('45', 'admin', '1', 'infolist', '0', 'all', '1424086440', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('46', 'admin', '1', 'infolist', '0', 'all', '1424086619', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('47', 'admin', '1', 'infoclass', '0', 'all', '1424086624', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('48', 'admin', '1', 'infolist', '0', 'all', '1424086735', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('49', 'admin', '1', 'infolist', '10', 'add', '1424086735', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('50', 'admin', '1', 'infoclass', '0', 'all', '1424087385', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('51', 'admin', '1', 'info', '0', 'all', '1424087399', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('52', 'admin', '1', 'info', '2', 'update', '1424087455', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('53', 'admin', '1', 'infoclass', '0', 'all', '1424088037', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('54', 'admin', '1', 'infoimg', '0', 'all', '1424088040', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('55', 'admin', '1', 'infoimg', '0', 'all', '1424088281', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('56', 'admin', '1', 'infoimg', '4', 'add', '1424088281', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('57', 'admin', '1', 'infoimg', '0', 'all', '1424088708', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('58', 'admin', '1', 'infoimg', '0', 'all', '1424091511', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('59', 'admin', '1', 'infoimg', '4', 'add', '1424091511', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('60', 'admin', '1', 'infoimg', '0', 'all', '1424091585', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('61', 'admin', '1', 'infoimg', '4', 'add', '1424091628', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('62', 'admin', '1', 'infoimg', '0', 'all', '1424091653', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('63', 'admin', '1', 'infoimg', '4', 'add', '1424091698', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('64', 'admin', '1', 'infoimg', '0', 'all', '1424091731', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('65', 'admin', '1', 'infoimg', '0', 'all', '1424091794', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('66', 'admin', '1', 'infoimg', '4', 'add', '1424091794', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('67', 'admin', '1', 'infoimg', '0', 'all', '1424092360', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('68', 'admin', '1', 'info', '0', 'all', '1424094477', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('69', 'admin', '1', 'info', '18', 'update', '1424094528', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('70', 'admin', '1', 'info', '0', 'all', '1424094941', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('71', 'admin', '1', 'info', '1', 'update', '1424094946', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('72', 'admin', '1', 'infolist', '0', 'all', '1424095926', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('73', 'admin', '1', 'infoimg', '0', 'all', '1424095930', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('74', 'admin', '1', 'infosrc', '0', 'all', '1424095946', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('75', 'admin', '1', 'infoimg', '0', 'all', '1424095997', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('76', 'admin', '1', 'infolist', '0', 'all', '1424096011', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('77', 'admin', '1', 'infosrc', '0', 'all', '1424096017', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('78', 'admin', '1', 'editfile', '0', 'all', '1424096030', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('79', 'admin', '1', 'cascade', '0', 'all', '1424096054', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('80', 'admin', '1', 'infoclass', '0', 'all', '1424096057', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('81', 'admin', '1', 'maintype', '0', 'all', '1424096059', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('82', 'admin', '1', 'info', '0', 'all', '1424096061', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('83', 'admin', '1', 'infoimg', '0', 'all', '1424096066', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('84', 'admin', '1', 'infolist', '0', 'all', '1424097285', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('85', 'admin', '1', 'infoimg', '0', 'all', '1424097289', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('86', 'admin', '1', 'infolist', '0', 'all', '1424097373', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('87', 'admin', '1', 'infolist', '10', 'update', '1424097373', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('88', 'admin', '1', 'infolist', '0', 'all', '1424097882', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('89', 'admin', '1', 'infolist', '10', 'add', '1424097907', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('90', 'admin', '1', 'diymodel', '0', 'all', '1424098689', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('91', 'admin', '1', 'goodstype', '0', 'all', '1424098700', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('92', 'admin', '1', 'goodsbrand', '0', 'all', '1424098702', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('93', 'admin', '1', 'goods', '0', 'all', '1424098705', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('94', 'admin', '1', 'diyfield', '0', 'all', '1424098720', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('95', 'admin', '1', 'diyfield', '0', 'all', '1424098830', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('96', 'admin', '1', 'infoclass', '0', 'all', '1424098853', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('97', 'admin', '1', 'infoimg', '0', 'all', '1424098855', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('98', 'admin', '1', 'infoimg', '0', 'all', '1424098955', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('99', 'admin', '1', 'infoimg', '7', 'add', '1424098955', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('100', 'admin', '1', 'infoimg', '0', 'all', '1424099018', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('101', 'admin', '1', 'infoimg', '7', 'add', '1424099051', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('102', 'admin', '1', 'infoimg', '0', 'all', '1424099121', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('103', 'admin', '1', 'infoimg', '7', 'add', '1424099121', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('104', 'admin', '1', 'infoimg', '0', 'all', '1424099192', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('105', 'admin', '1', 'infoimg', '7', 'add', '1424099192', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('106', 'admin', '1', 'infoimg', '0', 'all', '1424099261', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('107', 'admin', '1', 'infoimg', '7', 'add', '1424099261', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('108', 'admin', '1', 'infoimg', '0', 'all', '1424099335', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('109', 'admin', '1', 'infoimg', '7', 'add', '1424099335', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('110', 'admin', '1', 'infoimg', '0', 'all', '1424099768', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('111', 'admin', '1', 'infoimg', '0', 'all', '1424099916', '127.0.0.1');
-INSERT INTO `web_sysevent` VALUES ('112', 'admin', '1', 'infoimg', '3', 'add', '1424099916', '127.0.0.1');
-
--- ----------------------------
--- Table structure for `web_uploads`
--- ----------------------------
-DROP TABLE IF EXISTS `web_uploads`;
-CREATE TABLE `web_uploads` (
-  `id` mediumint(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '上传信息id',
-  `name` varchar(30) NOT NULL COMMENT '文件名称',
-  `path` varchar(100) NOT NULL COMMENT '文件路径',
-  `size` int(10) NOT NULL COMMENT '文件大小',
-  `type` enum('image','soft','media') NOT NULL COMMENT '文件类型',
-  `posttime` int(10) NOT NULL COMMENT '上传日期',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_uploads
--- ----------------------------
-INSERT INTO `web_uploads` VALUES ('1', '1424091284.jpg', 'uploads/image/20150216/1424091284.jpg', '53154', 'image', '1424086710');
-INSERT INTO `web_uploads` VALUES ('2', '1424088294.jpg', 'uploads/image/20150216/1424088294.jpg', '66159', 'image', '1424086711');
-INSERT INTO `web_uploads` VALUES ('3', '1424095174.jpg', 'uploads/image/20150216/1424095174.jpg', '64128', 'image', '1424086712');
-INSERT INTO `web_uploads` VALUES ('4', '1424088710.jpg', 'uploads/image/20150216/1424088710.jpg', '73692', 'image', '1424086713');
-INSERT INTO `web_uploads` VALUES ('5', '1424095663.jpg', 'uploads/image/20150216/1424095663.jpg', '61672', 'image', '1424086715');
-INSERT INTO `web_uploads` VALUES ('6', '1424090666.jpg', 'uploads/image/20150216/1424090666.jpg', '57140', 'image', '1424086716');
-INSERT INTO `web_uploads` VALUES ('7', '1424096301.jpg', 'uploads/image/20150216/1424096301.jpg', '65422', 'image', '1424086717');
-INSERT INTO `web_uploads` VALUES ('8', '1424091619.jpg', 'uploads/image/20150216/1424091619.jpg', '56678', 'image', '1424086718');
-INSERT INTO `web_uploads` VALUES ('9', '1424090334.jpg', 'uploads/image/20150216/1424090334.jpg', '60194', 'image', '1424086719');
-INSERT INTO `web_uploads` VALUES ('10', '1424094970.jpg', 'uploads/image/20150216/1424094970.jpg', '74931', 'image', '1424086720');
-INSERT INTO `web_uploads` VALUES ('11', '1424088190.jpg', 'uploads/image/20150216/1424088190.jpg', '64906', 'image', '1424086721');
-INSERT INTO `web_uploads` VALUES ('12', '1424087555.jpg', 'uploads/image/20150216/1424087555.jpg', '59453', 'image', '1424086722');
-INSERT INTO `web_uploads` VALUES ('13', '1424090898.png', 'uploads/image/20150216/1424090898.png', '19778', 'image', '1424087447');
-INSERT INTO `web_uploads` VALUES ('14', '1424093482.jpg', 'uploads/image/20150216/1424093482.jpg', '49461', 'image', '1424088084');
-INSERT INTO `web_uploads` VALUES ('15', '1424090008.jpg', 'uploads/image/20150216/1424090008.jpg', '53010', 'image', '1424088745');
-INSERT INTO `web_uploads` VALUES ('16', '1424093018.jpg', 'uploads/image/20150216/1424093018.jpg', '61817', 'image', '1424091599');
-INSERT INTO `web_uploads` VALUES ('17', '1424093949.jpg', 'uploads/image/20150216/1424093949.jpg', '48730', 'image', '1424091682');
-INSERT INTO `web_uploads` VALUES ('18', '1424093708.jpg', 'uploads/image/20150216/1424093708.jpg', '34679', 'image', '1424091791');
-INSERT INTO `web_uploads` VALUES ('19', '1424104164.jpg', 'uploads/image/20150216/1424104164.jpg', '122076', 'image', '1424098935');
-INSERT INTO `web_uploads` VALUES ('20', '1424106926.jpg', 'uploads/image/20150216/1424106926.jpg', '118824', 'image', '1424099025');
-INSERT INTO `web_uploads` VALUES ('21', '1424107090.jpg', 'uploads/image/20150216/1424107090.jpg', '115171', 'image', '1424099081');
-INSERT INTO `web_uploads` VALUES ('22', '1424102530.jpg', 'uploads/image/20150216/1424102530.jpg', '95575', 'image', '1424099149');
-INSERT INTO `web_uploads` VALUES ('23', '1424101388.jpg', 'uploads/image/20150216/1424101388.jpg', '110237', 'image', '1424099224');
-INSERT INTO `web_uploads` VALUES ('24', '1424107574.jpg', 'uploads/image/20150216/1424107574.jpg', '110237', 'image', '1424099312');
-INSERT INTO `web_uploads` VALUES ('25', '1424104756.jpg', 'uploads/image/20150216/1424104756.jpg', '118698', 'image', '1424099799');
-
--- ----------------------------
--- Table structure for `web_usercomment`
--- ----------------------------
-DROP TABLE IF EXISTS `web_usercomment`;
-CREATE TABLE `web_usercomment` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '评论id',
-  `aid` int(10) unsigned NOT NULL COMMENT '信息id',
-  `molds` tinyint(1) unsigned NOT NULL COMMENT '信息类型',
-  `uid` int(10) unsigned NOT NULL COMMENT '用户id',
-  `uname` varchar(20) NOT NULL COMMENT '用户名',
-  `body` text NOT NULL COMMENT '评论内容',
-  `reply` text NOT NULL COMMENT '回复内容',
-  `link` varchar(200) NOT NULL COMMENT '评论网址',
-  `time` int(10) unsigned NOT NULL COMMENT '评论时间',
-  `ip` varchar(30) NOT NULL COMMENT '评论ip',
-  `isshow` tinyint(1) unsigned NOT NULL COMMENT '是否显示',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_usercomment
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_userfavorite`
--- ----------------------------
-DROP TABLE IF EXISTS `web_userfavorite`;
-CREATE TABLE `web_userfavorite` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '收藏id',
-  `aid` int(10) unsigned NOT NULL COMMENT '信息id',
-  `molds` tinyint(1) unsigned NOT NULL COMMENT '信息类型',
-  `uid` int(10) unsigned NOT NULL COMMENT '用户id',
-  `uname` varchar(20) NOT NULL COMMENT '用户名',
-  `link` varchar(200) NOT NULL COMMENT '收藏网址',
-  `time` int(10) unsigned NOT NULL COMMENT '评论时间',
-  `ip` varchar(30) NOT NULL COMMENT '评论ip',
-  `isshow` tinyint(1) unsigned NOT NULL COMMENT '是否显示',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_userfavorite
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_usergroup`
--- ----------------------------
-DROP TABLE IF EXISTS `web_usergroup`;
-CREATE TABLE `web_usergroup` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户组id',
-  `groupname` varchar(30) NOT NULL COMMENT '用户组名称',
-  `expvala` int(11) NOT NULL COMMENT '用户组经验介于a',
-  `expvalb` int(11) NOT NULL COMMENT '用户组经验介于b',
-  `stars` int(10) unsigned NOT NULL COMMENT '星星数',
-  `color` varchar(10) NOT NULL COMMENT '头衔颜色',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_usergroup
--- ----------------------------
-INSERT INTO `web_usergroup` VALUES ('1', '禁止访问', '-99999', '0', '0', '');
-INSERT INTO `web_usergroup` VALUES ('2', '新手会员', '1', '50', '1', '');
-INSERT INTO `web_usergroup` VALUES ('3', '初级会员', '51', '200', '4', '');
-INSERT INTO `web_usergroup` VALUES ('4', '中级会员', '201', '500', '8', '');
-INSERT INTO `web_usergroup` VALUES ('5', '高级会员', '501', '1000', '12', '');
-INSERT INTO `web_usergroup` VALUES ('6', '金牌会员', '1001', '3000', '16', '');
-
--- ----------------------------
--- Table structure for `web_vote`
--- ----------------------------
-DROP TABLE IF EXISTS `web_vote`;
-CREATE TABLE `web_vote` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '投票id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `title` varchar(30) NOT NULL COMMENT '投票标题',
-  `content` text NOT NULL COMMENT '投票描述',
-  `starttime` int(10) unsigned NOT NULL COMMENT '开始时间',
-  `endtime` int(10) unsigned NOT NULL COMMENT '结束时间',
-  `isguest` enum('true','false') NOT NULL COMMENT '游客投票',
-  `isview` enum('true','false') NOT NULL COMMENT '查看投票',
-  `intval` int(10) unsigned NOT NULL COMMENT '投票间隔',
-  `isradio` tinyint(1) unsigned NOT NULL COMMENT '是否多选',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_vote
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_votedata`
--- ----------------------------
-DROP TABLE IF EXISTS `web_votedata`;
-CREATE TABLE `web_votedata` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '投票数据id',
-  `voteid` smallint(6) unsigned NOT NULL COMMENT '投票id',
-  `optionid` text NOT NULL COMMENT '选票id',
-  `userid` int(10) unsigned NOT NULL COMMENT '投票人id',
-  `posttime` int(10) unsigned NOT NULL COMMENT '投票时间',
-  `ip` varchar(30) NOT NULL COMMENT '投票ip',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_votedata
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_voteoption`
--- ----------------------------
-DROP TABLE IF EXISTS `web_voteoption`;
-CREATE TABLE `web_voteoption` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '投票选项id',
-  `voteid` smallint(6) unsigned NOT NULL COMMENT '投票id',
-  `options` varchar(30) NOT NULL COMMENT '投票选项',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_voteoption
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_webconfig`
--- ----------------------------
-DROP TABLE IF EXISTS `web_webconfig`;
-CREATE TABLE `web_webconfig` (
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `varname` varchar(50) NOT NULL COMMENT '变量名称',
-  `varinfo` varchar(80) NOT NULL COMMENT '参数说明',
-  `vargroup` smallint(5) unsigned NOT NULL COMMENT '所属组',
-  `vartype` char(10) NOT NULL COMMENT '变量类型',
-  `varvalue` text NOT NULL COMMENT '变量值',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  PRIMARY KEY (`varname`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_webconfig
--- ----------------------------
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_webname', '网站名称', '0', 'string', '3004民心工程●180微商大联盟', '1');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_weburl', '网站地址', '0', 'string', 'http://127.0.0.1', '2');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_webpath', '网站目录', '0', 'string', '/3004mxgc180.com', '3');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_author', '网站作者', '0', 'string', 'RockSnap', '4');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_generator', '程序引擎', '0', 'string', '', '5');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_seotitle', 'SEO标题', '0', 'string', '3004民心工程●180微商大联盟', '6');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_keyword', '关键字设置', '0', 'string', '3004民心工程●180微商大联盟', '7');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_description', '网站描述', '0', 'bstring', '3004民心工程●180微商大联盟', '8');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_copyright', '版权信息', '0', 'bstring', 'Copyright © 2014 - 2015 www.3004mxgc180.com All Rights Reserved', '9');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_hotline', '客服热线', '0', 'string', '', '10');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_icp', '备案编号', '0', 'string', '', '11');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_webswitch', '启用站点', '0', 'bool', 'Y', '12');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_switchshow', '关闭说明', '0', 'bstring', '对不起，网站维护，请稍后登录。<br />网站维护期间对您造成的不便，请谅解！', '13');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_upload_img_type', '上传图片类型', '1', 'string', 'gif|png|jpg|bmp', '23');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_upload_soft_type', '上传软件类型', '1', 'string', 'zip|gz|rar|iso|doc|xls|ppt|wps|txt', '24');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_upload_media_type', '上传媒体类型', '1', 'string', 'swf|flv|mpg|mp3|rm|rmvb|wmv|wma|wav', '25');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_max_file_size', '上传文件大小', '1', 'string', '2097152', '26');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_imgresize', '自动缩略图方式　<br />(是\"裁切\",否\"填充\")', '1', 'bool', 'Y', '27');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_countcode', '流量统计代码', '1', 'bstring', '', '28');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_qqcode', '在线QQ　<br />(多个用\",\"分隔)', '1', 'bstring', '', '29');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_mysql_type', '数据库类型(支持mysql和mysqli)', '2', 'string', 'mysqli', '40');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_pagenum', '每页显示记录数', '2', 'string', '20', '41');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_timezone', '服务器时区设置', '2', 'string', '8', '42');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_mobile', '自动跳转手机版', '2', 'bool', 'N', '43');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_member', '开启会员功能', '2', 'bool', 'N', '44');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_oauth', '开启一键登录', '2', 'bool', 'N', '45');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_comment', '开启文章评论', '2', 'bool', 'N', '46');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_maintype', '开启二级类别', '2', 'bool', 'N', '47');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_typefold', '类别默认折叠', '2', 'bool', 'N', '48');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_quicktool', '管理页工具条', '2', 'bool', 'Y', '49');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_diserror', 'PHP错误显示', '2', 'bool', 'Y', '50');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_isreurl', '是否启用伪静态', '3', 'bool', 'N', '60');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_index', '首页规则', '3', 'string', 'index.html', '61');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_about', '关于我们页', '3', 'string', '{about}-{cid}-{page}.html', '62');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_news', '新闻中心页', '3', 'string', '{news}-{cid}-{page}.html', '63');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_newsshow', '新闻内容页', '3', 'string', '{newsshow}-{cid}-{id}-{page}.html', '64');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_product', '产品展示页', '3', 'string', '{product}-{cid}-{page}.html', '65');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_productshow', '产品内容页', '3', 'string', '{productshow}-{cid}-{id}-{page}.html', '66');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_case', '案例展示页', '3', 'string', '{case}-{cid}-{page}.html', '67');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_caseshow', '案例内容页', '3', 'string', '{caseshow}-{cid}-{id}-{page}.html', '68');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_join', '人才招聘页', '3', 'string', '{join}-{page}.html', '69');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_joinshow', '招聘内容页', '3', 'string', '{joinshow}-{id}.html', '70');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_message', '客户留言页', '3', 'string', '{message}-{page}.html', '71');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_contact', '联系我们页', '3', 'string', '{contact}-{cid}-{page}.html', '72');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_soft', '软件下载页', '3', 'string', '{soft}-{cid}-{page}.html', '73');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_softshow', '软件内容页', '3', 'string', '{softshow}-{cid}-{id}-{page}.html', '74');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_goods', '商品展示页', '3', 'string', '{goods}-{cid}-{tid}-{page}.html', '75');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_goodsshow', '商品内容页', '3', 'string', '{goodsshow}-{cid}-{tid}-{id}-{page}.html', '76');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_vote', '投票内容页', '3', 'string', '{vote}-{id}.html', '77');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_reurl_custom', '自定义规则', '3', 'string', '{file}.html', '78');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_auth_key', '网站标识码', '4', 'string', '2xUxGeWtt9Wgi3sR', '90');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_alipay_uname', '支付宝帐户', '4', 'string', '', '91');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_alipay_partner', '支付宝合作身份者ID', '4', 'string', '', '92');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_alipay_key', '支付宝安全检验码', '4', 'string', '', '93');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_qq_appid', 'QQ登录组件AppID', '4', 'string', '', '94');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_qq_appkey', 'QQ登录组件AppKey', '4', 'string', '', '95');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_weibo_appid', '微博登录组件AppID', '4', 'string', '', '96');
-INSERT INTO `web_webconfig` VALUES ('1', 'cfg_weibo_appkey', '微博登录组件AppKey', '4', 'string', '', '97');
-
--- ----------------------------
--- Table structure for `web_weblink`
--- ----------------------------
-DROP TABLE IF EXISTS `web_weblink`;
-CREATE TABLE `web_weblink` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '友情链接id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `classid` smallint(5) unsigned NOT NULL COMMENT '所属类别id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '所属类别父id',
-  `parentstr` varchar(80) NOT NULL COMMENT '所属类别父id字符串',
-  `webname` varchar(30) NOT NULL COMMENT '网站名称',
-  `webnote` varchar(200) NOT NULL COMMENT '网站描述',
-  `picurl` varchar(100) NOT NULL COMMENT '缩略图片',
-  `linkurl` varchar(255) NOT NULL COMMENT '跳转链接',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列排序',
-  `posttime` int(10) unsigned NOT NULL COMMENT '更新时间',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_weblink
--- ----------------------------
-
--- ----------------------------
--- Table structure for `web_weblinktype`
--- ----------------------------
-DROP TABLE IF EXISTS `web_weblinktype`;
-CREATE TABLE `web_weblinktype` (
-  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '友情链接类型id',
-  `siteid` smallint(5) unsigned NOT NULL DEFAULT '1' COMMENT '站点id',
-  `parentid` smallint(5) unsigned NOT NULL COMMENT '类别父id',
-  `parentstr` varchar(50) NOT NULL COMMENT '类别父id字符串',
-  `classname` varchar(30) NOT NULL COMMENT '类别名称',
-  `orderid` smallint(5) unsigned NOT NULL COMMENT '排列顺序',
-  `checkinfo` enum('true','false') NOT NULL COMMENT '审核状态',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of web_weblinktype
--- ----------------------------
+INSERT INTO `lx_user` VALUES ('1', '19681020ljl', 'bbfccdf7fb15c4a1c07717edbbbf2c3c', '超级管理员', '1428823497', '222.88.92.102', '376', null, '0', '1389940039', '1');
+INSERT INTO `lx_user` VALUES ('19', 'administrator', '8113f4a83f9608c36b46d30929d3ca0d', '超级管理员', '1428842948', '127.0.0.1', '99', '', '0', '1389940039', '1');
