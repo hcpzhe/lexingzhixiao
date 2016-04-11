@@ -44,7 +44,8 @@ class LevelupModel extends Model {
 		$beenbool = $levelup_M->where($map)->count();
 		if ($beenbool>0) {
 			//已经提交过升级, 并且没有被拒绝, 不再重复提交, 以免管理员重复审核导致数据出错
-			return true;
+			//把付款升级的申请拒绝掉
+			$levelup_M->where($map)->setField('status','2');
 		}
 		
 		$this->level_bef = $level;
