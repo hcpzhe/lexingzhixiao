@@ -3,7 +3,7 @@ return array(
 	'DEFAULT_TIMEZONE'			=>	'PRC', //时区
 	'URL_PATHINFO_DEPR'			=>	'-', //参数之间的分割符号  默认是'/'
     'URL_MODEL'                 =>  2, // 1:PATHINFO  2:rewrite 如果你的环境不支持PATHINFO 请设置为3
-    'APP_GROUP_LIST'            =>  'Home,Admin',
+    'APP_GROUP_LIST'            =>  'Home,Admin,Caifu,Cfmgr',
     'DEFAULT_GROUP'             =>  'Home',
     'SHOW_PAGE_TRACE'           =>  false,//显示调试信息
     

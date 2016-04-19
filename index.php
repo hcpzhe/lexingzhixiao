@@ -27,6 +27,12 @@ if (!is_dir($path)) mkdir($path);
 $path = SESSION_PATH.'Home/';
 if (!is_dir($path)) mkdir($path);
 
+$path = SESSION_PATH.'Caifu/';
+if (!is_dir($path)) mkdir($path);
+
+$path = SESSION_PATH.'Cfmgr/';
+if (!is_dir($path)) mkdir($path);
+
 //KindEditor编辑器内容 所用图片上传路径
 $path = PUBLIC_PATH.'Kindattached/';
 if (!is_dir($path)) mkdir($path);
