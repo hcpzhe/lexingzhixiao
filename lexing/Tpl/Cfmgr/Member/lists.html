@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>会员列表</title>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<script>
+$(function ($) {
+	$(".bat_a_handle").click(function(){
+		$(this).RSsubmit({success_alert:true,reload:true});
+		return false;
+	});
+});
+</script>
+<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+            	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+                	会员列表
+                </div>
+            </div>
+            
+<div style=" margin:10px 0 10px 10px;">
+    <form action="__SELF__" method="get">
+        会员编号<input name="account" id="account" type="text" class="text" value=""> 
+        <input type="submit" value="搜 索" class="btnsearch">
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>会员</th>
+            <th>推荐人</th>
+            <th>节点人</th>
+            <th>节点位置</th>
+            <th>会员级别</th>
+            <th>积分余额</th>
+            <th>注册时间</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+    <!-- <foreach name="list" item="row"> -->
+		<tr>
+			<td>{$row['account']}（{$row['realname']}）</td>
+			<td>
+			<!-- <if condition="$row['parent_id'] eq '0' "> -->
+				顶级用户
+			<!-- <else /> -->
+				{$memlist[$row['parent_id']]['account']}（{$memlist[$row['parent_id']]['realname']}）
+			<!-- </if> -->
+			</td>
+			<td>
+			<!-- <if condition="$row['parent_aid'] eq '0' "> -->
+				顶级用户
+			<!-- <else /> -->
+				{$memlist[$row['parent_aid']]['account']}（{$memlist[$row['parent_aid']]['realname']}）
+			<!-- </if> -->
+			</td>
+			<td>{$row['parent_area']}</td>
+			<td>{$row['level']}</td>
+			<td>{$row['points']}</td>
+			<td>{:date('Y/m/d H:i',$row['create_time'])}</td>
+			<td>
+				<a target="_blank" href="{:U('Member/info?id='.$row['id'])}">查看编辑</a> | 
+				<a target="main" href="{:U('Member/atlas?id='.$row['id'])}">图谱</a> | 
+				<a class="bat_a_handle" href="{:U('Member/resetPwd?id='.$row['id'])}">重置密码</a>
+			</td>
+		</tr>
+    <!-- </foreach> -->
+    
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="8">
+                {$_page}
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<div style="clear:both;"></div>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>会员图谱</title>
+	
+	<script src="__PUBLIC__/js/jquery.js"></script>
+	<script src="__PUBLIC__/js/RSsubmit.js"></script>
+	<link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+	<link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+	
+	<style type="text/css">
+	/* 总宽954px 每格96px 左右边距5px */
+	
+	.tupu_content {width: 954px; margin: 0 auto;}
+	.tupu_step1 {width: 954px; margin: 0 auto;}
+	.tupu_step2 {width: 318px; margin: 0 auto; float: left;}
+	.tupu_step3 {width: 106px; margin: 0 auto;float: left;}
+	.tupu_box_wrap {width: 106px; margin: 0 auto;}
+	.tupu_box {width: 94px; border:1px solid #CCC; margin: 0 5px;}
+		.tupu_box .box_gray{background:#ccc;}
+		.tupu_box .box_red{background:#c00; line-height:36px;}
+		.tupu_box .box_blue{background:#6fadd1;}
+	.tupu_box_tit {text-align:center; line-height: 18px;}
+	.tupu_box_body {text-align:center; line-height: 30px;}
+	
+	.tupu_line {position: relative; height: 21px; overflow: hidden;}
+		.tupu_step1 .tupu_line .tupu_line_b {width: 636px;}
+		.tupu_step1 .tupu_line .tupu_line_crl {width: 634px;}
+		.tupu_step2 .tupu_line .tupu_line_b {width: 212px;}
+		.tupu_step2 .tupu_line .tupu_line_crl {width: 210px;}
+	.tupu_line_a {width:0px; height:10px; border-left:1px solid #666; margin:0 auto;}
+	.tupu_line_b { height:0px; overflow:hidden; border-top:1px solid #666;}
+	.tupu_line_cm {width:0px; height:10px; border-left:1px solid #666;margin:0 auto; position: relative;}
+	.tupu_line_crl { height:10px; border-left:1px solid #666; border-right:1px solid #666;position: relative;top:-10px;}
+	</style>
+</head>
+<body>
+<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+		会员图谱
+	</div>
+</div>
+
+<div style=" margin:10px 0 10px 10px;">
+	<form action="__ACTION__" method="get">
+		会员编号<input name="account" id="account" type="text" class="text" value=""> 
+		<input type="submit" value="搜 索" class="btnsearch">
+	</form>
+</div>
+<div class="tupu_content">
+<div class="tupu_step1">
+	<div class="tupu_box_wrap">
+		<div class="tupu_box">
+			<div class="tupu_box_tit box_gray">
+				{$member_list['level']} 级<br>{$member_list['account']}
+			</div>
+			<div class="tupu_box_body">
+				直推：{$member_list['son_nums']}<br />
+				体系：{$member_list['area_nums']}
+			</div>
+		</div>
+	</div>
+	<div class="tupu_line">
+		<div class="tupu_line_a"></div>
+		<div class="tupu_line_b"></div>
+		<div class="tupu_line_cm"></div>
+		<div class="tupu_line_crl"></div>
+	</div>
+</div>
+<div class="tupu_step2">
+	{:tupubox($member_list,'A',1)}
+</div>
+<div class="tupu_step2">
+	{:tupubox($member_list,'B',1)}
+</div>
+<div class="tupu_step2">
+	{:tupubox($member_list,'C',1)}
+</div>
+<div style="clear:both;"></div>
+
+<div class="tupu_step3">
+	{:tupubox($member_list['A'],'A')}
+</div>
+<div class="tupu_step3">
+	{:tupubox($member_list['A'],'B')}
+</div>
+<div class="tupu_step3">
+	{:tupubox($member_list['A'],'C')}
+</div>
+<div class="tupu_step3">
+	{:tupubox($member_list['B'],'A')}
+</div>
+<div class="tupu_step3">
+	{:tupubox($member_list['B'],'B')}
+</div>
+<div class="tupu_step3">
+	{:tupubox($member_list['B'],'C')}
+</div>
+<div class="tupu_step3">
+	{:tupubox($member_list['C'],'A')}
+</div>
+<div class="tupu_step3">
+	{:tupubox($member_list['C'],'B')}
+</div>
+<div class="tupu_step3">
+	{:tupubox($member_list['C'],'C')}
+</div>
+<div style="clear:both;"></div>
+<div style="clear:both; height:20px; width:100%;">&nbsp;</div>
+</div>
+<!-- 
+<php>
+function tupubox ($list,$area,$line=0) {
+	if (empty($list)) {
+		$return = '<span>&nbsp;</span>';
+	}elseif (empty($list[$area])) {
+		$return = '
+		<div class="tupu_box_wrap">
+			<div class="tupu_box">
+				<div class="tupu_box_tit box_red">
+					<a href="'.U('Member/add?pid='.$list['id'].'&paid='.$list['id'].'&ptype='.$area).'">注册</a>
+				</div>
+				<div class="tupu_box_body" style="height:60px;"></div>
+			</div>
+		</div>';
+	}else {
+		$return = '
+		<div class="tupu_box_wrap">
+			<div class="tupu_box">
+				<div class="tupu_box_tit box_blue">
+					<a href="'.U('Member/atlas?id='.$list[$area]['id']).'">'.$list[$area]['level'].' 级<br>'.$list[$area]['account'].'</a>
+				</div>
+				<div class="tupu_box_body">
+					 直推：'.$list[$area]['son_nums'].'人<br />
+					体系：'.$list[$area]['area_nums'].'人
+				</div>
+			</div>
+		</div>
+		';
+		if ($line) {
+			$return .= '
+			<div class="tupu_line">
+				<div class="tupu_line_a"></div>
+				<div class="tupu_line_b"></div>
+				<div class="tupu_line_cm"></div>
+				<div class="tupu_line_crl"></div>
+			</div>
+			';
+		}
+	}
+	return $return;
+}
+</php>
+ -->
+</body></html>

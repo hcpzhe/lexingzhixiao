@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0038)http://www.hntianlian33.com/News/index -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>公告列表</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td colspan="7" class="r_c1_title">公告列表</td>
+    </tr>
+     <foreach name="list" item="vo">    
+    <tr>
+      <td width="4%" align="center" class="b_b"><img src="__PUBLIC__/images/list_pref1.gif" width="9" height="9"></td>
+      <td width="15%" class="r_c1_item b_b"><a href="{:U('Article/read?id='.$vo['id'])}">{$vo['title']}</a></td>
+      <td width="15%" class="r_c1_item b_b">{$vo['editor']}</td>
+      <td width="15%" class="r_c1_item b_b"><img src="{$vo.picture}" /></td>
+      <td width="15%" class="r_c1_item b_b">{:date('Y-m-d',$vo['create_time'])}</td>
+      <td width="15%" class="r_c1_item b_b">{:date('Y-m-d',$vo['update_time'])}</td>
+    </tr>
+    </foreach>
+    <tr> 
+      <td height="24" colspan="3" align="center">
+        <table class="" width="100%">
+            <tbody><tr>
+                <td align="left" height="29" width="40%">
+                    <div align="left">
+                    </div>
+                </td>
+                <td align="right" height="22" valign="middle" width="25%">
+                    {$page}
+                </td>
+            </tr>
+          </tbody>
+       </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

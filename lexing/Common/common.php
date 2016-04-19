@@ -9,6 +9,38 @@ function get_shouldpay($level, $basepoints) {
 	return $level > 0 ? 2 * $basepoints * pow(2,$level-1) : $basepoints;
 }
 
+function cf_shouldpay($level) {
+	switch ($level) {
+		case 0:
+			return 3800;
+		break;
+		case 1:
+			return 3000;
+		break;
+		case 2:
+			return 5000;
+		break;
+		case 3:
+			return 10000;
+		break;
+		case 4:
+			return 20000;
+		break;
+		case 5:
+			return 40000;
+		break;
+		case 6:
+			return 80000;
+		break;
+		case 7:
+			return 160000;
+		break;
+		default:
+			return 320000;
+		break;
+	}
+}
+
 /**
  * 密码加密方法
  */

@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>积分奖励明细</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td class="r_c1_title">积分奖励明细</td>
+      </tr>
+      <tr>
+        <td align="center" style="line-height:1.8;">
+          <table width="100%" border="0" cellpadding="1" cellspacing="1" bgcolor="#F6F6F6" class="btab">
+            <tbody>
+              <tr class="tr1">
+                <td width="10%" height="24" align="center" bgcolor="#F0F0F0">账户</td>
+                <td width="10%" align="center" bgcolor="#F0F0F0">奖金来源</td>
+                <td width="20%" align="center" bgcolor="#F0F0F0">积分</td>
+                <td width="20%" align="center" bgcolor="#F0F0F0">管理费</td>
+                <td width="20%" align="center" bgcolor="#F0F0F0">实际奖励积分</td>
+                <td width="20%" align="center" bgcolor="#F0F0F0">结算时间</td>
+              </tr>
+               <!-- <foreach name="list" item="vo"> -->
+              <tr align="center">
+                <td>{$_ME['account']}</td>
+                <td>
+                	<!--<notempty name="memlist[$vo['source_id']]">-->
+                    {$memlist[$vo['source_id']]['account']}
+                    <!--</notempty>-->
+                </td>
+                <td>{$vo['sys_bonus']}</td>
+                <td>{$vo['guanli_fee']}</td>
+                <td>{$vo['bonus']}</td>
+                <td>{:date('Y/m/d H:i:s',$vo['create_time'])}</td>
+              </tr>
+            <!-- </foreach> -->  
+           </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+       <td height="20" width="100%" align="center" bgcolor="#FFFFFF">
+           <!-- 分页开始 -->
+        <table class="" width="100%">
+            <tbody><tr>
+                <td align="left" height="29" width="40%">
+                    <div align="left">
+                    </div>
+                </td>
+                <td align="center" height="22" valign="middle" width="25%">
+                    {$_page} 
+                </td>
+            </tr>
+        </tbody></table>
+       </td>
+    </tr>
+ </tbody>
+</table>
+</body>
+</html>

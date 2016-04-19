@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{$info['category']}</title>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/RSsubmit.js"></script>
+    <link href="__PUBLIC__/css/Admin/Site.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/css/Admin/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/kindeditor-4.1.10/themes/default/default.css" />
+	<script charset="utf-8" src="__PUBLIC__/kindeditor-4.1.10/kindeditor-min.js"></script>
+	<script charset="utf-8" src="__PUBLIC__/kindeditor-4.1.10/lang/zh_CN.js"></script>
+</head>
+<body>
+<script>
+KindEditor.ready(function(K) {
+	var myeditor = K.create('textarea[name="content"]', {
+		allowFileManager : true,
+		//autoHeightMode : true,
+		afterCreate : function() {
+			this.loadPlugin('autoheight');
+		},
+		afterUpload : function(url) {
+			var firstimageoption = '<option value="' + url + '">' + url + '</option>';
+			var selectoption = '<option value="' + url + '" selected="selected">' + url + '</option>';
+			$("#firstimage").append(firstimageoption);
+			$("#images").append(selectoption);
+		}
+	});
+	K('#form1').bind('submit', function() {
+		myeditor.sync();
+	});
+});
+</script>
+
+<div id="righttitle" style="height:30px; margin-bottom:6px; overflow:hidden;">
+	<div style="width:200px; height:30px; line-height:30px; margin:0px 0px 0px 10px; font-weight:bold; color:#666; font-size:18px;">
+    	{$info['category']}
+    </div>
+</div>
+            
+
+<form action="{:U('Article/update')}" method="post" id="form1">
+<table class="table">
+    <tbody>
+        <tr>
+            <td style="width:100px; text-align:right;">文章标题：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<input name="title" type="text" value="{$info['title']}" style="width:500px;"><span class="colorred">*</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">所属文章分类：</td>
+            <td style="text-align:left;padding-left:10px;">
+           	<!-- <if condition="$info['is_single']"> -->
+           		<input disabled="disabled" name="category" type="text" value="{$info['category']}"><span class="colorred">单页文章不允许修改分类</span>
+           	<!-- <else /> -->
+				<select name="category">
+					<!-- <foreach name="catlist" item="ctgname"> -->
+						<!-- <if condition="$info['category'] eq $ctgname"> -->
+						<option value="{$ctgname}" selected="selected">╋{$ctgname}</option>
+						<!-- <else /> -->
+						<option value="{$ctgname}">╋{$ctgname}</option>
+						<!-- </if> -->
+					<!-- </foreach> -->
+				</select>
+           	<!-- </if> -->
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right;">文章内容：</td>
+            <td style="text-align:left;padding-left:10px;">
+				<textarea name="content" style="height:500px;width:90%;">{$info['content']}</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            	<input type="hidden" name="id" value="{$info['id']}">
+                <input type="submit" value=" 更新 " class="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value=" 重置  " class="submit">
+            </td>
+        </tr>
+    </tbody>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/css/base.css">
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/css/global.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/main.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/RSsubmit.js"></script>
+<title>
+
+</title></head>
+<body>
+    <form name="form1" method="post" action="__ACTION__" id="form1">
+<script type="text/javascript">
+var baturl = '';
+$(function($) {
+  $("#dolist").change(function(){
+	 switch(this.value) {
+	 	case "0" ://设为图片
+	 		baturl = '__GROUP__/News/on_pic';
+	 	break;
+	 	case "1" ://设为推荐
+	 		baturl = '__GROUP__/News/on_recom';
+	 	break;
+	 	case "2" ://信息显示
+	 		baturl = '__GROUP__/News/on_display';
+	 	break;
+	 	case "3" ://取消图片
+	 		baturl = '__GROUP__/News/off_pic';
+	 	break;
+	 	case "4" ://取消推荐
+	 		baturl = '__GROUP__/News/off_recom';
+	 	break;
+	 	case "5" ://取消显示
+	 		baturl = '__GROUP__/News/off_display';
+	 	break;
+	 	case "6" ://删除
+	 		baturl = '__GROUP__/News/delete';
+	 	break;
+	 	default :
+	 		baturl = '';
+	 	break;
+	 }
+  });
+  
+  $(".bat_a_handle").click(function(){
+	 $(this).RSsubmit({success_alert:true,reload:true});
+	 return false;
+  });
+});
+function bathandle(inputname) {
+	if (baturl != '') {
+		if(confirm('您确认要'+$("#dolist").find("option:selected").text()+'吗？')){
+			var ids = dot = '';
+			$("input[name='"+inputname+"'][checked=true]}").each(function(){
+				ids += dot + this.value;
+				dot = ',';
+			});
+			$(this).RSsubmit({
+				success_alert : true,
+				reload : true,
+				data : {id:ids},
+				url : baturl
+			});
+		}
+	}
+	return false;
+}
+</script>
+    <div class="main-content">
+        <div style="width: 960px; margin: 0 auto;">
+            <h3 class="common-tit">
+                <span>当前位置：</span>公告中心 </h3>
+            <div class="paging3">
+                检索：
+                信息状态：<select name="newstype" id="DropDownList1">
+	<option selected="selected" value="-1">请选择公告类型</option>
+	<option value="2">显示的公告</option>
+	<option value="5">不显示公告</option>
+
+</select>
+                公告标题：<input name="txtsearch" id="txtsearch" class="txt-w134" type="text">
+                <input name="Button1" value="检索" id="Button1" class="btn7" type="submit">
+            </div>
+            <div class="row-tb">
+                <table id="newslist" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                        <th scope="col">
+                            <input name="checkbox" id="checkbox" title="全选" onclick="blcheck(this)" type="checkbox">
+                        </th>
+                        <th scope="col">
+                            信息标题
+                        </th>
+                        <th scope="col">
+                            发布时间
+                        </th>
+                        <th scope="col">
+                            显示
+                        </th>
+                        <th scope="col" style="width: 80px;">
+                            操作
+                        </th>
+                    </tr>
+                    <!-- <foreach name="list" item="row"> -->
+                     <tr style="text-align: center;">
+                         <td>
+                             <input name="batHdlChkbox" value="{$row['id']}" type="checkbox">
+                         </td>
+                         <td>
+                            <a href="__APP__/Home/News/show/id/{$row['id']}" title="{$row['title']}" target="_blank">{$row['title']}</a>  
+                         </td>
+                         <td>
+                             {:date('Y-m-d H:i:s',$row['create_time'])}
+                         </td>
+                         <td>
+                         	<!-- <if condition="$row['is_display'] gt 0"> -->
+                         	<a class="bat_a_handle" href="__URL__/off_display/id/{$row['id']}">√</a>
+                         	<!-- <else /> -->
+                            <a class="bat_a_handle" href="__URL__/on_display/id/{$row['id']}">×</a>
+                            <!-- </if> -->
+                         </td>
+                         <td>
+                             <a href="__URL__/delete/id/{$row['id']}" onclick="if(confirm('您确认要删除吗？')){$(this).RSsubmit()};return false;">删除</a>|
+                             <a href="__URL__/read/id/{$row['id']}">修改</a>
+                         </td>
+                     </tr>
+                 	 <!-- </foreach> -->
+                </tbody></table>
+            </div>
+            <div class="paging3">
+                {$page}
+                <div class="cl">
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+
+
+</body></html>

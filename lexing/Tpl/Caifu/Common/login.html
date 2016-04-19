@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>金瑞公司</title>
+<link href="__PUBLIC__/css/admin_login.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/RSsubmit.js"></script>
+<style type="text/css">	
+body{ background:#000 url(__PUBLIC__/images/bg_lo.jpg) repeat-x; }
+.body{ background:url(__PUBLIC__/images/login_bg.jpg) center center no-repeat; }
+	.txt{ color:#FFF; }
+	.btn_submit{ background:url(__PUBLIC__/images/login_btn.jpg) no-repeat; width:76px; height:22px;  border:none; }
+	.btn_reset{ background:url(__PUBLIC__/images/reset_btn.jpg) no-repeat; width:76px; height:22px;  border:none; }
+	.input_a{ width:180px; height:18px; line-height:18px;  }
+	.input_b{ width:50px; height:18px; line-height:18px;  }
+	</style>
+</head>
+<body>
+<div class="body">
+    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+       <tbody>
+          <tr>
+            <td height="250">&nbsp;</td>
+          </tr>
+        </tbody>
+     </table>
+     <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody>
+           <tr>
+              <td width="200" height="400">&nbsp;</td>
+              <td width="270" valign="top">
+                 <form name="form1" method="post" action="{:U('Common/checkLogin')}" id="form1" onsubmit="$(this).RSsubmit();return false;">
+                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                     <tbody>
+                       <tr>
+                         <td height="50" align="right" class="txt">&nbsp;</td>
+                         <td align="left">&nbsp;</td>
+                       </tr>
+                       <tr>
+                         <td width="30%" height="40" align="right" class="txt">账号</td>
+                         <td width="70%" align="center">
+                           <input name="account" type="text" size="20" class="input_a">
+                         </td>
+                       </tr>
+                       <tr>
+                         <td height="40" align="right" class="txt">密码</td>
+                         <td align="center">
+                           <input name="password" type="password" size="20" class="input_a"></td>
+                        </tr>
+                        <tr>
+                          <td height="60" align="right">&nbsp;</td>
+                          <td align="center">
+                            <input type="submit" name="Submit" value=" " class="btn_submit">                            &nbsp;&nbsp;
+                            <input type="reset" name="reset" value=" " class="btn_reset">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="40" colspan="2" align="left">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                   </table>
+                 </form>
+               </td>
+               <td width="222">&nbsp;</td>
+             </tr>
+           </tbody>
+        </table>
+       <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+               <td height="130" valign="top">&nbsp;</td>
+             </tr>
+           </tbody>
+        </table>
+  </div>
+</body>
+</html>

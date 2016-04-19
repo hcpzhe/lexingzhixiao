@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>提现列表</title>
+<style>
+td{ height:28px;}
+</style>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td class="r_c1_title">提现详情页</td>
+      </tr>
+      <tr>
+        <td height="20"></td>
+      </tr>
+      <tr>
+        <td align="center" style="line-height:1.8;">
+         <form name="form1" method="post" action="{:U('Points/addCash')}" id="form1">
+          <table width="100%" border="0" cellpadding="1" cellspacing="1" class="btab">
+            <tbody>
+              <tr class="tr1">
+                <td width="41%" align="right">申请提现金额：</td>
+                <td width="59%"> <input name="apply_money" type="text" size="20" class="input_a" value="{$readycash}"></td>
+              </tr> 
+              <tr class="tr1">
+                <td width="41%" align="right">可提现最高金额：</td>
+                 <td>{$ablecash}</td>
+               </tr>    
+              <tr>
+                 <td colspan="2" align="center"><input type="submit" value="提交"></td>
+              </tr>             
+       </tbody>
+     </table>
+     </form>
+   </td>
+  </tr>
+ </tbody>
+</table>
+</body>
+</html>

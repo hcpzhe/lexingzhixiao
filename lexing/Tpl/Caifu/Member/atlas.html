@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>会员图谱</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/RSsubmit.js"></script>
+	<style type="text/css">
+	/* 总宽774px 每格80px 左右边距3px */
+	.tupu_content {width: 774px; margin: 0 auto;}
+		.tupu_content a {color: #222;}
+	.tupu_step1 {width: 774px; margin: 0 auto;}
+	.tupu_step2 {width: 258px; margin: 0 auto; float: left;}
+	.tupu_step3 {width: 86px; margin: 0 auto;float: left;}
+	.tupu_box_wrap {width: 86px; margin: 0 auto;}
+	.tupu_box {width: 78px; border:1px solid #CCC; margin: 0 3px;}
+		.tupu_box .box_gray{background:#ccc;}
+		.tupu_box .box_red{background:#c00; line-height:36px;}
+		.tupu_box .box_blue{background:#6fadd1;}
+	.tupu_box_tit {text-align:center; line-height: 18px;}
+	.tupu_box_body {text-align:center; line-height: 30px;}
+	
+	.tupu_line {position: relative; height: 21px; overflow: hidden;}
+		.tupu_step1 .tupu_line .tupu_line_b {width: 516px;}
+		.tupu_step1 .tupu_line .tupu_line_crl {width: 514px;}
+		.tupu_step2 .tupu_line .tupu_line_b {width: 172px;}
+		.tupu_step2 .tupu_line .tupu_line_crl {width: 170px;}
+	.tupu_line_a {width:0px; height:10px; border-left:1px solid #666; margin:0 auto;}
+	.tupu_line_b { height:0px; overflow:hidden; border-top:1px solid #666;}
+	.tupu_line_cm {width:0px; height:10px; border-left:1px solid #666;margin:0 auto; position: relative;}
+	.tupu_line_crl { height:10px; border-left:1px solid #666; border-right:1px solid #666;position: relative;top:-10px;}
+	</style>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+      <tr>
+        <td class="r_c1_title">市场图谱</td>
+      </tr>
+  
+      <tr>
+        <td align="center">
+		<!-- start -->
+		
+		<table width="98%" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td align="left" style="line-height:2; padding-top:10px;"> ◆点击节点上方的 编号 可以看到该编号会员的下属. <br>
+              ◆其中<span style="color:#144388">蓝色</span>为正常会员；
+              <span style="color:#c00">红色背景</span>的为空位  </td>
+          </tr>
+        </tbody></table>
+		<div id="preload" style="width: 100%; padding-top: 20px; text-align: center; color: red;"> <img src="__PUBLIC__/images/load.gif" align="absmiddle">&nbsp;&nbsp;正在加载中…… </div>
+		<script language="JavaScript" type="text/javascript">
+function loadWindow()  
+{  
+   if(document.readyState == "complete") 
+   {  
+		document.getElementById("preload").style.display="none";}
+   else
+   {   
+		setTimeout("loadWindow()", 10)
+    }
+} 
+loadWindow()  
+        </script>
+		<!-- <if condition="!empty($member_list)"> -->
+		<div class="tupu_content">
+		<div class="tupu_step1">
+			<div class="tupu_box_wrap">
+				<div class="tupu_box">
+					<div class="tupu_box_tit box_gray">
+						{$member_list['level']} 级<br>{$member_list['account']}
+					</div>
+					<div class="tupu_box_body">
+						直推：{$member_list['son_nums']}<br />
+						体系：{$member_list['area_nums']}
+					</div>
+				</div>
+			</div>
+			<div class="tupu_line">
+				<div class="tupu_line_a"></div>
+				<div class="tupu_line_b"></div>
+				<div class="tupu_line_cm"></div>
+				<div class="tupu_line_crl"></div>
+			</div>
+		</div>
+		<div class="tupu_step2">
+			{:tupubox($member_list,'A',1)}
+		</div>
+		<div class="tupu_step2">
+			{:tupubox($member_list,'B',1)}
+		</div>
+		<div class="tupu_step2">
+			{:tupubox($member_list,'C',1)}
+		</div>
+		<div style="clear:both;"></div>
+		
+		<div class="tupu_step3">
+			{:tupubox($member_list['A'],'A')}
+		</div>
+		<div class="tupu_step3">
+			{:tupubox($member_list['A'],'B')}
+		</div>
+		<div class="tupu_step3">
+			{:tupubox($member_list['A'],'C')}
+		</div>
+		<div class="tupu_step3">
+			{:tupubox($member_list['B'],'A')}
+		</div>
+		<div class="tupu_step3">
+			{:tupubox($member_list['B'],'B')}
+		</div>
+		<div class="tupu_step3">
+			{:tupubox($member_list['B'],'C')}
+		</div>
+		<div class="tupu_step3">
+			{:tupubox($member_list['C'],'A')}
+		</div>
+		<div class="tupu_step3">
+			{:tupubox($member_list['C'],'B')}
+		</div>
+		<div class="tupu_step3">
+			{:tupubox($member_list['C'],'C')}
+		</div>
+		<div style="clear:both;"></div>
+		<div style="clear:both; height:20px; width:100%;">&nbsp;</div>
+		</div>
+		<!-- </if> -->
+         <form action="{:U('Member/atlas')}" method="post" name="formSearch" id="formSearch" onsubmit="return chkfrm(this)">
+        <table width="60%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td height="5" colspan="2"></td>
+          </tr>
+          <script type="text/javascript">
+				function chkfrm(afrm)
+				{
+					if (afrm.account.value == "")
+					{
+						alert("请填写要查找的会员编号");
+						afrm.account.focus();
+						return false;
+					}
+					return true;
+				}	
+              </script>
+         
+            <tr>
+              <td width="25%" height="25" align="right">会员编号：</td>
+              <td width="75%" height="25" align="left"><input name="account" type="text" id="account">
+                  <input type="submit" name="submit" id="submit" class="ibtn" value="搜索">
+              </td>
+            </tr>
+          
+        </tbody></table>
+        </form>
+		<!-- end -->		</td>
+      </tr>
+  
+</tbody></table>
+</body>
+</html>
+<!-- 
+<php>
+function tupubox ($list,$area,$line=0) {
+	if (empty($list)) {
+		$return = '<span>&nbsp;</span>';
+	}elseif (empty($list[$area])) {
+		$return = '
+		<div class="tupu_box_wrap">
+			<div class="tupu_box">
+				<div class="tupu_box_tit box_red">
+					<a href="'.U('Member/add?pid='.$list['id'].'&paid='.$list['id'].'&ptype='.$area).'">注册</a>
+				</div>
+				<div class="tupu_box_body" style="height:60px;"></div>
+			</div>
+		</div>';
+	}else {
+		$return = '
+		<div class="tupu_box_wrap">
+			<div class="tupu_box">
+				<div class="tupu_box_tit box_blue">
+					<a href="'.U('Member/atlas?id='.$list[$area]['id']).'">'.$list[$area]['level'].' 级<br>'.$list[$area]['account'].'</a>
+				</div>
+				<div class="tupu_box_body">
+					 直推：'.$list[$area]['son_nums'].'人<br />
+					体系：'.$list[$area]['area_nums'].'人
+				</div>
+			</div>
+		</div>
+		';
+		if ($line) {
+			$return .= '
+			<div class="tupu_line">
+				<div class="tupu_line_a"></div>
+				<div class="tupu_line_b"></div>
+				<div class="tupu_line_cm"></div>
+				<div class="tupu_line_crl"></div>
+			</div>
+			';
+		}
+	}
+	return $return;
+}
+</php>
+ -->

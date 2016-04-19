@@ -50,7 +50,7 @@ class CfLevelupModel extends Model {
 		
 		$this->level_bef = $level;
 		$this->level_aft = $level+1;
-		$this->should_pay = get_shouldpay($level, $configs['basepoints']);
+		$this->should_pay = cf_shouldpay($level);
 		$this->rec_id = $this->getRec($this->member_id);
 		if ($this->type == '2') {
 			$member_id = $this->member_id;

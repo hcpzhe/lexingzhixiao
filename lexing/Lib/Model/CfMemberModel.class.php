@@ -146,9 +146,9 @@ class CfMemberModel extends Model {
 	 * @param  $mid
 	 * @param  $basepoints
 	 */
-	public function getShould($mid , $basepoints) {
+	public function getShould($mid) {
 		$info = $this->find($mid);
-		return get_shouldpay($info['level'], $basepoints);
+		return cf_shouldpay($info['level']);
 	}
 	
 	/**

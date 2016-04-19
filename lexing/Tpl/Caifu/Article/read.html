@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{$info['category']}</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td class="r_c1_title">{$info['category']}</td>
+      </tr>
+
+      <tr>
+        <td align="center">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" class="btab">
+			<tbody><tr>
+			  <td height="40" align="center" bgcolor="#FFFFFF" style="border-bottom:1px dotted #CCCCCC; font-size:14px; font-weight:bold; line-height:40px; color:#FF8000">{$info['title']}</td>
+			</tr>
+			<tr>
+			<td height="24" align="right" bgcolor="#F5F5F5" style="border-bottom:1px dotted #CCCCCC; color:#666666"> 发表时间：{:date('Y-m-d H:i:s',$info['create_time'])} &nbsp;&nbsp;<a href="javascript:;void(history.go(-1));">返回</a>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		  </tr>
+		  <tr>
+			<td height="24" align="left" class="pad10 lineH2 padTop10 ">
+				{$info['content']}
+			</td>
+		  </tr>
+		  </tbody></table>
+		  
+	  </td>
+	  </tr>
+ 
+    </tbody></table>
+</body>
+</html>

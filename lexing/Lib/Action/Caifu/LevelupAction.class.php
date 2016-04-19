@@ -68,7 +68,7 @@ class LevelupAction extends CaifubaseAction {
 	public function levelup() {
 		if ($this->_me['level'] >= $this->_cfgs['maxlevel']) $this->error('您已经达到最高级别了!', U('Index/welcome'));
 		
-		$need_pts = get_shouldpay($this->_me['level'], $this->_cfgs['basepoints']);//所需积分
+		$need_pts = cf_shouldpay($this->_me['level']);//所需积分
 		$cash_M = New CfCashModel();
 		$ready_pts = $cash_M->getReadyMoney(MID);
 		$canuse_pts = $this->_me['points']-$ready_pts; //可用积分
@@ -111,7 +111,7 @@ class LevelupAction extends CaifubaseAction {
 		//判断   所需积分 >= 余额-预提现积分
 		if ($this->_me['level'] >= $this->_cfgs['maxlevel']) $this->error('您已经达到最高级别了!');
 		
-		$need_pts = get_shouldpay($this->_me['level'], $this->_cfgs['basepoints']);//所需积分
+		$need_pts = cf_shouldpay($this->_me['level']);//所需积分
 		$cash_M = New CfCashModel();
 		$ready_pts = $cash_M->getReadyMoney(MID);
 		if ($need_pts > $this->_me['points']-$ready_pts) $this->error('积分余额不足, 无法使用积分升级');

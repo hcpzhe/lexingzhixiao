@@ -139,8 +139,8 @@ class MemberAction extends CfmgrbaseAction {
 		$this->assign('painfo',$painfo);//节点人
 		$this->assign('ptype',$ptype);//节点类型 A/B/C
 		
-		$randaccount = $member_M->randAccount();
-		$this->assign('randaccount',$randaccount);//随机6位可用的用户名
+// 		$randaccount = $member_M->randAccount();
+// 		$this->assign('randaccount',$randaccount);//随机6位可用的用户名
 		
 		//cookie(C('CURRENT_URL_NAME'), U('Index/info')); //不需要返回至此页面
 		$this->display();

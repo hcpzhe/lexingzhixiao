@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{$_CFG['sysname']} 用户中心</title>
+<link href="__PUBLIC__/css/home.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/RSsubmit.js"></script>
+<script type="text/javascript">
+function SetCwinHeight() {
+    var iframeid = document.getElementById("main"); //iframe id
+    if (document.getElementById) {
+        if (iframeid && !window.opera) {
+            if (iframeid.contentDocument && iframeid.contentDocument.body.scrollHeight) {
+                iframeid.height = iframeid.contentDocument.body.scrollHeight;
+            } else if (iframeid.Document && iframeid.Document.body.offsetHeight) {
+                iframeid.height = iframeid.Document.body.offsetHeight;
+            }
+        }
+    }
+}
+
+$(function($) {
+	$("#main").resize(function(){
+		SetCwinHeight();
+	})
+	
+	$("#dq-a").show();
+	
+	$(".nav a").click(function(){
+		$(".nav a").removeClass("cur");
+		$(this).addClass("cur");
+		var str = $(this).attr('data-qucik');
+		$(".l_c2_mn div").hide();
+		$("#dq-"+str).show();
+	});
+});
+
+</script>
+
+</head>
+<body style="background-color:#c8c8c8">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td class="top_banner">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" class="top_nav">
+          <ul class="nav">
+            <li><a href="{:U('Index/welcome')}" class="cur" target="main" data-qucik="a">首页</a></li>
+            <li><a href="{:U('Member/info')}" target="main" data-qucik="b">个人资料</a></li>
+            <li><a href="{:U('Member/atlas')}" target="main" data-qucik="c">市场图谱</a></li>
+            <li><a href="{:U('Article/read?category=产品介绍')}" target="main" data-qucik="d">产品介绍</a></li>
+            <li><a href="{:U('Points/listBonus')}" target="main" data-qucik="e">财务中心</a></li>
+            <li><a href="{:U('Levelup/lists?status=3')}" target="main" data-qucik="f">升级管理</a></li>	
+           <li><a href="{:U('Message/add')}" target="main" data-qucik="g">会员留言</a></li>
+           <li><a href="{:U('Common/logout')}" onclick="if(confirm(&#39;您确认要退出吗？&#39;)){$(this).RSsubmit();}return false;">退出系统</a></li>
+         </ul>
+       </td>
+     </tr>
+    </tbody>
+  </table>
+  <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" class="mt">
+    <tbody> 
+      <tr>
+        <td width="200" valign="top" class="sline">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td class="l_c1_title">个人信息</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <table width="167" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td class="l_c1_item">用 &nbsp;户&nbsp;名：{$_ME.account}</td>
+                      </tr>
+                      <tr>
+                        <td class="l_c1_item">您的级别：{$_ME.level} 级</td>
+                      </tr>
+                      <tr>
+                        <td class="l_c1_item">身份证号：{$_ME.idcard}</td>
+                      </tr>
+                      <tr>
+                        <td class="l_c1_item">联系电话：{$_ME.tel}</td>
+                      </tr>
+                      <tr>
+                        <td class="l_c1_item">剩余积分：{$_ME.points}</td>
+                      </tr>
+                      <!-- <if condition="$_ME['level'] lt 8"> -->
+                      <tr>
+                        <td align="center"><a href="{:U('Levelup/levelup')}" target="main"><img src="__PUBLIC__/images/levelup.gif"></a></td>
+                      </tr>
+                      <!-- </if> -->
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table><br><br>
+          <table width="167" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr> 
+                <td class="l_c2_title">快捷操作</td>
+              </tr>
+              <tr>
+                <td align="center" class="l_c2_mn">
+                  <div id="dq-a" style="display: block;">
+                  <a href="{:U('Article/lists?category=公告')}" target="main">通知公告</a>
+                  <a href="{:U('Article/lists?category=新闻')}" target="main">新闻动态</a>
+                    <a href="{:U('Article/read?category=联系我们')}" target="main">联系我们</a>
+                    <a href="{:U('Article/read?category=产品介绍')}" target="main">产品介绍</a>
+                  </div>
+                  <div id="dq-b" style="display: none;">
+                    <a href="{:U('Member/info')}" target="main">个人资料</a>
+                    <a href="{:U('Member/viewChgPwd')}" target="main">修改密码</a>
+                  </div>
+                  <div id="dq-c" style="display: none;">
+                    <a href="{:U('Member/atlas')}" target="main">市场图谱</a>                 
+                  </div>
+                  <div id="dq-d" style="display: none;">
+                    <a href="{:U('Article/read?category=产品介绍')}" target="main">产品介绍</a>
+                    <a href="{:U('Article/read?category=联系我们')}" target="main">联系我们</a>
+                    <a href="{:U('Article/lists?category=公告')}" target="main">通知公告</a>
+                    <a href="{:U('Article/lists?category=新闻')}" target="main">新闻动态</a>
+                  </div>
+                  <div id="dq-e" style="display: none;">
+                    <a href="{:U('Points/listBonus')}" target="main">积分奖励明细</a>
+                    <a href="{:U('Points/listCash')}" target="main">提现管理</a>
+                  </div>
+                  <div id="dq-f" style="display: none;">
+                    <a href="{:U('Levelup/lists?status=3')}" target="main">升级记录</a>
+                    <a href="{:U('Levelup/lists?status=1')}" target="main">待审核升级记录</a>
+                    <a href="{:U('Levelup/lists?status=2')}" target="main">被拒绝的升级记录</a>
+                    <a href="{:U('Levelup/lists?member_id=my')}" target="main">我的新会员升级记录</a>
+                    <a href="{:U('Levelup/levelup')}" target="main">我要升级</a>
+                  </div>
+                  <div id="dq-g" style="display: none;">
+                    <a href="{:U('Message/add')}" target="main">会员留言</a>
+                    <a href="{:U('Message/lists?member_id='.$_ME[id])}" target="main">我的留言</a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="l_c2_btm">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td valign="top" class="mn">
+           <iframe id="main" onload="Javascript:SetCwinHeight()" name="main" src="{:U('Index/welcome')}" style="border: none;" border="0" scrolling="no" width="100%" height="auto"></iframe>   
+ </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
