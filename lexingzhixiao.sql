@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50542
 File Encoding         : 65001
 
-Date: 2016-04-19 17:39:01
+Date: 2016-04-19 18:00:21
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -3161,7 +3161,7 @@ CREATE TABLE `lx_cf_config` (
 -- Records of lx_cf_config
 -- ----------------------------
 INSERT INTO `lx_cf_config` VALUES ('1', 'fees', '提现手续费', '5', '单位 %');
-INSERT INTO `lx_cf_config` VALUES ('2', 'basepoints', '基础积分', '180', null);
+INSERT INTO `lx_cf_config` VALUES ('2', 'basepoints', '基础积分', '3800', null);
 INSERT INTO `lx_cf_config` VALUES ('3', 'maxlevel', '最高级别', '8', null);
 INSERT INTO `lx_cf_config` VALUES ('4', 'realname', '开户姓名', '卢集联', null);
 INSERT INTO `lx_cf_config` VALUES ('5', 'bankname', '开户银行', '中国农业银行', null);
@@ -3169,7 +3169,7 @@ INSERT INTO `lx_cf_config` VALUES ('6', 'bankcard', '银行卡号', '62284807324
 INSERT INTO `lx_cf_config` VALUES ('7', 'bankaddress', '开户地址', '洛阳市新区支行', null);
 INSERT INTO `lx_cf_config` VALUES ('8', 'payremark', '温馨提醒', '', '显示在注册页面和升级页面');
 INSERT INTO `lx_cf_config` VALUES ('9', 'guanlifees', '管理费率', '10', '单位 %');
-INSERT INTO `lx_cf_config` VALUES ('10', 'sysname', '系统名称', '3004民心工程●180微商大联盟', '公司名称');
+INSERT INTO `lx_cf_config` VALUES ('10', 'sysname', '系统名称', '3004民心工程●财富乐园', '公司名称');
 
 -- ----------------------------
 -- Table structure for `lx_cf_levelup`
@@ -5746,7 +5746,7 @@ INSERT INTO `lx_cf_member` VALUES ('1161', '80000563', '325ec771fc23045ffdc75c93
 INSERT INTO `lx_cf_member` VALUES ('1162', '80003777', '325ec771fc23045ffdc75c93213cb983', '325ec771fc23045ffdc75c93213cb983', '1001', '1002', 'B', '0,', '1', '0.00', '龚冠军', '18639975008', '412801196210100356', '', '', '', '', '', '1459777671', '1');
 INSERT INTO `lx_cf_member` VALUES ('1163', '80003652', '325ec771fc23045ffdc75c93213cb983', '325ec771fc23045ffdc75c93213cb983', '930', '932', 'C', '0,', '1', '162.00', '亢随红2', '1', '410827196811225803', '', '', '', '', '', '1459831504', '1');
 INSERT INTO `lx_cf_member` VALUES ('1164', '80003828', '325ec771fc23045ffdc75c93213cb983', '325ec771fc23045ffdc75c93213cb983', '1163', '1163', 'A', '0,', '1', '324.00', '卢振立', '13803826085', '410125194109072516', '', '卢振立', '6228480719418178278', '农业银行', '', '1459832126', '1');
-INSERT INTO `lx_cf_member` VALUES ('1165', '80003668', '325ec771fc23045ffdc75c93213cb983', '325ec771fc23045ffdc75c93213cb983', '1164', '1164', 'A', '0,', '1', '0.00', '攀占芳', '13938491691', '410482196704155976', '', '樊占芳', '6228480712381937614', '农业银行', '', '1459832539', '1');
+INSERT INTO `lx_cf_member` VALUES ('1165', '80003668', 'e8724837fc5071158403a50ff9d34b8b', 'e8724837fc5071158403a50ff9d34b8b', '1164', '1164', 'A', '0,', '1', '0.00', '攀占芳', '13938491691', '410482196704155976', '', '樊占芳', '6228480712381937614', '农业银行', '', '1459832539', '1');
 INSERT INTO `lx_cf_member` VALUES ('1166', '80003616', '325ec771fc23045ffdc75c93213cb983', '325ec771fc23045ffdc75c93213cb983', '1164', '1164', 'B', '0,', '1', '0.00', '陈省伟', '13643859333', '410125197007154557', '', '陈省伟', '6228480711776819114', '农业银行', '', '1459832828', '1');
 INSERT INTO `lx_cf_member` VALUES ('1167', '80000253', '325ec771fc23045ffdc75c93213cb983', '325ec771fc23045ffdc75c93213cb983', '977', '977', 'A', '0,', '1', '0.00', '马林平', '15670300902', '410323198207275532', '', '', '', '', '', '1460025630', '1');
 INSERT INTO `lx_cf_member` VALUES ('1168', '80000026', '325ec771fc23045ffdc75c93213cb983', '325ec771fc23045ffdc75c93213cb983', '977', '977', 'B', '0,', '1', '0.00', '杨萍', '13700818040', '410323197904155523', '', '', '', '', '', '1460025754', '1');
@@ -5806,7 +5806,7 @@ CREATE TABLE `lx_cf_user` (
 -- Records of lx_cf_user
 -- ----------------------------
 INSERT INTO `lx_cf_user` VALUES ('1', '19681020ljl', 'bbfccdf7fb15c4a1c07717edbbbf2c3c', '超级管理员', '1460326597', '171.13.242.219', '900', null, '0', '1389940039', '1');
-INSERT INTO `lx_cf_user` VALUES ('19', 'administrator', '8113f4a83f9608c36b46d30929d3ca0d', '超级管理员', '1460355853', '127.0.0.1', '116', '', '0', '1389940039', '1');
+INSERT INTO `lx_cf_user` VALUES ('19', 'administrator', '8113f4a83f9608c36b46d30929d3ca0d', '超级管理员', '1461059647', '127.0.0.1', '117', '', '0', '1389940039', '1');
 
 -- ----------------------------
 -- Table structure for `lx_config`
