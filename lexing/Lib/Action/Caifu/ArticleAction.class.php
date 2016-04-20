@@ -1,18 +1,24 @@
 <?php
 class ArticleAction extends CaifubaseAction {
-	
+
 	/**
 	 * 文章筛选列表
 	 */
 	public function lists() {
 		$map['status'] = '1';
 		$cat = I('category');
-		$map['category'] = $cat;
+		if (!empty($cat)) {
+			$encode = mb_detect_encoding($cat, array("UTF-8","GB2312","GBK"));
+			if ($encode != "UTF-8"){
+				$cat = iconv($encode,"UTF-8",$cat);
+			}
+			$map['category'] = $cat;
+		}
 		$model = new CfArticleModel();
 		$list = $this->_lists($model,$map);
 		$this->assign('list',$list);
 		$this->assign('category',$cat);
-        cookie(C('CURRENT_URL_NAME'),$_SERVER['REQUEST_URI']);
+		cookie(C('CURRENT_URL_NAME'),$_SERVER['REQUEST_URI']);
 		$this->display();
 	}
 	
@@ -26,17 +32,21 @@ class ArticleAction extends CaifubaseAction {
 			//如果传入category参数
 			//取指定分类的第一条数据
 			if (empty($cat)) $this->error('参数非法');
+			$encode = mb_detect_encoding($cat, array("UTF-8","GB2312","GBK"));
+			if ($encode != "UTF-8"){
+				$cat = iconv($encode,"UTF-8",$cat);
+			}
 			$map['category'] = $cat;
 		} else {
 			$map['id'] = $id;
 		}
 		$map['status'] = '1';
-		
+	
 		$model = New CfArticleModel();
 		$info = $model->where($map)->find();
-		
+	
 		$this->assign('info',$info);
-        cookie(C('CURRENT_URL_NAME'),$_SERVER['REQUEST_URI']);
-        $this->display();
+		cookie(C('CURRENT_URL_NAME'),$_SERVER['REQUEST_URI']);
+		$this->display();
 	}
-}
+	}
