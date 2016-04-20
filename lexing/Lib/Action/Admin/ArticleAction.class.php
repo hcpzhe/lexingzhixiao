@@ -7,7 +7,13 @@ class ArticleAction extends AdminbaseAction {
 	public function lists() {
 		$map['status'] = '1';
 		$cat = I('category');
-		$map['category'] = $cat;
+		if (!empty($cat)) {
+			$encode = mb_detect_encoding($cat, array("UTF-8","GB2312","GBK"));
+			if ($encode != "UTF-8"){ 
+				$cat = iconv($encode,"UTF-8",$cat); 
+			}
+			$map['category'] = $cat;
+		}
 		$model = new Model('Article');
 		$list = $this->_lists($model,$map);
 		$this->assign('list',$list);
@@ -26,6 +32,10 @@ class ArticleAction extends AdminbaseAction {
 			//如果传入category参数
 			//取指定分类的第一条数据
 			if (empty($cat)) $this->error('参数非法');
+			$encode = mb_detect_encoding($cat, array("UTF-8","GB2312","GBK"));
+			if ($encode != "UTF-8"){ 
+				$cat = iconv($encode,"UTF-8",$cat); 
+			}
 			$map['category'] = $cat;
 		} else {
 			$map['id'] = $id;
