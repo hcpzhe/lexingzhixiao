@@ -114,7 +114,6 @@ class CfMemberModel extends Model {
 	 */
 	public function newAreaNums($id) {
 		$condition = array();
-		$condition['parent_aid'] = $id;
 		$condition['level'] = array('in','1,2,3,4,5,6,7,8');
 		$condition['status'] = 1;
 		$condition['parent_area'] = array('in','A,B,C');

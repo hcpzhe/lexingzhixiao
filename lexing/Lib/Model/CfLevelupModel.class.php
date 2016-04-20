@@ -157,6 +157,12 @@ class CfLevelupModel extends Model {
 			return false;
 		}
 		
+		/**新注册会员的实际奖励为3000***********************************/
+		if ($meminfo['level'] == '0') {
+			$levelinfo['should_pay'] = 3000;
+		}
+		/*******************************************************/
+		
 		$config_M = New CfConfigModel();
 		$configs = $config_M->getHash();
 		if ($meminfo['level'] >= $configs['maxlevel']) {

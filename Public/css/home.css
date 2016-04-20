@@ -12,7 +12,9 @@ img{ border:0; }
 .padTop10{ padding-top:10px; }
 .lineH2{ line-height:2; }
 /*--------top----------*/
-.top_banner{ background:#8f0f10 url(../images/top.jpg) no-repeat center top; height:62px; }
+.top_banner{ background:#8f0f10 url(../images/top.jpg) no-repeat center top; height:62px;}
+	.topfix_tit_box {width:1000px;position: relative;margin:0 auto;}
+	.topfix_tit {position: absolute;left:450px;top:-28px;color:#fff;font-size: 24px;font-weight: bold;}
 .top_nav{ background:url(../images/nav_bg.gif) repeat-x center top; height:34px; width: 100%; }
 ul.nav{ width:1000px; height:31px; margin:0 auto; }
 ul.nav li{ float:left; }
