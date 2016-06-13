@@ -15,25 +15,25 @@ function cf_shouldpay($level) {
 			return 3800;
 		break;
 		case 1:
-			return 5000;
+			return 4000;
 		break;
 		case 2:
-			return 10000;
+			return 6000;
 		break;
 		case 3:
-			return 20000;
+			return 8000;
 		break;
 		case 4:
-			return 40000;
+			return 10000;
 		break;
 		case 5:
-			return 80000;
+			return 20000;
 		break;
 		case 6:
-			return 160000;
+			return 30000;
 		break;
 		default:
-			return 320000;
+			return 40000;
 		break;
 	}
 }
